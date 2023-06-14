@@ -567,3 +567,139 @@
 [2023-06-15 00:37:31] INFO root fetch - processPackages [motion-python]: Remove: archive file [/home/abi/fetcher/tmp/motion_python-0.1.64.tar.gz]
 [2023-06-15 00:37:31] INFO root fetch - main [MainThread]: End processing [motion-python]: success
 [2023-06-15 00:37:31] INFO root fetch - main [MainThread]: Store serial: [18507668]
+[2023-06-15 00:42:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18507668]
+[2023-06-15 00:42:40] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-06-15 00:42:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mfhpo-simulator
+[2023-06-15 00:42:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: np-services
+[2023-06-15 00:42:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: csdid
+[2023-06-15 00:42:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ever-playground
+[2023-06-15 00:42:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dequeai
+[2023-06-15 00:42:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ovos-workshop
+[2023-06-15 00:42:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: csdid
+[2023-06-15 00:42:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo-addon-currency-rate-update
+[2023-06-15 00:42:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: floodgate-rs
+[2023-06-15 00:42:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: stale-maccarone
+[2023-06-15 00:42:40] INFO root fetch - processPackages [csdid]: New version: [0.1.55] Old Version: [0.1.54]
+[2023-06-15 00:42:40] INFO root fetch - processPackages [csdid]: New version: [0.1.55] Old Version: [0.1.54]
+[2023-06-15 00:42:40] INFO root fetch - processPackages [stale-maccarone]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-15 00:42:40] INFO root fetch - processPackages [ovos-workshop]: New version: [0.0.9a1] Old Version: [0.0.9]
+[2023-06-15 00:42:40] INFO root fetch - processPackages [floodgate-rs]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-15 00:42:40] INFO root fetch - processPackages [mfhpo-simulator]: New version: [1.1.0] Old Version: [1.0.2]
+[2023-06-15 00:42:40] INFO root fetch - processPackages [ever-playground]: New version: [0.7.3] Old Version: [0.7.1]
+[2023-06-15 00:42:40] INFO root fetch - processPackages [odoo-addon-currency-rate-update]: New version: [16.0.1.1.1] Old Version: [16.0.1.1.0.1]
+[2023-06-15 00:42:40] INFO root fetch - processPackages [dequeai]: New version: [0.784] Old Version: [0.782]
+[2023-06-15 00:42:40] INFO root fetch - processPackages [np-services]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-15 00:42:40] INFO root fetch - processPackages [csdid]: Downloading https://files.pythonhosted.org/packages/6c/ed/4f27ad66b9a6945d258859edbe95f10a1d8feeabe4b4e5417f8ceea7e8e2/csdid-0.1.54.tar.gz
+[2023-06-15 00:42:40] INFO root fetch - processPackages [csdid]: Downloading https://files.pythonhosted.org/packages/6c/ed/4f27ad66b9a6945d258859edbe95f10a1d8feeabe4b4e5417f8ceea7e8e2/csdid-0.1.54.tar.gz
+[2023-06-15 00:42:40] INFO root fetch - processPackages [ovos-workshop]: Downloading https://files.pythonhosted.org/packages/b6/ab/62ae7616b83875d5219bb580c1e6a2ff0fdbdc91c8a9b55495dd60066611/ovos_workshop-0.0.9-py3-none-any.whl
+[2023-06-15 00:42:40] INFO root fetch - processPackages [odoo-addon-currency-rate-update]: Downloading https://files.pythonhosted.org/packages/92/11/0ee8f764e6f1f2a7b1ea55eddb52860247422c8f9810e236479ba300cd3b/odoo_addon_currency_rate_update-16.0.1.1.0.1-py3-none-any.whl
+[2023-06-15 00:42:40] INFO root fetch - processPackages [ever-playground]: Downloading https://files.pythonhosted.org/packages/0d/cc/53f5b820fb59bde340041160d146db0080cc7dd1c3fd043e58afafb665c5/ever_playground-0.7.1.tar.gz
+[2023-06-15 00:42:40] INFO root fetch - processPackages [np-services]: Downloading https://files.pythonhosted.org/packages/84/ea/e2c9fa9f279604d3bbe3a9ea1c4a5c8d74703945b63aeb2fa63d134cd299/np_services-0.1.8.tar.gz
+[2023-06-15 00:42:41] INFO root fetch - processPackages [floodgate-rs]: Downloading https://files.pythonhosted.org/packages/ce/53/3db670dda7e9ec45e8c06615eae57f38b4561ec79fda31504132252668c7/floodgate_rs-0.1.1.tar.gz
+[2023-06-15 00:42:41] INFO root fetch - processPackages [mfhpo-simulator]: Downloading https://files.pythonhosted.org/packages/65/4c/f8d065d34b440cf570e78ed4f4ac3d9156f20799aacb762bf161b29d3db5/mfhpo_simulator-1.0.2-py3-none-any.whl
+[2023-06-15 00:42:41] INFO root fetch - processPackages [dequeai]: Downloading https://files.pythonhosted.org/packages/95/10/e9401eefd652fedd19e38a1ac13a5bd503f851523e4add2988cff24d2a6c/dequeai-0.782.tar.gz
+[2023-06-15 00:42:41] INFO root fetch - processPackages [csdid]: Downloading https://files.pythonhosted.org/packages/ed/f8/4759c443ff4c8c78a081a25585bed6b7aa623f689102fe27a5da842496ae/csdid-0.1.55.tar.gz
+[2023-06-15 00:42:41] INFO root fetch - processPackages [csdid]: Downloading https://files.pythonhosted.org/packages/ed/f8/4759c443ff4c8c78a081a25585bed6b7aa623f689102fe27a5da842496ae/csdid-0.1.55.tar.gz
+[2023-06-15 00:42:41] INFO root fetch - processPackages [stale-maccarone]: Downloading https://files.pythonhosted.org/packages/71/9b/efea2b0af8ea17f76f47697e6d3b5f36d20d943f6ab45273d0d7c400473e/stale_maccarone-0.1.1.tar.gz
+[2023-06-15 00:42:41] INFO root fetch - processPackages [csdid]: executing diffoscope
+[2023-06-15 00:42:41] INFO root fetch - processPackages [csdid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/csdid-0.1.54.tar.gz tmp/csdid-0.1.55.tar.gz --markdown 20230615/c/csdid/0.1.54-0.1.55/diff.md --exclude *.pyd
+[2023-06-15 00:42:41] INFO root fetch - processPackages [csdid]: executing diffoscope
+[2023-06-15 00:42:41] INFO root fetch - processPackages [csdid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/csdid-0.1.54.tar.gz tmp/csdid-0.1.55.tar.gz --markdown 20230615/c/csdid/0.1.54-0.1.55/diff.md --exclude *.pyd
+[2023-06-15 00:42:41] INFO root fetch - processPackages [odoo-addon-currency-rate-update]: Downloading https://files.pythonhosted.org/packages/17/bc/34a6c835aac587865f6be611aee3ce781648c2af1d8687caaa185ba59609/odoo_addon_currency_rate_update-16.0.1.1.1-py3-none-any.whl
+[2023-06-15 00:42:41] INFO root fetch - processPackages [ever-playground]: Downloading https://files.pythonhosted.org/packages/35/2d/de0247cbfcf32c900ccdfb8a598e777e94aeede20efadf880c306de1f3ec/ever_playground-0.7.3.tar.gz
+[2023-06-15 00:42:41] INFO root fetch - processPackages [odoo-addon-currency-rate-update]: executing diffoscope
+[2023-06-15 00:42:41] INFO root fetch - processPackages [odoo-addon-currency-rate-update]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_currency_rate_update-16.0.1.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_currency_rate_update-16.0.1.1.1-py3-none-any.whl.zip --markdown 20230615/o/odoo-addon-currency-rate-update/16.0.1.1.0.1-16.0.1.1.1/diff.md --exclude *.pyd
+[2023-06-15 00:42:41] INFO root fetch - processPackages [ovos-workshop]: Downloading https://files.pythonhosted.org/packages/78/03/4b813a66c30f57b7c996eda91cf259cb974ad9186f3ae1762c9384e34fc7/ovos_workshop-0.0.9a1-py3-none-any.whl
+[2023-06-15 00:42:41] INFO root fetch - processPackages [ever-playground]: executing diffoscope
+[2023-06-15 00:42:41] INFO root fetch - processPackages [ever-playground]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ever_playground-0.7.1.tar.gz tmp/ever_playground-0.7.3.tar.gz --markdown 20230615/e/ever-playground/0.7.1-0.7.3/diff.md --exclude *.pyd
+[2023-06-15 00:42:41] INFO root fetch - processPackages [mfhpo-simulator]: Downloading https://files.pythonhosted.org/packages/4a/aa/2d34d5c96fd0e611c7547448b0b17ffa3a4acd118d67bef2be88d9716787/mfhpo_simulator-1.1.0-py3-none-any.whl
+[2023-06-15 00:42:41] INFO root fetch - processPackages [floodgate-rs]: Downloading https://files.pythonhosted.org/packages/ea/0c/e21231e7e97e7b823cad2be95243d6f3c1964a402109423dfa81bb665a53/floodgate_rs-0.1.2.tar.gz
+[2023-06-15 00:42:41] INFO root fetch - processPackages [mfhpo-simulator]: executing diffoscope
+[2023-06-15 00:42:41] INFO root fetch - processPackages [mfhpo-simulator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mfhpo_simulator-1.0.2-py3-none-any.whl.zip tmp/mfhpo_simulator-1.1.0-py3-none-any.whl.zip --markdown 20230615/m/mfhpo-simulator/1.0.2-1.1.0/diff.md --exclude *.pyd
+[2023-06-15 00:42:41] INFO root fetch - processPackages [np-services]: Downloading https://files.pythonhosted.org/packages/42/01/4536fc7214f13ced23502af87e9b291e777b027674d29341527a660e1ef6/np_services-0.1.9.tar.gz
+[2023-06-15 00:42:41] INFO root fetch - processPackages [dequeai]: Downloading https://files.pythonhosted.org/packages/6c/b7/05fc41ec00cb8368af3f64e98e86b0c1b38cdc2699f5df9192f01a0a0a0c/dequeai-0.784.tar.gz
+[2023-06-15 00:42:41] INFO root fetch - processPackages [floodgate-rs]: executing diffoscope
+[2023-06-15 00:42:41] INFO root fetch - processPackages [floodgate-rs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/floodgate_rs-0.1.1.tar.gz tmp/floodgate_rs-0.1.2.tar.gz --markdown 20230615/f/floodgate-rs/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-15 00:42:41] INFO root fetch - processPackages [ovos-workshop]: executing diffoscope
+[2023-06-15 00:42:41] INFO root fetch - processPackages [ovos-workshop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovos_workshop-0.0.9-py3-none-any.whl.zip tmp/ovos_workshop-0.0.9a1-py3-none-any.whl.zip --markdown 20230615/o/ovos-workshop/0.0.9-0.0.9a1/diff.md --exclude *.pyd
+[2023-06-15 00:42:41] INFO root fetch - processPackages [stale-maccarone]: Downloading https://files.pythonhosted.org/packages/5e/f0/17e26e08fe60c5855201754845a1682457bab57f623d7badba7bf0b3a32c/stale_maccarone-0.1.2.tar.gz
+[2023-06-15 00:42:41] INFO root fetch - processPackages [stale-maccarone]: executing diffoscope
+[2023-06-15 00:42:41] INFO root fetch - processPackages [stale-maccarone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stale_maccarone-0.1.1.tar.gz tmp/stale_maccarone-0.1.2.tar.gz --markdown 20230615/s/stale-maccarone/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-15 00:42:41] INFO root fetch - processPackages [dequeai]: executing diffoscope
+[2023-06-15 00:42:41] INFO root fetch - processPackages [dequeai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dequeai-0.782.tar.gz tmp/dequeai-0.784.tar.gz --markdown 20230615/d/dequeai/0.782-0.784/diff.md --exclude *.pyd
+[2023-06-15 00:42:41] INFO root fetch - processPackages [np-services]: executing diffoscope
+[2023-06-15 00:42:41] INFO root fetch - processPackages [np-services]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/np_services-0.1.8.tar.gz tmp/np_services-0.1.9.tar.gz --markdown 20230615/n/np-services/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-15 00:42:43] INFO root fetch - processPackages [floodgate-rs]: Remove: archive file [/home/abi/fetcher/tmp/floodgate_rs-0.1.1.tar.gz]
+[2023-06-15 00:42:43] INFO root fetch - processPackages [floodgate-rs]: Remove: archive file [/home/abi/fetcher/tmp/floodgate_rs-0.1.2.tar.gz]
+[2023-06-15 00:42:43] INFO root fetch - processPackages [floodgate-rs]: Start processing: maccarone
+[2023-06-15 00:42:43] INFO root fetch - main [MainThread]: End processing [floodgate-rs]: success
+[2023-06-15 00:42:43] INFO root fetch - processPackages [maccarone]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-15 00:42:43] INFO root fetch - processPackages [dequeai]: Remove: archive file [/home/abi/fetcher/tmp/dequeai-0.782.tar.gz]
+[2023-06-15 00:42:43] INFO root fetch - processPackages [dequeai]: Remove: archive file [/home/abi/fetcher/tmp/dequeai-0.784.tar.gz]
+[2023-06-15 00:42:43] INFO root fetch - processPackages [dequeai]: Start processing: persian-gender-detection
+[2023-06-15 00:42:43] INFO root fetch - main [MainThread]: End processing [dequeai]: success
+[2023-06-15 00:42:43] INFO root fetch - processPackages [np-services]: Remove: archive file [/home/abi/fetcher/tmp/np_services-0.1.8.tar.gz]
+[2023-06-15 00:42:43] INFO root fetch - processPackages [np-services]: Remove: archive file [/home/abi/fetcher/tmp/np_services-0.1.9.tar.gz]
+[2023-06-15 00:42:43] INFO root fetch - processPackages [np-services]: Start processing: glaceon
+[2023-06-15 00:42:43] INFO root fetch - main [MainThread]: End processing [np-services]: success
+[2023-06-15 00:42:43] INFO root fetch - processPackages [persian-gender-detection]: New version: [1.2.1] Old Version: [1.1.0]
+[2023-06-15 00:42:43] INFO root fetch - processPackages [csdid]: Remove: archive file [/home/abi/fetcher/tmp/csdid-0.1.54.tar.gz]
+[2023-06-15 00:42:43] INFO root fetch - processPackages [csdid]: Remove: archive file [/home/abi/fetcher/tmp/csdid-0.1.55.tar.gz]
+[2023-06-15 00:42:43] INFO root fetch - processPackages [csdid]: Start processing: getdaft
+[2023-06-15 00:42:43] INFO root fetch - main [MainThread]: End processing [csdid]: success
+[2023-06-15 00:42:43] INFO root fetch - processPackages [maccarone]: Downloading https://files.pythonhosted.org/packages/9d/4f/de7fb8caf68aa080d51e2c557fc9ae8871ec310d76d1ed542a9685bc5487/maccarone-0.1.1.tar.gz
+[2023-06-15 00:42:43] INFO root fetch - processPackages [ovos-workshop]: Remove: archive file [/home/abi/fetcher/tmp/ovos_workshop-0.0.9-py3-none-any.whl.zip]
+[2023-06-15 00:42:43] INFO root fetch - processPackages [ovos-workshop]: Remove: archive file [/home/abi/fetcher/tmp/ovos_workshop-0.0.9a1-py3-none-any.whl.zip]
+[2023-06-15 00:42:43] INFO root fetch - processPackages [ovos-workshop]: Start processing: hierarchical-conf
+[2023-06-15 00:42:43] INFO root fetch - main [MainThread]: End processing [ovos-workshop]: success
+[2023-06-15 00:42:43] INFO root fetch - processPackages [glaceon]: New version: [1.30.0] Old Version: [1.2.0]
+[2023-06-15 00:42:43] INFO root fetch - main [MainThread]: End processing [csdid]: success
+[2023-06-15 00:42:43] INFO root fetch - processPackages [mfhpo-simulator]: Remove: archive file [/home/abi/fetcher/tmp/mfhpo_simulator-1.0.2-py3-none-any.whl.zip]
+[2023-06-15 00:42:43] INFO root fetch - processPackages [mfhpo-simulator]: Remove: archive file [/home/abi/fetcher/tmp/mfhpo_simulator-1.1.0-py3-none-any.whl.zip]
+[2023-06-15 00:42:43] INFO root fetch - main [MainThread]: End processing [mfhpo-simulator]: success
+[2023-06-15 00:42:43] INFO root fetch - processPackages [stale-maccarone]: Remove: archive file [/home/abi/fetcher/tmp/stale_maccarone-0.1.1.tar.gz]
+[2023-06-15 00:42:43] INFO root fetch - processPackages [stale-maccarone]: Remove: archive file [/home/abi/fetcher/tmp/stale_maccarone-0.1.2.tar.gz]
+[2023-06-15 00:42:43] INFO root fetch - main [MainThread]: End processing [stale-maccarone]: success
+[2023-06-15 00:42:43] INFO root fetch - processPackages [getdaft]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-06-15 00:42:43] INFO root fetch - processPackages [hierarchical-conf]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-06-15 00:42:43] INFO root fetch - processPackages [persian-gender-detection]: Downloading https://files.pythonhosted.org/packages/d9/69/6626944d2de9690da5593199ef627f97db73ba2492873b39d4bc0183e121/persian-gender-detection-1.1.0.tar.gz
+[2023-06-15 00:42:43] INFO root fetch - processPackages [ever-playground]: Remove: archive file [/home/abi/fetcher/tmp/ever_playground-0.7.1.tar.gz]
+[2023-06-15 00:42:43] INFO root fetch - processPackages [ever-playground]: Remove: archive file [/home/abi/fetcher/tmp/ever_playground-0.7.3.tar.gz]
+[2023-06-15 00:42:43] INFO root fetch - main [MainThread]: End processing [ever-playground]: success
+[2023-06-15 00:42:43] INFO root fetch - processPackages [odoo-addon-currency-rate-update]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_currency_rate_update-16.0.1.1.0.1-py3-none-any.whl.zip]
+[2023-06-15 00:42:43] INFO root fetch - processPackages [odoo-addon-currency-rate-update]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_currency_rate_update-16.0.1.1.1-py3-none-any.whl.zip]
+[2023-06-15 00:42:43] INFO root fetch - main [MainThread]: End processing [odoo-addon-currency-rate-update]: success
+[2023-06-15 00:42:43] INFO root fetch - processPackages [maccarone]: Downloading https://files.pythonhosted.org/packages/aa/e5/731749913ce11c8e40e88a8484cb28ea26c384f8315a5583fe00670c0f0f/maccarone-0.1.2.tar.gz
+[2023-06-15 00:42:43] INFO root fetch - processPackages [glaceon]: Downloading https://files.pythonhosted.org/packages/16/df/11ee4dac6738aadf2412fd464757c98fa4c181fabc764cc37ff2634faf63/glaceon-1.2.0.tar.gz
+[2023-06-15 00:42:43] INFO root fetch - processPackages [maccarone]: executing diffoscope
+[2023-06-15 00:42:43] INFO root fetch - processPackages [maccarone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maccarone-0.1.1.tar.gz tmp/maccarone-0.1.2.tar.gz --markdown 20230615/m/maccarone/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-15 00:42:43] INFO root fetch - processPackages [getdaft]: Downloading https://files.pythonhosted.org/packages/90/ee/4f25e8f0a8ab46f491ad74854cf30d421a64759e0fe50438e227c08dd909/getdaft-0.1.5.tar.gz
+[2023-06-15 00:42:43] INFO root fetch - processPackages [persian-gender-detection]: Downloading https://files.pythonhosted.org/packages/74/f2/552c961fff067288c145b3f6a12be6cba31fa200702bbacb1c37df12bacf/persian-gender-detection-1.2.1.tar.gz
+[2023-06-15 00:42:43] INFO root fetch - processPackages [persian-gender-detection]: executing diffoscope
+[2023-06-15 00:42:43] INFO root fetch - processPackages [persian-gender-detection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/persian-gender-detection-1.1.0.tar.gz tmp/persian-gender-detection-1.2.1.tar.gz --markdown 20230615/p/persian-gender-detection/1.1.0-1.2.1/diff.md --exclude *.pyd
+[2023-06-15 00:42:43] INFO root fetch - processPackages [hierarchical-conf]: Downloading https://files.pythonhosted.org/packages/7b/f2/8aa1e785f8d30fb95aac2d14d372dc90ed238ca2302efde22cb2a20df6da/hierarchical_conf-1.0.2.tar.gz
+[2023-06-15 00:42:43] INFO root fetch - processPackages [glaceon]: Downloading https://files.pythonhosted.org/packages/4c/6c/32da393b278a6a0d57604ca9331c3650c50148f251e183acc66088da3d9f/glaceon-1.30.0.tar.gz
+[2023-06-15 00:42:44] INFO root fetch - processPackages [glaceon]: executing diffoscope
+[2023-06-15 00:42:44] INFO root fetch - processPackages [glaceon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/glaceon-1.2.0.tar.gz tmp/glaceon-1.30.0.tar.gz --markdown 20230615/g/glaceon/1.2.0-1.30.0/diff.md --exclude *.pyd
+[2023-06-15 00:42:44] INFO root fetch - processPackages [getdaft]: Downloading https://files.pythonhosted.org/packages/1e/57/5d26098e1057263f5f857c70d2d86be903b41779b2a109538819df837fb6/getdaft-0.1.6.tar.gz
+[2023-06-15 00:42:44] INFO root fetch - processPackages [hierarchical-conf]: Downloading https://files.pythonhosted.org/packages/3d/fb/b004d7e36330a66e8333beb534f3c6a0cea85e1d09284d0fb3a2ca7d8d59/hierarchical_conf-1.0.3.tar.gz
+[2023-06-15 00:42:44] INFO root fetch - processPackages [hierarchical-conf]: executing diffoscope
+[2023-06-15 00:42:44] INFO root fetch - processPackages [hierarchical-conf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hierarchical_conf-1.0.2.tar.gz tmp/hierarchical_conf-1.0.3.tar.gz --markdown 20230615/h/hierarchical-conf/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-06-15 00:42:44] INFO root fetch - processPackages [getdaft]: executing diffoscope
+[2023-06-15 00:42:44] INFO root fetch - processPackages [getdaft]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/getdaft-0.1.5.tar.gz tmp/getdaft-0.1.6.tar.gz --markdown 20230615/g/getdaft/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-06-15 00:42:44] INFO root fetch - processPackages [maccarone]: Remove: archive file [/home/abi/fetcher/tmp/maccarone-0.1.1.tar.gz]
+[2023-06-15 00:42:44] INFO root fetch - processPackages [maccarone]: Remove: archive file [/home/abi/fetcher/tmp/maccarone-0.1.2.tar.gz]
+[2023-06-15 00:42:44] INFO root fetch - main [MainThread]: End processing [maccarone]: success
+[2023-06-15 00:42:44] INFO root fetch - processPackages [glaceon]: Remove: archive file [/home/abi/fetcher/tmp/glaceon-1.2.0.tar.gz]
+[2023-06-15 00:42:44] INFO root fetch - processPackages [glaceon]: Remove: archive file [/home/abi/fetcher/tmp/glaceon-1.30.0.tar.gz]
+[2023-06-15 00:42:44] INFO root fetch - main [MainThread]: End processing [glaceon]: success
+[2023-06-15 00:42:45] INFO root fetch - processPackages [persian-gender-detection]: Remove: archive file [/home/abi/fetcher/tmp/persian-gender-detection-1.1.0.tar.gz]
+[2023-06-15 00:42:45] INFO root fetch - processPackages [persian-gender-detection]: Remove: archive file [/home/abi/fetcher/tmp/persian-gender-detection-1.2.1.tar.gz]
+[2023-06-15 00:42:45] INFO root fetch - main [MainThread]: End processing [persian-gender-detection]: success
+[2023-06-15 00:42:45] INFO root fetch - processPackages [hierarchical-conf]: Remove: archive file [/home/abi/fetcher/tmp/hierarchical_conf-1.0.2.tar.gz]
+[2023-06-15 00:42:45] INFO root fetch - processPackages [hierarchical-conf]: Remove: archive file [/home/abi/fetcher/tmp/hierarchical_conf-1.0.3.tar.gz]
+[2023-06-15 00:42:45] INFO root fetch - main [MainThread]: End processing [hierarchical-conf]: success
+[2023-06-15 00:42:51] INFO root fetch - processPackages [getdaft]: Remove: archive file [/home/abi/fetcher/tmp/getdaft-0.1.5.tar.gz]
+[2023-06-15 00:42:51] INFO root fetch - processPackages [getdaft]: Remove: archive file [/home/abi/fetcher/tmp/getdaft-0.1.6.tar.gz]
+[2023-06-15 00:42:51] INFO root fetch - main [MainThread]: End processing [getdaft]: success
+[2023-06-15 00:42:51] INFO root fetch - main [MainThread]: Store serial: [18507752]
