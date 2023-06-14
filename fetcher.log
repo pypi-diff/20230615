@@ -444,3 +444,51 @@
 [2023-06-15 00:26:13] INFO root fetch - processPackages [persian-gender-detection]: Remove: archive file [/home/abi/fetcher/tmp/persian-gender-detection-1.2.0.tar.gz]
 [2023-06-15 00:26:13] INFO root fetch - main [MainThread]: End processing [persian-gender-detection]: success
 [2023-06-15 00:26:13] INFO root fetch - main [MainThread]: Store serial: [18507637]
+[2023-06-15 00:31:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18507637]
+[2023-06-15 00:31:21] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-15 00:31:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tutor-cairn
+[2023-06-15 00:31:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mp-api
+[2023-06-15 00:31:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: plover-stenograph
+[2023-06-15 00:31:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bs-orm
+[2023-06-15 00:31:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: symlib
+[2023-06-15 00:31:21] INFO root fetch - processPackages [plover-stenograph]: New version: [2.1.dev1] Old Version: [2.1]
+[2023-06-15 00:31:21] INFO root fetch - processPackages [mp-api]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-06-15 00:31:21] INFO root fetch - processPackages [symlib]: New version: [1.3.4] Old Version: [1.3.3]
+[2023-06-15 00:31:21] INFO root fetch - processPackages [bs-orm]: New version: [0.8.3.post20230615] Old Version: [0.8.2.post20230615]
+[2023-06-15 00:31:21] INFO root fetch - processPackages [tutor-cairn]: New version: [16.0.0] Old Version: [15.0.6]
+[2023-06-15 00:31:21] INFO root fetch - processPackages [mp-api]: Downloading https://files.pythonhosted.org/packages/d0/3b/c0f76330b2f702efab6d6b22672c31c3a367b6d2af4b70db241a553c0097/mp-api-0.9.0.tar.gz
+[2023-06-15 00:31:22] INFO root fetch - processPackages [plover-stenograph]: Downloading https://files.pythonhosted.org/packages/07/56/370f221750b7afb88c33c1d265291d8d4cfb582b5767c84d074b68fdd2ec/plover-stenograph-2.1.tar.gz
+[2023-06-15 00:31:22] INFO root fetch - processPackages [tutor-cairn]: Downloading https://files.pythonhosted.org/packages/8f/7d/eab59a4e5d2d55900ce0c8def086c6434b1674773b2f626b16f93f44deee/tutor-cairn-15.0.6.tar.gz
+[2023-06-15 00:31:22] INFO root fetch - processPackages [symlib]: Downloading https://files.pythonhosted.org/packages/86/73/cda002b54fa76c04f4d82d62022923dce1ebe1908bc28ed99daf25a5c29e/symlib-1.3.3.tar.gz
+[2023-06-15 00:31:22] INFO root fetch - processPackages [bs-orm]: Downloading https://files.pythonhosted.org/packages/1e/3e/025c2936eb7d2bbaceb45ea942bef97d32a244e58480eb5daed7772ec871/bs_orm-0.8.2.post20230615.tar.gz
+[2023-06-15 00:31:22] INFO root fetch - processPackages [mp-api]: Downloading https://files.pythonhosted.org/packages/6c/0e/759b93c4da8606f9bb1b3db9c592fb1b8eeaddcd0f0b6a2d901b6889bc2f/mp-api-0.9.1.tar.gz
+[2023-06-15 00:31:22] INFO root fetch - processPackages [mp-api]: executing diffoscope
+[2023-06-15 00:31:22] INFO root fetch - processPackages [mp-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mp-api-0.9.0.tar.gz tmp/mp-api-0.9.1.tar.gz --markdown 20230615/m/mp-api/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-06-15 00:31:22] INFO root fetch - processPackages [plover-stenograph]: Downloading https://files.pythonhosted.org/packages/03/37/b25304f9dba125f0b490b53ee4fa17db67cdd87c2ed527a7a52eba803515/plover-stenograph-2.1.dev1.tar.gz
+[2023-06-15 00:31:22] INFO root fetch - processPackages [bs-orm]: Downloading https://files.pythonhosted.org/packages/8b/46/a82bca8cf87abc065d46ab036255e652288f662bab675d61b75a8309e049/bs_orm-0.8.3.post20230615.tar.gz
+[2023-06-15 00:31:22] INFO root fetch - processPackages [tutor-cairn]: Downloading https://files.pythonhosted.org/packages/da/b9/b0cfa14cbb906be62c40401073f149297e449bf9c7b6b15a8fa16cd22a27/tutor-cairn-16.0.0.tar.gz
+[2023-06-15 00:31:22] INFO root fetch - processPackages [symlib]: Downloading https://files.pythonhosted.org/packages/1f/a1/42f0080ba35df4fdd1efeb5cd2427eace8dcbe68d71736fcec33eac199d6/symlib-1.3.4.tar.gz
+[2023-06-15 00:31:22] INFO root fetch - processPackages [bs-orm]: executing diffoscope
+[2023-06-15 00:31:22] INFO root fetch - processPackages [bs-orm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bs_orm-0.8.2.post20230615.tar.gz tmp/bs_orm-0.8.3.post20230615.tar.gz --markdown 20230615/b/bs-orm/0.8.2.post20230615-0.8.3.post20230615/diff.md --exclude *.pyd
+[2023-06-15 00:31:22] INFO root fetch - processPackages [plover-stenograph]: executing diffoscope
+[2023-06-15 00:31:22] INFO root fetch - processPackages [plover-stenograph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plover-stenograph-2.1.tar.gz tmp/plover-stenograph-2.1.dev1.tar.gz --markdown 20230615/p/plover-stenograph/2.1-2.1.dev1/diff.md --exclude *.pyd
+[2023-06-15 00:31:22] INFO root fetch - processPackages [tutor-cairn]: executing diffoscope
+[2023-06-15 00:31:22] INFO root fetch - processPackages [tutor-cairn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tutor-cairn-15.0.6.tar.gz tmp/tutor-cairn-16.0.0.tar.gz --markdown 20230615/t/tutor-cairn/15.0.6-16.0.0/diff.md --exclude *.pyd
+[2023-06-15 00:31:22] INFO root fetch - processPackages [symlib]: executing diffoscope
+[2023-06-15 00:31:22] INFO root fetch - processPackages [symlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/symlib-1.3.3.tar.gz tmp/symlib-1.3.4.tar.gz --markdown 20230615/s/symlib/1.3.3-1.3.4/diff.md --exclude *.pyd
+[2023-06-15 00:31:23] INFO root fetch - processPackages [bs-orm]: Remove: archive file [/home/abi/fetcher/tmp/bs_orm-0.8.2.post20230615.tar.gz]
+[2023-06-15 00:31:23] INFO root fetch - processPackages [bs-orm]: Remove: archive file [/home/abi/fetcher/tmp/bs_orm-0.8.3.post20230615.tar.gz]
+[2023-06-15 00:31:23] INFO root fetch - main [MainThread]: End processing [bs-orm]: success
+[2023-06-15 00:31:23] INFO root fetch - processPackages [plover-stenograph]: Remove: archive file [/home/abi/fetcher/tmp/plover-stenograph-2.1.tar.gz]
+[2023-06-15 00:31:23] INFO root fetch - processPackages [plover-stenograph]: Remove: archive file [/home/abi/fetcher/tmp/plover-stenograph-2.1.dev1.tar.gz]
+[2023-06-15 00:31:23] INFO root fetch - main [MainThread]: End processing [plover-stenograph]: success
+[2023-06-15 00:31:23] INFO root fetch - processPackages [tutor-cairn]: Remove: archive file [/home/abi/fetcher/tmp/tutor-cairn-15.0.6.tar.gz]
+[2023-06-15 00:31:23] INFO root fetch - processPackages [tutor-cairn]: Remove: archive file [/home/abi/fetcher/tmp/tutor-cairn-16.0.0.tar.gz]
+[2023-06-15 00:31:23] INFO root fetch - main [MainThread]: End processing [tutor-cairn]: success
+[2023-06-15 00:31:23] INFO root fetch - processPackages [symlib]: Remove: archive file [/home/abi/fetcher/tmp/symlib-1.3.3.tar.gz]
+[2023-06-15 00:31:23] INFO root fetch - processPackages [symlib]: Remove: archive file [/home/abi/fetcher/tmp/symlib-1.3.4.tar.gz]
+[2023-06-15 00:31:23] INFO root fetch - main [MainThread]: End processing [symlib]: success
+[2023-06-15 00:31:25] INFO root fetch - processPackages [mp-api]: Remove: archive file [/home/abi/fetcher/tmp/mp-api-0.9.0.tar.gz]
+[2023-06-15 00:31:25] INFO root fetch - processPackages [mp-api]: Remove: archive file [/home/abi/fetcher/tmp/mp-api-0.9.1.tar.gz]
+[2023-06-15 00:31:25] INFO root fetch - main [MainThread]: End processing [mp-api]: success
+[2023-06-15 00:31:25] INFO root fetch - main [MainThread]: Store serial: [18507649]
