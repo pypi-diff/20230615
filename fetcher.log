@@ -492,3 +492,78 @@
 [2023-06-15 00:31:25] INFO root fetch - processPackages [mp-api]: Remove: archive file [/home/abi/fetcher/tmp/mp-api-0.9.1.tar.gz]
 [2023-06-15 00:31:25] INFO root fetch - main [MainThread]: End processing [mp-api]: success
 [2023-06-15 00:31:25] INFO root fetch - main [MainThread]: Store serial: [18507649]
+[2023-06-15 00:36:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18507649]
+[2023-06-15 00:36:33] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-15 00:36:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: clams-python
+[2023-06-15 00:36:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hsms
+[2023-06-15 00:36:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: datarobotx
+[2023-06-15 00:36:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: misskey-python
+[2023-06-15 00:36:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: neuralprophet
+[2023-06-15 00:36:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: motion-python
+[2023-06-15 00:36:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: localthickness
+[2023-06-15 00:36:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mfhpo-simulator
+[2023-06-15 00:36:33] INFO root fetch - processPackages [hsms]: New version: [0.2.0] Old Version: [0.1.3]
+[2023-06-15 00:36:33] INFO root fetch - processPackages [datarobotx]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-15 00:36:33] INFO root fetch - processPackages [clams-python]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-06-15 00:36:33] INFO root fetch - processPackages [localthickness]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-15 00:36:33] INFO root fetch - processPackages [neuralprophet]: New version: [1.0.0rc2] Old Version: [1.0.0rc1]
+[2023-06-15 00:36:33] INFO root fetch - processPackages [motion-python]: New version: [0.1.64] Old Version: [0.1.63]
+[2023-06-15 00:36:33] INFO root fetch - processPackages [misskey-python]: New version: [1.0] Old Version: [0.1.0]
+[2023-06-15 00:36:34] INFO root fetch - processPackages [neuralprophet]: Downloading https://files.pythonhosted.org/packages/72/e4/d977308f1acbedbe2ee0e42be9e186d046292ebb0843c0aefbd35121caeb/neuralprophet-1.0.0rc1.tar.gz
+[2023-06-15 00:36:34] INFO root fetch - processPackages [mfhpo-simulator]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-06-15 00:36:34] INFO root fetch - processPackages [hsms]: Downloading https://files.pythonhosted.org/packages/6d/dc/231c1059793281a4cf9a2c56f8277d7ff3807fb9c0fc20ebb891104dd53a/hsms-0.1.3.tar.gz
+[2023-06-15 00:36:34] INFO root fetch - processPackages [datarobotx]: Downloading https://files.pythonhosted.org/packages/75/58/3828c31ec1f864f7faa18a4047418ea263afecf3e3a584542b307e6073c2/datarobotx-0.1.8-py3-none-any.whl
+[2023-06-15 00:36:34] INFO root fetch - processPackages [localthickness]: Downloading https://files.pythonhosted.org/packages/2b/21/b45f29493aeec5c0d85fb1fa4f5d93f7db08e3f972cdab6b52cf9a5aac0a/localthickness-0.1.2.tar.gz
+[2023-06-15 00:36:34] INFO root fetch - processPackages [clams-python]: Downloading https://files.pythonhosted.org/packages/18/3d/43cc301899858342d834410821bd840b287b071fa095a0fc43c00b6a8f9e/clams-python-1.0.2.tar.gz
+[2023-06-15 00:36:34] INFO root fetch - processPackages [motion-python]: Downloading https://files.pythonhosted.org/packages/70/c7/b4a7609129e29fc257efeb030529a407a6154dbb0e91c6a0d5957f1428b4/motion_python-0.1.63.tar.gz
+[2023-06-15 00:36:34] INFO root fetch - processPackages [neuralprophet]: Downloading https://files.pythonhosted.org/packages/99/bf/4b4d52d588fc0a43cdca4683f0b8b82b553554ad5aa3532d732eab6fd42b/neuralprophet-1.0.0rc2.tar.gz
+[2023-06-15 00:36:34] INFO root fetch - processPackages [misskey-python]: Downloading https://files.pythonhosted.org/packages/0c/f7/a3b6b4dfba30f67a125e45c47140416bf8e2e9419c1be248bc92372e9ec9/misskey_python-0.1.0.tar.gz
+[2023-06-15 00:36:34] INFO root fetch - processPackages [mfhpo-simulator]: Downloading https://files.pythonhosted.org/packages/c5/a6/a0cd50943ef7ba53ed7260a3aa14c7fc55aa82424679a008d3b6c12c2999/mfhpo_simulator-1.0.1-py3-none-any.whl
+[2023-06-15 00:36:34] INFO root fetch - processPackages [neuralprophet]: executing diffoscope
+[2023-06-15 00:36:34] INFO root fetch - processPackages [neuralprophet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neuralprophet-1.0.0rc1.tar.gz tmp/neuralprophet-1.0.0rc2.tar.gz --markdown 20230615/n/neuralprophet/1.0.0rc1-1.0.0rc2/diff.md --exclude *.pyd
+[2023-06-15 00:36:34] INFO root fetch - processPackages [clams-python]: Downloading https://files.pythonhosted.org/packages/f9/6d/45f5dee14947cc1b84e42edf28edd1007659379cc314725e5f2b91be2636/clams-python-1.0.3.tar.gz
+[2023-06-15 00:36:34] INFO root fetch - processPackages [motion-python]: Downloading https://files.pythonhosted.org/packages/7d/c1/8ff3145460b7513bf1555d3b06bab8965dce89f747326462ad7834dcd7ee/motion_python-0.1.64.tar.gz
+[2023-06-15 00:36:34] INFO root fetch - processPackages [misskey-python]: Downloading https://files.pythonhosted.org/packages/d9/d1/bfcb0311fdd8d685a992247e64ef8e326037e1b30a24c0a017767795149f/misskey_python-1.0.tar.gz
+[2023-06-15 00:36:34] INFO root fetch - processPackages [hsms]: Downloading https://files.pythonhosted.org/packages/e1/a3/637a0e1af440b010ed5212bc2068d394dc94fe3d955bb17b0158ef87fa76/hsms-0.2.0.tar.gz
+[2023-06-15 00:36:34] INFO root fetch - processPackages [localthickness]: Downloading https://files.pythonhosted.org/packages/4d/b8/4f20832ae822973a301a3cdadbde84978086a8b8f3016cf596b354f1a582/localthickness-0.1.3.tar.gz
+[2023-06-15 00:36:34] INFO root fetch - processPackages [datarobotx]: Downloading https://files.pythonhosted.org/packages/34/89/1a7b2ca1151869c42acd29743872d42e7810c227438c5745f10089041650/datarobotx-0.1.9-py3-none-any.whl
+[2023-06-15 00:36:34] INFO root fetch - processPackages [clams-python]: executing diffoscope
+[2023-06-15 00:36:34] INFO root fetch - processPackages [clams-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clams-python-1.0.2.tar.gz tmp/clams-python-1.0.3.tar.gz --markdown 20230615/c/clams-python/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-06-15 00:36:34] INFO root fetch - processPackages [misskey-python]: executing diffoscope
+[2023-06-15 00:36:34] INFO root fetch - processPackages [misskey-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/misskey_python-0.1.0.tar.gz tmp/misskey_python-1.0.tar.gz --markdown 20230615/m/misskey-python/0.1.0-1.0/diff.md --exclude *.pyd
+[2023-06-15 00:36:34] INFO root fetch - processPackages [hsms]: executing diffoscope
+[2023-06-15 00:36:34] INFO root fetch - processPackages [hsms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hsms-0.1.3.tar.gz tmp/hsms-0.2.0.tar.gz --markdown 20230615/h/hsms/0.1.3-0.2.0/diff.md --exclude *.pyd
+[2023-06-15 00:36:34] INFO root fetch - processPackages [motion-python]: executing diffoscope
+[2023-06-15 00:36:34] INFO root fetch - processPackages [motion-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/motion_python-0.1.63.tar.gz tmp/motion_python-0.1.64.tar.gz --markdown 20230615/m/motion-python/0.1.63-0.1.64/diff.md --exclude *.pyd
+[2023-06-15 00:36:34] INFO root fetch - processPackages [mfhpo-simulator]: Downloading https://files.pythonhosted.org/packages/65/4c/f8d065d34b440cf570e78ed4f4ac3d9156f20799aacb762bf161b29d3db5/mfhpo_simulator-1.0.2-py3-none-any.whl
+[2023-06-15 00:36:34] INFO root fetch - processPackages [datarobotx]: executing diffoscope
+[2023-06-15 00:36:34] INFO root fetch - processPackages [datarobotx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datarobotx-0.1.8-py3-none-any.whl.zip tmp/datarobotx-0.1.9-py3-none-any.whl.zip --markdown 20230615/d/datarobotx/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-15 00:36:34] INFO root fetch - processPackages [localthickness]: executing diffoscope
+[2023-06-15 00:36:34] INFO root fetch - processPackages [mfhpo-simulator]: executing diffoscope
+[2023-06-15 00:36:34] INFO root fetch - processPackages [mfhpo-simulator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mfhpo_simulator-1.0.1-py3-none-any.whl.zip tmp/mfhpo_simulator-1.0.2-py3-none-any.whl.zip --markdown 20230615/m/mfhpo-simulator/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-06-15 00:36:34] INFO root fetch - processPackages [localthickness]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localthickness-0.1.2.tar.gz tmp/localthickness-0.1.3.tar.gz --markdown 20230615/l/localthickness/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-15 00:36:35] INFO root fetch - processPackages [misskey-python]: Remove: archive file [/home/abi/fetcher/tmp/misskey_python-0.1.0.tar.gz]
+[2023-06-15 00:36:35] INFO root fetch - processPackages [misskey-python]: Remove: archive file [/home/abi/fetcher/tmp/misskey_python-1.0.tar.gz]
+[2023-06-15 00:36:35] INFO root fetch - main [MainThread]: End processing [misskey-python]: success
+[2023-06-15 00:36:35] INFO root fetch - processPackages [clams-python]: Remove: archive file [/home/abi/fetcher/tmp/clams-python-1.0.2.tar.gz]
+[2023-06-15 00:36:35] INFO root fetch - processPackages [clams-python]: Remove: archive file [/home/abi/fetcher/tmp/clams-python-1.0.3.tar.gz]
+[2023-06-15 00:36:35] INFO root fetch - main [MainThread]: End processing [clams-python]: success
+[2023-06-15 00:36:36] INFO root fetch - processPackages [mfhpo-simulator]: Remove: archive file [/home/abi/fetcher/tmp/mfhpo_simulator-1.0.1-py3-none-any.whl.zip]
+[2023-06-15 00:36:36] INFO root fetch - processPackages [mfhpo-simulator]: Remove: archive file [/home/abi/fetcher/tmp/mfhpo_simulator-1.0.2-py3-none-any.whl.zip]
+[2023-06-15 00:36:36] INFO root fetch - main [MainThread]: End processing [mfhpo-simulator]: success
+[2023-06-15 00:36:36] INFO root fetch - processPackages [hsms]: Remove: archive file [/home/abi/fetcher/tmp/hsms-0.1.3.tar.gz]
+[2023-06-15 00:36:36] INFO root fetch - processPackages [hsms]: Remove: archive file [/home/abi/fetcher/tmp/hsms-0.2.0.tar.gz]
+[2023-06-15 00:36:36] INFO root fetch - main [MainThread]: End processing [hsms]: success
+[2023-06-15 00:36:36] INFO root fetch - processPackages [localthickness]: Remove: archive file [/home/abi/fetcher/tmp/localthickness-0.1.2.tar.gz]
+[2023-06-15 00:36:36] INFO root fetch - processPackages [localthickness]: Remove: archive file [/home/abi/fetcher/tmp/localthickness-0.1.3.tar.gz]
+[2023-06-15 00:36:36] INFO root fetch - main [MainThread]: End processing [localthickness]: success
+[2023-06-15 00:36:36] INFO root fetch - processPackages [datarobotx]: Remove: archive file [/home/abi/fetcher/tmp/datarobotx-0.1.8-py3-none-any.whl.zip]
+[2023-06-15 00:36:36] INFO root fetch - processPackages [datarobotx]: Remove: archive file [/home/abi/fetcher/tmp/datarobotx-0.1.9-py3-none-any.whl.zip]
+[2023-06-15 00:36:36] INFO root fetch - main [MainThread]: End processing [datarobotx]: success
+[2023-06-15 00:36:37] INFO root fetch - processPackages [neuralprophet]: Remove: archive file [/home/abi/fetcher/tmp/neuralprophet-1.0.0rc1.tar.gz]
+[2023-06-15 00:36:37] INFO root fetch - processPackages [neuralprophet]: Remove: archive file [/home/abi/fetcher/tmp/neuralprophet-1.0.0rc2.tar.gz]
+[2023-06-15 00:36:37] INFO root fetch - main [MainThread]: End processing [neuralprophet]: success
+[2023-06-15 00:37:31] INFO root fetch - processPackages [motion-python]: Remove: archive file [/home/abi/fetcher/tmp/motion_python-0.1.63.tar.gz]
+[2023-06-15 00:37:31] INFO root fetch - processPackages [motion-python]: Remove: archive file [/home/abi/fetcher/tmp/motion_python-0.1.64.tar.gz]
+[2023-06-15 00:37:31] INFO root fetch - main [MainThread]: End processing [motion-python]: success
+[2023-06-15 00:37:31] INFO root fetch - main [MainThread]: Store serial: [18507668]
