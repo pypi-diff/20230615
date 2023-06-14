@@ -215,3 +215,96 @@
 [2023-06-15 00:10:30] INFO root fetch - processPackages [fedml]: Remove: archive file [/home/abi/fetcher/tmp/fedml-0.8.4a9.tar.gz]
 [2023-06-15 00:10:30] INFO root fetch - main [MainThread]: End processing [fedml]: success
 [2023-06-15 00:10:30] INFO root fetch - main [MainThread]: Store serial: [18507512]
+[2023-06-15 00:15:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18507512]
+[2023-06-15 00:15:40] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-15 00:15:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: meltanolabs-target-snowflake
+[2023-06-15 00:15:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Files.com
+[2023-06-15 00:15:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ha-philipsjs
+[2023-06-15 00:15:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django-cleanup
+[2023-06-15 00:15:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: Geode-Hybrid
+[2023-06-15 00:15:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: as-scraper
+[2023-06-15 00:15:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pepperize.cdk-serverless-cluster-from-snapshot
+[2023-06-15 00:15:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cns
+[2023-06-15 00:15:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: grai-schemas
+[2023-06-15 00:15:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ovos-plugin-common-play
+[2023-06-15 00:15:40] INFO root fetch - processPackages [django-cleanup]: New version: [8.0.0] Old Version: [7.0.0]
+[2023-06-15 00:15:40] INFO root fetch - processPackages [meltanolabs-target-snowflake]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-06-15 00:15:40] INFO root fetch - processPackages [as-scraper]: New version: [2.4.0] Old Version: [2.3.5]
+[2023-06-15 00:15:40] INFO root fetch - processPackages [ha-philipsjs]: New version: [3.1.0] Old Version: [3.0.1]
+[2023-06-15 00:15:40] INFO root fetch - processPackages [cns]: New version: [1.0.12] Old Version: [1.0.11]
+[2023-06-15 00:15:40] INFO root fetch - processPackages [Geode-Hybrid]: New version: [2.0.4rc1] Old Version: [2.0.3rc1]
+[2023-06-15 00:15:40] INFO root fetch - processPackages [Files.com]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-06-15 00:15:40] INFO root fetch - processPackages [grai-schemas]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-15 00:15:40] INFO root fetch - processPackages [ovos-plugin-common-play]: New version: [0.0.6a1] Old Version: [0.0.5a7]
+[2023-06-15 00:15:40] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-15 00:15:40] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: Downloading https://files.pythonhosted.org/packages/41/ed/5efe219dc09a3767781b18e59998e46265479245ef5e56798033e654efe2/pepperize.cdk-serverless-cluster-from-snapshot-0.0.98.tar.gz
+[2023-06-15 00:15:40] INFO root fetch - processPackages [grai-schemas]: Downloading https://files.pythonhosted.org/packages/48/50/b901f88d6a26c004b33ab92f23c2eb16b3f9979a796b101c99c9bd8fb500/grai_schemas-0.1.8.tar.gz
+[2023-06-15 00:15:40] INFO root fetch - processPackages [as-scraper]: Downloading https://files.pythonhosted.org/packages/e1/18/b232e3ce84f4a608ef74e4003c902b256d2effa80fbfaa081db7f99edad8/as-scraper-2.3.5.tar.gz
+[2023-06-15 00:15:40] INFO root fetch - processPackages [django-cleanup]: Downloading https://files.pythonhosted.org/packages/9d/b0/4629518ee94a8b2e465351c6db50277916dcffbb65b4d4d85e10bcca6c1d/django-cleanup-7.0.0.tar.gz
+[2023-06-15 00:15:40] INFO root fetch - processPackages [Files.com]: Downloading https://files.pythonhosted.org/packages/94/53/fbdfda733dea9c814dc2617b3c6ff721e4e11d756b49b2d6dc317f00d5c3/Files.com-1.0.98.tar.gz
+[2023-06-15 00:15:40] INFO root fetch - processPackages [cns]: Downloading https://files.pythonhosted.org/packages/ba/0f/18b6600d17af80f9667df6611a488af420aae2a8954d87f810859eeacf27/cns-1.0.11-py3-none-any.whl
+[2023-06-15 00:15:40] INFO root fetch - processPackages [meltanolabs-target-snowflake]: Downloading https://files.pythonhosted.org/packages/d8/c4/20bce48373ce2b9edda38924438cfab4cdf19898413752b4a9b4522e6361/meltanolabs_target_snowflake-0.2.0.tar.gz
+[2023-06-15 00:15:40] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: Downloading https://files.pythonhosted.org/packages/0a/e1/974dfac343666db334bd3dc6b819d5e46e3769ce75e9baccd0067702f4ad/pepperize.cdk-serverless-cluster-from-snapshot-0.0.99.tar.gz
+[2023-06-15 00:15:40] INFO root fetch - processPackages [ha-philipsjs]: Downloading https://files.pythonhosted.org/packages/5a/83/94f63f64e6f81fed403e85555c818b5339b416f4606c65690afbcefa9143/ha-philipsjs-3.0.1.tar.gz
+[2023-06-15 00:15:40] INFO root fetch - processPackages [ovos-plugin-common-play]: Downloading https://files.pythonhosted.org/packages/bb/26/faeddc65cb95dba8a457354a1b6065bdab442327c962ecca362fb8242fb4/ovos_plugin_common_play-0.0.5a7.tar.gz
+[2023-06-15 00:15:40] INFO root fetch - processPackages [Geode-Hybrid]: Downloading https://files.pythonhosted.org/packages/6a/84/5566c3cc371592c56e9cf280f5469b22ffd2dcdc050c5e3528fdd9207d9f/Geode_Hybrid-2.0.3rc1-cp39-cp39-win_amd64.whl
+[2023-06-15 00:15:40] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: executing diffoscope
+[2023-06-15 00:15:40] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-serverless-cluster-from-snapshot-0.0.98.tar.gz tmp/pepperize.cdk-serverless-cluster-from-snapshot-0.0.99.tar.gz --markdown 20230615/p/pepperize.cdk-serverless-cluster-from-snapshot/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-15 00:15:40] INFO root fetch - processPackages [grai-schemas]: Downloading https://files.pythonhosted.org/packages/5f/42/f1b94cc0a778ce637ae5193620cb690190a4bd3a1c8fe56ff177b30061bc/grai_schemas-0.1.9.tar.gz
+[2023-06-15 00:15:40] INFO root fetch - processPackages [as-scraper]: Downloading https://files.pythonhosted.org/packages/6f/42/a5c06601e59a4b49cd391774b6ad59b24b380b5acf025d8dc4f5feb8def4/as-scraper-2.4.0.tar.gz
+[2023-06-15 00:15:40] INFO root fetch - processPackages [grai-schemas]: executing diffoscope
+[2023-06-15 00:15:40] INFO root fetch - processPackages [grai-schemas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grai_schemas-0.1.8.tar.gz tmp/grai_schemas-0.1.9.tar.gz --markdown 20230615/g/grai-schemas/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-15 00:15:40] INFO root fetch - processPackages [as-scraper]: executing diffoscope
+[2023-06-15 00:15:40] INFO root fetch - processPackages [as-scraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/as-scraper-2.3.5.tar.gz tmp/as-scraper-2.4.0.tar.gz --markdown 20230615/a/as-scraper/2.3.5-2.4.0/diff.md --exclude *.pyd
+[2023-06-15 00:15:40] INFO root fetch - processPackages [meltanolabs-target-snowflake]: Downloading https://files.pythonhosted.org/packages/64/9f/fd2c809fa89d1bfc927e0d317a053f5486ec185133225b456ed9e5b2549b/meltanolabs_target_snowflake-0.2.1.tar.gz
+[2023-06-15 00:15:40] INFO root fetch - processPackages [django-cleanup]: Downloading https://files.pythonhosted.org/packages/ba/9e/cf649106561b2db3eb0be07b2b185d3cfd57027b79f491bd3d07e70a60da/django-cleanup-8.0.0.tar.gz
+[2023-06-15 00:15:40] INFO root fetch - processPackages [Files.com]: Downloading https://files.pythonhosted.org/packages/3b/2c/ec980b43b6c82499f9f9442e06cf2b0e489d114398d6098f2a9049a19767/Files.com-1.0.99.tar.gz
+[2023-06-15 00:15:40] INFO root fetch - processPackages [meltanolabs-target-snowflake]: executing diffoscope
+[2023-06-15 00:15:40] INFO root fetch - processPackages [meltanolabs-target-snowflake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meltanolabs_target_snowflake-0.2.0.tar.gz tmp/meltanolabs_target_snowflake-0.2.1.tar.gz --markdown 20230615/m/meltanolabs-target-snowflake/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-06-15 00:15:40] INFO root fetch - processPackages [Geode-Hybrid]: Downloading https://files.pythonhosted.org/packages/b7/ab/60c55287aabe8ad00e458a5c977c867417e6c48fb17f3cea5bb62bb2610c/Geode_Hybrid-2.0.4rc1-cp39-cp39-win_amd64.whl
+[2023-06-15 00:15:40] INFO root fetch - processPackages [django-cleanup]: executing diffoscope
+[2023-06-15 00:15:40] INFO root fetch - processPackages [django-cleanup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-cleanup-7.0.0.tar.gz tmp/django-cleanup-8.0.0.tar.gz --markdown 20230615/d/django-cleanup/7.0.0-8.0.0/diff.md --exclude *.pyd
+[2023-06-15 00:15:40] INFO root fetch - processPackages [Files.com]: executing diffoscope
+[2023-06-15 00:15:40] INFO root fetch - processPackages [Files.com]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Files.com-1.0.98.tar.gz tmp/Files.com-1.0.99.tar.gz --markdown 20230615/F/Files.com/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-06-15 00:15:40] INFO root fetch - processPackages [ha-philipsjs]: Downloading https://files.pythonhosted.org/packages/93/5e/a8f63c30b69fcb24368561a08740b83f72867df21aa61b4a60af095ee616/ha-philipsjs-3.1.0.tar.gz
+[2023-06-15 00:15:40] INFO root fetch - processPackages [cns]: Downloading https://files.pythonhosted.org/packages/ab/c4/5f78ccf6585c44106e271062ecb217de742c3646b9baa7549df601668e1f/cns-1.0.12-py3-none-any.whl
+[2023-06-15 00:15:40] INFO root fetch - processPackages [ha-philipsjs]: executing diffoscope
+[2023-06-15 00:15:40] INFO root fetch - processPackages [ha-philipsjs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ha-philipsjs-3.0.1.tar.gz tmp/ha-philipsjs-3.1.0.tar.gz --markdown 20230615/h/ha-philipsjs/3.0.1-3.1.0/diff.md --exclude *.pyd
+[2023-06-15 00:15:40] INFO root fetch - processPackages [ovos-plugin-common-play]: Downloading https://files.pythonhosted.org/packages/f1/93/dc56afb452b0c6d6c55e133f38b28f4feab3aba02dd9c70fff6cfabfee34/ovos_plugin_common_play-0.0.6a1.tar.gz
+[2023-06-15 00:15:40] INFO root fetch - processPackages [Geode-Hybrid]: executing diffoscope
+[2023-06-15 00:15:40] INFO root fetch - processPackages [Geode-Hybrid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Geode_Hybrid-2.0.3rc1-cp39-cp39-win_amd64.whl.zip tmp/Geode_Hybrid-2.0.4rc1-cp39-cp39-win_amd64.whl.zip --markdown 20230615/G/Geode-Hybrid/2.0.3rc1-2.0.4rc1/diff.md --exclude *.pyd
+[2023-06-15 00:15:41] INFO root fetch - processPackages [cns]: executing diffoscope
+[2023-06-15 00:15:41] INFO root fetch - processPackages [cns]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cns-1.0.11-py3-none-any.whl.zip tmp/cns-1.0.12-py3-none-any.whl.zip --markdown 20230615/c/cns/1.0.11-1.0.12/diff.md --exclude *.pyd
+[2023-06-15 00:15:41] INFO root fetch - processPackages [ovos-plugin-common-play]: executing diffoscope
+[2023-06-15 00:15:41] INFO root fetch - processPackages [ovos-plugin-common-play]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovos_plugin_common_play-0.0.5a7.tar.gz tmp/ovos_plugin_common_play-0.0.6a1.tar.gz --markdown 20230615/o/ovos-plugin-common-play/0.0.5a7-0.0.6a1/diff.md --exclude *.pyd
+[2023-06-15 00:15:42] INFO root fetch - processPackages [grai-schemas]: Remove: archive file [/home/abi/fetcher/tmp/grai_schemas-0.1.8.tar.gz]
+[2023-06-15 00:15:42] INFO root fetch - processPackages [grai-schemas]: Remove: archive file [/home/abi/fetcher/tmp/grai_schemas-0.1.9.tar.gz]
+[2023-06-15 00:15:42] INFO root fetch - main [MainThread]: End processing [grai-schemas]: success
+[2023-06-15 00:15:42] INFO root fetch - processPackages [meltanolabs-target-snowflake]: Remove: archive file [/home/abi/fetcher/tmp/meltanolabs_target_snowflake-0.2.0.tar.gz]
+[2023-06-15 00:15:42] INFO root fetch - processPackages [meltanolabs-target-snowflake]: Remove: archive file [/home/abi/fetcher/tmp/meltanolabs_target_snowflake-0.2.1.tar.gz]
+[2023-06-15 00:15:42] INFO root fetch - main [MainThread]: End processing [meltanolabs-target-snowflake]: success
+[2023-06-15 00:15:42] INFO root fetch - processPackages [Geode-Hybrid]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Hybrid-2.0.3rc1-cp39-cp39-win_amd64.whl.zip]
+[2023-06-15 00:15:42] INFO root fetch - processPackages [Geode-Hybrid]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Hybrid-2.0.4rc1-cp39-cp39-win_amd64.whl.zip]
+[2023-06-15 00:15:42] INFO root fetch - main [MainThread]: End processing [Geode-Hybrid]: success
+[2023-06-15 00:15:42] INFO root fetch - processPackages [django-cleanup]: Remove: archive file [/home/abi/fetcher/tmp/django-cleanup-7.0.0.tar.gz]
+[2023-06-15 00:15:42] INFO root fetch - processPackages [django-cleanup]: Remove: archive file [/home/abi/fetcher/tmp/django-cleanup-8.0.0.tar.gz]
+[2023-06-15 00:15:42] INFO root fetch - main [MainThread]: End processing [django-cleanup]: success
+[2023-06-15 00:15:42] INFO root fetch - processPackages [cns]: Remove: archive file [/home/abi/fetcher/tmp/cns-1.0.11-py3-none-any.whl.zip]
+[2023-06-15 00:15:42] INFO root fetch - processPackages [cns]: Remove: archive file [/home/abi/fetcher/tmp/cns-1.0.12-py3-none-any.whl.zip]
+[2023-06-15 00:15:42] INFO root fetch - main [MainThread]: End processing [cns]: success
+[2023-06-15 00:15:42] INFO root fetch - processPackages [as-scraper]: Remove: archive file [/home/abi/fetcher/tmp/as-scraper-2.3.5.tar.gz]
+[2023-06-15 00:15:42] INFO root fetch - processPackages [as-scraper]: Remove: archive file [/home/abi/fetcher/tmp/as-scraper-2.4.0.tar.gz]
+[2023-06-15 00:15:42] INFO root fetch - main [MainThread]: End processing [as-scraper]: success
+[2023-06-15 00:15:42] INFO root fetch - processPackages [ha-philipsjs]: Remove: archive file [/home/abi/fetcher/tmp/ha-philipsjs-3.0.1.tar.gz]
+[2023-06-15 00:15:42] INFO root fetch - processPackages [ha-philipsjs]: Remove: archive file [/home/abi/fetcher/tmp/ha-philipsjs-3.1.0.tar.gz]
+[2023-06-15 00:15:42] INFO root fetch - main [MainThread]: End processing [ha-philipsjs]: success
+[2023-06-15 00:15:42] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-serverless-cluster-from-snapshot-0.0.98.tar.gz]
+[2023-06-15 00:15:42] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-serverless-cluster-from-snapshot-0.0.99.tar.gz]
+[2023-06-15 00:15:42] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-serverless-cluster-from-snapshot]: success
+[2023-06-15 00:15:43] INFO root fetch - processPackages [Files.com]: Remove: archive file [/home/abi/fetcher/tmp/Files.com-1.0.98.tar.gz]
+[2023-06-15 00:15:43] INFO root fetch - processPackages [Files.com]: Remove: archive file [/home/abi/fetcher/tmp/Files.com-1.0.99.tar.gz]
+[2023-06-15 00:15:43] INFO root fetch - main [MainThread]: End processing [Files.com]: success
+[2023-06-15 00:15:48] INFO root fetch - processPackages [ovos-plugin-common-play]: Remove: archive file [/home/abi/fetcher/tmp/ovos_plugin_common_play-0.0.5a7.tar.gz]
+[2023-06-15 00:15:48] INFO root fetch - processPackages [ovos-plugin-common-play]: Remove: archive file [/home/abi/fetcher/tmp/ovos_plugin_common_play-0.0.6a1.tar.gz]
+[2023-06-15 00:15:48] INFO root fetch - main [MainThread]: End processing [ovos-plugin-common-play]: success
+[2023-06-15 00:15:48] INFO root fetch - main [MainThread]: Store serial: [18507543]
