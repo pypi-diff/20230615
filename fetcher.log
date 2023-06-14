@@ -1277,3 +1277,104 @@
 [2023-06-15 01:04:54] INFO root fetch - processPackages [digautoprofiler]: Remove: archive file [/home/abi/fetcher/tmp/digautoprofiler-1.0.2.tar.gz]
 [2023-06-15 01:04:54] INFO root fetch - main [MainThread]: End processing [digautoprofiler]: success
 [2023-06-15 01:04:54] INFO root fetch - main [MainThread]: Store serial: [18508013]
+[2023-06-15 01:09:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18508013]
+[2023-06-15 01:10:04] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-06-15 01:10:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-kubernetes
+[2023-06-15 01:10:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: girlfriendpy
+[2023-06-15 01:10:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: invoke
+[2023-06-15 01:10:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Firenado
+[2023-06-15 01:10:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cns
+[2023-06-15 01:10:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: csdid
+[2023-06-15 01:10:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: horsetalk
+[2023-06-15 01:10:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pysamosa
+[2023-06-15 01:10:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: FlyBaseDownloads
+[2023-06-15 01:10:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pepperize.cdk-ses-smtp-credentials
+[2023-06-15 01:10:04] INFO root fetch - processPackages [girlfriendpy]: New version: [0.2] Old Version: [0.1]
+[2023-06-15 01:10:04] INFO root fetch - processPackages [Firenado]: New version: [0.9.0a2] Old Version: [0.9.0a1]
+[2023-06-15 01:10:04] INFO root fetch - processPackages [pysamosa]: New version: [0.2.13] Old Version: [0.2.12]
+[2023-06-15 01:10:04] WARNING root fetch - processPackages [cns]: Skipping, unable to determine old version
+[2023-06-15 01:10:04] INFO root fetch - processPackages [cns]: Start processing: textual-textarea
+[2023-06-15 01:10:04] INFO root fetch - main [MainThread]: End processing [cns] error
+[2023-06-15 01:10:04] INFO root fetch - processPackages [FlyBaseDownloads]: New version: [1.0.2.1] Old Version: [1.0.2]
+[2023-06-15 01:10:04] INFO root fetch - processPackages [csdid]: New version: [0.1.63] Old Version: [0.1.62]
+[2023-06-15 01:10:04] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: New version: [0.3.360] Old Version: [0.3.359]
+[2023-06-15 01:10:04] INFO root fetch - processPackages [horsetalk]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-06-15 01:10:04] INFO root fetch - processPackages [textual-textarea]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-15 01:10:04] INFO root fetch - processPackages [Firenado]: Downloading https://files.pythonhosted.org/packages/56/8a/46a1f7944cc285bc46d8b01f73353ee8292fc8f5de8e349a03cbce7d8e09/Firenado-0.9.0a1.tar.gz
+[2023-06-15 01:10:04] INFO root fetch - processPackages [csdid]: Downloading https://files.pythonhosted.org/packages/b8/1e/75d13ba6ac7e3064f447f517256b1cfb626713a5a4fd43027e44bbbb1321/csdid-0.1.62.tar.gz
+[2023-06-15 01:10:04] INFO root fetch - processPackages [invoke]: New version: [2.1.3] Old Version: [2.1.2]
+[2023-06-15 01:10:04] INFO root fetch - processPackages [girlfriendpy]: Downloading https://files.pythonhosted.org/packages/78/00/bf9468ffb6329bbee9c3db38af5b5804d4ceb6d9578419df362e347773e4/girlfriendpy-0.1.tar.gz
+[2023-06-15 01:10:04] INFO root fetch - processPackages [pysamosa]: Downloading https://files.pythonhosted.org/packages/d8/47/2d5bc79f0f6c5945c9ea99eb2443cfe67ed1e4da532d0e3f1bc36c5372bb/pysamosa-0.2.12.tar.gz
+[2023-06-15 01:10:04] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Downloading https://files.pythonhosted.org/packages/6d/ef/78853a03c5b54f6f77588ff67584348f4a803dd3e3e4ac908e1a510b73a5/pepperize.cdk-ses-smtp-credentials-0.3.359.tar.gz
+[2023-06-15 01:10:04] INFO root fetch - processPackages [horsetalk]: Downloading https://files.pythonhosted.org/packages/64/78/d64d0ee1bcbab4c43d499fa16a279a003bb5acca4daeb61a88b5a304e44a/horsetalk-0.9.0.tar.gz
+[2023-06-15 01:10:04] INFO root fetch - processPackages [invoke]: Downloading https://files.pythonhosted.org/packages/c6/58/dc1e7a70fed3eea19643125a2bfd0dc01621e4d5d31e5afb64ef4d69f633/invoke-2.1.2.tar.gz
+[2023-06-15 01:10:04] INFO root fetch - processPackages [textual-textarea]: Downloading https://files.pythonhosted.org/packages/41/54/e379c4f0874bcb635085ad91e87c718fae7045241f3df2ad9f1422f084e2/textual_textarea-0.1.1.tar.gz
+[2023-06-15 01:10:04] INFO root fetch - processPackages [csdid]: Downloading https://files.pythonhosted.org/packages/36/22/820421f97e8e7c9d530ef52bc5970b0732eed3e4814781ab74f7a667f928/csdid-0.1.63.tar.gz
+[2023-06-15 01:10:04] INFO root fetch - processPackages [girlfriendpy]: Downloading https://files.pythonhosted.org/packages/78/6a/56fe9107e051a907b8723ae8fa003664d4e0749320ee50e17ddf0a0bc85f/girlfriendpy-0.2.tar.gz
+[2023-06-15 01:10:04] INFO root fetch - processPackages [pulumi-kubernetes]: New version: [3.9.0] Old Version: [3.8.3]
+[2023-06-15 01:10:04] INFO root fetch - processPackages [FlyBaseDownloads]: Downloading https://files.pythonhosted.org/packages/73/9a/fdcbcd6a1a64632135ef4f2241620a70b2ccac547ea5b66e4019f1187b87/FlyBaseDownloads-1.0.2.tar.gz
+[2023-06-15 01:10:04] INFO root fetch - processPackages [csdid]: executing diffoscope
+[2023-06-15 01:10:04] INFO root fetch - processPackages [csdid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/csdid-0.1.62.tar.gz tmp/csdid-0.1.63.tar.gz --markdown 20230615/c/csdid/0.1.62-0.1.63/diff.md --exclude *.pyd
+[2023-06-15 01:10:04] INFO root fetch - processPackages [Firenado]: Downloading https://files.pythonhosted.org/packages/ac/b5/c53b58c0c417833bf427f62d0bcec477d8c0b6645ca72f2a4bbac3c4dfbf/Firenado-0.9.0a2.tar.gz
+[2023-06-15 01:10:04] INFO root fetch - processPackages [girlfriendpy]: executing diffoscope
+[2023-06-15 01:10:04] INFO root fetch - processPackages [girlfriendpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/girlfriendpy-0.1.tar.gz tmp/girlfriendpy-0.2.tar.gz --markdown 20230615/g/girlfriendpy/0.1-0.2/diff.md --exclude *.pyd
+[2023-06-15 01:10:04] INFO root fetch - processPackages [invoke]: Downloading https://files.pythonhosted.org/packages/46/37/0c5e8d33773e55fc265d80d87bb0e78b353a447d6702ba72584536b9cf9d/invoke-2.1.3.tar.gz
+[2023-06-15 01:10:04] INFO root fetch - processPackages [pulumi-kubernetes]: Downloading https://files.pythonhosted.org/packages/ba/a4/6c41a4f50461ed3028a83a534b2370550bfd5ae0fb6dd3efba44e06a2547/pulumi_kubernetes-3.8.3.tar.gz
+[2023-06-15 01:10:04] INFO root fetch - processPackages [Firenado]: executing diffoscope
+[2023-06-15 01:10:04] INFO root fetch - processPackages [Firenado]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Firenado-0.9.0a1.tar.gz tmp/Firenado-0.9.0a2.tar.gz --markdown 20230615/F/Firenado/0.9.0a1-0.9.0a2/diff.md --exclude *.pyd
+[2023-06-15 01:10:04] INFO root fetch - processPackages [FlyBaseDownloads]: Downloading https://files.pythonhosted.org/packages/bc/2c/95fe3e87f74569376e50c755edd55141eb66d196f32ab392dbc359f48dee/FlyBaseDownloads-1.0.2.1.tar.gz
+[2023-06-15 01:10:04] INFO root fetch - processPackages [horsetalk]: Downloading https://files.pythonhosted.org/packages/fc/2e/395a63e1028314c7da58d7ad4611e04802ab576f53e3a9ef4ec0c317d183/horsetalk-0.9.1.tar.gz
+[2023-06-15 01:10:04] INFO root fetch - processPackages [invoke]: executing diffoscope
+[2023-06-15 01:10:04] INFO root fetch - processPackages [invoke]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/invoke-2.1.2.tar.gz tmp/invoke-2.1.3.tar.gz --markdown 20230615/i/invoke/2.1.2-2.1.3/diff.md --exclude *.pyd
+[2023-06-15 01:10:04] INFO root fetch - processPackages [textual-textarea]: Downloading https://files.pythonhosted.org/packages/8f/f3/fb495238508c98ab8eff8708f7ca8d520c6ca0e4861e3d47858636b66854/textual_textarea-0.1.2.tar.gz
+[2023-06-15 01:10:04] INFO root fetch - processPackages [FlyBaseDownloads]: executing diffoscope
+[2023-06-15 01:10:04] INFO root fetch - processPackages [FlyBaseDownloads]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FlyBaseDownloads-1.0.2.tar.gz tmp/FlyBaseDownloads-1.0.2.1.tar.gz --markdown 20230615/F/FlyBaseDownloads/1.0.2-1.0.2.1/diff.md --exclude *.pyd
+[2023-06-15 01:10:04] INFO root fetch - processPackages [horsetalk]: executing diffoscope
+[2023-06-15 01:10:04] INFO root fetch - processPackages [horsetalk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/horsetalk-0.9.0.tar.gz tmp/horsetalk-0.9.1.tar.gz --markdown 20230615/h/horsetalk/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-06-15 01:10:05] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Downloading https://files.pythonhosted.org/packages/67/5a/e15c24eba7368716d59f685770529058dfd0c6b210183a871bca34c54bf1/pepperize.cdk-ses-smtp-credentials-0.3.360.tar.gz
+[2023-06-15 01:10:05] INFO root fetch - processPackages [textual-textarea]: executing diffoscope
+[2023-06-15 01:10:05] INFO root fetch - processPackages [textual-textarea]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/textual_textarea-0.1.1.tar.gz tmp/textual_textarea-0.1.2.tar.gz --markdown 20230615/t/textual-textarea/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-15 01:10:05] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: executing diffoscope
+[2023-06-15 01:10:05] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-ses-smtp-credentials-0.3.359.tar.gz tmp/pepperize.cdk-ses-smtp-credentials-0.3.360.tar.gz --markdown 20230615/p/pepperize.cdk-ses-smtp-credentials/0.3.359-0.3.360/diff.md --exclude *.pyd
+[2023-06-15 01:10:05] INFO root fetch - processPackages [pulumi-kubernetes]: Downloading https://files.pythonhosted.org/packages/0f/a9/6759fd282fa569f4592dc30878e4ced26d260895c12602ac69c7737fe07f/pulumi_kubernetes-3.9.0.tar.gz
+[2023-06-15 01:10:05] INFO root fetch - processPackages [pulumi-kubernetes]: executing diffoscope
+[2023-06-15 01:10:05] INFO root fetch - processPackages [pulumi-kubernetes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_kubernetes-3.8.3.tar.gz tmp/pulumi_kubernetes-3.9.0.tar.gz --markdown 20230615/p/pulumi-kubernetes/3.8.3-3.9.0/diff.md --exclude *.pyd
+[2023-06-15 01:10:05] INFO root fetch - processPackages [pysamosa]: Downloading https://files.pythonhosted.org/packages/8b/6a/84e2af61458dab4b8b1750bfe1cc431da836eaca063526f1b2907d794693/pysamosa-0.2.13.tar.gz
+[2023-06-15 01:10:05] INFO root fetch - processPackages [girlfriendpy]: Remove: archive file [/home/abi/fetcher/tmp/girlfriendpy-0.1.tar.gz]
+[2023-06-15 01:10:05] INFO root fetch - processPackages [girlfriendpy]: Remove: archive file [/home/abi/fetcher/tmp/girlfriendpy-0.2.tar.gz]
+[2023-06-15 01:10:05] INFO root fetch - processPackages [girlfriendpy]: Start processing: pulumi-kubernetes
+[2023-06-15 01:10:05] INFO root fetch - main [MainThread]: End processing [girlfriendpy]: success
+[2023-06-15 01:10:05] INFO root fetch - processPackages [pulumi-kubernetes]: New version: [3.9.0] Old Version: [3.8.3]
+[2023-06-15 01:10:05] INFO root fetch - processPackages [pysamosa]: executing diffoscope
+[2023-06-15 01:10:05] INFO root fetch - processPackages [pysamosa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysamosa-0.2.12.tar.gz tmp/pysamosa-0.2.13.tar.gz --markdown 20230615/p/pysamosa/0.2.12-0.2.13/diff.md --exclude *.pyd
+[2023-06-15 01:10:06] INFO root fetch - processPackages [pulumi-kubernetes]: executing diffoscope
+[2023-06-15 01:10:06] INFO root fetch - processPackages [pulumi-kubernetes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_kubernetes-3.8.3.tar.gz tmp/pulumi_kubernetes-3.9.0.tar.gz --markdown 20230615/p/pulumi-kubernetes/3.8.3-3.9.0/diff.md --exclude *.pyd
+[2023-06-15 01:10:06] INFO root fetch - processPackages [csdid]: Remove: archive file [/home/abi/fetcher/tmp/csdid-0.1.62.tar.gz]
+[2023-06-15 01:10:06] INFO root fetch - processPackages [csdid]: Remove: archive file [/home/abi/fetcher/tmp/csdid-0.1.63.tar.gz]
+[2023-06-15 01:10:06] INFO root fetch - main [MainThread]: End processing [csdid]: success
+[2023-06-15 01:10:06] INFO root fetch - processPackages [FlyBaseDownloads]: Remove: archive file [/home/abi/fetcher/tmp/FlyBaseDownloads-1.0.2.tar.gz]
+[2023-06-15 01:10:06] INFO root fetch - processPackages [FlyBaseDownloads]: Remove: archive file [/home/abi/fetcher/tmp/FlyBaseDownloads-1.0.2.1.tar.gz]
+[2023-06-15 01:10:06] INFO root fetch - main [MainThread]: End processing [FlyBaseDownloads]: success
+[2023-06-15 01:10:06] INFO root fetch - processPackages [textual-textarea]: Remove: archive file [/home/abi/fetcher/tmp/textual_textarea-0.1.1.tar.gz]
+[2023-06-15 01:10:06] INFO root fetch - processPackages [textual-textarea]: Remove: archive file [/home/abi/fetcher/tmp/textual_textarea-0.1.2.tar.gz]
+[2023-06-15 01:10:06] INFO root fetch - main [MainThread]: End processing [textual-textarea]: success
+[2023-06-15 01:10:06] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-ses-smtp-credentials-0.3.359.tar.gz]
+[2023-06-15 01:10:06] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-ses-smtp-credentials-0.3.360.tar.gz]
+[2023-06-15 01:10:06] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-ses-smtp-credentials]: success
+[2023-06-15 01:10:06] INFO root fetch - processPackages [horsetalk]: Remove: archive file [/home/abi/fetcher/tmp/horsetalk-0.9.0.tar.gz]
+[2023-06-15 01:10:06] INFO root fetch - processPackages [horsetalk]: Remove: archive file [/home/abi/fetcher/tmp/horsetalk-0.9.1.tar.gz]
+[2023-06-15 01:10:06] INFO root fetch - main [MainThread]: End processing [horsetalk]: success
+[2023-06-15 01:10:07] INFO root fetch - processPackages [invoke]: Remove: archive file [/home/abi/fetcher/tmp/invoke-2.1.2.tar.gz]
+[2023-06-15 01:10:07] INFO root fetch - processPackages [invoke]: Remove: archive file [/home/abi/fetcher/tmp/invoke-2.1.3.tar.gz]
+[2023-06-15 01:10:07] INFO root fetch - main [MainThread]: End processing [invoke]: success
+[2023-06-15 01:10:07] INFO root fetch - processPackages [Firenado]: Remove: archive file [/home/abi/fetcher/tmp/Firenado-0.9.0a1.tar.gz]
+[2023-06-15 01:10:07] INFO root fetch - processPackages [Firenado]: Remove: archive file [/home/abi/fetcher/tmp/Firenado-0.9.0a2.tar.gz]
+[2023-06-15 01:10:07] INFO root fetch - main [MainThread]: End processing [Firenado]: success
+[2023-06-15 01:10:10] INFO root fetch - processPackages [pulumi-kubernetes]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kubernetes-3.8.3.tar.gz]
+[2023-06-15 01:10:10] INFO root fetch - processPackages [pulumi-kubernetes]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kubernetes-3.9.0.tar.gz]
+[2023-06-15 01:10:10] INFO root fetch - main [MainThread]: End processing [pulumi-kubernetes]: success
+[2023-06-15 01:10:10] INFO root fetch - processPackages [pysamosa]: Remove: archive file [/home/abi/fetcher/tmp/pysamosa-0.2.12.tar.gz]
+[2023-06-15 01:10:10] INFO root fetch - processPackages [pysamosa]: Remove: archive file [/home/abi/fetcher/tmp/pysamosa-0.2.13.tar.gz]
+[2023-06-15 01:10:10] INFO root fetch - main [MainThread]: End processing [pysamosa]: success
+[2023-06-15 01:10:11] INFO root fetch - main [MainThread]: End processing [pulumi-kubernetes]: success
+[2023-06-15 01:10:11] INFO root fetch - main [MainThread]: Store serial: [18508045]
