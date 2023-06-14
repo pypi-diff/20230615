@@ -1632,3 +1632,68 @@
 [2023-06-15 01:28:30] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-0.7.5.dev9.tar.gz]
 [2023-06-15 01:28:30] INFO root fetch - main [MainThread]: End processing [coiled]: success
 [2023-06-15 01:28:30] INFO root fetch - main [MainThread]: Store serial: [18508138]
+[2023-06-15 01:33:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18508138]
+[2023-06-15 01:33:38] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-15 01:33:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-civo
+[2023-06-15 01:33:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fair-async-rlock
+[2023-06-15 01:33:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: peewee-jsonfield
+[2023-06-15 01:33:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sixth-sense
+[2023-06-15 01:33:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: thefriendlystars
+[2023-06-15 01:33:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fedml
+[2023-06-15 01:33:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: metacountregressor
+[2023-06-15 01:33:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: schem
+[2023-06-15 01:33:38] WARNING root fetch - processPackages [fair-async-rlock]: Skipping, unable to determine old version
+[2023-06-15 01:33:38] INFO root fetch - processPackages [thefriendlystars]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-15 01:33:38] INFO root fetch - main [MainThread]: End processing [fair-async-rlock] error
+[2023-06-15 01:33:38] INFO root fetch - processPackages [sixth-sense]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-15 01:33:38] INFO root fetch - processPackages [peewee-jsonfield]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-15 01:33:38] INFO root fetch - processPackages [pulumi-civo]: New version: [2.4.0a1686784153] Old Version: [2.4.0a1686633661]
+[2023-06-15 01:33:38] INFO root fetch - processPackages [fedml]: New version: [0.8.4a9] Old Version: [0.8.4a8]
+[2023-06-15 01:33:38] INFO root fetch - processPackages [metacountregressor]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-15 01:33:38] INFO root fetch - processPackages [thefriendlystars]: Downloading https://files.pythonhosted.org/packages/90/3e/c3a5f6aae6f79b24045179dc7a143b2adc321460ea21ee5f529815c2e8eb/thefriendlystars-0.1.1.tar.gz
+[2023-06-15 01:33:39] INFO root fetch - processPackages [fedml]: Downloading https://files.pythonhosted.org/packages/2d/89/5e240b8c4bde2ab2881929287116b110fb3b2f843b4e4943c85367ef9518/fedml-0.8.4a8.tar.gz
+[2023-06-15 01:33:39] INFO root fetch - processPackages [metacountregressor]: Downloading https://files.pythonhosted.org/packages/1c/21/17f6874490c31d7499bd086b94c5c0c4f213a617577d5f498e8d3bc4987f/metacountregressor-0.1.8-py3-none-any.whl
+[2023-06-15 01:33:39] INFO root fetch - processPackages [schem]: New version: [0.9.7] Old Version: [0.9.6]
+[2023-06-15 01:33:39] WARNING root fetch - processPackages [metacountregressor]: Skipping package: exceeds size limit 13883266>=10485760
+[2023-06-15 01:33:39] INFO root fetch - main [MainThread]: End processing [metacountregressor] error
+[2023-06-15 01:33:39] INFO root fetch - processPackages [peewee-jsonfield]: Downloading https://files.pythonhosted.org/packages/a5/51/ec0618313d21040d7f933b720d39011b7d2743cb336c52a9abc44205bcc7/peewee-jsonfield-0.0.2.tar.gz
+[2023-06-15 01:33:39] INFO root fetch - processPackages [fedml]: Downloading https://files.pythonhosted.org/packages/33/9b/be9e98195d0e435792d20db883ee2ae3f9b661f8bc6a8d98bb9c8a460195/fedml-0.8.4a9.tar.gz
+[2023-06-15 01:33:39] INFO root fetch - processPackages [sixth-sense]: Downloading https://files.pythonhosted.org/packages/eb/b8/dae9755a61cb624a5a0fe71e76efe434cbed8340082296fed5301c7dc228/sixth-sense-0.0.3.tar.gz
+[2023-06-15 01:33:39] INFO root fetch - processPackages [pulumi-civo]: Downloading https://files.pythonhosted.org/packages/13/7c/10aafc06793d22bfde7f8e9de46dc81027a22631a1ff92fea7bbed3288ba/pulumi_civo-2.4.0a1686633661.tar.gz
+[2023-06-15 01:33:39] INFO root fetch - processPackages [fedml]: executing diffoscope
+[2023-06-15 01:33:39] INFO root fetch - processPackages [fedml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fedml-0.8.4a8.tar.gz tmp/fedml-0.8.4a9.tar.gz --markdown 20230615/f/fedml/0.8.4a8-0.8.4a9/diff.md --exclude *.pyd
+[2023-06-15 01:33:39] INFO root fetch - processPackages [schem]: Downloading https://files.pythonhosted.org/packages/42/66/1f4d8683198245612ee7a5e2a5765967f8071b00874015ec0001a1923ae1/schem-0.9.6.tar.gz
+[2023-06-15 01:33:39] INFO root fetch - processPackages [thefriendlystars]: Downloading https://files.pythonhosted.org/packages/17/49/3d07eb0310239c6b9e5df660ae4c0098b73b527474d68720fbcd7fb23221/thefriendlystars-0.1.2.tar.gz
+[2023-06-15 01:33:39] INFO root fetch - processPackages [peewee-jsonfield]: Downloading https://files.pythonhosted.org/packages/17/5e/9d9e6fdf060eea381e2b522c06ea75ad10a0ab51f302e6f1c8eb29f7fd4f/peewee-jsonfield-0.0.3.tar.gz
+[2023-06-15 01:33:39] INFO root fetch - processPackages [peewee-jsonfield]: executing diffoscope
+[2023-06-15 01:33:39] INFO root fetch - processPackages [peewee-jsonfield]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/peewee-jsonfield-0.0.2.tar.gz tmp/peewee-jsonfield-0.0.3.tar.gz --markdown 20230615/p/peewee-jsonfield/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-15 01:33:39] INFO root fetch - processPackages [sixth-sense]: Downloading https://files.pythonhosted.org/packages/1e/39/ec9db465243636240b0a8edbe927b6ebfc49c8a6cb8430f1f99bfab09c3d/sixth-sense-0.0.4.tar.gz
+[2023-06-15 01:33:39] INFO root fetch - processPackages [pulumi-civo]: Downloading https://files.pythonhosted.org/packages/52/05/526fea1baaafe2c122a403a372f4b47315d49bd6873f822a750bb7c7d87d/pulumi_civo-2.4.0a1686784153.tar.gz
+[2023-06-15 01:33:39] INFO root fetch - processPackages [thefriendlystars]: executing diffoscope
+[2023-06-15 01:33:39] INFO root fetch - processPackages [thefriendlystars]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thefriendlystars-0.1.1.tar.gz tmp/thefriendlystars-0.1.2.tar.gz --markdown 20230615/t/thefriendlystars/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-15 01:33:39] INFO root fetch - processPackages [sixth-sense]: executing diffoscope
+[2023-06-15 01:33:39] INFO root fetch - processPackages [sixth-sense]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sixth-sense-0.0.3.tar.gz tmp/sixth-sense-0.0.4.tar.gz --markdown 20230615/s/sixth-sense/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-15 01:33:39] INFO root fetch - processPackages [pulumi-civo]: executing diffoscope
+[2023-06-15 01:33:39] INFO root fetch - processPackages [pulumi-civo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_civo-2.4.0a1686633661.tar.gz tmp/pulumi_civo-2.4.0a1686784153.tar.gz --markdown 20230615/p/pulumi-civo/2.4.0a1686633661-2.4.0a1686784153/diff.md --exclude *.pyd
+[2023-06-15 01:33:39] INFO root fetch - processPackages [schem]: Downloading https://files.pythonhosted.org/packages/f9/61/b544fd79215110646193a4202e32076a3acdc4c3eb43e51932fc774a93a5/schem-0.9.7.tar.gz
+[2023-06-15 01:33:40] INFO root fetch - processPackages [schem]: executing diffoscope
+[2023-06-15 01:33:40] INFO root fetch - processPackages [schem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/schem-0.9.6.tar.gz tmp/schem-0.9.7.tar.gz --markdown 20230615/s/schem/0.9.6-0.9.7/diff.md --exclude *.pyd
+[2023-06-15 01:33:40] INFO root fetch - processPackages [thefriendlystars]: Remove: archive file [/home/abi/fetcher/tmp/thefriendlystars-0.1.1.tar.gz]
+[2023-06-15 01:33:40] INFO root fetch - processPackages [thefriendlystars]: Remove: archive file [/home/abi/fetcher/tmp/thefriendlystars-0.1.2.tar.gz]
+[2023-06-15 01:33:40] INFO root fetch - main [MainThread]: End processing [thefriendlystars]: success
+[2023-06-15 01:33:40] INFO root fetch - processPackages [peewee-jsonfield]: Remove: archive file [/home/abi/fetcher/tmp/peewee-jsonfield-0.0.2.tar.gz]
+[2023-06-15 01:33:40] INFO root fetch - processPackages [peewee-jsonfield]: Remove: archive file [/home/abi/fetcher/tmp/peewee-jsonfield-0.0.3.tar.gz]
+[2023-06-15 01:33:40] INFO root fetch - main [MainThread]: End processing [peewee-jsonfield]: success
+[2023-06-15 01:33:40] INFO root fetch - processPackages [sixth-sense]: Remove: archive file [/home/abi/fetcher/tmp/sixth-sense-0.0.3.tar.gz]
+[2023-06-15 01:33:40] INFO root fetch - processPackages [sixth-sense]: Remove: archive file [/home/abi/fetcher/tmp/sixth-sense-0.0.4.tar.gz]
+[2023-06-15 01:33:40] INFO root fetch - main [MainThread]: End processing [sixth-sense]: success
+[2023-06-15 01:33:40] INFO root fetch - processPackages [pulumi-civo]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_civo-2.4.0a1686633661.tar.gz]
+[2023-06-15 01:33:40] INFO root fetch - processPackages [pulumi-civo]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_civo-2.4.0a1686784153.tar.gz]
+[2023-06-15 01:33:40] INFO root fetch - main [MainThread]: End processing [pulumi-civo]: success
+[2023-06-15 01:33:41] INFO root fetch - processPackages [schem]: Remove: archive file [/home/abi/fetcher/tmp/schem-0.9.6.tar.gz]
+[2023-06-15 01:33:41] INFO root fetch - processPackages [schem]: Remove: archive file [/home/abi/fetcher/tmp/schem-0.9.7.tar.gz]
+[2023-06-15 01:33:41] INFO root fetch - main [MainThread]: End processing [schem]: success
+[2023-06-15 01:33:50] INFO root fetch - processPackages [fedml]: Remove: archive file [/home/abi/fetcher/tmp/fedml-0.8.4a8.tar.gz]
+[2023-06-15 01:33:50] INFO root fetch - processPackages [fedml]: Remove: archive file [/home/abi/fetcher/tmp/fedml-0.8.4a9.tar.gz]
+[2023-06-15 01:33:50] INFO root fetch - main [MainThread]: End processing [fedml]: success
+[2023-06-15 01:33:50] INFO root fetch - main [MainThread]: Store serial: [18508162]
