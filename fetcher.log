@@ -82,3 +82,136 @@
 [2023-06-15 00:05:04] INFO root fetch - processPackages [Geode-Simplex]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Simplex-6.0.9-cp39-cp39-win_amd64.whl.zip]
 [2023-06-15 00:05:04] INFO root fetch - main [MainThread]: End processing [Geode-Simplex]: success
 [2023-06-15 00:05:04] INFO root fetch - main [MainThread]: Store serial: [18507391]
+[2023-06-15 00:10:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18507391]
+[2023-06-15 00:10:18] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-06-15 00:10:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyEPR-quantum
+[2023-06-15 00:10:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: neuralprophet
+[2023-06-15 00:10:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: repetita-parser
+[2023-06-15 00:10:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fese
+[2023-06-15 00:10:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dl-myo
+[2023-06-15 00:10:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ncbi-datasets-pylib
+[2023-06-15 00:10:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fedml
+[2023-06-15 00:10:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: opening-hours-py
+[2023-06-15 00:10:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bisque-metadoc
+[2023-06-15 00:10:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: aws-cdk.lambda-layer-kubectl-v23
+[2023-06-15 00:10:18] INFO root fetch - processPackages [repetita-parser]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-06-15 00:10:18] INFO root fetch - processPackages [fese]: New version: [0.2.7] Old Version: [0.1.2]
+[2023-06-15 00:10:18] INFO root fetch - processPackages [pyEPR-quantum]: New version: [0.9.0] Old Version: [0.8.5.7]
+[2023-06-15 00:10:18] INFO root fetch - processPackages [aws-cdk.lambda-layer-kubectl-v23]: New version: [2.0.8] Old Version: [2.0.7]
+[2023-06-15 00:10:18] INFO root fetch - processPackages [neuralprophet]: New version: [1.0.0rc2] Old Version: [1.0.0rc1]
+[2023-06-15 00:10:18] INFO root fetch - processPackages [bisque-metadoc]: New version: [0.6.3.26] Old Version: [0.6.3.25]
+[2023-06-15 00:10:18] INFO root fetch - processPackages [fedml]: New version: [0.8.4a9] Old Version: [0.8.4a8]
+[2023-06-15 00:10:18] INFO root fetch - processPackages [opening-hours-py]: New version: [0.6.9] Old Version: [0.6.7]
+[2023-06-15 00:10:18] INFO root fetch - processPackages [dl-myo]: New version: [0.2.0] Old Version: [0.1.6]
+[2023-06-15 00:10:18] INFO root fetch - processPackages [ncbi-datasets-pylib]: New version: [9.1.0] Old Version: [9.0.0]
+[2023-06-15 00:10:18] INFO root fetch - processPackages [fedml]: Downloading https://files.pythonhosted.org/packages/2d/89/5e240b8c4bde2ab2881929287116b110fb3b2f843b4e4943c85367ef9518/fedml-0.8.4a8.tar.gz
+[2023-06-15 00:10:19] INFO root fetch - processPackages [fedml]: Downloading https://files.pythonhosted.org/packages/33/9b/be9e98195d0e435792d20db883ee2ae3f9b661f8bc6a8d98bb9c8a460195/fedml-0.8.4a9.tar.gz
+[2023-06-15 00:10:19] INFO root fetch - processPackages [fese]: Downloading https://files.pythonhosted.org/packages/55/35/e75f209244dbf9afdf8cac88bf24fb411b9952d6731a75befe6d6cadb4f2/fese-0.1.2.tar.gz
+[2023-06-15 00:10:19] INFO root fetch - processPackages [pyEPR-quantum]: Downloading https://files.pythonhosted.org/packages/de/bb/665cf27dd984f4716df02e7d51c18b7b09ffb1137f4ed3816b8a0169401b/pyEPR-quantum-0.8.5.7.tar.gz
+[2023-06-15 00:10:19] INFO root fetch - processPackages [repetita-parser]: Downloading https://files.pythonhosted.org/packages/17/53/6ffd9d65ed67f0d7380ee63e4d55112e1a023efd7879f7b6e608315d94a2/repetita_parser-1.0.2.tar.gz
+[2023-06-15 00:10:19] INFO root fetch - processPackages [dl-myo]: Downloading https://files.pythonhosted.org/packages/0a/c2/885a88cee96ca0414ddfb0c55e0ce42462e5520a661e23a22f70f328f31d/dl_myo-0.1.6.tar.gz
+[2023-06-15 00:10:19] INFO root fetch - processPackages [neuralprophet]: Downloading https://files.pythonhosted.org/packages/72/e4/d977308f1acbedbe2ee0e42be9e186d046292ebb0843c0aefbd35121caeb/neuralprophet-1.0.0rc1.tar.gz
+[2023-06-15 00:10:19] INFO root fetch - processPackages [bisque-metadoc]: Downloading https://files.pythonhosted.org/packages/71/00/629429c0abad4402209f88b4d07df5c21feccde6346f682b86b177e669dd/bisque_metadoc-0.6.3.25-py3-none-any.whl
+[2023-06-15 00:10:19] INFO root fetch - processPackages [aws-cdk.lambda-layer-kubectl-v23]: Downloading https://files.pythonhosted.org/packages/24/5f/b9bf1b588f2b15e8195e1d3a4133b28e4f112a76583040ccbfc4d21110cf/aws-cdk.lambda-layer-kubectl-v23-2.0.7.tar.gz
+[2023-06-15 00:10:19] INFO root fetch - processPackages [opening-hours-py]: Downloading https://files.pythonhosted.org/packages/9e/ab/159c3f49396c138f2301052a6fe178b1515a6064108bec0f971c33480b9f/opening_hours_py-0.6.7.tar.gz
+[2023-06-15 00:10:19] INFO root fetch - processPackages [ncbi-datasets-pylib]: Downloading https://files.pythonhosted.org/packages/ff/d0/5c7c45e275e2c71c22acb9f315a1cbcd706e71659505e30a22bec4a2632b/ncbi-datasets-pylib-9.0.0.tar.gz
+[2023-06-15 00:10:19] INFO root fetch - processPackages [fedml]: executing diffoscope
+[2023-06-15 00:10:19] INFO root fetch - processPackages [fedml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fedml-0.8.4a8.tar.gz tmp/fedml-0.8.4a9.tar.gz --markdown 20230615/f/fedml/0.8.4a8-0.8.4a9/diff.md --exclude *.pyd
+[2023-06-15 00:10:19] INFO root fetch - processPackages [repetita-parser]: executing diffoscope
+[2023-06-15 00:10:19] INFO root fetch - processPackages [repetita-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/repetita_parser-1.0.1.tar.gz tmp/repetita_parser-1.0.2.tar.gz --markdown 20230615/r/repetita-parser/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-06-15 00:10:19] INFO root fetch - processPackages [dl-myo]: Downloading https://files.pythonhosted.org/packages/56/66/3f3cc512ef65a5ffa7fa30c712a936ca4d1444921d835f92d2276dc5eb74/dl_myo-0.2.0.tar.gz
+[2023-06-15 00:10:19] INFO root fetch - processPackages [ncbi-datasets-pylib]: Downloading https://files.pythonhosted.org/packages/77/91/854e74c2b35a5a11892b0eae72690c8d49d04f38f57cbc2a7868200881dd/ncbi-datasets-pylib-9.1.0.tar.gz
+[2023-06-15 00:10:19] INFO root fetch - processPackages [pyEPR-quantum]: Downloading https://files.pythonhosted.org/packages/28/8c/7c113048c73525a5695a42ea3481cc47be72412ea9ed139e052783e581cf/pyEPR-quantum-0.9.0.tar.gz
+[2023-06-15 00:10:19] INFO root fetch - processPackages [bisque-metadoc]: Downloading https://files.pythonhosted.org/packages/0e/f9/4a18b152680e8cf41deb7404d5b5ef025289f688637f2c24d23f5601663c/bisque_metadoc-0.6.3.26-py3-none-any.whl
+[2023-06-15 00:10:19] INFO root fetch - processPackages [fese]: Downloading https://files.pythonhosted.org/packages/2f/a1/df58c6688261fbd14364942c0c5ff148eb63f9dbf970d3add7059641e2e3/fese-0.2.7.tar.gz
+[2023-06-15 00:10:19] INFO root fetch - processPackages [opening-hours-py]: Downloading https://files.pythonhosted.org/packages/5c/9f/9a0f0a9fbe30a88c46865315d40be20b5dc0d6cd673a8195cb3ba7ec19b6/opening_hours_py-0.6.9.tar.gz
+[2023-06-15 00:10:19] INFO root fetch - processPackages [dl-myo]: executing diffoscope
+[2023-06-15 00:10:19] INFO root fetch - processPackages [dl-myo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dl_myo-0.1.6.tar.gz tmp/dl_myo-0.2.0.tar.gz --markdown 20230615/d/dl-myo/0.1.6-0.2.0/diff.md --exclude *.pyd
+[2023-06-15 00:10:19] INFO root fetch - processPackages [neuralprophet]: Downloading https://files.pythonhosted.org/packages/99/bf/4b4d52d588fc0a43cdca4683f0b8b82b553554ad5aa3532d732eab6fd42b/neuralprophet-1.0.0rc2.tar.gz
+[2023-06-15 00:10:19] WARNING root fetch - processPackages [aws-cdk.lambda-layer-kubectl-v23]: Skipping package: exceeds size limit 27240259>=10485760
+[2023-06-15 00:10:19] INFO root fetch - processPackages [aws-cdk.lambda-layer-kubectl-v23]: Start processing: pepperize.cdk-serverless-cluster-from-snapshot
+[2023-06-15 00:10:19] INFO root fetch - main [MainThread]: End processing [aws-cdk.lambda-layer-kubectl-v23] error
+[2023-06-15 00:10:19] INFO root fetch - processPackages [opening-hours-py]: executing diffoscope
+[2023-06-15 00:10:19] INFO root fetch - processPackages [opening-hours-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opening_hours_py-0.6.7.tar.gz tmp/opening_hours_py-0.6.9.tar.gz --markdown 20230615/o/opening-hours-py/0.6.7-0.6.9/diff.md --exclude *.pyd
+[2023-06-15 00:10:19] INFO root fetch - processPackages [ncbi-datasets-pylib]: executing diffoscope
+[2023-06-15 00:10:19] INFO root fetch - processPackages [ncbi-datasets-pylib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ncbi-datasets-pylib-9.0.0.tar.gz tmp/ncbi-datasets-pylib-9.1.0.tar.gz --markdown 20230615/n/ncbi-datasets-pylib/9.0.0-9.1.0/diff.md --exclude *.pyd
+[2023-06-15 00:10:19] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-15 00:10:19] INFO root fetch - processPackages [fese]: executing diffoscope
+[2023-06-15 00:10:19] INFO root fetch - processPackages [fese]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fese-0.1.2.tar.gz tmp/fese-0.2.7.tar.gz --markdown 20230615/f/fese/0.1.2-0.2.7/diff.md --exclude *.pyd
+[2023-06-15 00:10:19] INFO root fetch - processPackages [bisque-metadoc]: executing diffoscope
+[2023-06-15 00:10:19] INFO root fetch - processPackages [bisque-metadoc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bisque_metadoc-0.6.3.25-py3-none-any.whl.zip tmp/bisque_metadoc-0.6.3.26-py3-none-any.whl.zip --markdown 20230615/b/bisque-metadoc/0.6.3.25-0.6.3.26/diff.md --exclude *.pyd
+[2023-06-15 00:10:19] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: Downloading https://files.pythonhosted.org/packages/41/ed/5efe219dc09a3767781b18e59998e46265479245ef5e56798033e654efe2/pepperize.cdk-serverless-cluster-from-snapshot-0.0.98.tar.gz
+[2023-06-15 00:10:19] INFO root fetch - processPackages [neuralprophet]: executing diffoscope
+[2023-06-15 00:10:19] INFO root fetch - processPackages [neuralprophet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neuralprophet-1.0.0rc1.tar.gz tmp/neuralprophet-1.0.0rc2.tar.gz --markdown 20230615/n/neuralprophet/1.0.0rc1-1.0.0rc2/diff.md --exclude *.pyd
+[2023-06-15 00:10:19] INFO root fetch - processPackages [pyEPR-quantum]: executing diffoscope
+[2023-06-15 00:10:19] INFO root fetch - processPackages [pyEPR-quantum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyEPR-quantum-0.8.5.7.tar.gz tmp/pyEPR-quantum-0.9.0.tar.gz --markdown 20230615/p/pyEPR-quantum/0.8.5.7-0.9.0/diff.md --exclude *.pyd
+[2023-06-15 00:10:19] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: Downloading https://files.pythonhosted.org/packages/0a/e1/974dfac343666db334bd3dc6b819d5e46e3769ce75e9baccd0067702f4ad/pepperize.cdk-serverless-cluster-from-snapshot-0.0.99.tar.gz
+[2023-06-15 00:10:19] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: executing diffoscope
+[2023-06-15 00:10:19] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-serverless-cluster-from-snapshot-0.0.98.tar.gz tmp/pepperize.cdk-serverless-cluster-from-snapshot-0.0.99.tar.gz --markdown 20230615/p/pepperize.cdk-serverless-cluster-from-snapshot/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-15 00:10:21] INFO root fetch - processPackages [dl-myo]: Remove: archive file [/home/abi/fetcher/tmp/dl_myo-0.1.6.tar.gz]
+[2023-06-15 00:10:21] INFO root fetch - processPackages [dl-myo]: Remove: archive file [/home/abi/fetcher/tmp/dl_myo-0.2.0.tar.gz]
+[2023-06-15 00:10:21] INFO root fetch - processPackages [dl-myo]: Start processing: csdid
+[2023-06-15 00:10:21] INFO root fetch - main [MainThread]: End processing [dl-myo]: success
+[2023-06-15 00:10:21] INFO root fetch - processPackages [csdid]: New version: [0.1.53] Old Version: [0.1.52]
+[2023-06-15 00:10:21] INFO root fetch - processPackages [csdid]: Downloading https://files.pythonhosted.org/packages/1d/d9/05ea9c75a090e876f24e98120b7b3700f1e055c1720ab63581f85eb2c31c/csdid-0.1.52.tar.gz
+[2023-06-15 00:10:21] INFO root fetch - processPackages [bisque-metadoc]: Remove: archive file [/home/abi/fetcher/tmp/bisque_metadoc-0.6.3.25-py3-none-any.whl.zip]
+[2023-06-15 00:10:21] INFO root fetch - processPackages [bisque-metadoc]: Remove: archive file [/home/abi/fetcher/tmp/bisque_metadoc-0.6.3.26-py3-none-any.whl.zip]
+[2023-06-15 00:10:21] INFO root fetch - processPackages [bisque-metadoc]: Start processing: laminci
+[2023-06-15 00:10:21] INFO root fetch - main [MainThread]: End processing [bisque-metadoc]: success
+[2023-06-15 00:10:21] INFO root fetch - processPackages [laminci]: New version: [0.6.7] Old Version: [0.6.6]
+[2023-06-15 00:10:21] INFO root fetch - processPackages [repetita-parser]: Remove: archive file [/home/abi/fetcher/tmp/repetita_parser-1.0.1.tar.gz]
+[2023-06-15 00:10:21] INFO root fetch - processPackages [repetita-parser]: Remove: archive file [/home/abi/fetcher/tmp/repetita_parser-1.0.2.tar.gz]
+[2023-06-15 00:10:21] INFO root fetch - processPackages [repetita-parser]: Start processing: hoppr
+[2023-06-15 00:10:21] INFO root fetch - main [MainThread]: End processing [repetita-parser]: success
+[2023-06-15 00:10:21] INFO root fetch - processPackages [hoppr]: New version: [1.8.6] Old Version: [1.8.5]
+[2023-06-15 00:10:21] INFO root fetch - processPackages [csdid]: Downloading https://files.pythonhosted.org/packages/90/7a/e70eb65725eaca6dc60eae4a9074a5bcfe001e1f5389b5aea953b63804c0/csdid-0.1.53.tar.gz
+[2023-06-15 00:10:21] INFO root fetch - processPackages [fese]: Remove: archive file [/home/abi/fetcher/tmp/fese-0.1.2.tar.gz]
+[2023-06-15 00:10:21] INFO root fetch - processPackages [fese]: Remove: archive file [/home/abi/fetcher/tmp/fese-0.2.7.tar.gz]
+[2023-06-15 00:10:21] INFO root fetch - processPackages [fese]: Start processing: hydrofunctions
+[2023-06-15 00:10:21] INFO root fetch - main [MainThread]: End processing [fese]: success
+[2023-06-15 00:10:21] INFO root fetch - processPackages [pyEPR-quantum]: Remove: archive file [/home/abi/fetcher/tmp/pyEPR-quantum-0.8.5.7.tar.gz]
+[2023-06-15 00:10:21] INFO root fetch - processPackages [pyEPR-quantum]: Remove: archive file [/home/abi/fetcher/tmp/pyEPR-quantum-0.9.0.tar.gz]
+[2023-06-15 00:10:21] INFO root fetch - main [MainThread]: End processing [pyEPR-quantum]: success
+[2023-06-15 00:10:21] INFO root fetch - processPackages [hydrofunctions]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-06-15 00:10:21] INFO root fetch - processPackages [laminci]: Downloading https://files.pythonhosted.org/packages/2b/b7/8e28b2b152398c1c6d0933d10ddbb6cb7f43041c841224e59fbb438dde85/laminci-0.6.6.tar.gz
+[2023-06-15 00:10:21] INFO root fetch - processPackages [csdid]: executing diffoscope
+[2023-06-15 00:10:21] INFO root fetch - processPackages [csdid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/csdid-0.1.52.tar.gz tmp/csdid-0.1.53.tar.gz --markdown 20230615/c/csdid/0.1.52-0.1.53/diff.md --exclude *.pyd
+[2023-06-15 00:10:21] INFO root fetch - processPackages [hoppr]: Downloading https://files.pythonhosted.org/packages/c6/2e/6e06e734b6db3485fe7d44bdf78937e4de2d860cae7233e48661dbd5ad46/hoppr-1.8.5.tar.gz
+[2023-06-15 00:10:21] INFO root fetch - processPackages [neuralprophet]: Remove: archive file [/home/abi/fetcher/tmp/neuralprophet-1.0.0rc1.tar.gz]
+[2023-06-15 00:10:21] INFO root fetch - processPackages [neuralprophet]: Remove: archive file [/home/abi/fetcher/tmp/neuralprophet-1.0.0rc2.tar.gz]
+[2023-06-15 00:10:21] INFO root fetch - main [MainThread]: End processing [neuralprophet]: success
+[2023-06-15 00:10:21] INFO root fetch - processPackages [ncbi-datasets-pylib]: Remove: archive file [/home/abi/fetcher/tmp/ncbi-datasets-pylib-9.0.0.tar.gz]
+[2023-06-15 00:10:21] INFO root fetch - processPackages [ncbi-datasets-pylib]: Remove: archive file [/home/abi/fetcher/tmp/ncbi-datasets-pylib-9.1.0.tar.gz]
+[2023-06-15 00:10:21] INFO root fetch - main [MainThread]: End processing [ncbi-datasets-pylib]: success
+[2023-06-15 00:10:21] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-serverless-cluster-from-snapshot-0.0.98.tar.gz]
+[2023-06-15 00:10:21] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-serverless-cluster-from-snapshot-0.0.99.tar.gz]
+[2023-06-15 00:10:21] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-serverless-cluster-from-snapshot]: success
+[2023-06-15 00:10:21] INFO root fetch - processPackages [hydrofunctions]: Downloading https://files.pythonhosted.org/packages/b6/a7/657961d0b7186918f055d73f68f90f208b2f13fdc8365b563a45f9671cfe/hydrofunctions-0.2.2.tar.gz
+[2023-06-15 00:10:21] INFO root fetch - processPackages [laminci]: Downloading https://files.pythonhosted.org/packages/11/df/413f29d1b20da4b63433c9f1db8725dbf32cfcfc408532f191c63660f011/laminci-0.6.7.tar.gz
+[2023-06-15 00:10:21] INFO root fetch - processPackages [hoppr]: Downloading https://files.pythonhosted.org/packages/92/c1/53be4b10e712e9868f756c2f5abced7fda03da222c524fa0ccd9ecc8a333/hoppr-1.8.6.tar.gz
+[2023-06-15 00:10:21] INFO root fetch - processPackages [laminci]: executing diffoscope
+[2023-06-15 00:10:21] INFO root fetch - processPackages [laminci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/laminci-0.6.6.tar.gz tmp/laminci-0.6.7.tar.gz --markdown 20230615/l/laminci/0.6.6-0.6.7/diff.md --exclude *.pyd
+[2023-06-15 00:10:21] INFO root fetch - processPackages [hoppr]: executing diffoscope
+[2023-06-15 00:10:21] INFO root fetch - processPackages [hoppr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hoppr-1.8.5.tar.gz tmp/hoppr-1.8.6.tar.gz --markdown 20230615/h/hoppr/1.8.5-1.8.6/diff.md --exclude *.pyd
+[2023-06-15 00:10:22] INFO root fetch - processPackages [csdid]: Remove: archive file [/home/abi/fetcher/tmp/csdid-0.1.52.tar.gz]
+[2023-06-15 00:10:22] INFO root fetch - processPackages [csdid]: Remove: archive file [/home/abi/fetcher/tmp/csdid-0.1.53.tar.gz]
+[2023-06-15 00:10:22] INFO root fetch - main [MainThread]: End processing [csdid]: success
+[2023-06-15 00:10:22] INFO root fetch - processPackages [laminci]: Remove: archive file [/home/abi/fetcher/tmp/laminci-0.6.6.tar.gz]
+[2023-06-15 00:10:22] INFO root fetch - processPackages [laminci]: Remove: archive file [/home/abi/fetcher/tmp/laminci-0.6.7.tar.gz]
+[2023-06-15 00:10:22] INFO root fetch - main [MainThread]: End processing [laminci]: success
+[2023-06-15 00:10:23] INFO root fetch - processPackages [hoppr]: Remove: archive file [/home/abi/fetcher/tmp/hoppr-1.8.5.tar.gz]
+[2023-06-15 00:10:23] INFO root fetch - processPackages [hoppr]: Remove: archive file [/home/abi/fetcher/tmp/hoppr-1.8.6.tar.gz]
+[2023-06-15 00:10:23] INFO root fetch - main [MainThread]: End processing [hoppr]: success
+[2023-06-15 00:10:24] INFO root fetch - processPackages [opening-hours-py]: Remove: archive file [/home/abi/fetcher/tmp/opening_hours_py-0.6.7.tar.gz]
+[2023-06-15 00:10:24] INFO root fetch - processPackages [opening-hours-py]: Remove: archive file [/home/abi/fetcher/tmp/opening_hours_py-0.6.9.tar.gz]
+[2023-06-15 00:10:24] INFO root fetch - main [MainThread]: End processing [opening-hours-py]: success
+[2023-06-15 00:10:24] INFO root fetch - processPackages [hydrofunctions]: Downloading https://files.pythonhosted.org/packages/a6/53/047306dce181ec5029c6c20861e73c1b3e213153c8548701a560d7752f16/hydrofunctions-0.2.3.tar.gz
+[2023-06-15 00:10:24] INFO root fetch - processPackages [hydrofunctions]: executing diffoscope
+[2023-06-15 00:10:24] INFO root fetch - processPackages [hydrofunctions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hydrofunctions-0.2.2.tar.gz tmp/hydrofunctions-0.2.3.tar.gz --markdown 20230615/h/hydrofunctions/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-06-15 00:10:27] INFO root fetch - processPackages [hydrofunctions]: Remove: archive file [/home/abi/fetcher/tmp/hydrofunctions-0.2.2.tar.gz]
+[2023-06-15 00:10:27] INFO root fetch - processPackages [hydrofunctions]: Remove: archive file [/home/abi/fetcher/tmp/hydrofunctions-0.2.3.tar.gz]
+[2023-06-15 00:10:27] INFO root fetch - main [MainThread]: End processing [hydrofunctions]: success
+[2023-06-15 00:10:30] INFO root fetch - processPackages [fedml]: Remove: archive file [/home/abi/fetcher/tmp/fedml-0.8.4a8.tar.gz]
+[2023-06-15 00:10:30] INFO root fetch - processPackages [fedml]: Remove: archive file [/home/abi/fetcher/tmp/fedml-0.8.4a9.tar.gz]
+[2023-06-15 00:10:30] INFO root fetch - main [MainThread]: End processing [fedml]: success
+[2023-06-15 00:10:30] INFO root fetch - main [MainThread]: Store serial: [18507512]
