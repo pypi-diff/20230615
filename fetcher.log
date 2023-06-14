@@ -1145,3 +1145,135 @@
 [2023-06-15 00:59:37] INFO root fetch - processPackages [pdpilot]: Remove: archive file [/home/abi/fetcher/tmp/pdpilot-0.5.0.tar.gz]
 [2023-06-15 00:59:37] INFO root fetch - main [MainThread]: End processing [pdpilot]: success
 [2023-06-15 00:59:37] INFO root fetch - main [MainThread]: Store serial: [18507966]
+[2023-06-15 01:04:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18507966]
+[2023-06-15 01:04:47] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-06-15 01:04:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tutor-minio
+[2023-06-15 01:04:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kultimate
+[2023-06-15 01:04:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: digautoprofiler
+[2023-06-15 01:04:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: DjAIoT
+[2023-06-15 01:04:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pytest-cppython
+[2023-06-15 01:04:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: graphkb
+[2023-06-15 01:04:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tmnt-cu101
+[2023-06-15 01:04:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bs-orm
+[2023-06-15 01:04:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tmnt
+[2023-06-15 01:04:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: flwr-nightly
+[2023-06-15 01:04:47] INFO root fetch - processPackages [digautoprofiler]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-06-15 01:04:47] WARNING root fetch - processPackages [DjAIoT]: Skipping, unable to determine old version
+[2023-06-15 01:04:47] INFO root fetch - processPackages [DjAIoT]: Start processing: tutor-discovery
+[2023-06-15 01:04:47] INFO root fetch - main [MainThread]: End processing [DjAIoT] error
+[2023-06-15 01:04:47] INFO root fetch - processPackages [kultimate]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-15 01:04:47] INFO root fetch - processPackages [graphkb]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-06-15 01:04:47] INFO root fetch - processPackages [tutor-minio]: New version: [16.0.0] Old Version: [15.1.0]
+[2023-06-15 01:04:47] INFO root fetch - processPackages [pytest-cppython]: New version: [0.3.1.dev9] Old Version: [0.3.1.dev8]
+[2023-06-15 01:04:47] INFO root fetch - processPackages [bs-orm]: New version: [0.8.5.post20230615] Old Version: [0.8.4.post20230615]
+[2023-06-15 01:04:47] INFO root fetch - processPackages [tmnt-cu101]: New version: [0.7.0b20230614] Old Version: [0.7.0b20230613]
+[2023-06-15 01:04:47] INFO root fetch - processPackages [tutor-discovery]: New version: [16.0.0] Old Version: [15.0.0]
+[2023-06-15 01:04:47] INFO root fetch - processPackages [tmnt]: New version: [0.7.0b20230614] Old Version: [0.7.0b20230613]
+[2023-06-15 01:04:47] INFO root fetch - processPackages [kultimate]: Downloading https://files.pythonhosted.org/packages/8e/c2/4f8700504e29db2512cf34ae575ce5c3e24f9931c64343a437da70ee82de/kultimate-0.1.1.tar.gz
+[2023-06-15 01:04:47] INFO root fetch - processPackages [flwr-nightly]: New version: [1.5.0.dev20230614] Old Version: [1.5.0.dev20230608]
+[2023-06-15 01:04:47] INFO root fetch - processPackages [bs-orm]: Downloading https://files.pythonhosted.org/packages/f9/da/8d716563ac174872a01918908a0225cb6cf48bddcef34124f010c583d65b/bs_orm-0.8.4.post20230615.tar.gz
+[2023-06-15 01:04:47] INFO root fetch - processPackages [tmnt]: Downloading https://files.pythonhosted.org/packages/f1/7f/296109b02bdcedbcd9344659552c09c96bde764f2a848e4803b1c994c9e6/tmnt-0.7.0b20230613.tar.gz
+[2023-06-15 01:04:47] INFO root fetch - processPackages [digautoprofiler]: Downloading https://files.pythonhosted.org/packages/a7/50/a6ce21e2d7a21bb47b549d616cc7124e899005bb6e4b869b7eae807b2583/digautoprofiler-1.0.1.tar.gz
+[2023-06-15 01:04:47] INFO root fetch - processPackages [graphkb]: Downloading https://files.pythonhosted.org/packages/b1/a6/acad53361089bdb88aa43be98227f209f27904eabbd59f2135c92448a272/graphkb-1.8.0.tar.gz
+[2023-06-15 01:04:47] INFO root fetch - processPackages [tutor-minio]: Downloading https://files.pythonhosted.org/packages/dd/a7/8ff2500a50f22eab02695507ab9ebf58bea7e2039593cf69f780cc092014/tutor-minio-15.1.0.tar.gz
+[2023-06-15 01:04:47] INFO root fetch - processPackages [tmnt-cu101]: Downloading https://files.pythonhosted.org/packages/a6/3c/a6d62eb55e88df42ddf14bf06c4975e1f9f6c94600edcb3f8df035bd89a0/tmnt-cu101-0.7.0b20230613.tar.gz
+[2023-06-15 01:04:47] INFO root fetch - processPackages [pytest-cppython]: Downloading https://files.pythonhosted.org/packages/50/17/cd61eaac6d0346f14f9180283d107b121a87408603154fe7ce9ec7771a41/pytest-cppython-0.3.1.dev8.tar.gz
+[2023-06-15 01:04:47] INFO root fetch - processPackages [tutor-discovery]: Downloading https://files.pythonhosted.org/packages/f1/c9/d5a70ee090b1bdc072f3659affa3be6ab97d78ec59e7662bb840230ca1bc/tutor-discovery-15.0.0.tar.gz
+[2023-06-15 01:04:47] INFO root fetch - processPackages [kultimate]: Downloading https://files.pythonhosted.org/packages/89/83/bc5d7c84add83a80e39622cb106c382a74354baa1800c98ca3c354de2773/kultimate-0.1.2.tar.gz
+[2023-06-15 01:04:47] INFO root fetch - processPackages [bs-orm]: Downloading https://files.pythonhosted.org/packages/5e/2b/b59289f195724076e0593dc3bd2d18c7ecd8911c0153984e0bfe6cd6193f/bs_orm-0.8.5.post20230615.tar.gz
+[2023-06-15 01:04:47] INFO root fetch - processPackages [flwr-nightly]: Downloading https://files.pythonhosted.org/packages/50/6f/7f62d8c34568c2154746754467e50bca463c9a2775de4507b0a9761bb901/flwr_nightly-1.5.0.dev20230608.tar.gz
+[2023-06-15 01:04:47] INFO root fetch - processPackages [kultimate]: executing diffoscope
+[2023-06-15 01:04:47] INFO root fetch - processPackages [kultimate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kultimate-0.1.1.tar.gz tmp/kultimate-0.1.2.tar.gz --markdown 20230615/k/kultimate/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-15 01:04:47] INFO root fetch - processPackages [bs-orm]: executing diffoscope
+[2023-06-15 01:04:47] INFO root fetch - processPackages [bs-orm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bs_orm-0.8.4.post20230615.tar.gz tmp/bs_orm-0.8.5.post20230615.tar.gz --markdown 20230615/b/bs-orm/0.8.4.post20230615-0.8.5.post20230615/diff.md --exclude *.pyd
+[2023-06-15 01:04:47] INFO root fetch - processPackages [tmnt]: Downloading https://files.pythonhosted.org/packages/a3/f2/bb0b6b9037f3514f2c43bb836db6ad3ff3d1c062433cf1963f7bf00d1d14/tmnt-0.7.0b20230614.tar.gz
+[2023-06-15 01:04:47] INFO root fetch - processPackages [tutor-minio]: Downloading https://files.pythonhosted.org/packages/6e/8c/3802fea484a41255172c280a7d18cd39b7479d6002311b5c6e3fae2aa4e3/tutor-minio-16.0.0.tar.gz
+[2023-06-15 01:04:47] INFO root fetch - processPackages [tutor-discovery]: Downloading https://files.pythonhosted.org/packages/0b/21/c636fabb94b20dffaaa0b264b992c2c4e3d2b71bfae5785aadb8aa3ccfef/tutor-discovery-16.0.0.tar.gz
+[2023-06-15 01:04:47] INFO root fetch - processPackages [tmnt-cu101]: Downloading https://files.pythonhosted.org/packages/63/aa/e1b9b8471886412cf110dc24f4134fea127450ffda27a7069faf38d44137/tmnt-cu101-0.7.0b20230614.tar.gz
+[2023-06-15 01:04:47] INFO root fetch - processPackages [tutor-discovery]: executing diffoscope
+[2023-06-15 01:04:47] INFO root fetch - processPackages [tutor-discovery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tutor-discovery-15.0.0.tar.gz tmp/tutor-discovery-16.0.0.tar.gz --markdown 20230615/t/tutor-discovery/15.0.0-16.0.0/diff.md --exclude *.pyd
+[2023-06-15 01:04:47] INFO root fetch - processPackages [graphkb]: Downloading https://files.pythonhosted.org/packages/ee/0e/aa6c33a0a05ea61656f3dfa10991a9292fd2e5996dadd715694d482e0b36/graphkb-1.9.0.tar.gz
+[2023-06-15 01:04:47] INFO root fetch - processPackages [flwr-nightly]: Downloading https://files.pythonhosted.org/packages/34/13/ebfd7447193f05b8e45bec193cb1207c9ffe496ad53b278f18f8a05e043e/flwr_nightly-1.5.0.dev20230614.tar.gz
+[2023-06-15 01:04:47] INFO root fetch - processPackages [tutor-minio]: executing diffoscope
+[2023-06-15 01:04:47] INFO root fetch - processPackages [tutor-minio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tutor-minio-15.1.0.tar.gz tmp/tutor-minio-16.0.0.tar.gz --markdown 20230615/t/tutor-minio/15.1.0-16.0.0/diff.md --exclude *.pyd
+[2023-06-15 01:04:48] INFO root fetch - processPackages [tmnt]: executing diffoscope
+[2023-06-15 01:04:48] INFO root fetch - processPackages [tmnt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmnt-0.7.0b20230613.tar.gz tmp/tmnt-0.7.0b20230614.tar.gz --markdown 20230615/t/tmnt/0.7.0b20230613-0.7.0b20230614/diff.md --exclude *.pyd
+[2023-06-15 01:04:48] INFO root fetch - processPackages [pytest-cppython]: Downloading https://files.pythonhosted.org/packages/cf/01/6ca8358ce49bf463d02521876e1d436f3a17725da1ae95d114d8521a59a4/pytest-cppython-0.3.1.dev9.tar.gz
+[2023-06-15 01:04:48] INFO root fetch - processPackages [tmnt-cu101]: executing diffoscope
+[2023-06-15 01:04:48] INFO root fetch - processPackages [tmnt-cu101]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmnt-cu101-0.7.0b20230613.tar.gz tmp/tmnt-cu101-0.7.0b20230614.tar.gz --markdown 20230615/t/tmnt-cu101/0.7.0b20230613-0.7.0b20230614/diff.md --exclude *.pyd
+[2023-06-15 01:04:48] INFO root fetch - processPackages [flwr-nightly]: executing diffoscope
+[2023-06-15 01:04:48] INFO root fetch - processPackages [flwr-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flwr_nightly-1.5.0.dev20230608.tar.gz tmp/flwr_nightly-1.5.0.dev20230614.tar.gz --markdown 20230615/f/flwr-nightly/1.5.0.dev20230608-1.5.0.dev20230614/diff.md --exclude *.pyd
+[2023-06-15 01:04:48] INFO root fetch - processPackages [graphkb]: executing diffoscope
+[2023-06-15 01:04:48] INFO root fetch - processPackages [graphkb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graphkb-1.8.0.tar.gz tmp/graphkb-1.9.0.tar.gz --markdown 20230615/g/graphkb/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-06-15 01:04:48] INFO root fetch - processPackages [pytest-cppython]: executing diffoscope
+[2023-06-15 01:04:48] INFO root fetch - processPackages [pytest-cppython]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-cppython-0.3.1.dev8.tar.gz tmp/pytest-cppython-0.3.1.dev9.tar.gz --markdown 20230615/p/pytest-cppython/0.3.1.dev8-0.3.1.dev9/diff.md --exclude *.pyd
+[2023-06-15 01:04:48] INFO root fetch - processPackages [digautoprofiler]: Downloading https://files.pythonhosted.org/packages/ab/eb/10f5cc5900931e724b0b9c23ca7945cfd7773f1d1a04945dcfdec6779016/digautoprofiler-1.0.2.tar.gz
+[2023-06-15 01:04:48] INFO root fetch - processPackages [digautoprofiler]: executing diffoscope
+[2023-06-15 01:04:48] INFO root fetch - processPackages [digautoprofiler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/digautoprofiler-1.0.1.tar.gz tmp/digautoprofiler-1.0.2.tar.gz --markdown 20230615/d/digautoprofiler/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-06-15 01:04:49] INFO root fetch - processPackages [bs-orm]: Remove: archive file [/home/abi/fetcher/tmp/bs_orm-0.8.4.post20230615.tar.gz]
+[2023-06-15 01:04:49] INFO root fetch - processPackages [bs-orm]: Remove: archive file [/home/abi/fetcher/tmp/bs_orm-0.8.5.post20230615.tar.gz]
+[2023-06-15 01:04:49] INFO root fetch - processPackages [bs-orm]: Start processing: edx-enterprise-data
+[2023-06-15 01:04:49] INFO root fetch - main [MainThread]: End processing [bs-orm]: success
+[2023-06-15 01:04:49] INFO root fetch - processPackages [edx-enterprise-data]: New version: [4.6.9] Old Version: [4.6.8]
+[2023-06-15 01:04:49] INFO root fetch - processPackages [edx-enterprise-data]: Downloading https://files.pythonhosted.org/packages/8e/dd/b3ee00f7843974c5ab2702271453c2d47e6be3fc818aefd216e1e65f951a/edx-enterprise-data-4.6.8.tar.gz
+[2023-06-15 01:04:49] INFO root fetch - processPackages [kultimate]: Remove: archive file [/home/abi/fetcher/tmp/kultimate-0.1.1.tar.gz]
+[2023-06-15 01:04:49] INFO root fetch - processPackages [kultimate]: Remove: archive file [/home/abi/fetcher/tmp/kultimate-0.1.2.tar.gz]
+[2023-06-15 01:04:49] INFO root fetch - processPackages [kultimate]: Start processing: fastapi-cruddy-framework
+[2023-06-15 01:04:49] INFO root fetch - main [MainThread]: End processing [kultimate]: success
+[2023-06-15 01:04:49] INFO root fetch - processPackages [fastapi-cruddy-framework]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-15 01:04:49] INFO root fetch - processPackages [tutor-discovery]: Remove: archive file [/home/abi/fetcher/tmp/tutor-discovery-15.0.0.tar.gz]
+[2023-06-15 01:04:49] INFO root fetch - processPackages [tutor-discovery]: Remove: archive file [/home/abi/fetcher/tmp/tutor-discovery-16.0.0.tar.gz]
+[2023-06-15 01:04:49] INFO root fetch - processPackages [tutor-discovery]: Start processing: csdid
+[2023-06-15 01:04:49] INFO root fetch - main [MainThread]: End processing [tutor-discovery]: success
+[2023-06-15 01:04:49] INFO root fetch - processPackages [edx-enterprise-data]: Downloading https://files.pythonhosted.org/packages/de/a8/b96da8cf7106a713d0334514de485a504a0f97c149fc653762606a44c7b9/edx-enterprise-data-4.6.9.tar.gz
+[2023-06-15 01:04:49] INFO root fetch - processPackages [csdid]: New version: [0.1.62] Old Version: [0.1.61]
+[2023-06-15 01:04:49] INFO root fetch - processPackages [edx-enterprise-data]: executing diffoscope
+[2023-06-15 01:04:49] INFO root fetch - processPackages [edx-enterprise-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edx-enterprise-data-4.6.8.tar.gz tmp/edx-enterprise-data-4.6.9.tar.gz --markdown 20230615/e/edx-enterprise-data/4.6.8-4.6.9/diff.md --exclude *.pyd
+[2023-06-15 01:04:49] INFO root fetch - processPackages [csdid]: Downloading https://files.pythonhosted.org/packages/0a/19/ae5d12cb1bd8004260cf7ec0e0c970fdc235ca307884e36c2c97e7fabf40/csdid-0.1.61.tar.gz
+[2023-06-15 01:04:49] INFO root fetch - processPackages [fastapi-cruddy-framework]: Downloading https://files.pythonhosted.org/packages/35/25/12d956cf6a12e9b80d068639448c3168dced8b09421e2bcc9d836834b0b0/fastapi_cruddy_framework-0.0.8.tar.gz
+[2023-06-15 01:04:49] INFO root fetch - processPackages [tmnt-cu101]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-cu101-0.7.0b20230613.tar.gz]
+[2023-06-15 01:04:49] INFO root fetch - processPackages [tmnt-cu101]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-cu101-0.7.0b20230614.tar.gz]
+[2023-06-15 01:04:49] INFO root fetch - processPackages [tmnt-cu101]: Start processing: escavador
+[2023-06-15 01:04:49] INFO root fetch - main [MainThread]: End processing [tmnt-cu101]: success
+[2023-06-15 01:04:49] INFO root fetch - processPackages [escavador]: New version: [0.2.2] Old Version: [0.1.8]
+[2023-06-15 01:04:49] INFO root fetch - processPackages [csdid]: Downloading https://files.pythonhosted.org/packages/b8/1e/75d13ba6ac7e3064f447f517256b1cfb626713a5a4fd43027e44bbbb1321/csdid-0.1.62.tar.gz
+[2023-06-15 01:04:49] INFO root fetch - processPackages [escavador]: Downloading https://files.pythonhosted.org/packages/65/e2/a9a78cd4e11d82b1ac9696376eb72edb86ebd306b3e9a6ff7809874e25b1/escavador-0.1.8.tar.gz
+[2023-06-15 01:04:49] INFO root fetch - processPackages [tutor-minio]: Remove: archive file [/home/abi/fetcher/tmp/tutor-minio-15.1.0.tar.gz]
+[2023-06-15 01:04:49] INFO root fetch - processPackages [tutor-minio]: Remove: archive file [/home/abi/fetcher/tmp/tutor-minio-16.0.0.tar.gz]
+[2023-06-15 01:04:49] INFO root fetch - main [MainThread]: End processing [tutor-minio]: success
+[2023-06-15 01:04:49] INFO root fetch - processPackages [csdid]: executing diffoscope
+[2023-06-15 01:04:49] INFO root fetch - processPackages [csdid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/csdid-0.1.61.tar.gz tmp/csdid-0.1.62.tar.gz --markdown 20230615/c/csdid/0.1.61-0.1.62/diff.md --exclude *.pyd
+[2023-06-15 01:04:49] INFO root fetch - processPackages [pytest-cppython]: Remove: archive file [/home/abi/fetcher/tmp/pytest-cppython-0.3.1.dev8.tar.gz]
+[2023-06-15 01:04:49] INFO root fetch - processPackages [pytest-cppython]: Remove: archive file [/home/abi/fetcher/tmp/pytest-cppython-0.3.1.dev9.tar.gz]
+[2023-06-15 01:04:49] INFO root fetch - main [MainThread]: End processing [pytest-cppython]: success
+[2023-06-15 01:04:49] INFO root fetch - processPackages [fastapi-cruddy-framework]: Downloading https://files.pythonhosted.org/packages/42/cf/ab76e6d9347a6ad42b9fa537b6285bf61f469bcc21324b6fd6ca9edfba97/fastapi_cruddy_framework-0.0.9.tar.gz
+[2023-06-15 01:04:50] INFO root fetch - processPackages [fastapi-cruddy-framework]: executing diffoscope
+[2023-06-15 01:04:50] INFO root fetch - processPackages [fastapi-cruddy-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_cruddy_framework-0.0.8.tar.gz tmp/fastapi_cruddy_framework-0.0.9.tar.gz --markdown 20230615/f/fastapi-cruddy-framework/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-15 01:04:50] INFO root fetch - processPackages [graphkb]: Remove: archive file [/home/abi/fetcher/tmp/graphkb-1.8.0.tar.gz]
+[2023-06-15 01:04:50] INFO root fetch - processPackages [graphkb]: Remove: archive file [/home/abi/fetcher/tmp/graphkb-1.9.0.tar.gz]
+[2023-06-15 01:04:50] INFO root fetch - main [MainThread]: End processing [graphkb]: success
+[2023-06-15 01:04:50] INFO root fetch - processPackages [escavador]: Downloading https://files.pythonhosted.org/packages/43/69/325eb18d8cebf85f56c968a7354f7033cbddb1eb71f27ba1e1c007434721/escavador-0.2.2.tar.gz
+[2023-06-15 01:04:50] INFO root fetch - processPackages [tmnt]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-0.7.0b20230613.tar.gz]
+[2023-06-15 01:04:50] INFO root fetch - processPackages [tmnt]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-0.7.0b20230614.tar.gz]
+[2023-06-15 01:04:50] INFO root fetch - main [MainThread]: End processing [tmnt]: success
+[2023-06-15 01:04:50] INFO root fetch - processPackages [escavador]: executing diffoscope
+[2023-06-15 01:04:50] INFO root fetch - processPackages [escavador]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/escavador-0.1.8.tar.gz tmp/escavador-0.2.2.tar.gz --markdown 20230615/e/escavador/0.1.8-0.2.2/diff.md --exclude *.pyd
+[2023-06-15 01:04:50] INFO root fetch - processPackages [flwr-nightly]: Remove: archive file [/home/abi/fetcher/tmp/flwr_nightly-1.5.0.dev20230608.tar.gz]
+[2023-06-15 01:04:50] INFO root fetch - processPackages [flwr-nightly]: Remove: archive file [/home/abi/fetcher/tmp/flwr_nightly-1.5.0.dev20230614.tar.gz]
+[2023-06-15 01:04:50] INFO root fetch - main [MainThread]: End processing [flwr-nightly]: success
+[2023-06-15 01:04:51] INFO root fetch - processPackages [fastapi-cruddy-framework]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_cruddy_framework-0.0.8.tar.gz]
+[2023-06-15 01:04:51] INFO root fetch - processPackages [fastapi-cruddy-framework]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_cruddy_framework-0.0.9.tar.gz]
+[2023-06-15 01:04:51] INFO root fetch - main [MainThread]: End processing [fastapi-cruddy-framework]: success
+[2023-06-15 01:04:51] INFO root fetch - processPackages [csdid]: Remove: archive file [/home/abi/fetcher/tmp/csdid-0.1.61.tar.gz]
+[2023-06-15 01:04:51] INFO root fetch - processPackages [csdid]: Remove: archive file [/home/abi/fetcher/tmp/csdid-0.1.62.tar.gz]
+[2023-06-15 01:04:51] INFO root fetch - main [MainThread]: End processing [csdid]: success
+[2023-06-15 01:04:51] INFO root fetch - processPackages [edx-enterprise-data]: Remove: archive file [/home/abi/fetcher/tmp/edx-enterprise-data-4.6.8.tar.gz]
+[2023-06-15 01:04:51] INFO root fetch - processPackages [edx-enterprise-data]: Remove: archive file [/home/abi/fetcher/tmp/edx-enterprise-data-4.6.9.tar.gz]
+[2023-06-15 01:04:51] INFO root fetch - main [MainThread]: End processing [edx-enterprise-data]: success
+[2023-06-15 01:04:51] INFO root fetch - processPackages [escavador]: Remove: archive file [/home/abi/fetcher/tmp/escavador-0.1.8.tar.gz]
+[2023-06-15 01:04:51] INFO root fetch - processPackages [escavador]: Remove: archive file [/home/abi/fetcher/tmp/escavador-0.2.2.tar.gz]
+[2023-06-15 01:04:51] INFO root fetch - main [MainThread]: End processing [escavador]: success
+[2023-06-15 01:04:54] INFO root fetch - processPackages [digautoprofiler]: Remove: archive file [/home/abi/fetcher/tmp/digautoprofiler-1.0.1.tar.gz]
+[2023-06-15 01:04:54] INFO root fetch - processPackages [digautoprofiler]: Remove: archive file [/home/abi/fetcher/tmp/digautoprofiler-1.0.2.tar.gz]
+[2023-06-15 01:04:54] INFO root fetch - main [MainThread]: End processing [digautoprofiler]: success
+[2023-06-15 01:04:54] INFO root fetch - main [MainThread]: Store serial: [18508013]
