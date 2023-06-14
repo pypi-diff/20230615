@@ -1885,3 +1885,68 @@
 [2023-06-15 01:44:38] INFO root fetch - processPackages [ora2]: Remove: archive file [/home/abi/fetcher/tmp/ora2-5.0.3.tar.gz]
 [2023-06-15 01:44:38] INFO root fetch - main [MainThread]: End processing [ora2]: success
 [2023-06-15 01:44:38] INFO root fetch - main [MainThread]: Store serial: [18508250]
+[2023-06-15 01:49:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18508250]
+[2023-06-15 01:49:48] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-15 01:49:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: metacountregressor
+[2023-06-15 01:49:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aind-data-access-api
+[2023-06-15 01:49:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: laminci
+[2023-06-15 01:49:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: zeroshot
+[2023-06-15 01:49:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: topometry
+[2023-06-15 01:49:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: FlyBaseDownloads
+[2023-06-15 01:49:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fukkatsu
+[2023-06-15 01:49:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: linkml-runtime
+[2023-06-15 01:49:48] INFO root fetch - processPackages [aind-data-access-api]: New version: [0.3.0] Old Version: [0.2.1]
+[2023-06-15 01:49:48] INFO root fetch - processPackages [metacountregressor]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-15 01:49:48] INFO root fetch - processPackages [fukkatsu]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-15 01:49:48] INFO root fetch - processPackages [topometry]: New version: [0.2.0.2] Old Version: [0.2.0.1]
+[2023-06-15 01:49:48] INFO root fetch - processPackages [laminci]: New version: [0.7.2] Old Version: [0.7.1]
+[2023-06-15 01:49:48] WARNING root fetch - processPackages [zeroshot]: Skipping, unable to determine old version
+[2023-06-15 01:49:48] INFO root fetch - processPackages [FlyBaseDownloads]: New version: [1.0.3] Old Version: [1.0.2.1]
+[2023-06-15 01:49:48] INFO root fetch - main [MainThread]: End processing [zeroshot] error
+[2023-06-15 01:49:48] INFO root fetch - processPackages [FlyBaseDownloads]: Downloading https://files.pythonhosted.org/packages/bc/2c/95fe3e87f74569376e50c755edd55141eb66d196f32ab392dbc359f48dee/FlyBaseDownloads-1.0.2.1.tar.gz
+[2023-06-15 01:49:48] INFO root fetch - processPackages [topometry]: Downloading https://files.pythonhosted.org/packages/7d/4b/884ef8dadfa98dd5ed22c7b8834885291b14cd4d62c0af1fcfd0005483a0/topometry-0.2.0.1.tar.gz
+[2023-06-15 01:49:48] INFO root fetch - processPackages [laminci]: Downloading https://files.pythonhosted.org/packages/8e/41/98eef9ac7ee2db83d9143ea90b3829ffe706f6816af1df7cb7402bcc7ce3/laminci-0.7.1.tar.gz
+[2023-06-15 01:49:48] INFO root fetch - processPackages [linkml-runtime]: New version: [1.5.4] Old Version: [1.5.3]
+[2023-06-15 01:49:48] INFO root fetch - processPackages [metacountregressor]: Downloading https://files.pythonhosted.org/packages/1c/21/17f6874490c31d7499bd086b94c5c0c4f213a617577d5f498e8d3bc4987f/metacountregressor-0.1.8-py3-none-any.whl
+[2023-06-15 01:49:48] INFO root fetch - processPackages [fukkatsu]: Downloading https://files.pythonhosted.org/packages/ef/5d/0c13f7f558ccf4097ec3cae04b9f726519de3957fc8ee9946ed43248a5fe/fukkatsu-0.0.4.tar.gz
+[2023-06-15 01:49:48] WARNING root fetch - processPackages [metacountregressor]: Skipping package: exceeds size limit 13883266>=10485760
+[2023-06-15 01:49:48] INFO root fetch - main [MainThread]: End processing [metacountregressor] error
+[2023-06-15 01:49:49] INFO root fetch - processPackages [aind-data-access-api]: Downloading https://files.pythonhosted.org/packages/8e/6e/70db6fabc27eae30c083148aa3acd983c69905026d1ba4f1c8bcddd73b5b/aind-data-access-api-0.2.1.tar.gz
+[2023-06-15 01:49:49] INFO root fetch - processPackages [FlyBaseDownloads]: Downloading https://files.pythonhosted.org/packages/38/32/825868c02bfb2fd092795fa0d9cc22f38e3bd211c5277cc2c27d1cb797e6/FlyBaseDownloads-1.0.3.tar.gz
+[2023-06-15 01:49:49] INFO root fetch - processPackages [laminci]: Downloading https://files.pythonhosted.org/packages/04/94/486aac123594032d7264c2152aa72a3184a2761c14546b77fbca7b25bc6b/laminci-0.7.2.tar.gz
+[2023-06-15 01:49:49] INFO root fetch - processPackages [FlyBaseDownloads]: executing diffoscope
+[2023-06-15 01:49:49] INFO root fetch - processPackages [FlyBaseDownloads]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FlyBaseDownloads-1.0.2.1.tar.gz tmp/FlyBaseDownloads-1.0.3.tar.gz --markdown 20230615/F/FlyBaseDownloads/1.0.2.1-1.0.3/diff.md --exclude *.pyd
+[2023-06-15 01:49:49] INFO root fetch - processPackages [linkml-runtime]: Downloading https://files.pythonhosted.org/packages/2a/b4/6afb20583d55bd0f92614eb8302daad164a9b52277c41aac48d742daf133/linkml_runtime-1.5.3.tar.gz
+[2023-06-15 01:49:49] INFO root fetch - processPackages [laminci]: executing diffoscope
+[2023-06-15 01:49:49] INFO root fetch - processPackages [laminci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/laminci-0.7.1.tar.gz tmp/laminci-0.7.2.tar.gz --markdown 20230615/l/laminci/0.7.1-0.7.2/diff.md --exclude *.pyd
+[2023-06-15 01:49:49] INFO root fetch - processPackages [topometry]: Downloading https://files.pythonhosted.org/packages/7a/4c/69152e77a65c6e7c88a0d6d3bd5a18caa80822cdc46af211b7523dd78fd9/topometry-0.2.0.2.tar.gz
+[2023-06-15 01:49:49] INFO root fetch - processPackages [fukkatsu]: Downloading https://files.pythonhosted.org/packages/1a/ba/ee9168c330ddd1f49b60f6af22be404cda47467b4996e7008857ec0abe83/fukkatsu-0.0.5.tar.gz
+[2023-06-15 01:49:49] INFO root fetch - processPackages [topometry]: executing diffoscope
+[2023-06-15 01:49:49] INFO root fetch - processPackages [topometry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/topometry-0.2.0.1.tar.gz tmp/topometry-0.2.0.2.tar.gz --markdown 20230615/t/topometry/0.2.0.1-0.2.0.2/diff.md --exclude *.pyd
+[2023-06-15 01:49:49] INFO root fetch - processPackages [fukkatsu]: executing diffoscope
+[2023-06-15 01:49:49] INFO root fetch - processPackages [fukkatsu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fukkatsu-0.0.4.tar.gz tmp/fukkatsu-0.0.5.tar.gz --markdown 20230615/f/fukkatsu/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-15 01:49:49] INFO root fetch - processPackages [aind-data-access-api]: Downloading https://files.pythonhosted.org/packages/e8/30/5d0ff6a13d85cd73471d97f9e74bd6620ed2ad93e679ca4feda570c8c4ed/aind-data-access-api-0.3.0.tar.gz
+[2023-06-15 01:49:49] INFO root fetch - processPackages [aind-data-access-api]: executing diffoscope
+[2023-06-15 01:49:49] INFO root fetch - processPackages [aind-data-access-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aind-data-access-api-0.2.1.tar.gz tmp/aind-data-access-api-0.3.0.tar.gz --markdown 20230615/a/aind-data-access-api/0.2.1-0.3.0/diff.md --exclude *.pyd
+[2023-06-15 01:49:49] INFO root fetch - processPackages [linkml-runtime]: Downloading https://files.pythonhosted.org/packages/35/8d/db7307b93adc71461969de8c66885fd856d481fe666e54e37c0cb5eb16de/linkml_runtime-1.5.4.tar.gz
+[2023-06-15 01:49:49] INFO root fetch - processPackages [linkml-runtime]: executing diffoscope
+[2023-06-15 01:49:49] INFO root fetch - processPackages [linkml-runtime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linkml_runtime-1.5.3.tar.gz tmp/linkml_runtime-1.5.4.tar.gz --markdown 20230615/l/linkml-runtime/1.5.3-1.5.4/diff.md --exclude *.pyd
+[2023-06-15 01:49:50] INFO root fetch - processPackages [FlyBaseDownloads]: Remove: archive file [/home/abi/fetcher/tmp/FlyBaseDownloads-1.0.2.1.tar.gz]
+[2023-06-15 01:49:50] INFO root fetch - processPackages [FlyBaseDownloads]: Remove: archive file [/home/abi/fetcher/tmp/FlyBaseDownloads-1.0.3.tar.gz]
+[2023-06-15 01:49:50] INFO root fetch - main [MainThread]: End processing [FlyBaseDownloads]: success
+[2023-06-15 01:49:50] INFO root fetch - processPackages [laminci]: Remove: archive file [/home/abi/fetcher/tmp/laminci-0.7.1.tar.gz]
+[2023-06-15 01:49:50] INFO root fetch - processPackages [laminci]: Remove: archive file [/home/abi/fetcher/tmp/laminci-0.7.2.tar.gz]
+[2023-06-15 01:49:50] INFO root fetch - main [MainThread]: End processing [laminci]: success
+[2023-06-15 01:49:50] INFO root fetch - processPackages [topometry]: Remove: archive file [/home/abi/fetcher/tmp/topometry-0.2.0.1.tar.gz]
+[2023-06-15 01:49:50] INFO root fetch - processPackages [topometry]: Remove: archive file [/home/abi/fetcher/tmp/topometry-0.2.0.2.tar.gz]
+[2023-06-15 01:49:50] INFO root fetch - main [MainThread]: End processing [topometry]: success
+[2023-06-15 01:49:50] INFO root fetch - processPackages [aind-data-access-api]: Remove: archive file [/home/abi/fetcher/tmp/aind-data-access-api-0.2.1.tar.gz]
+[2023-06-15 01:49:50] INFO root fetch - processPackages [aind-data-access-api]: Remove: archive file [/home/abi/fetcher/tmp/aind-data-access-api-0.3.0.tar.gz]
+[2023-06-15 01:49:50] INFO root fetch - main [MainThread]: End processing [aind-data-access-api]: success
+[2023-06-15 01:49:50] INFO root fetch - processPackages [fukkatsu]: Remove: archive file [/home/abi/fetcher/tmp/fukkatsu-0.0.4.tar.gz]
+[2023-06-15 01:49:50] INFO root fetch - processPackages [fukkatsu]: Remove: archive file [/home/abi/fetcher/tmp/fukkatsu-0.0.5.tar.gz]
+[2023-06-15 01:49:50] INFO root fetch - main [MainThread]: End processing [fukkatsu]: success
+[2023-06-15 01:49:51] INFO root fetch - processPackages [linkml-runtime]: Remove: archive file [/home/abi/fetcher/tmp/linkml_runtime-1.5.3.tar.gz]
+[2023-06-15 01:49:51] INFO root fetch - processPackages [linkml-runtime]: Remove: archive file [/home/abi/fetcher/tmp/linkml_runtime-1.5.4.tar.gz]
+[2023-06-15 01:49:51] INFO root fetch - main [MainThread]: End processing [linkml-runtime]: success
+[2023-06-15 01:49:51] INFO root fetch - main [MainThread]: Store serial: [18508276]
