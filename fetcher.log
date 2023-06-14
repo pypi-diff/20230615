@@ -1552,3 +1552,83 @@
 [2023-06-15 01:23:18] INFO root fetch - processPackages [sqlmesh]: Remove: archive file [/home/abi/fetcher/tmp/sqlmesh-0.9.0.tar.gz]
 [2023-06-15 01:23:18] INFO root fetch - main [MainThread]: End processing [sqlmesh]: success
 [2023-06-15 01:23:18] INFO root fetch - main [MainThread]: Store serial: [18508099]
+[2023-06-15 01:28:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18508099]
+[2023-06-15 01:28:27] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-15 01:28:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pepperize.cdk-ses-smtp-credentials
+[2023-06-15 01:28:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: coiled
+[2023-06-15 01:28:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: vec
+[2023-06-15 01:28:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: metacountregressor
+[2023-06-15 01:28:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cns
+[2023-06-15 01:28:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: massmigration
+[2023-06-15 01:28:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tutor-forum
+[2023-06-15 01:28:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: latch-postgres
+[2023-06-15 01:28:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: peewee-jsonfield
+[2023-06-15 01:28:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ydata-core
+[2023-06-15 01:28:27] WARNING root fetch - processPackages [massmigration]: Skipping, unable to determine old version
+[2023-06-15 01:28:27] WARNING root fetch - processPackages [cns]: Skipping, unable to determine old version
+[2023-06-15 01:28:27] INFO root fetch - processPackages [vec]: New version: [0.6] Old Version: [0.5]
+[2023-06-15 01:28:27] INFO root fetch - processPackages [massmigration]: Start processing: ydata-datascience
+[2023-06-15 01:28:27] INFO root fetch - main [MainThread]: End processing [massmigration] error
+[2023-06-15 01:28:27] INFO root fetch - processPackages [metacountregressor]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-15 01:28:27] INFO root fetch - main [MainThread]: End processing [cns] error
+[2023-06-15 01:28:28] INFO root fetch - processPackages [tutor-forum]: New version: [15.1.1] Old Version: [15.1.0]
+[2023-06-15 01:28:28] INFO root fetch - processPackages [ydata-core]: New version: [0.4.0rc1] Old Version: [0.3.0]
+[2023-06-15 01:28:28] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: New version: [0.3.363] Old Version: [0.3.362]
+[2023-06-15 01:28:28] WARNING root fetch - processPackages [peewee-jsonfield]: Skipping, unable to determine old version
+[2023-06-15 01:28:28] INFO root fetch - main [MainThread]: End processing [peewee-jsonfield] error
+[2023-06-15 01:28:28] INFO root fetch - processPackages [coiled]: New version: [0.7.5.dev9] Old Version: [0.7.5.dev8]
+[2023-06-15 01:28:28] INFO root fetch - processPackages [ydata-datascience]: New version: [0.4.0rc1] Old Version: [0.3.0]
+[2023-06-15 01:28:28] INFO root fetch - processPackages [metacountregressor]: Downloading https://files.pythonhosted.org/packages/1c/21/17f6874490c31d7499bd086b94c5c0c4f213a617577d5f498e8d3bc4987f/metacountregressor-0.1.8-py3-none-any.whl
+[2023-06-15 01:28:28] INFO root fetch - processPackages [latch-postgres]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-15 01:28:28] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Downloading https://files.pythonhosted.org/packages/c9/c3/122e09e71eba3de22cad883719c09440b14306e3d72be800cbce49199c3a/pepperize.cdk-ses-smtp-credentials-0.3.362.tar.gz
+[2023-06-15 01:28:28] INFO root fetch - processPackages [ydata-core]: Downloading https://files.pythonhosted.org/packages/33/4b/e814a6dd6795925f470e9d9609b099e819b0b51ce215ee3e88755dbe72e8/ydata_core-0.3.0-py2.py3-none-any.whl
+[2023-06-15 01:28:28] WARNING root fetch - processPackages [metacountregressor]: Skipping package: exceeds size limit 13883266>=10485760
+[2023-06-15 01:28:28] INFO root fetch - main [MainThread]: End processing [metacountregressor] error
+[2023-06-15 01:28:28] INFO root fetch - processPackages [vec]: Downloading https://files.pythonhosted.org/packages/69/0b/3fd6efa6919d1197de8d9be8f8493c51639e3bdd48d7363fb5f43f86dc22/vec-0.5.tar.gz
+[2023-06-15 01:28:28] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/b7/ee/4861684a1372b52197962dc1f7a83d483b3c544838adf4980eb6c9b2ba9a/coiled-0.7.5.dev8.tar.gz
+[2023-06-15 01:28:28] INFO root fetch - processPackages [tutor-forum]: Downloading https://files.pythonhosted.org/packages/c1/bc/adf7b9aac451ae56ed5d8a867524949408db15e39064cc7a94897875f776/tutor-forum-15.1.0.tar.gz
+[2023-06-15 01:28:28] INFO root fetch - processPackages [ydata-datascience]: Downloading https://files.pythonhosted.org/packages/26/89/42d775054c4d6c8f9b1c913fecb37b126e9b38821f785cb42812c34ae3f3/ydata_datascience-0.3.0-py2.py3-none-any.whl
+[2023-06-15 01:28:28] INFO root fetch - processPackages [latch-postgres]: Downloading https://files.pythonhosted.org/packages/a2/d4/e5a2d62f2f86005573c10df6fb2221295f13fd96aba3765aed6ed3947c4b/latch_postgres-0.1.8.tar.gz
+[2023-06-15 01:28:28] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Downloading https://files.pythonhosted.org/packages/82/ed/58b9a5c1db3614f15f80656d4fef451f70dd945f085af897e56590f0cbf1/pepperize.cdk-ses-smtp-credentials-0.3.363.tar.gz
+[2023-06-15 01:28:28] INFO root fetch - processPackages [vec]: Downloading https://files.pythonhosted.org/packages/c9/e8/679892321889a9c686959ad5912624396b4fef4140073f8a676b4338ea75/vec-0.6.tar.gz
+[2023-06-15 01:28:28] INFO root fetch - processPackages [ydata-core]: Downloading https://files.pythonhosted.org/packages/73/11/931ce2320a10dc1626b827499f9a99c0ef1945cd453a0b71c89cb136cf17/ydata_core-0.4.0rc1-py2.py3-none-any.whl
+[2023-06-15 01:28:28] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/8f/be/356413a022e69c11363a1552b87626dae395dfa9f85ae493bfaeb0399c92/coiled-0.7.5.dev9.tar.gz
+[2023-06-15 01:28:28] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: executing diffoscope
+[2023-06-15 01:28:28] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-ses-smtp-credentials-0.3.362.tar.gz tmp/pepperize.cdk-ses-smtp-credentials-0.3.363.tar.gz --markdown 20230615/p/pepperize.cdk-ses-smtp-credentials/0.3.362-0.3.363/diff.md --exclude *.pyd
+[2023-06-15 01:28:28] INFO root fetch - processPackages [ydata-datascience]: Downloading https://files.pythonhosted.org/packages/04/dc/c8c1283eefd2e015647c63ab3f81c941828e08ff5f36d9700509cbac477e/ydata_datascience-0.4.0rc1-py2.py3-none-any.whl
+[2023-06-15 01:28:28] INFO root fetch - processPackages [tutor-forum]: Downloading https://files.pythonhosted.org/packages/61/d2/190e84108fd32b891357450cbe715e55eab1773c4766d615842ba4aba170/tutor-forum-15.1.1.tar.gz
+[2023-06-15 01:28:28] INFO root fetch - processPackages [vec]: executing diffoscope
+[2023-06-15 01:28:28] INFO root fetch - processPackages [vec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vec-0.5.tar.gz tmp/vec-0.6.tar.gz --markdown 20230615/v/vec/0.5-0.6/diff.md --exclude *.pyd
+[2023-06-15 01:28:28] INFO root fetch - processPackages [latch-postgres]: Downloading https://files.pythonhosted.org/packages/fa/fb/57dc13297490cf225646709a8bfbe2433a8c995266463b9efc867d3c0985/latch_postgres-0.1.9.tar.gz
+[2023-06-15 01:28:28] INFO root fetch - processPackages [ydata-datascience]: executing diffoscope
+[2023-06-15 01:28:28] INFO root fetch - processPackages [ydata-datascience]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ydata_datascience-0.3.0-py2.py3-none-any.whl.zip tmp/ydata_datascience-0.4.0rc1-py2.py3-none-any.whl.zip --markdown 20230615/y/ydata-datascience/0.3.0-0.4.0rc1/diff.md --exclude *.pyd
+[2023-06-15 01:28:28] INFO root fetch - processPackages [tutor-forum]: executing diffoscope
+[2023-06-15 01:28:28] INFO root fetch - processPackages [tutor-forum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tutor-forum-15.1.0.tar.gz tmp/tutor-forum-15.1.1.tar.gz --markdown 20230615/t/tutor-forum/15.1.0-15.1.1/diff.md --exclude *.pyd
+[2023-06-15 01:28:28] INFO root fetch - processPackages [ydata-core]: executing diffoscope
+[2023-06-15 01:28:28] INFO root fetch - processPackages [ydata-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ydata_core-0.3.0-py2.py3-none-any.whl.zip tmp/ydata_core-0.4.0rc1-py2.py3-none-any.whl.zip --markdown 20230615/y/ydata-core/0.3.0-0.4.0rc1/diff.md --exclude *.pyd
+[2023-06-15 01:28:28] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2023-06-15 01:28:28] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-0.7.5.dev8.tar.gz tmp/coiled-0.7.5.dev9.tar.gz --markdown 20230615/c/coiled/0.7.5.dev8-0.7.5.dev9/diff.md --exclude *.pyd
+[2023-06-15 01:28:28] INFO root fetch - processPackages [latch-postgres]: executing diffoscope
+[2023-06-15 01:28:28] INFO root fetch - processPackages [latch-postgres]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/latch_postgres-0.1.8.tar.gz tmp/latch_postgres-0.1.9.tar.gz --markdown 20230615/l/latch-postgres/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-15 01:28:29] INFO root fetch - processPackages [ydata-datascience]: Remove: archive file [/home/abi/fetcher/tmp/ydata_datascience-0.3.0-py2.py3-none-any.whl.zip]
+[2023-06-15 01:28:29] INFO root fetch - processPackages [ydata-datascience]: Remove: archive file [/home/abi/fetcher/tmp/ydata_datascience-0.4.0rc1-py2.py3-none-any.whl.zip]
+[2023-06-15 01:28:29] INFO root fetch - main [MainThread]: End processing [ydata-datascience]: success
+[2023-06-15 01:28:30] INFO root fetch - processPackages [vec]: Remove: archive file [/home/abi/fetcher/tmp/vec-0.5.tar.gz]
+[2023-06-15 01:28:30] INFO root fetch - processPackages [vec]: Remove: archive file [/home/abi/fetcher/tmp/vec-0.6.tar.gz]
+[2023-06-15 01:28:30] INFO root fetch - main [MainThread]: End processing [vec]: success
+[2023-06-15 01:28:30] INFO root fetch - processPackages [ydata-core]: Remove: archive file [/home/abi/fetcher/tmp/ydata_core-0.3.0-py2.py3-none-any.whl.zip]
+[2023-06-15 01:28:30] INFO root fetch - processPackages [ydata-core]: Remove: archive file [/home/abi/fetcher/tmp/ydata_core-0.4.0rc1-py2.py3-none-any.whl.zip]
+[2023-06-15 01:28:30] INFO root fetch - main [MainThread]: End processing [ydata-core]: success
+[2023-06-15 01:28:30] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-ses-smtp-credentials-0.3.362.tar.gz]
+[2023-06-15 01:28:30] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-ses-smtp-credentials-0.3.363.tar.gz]
+[2023-06-15 01:28:30] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-ses-smtp-credentials]: success
+[2023-06-15 01:28:30] INFO root fetch - processPackages [tutor-forum]: Remove: archive file [/home/abi/fetcher/tmp/tutor-forum-15.1.0.tar.gz]
+[2023-06-15 01:28:30] INFO root fetch - processPackages [tutor-forum]: Remove: archive file [/home/abi/fetcher/tmp/tutor-forum-15.1.1.tar.gz]
+[2023-06-15 01:28:30] INFO root fetch - main [MainThread]: End processing [tutor-forum]: success
+[2023-06-15 01:28:30] INFO root fetch - processPackages [latch-postgres]: Remove: archive file [/home/abi/fetcher/tmp/latch_postgres-0.1.8.tar.gz]
+[2023-06-15 01:28:30] INFO root fetch - processPackages [latch-postgres]: Remove: archive file [/home/abi/fetcher/tmp/latch_postgres-0.1.9.tar.gz]
+[2023-06-15 01:28:30] INFO root fetch - main [MainThread]: End processing [latch-postgres]: success
+[2023-06-15 01:28:30] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-0.7.5.dev8.tar.gz]
+[2023-06-15 01:28:30] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-0.7.5.dev9.tar.gz]
+[2023-06-15 01:28:30] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2023-06-15 01:28:30] INFO root fetch - main [MainThread]: Store serial: [18508138]
