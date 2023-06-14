@@ -1451,3 +1451,104 @@
 [2023-06-15 01:17:30] INFO root fetch - processPackages [cfn-lint]: Remove: archive file [/home/abi/fetcher/tmp/cfn-lint-1.0.0rc2.tar.gz]
 [2023-06-15 01:17:30] INFO root fetch - main [MainThread]: End processing [cfn-lint]: success
 [2023-06-15 01:17:30] INFO root fetch - main [MainThread]: Store serial: [18508063]
+[2023-06-15 01:22:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18508063]
+[2023-06-15 01:22:39] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-06-15 01:22:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gulagcleaner
+[2023-06-15 01:22:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: openram
+[2023-06-15 01:22:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pepperize.cdk-ses-smtp-credentials
+[2023-06-15 01:22:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: prompton
+[2023-06-15 01:22:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: horsetalk
+[2023-06-15 01:22:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sqlmesh
+[2023-06-15 01:22:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: torchio
+[2023-06-15 01:22:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: metacountregressor
+[2023-06-15 01:22:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bookio-fetchfox
+[2023-06-15 01:22:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: opticalglass
+[2023-06-15 01:22:39] INFO root fetch - processPackages [horsetalk]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-06-15 01:22:39] INFO root fetch - processPackages [bookio-fetchfox]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-06-15 01:22:39] INFO root fetch - processPackages [opticalglass]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-06-15 01:22:39] INFO root fetch - processPackages [prompton]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-15 01:22:39] INFO root fetch - processPackages [openram]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-06-15 01:22:39] INFO root fetch - processPackages [metacountregressor]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-15 01:22:39] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: New version: [0.3.362] Old Version: [0.3.361]
+[2023-06-15 01:22:39] INFO root fetch - processPackages [sqlmesh]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-06-15 01:22:39] INFO root fetch - processPackages [torchio]: New version: [0.9.0] Old Version: [0.8.3]
+[2023-06-15 01:22:39] INFO root fetch - processPackages [gulagcleaner]: New version: [0.6.4] Old Version: [0.6.3]
+[2023-06-15 01:22:39] INFO root fetch - processPackages [metacountregressor]: Downloading https://files.pythonhosted.org/packages/1c/21/17f6874490c31d7499bd086b94c5c0c4f213a617577d5f498e8d3bc4987f/metacountregressor-0.1.8-py3-none-any.whl
+[2023-06-15 01:22:39] INFO root fetch - processPackages [horsetalk]: Downloading https://files.pythonhosted.org/packages/fc/2e/395a63e1028314c7da58d7ad4611e04802ab576f53e3a9ef4ec0c317d183/horsetalk-0.9.1.tar.gz
+[2023-06-15 01:22:39] INFO root fetch - processPackages [prompton]: Downloading https://files.pythonhosted.org/packages/9b/db/cee9226bd35d74d249d5e048ddacbfa93846cbe418d3f88ffe03d6264fad/prompton-0.0.3.tar.gz
+[2023-06-15 01:22:39] INFO root fetch - processPackages [sqlmesh]: Downloading https://files.pythonhosted.org/packages/af/f6/0f9a52e680a6637f51cabdef2e898ff2ccf3866817901d8c170ba43142ed/sqlmesh-0.8.1.tar.gz
+[2023-06-15 01:22:39] WARNING root fetch - processPackages [metacountregressor]: Skipping package: exceeds size limit 13883266>=10485760
+[2023-06-15 01:22:39] INFO root fetch - processPackages [metacountregressor]: Start processing: csdid
+[2023-06-15 01:22:39] INFO root fetch - main [MainThread]: End processing [metacountregressor] error
+[2023-06-15 01:22:39] INFO root fetch - processPackages [bookio-fetchfox]: Downloading https://files.pythonhosted.org/packages/13/6d/b6a11a705784f6f7de9bf28938508cc03d3a97f980fec7853fc56ae71e46/bookio_fetchfox-0.9.1.tar.gz
+[2023-06-15 01:22:39] INFO root fetch - processPackages [opticalglass]: Downloading https://files.pythonhosted.org/packages/47/0c/2b6b3d3471d96e1a4a485c5c6e7ebfadf800cd364bb0dfc24946363bf746/opticalglass-1.0.5.tar.gz
+[2023-06-15 01:22:39] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Downloading https://files.pythonhosted.org/packages/a3/c3/9d4c9a61ee657feac25a723912ed40574f2f5a8778824b81c95d58277a18/pepperize.cdk-ses-smtp-credentials-0.3.361.tar.gz
+[2023-06-15 01:22:39] INFO root fetch - processPackages [csdid]: New version: [0.1.66] Old Version: [0.1.65]
+[2023-06-15 01:22:39] INFO root fetch - processPackages [gulagcleaner]: Downloading https://files.pythonhosted.org/packages/e3/ee/5fbed27906be7606d5a9f76d952fd2f8da9bd55f126cd699ab00befc58b4/gulagcleaner-0.6.3.tar.gz
+[2023-06-15 01:22:39] INFO root fetch - processPackages [torchio]: Downloading https://files.pythonhosted.org/packages/9b/69/b58b66561e8176365a303b8219c82d9c89794cb859fd3016becb83eef879/torchio-0.8.3.tar.gz
+[2023-06-15 01:22:40] INFO root fetch - processPackages [openram]: Downloading https://files.pythonhosted.org/packages/cd/81/d4f41efe943d85919e448d6c65c4be619651aadd21d63f69137165780373/openram-1.2.8.tar.gz
+[2023-06-15 01:22:40] INFO root fetch - processPackages [horsetalk]: Downloading https://files.pythonhosted.org/packages/92/c6/3a665f7eac3f6ef0c51347199c7eb82b6323ef0700d40c9b6a93a0824a9f/horsetalk-0.9.2.tar.gz
+[2023-06-15 01:22:40] INFO root fetch - processPackages [prompton]: Downloading https://files.pythonhosted.org/packages/a3/85/3bd618f61630f6f0046832f22972573a02ef642c21afdfb3f2f5c4e6d4c1/prompton-0.0.4.tar.gz
+[2023-06-15 01:22:40] INFO root fetch - processPackages [csdid]: Downloading https://files.pythonhosted.org/packages/e2/15/a6732af4f1903b742964d045d8ea5686e6c95331a9fa7343debced95e6f9/csdid-0.1.65.tar.gz
+[2023-06-15 01:22:40] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Downloading https://files.pythonhosted.org/packages/c9/c3/122e09e71eba3de22cad883719c09440b14306e3d72be800cbce49199c3a/pepperize.cdk-ses-smtp-credentials-0.3.362.tar.gz
+[2023-06-15 01:22:40] INFO root fetch - processPackages [bookio-fetchfox]: Downloading https://files.pythonhosted.org/packages/4d/cf/7e63ca226d183cb6c528a11d392bee73699f63e3dc593d8dfebc1e3e02b5/bookio_fetchfox-0.9.2.tar.gz
+[2023-06-15 01:22:40] INFO root fetch - processPackages [sqlmesh]: Downloading https://files.pythonhosted.org/packages/3e/98/dd2b2de67b5258308e2ea0fc159ad112f97bdb21f9881120de68463c1781/sqlmesh-0.9.0.tar.gz
+[2023-06-15 01:22:40] INFO root fetch - processPackages [horsetalk]: executing diffoscope
+[2023-06-15 01:22:40] INFO root fetch - processPackages [horsetalk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/horsetalk-0.9.1.tar.gz tmp/horsetalk-0.9.2.tar.gz --markdown 20230615/h/horsetalk/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-06-15 01:22:40] INFO root fetch - processPackages [gulagcleaner]: Downloading https://files.pythonhosted.org/packages/8d/a3/c1535e87a04631520164ef45091641c0694a2f47c188ba4424164e30c698/gulagcleaner-0.6.4.tar.gz
+[2023-06-15 01:22:40] INFO root fetch - processPackages [prompton]: executing diffoscope
+[2023-06-15 01:22:40] INFO root fetch - processPackages [prompton]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prompton-0.0.3.tar.gz tmp/prompton-0.0.4.tar.gz --markdown 20230615/p/prompton/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-15 01:22:40] INFO root fetch - processPackages [bookio-fetchfox]: executing diffoscope
+[2023-06-15 01:22:40] INFO root fetch - processPackages [bookio-fetchfox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bookio_fetchfox-0.9.1.tar.gz tmp/bookio_fetchfox-0.9.2.tar.gz --markdown 20230615/b/bookio-fetchfox/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-06-15 01:22:40] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: executing diffoscope
+[2023-06-15 01:22:40] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-ses-smtp-credentials-0.3.361.tar.gz tmp/pepperize.cdk-ses-smtp-credentials-0.3.362.tar.gz --markdown 20230615/p/pepperize.cdk-ses-smtp-credentials/0.3.361-0.3.362/diff.md --exclude *.pyd
+[2023-06-15 01:22:40] INFO root fetch - processPackages [torchio]: Downloading https://files.pythonhosted.org/packages/88/e5/73aa50869bc13b0bcdadfdfcca91db2b14e358555bcb94519ee0410b0ae8/torchio-0.9.0.tar.gz
+[2023-06-15 01:22:40] INFO root fetch - processPackages [gulagcleaner]: executing diffoscope
+[2023-06-15 01:22:40] INFO root fetch - processPackages [gulagcleaner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gulagcleaner-0.6.3.tar.gz tmp/gulagcleaner-0.6.4.tar.gz --markdown 20230615/g/gulagcleaner/0.6.3-0.6.4/diff.md --exclude *.pyd
+[2023-06-15 01:22:40] INFO root fetch - processPackages [sqlmesh]: executing diffoscope
+[2023-06-15 01:22:40] INFO root fetch - processPackages [sqlmesh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlmesh-0.8.1.tar.gz tmp/sqlmesh-0.9.0.tar.gz --markdown 20230615/s/sqlmesh/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-06-15 01:22:40] INFO root fetch - processPackages [torchio]: executing diffoscope
+[2023-06-15 01:22:40] INFO root fetch - processPackages [torchio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchio-0.8.3.tar.gz tmp/torchio-0.9.0.tar.gz --markdown 20230615/t/torchio/0.8.3-0.9.0/diff.md --exclude *.pyd
+[2023-06-15 01:22:40] INFO root fetch - processPackages [csdid]: Downloading https://files.pythonhosted.org/packages/e1/c7/c189e6c71fb26ed63fa6f489ebd22e1945901ffcc2125e10e84b648ff30d/csdid-0.1.66.tar.gz
+[2023-06-15 01:22:40] INFO root fetch - processPackages [opticalglass]: Downloading https://files.pythonhosted.org/packages/f2/25/f49c1a96908d243a256bfb232d24f7e54e5b9c3f496814c3be9b6a23eac5/opticalglass-1.0.6-py3-none-any.whl
+[2023-06-15 01:22:40] INFO root fetch - processPackages [csdid]: executing diffoscope
+[2023-06-15 01:22:40] INFO root fetch - processPackages [csdid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/csdid-0.1.65.tar.gz tmp/csdid-0.1.66.tar.gz --markdown 20230615/c/csdid/0.1.65-0.1.66/diff.md --exclude *.pyd
+[2023-06-15 01:22:40] INFO root fetch - processPackages [opticalglass]: executing diffoscope
+[2023-06-15 01:22:40] INFO root fetch - processPackages [opticalglass]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opticalglass-1.0.5.tar.gz tmp/opticalglass-1.0.6-py3-none-any.whl.zip --markdown 20230615/o/opticalglass/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-06-15 01:22:41] INFO root fetch - processPackages [openram]: Downloading https://files.pythonhosted.org/packages/db/55/baee5dcc46fb63835c99917282700e98ba6d6177d267d541ceb50f1352d8/openram-1.2.9.tar.gz
+[2023-06-15 01:22:41] INFO root fetch - processPackages [openram]: executing diffoscope
+[2023-06-15 01:22:41] INFO root fetch - processPackages [openram]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openram-1.2.8.tar.gz tmp/openram-1.2.9.tar.gz --markdown 20230615/o/openram/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-06-15 01:22:41] INFO root fetch - processPackages [horsetalk]: Remove: archive file [/home/abi/fetcher/tmp/horsetalk-0.9.1.tar.gz]
+[2023-06-15 01:22:41] INFO root fetch - processPackages [horsetalk]: Remove: archive file [/home/abi/fetcher/tmp/horsetalk-0.9.2.tar.gz]
+[2023-06-15 01:22:41] INFO root fetch - processPackages [horsetalk]: Start processing: peewee-jsonfield
+[2023-06-15 01:22:41] INFO root fetch - main [MainThread]: End processing [horsetalk]: success
+[2023-06-15 01:22:41] WARNING root fetch - processPackages [peewee-jsonfield]: Skipping, unable to determine old version
+[2023-06-15 01:22:41] INFO root fetch - main [MainThread]: End processing [peewee-jsonfield] error
+[2023-06-15 01:22:41] INFO root fetch - processPackages [bookio-fetchfox]: Remove: archive file [/home/abi/fetcher/tmp/bookio_fetchfox-0.9.1.tar.gz]
+[2023-06-15 01:22:41] INFO root fetch - processPackages [bookio-fetchfox]: Remove: archive file [/home/abi/fetcher/tmp/bookio_fetchfox-0.9.2.tar.gz]
+[2023-06-15 01:22:41] INFO root fetch - main [MainThread]: End processing [bookio-fetchfox]: success
+[2023-06-15 01:22:41] INFO root fetch - processPackages [gulagcleaner]: Remove: archive file [/home/abi/fetcher/tmp/gulagcleaner-0.6.3.tar.gz]
+[2023-06-15 01:22:41] INFO root fetch - processPackages [gulagcleaner]: Remove: archive file [/home/abi/fetcher/tmp/gulagcleaner-0.6.4.tar.gz]
+[2023-06-15 01:22:41] INFO root fetch - main [MainThread]: End processing [gulagcleaner]: success
+[2023-06-15 01:22:42] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-ses-smtp-credentials-0.3.361.tar.gz]
+[2023-06-15 01:22:42] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-ses-smtp-credentials-0.3.362.tar.gz]
+[2023-06-15 01:22:42] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-ses-smtp-credentials]: success
+[2023-06-15 01:22:42] INFO root fetch - processPackages [prompton]: Remove: archive file [/home/abi/fetcher/tmp/prompton-0.0.3.tar.gz]
+[2023-06-15 01:22:42] INFO root fetch - processPackages [prompton]: Remove: archive file [/home/abi/fetcher/tmp/prompton-0.0.4.tar.gz]
+[2023-06-15 01:22:42] INFO root fetch - main [MainThread]: End processing [prompton]: success
+[2023-06-15 01:22:42] INFO root fetch - processPackages [csdid]: Remove: archive file [/home/abi/fetcher/tmp/csdid-0.1.65.tar.gz]
+[2023-06-15 01:22:42] INFO root fetch - processPackages [csdid]: Remove: archive file [/home/abi/fetcher/tmp/csdid-0.1.66.tar.gz]
+[2023-06-15 01:22:42] INFO root fetch - main [MainThread]: End processing [csdid]: success
+[2023-06-15 01:22:42] INFO root fetch - processPackages [torchio]: Remove: archive file [/home/abi/fetcher/tmp/torchio-0.8.3.tar.gz]
+[2023-06-15 01:22:42] INFO root fetch - processPackages [torchio]: Remove: archive file [/home/abi/fetcher/tmp/torchio-0.9.0.tar.gz]
+[2023-06-15 01:22:42] INFO root fetch - main [MainThread]: End processing [torchio]: success
+[2023-06-15 01:22:42] INFO root fetch - processPackages [opticalglass]: Remove: archive file [/home/abi/fetcher/tmp/opticalglass-1.0.5.tar.gz]
+[2023-06-15 01:22:42] INFO root fetch - processPackages [opticalglass]: Remove: archive file [/home/abi/fetcher/tmp/opticalglass-1.0.6-py3-none-any.whl.zip]
+[2023-06-15 01:22:42] INFO root fetch - main [MainThread]: End processing [opticalglass]: success
+[2023-06-15 01:22:51] INFO root fetch - processPackages [openram]: Remove: archive file [/home/abi/fetcher/tmp/openram-1.2.8.tar.gz]
+[2023-06-15 01:22:51] INFO root fetch - processPackages [openram]: Remove: archive file [/home/abi/fetcher/tmp/openram-1.2.9.tar.gz]
+[2023-06-15 01:22:51] INFO root fetch - main [MainThread]: End processing [openram]: success
+[2023-06-15 01:23:18] INFO root fetch - processPackages [sqlmesh]: Remove: archive file [/home/abi/fetcher/tmp/sqlmesh-0.8.1.tar.gz]
+[2023-06-15 01:23:18] INFO root fetch - processPackages [sqlmesh]: Remove: archive file [/home/abi/fetcher/tmp/sqlmesh-0.9.0.tar.gz]
+[2023-06-15 01:23:18] INFO root fetch - main [MainThread]: End processing [sqlmesh]: success
+[2023-06-15 01:23:18] INFO root fetch - main [MainThread]: Store serial: [18508099]
