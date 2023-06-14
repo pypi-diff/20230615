@@ -703,3 +703,109 @@
 [2023-06-15 00:42:51] INFO root fetch - processPackages [getdaft]: Remove: archive file [/home/abi/fetcher/tmp/getdaft-0.1.6.tar.gz]
 [2023-06-15 00:42:51] INFO root fetch - main [MainThread]: End processing [getdaft]: success
 [2023-06-15 00:42:51] INFO root fetch - main [MainThread]: Store serial: [18507752]
+[2023-06-15 00:47:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18507752]
+[2023-06-15 00:48:00] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-06-15 00:48:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: csdid
+[2023-06-15 00:48:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pdf-language-detector
+[2023-06-15 00:48:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: langdash
+[2023-06-15 00:48:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: csdid
+[2023-06-15 00:48:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: Geode-Hybrid
+[2023-06-15 00:48:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: xgo-pythonlib
+[2023-06-15 00:48:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: omnisoot
+[2023-06-15 00:48:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: topometry
+[2023-06-15 00:48:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: csdid
+[2023-06-15 00:48:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: glaceon
+[2023-06-15 00:48:00] INFO root fetch - processPackages [Geode-Hybrid]: New version: [2.0.4rc2] Old Version: [2.0.4rc1]
+[2023-06-15 00:48:00] WARNING root fetch - processPackages [pdf-language-detector]: Skipping, unable to determine old version
+[2023-06-15 00:48:00] INFO root fetch - processPackages [topometry]: New version: [0.2.0.1] Old Version: [0.2.0.0]
+[2023-06-15 00:48:00] INFO root fetch - processPackages [pdf-language-detector]: Start processing: metacountregressor
+[2023-06-15 00:48:00] INFO root fetch - main [MainThread]: End processing [pdf-language-detector] error
+[2023-06-15 00:48:00] INFO root fetch - processPackages [csdid]: New version: [0.1.58] Old Version: [0.1.57]
+[2023-06-15 00:48:00] INFO root fetch - processPackages [xgo-pythonlib]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-06-15 00:48:00] INFO root fetch - processPackages [csdid]: New version: [0.1.58] Old Version: [0.1.57]
+[2023-06-15 00:48:00] INFO root fetch - processPackages [omnisoot]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-15 00:48:00] INFO root fetch - processPackages [glaceon]: New version: [1.30.0] Old Version: [1.21.0]
+[2023-06-15 00:48:00] INFO root fetch - processPackages [langdash]: New version: [1.3.5b0] Old Version: [1.3.4b2]
+[2023-06-15 00:48:00] INFO root fetch - processPackages [metacountregressor]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-15 00:48:00] INFO root fetch - processPackages [Geode-Hybrid]: Downloading https://files.pythonhosted.org/packages/b7/ab/60c55287aabe8ad00e458a5c977c867417e6c48fb17f3cea5bb62bb2610c/Geode_Hybrid-2.0.4rc1-cp39-cp39-win_amd64.whl
+[2023-06-15 00:48:00] INFO root fetch - processPackages [metacountregressor]: Downloading https://files.pythonhosted.org/packages/1c/21/17f6874490c31d7499bd086b94c5c0c4f213a617577d5f498e8d3bc4987f/metacountregressor-0.1.8-py3-none-any.whl
+[2023-06-15 00:48:00] INFO root fetch - processPackages [csdid]: New version: [0.1.58] Old Version: [0.1.57]
+[2023-06-15 00:48:00] WARNING root fetch - processPackages [metacountregressor]: Skipping package: exceeds size limit 13883266>=10485760
+[2023-06-15 00:48:00] INFO root fetch - processPackages [metacountregressor]: Start processing: kcli
+[2023-06-15 00:48:00] INFO root fetch - main [MainThread]: End processing [metacountregressor] error
+[2023-06-15 00:48:00] INFO root fetch - processPackages [kcli]: New version: [99.0.202306142247] Old Version: [99.0.202306141709]
+[2023-06-15 00:48:00] INFO root fetch - processPackages [csdid]: Downloading https://files.pythonhosted.org/packages/40/7f/cc5b58468c19c5762faf48b27aea8a2da78951d25a5d7fc451aea9ffaaa6/csdid-0.1.57.tar.gz
+[2023-06-15 00:48:00] INFO root fetch - processPackages [csdid]: Downloading https://files.pythonhosted.org/packages/40/7f/cc5b58468c19c5762faf48b27aea8a2da78951d25a5d7fc451aea9ffaaa6/csdid-0.1.57.tar.gz
+[2023-06-15 00:48:00] INFO root fetch - processPackages [csdid]: Downloading https://files.pythonhosted.org/packages/40/7f/cc5b58468c19c5762faf48b27aea8a2da78951d25a5d7fc451aea9ffaaa6/csdid-0.1.57.tar.gz
+[2023-06-15 00:48:00] INFO root fetch - processPackages [glaceon]: Downloading https://files.pythonhosted.org/packages/0a/92/416d65dc84604177fcacdf54f96bfb2efb76716cd913909f7fee124f8c2c/glaceon-1.21.0.tar.gz
+[2023-06-15 00:48:00] INFO root fetch - processPackages [langdash]: Downloading https://files.pythonhosted.org/packages/81/1c/6d5aace0f74e3ad4a28defff324471d91ca20e5442d7e09c0682cfa4ed48/langdash-1.3.4b2.tar.gz
+[2023-06-15 00:48:00] INFO root fetch - processPackages [xgo-pythonlib]: Downloading https://files.pythonhosted.org/packages/b6/d7/e9be1fff9382f6aaa9f843a58ec29240f699b4395cd75aa97012005692d1/xgo-pythonlib-0.1.6.tar.gz
+[2023-06-15 00:48:00] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/3b/27/e0a8544d8b27ac713c914dc23931eb12216eebc5a9d4f70fdca56867d1b8/kcli-99.0.202306141709-py3-none-any.whl
+[2023-06-15 00:48:00] INFO root fetch - processPackages [Geode-Hybrid]: Downloading https://files.pythonhosted.org/packages/64/b9/c97425eeb58759da9c7b8ea25584fea7f52bcd99300d149d235a1b697c8e/Geode_Hybrid-2.0.4rc2-cp39-cp39-manylinux2014_x86_64.whl
+[2023-06-15 00:48:00] INFO root fetch - processPackages [topometry]: Downloading https://files.pythonhosted.org/packages/fe/80/bb9918dd46a575c7a577786982a9ba34d7a840c9b74e36cdf25457a9c229/topometry-0.2.0.0.tar.gz
+[2023-06-15 00:48:00] INFO root fetch - processPackages [omnisoot]: Downloading https://files.pythonhosted.org/packages/8e/f9/d9427ac7023ae47eb2bdf82fc57e50cdeae74c8242f2b22a149b28e1a9ac/omnisoot-0.1.2-cp39-cp39-win_amd64.whl
+[2023-06-15 00:48:01] INFO root fetch - processPackages [Geode-Hybrid]: executing diffoscope
+[2023-06-15 00:48:01] INFO root fetch - processPackages [Geode-Hybrid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Geode_Hybrid-2.0.4rc1-cp39-cp39-win_amd64.whl.zip tmp/Geode_Hybrid-2.0.4rc2-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230615/G/Geode-Hybrid/2.0.4rc1-2.0.4rc2/diff.md --exclude *.pyd
+[2023-06-15 00:48:01] INFO root fetch - processPackages [glaceon]: Downloading https://files.pythonhosted.org/packages/4c/6c/32da393b278a6a0d57604ca9331c3650c50148f251e183acc66088da3d9f/glaceon-1.30.0.tar.gz
+[2023-06-15 00:48:01] INFO root fetch - processPackages [langdash]: Downloading https://files.pythonhosted.org/packages/ba/c1/60b76ea228dc7355c1780558c3ba94a37f5b122bf80fdcf3187817469f46/langdash-1.3.5b0.tar.gz
+[2023-06-15 00:48:01] INFO root fetch - processPackages [topometry]: Downloading https://files.pythonhosted.org/packages/7d/4b/884ef8dadfa98dd5ed22c7b8834885291b14cd4d62c0af1fcfd0005483a0/topometry-0.2.0.1.tar.gz
+[2023-06-15 00:48:01] INFO root fetch - processPackages [glaceon]: executing diffoscope
+[2023-06-15 00:48:01] INFO root fetch - processPackages [glaceon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/glaceon-1.21.0.tar.gz tmp/glaceon-1.30.0.tar.gz --markdown 20230615/g/glaceon/1.21.0-1.30.0/diff.md --exclude *.pyd
+[2023-06-15 00:48:01] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/02/f7/5063f7f01389b2daa9eac6df33b3813882179aef309759692c24890251ae/kcli-99.0.202306142247-py3-none-any.whl
+[2023-06-15 00:48:01] INFO root fetch - processPackages [xgo-pythonlib]: Downloading https://files.pythonhosted.org/packages/dd/4b/455041429c6a66554307b5dbe180a6685fb21f90127d6a130c08d5644393/xgo-pythonlib-0.1.7.tar.gz
+[2023-06-15 00:48:01] INFO root fetch - processPackages [langdash]: executing diffoscope
+[2023-06-15 00:48:01] INFO root fetch - processPackages [langdash]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langdash-1.3.4b2.tar.gz tmp/langdash-1.3.5b0.tar.gz --markdown 20230615/l/langdash/1.3.4b2-1.3.5b0/diff.md --exclude *.pyd
+[2023-06-15 00:48:01] INFO root fetch - processPackages [csdid]: Downloading https://files.pythonhosted.org/packages/f5/ee/ca2532cb12518e0e49e6f9b8ef8db97e1346d87225db9ad8cd2133c5262b/csdid-0.1.58.tar.gz
+[2023-06-15 00:48:01] INFO root fetch - processPackages [csdid]: Downloading https://files.pythonhosted.org/packages/f5/ee/ca2532cb12518e0e49e6f9b8ef8db97e1346d87225db9ad8cd2133c5262b/csdid-0.1.58.tar.gz
+[2023-06-15 00:48:01] INFO root fetch - processPackages [csdid]: Downloading https://files.pythonhosted.org/packages/f5/ee/ca2532cb12518e0e49e6f9b8ef8db97e1346d87225db9ad8cd2133c5262b/csdid-0.1.58.tar.gz
+[2023-06-15 00:48:01] INFO root fetch - processPackages [xgo-pythonlib]: executing diffoscope
+[2023-06-15 00:48:01] INFO root fetch - processPackages [xgo-pythonlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xgo-pythonlib-0.1.6.tar.gz tmp/xgo-pythonlib-0.1.7.tar.gz --markdown 20230615/x/xgo-pythonlib/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-06-15 00:48:01] INFO root fetch - processPackages [topometry]: executing diffoscope
+[2023-06-15 00:48:01] INFO root fetch - processPackages [topometry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/topometry-0.2.0.0.tar.gz tmp/topometry-0.2.0.1.tar.gz --markdown 20230615/t/topometry/0.2.0.0-0.2.0.1/diff.md --exclude *.pyd
+[2023-06-15 00:48:01] INFO root fetch - processPackages [csdid]: executing diffoscope
+[2023-06-15 00:48:01] INFO root fetch - processPackages [csdid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/csdid-0.1.57.tar.gz tmp/csdid-0.1.58.tar.gz --markdown 20230615/c/csdid/0.1.57-0.1.58/diff.md --exclude *.pyd
+[2023-06-15 00:48:01] INFO root fetch - processPackages [csdid]: executing diffoscope
+[2023-06-15 00:48:01] INFO root fetch - processPackages [csdid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/csdid-0.1.57.tar.gz tmp/csdid-0.1.58.tar.gz --markdown 20230615/c/csdid/0.1.57-0.1.58/diff.md --exclude *.pyd
+[2023-06-15 00:48:01] INFO root fetch - processPackages [csdid]: executing diffoscope
+[2023-06-15 00:48:01] INFO root fetch - processPackages [csdid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/csdid-0.1.57.tar.gz tmp/csdid-0.1.58.tar.gz --markdown 20230615/c/csdid/0.1.57-0.1.58/diff.md --exclude *.pyd
+[2023-06-15 00:48:01] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-06-15 00:48:01] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202306141709-py3-none-any.whl.zip tmp/kcli-99.0.202306142247-py3-none-any.whl.zip --markdown 20230615/k/kcli/99.0.202306141709-99.0.202306142247/diff.md --exclude *.pyd
+[2023-06-15 00:48:01] INFO root fetch - processPackages [omnisoot]: Downloading https://files.pythonhosted.org/packages/eb/4b/4cd11cbf7aa3962ead41ac116201d0da3cbe5a789c1e9663ad866367ab56/omnisoot-0.1.3-pp39-pypy39_pp73-manylinux_2_5_i686.manylinux1_i686.manylinux_2_17_i686.manylinux2014_i686.whl
+[2023-06-15 00:48:02] INFO root fetch - processPackages [omnisoot]: executing diffoscope
+[2023-06-15 00:48:02] INFO root fetch - processPackages [omnisoot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omnisoot-0.1.2-cp39-cp39-win_amd64.whl.zip tmp/omnisoot-0.1.3-pp39-pypy39_pp73-manylinux_2_5_i686.manylinux1_i686.manylinux_2_17_i686.manylinux2014_i686.whl.zip --markdown 20230615/o/omnisoot/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-15 00:48:02] INFO root fetch - processPackages [glaceon]: Remove: archive file [/home/abi/fetcher/tmp/glaceon-1.21.0.tar.gz]
+[2023-06-15 00:48:02] INFO root fetch - processPackages [glaceon]: Remove: archive file [/home/abi/fetcher/tmp/glaceon-1.30.0.tar.gz]
+[2023-06-15 00:48:02] INFO root fetch - processPackages [glaceon]: Start processing: pulumi-okta
+[2023-06-15 00:48:02] INFO root fetch - main [MainThread]: End processing [glaceon]: success
+[2023-06-15 00:48:02] INFO root fetch - processPackages [pulumi-okta]: New version: [4.1.0a1686776307] Old Version: [4.1.0a1686636103]
+[2023-06-15 00:48:02] INFO root fetch - processPackages [pulumi-okta]: Downloading https://files.pythonhosted.org/packages/08/7a/eb3692a5b51bd63eac7cfd8d3683b711692ed51c8602642096b6eacb6441/pulumi_okta-4.1.0a1686636103.tar.gz
+[2023-06-15 00:48:02] INFO root fetch - processPackages [langdash]: Remove: archive file [/home/abi/fetcher/tmp/langdash-1.3.4b2.tar.gz]
+[2023-06-15 00:48:02] INFO root fetch - processPackages [langdash]: Remove: archive file [/home/abi/fetcher/tmp/langdash-1.3.5b0.tar.gz]
+[2023-06-15 00:48:02] INFO root fetch - main [MainThread]: End processing [langdash]: success
+[2023-06-15 00:48:02] INFO root fetch - processPackages [xgo-pythonlib]: Remove: archive file [/home/abi/fetcher/tmp/xgo-pythonlib-0.1.6.tar.gz]
+[2023-06-15 00:48:02] INFO root fetch - processPackages [xgo-pythonlib]: Remove: archive file [/home/abi/fetcher/tmp/xgo-pythonlib-0.1.7.tar.gz]
+[2023-06-15 00:48:02] INFO root fetch - main [MainThread]: End processing [xgo-pythonlib]: success
+[2023-06-15 00:48:02] INFO root fetch - processPackages [csdid]: Remove: archive file [/home/abi/fetcher/tmp/csdid-0.1.57.tar.gz]
+[2023-06-15 00:48:02] INFO root fetch - processPackages [csdid]: Remove: archive file [/home/abi/fetcher/tmp/csdid-0.1.58.tar.gz]
+[2023-06-15 00:48:02] INFO root fetch - main [MainThread]: End processing [csdid]: success
+[2023-06-15 00:48:02] INFO root fetch - processPackages [pulumi-okta]: Downloading https://files.pythonhosted.org/packages/d6/86/98fe47f3f680f968407db4255a11827803acf7c49f3e170fa19b15428729/pulumi_okta-4.1.0a1686776307.tar.gz
+[2023-06-15 00:48:03] INFO root fetch - processPackages [pulumi-okta]: executing diffoscope
+[2023-06-15 00:48:03] INFO root fetch - processPackages [pulumi-okta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_okta-4.1.0a1686636103.tar.gz tmp/pulumi_okta-4.1.0a1686776307.tar.gz --markdown 20230615/p/pulumi-okta/4.1.0a1686636103-4.1.0a1686776307/diff.md --exclude *.pyd
+[2023-06-15 00:48:03] INFO root fetch - main [MainThread]: End processing [csdid]: success
+[2023-06-15 00:48:03] INFO root fetch - processPackages [omnisoot]: Remove: archive file [/home/abi/fetcher/tmp/omnisoot-0.1.2-cp39-cp39-win_amd64.whl.zip]
+[2023-06-15 00:48:03] INFO root fetch - processPackages [omnisoot]: Remove: archive file [/home/abi/fetcher/tmp/omnisoot-0.1.3-pp39-pypy39_pp73-manylinux_2_5_i686.manylinux1_i686.manylinux_2_17_i686.manylinux2014_i686.whl.zip]
+[2023-06-15 00:48:03] INFO root fetch - main [MainThread]: End processing [omnisoot]: success
+[2023-06-15 00:48:03] INFO root fetch - main [MainThread]: End processing [csdid]: success
+[2023-06-15 00:48:04] INFO root fetch - processPackages [topometry]: Remove: archive file [/home/abi/fetcher/tmp/topometry-0.2.0.0.tar.gz]
+[2023-06-15 00:48:04] INFO root fetch - processPackages [topometry]: Remove: archive file [/home/abi/fetcher/tmp/topometry-0.2.0.1.tar.gz]
+[2023-06-15 00:48:04] INFO root fetch - main [MainThread]: End processing [topometry]: success
+[2023-06-15 00:48:06] INFO root fetch - processPackages [pulumi-okta]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_okta-4.1.0a1686636103.tar.gz]
+[2023-06-15 00:48:06] INFO root fetch - processPackages [pulumi-okta]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_okta-4.1.0a1686776307.tar.gz]
+[2023-06-15 00:48:06] INFO root fetch - main [MainThread]: End processing [pulumi-okta]: success
+[2023-06-15 00:48:10] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202306141709-py3-none-any.whl.zip]
+[2023-06-15 00:48:10] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202306142247-py3-none-any.whl.zip]
+[2023-06-15 00:48:10] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-06-15 00:48:54] INFO root fetch - processPackages [Geode-Hybrid]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Hybrid-2.0.4rc1-cp39-cp39-win_amd64.whl.zip]
+[2023-06-15 00:48:54] INFO root fetch - processPackages [Geode-Hybrid]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Hybrid-2.0.4rc2-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-06-15 00:48:54] INFO root fetch - main [MainThread]: End processing [Geode-Hybrid]: success
+[2023-06-15 00:48:54] INFO root fetch - main [MainThread]: Store serial: [18507823]
