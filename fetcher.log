@@ -1950,3 +1950,59 @@
 [2023-06-15 01:49:51] INFO root fetch - processPackages [linkml-runtime]: Remove: archive file [/home/abi/fetcher/tmp/linkml_runtime-1.5.4.tar.gz]
 [2023-06-15 01:49:51] INFO root fetch - main [MainThread]: End processing [linkml-runtime]: success
 [2023-06-15 01:49:51] INFO root fetch - main [MainThread]: Store serial: [18508276]
+[2023-06-15 01:54:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18508276]
+[2023-06-15 01:54:59] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-15 01:54:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: focalnet-tf
+[2023-06-15 01:54:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: metacountregressor
+[2023-06-15 01:54:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: oloren
+[2023-06-15 01:54:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: test-1234
+[2023-06-15 01:54:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: discovery-transition-ds
+[2023-06-15 01:54:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pytrendseries
+[2023-06-15 01:54:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: myoktros
+[2023-06-15 01:55:00] WARNING root fetch - processPackages [test-1234]: Skipping, unable to determine old version
+[2023-06-15 01:55:00] INFO root fetch - main [MainThread]: End processing [test-1234] error
+[2023-06-15 01:55:00] INFO root fetch - processPackages [focalnet-tf]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-15 01:55:00] INFO root fetch - processPackages [pytrendseries]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-15 01:55:00] INFO root fetch - processPackages [oloren]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-15 01:55:00] INFO root fetch - processPackages [metacountregressor]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-15 01:55:00] INFO root fetch - processPackages [discovery-transition-ds]: New version: [4.9.9] Old Version: [4.9.8]
+[2023-06-15 01:55:00] INFO root fetch - processPackages [metacountregressor]: Downloading https://files.pythonhosted.org/packages/1c/21/17f6874490c31d7499bd086b94c5c0c4f213a617577d5f498e8d3bc4987f/metacountregressor-0.1.8-py3-none-any.whl
+[2023-06-15 01:55:00] INFO root fetch - processPackages [myoktros]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-15 01:55:00] INFO root fetch - processPackages [discovery-transition-ds]: Downloading https://files.pythonhosted.org/packages/cc/ca/dd90c3d50a2ad721c7d5c68f5fd4ee0e6e77dc44837a32cecf9e80f276da/discovery-transition-ds-4.9.8.tar.gz
+[2023-06-15 01:55:00] WARNING root fetch - processPackages [metacountregressor]: Skipping package: exceeds size limit 13883266>=10485760
+[2023-06-15 01:55:00] INFO root fetch - main [MainThread]: End processing [metacountregressor] error
+[2023-06-15 01:55:00] INFO root fetch - processPackages [pytrendseries]: Downloading https://files.pythonhosted.org/packages/56/0e/466ea98c689912f59096a205291fd7c6e638bdc359a1eb66acf1622fd919/pytrendseries-0.1.8.tar.gz
+[2023-06-15 01:55:00] INFO root fetch - processPackages [oloren]: Downloading https://files.pythonhosted.org/packages/a3/76/06db9dcd349a4094baa829da1112066fd4fe60d5748d1b0c8c0833367603/oloren-0.0.8.tar.gz
+[2023-06-15 01:55:00] INFO root fetch - processPackages [focalnet-tf]: Downloading https://files.pythonhosted.org/packages/89/18/05712c06bc55d37dd94c8abf7c2df4fbc3139f3f14d79c61138ed2414b86/focalnet-tf-0.0.1.tar.gz
+[2023-06-15 01:55:00] INFO root fetch - processPackages [myoktros]: Downloading https://files.pythonhosted.org/packages/53/86/3d3858e2a56566a314b4d2f98c179c486291a1a90ef716c4d8b342f041d3/myoktros-0.0.1.tar.gz
+[2023-06-15 01:55:00] INFO root fetch - processPackages [discovery-transition-ds]: Downloading https://files.pythonhosted.org/packages/ec/52/fe97bc1465aa4a0bde7a751272ca25b751fd275a83e912c56ca6a544332e/discovery-transition-ds-4.9.9.tar.gz
+[2023-06-15 01:55:00] INFO root fetch - processPackages [pytrendseries]: Downloading https://files.pythonhosted.org/packages/55/69/4424af321a89a0db9052d719b9f4dc90a73eaac6fd98878f261f71b12ed9/pytrendseries-0.1.9.tar.gz
+[2023-06-15 01:55:00] INFO root fetch - processPackages [focalnet-tf]: Downloading https://files.pythonhosted.org/packages/4e/84/55787a167f2fe71dbb0a6613b973f182e2464c7b8d68bd0ee116b0cb70fc/focalnet-tf-0.0.2.tar.gz
+[2023-06-15 01:55:00] INFO root fetch - processPackages [discovery-transition-ds]: executing diffoscope
+[2023-06-15 01:55:00] INFO root fetch - processPackages [discovery-transition-ds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/discovery-transition-ds-4.9.8.tar.gz tmp/discovery-transition-ds-4.9.9.tar.gz --markdown 20230615/d/discovery-transition-ds/4.9.8-4.9.9/diff.md --exclude *.pyd
+[2023-06-15 01:55:00] INFO root fetch - processPackages [pytrendseries]: executing diffoscope
+[2023-06-15 01:55:00] INFO root fetch - processPackages [pytrendseries]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytrendseries-0.1.8.tar.gz tmp/pytrendseries-0.1.9.tar.gz --markdown 20230615/p/pytrendseries/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-15 01:55:00] INFO root fetch - processPackages [focalnet-tf]: executing diffoscope
+[2023-06-15 01:55:00] INFO root fetch - processPackages [focalnet-tf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/focalnet-tf-0.0.1.tar.gz tmp/focalnet-tf-0.0.2.tar.gz --markdown 20230615/f/focalnet-tf/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-15 01:55:00] INFO root fetch - processPackages [myoktros]: Downloading https://files.pythonhosted.org/packages/13/8d/8ae66080290f9916743dea275ac3992f0fd0dd96e9e2b27a5296bbe247f2/myoktros-0.0.2.tar.gz
+[2023-06-15 01:55:00] INFO root fetch - processPackages [myoktros]: executing diffoscope
+[2023-06-15 01:55:00] INFO root fetch - processPackages [myoktros]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/myoktros-0.0.1.tar.gz tmp/myoktros-0.0.2.tar.gz --markdown 20230615/m/myoktros/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-15 01:55:01] INFO root fetch - processPackages [pytrendseries]: Remove: archive file [/home/abi/fetcher/tmp/pytrendseries-0.1.8.tar.gz]
+[2023-06-15 01:55:01] INFO root fetch - processPackages [pytrendseries]: Remove: archive file [/home/abi/fetcher/tmp/pytrendseries-0.1.9.tar.gz]
+[2023-06-15 01:55:01] INFO root fetch - main [MainThread]: End processing [pytrendseries]: success
+[2023-06-15 01:55:01] INFO root fetch - processPackages [myoktros]: Remove: archive file [/home/abi/fetcher/tmp/myoktros-0.0.1.tar.gz]
+[2023-06-15 01:55:01] INFO root fetch - processPackages [myoktros]: Remove: archive file [/home/abi/fetcher/tmp/myoktros-0.0.2.tar.gz]
+[2023-06-15 01:55:01] INFO root fetch - main [MainThread]: End processing [myoktros]: success
+[2023-06-15 01:55:02] INFO root fetch - processPackages [oloren]: Downloading https://files.pythonhosted.org/packages/8f/84/66581190d09357a5dd522267963c2d727e20650e6690064dc2efadd1c020/oloren-0.0.9.tar.gz
+[2023-06-15 01:55:02] INFO root fetch - processPackages [focalnet-tf]: Remove: archive file [/home/abi/fetcher/tmp/focalnet-tf-0.0.1.tar.gz]
+[2023-06-15 01:55:02] INFO root fetch - processPackages [focalnet-tf]: Remove: archive file [/home/abi/fetcher/tmp/focalnet-tf-0.0.2.tar.gz]
+[2023-06-15 01:55:02] INFO root fetch - main [MainThread]: End processing [focalnet-tf]: success
+[2023-06-15 01:55:03] INFO root fetch - processPackages [oloren]: executing diffoscope
+[2023-06-15 01:55:03] INFO root fetch - processPackages [oloren]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oloren-0.0.8.tar.gz tmp/oloren-0.0.9.tar.gz --markdown 20230615/o/oloren/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-15 01:55:04] INFO root fetch - processPackages [discovery-transition-ds]: Remove: archive file [/home/abi/fetcher/tmp/discovery-transition-ds-4.9.8.tar.gz]
+[2023-06-15 01:55:04] INFO root fetch - processPackages [discovery-transition-ds]: Remove: archive file [/home/abi/fetcher/tmp/discovery-transition-ds-4.9.9.tar.gz]
+[2023-06-15 01:55:04] INFO root fetch - main [MainThread]: End processing [discovery-transition-ds]: success
+[2023-06-15 01:55:08] INFO root fetch - processPackages [oloren]: Remove: archive file [/home/abi/fetcher/tmp/oloren-0.0.8.tar.gz]
+[2023-06-15 01:55:08] INFO root fetch - processPackages [oloren]: Remove: archive file [/home/abi/fetcher/tmp/oloren-0.0.9.tar.gz]
+[2023-06-15 01:55:08] INFO root fetch - main [MainThread]: End processing [oloren]: success
+[2023-06-15 01:55:08] INFO root fetch - main [MainThread]: Store serial: [18508298]
