@@ -1697,3 +1697,104 @@
 [2023-06-15 01:33:50] INFO root fetch - processPackages [fedml]: Remove: archive file [/home/abi/fetcher/tmp/fedml-0.8.4a9.tar.gz]
 [2023-06-15 01:33:50] INFO root fetch - main [MainThread]: End processing [fedml]: success
 [2023-06-15 01:33:50] INFO root fetch - main [MainThread]: Store serial: [18508162]
+[2023-06-15 01:38:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18508162]
+[2023-06-15 01:38:59] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-06-15 01:38:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dynbps
+[2023-06-15 01:38:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: DexRoParser
+[2023-06-15 01:38:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: schem
+[2023-06-15 01:38:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: navconfig
+[2023-06-15 01:38:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: laminci
+[2023-06-15 01:38:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: market-engine
+[2023-06-15 01:38:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lpython-emulation
+[2023-06-15 01:38:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: huma-utils
+[2023-06-15 01:38:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mercury-sync
+[2023-06-15 01:38:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cns
+[2023-06-15 01:38:59] WARNING root fetch - processPackages [DexRoParser]: Skipping, unable to determine old version
+[2023-06-15 01:38:59] INFO root fetch - processPackages [DexRoParser]: Start processing: metacountregressor
+[2023-06-15 01:38:59] INFO root fetch - main [MainThread]: End processing [DexRoParser] error
+[2023-06-15 01:38:59] INFO root fetch - processPackages [market-engine]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-15 01:38:59] INFO root fetch - processPackages [dynbps]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-15 01:38:59] WARNING root fetch - processPackages [huma-utils]: Skipping, unable to determine old version
+[2023-06-15 01:38:59] INFO root fetch - processPackages [huma-utils]: Start processing: data-diff
+[2023-06-15 01:38:59] INFO root fetch - main [MainThread]: End processing [huma-utils] error
+[2023-06-15 01:38:59] INFO root fetch - processPackages [lpython-emulation]: New version: [0.0.16.0] Old Version: [0.0.1.9]
+[2023-06-15 01:38:59] ERROR root fetch - processPackages [mercury-sync]: Unable to get metadata: No such project 'mercury-sync'
+[2023-06-15 01:38:59] INFO root fetch - processPackages [cns]: New version: [1.0.16] Old Version: [1.0.15]
+[2023-06-15 01:38:59] INFO root fetch - processPackages [mercury-sync]: Start processing: refuel-autolabel
+[2023-06-15 01:38:59] INFO root fetch - main [MainThread]: End processing [mercury-sync] error
+[2023-06-15 01:38:59] INFO root fetch - processPackages [schem]: New version: [0.9.7] Old Version: [0.9.6]
+[2023-06-15 01:38:59] INFO root fetch - processPackages [metacountregressor]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-15 01:38:59] INFO root fetch - processPackages [laminci]: New version: [0.7.0] Old Version: [0.6.8]
+[2023-06-15 01:38:59] INFO root fetch - processPackages [navconfig]: New version: [1.3.6] Old Version: [1.3.5]
+[2023-06-15 01:38:59] INFO root fetch - processPackages [data-diff]: New version: [0.7.8] Old Version: [0.7.7]
+[2023-06-15 01:38:59] INFO root fetch - processPackages [dynbps]: Downloading https://files.pythonhosted.org/packages/df/7b/f58a1f70e52ed8b936d562f434b4d005322708be43347f0d4d623073631b/dynbps-0.0.8.tar.gz
+[2023-06-15 01:38:59] INFO root fetch - processPackages [schem]: Downloading https://files.pythonhosted.org/packages/42/66/1f4d8683198245612ee7a5e2a5765967f8071b00874015ec0001a1923ae1/schem-0.9.6.tar.gz
+[2023-06-15 01:38:59] WARNING root fetch - processPackages [refuel-autolabel]: Skipping, unable to determine old version
+[2023-06-15 01:38:59] INFO root fetch - processPackages [refuel-autolabel]: Start processing: peewee-jsonfield
+[2023-06-15 01:38:59] INFO root fetch - main [MainThread]: End processing [refuel-autolabel] error
+[2023-06-15 01:38:59] INFO root fetch - processPackages [metacountregressor]: Downloading https://files.pythonhosted.org/packages/1c/21/17f6874490c31d7499bd086b94c5c0c4f213a617577d5f498e8d3bc4987f/metacountregressor-0.1.8-py3-none-any.whl
+[2023-06-15 01:38:59] INFO root fetch - processPackages [peewee-jsonfield]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-15 01:38:59] INFO root fetch - processPackages [cns]: Downloading https://files.pythonhosted.org/packages/65/ef/769534b65169f1442e9e19b697fa8a8d103b603e558d2487411618407dab/cns-1.0.15-py3-none-any.whl
+[2023-06-15 01:38:59] WARNING root fetch - processPackages [metacountregressor]: Skipping package: exceeds size limit 13883266>=10485760
+[2023-06-15 01:38:59] INFO root fetch - main [MainThread]: End processing [metacountregressor] error
+[2023-06-15 01:38:59] INFO root fetch - processPackages [lpython-emulation]: Downloading https://files.pythonhosted.org/packages/3b/ea/e392b1f97afe6dc0b02fcf9de606590a8a859a0dc8a50dc52bc5722ad04d/lpython_emulation-0.0.1.9.tar.gz
+[2023-06-15 01:38:59] INFO root fetch - processPackages [laminci]: Downloading https://files.pythonhosted.org/packages/bb/d9/a8c8b4a277e17c35e673bd3ee0a6270d159c2b716e59fcc13eebdb96102f/laminci-0.6.8.tar.gz
+[2023-06-15 01:38:59] INFO root fetch - processPackages [peewee-jsonfield]: Downloading https://files.pythonhosted.org/packages/a5/51/ec0618313d21040d7f933b720d39011b7d2743cb336c52a9abc44205bcc7/peewee-jsonfield-0.0.2.tar.gz
+[2023-06-15 01:38:59] INFO root fetch - processPackages [schem]: Downloading https://files.pythonhosted.org/packages/f9/61/b544fd79215110646193a4202e32076a3acdc4c3eb43e51932fc774a93a5/schem-0.9.7.tar.gz
+[2023-06-15 01:38:59] INFO root fetch - processPackages [data-diff]: Downloading https://files.pythonhosted.org/packages/e9/72/dbf543d582bbc3c547747a49b543732408ae0ea5e8f548936802feb651d9/data_diff-0.7.7.tar.gz
+[2023-06-15 01:38:59] INFO root fetch - processPackages [navconfig]: Downloading https://files.pythonhosted.org/packages/92/1f/91600b091d257ceb3e686bd77d60e8969ab907240f263c6c039b86bb8940/navconfig-1.3.5-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-15 01:38:59] INFO root fetch - processPackages [schem]: executing diffoscope
+[2023-06-15 01:38:59] INFO root fetch - processPackages [schem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/schem-0.9.6.tar.gz tmp/schem-0.9.7.tar.gz --markdown 20230615/s/schem/0.9.6-0.9.7/diff.md --exclude *.pyd
+[2023-06-15 01:38:59] INFO root fetch - processPackages [peewee-jsonfield]: Downloading https://files.pythonhosted.org/packages/17/5e/9d9e6fdf060eea381e2b522c06ea75ad10a0ab51f302e6f1c8eb29f7fd4f/peewee-jsonfield-0.0.3.tar.gz
+[2023-06-15 01:38:59] INFO root fetch - processPackages [market-engine]: Downloading https://files.pythonhosted.org/packages/e8/04/d1b1d7a129e795edeb5dc749d9862dc9169d8f64aaa26f694f55cc426185/market-engine-0.0.5.tar.gz
+[2023-06-15 01:38:59] INFO root fetch - processPackages [peewee-jsonfield]: executing diffoscope
+[2023-06-15 01:38:59] INFO root fetch - processPackages [peewee-jsonfield]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/peewee-jsonfield-0.0.2.tar.gz tmp/peewee-jsonfield-0.0.3.tar.gz --markdown 20230615/p/peewee-jsonfield/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-15 01:38:59] INFO root fetch - processPackages [dynbps]: Downloading https://files.pythonhosted.org/packages/68/24/1ebda3992ba3fca69361dc71a1002d2a7f0587e88491f1cc7ebebac1823a/dynbps-0.0.9.tar.gz
+[2023-06-15 01:38:59] INFO root fetch - processPackages [cns]: Downloading https://files.pythonhosted.org/packages/51/90/a888d4176e48d850ee03c8c6f5bfd779700754be4cb2f73c14a3760fb79b/cns-1.0.16-py3-none-any.whl
+[2023-06-15 01:39:00] INFO root fetch - processPackages [laminci]: Downloading https://files.pythonhosted.org/packages/48/a4/75e4f77aa3bfdb434cc6b4b0fa565b2278ef4535f3c221cb33b1e9dbd208/laminci-0.7.0.tar.gz
+[2023-06-15 01:39:00] INFO root fetch - processPackages [lpython-emulation]: Downloading https://files.pythonhosted.org/packages/21/a4/9f0bdc16eaf7633d303c8f0f9bdf69b3a2020404b760996e2a9fdb99afac/lpython_emulation-0.0.16.0.tar.gz
+[2023-06-15 01:39:00] INFO root fetch - processPackages [dynbps]: executing diffoscope
+[2023-06-15 01:39:00] INFO root fetch - processPackages [dynbps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dynbps-0.0.8.tar.gz tmp/dynbps-0.0.9.tar.gz --markdown 20230615/d/dynbps/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-15 01:39:00] INFO root fetch - processPackages [laminci]: executing diffoscope
+[2023-06-15 01:39:00] INFO root fetch - processPackages [laminci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/laminci-0.6.8.tar.gz tmp/laminci-0.7.0.tar.gz --markdown 20230615/l/laminci/0.6.8-0.7.0/diff.md --exclude *.pyd
+[2023-06-15 01:39:00] INFO root fetch - processPackages [cns]: executing diffoscope
+[2023-06-15 01:39:00] INFO root fetch - processPackages [cns]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cns-1.0.15-py3-none-any.whl.zip tmp/cns-1.0.16-py3-none-any.whl.zip --markdown 20230615/c/cns/1.0.15-1.0.16/diff.md --exclude *.pyd
+[2023-06-15 01:39:00] INFO root fetch - processPackages [lpython-emulation]: executing diffoscope
+[2023-06-15 01:39:00] INFO root fetch - processPackages [lpython-emulation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lpython_emulation-0.0.1.9.tar.gz tmp/lpython_emulation-0.0.16.0.tar.gz --markdown 20230615/l/lpython-emulation/0.0.1.9-0.0.16.0/diff.md --exclude *.pyd
+[2023-06-15 01:39:00] INFO root fetch - processPackages [data-diff]: Downloading https://files.pythonhosted.org/packages/bb/36/ca801d8b1ef5dcc30d053086d846544bdbe2e29f31940737b24f7078a897/data_diff-0.7.8.tar.gz
+[2023-06-15 01:39:00] INFO root fetch - processPackages [navconfig]: Downloading https://files.pythonhosted.org/packages/28/e3/3de0f5b03461aefe5c43c2188ad55c5756e035d09479a22587e71d522f45/navconfig-1.3.6-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-15 01:39:00] INFO root fetch - processPackages [market-engine]: Downloading https://files.pythonhosted.org/packages/a8/03/b7e0e562cffbde40c9544b5a7af4cece5b228532aff38d30a9bbf90bcab8/market-engine-0.0.6.tar.gz
+[2023-06-15 01:39:00] INFO root fetch - processPackages [navconfig]: executing diffoscope
+[2023-06-15 01:39:00] INFO root fetch - processPackages [navconfig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/navconfig-1.3.5-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/navconfig-1.3.6-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230615/n/navconfig/1.3.5-1.3.6/diff.md --exclude *.pyd
+[2023-06-15 01:39:00] INFO root fetch - processPackages [market-engine]: executing diffoscope
+[2023-06-15 01:39:00] INFO root fetch - processPackages [market-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/market-engine-0.0.5.tar.gz tmp/market-engine-0.0.6.tar.gz --markdown 20230615/m/market-engine/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-15 01:39:00] INFO root fetch - processPackages [data-diff]: executing diffoscope
+[2023-06-15 01:39:00] INFO root fetch - processPackages [data-diff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data_diff-0.7.7.tar.gz tmp/data_diff-0.7.8.tar.gz --markdown 20230615/d/data-diff/0.7.7-0.7.8/diff.md --exclude *.pyd
+[2023-06-15 01:39:01] INFO root fetch - processPackages [dynbps]: Remove: archive file [/home/abi/fetcher/tmp/dynbps-0.0.8.tar.gz]
+[2023-06-15 01:39:01] INFO root fetch - processPackages [dynbps]: Remove: archive file [/home/abi/fetcher/tmp/dynbps-0.0.9.tar.gz]
+[2023-06-15 01:39:01] INFO root fetch - main [MainThread]: End processing [dynbps]: success
+[2023-06-15 01:39:01] INFO root fetch - processPackages [cns]: Remove: archive file [/home/abi/fetcher/tmp/cns-1.0.15-py3-none-any.whl.zip]
+[2023-06-15 01:39:01] INFO root fetch - processPackages [cns]: Remove: archive file [/home/abi/fetcher/tmp/cns-1.0.16-py3-none-any.whl.zip]
+[2023-06-15 01:39:01] INFO root fetch - main [MainThread]: End processing [cns]: success
+[2023-06-15 01:39:01] INFO root fetch - processPackages [laminci]: Remove: archive file [/home/abi/fetcher/tmp/laminci-0.6.8.tar.gz]
+[2023-06-15 01:39:01] INFO root fetch - processPackages [laminci]: Remove: archive file [/home/abi/fetcher/tmp/laminci-0.7.0.tar.gz]
+[2023-06-15 01:39:01] INFO root fetch - main [MainThread]: End processing [laminci]: success
+[2023-06-15 01:39:01] INFO root fetch - processPackages [lpython-emulation]: Remove: archive file [/home/abi/fetcher/tmp/lpython_emulation-0.0.1.9.tar.gz]
+[2023-06-15 01:39:01] INFO root fetch - processPackages [lpython-emulation]: Remove: archive file [/home/abi/fetcher/tmp/lpython_emulation-0.0.16.0.tar.gz]
+[2023-06-15 01:39:01] INFO root fetch - main [MainThread]: End processing [lpython-emulation]: success
+[2023-06-15 01:39:01] INFO root fetch - processPackages [market-engine]: Remove: archive file [/home/abi/fetcher/tmp/market-engine-0.0.5.tar.gz]
+[2023-06-15 01:39:01] INFO root fetch - processPackages [market-engine]: Remove: archive file [/home/abi/fetcher/tmp/market-engine-0.0.6.tar.gz]
+[2023-06-15 01:39:01] INFO root fetch - main [MainThread]: End processing [market-engine]: success
+[2023-06-15 01:39:01] INFO root fetch - processPackages [peewee-jsonfield]: Remove: archive file [/home/abi/fetcher/tmp/peewee-jsonfield-0.0.2.tar.gz]
+[2023-06-15 01:39:01] INFO root fetch - processPackages [peewee-jsonfield]: Remove: archive file [/home/abi/fetcher/tmp/peewee-jsonfield-0.0.3.tar.gz]
+[2023-06-15 01:39:01] INFO root fetch - main [MainThread]: End processing [peewee-jsonfield]: success
+[2023-06-15 01:39:01] INFO root fetch - processPackages [data-diff]: Remove: archive file [/home/abi/fetcher/tmp/data_diff-0.7.7.tar.gz]
+[2023-06-15 01:39:01] INFO root fetch - processPackages [data-diff]: Remove: archive file [/home/abi/fetcher/tmp/data_diff-0.7.8.tar.gz]
+[2023-06-15 01:39:01] INFO root fetch - main [MainThread]: End processing [data-diff]: success
+[2023-06-15 01:39:02] INFO root fetch - processPackages [schem]: Remove: archive file [/home/abi/fetcher/tmp/schem-0.9.6.tar.gz]
+[2023-06-15 01:39:02] INFO root fetch - processPackages [schem]: Remove: archive file [/home/abi/fetcher/tmp/schem-0.9.7.tar.gz]
+[2023-06-15 01:39:02] INFO root fetch - main [MainThread]: End processing [schem]: success
+[2023-06-15 01:39:19] INFO root fetch - processPackages [navconfig]: Remove: archive file [/home/abi/fetcher/tmp/navconfig-1.3.5-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-15 01:39:19] INFO root fetch - processPackages [navconfig]: Remove: archive file [/home/abi/fetcher/tmp/navconfig-1.3.6-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-15 01:39:19] INFO root fetch - main [MainThread]: End processing [navconfig]: success
+[2023-06-15 01:39:19] INFO root fetch - main [MainThread]: Store serial: [18508213]
