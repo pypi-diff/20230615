@@ -1378,3 +1378,76 @@
 [2023-06-15 01:10:10] INFO root fetch - main [MainThread]: End processing [pysamosa]: success
 [2023-06-15 01:10:11] INFO root fetch - main [MainThread]: End processing [pulumi-kubernetes]: success
 [2023-06-15 01:10:11] INFO root fetch - main [MainThread]: Store serial: [18508045]
+[2023-06-15 01:15:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18508045]
+[2023-06-15 01:15:20] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-15 01:15:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fpec2
+[2023-06-15 01:15:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: csdid
+[2023-06-15 01:15:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: girlfriendpy
+[2023-06-15 01:15:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tutor-mfe
+[2023-06-15 01:15:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ohnlp-backbone-xlang-python
+[2023-06-15 01:15:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: csdid
+[2023-06-15 01:15:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cfn-lint
+[2023-06-15 01:15:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bruinen
+[2023-06-15 01:15:21] INFO root fetch - processPackages [fpec2]: New version: [0.3] Old Version: [0.2]
+[2023-06-15 01:15:21] INFO root fetch - processPackages [csdid]: New version: [0.1.64] Old Version: [0.1.63]
+[2023-06-15 01:15:21] INFO root fetch - processPackages [csdid]: New version: [0.1.64] Old Version: [0.1.63]
+[2023-06-15 01:15:21] INFO root fetch - processPackages [girlfriendpy]: New version: [0.3] Old Version: [0.2]
+[2023-06-15 01:15:21] INFO root fetch - processPackages [tutor-mfe]: New version: [16.0.0] Old Version: [15.0.7]
+[2023-06-15 01:15:21] INFO root fetch - processPackages [girlfriendpy]: Downloading https://files.pythonhosted.org/packages/78/6a/56fe9107e051a907b8723ae8fa003664d4e0749320ee50e17ddf0a0bc85f/girlfriendpy-0.2.tar.gz
+[2023-06-15 01:15:21] INFO root fetch - processPackages [csdid]: Downloading https://files.pythonhosted.org/packages/36/22/820421f97e8e7c9d530ef52bc5970b0732eed3e4814781ab74f7a667f928/csdid-0.1.63.tar.gz
+[2023-06-15 01:15:21] INFO root fetch - processPackages [csdid]: Downloading https://files.pythonhosted.org/packages/36/22/820421f97e8e7c9d530ef52bc5970b0732eed3e4814781ab74f7a667f928/csdid-0.1.63.tar.gz
+[2023-06-15 01:15:21] INFO root fetch - processPackages [ohnlp-backbone-xlang-python]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-15 01:15:21] INFO root fetch - processPackages [cfn-lint]: New version: [1.0.0rc2] Old Version: [1.0.0rc1]
+[2023-06-15 01:15:21] INFO root fetch - processPackages [fpec2]: Downloading https://files.pythonhosted.org/packages/da/7a/2ca4572348f84e6571963b82bac3d3af32430fc37ed0d9aaae9ce4110fb0/fpec2-0.2.tar.gz
+[2023-06-15 01:15:21] INFO root fetch - processPackages [bruinen]: New version: [1.2] Old Version: [1.1]
+[2023-06-15 01:15:21] INFO root fetch - processPackages [tutor-mfe]: Downloading https://files.pythonhosted.org/packages/8b/39/35d28511d893be2c049201ea01e5b90137a3379183d613f7fb22ed2b6ba2/tutor-mfe-15.0.7.tar.gz
+[2023-06-15 01:15:21] INFO root fetch - processPackages [ohnlp-backbone-xlang-python]: Downloading https://files.pythonhosted.org/packages/2c/af/db84e43875d1db29c1d0c5303c536942a426a5ac9a9982f5114adde6400d/ohnlp-backbone-xlang-python-1.0.8.tar.gz
+[2023-06-15 01:15:21] INFO root fetch - processPackages [girlfriendpy]: Downloading https://files.pythonhosted.org/packages/7f/cd/17eed910b7e222a0adf4948b6b8f022898190fe0aba02caf2c37fe7f3194/girlfriendpy-0.3.tar.gz
+[2023-06-15 01:15:21] INFO root fetch - processPackages [csdid]: Downloading https://files.pythonhosted.org/packages/2b/7d/08507949d7dadb8081a7a986dcc04553d2237ed88d0f340e894542cc58ce/csdid-0.1.64.tar.gz
+[2023-06-15 01:15:21] INFO root fetch - processPackages [csdid]: Downloading https://files.pythonhosted.org/packages/2b/7d/08507949d7dadb8081a7a986dcc04553d2237ed88d0f340e894542cc58ce/csdid-0.1.64.tar.gz
+[2023-06-15 01:15:21] INFO root fetch - processPackages [cfn-lint]: Downloading https://files.pythonhosted.org/packages/f3/39/9d43f5ad4efcd268a1c5fd3f19979e7c3affbaa34fd2328318a387eecc8f/cfn-lint-1.0.0rc1.tar.gz
+[2023-06-15 01:15:21] INFO root fetch - processPackages [bruinen]: Downloading https://files.pythonhosted.org/packages/30/61/efca72aa34fad22cdbc9ca960095bcdbbf6f81918689abe7abfca0b04d50/bruinen-1.1.tar.gz
+[2023-06-15 01:15:21] INFO root fetch - processPackages [csdid]: executing diffoscope
+[2023-06-15 01:15:21] INFO root fetch - processPackages [csdid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/csdid-0.1.63.tar.gz tmp/csdid-0.1.64.tar.gz --markdown 20230615/c/csdid/0.1.63-0.1.64/diff.md --exclude *.pyd
+[2023-06-15 01:15:21] INFO root fetch - processPackages [csdid]: executing diffoscope
+[2023-06-15 01:15:21] INFO root fetch - processPackages [csdid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/csdid-0.1.63.tar.gz tmp/csdid-0.1.64.tar.gz --markdown 20230615/c/csdid/0.1.63-0.1.64/diff.md --exclude *.pyd
+[2023-06-15 01:15:21] INFO root fetch - processPackages [fpec2]: Downloading https://files.pythonhosted.org/packages/6e/e0/ea880277d3338464d04560263665d8b4925d8584fc944e6a4c6cc2a17e20/fpec2-0.3.tar.gz
+[2023-06-15 01:15:21] INFO root fetch - processPackages [tutor-mfe]: Downloading https://files.pythonhosted.org/packages/05/7b/51d1b15bac2b357b138afbcdba591941bd95124255060009b4a085f15f2d/tutor-mfe-16.0.0.tar.gz
+[2023-06-15 01:15:21] INFO root fetch - processPackages [tutor-mfe]: executing diffoscope
+[2023-06-15 01:15:21] INFO root fetch - processPackages [tutor-mfe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tutor-mfe-15.0.7.tar.gz tmp/tutor-mfe-16.0.0.tar.gz --markdown 20230615/t/tutor-mfe/15.0.7-16.0.0/diff.md --exclude *.pyd
+[2023-06-15 01:15:21] INFO root fetch - processPackages [girlfriendpy]: executing diffoscope
+[2023-06-15 01:15:21] INFO root fetch - processPackages [girlfriendpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/girlfriendpy-0.2.tar.gz tmp/girlfriendpy-0.3.tar.gz --markdown 20230615/g/girlfriendpy/0.2-0.3/diff.md --exclude *.pyd
+[2023-06-15 01:15:21] INFO root fetch - processPackages [fpec2]: executing diffoscope
+[2023-06-15 01:15:21] INFO root fetch - processPackages [fpec2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fpec2-0.2.tar.gz tmp/fpec2-0.3.tar.gz --markdown 20230615/f/fpec2/0.2-0.3/diff.md --exclude *.pyd
+[2023-06-15 01:15:21] INFO root fetch - processPackages [ohnlp-backbone-xlang-python]: Downloading https://files.pythonhosted.org/packages/94/b2/be03e8009435ffd3f952d23f655bf7bd9bfdc90709c345a9d27befa172a9/ohnlp-backbone-xlang-python-1.0.9.tar.gz
+[2023-06-15 01:15:21] INFO root fetch - processPackages [bruinen]: Downloading https://files.pythonhosted.org/packages/3f/1c/5a4578e1603c8541f135b12f335c20beb7fd3a1e853c8ad94a3e7e558397/bruinen-1.2.tar.gz
+[2023-06-15 01:15:21] INFO root fetch - processPackages [cfn-lint]: Downloading https://files.pythonhosted.org/packages/8f/00/53e5e24f4cfdb0b3f0a552597f16c37e960b3461c30a0104d6a09c989b2e/cfn-lint-1.0.0rc2.tar.gz
+[2023-06-15 01:15:21] INFO root fetch - processPackages [ohnlp-backbone-xlang-python]: executing diffoscope
+[2023-06-15 01:15:21] INFO root fetch - processPackages [ohnlp-backbone-xlang-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ohnlp-backbone-xlang-python-1.0.8.tar.gz tmp/ohnlp-backbone-xlang-python-1.0.9.tar.gz --markdown 20230615/o/ohnlp-backbone-xlang-python/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-15 01:15:22] INFO root fetch - processPackages [bruinen]: executing diffoscope
+[2023-06-15 01:15:22] INFO root fetch - processPackages [bruinen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bruinen-1.1.tar.gz tmp/bruinen-1.2.tar.gz --markdown 20230615/b/bruinen/1.1-1.2/diff.md --exclude *.pyd
+[2023-06-15 01:15:22] INFO root fetch - processPackages [cfn-lint]: executing diffoscope
+[2023-06-15 01:15:22] INFO root fetch - processPackages [cfn-lint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cfn-lint-1.0.0rc1.tar.gz tmp/cfn-lint-1.0.0rc2.tar.gz --markdown 20230615/c/cfn-lint/1.0.0rc1-1.0.0rc2/diff.md --exclude *.pyd
+[2023-06-15 01:15:22] INFO root fetch - processPackages [csdid]: Remove: archive file [/home/abi/fetcher/tmp/csdid-0.1.63.tar.gz]
+[2023-06-15 01:15:22] INFO root fetch - processPackages [csdid]: Remove: archive file [/home/abi/fetcher/tmp/csdid-0.1.64.tar.gz]
+[2023-06-15 01:15:22] INFO root fetch - main [MainThread]: End processing [csdid]: success
+[2023-06-15 01:15:22] INFO root fetch - processPackages [girlfriendpy]: Remove: archive file [/home/abi/fetcher/tmp/girlfriendpy-0.2.tar.gz]
+[2023-06-15 01:15:22] INFO root fetch - processPackages [girlfriendpy]: Remove: archive file [/home/abi/fetcher/tmp/girlfriendpy-0.3.tar.gz]
+[2023-06-15 01:15:22] INFO root fetch - main [MainThread]: End processing [girlfriendpy]: success
+[2023-06-15 01:15:23] INFO root fetch - processPackages [fpec2]: Remove: archive file [/home/abi/fetcher/tmp/fpec2-0.2.tar.gz]
+[2023-06-15 01:15:23] INFO root fetch - processPackages [fpec2]: Remove: archive file [/home/abi/fetcher/tmp/fpec2-0.3.tar.gz]
+[2023-06-15 01:15:23] INFO root fetch - main [MainThread]: End processing [fpec2]: success
+[2023-06-15 01:15:23] INFO root fetch - processPackages [ohnlp-backbone-xlang-python]: Remove: archive file [/home/abi/fetcher/tmp/ohnlp-backbone-xlang-python-1.0.8.tar.gz]
+[2023-06-15 01:15:23] INFO root fetch - processPackages [ohnlp-backbone-xlang-python]: Remove: archive file [/home/abi/fetcher/tmp/ohnlp-backbone-xlang-python-1.0.9.tar.gz]
+[2023-06-15 01:15:23] INFO root fetch - main [MainThread]: End processing [ohnlp-backbone-xlang-python]: success
+[2023-06-15 01:15:23] INFO root fetch - main [MainThread]: End processing [csdid]: success
+[2023-06-15 01:15:23] INFO root fetch - processPackages [tutor-mfe]: Remove: archive file [/home/abi/fetcher/tmp/tutor-mfe-15.0.7.tar.gz]
+[2023-06-15 01:15:23] INFO root fetch - processPackages [tutor-mfe]: Remove: archive file [/home/abi/fetcher/tmp/tutor-mfe-16.0.0.tar.gz]
+[2023-06-15 01:15:23] INFO root fetch - main [MainThread]: End processing [tutor-mfe]: success
+[2023-06-15 01:15:24] INFO root fetch - processPackages [bruinen]: Remove: archive file [/home/abi/fetcher/tmp/bruinen-1.1.tar.gz]
+[2023-06-15 01:15:24] INFO root fetch - processPackages [bruinen]: Remove: archive file [/home/abi/fetcher/tmp/bruinen-1.2.tar.gz]
+[2023-06-15 01:15:24] INFO root fetch - main [MainThread]: End processing [bruinen]: success
+[2023-06-15 01:17:30] INFO root fetch - processPackages [cfn-lint]: Remove: archive file [/home/abi/fetcher/tmp/cfn-lint-1.0.0rc1.tar.gz]
+[2023-06-15 01:17:30] INFO root fetch - processPackages [cfn-lint]: Remove: archive file [/home/abi/fetcher/tmp/cfn-lint-1.0.0rc2.tar.gz]
+[2023-06-15 01:17:30] INFO root fetch - main [MainThread]: End processing [cfn-lint]: success
+[2023-06-15 01:17:30] INFO root fetch - main [MainThread]: Store serial: [18508063]
