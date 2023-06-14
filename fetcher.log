@@ -1,0 +1,84 @@
+[2023-06-15 00:04:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18507363]
+[2023-06-15 00:04:38] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-15 00:04:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: prince
+[2023-06-15 00:04:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: contact-magic
+[2023-06-15 00:04:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: repetita-parser
+[2023-06-15 00:04:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dataquality
+[2023-06-15 00:04:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sidewinder-db
+[2023-06-15 00:04:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdklabs.cdk-aws-sagemaker-role-manager
+[2023-06-15 00:04:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: Geode-Simplex
+[2023-06-15 00:04:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: limes-x
+[2023-06-15 00:04:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: esentity
+[2023-06-15 00:04:38] INFO root fetch - processPackages [cdklabs.cdk-aws-sagemaker-role-manager]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-15 00:04:38] INFO root fetch - processPackages [contact-magic]: New version: [0.5.0] Old Version: [0.4.3]
+[2023-06-15 00:04:38] INFO root fetch - processPackages [limes-x]: New version: [1.1.8] Old Version: [1.1.7]
+[2023-06-15 00:04:38] INFO root fetch - processPackages [repetita-parser]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-15 00:04:38] INFO root fetch - processPackages [sidewinder-db]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-15 00:04:38] INFO root fetch - processPackages [Geode-Simplex]: New version: [6.0.9] Old Version: [6.0.8]
+[2023-06-15 00:04:38] INFO root fetch - processPackages [dataquality]: New version: [0.8.9] Old Version: [0.8.8a0]
+[2023-06-15 00:04:38] INFO root fetch - processPackages [esentity]: New version: [0.2.99] Old Version: [0.2.98]
+[2023-06-15 00:04:38] INFO root fetch - processPackages [cdklabs.cdk-aws-sagemaker-role-manager]: Downloading https://files.pythonhosted.org/packages/50/d6/9a0c44969b0f89944eb3ea8f3f076c16fd66df588ddcde849d9fa38efdbe/cdklabs.cdk-aws-sagemaker-role-manager-0.0.8.tar.gz
+[2023-06-15 00:04:38] INFO root fetch - processPackages [limes-x]: Downloading https://files.pythonhosted.org/packages/96/85/c35f83900cfc0e75f27673cceecd10b5165b3f233e4ea002ddf43d650e8c/limes_x-1.1.7-py3-none-any.whl
+[2023-06-15 00:04:38] INFO root fetch - processPackages [repetita-parser]: Downloading https://files.pythonhosted.org/packages/2a/a7/5d22358ce92590f0125fcccabfeb9255eca329a3c396fd1fbff681b39e66/repetita_parser-1.0.0.tar.gz
+[2023-06-15 00:04:38] INFO root fetch - processPackages [sidewinder-db]: Downloading https://files.pythonhosted.org/packages/41/8c/4962d301dbebe1579580beddfee1d2e67b820f27a1cf41283445c7219faa/sidewinder-db-0.0.8.tar.gz
+[2023-06-15 00:04:38] INFO root fetch - processPackages [prince]: New version: [0.9.0] Old Version: [0.8.3]
+[2023-06-15 00:04:38] INFO root fetch - processPackages [dataquality]: Downloading https://files.pythonhosted.org/packages/ec/c0/a67c048905f2c652971d55ff82c30b8a749cfdd800d5119bb8accf3770bc/dataquality-0.8.8a0.tar.gz
+[2023-06-15 00:04:39] INFO root fetch - processPackages [Geode-Simplex]: Downloading https://files.pythonhosted.org/packages/71/fe/525adfc16647206017d2898a9f436996bc906ecd86240a5d0bac16555638/Geode_Simplex-6.0.8-cp39-cp39-win_amd64.whl
+[2023-06-15 00:04:39] INFO root fetch - processPackages [esentity]: Downloading https://files.pythonhosted.org/packages/1e/9f/e0a6280d40e9cb6e3dfaa2e923b81a0d650931aa948d73ca9a8a3fbf219d/esentity-0.2.98.tar.gz
+[2023-06-15 00:04:39] INFO root fetch - processPackages [contact-magic]: Downloading https://files.pythonhosted.org/packages/ef/3a/de531d92d4ed8dd21e064fff38704717e3663e9949383ec66a56bbefb81d/contact_magic-0.4.3.tar.gz
+[2023-06-15 00:04:39] INFO root fetch - processPackages [repetita-parser]: Downloading https://files.pythonhosted.org/packages/40/05/8a86898ff6557d950033e0f661e8207e955b01b513b7bfe329c3c4230526/repetita_parser-1.0.1.tar.gz
+[2023-06-15 00:04:39] INFO root fetch - processPackages [sidewinder-db]: Downloading https://files.pythonhosted.org/packages/b4/1e/90ca024c383d5af900d01d83653527bcf952ac605ca5599cb8668cc17609/sidewinder-db-0.0.9.tar.gz
+[2023-06-15 00:04:39] INFO root fetch - processPackages [limes-x]: Downloading https://files.pythonhosted.org/packages/03/6c/a626827abb608424bbdcfa57328bd3e0575bf857473ea20ba0a59e0217f5/limes_x-1.1.8-py3-none-any.whl
+[2023-06-15 00:04:39] INFO root fetch - processPackages [prince]: Downloading https://files.pythonhosted.org/packages/20/7d/52da375fe09db5d8d44708f57d6f3e5c60f6aa30e952f7c6d83c85446460/prince-0.8.3.tar.gz
+[2023-06-15 00:04:39] INFO root fetch - processPackages [dataquality]: Downloading https://files.pythonhosted.org/packages/91/1e/b93106f778087ce05e7c356ffd9a6a6062c6e62a84bf3f9d4eb655b16850/dataquality-0.8.9.tar.gz
+[2023-06-15 00:04:39] INFO root fetch - processPackages [repetita-parser]: executing diffoscope
+[2023-06-15 00:04:39] INFO root fetch - processPackages [repetita-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/repetita_parser-1.0.0.tar.gz tmp/repetita_parser-1.0.1.tar.gz --markdown 20230615/r/repetita-parser/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-15 00:04:39] INFO root fetch - processPackages [limes-x]: executing diffoscope
+[2023-06-15 00:04:39] INFO root fetch - processPackages [limes-x]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/limes_x-1.1.7-py3-none-any.whl.zip tmp/limes_x-1.1.8-py3-none-any.whl.zip --markdown 20230615/l/limes-x/1.1.7-1.1.8/diff.md --exclude *.pyd
+[2023-06-15 00:04:39] INFO root fetch - processPackages [sidewinder-db]: executing diffoscope
+[2023-06-15 00:04:39] INFO root fetch - processPackages [sidewinder-db]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sidewinder-db-0.0.8.tar.gz tmp/sidewinder-db-0.0.9.tar.gz --markdown 20230615/s/sidewinder-db/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-15 00:04:39] INFO root fetch - processPackages [dataquality]: executing diffoscope
+[2023-06-15 00:04:39] INFO root fetch - processPackages [dataquality]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataquality-0.8.8a0.tar.gz tmp/dataquality-0.8.9.tar.gz --markdown 20230615/d/dataquality/0.8.8a0-0.8.9/diff.md --exclude *.pyd
+[2023-06-15 00:04:39] INFO root fetch - processPackages [cdklabs.cdk-aws-sagemaker-role-manager]: Downloading https://files.pythonhosted.org/packages/71/17/ab8131f60f8d9a1f8cccdf6c064ec9872549f45bc2d55adcb658cff8550d/cdklabs.cdk-aws-sagemaker-role-manager-0.0.9.tar.gz
+[2023-06-15 00:04:39] INFO root fetch - processPackages [cdklabs.cdk-aws-sagemaker-role-manager]: executing diffoscope
+[2023-06-15 00:04:39] INFO root fetch - processPackages [cdklabs.cdk-aws-sagemaker-role-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdklabs.cdk-aws-sagemaker-role-manager-0.0.8.tar.gz tmp/cdklabs.cdk-aws-sagemaker-role-manager-0.0.9.tar.gz --markdown 20230615/c/cdklabs.cdk-aws-sagemaker-role-manager/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-15 00:04:39] INFO root fetch - processPackages [contact-magic]: Downloading https://files.pythonhosted.org/packages/2d/19/ec1b660b6380e958a2897bb4711f486ed1f16cd2cfdee6440e138ef96757/contact_magic-0.5.0.tar.gz
+[2023-06-15 00:04:39] INFO root fetch - processPackages [contact-magic]: executing diffoscope
+[2023-06-15 00:04:39] INFO root fetch - processPackages [contact-magic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/contact_magic-0.4.3.tar.gz tmp/contact_magic-0.5.0.tar.gz --markdown 20230615/c/contact-magic/0.4.3-0.5.0/diff.md --exclude *.pyd
+[2023-06-15 00:04:39] ERROR root fetch - processPackages [repetita-parser]: Diffoscope failed: Error: error creating container storage: the container name "hopeful_sanderson" is already in use by "b7b63504d6cc83d857150d411d8f225c17483e4456c4521766d1ce64c61d3b5c". You have to remove that container to be able to reuse that name.: that name is already in use
+
+[2023-06-15 00:04:39] INFO root fetch - main [MainThread]: End processing [repetita-parser] error
+[2023-06-15 00:04:39] INFO root fetch - processPackages [esentity]: Downloading https://files.pythonhosted.org/packages/c8/5b/c12322aa6c71e3e0da12b137cf7fef6f67acbd686b0adeaffba5426fd63b/esentity-0.2.99.tar.gz
+[2023-06-15 00:04:39] INFO root fetch - processPackages [prince]: Downloading https://files.pythonhosted.org/packages/6b/b3/f75ebfb9886bcbb05ca47cb403dd13dc064d168f15a6f3d7e0cd3b6861c4/prince-0.9.0.tar.gz
+[2023-06-15 00:04:39] INFO root fetch - processPackages [Geode-Simplex]: Downloading https://files.pythonhosted.org/packages/8f/99/93562b28a43421a18cd68c1a4e0a811721a99e39d3720642e78a9b79550b/Geode_Simplex-6.0.9-cp39-cp39-win_amd64.whl
+[2023-06-15 00:04:39] INFO root fetch - processPackages [esentity]: executing diffoscope
+[2023-06-15 00:04:39] INFO root fetch - processPackages [esentity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/esentity-0.2.98.tar.gz tmp/esentity-0.2.99.tar.gz --markdown 20230615/e/esentity/0.2.98-0.2.99/diff.md --exclude *.pyd
+[2023-06-15 00:04:40] INFO root fetch - processPackages [Geode-Simplex]: executing diffoscope
+[2023-06-15 00:04:40] INFO root fetch - processPackages [Geode-Simplex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Geode_Simplex-6.0.8-cp39-cp39-win_amd64.whl.zip tmp/Geode_Simplex-6.0.9-cp39-cp39-win_amd64.whl.zip --markdown 20230615/G/Geode-Simplex/6.0.8-6.0.9/diff.md --exclude *.pyd
+[2023-06-15 00:04:40] INFO root fetch - processPackages [prince]: executing diffoscope
+[2023-06-15 00:04:40] INFO root fetch - processPackages [prince]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prince-0.8.3.tar.gz tmp/prince-0.9.0.tar.gz --markdown 20230615/p/prince/0.8.3-0.9.0/diff.md --exclude *.pyd
+[2023-06-15 00:04:40] INFO root fetch - processPackages [contact-magic]: Remove: archive file [/home/abi/fetcher/tmp/contact_magic-0.4.3.tar.gz]
+[2023-06-15 00:04:40] INFO root fetch - processPackages [contact-magic]: Remove: archive file [/home/abi/fetcher/tmp/contact_magic-0.5.0.tar.gz]
+[2023-06-15 00:04:40] INFO root fetch - main [MainThread]: End processing [contact-magic]: success
+[2023-06-15 00:04:40] INFO root fetch - processPackages [limes-x]: Remove: archive file [/home/abi/fetcher/tmp/limes_x-1.1.7-py3-none-any.whl.zip]
+[2023-06-15 00:04:40] INFO root fetch - processPackages [limes-x]: Remove: archive file [/home/abi/fetcher/tmp/limes_x-1.1.8-py3-none-any.whl.zip]
+[2023-06-15 00:04:40] INFO root fetch - main [MainThread]: End processing [limes-x]: success
+[2023-06-15 00:04:40] INFO root fetch - processPackages [sidewinder-db]: Remove: archive file [/home/abi/fetcher/tmp/sidewinder-db-0.0.8.tar.gz]
+[2023-06-15 00:04:40] INFO root fetch - processPackages [sidewinder-db]: Remove: archive file [/home/abi/fetcher/tmp/sidewinder-db-0.0.9.tar.gz]
+[2023-06-15 00:04:40] INFO root fetch - main [MainThread]: End processing [sidewinder-db]: success
+[2023-06-15 00:04:41] INFO root fetch - processPackages [cdklabs.cdk-aws-sagemaker-role-manager]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-aws-sagemaker-role-manager-0.0.8.tar.gz]
+[2023-06-15 00:04:41] INFO root fetch - processPackages [cdklabs.cdk-aws-sagemaker-role-manager]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-aws-sagemaker-role-manager-0.0.9.tar.gz]
+[2023-06-15 00:04:41] INFO root fetch - main [MainThread]: End processing [cdklabs.cdk-aws-sagemaker-role-manager]: success
+[2023-06-15 00:04:41] INFO root fetch - processPackages [prince]: Remove: archive file [/home/abi/fetcher/tmp/prince-0.8.3.tar.gz]
+[2023-06-15 00:04:41] INFO root fetch - processPackages [prince]: Remove: archive file [/home/abi/fetcher/tmp/prince-0.9.0.tar.gz]
+[2023-06-15 00:04:41] INFO root fetch - main [MainThread]: End processing [prince]: success
+[2023-06-15 00:04:41] INFO root fetch - processPackages [dataquality]: Remove: archive file [/home/abi/fetcher/tmp/dataquality-0.8.8a0.tar.gz]
+[2023-06-15 00:04:41] INFO root fetch - processPackages [dataquality]: Remove: archive file [/home/abi/fetcher/tmp/dataquality-0.8.9.tar.gz]
+[2023-06-15 00:04:41] INFO root fetch - main [MainThread]: End processing [dataquality]: success
+[2023-06-15 00:04:42] INFO root fetch - processPackages [esentity]: Remove: archive file [/home/abi/fetcher/tmp/esentity-0.2.98.tar.gz]
+[2023-06-15 00:04:42] INFO root fetch - processPackages [esentity]: Remove: archive file [/home/abi/fetcher/tmp/esentity-0.2.99.tar.gz]
+[2023-06-15 00:04:42] INFO root fetch - main [MainThread]: End processing [esentity]: success
+[2023-06-15 00:05:04] INFO root fetch - processPackages [Geode-Simplex]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Simplex-6.0.8-cp39-cp39-win_amd64.whl.zip]
+[2023-06-15 00:05:04] INFO root fetch - processPackages [Geode-Simplex]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Simplex-6.0.9-cp39-cp39-win_amd64.whl.zip]
+[2023-06-15 00:05:04] INFO root fetch - main [MainThread]: End processing [Geode-Simplex]: success
+[2023-06-15 00:05:04] INFO root fetch - main [MainThread]: Store serial: [18507391]
