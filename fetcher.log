@@ -1037,3 +1037,111 @@
 [2023-06-15 00:54:12] INFO root fetch - processPackages [tutor-indigo]: Remove: archive file [/home/abi/fetcher/tmp/tutor-indigo-15.0.0.tar.gz]
 [2023-06-15 00:54:12] INFO root fetch - main [MainThread]: End processing [tutor-indigo]: success
 [2023-06-15 00:54:12] INFO root fetch - main [MainThread]: Store serial: [18507917]
+[2023-06-15 00:59:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18507917]
+[2023-06-15 00:59:22] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-06-15 00:59:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pdpilot
+[2023-06-15 00:59:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: chalkpy
+[2023-06-15 00:59:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: python-roborock
+[2023-06-15 00:59:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: optimal-loc
+[2023-06-15 00:59:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mo-json
+[2023-06-15 00:59:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: vid2ascii
+[2023-06-15 00:59:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: kcli
+[2023-06-15 00:59:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pymilvus-simple
+[2023-06-15 00:59:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: kultimate
+[2023-06-15 00:59:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: csdid
+[2023-06-15 00:59:22] INFO root fetch - processPackages [chalkpy]: New version: [2.7.9] Old Version: [2.7.8]
+[2023-06-15 00:59:22] INFO root fetch - processPackages [pymilvus-simple]: New version: [1.0.1] Old Version: [1.0]
+[2023-06-15 00:59:22] INFO root fetch - processPackages [kultimate]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-15 00:59:22] INFO root fetch - processPackages [mo-json]: New version: [6.412.23165] Old Version: [6.411.23165]
+[2023-06-15 00:59:22] INFO root fetch - processPackages [pdpilot]: New version: [0.5.0] Old Version: [0.4.6]
+[2023-06-15 00:59:22] WARNING root fetch - processPackages [vid2ascii]: Skipping, unable to determine old version
+[2023-06-15 00:59:22] INFO root fetch - processPackages [csdid]: New version: [0.1.61] Old Version: [0.1.6]
+[2023-06-15 00:59:22] INFO root fetch - processPackages [vid2ascii]: Start processing: DexParser-ericbodhi
+[2023-06-15 00:59:22] INFO root fetch - main [MainThread]: End processing [vid2ascii] error
+[2023-06-15 00:59:22] INFO root fetch - processPackages [optimal-loc]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-06-15 00:59:22] INFO root fetch - processPackages [python-roborock]: New version: [0.9.0rc0] Old Version: [0.9.0]
+[2023-06-15 00:59:22] INFO root fetch - processPackages [kcli]: New version: [99.0.202306142255] Old Version: [99.0.202306142247]
+[2023-06-15 00:59:22] INFO root fetch - processPackages [chalkpy]: Downloading https://files.pythonhosted.org/packages/a5/d7/6d2219063ef5b1327876aed128c4c3aaab795b379b6007b6aa9a4841502f/chalkpy-2.7.8.tar.gz
+[2023-06-15 00:59:22] WARNING root fetch - processPackages [DexParser-ericbodhi]: Skipping, unable to determine old version
+[2023-06-15 00:59:22] INFO root fetch - processPackages [DexParser-ericbodhi]: Start processing: kfish
+[2023-06-15 00:59:22] INFO root fetch - main [MainThread]: End processing [DexParser-ericbodhi] error
+[2023-06-15 00:59:22] INFO root fetch - processPackages [kfish]: New version: [99.0.202306142257] Old Version: [99.0.202306142249]
+[2023-06-15 00:59:22] INFO root fetch - processPackages [optimal-loc]: Downloading https://files.pythonhosted.org/packages/e0/22/1b1430e73e90e036de0b6e3bc51bf6a88958cc85881d4aad303665e21e46/optimal_loc-0.1.4.tar.gz
+[2023-06-15 00:59:22] INFO root fetch - processPackages [csdid]: Downloading https://files.pythonhosted.org/packages/da/53/4933159be5b5ef94282a519ce5c39af385ba2536c5aaeebe80b69a291f28/csdid-0.1.6.tar.gz
+[2023-06-15 00:59:22] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/02/f7/5063f7f01389b2daa9eac6df33b3813882179aef309759692c24890251ae/kcli-99.0.202306142247-py3-none-any.whl
+[2023-06-15 00:59:22] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/0b/52/c888b1f477f9152847899549e4b3b2faefc9d3ed658b642076036bfd6e31/kfish-99.0.202306142249-py3-none-any.whl
+[2023-06-15 00:59:22] INFO root fetch - processPackages [kultimate]: Downloading https://files.pythonhosted.org/packages/a9/ec/c6d1ceb43fcc36ca83d801b50fb80cb063cc0241597269dbb5bd81d81587/kultimate-0.1.0.tar.gz
+[2023-06-15 00:59:22] INFO root fetch - processPackages [mo-json]: Downloading https://files.pythonhosted.org/packages/29/f9/4344efad3e9fe697fc6bf1856dac4e6c7b50c69d6ba0c397e0b713e90382/mo_json-6.411.23165-py2.py3-none-any.whl
+[2023-06-15 00:59:22] INFO root fetch - processPackages [pdpilot]: Downloading https://files.pythonhosted.org/packages/50/f6/cf9ceff524d5bbb6fbbfed98460f0f6a2c1ca912c553786b127cebfa918c/pdpilot-0.4.6.tar.gz
+[2023-06-15 00:59:22] INFO root fetch - processPackages [pymilvus-simple]: Downloading https://files.pythonhosted.org/packages/67/df/2932e9662d73076b0cd8e6ff68430c1729cbc4796fef13223abd17f22476/pymilvus_simple-1.0.tar.gz
+[2023-06-15 00:59:22] INFO root fetch - processPackages [chalkpy]: Downloading https://files.pythonhosted.org/packages/0e/b8/e8f7ed7d26f2f8def786675b9026090c3e21d62fabc6dcd238813e74b47d/chalkpy-2.7.9.tar.gz
+[2023-06-15 00:59:22] INFO root fetch - processPackages [python-roborock]: Downloading https://files.pythonhosted.org/packages/bc/a5/7bd08437421c34e92b81b72e3d3eaf9ab00bc7dcca9dd03a427476c13e59/python_roborock-0.9.0.tar.gz
+[2023-06-15 00:59:22] INFO root fetch - processPackages [csdid]: Downloading https://files.pythonhosted.org/packages/0a/19/ae5d12cb1bd8004260cf7ec0e0c970fdc235ca307884e36c2c97e7fabf40/csdid-0.1.61.tar.gz
+[2023-06-15 00:59:22] INFO root fetch - processPackages [optimal-loc]: Downloading https://files.pythonhosted.org/packages/ed/5f/9fe041aea882a4037c01d658489ec2554cc1ced0dba64707d04e63df341b/optimal_loc-0.1.5.tar.gz
+[2023-06-15 00:59:22] INFO root fetch - processPackages [chalkpy]: executing diffoscope
+[2023-06-15 00:59:22] INFO root fetch - processPackages [chalkpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chalkpy-2.7.8.tar.gz tmp/chalkpy-2.7.9.tar.gz --markdown 20230615/c/chalkpy/2.7.8-2.7.9/diff.md --exclude *.pyd
+[2023-06-15 00:59:22] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/f5/21/a95b01bded4c6cfdd52f9411314802887abd658265024b94f2c99fccbebe/kcli-99.0.202306142255-py3-none-any.whl
+[2023-06-15 00:59:22] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/28/2d/cd9ab7f6a37d56a01e5657b194b5289bd4cd34974fb334fb35751101bf1a/kfish-99.0.202306142257-py3-none-any.whl
+[2023-06-15 00:59:22] INFO root fetch - processPackages [mo-json]: Downloading https://files.pythonhosted.org/packages/d3/01/ba9d518c3ad86f186dfef04623b346b54b46750bb9abd91c804bcdb7b410/mo_json-6.412.23165-py2.py3-none-any.whl
+[2023-06-15 00:59:22] INFO root fetch - processPackages [optimal-loc]: executing diffoscope
+[2023-06-15 00:59:22] INFO root fetch - processPackages [optimal-loc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/optimal_loc-0.1.4.tar.gz tmp/optimal_loc-0.1.5.tar.gz --markdown 20230615/o/optimal-loc/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-06-15 00:59:22] INFO root fetch - processPackages [kultimate]: Downloading https://files.pythonhosted.org/packages/8e/c2/4f8700504e29db2512cf34ae575ce5c3e24f9931c64343a437da70ee82de/kultimate-0.1.1.tar.gz
+[2023-06-15 00:59:22] INFO root fetch - processPackages [csdid]: executing diffoscope
+[2023-06-15 00:59:22] INFO root fetch - processPackages [csdid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/csdid-0.1.6.tar.gz tmp/csdid-0.1.61.tar.gz --markdown 20230615/c/csdid/0.1.6-0.1.61/diff.md --exclude *.pyd
+[2023-06-15 00:59:22] INFO root fetch - processPackages [pymilvus-simple]: Downloading https://files.pythonhosted.org/packages/6f/1c/88fb44815d6cacd4d526c8fe605c49f7d54e302a2adb9fee35cae9c2bbb8/pymilvus_simple-1.0.1.tar.gz
+[2023-06-15 00:59:22] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-06-15 00:59:22] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202306142247-py3-none-any.whl.zip tmp/kcli-99.0.202306142255-py3-none-any.whl.zip --markdown 20230615/k/kcli/99.0.202306142247-99.0.202306142255/diff.md --exclude *.pyd
+[2023-06-15 00:59:22] INFO root fetch - processPackages [mo-json]: executing diffoscope
+[2023-06-15 00:59:22] INFO root fetch - processPackages [mo-json]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mo_json-6.411.23165-py2.py3-none-any.whl.zip tmp/mo_json-6.412.23165-py2.py3-none-any.whl.zip --markdown 20230615/m/mo-json/6.411.23165-6.412.23165/diff.md --exclude *.pyd
+[2023-06-15 00:59:23] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2023-06-15 00:59:23] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202306142249-py3-none-any.whl.zip tmp/kfish-99.0.202306142257-py3-none-any.whl.zip --markdown 20230615/k/kfish/99.0.202306142249-99.0.202306142257/diff.md --exclude *.pyd
+[2023-06-15 00:59:23] INFO root fetch - processPackages [kultimate]: executing diffoscope
+[2023-06-15 00:59:23] INFO root fetch - processPackages [kultimate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kultimate-0.1.0.tar.gz tmp/kultimate-0.1.1.tar.gz --markdown 20230615/k/kultimate/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-15 00:59:23] INFO root fetch - processPackages [pdpilot]: Downloading https://files.pythonhosted.org/packages/82/35/5b52707e67369e8ddefbeba22347fb8242e38468b0ec3843cdbb99f23cd7/pdpilot-0.5.0.tar.gz
+[2023-06-15 00:59:23] INFO root fetch - processPackages [pymilvus-simple]: executing diffoscope
+[2023-06-15 00:59:23] INFO root fetch - processPackages [pymilvus-simple]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymilvus_simple-1.0.tar.gz tmp/pymilvus_simple-1.0.1.tar.gz --markdown 20230615/p/pymilvus-simple/1.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-15 00:59:23] INFO root fetch - processPackages [python-roborock]: Downloading https://files.pythonhosted.org/packages/40/9b/30bb82604def56c9a66db0578b68938e38bd30a9c931295d66012a137825/python_roborock-0.9.0rc0.tar.gz
+[2023-06-15 00:59:23] INFO root fetch - processPackages [python-roborock]: executing diffoscope
+[2023-06-15 00:59:23] INFO root fetch - processPackages [python-roborock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_roborock-0.9.0.tar.gz tmp/python_roborock-0.9.0rc0.tar.gz --markdown 20230615/p/python-roborock/0.9.0-0.9.0rc0/diff.md --exclude *.pyd
+[2023-06-15 00:59:23] INFO root fetch - processPackages [pdpilot]: executing diffoscope
+[2023-06-15 00:59:23] INFO root fetch - processPackages [pdpilot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdpilot-0.4.6.tar.gz tmp/pdpilot-0.5.0.tar.gz --markdown 20230615/p/pdpilot/0.4.6-0.5.0/diff.md --exclude *.pyd
+[2023-06-15 00:59:24] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202306142249-py3-none-any.whl.zip]
+[2023-06-15 00:59:24] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202306142257-py3-none-any.whl.zip]
+[2023-06-15 00:59:24] INFO root fetch - processPackages [kfish]: Start processing: bs-orm
+[2023-06-15 00:59:24] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2023-06-15 00:59:24] INFO root fetch - processPackages [bs-orm]: New version: [0.8.4.post20230615] Old Version: [0.8.3.post20230615]
+[2023-06-15 00:59:24] INFO root fetch - processPackages [bs-orm]: Downloading https://files.pythonhosted.org/packages/8b/46/a82bca8cf87abc065d46ab036255e652288f662bab675d61b75a8309e049/bs_orm-0.8.3.post20230615.tar.gz
+[2023-06-15 00:59:24] INFO root fetch - processPackages [pymilvus-simple]: Remove: archive file [/home/abi/fetcher/tmp/pymilvus_simple-1.0.tar.gz]
+[2023-06-15 00:59:24] INFO root fetch - processPackages [pymilvus-simple]: Remove: archive file [/home/abi/fetcher/tmp/pymilvus_simple-1.0.1.tar.gz]
+[2023-06-15 00:59:24] INFO root fetch - main [MainThread]: End processing [pymilvus-simple]: success
+[2023-06-15 00:59:24] INFO root fetch - processPackages [mo-json]: Remove: archive file [/home/abi/fetcher/tmp/mo_json-6.411.23165-py2.py3-none-any.whl.zip]
+[2023-06-15 00:59:24] INFO root fetch - processPackages [mo-json]: Remove: archive file [/home/abi/fetcher/tmp/mo_json-6.412.23165-py2.py3-none-any.whl.zip]
+[2023-06-15 00:59:24] INFO root fetch - main [MainThread]: End processing [mo-json]: success
+[2023-06-15 00:59:24] INFO root fetch - processPackages [kultimate]: Remove: archive file [/home/abi/fetcher/tmp/kultimate-0.1.0.tar.gz]
+[2023-06-15 00:59:24] INFO root fetch - processPackages [kultimate]: Remove: archive file [/home/abi/fetcher/tmp/kultimate-0.1.1.tar.gz]
+[2023-06-15 00:59:24] INFO root fetch - main [MainThread]: End processing [kultimate]: success
+[2023-06-15 00:59:24] INFO root fetch - processPackages [optimal-loc]: Remove: archive file [/home/abi/fetcher/tmp/optimal_loc-0.1.4.tar.gz]
+[2023-06-15 00:59:24] INFO root fetch - processPackages [optimal-loc]: Remove: archive file [/home/abi/fetcher/tmp/optimal_loc-0.1.5.tar.gz]
+[2023-06-15 00:59:24] INFO root fetch - main [MainThread]: End processing [optimal-loc]: success
+[2023-06-15 00:59:24] INFO root fetch - processPackages [csdid]: Remove: archive file [/home/abi/fetcher/tmp/csdid-0.1.6.tar.gz]
+[2023-06-15 00:59:24] INFO root fetch - processPackages [csdid]: Remove: archive file [/home/abi/fetcher/tmp/csdid-0.1.61.tar.gz]
+[2023-06-15 00:59:24] INFO root fetch - main [MainThread]: End processing [csdid]: success
+[2023-06-15 00:59:24] INFO root fetch - processPackages [bs-orm]: Downloading https://files.pythonhosted.org/packages/f9/da/8d716563ac174872a01918908a0225cb6cf48bddcef34124f010c583d65b/bs_orm-0.8.4.post20230615.tar.gz
+[2023-06-15 00:59:25] INFO root fetch - processPackages [bs-orm]: executing diffoscope
+[2023-06-15 00:59:25] INFO root fetch - processPackages [bs-orm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bs_orm-0.8.3.post20230615.tar.gz tmp/bs_orm-0.8.4.post20230615.tar.gz --markdown 20230615/b/bs-orm/0.8.3.post20230615-0.8.4.post20230615/diff.md --exclude *.pyd
+[2023-06-15 00:59:25] INFO root fetch - processPackages [python-roborock]: Remove: archive file [/home/abi/fetcher/tmp/python_roborock-0.9.0.tar.gz]
+[2023-06-15 00:59:25] INFO root fetch - processPackages [python-roborock]: Remove: archive file [/home/abi/fetcher/tmp/python_roborock-0.9.0rc0.tar.gz]
+[2023-06-15 00:59:25] INFO root fetch - main [MainThread]: End processing [python-roborock]: success
+[2023-06-15 00:59:25] INFO root fetch - processPackages [bs-orm]: Remove: archive file [/home/abi/fetcher/tmp/bs_orm-0.8.3.post20230615.tar.gz]
+[2023-06-15 00:59:25] INFO root fetch - processPackages [bs-orm]: Remove: archive file [/home/abi/fetcher/tmp/bs_orm-0.8.4.post20230615.tar.gz]
+[2023-06-15 00:59:25] INFO root fetch - main [MainThread]: End processing [bs-orm]: success
+[2023-06-15 00:59:28] INFO root fetch - processPackages [chalkpy]: Remove: archive file [/home/abi/fetcher/tmp/chalkpy-2.7.8.tar.gz]
+[2023-06-15 00:59:28] INFO root fetch - processPackages [chalkpy]: Remove: archive file [/home/abi/fetcher/tmp/chalkpy-2.7.9.tar.gz]
+[2023-06-15 00:59:28] INFO root fetch - main [MainThread]: End processing [chalkpy]: success
+[2023-06-15 00:59:29] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202306142247-py3-none-any.whl.zip]
+[2023-06-15 00:59:29] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202306142255-py3-none-any.whl.zip]
+[2023-06-15 00:59:29] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-06-15 00:59:37] INFO root fetch - processPackages [pdpilot]: Remove: archive file [/home/abi/fetcher/tmp/pdpilot-0.4.6.tar.gz]
+[2023-06-15 00:59:37] INFO root fetch - processPackages [pdpilot]: Remove: archive file [/home/abi/fetcher/tmp/pdpilot-0.5.0.tar.gz]
+[2023-06-15 00:59:37] INFO root fetch - main [MainThread]: End processing [pdpilot]: success
+[2023-06-15 00:59:37] INFO root fetch - main [MainThread]: Store serial: [18507966]
