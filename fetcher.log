@@ -7469,3 +7469,99 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-15 04:46:49] INFO root fetch - processPackages [vertex-protocol]: Remove: archive file [/home/abi/fetcher/tmp/vertex_protocol-1.1.0.tar.gz]
 [2023-06-15 04:46:49] INFO root fetch - main [MainThread]: End processing [vertex-protocol]: success
 [2023-06-15 04:46:49] INFO root fetch - main [MainThread]: Store serial: [18510293]
+[2023-06-15 04:51:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18510293]
+[2023-06-15 04:51:58] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-15 04:51:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tool-yy
+[2023-06-15 04:51:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: paddleocr-convert
+[2023-06-15 04:51:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: DigiCore
+[2023-06-15 04:51:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-account-mass-reconcile
+[2023-06-15 04:51:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-base-transaction-id
+[2023-06-15 04:51:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: Priority1py
+[2023-06-15 04:51:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: neon-utils
+[2023-06-15 04:51:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pytextcon
+[2023-06-15 04:51:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ats-case
+[2023-06-15 04:51:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dorado
+[2023-06-15 04:51:58] INFO root fetch - processPackages [paddleocr-convert]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-15 04:51:58] INFO root fetch - processPackages [odoo-addon-account-mass-reconcile]: New version: [16.0.1.0.0.9] Old Version: [16.0.1.0.0.8]
+[2023-06-15 04:51:58] INFO root fetch - processPackages [tool-yy]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-15 04:51:58] INFO root fetch - processPackages [DigiCore]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-06-15 04:51:58] INFO root fetch - processPackages [odoo-addon-base-transaction-id]: New version: [16.0.1.0.0.6] Old Version: [16.0.1.0.0.5]
+[2023-06-15 04:51:58] WARNING root fetch - processPackages [pytextcon]: Skipping, unable to determine old version
+[2023-06-15 04:51:58] INFO root fetch - processPackages [pytextcon]: Start processing: odoo12-addon-account-bank-statement-import-online
+[2023-06-15 04:51:58] INFO root fetch - main [MainThread]: End processing [pytextcon] error
+[2023-06-15 04:51:58] INFO root fetch - processPackages [ats-case]: New version: [0.8.3] Old Version: [0.8.2]
+[2023-06-15 04:51:58] INFO root fetch - processPackages [neon-utils]: New version: [1.5.1a3] Old Version: [1.5.1a2]
+[2023-06-15 04:51:58] INFO root fetch - processPackages [Priority1py]: New version: [1.0.0] Old Version: [0.1.7b0]
+[2023-06-15 04:51:58] INFO root fetch - processPackages [dorado]: New version: [2.0.6.dev99] Old Version: [2.0.6.dev97]
+[2023-06-15 04:51:58] INFO root fetch - processPackages [DigiCore]: Downloading https://files.pythonhosted.org/packages/1c/47/328518b9c3e395bb2fc6dad998116edfd92270895f59d6dd2b0c4e7a49d6/DigiCore-1.0.4.tar.gz
+[2023-06-15 04:51:58] INFO root fetch - processPackages [ats-case]: Downloading https://files.pythonhosted.org/packages/6a/b2/d76b7416885e02ebdb29b129e2d13e6b5c0e60b5f02bf8b291c4a1622a32/ats_case-0.8.2.tar.gz
+[2023-06-15 04:51:58] INFO root fetch - processPackages [neon-utils]: Downloading https://files.pythonhosted.org/packages/c3/af/d837f332fcf5411dfc27e6ba4387d2be0a98765bee9dc13a6cce36668cc4/neon_utils-1.5.1a2-py3-none-any.whl
+[2023-06-15 04:51:58] INFO root fetch - processPackages [dorado]: Downloading https://files.pythonhosted.org/packages/28/c3/25ec9324622ba0dd720edcd3809a1c623c162133d247d2e22790624c723b/dorado-2.0.6.dev97.tar.gz
+[2023-06-15 04:51:58] INFO root fetch - processPackages [Priority1py]: Downloading https://files.pythonhosted.org/packages/2b/af/35e8584ad16cfe4d87adc851b6229f784f7f9f9bf9ed37460e1bd651bb02/Priority1py-0.1.7-beta.tar.gz
+[2023-06-15 04:51:58] INFO root fetch - processPackages [paddleocr-convert]: Downloading https://files.pythonhosted.org/packages/b6/e5/3f5c704bd5f685e408daab7d6b81a4bece240b527480fc358ab602b94fcb/paddleocr_convert-0.0.8-py3-none-any.whl
+[2023-06-15 04:51:58] INFO root fetch - processPackages [tool-yy]: Downloading https://files.pythonhosted.org/packages/3b/63/33e1dd19825165447dc730114dc8220f4fb07f0e425b0c1ea066e1c0138a/tool-yy-0.1.8.tar.gz
+[2023-06-15 04:51:58] INFO root fetch - processPackages [odoo-addon-account-mass-reconcile]: Downloading https://files.pythonhosted.org/packages/a6/c4/2493e2c92633362502345f6b7e69ed937d431dcd67162af4af1759aefd9a/odoo_addon_account_mass_reconcile-16.0.1.0.0.8-py3-none-any.whl
+[2023-06-15 04:51:58] INFO root fetch - processPackages [odoo-addon-base-transaction-id]: Downloading https://files.pythonhosted.org/packages/e1/72/e4943293ebaf8a0e9964461bf8207ed49153187321b8aee2ff995d2f5051/odoo_addon_base_transaction_id-16.0.1.0.0.5-py3-none-any.whl
+[2023-06-15 04:51:58] INFO root fetch - processPackages [odoo12-addon-account-bank-statement-import-online]: New version: [12.0.2.0.0.99.dev3] Old Version: [12.0.2.0.0.99.dev1]
+[2023-06-15 04:51:59] INFO root fetch - processPackages [dorado]: Downloading https://files.pythonhosted.org/packages/b9/2e/854512bc2085bd5738d74bd4b50e4a958e43ee3e802999c5402e429e6030/dorado-2.0.6.dev99.tar.gz
+[2023-06-15 04:51:59] INFO root fetch - processPackages [neon-utils]: Downloading https://files.pythonhosted.org/packages/c9/4f/b3c014fd1684c5860dc7461d331d1dfa09e89d3cb6e4141f767850d198ee/neon_utils-1.5.1a3-py3-none-any.whl
+[2023-06-15 04:51:59] INFO root fetch - processPackages [Priority1py]: Downloading https://files.pythonhosted.org/packages/78/e5/37b36a412a1292743297a2f3c37e8c10812c05e66c1ac23ed8466aa15a1e/Priority1py-1.0.0.tar.gz
+[2023-06-15 04:51:59] INFO root fetch - processPackages [dorado]: executing diffoscope
+[2023-06-15 04:51:59] INFO root fetch - processPackages [dorado]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dorado-2.0.6.dev97.tar.gz tmp/dorado-2.0.6.dev99.tar.gz --markdown 20230615/d/dorado/2.0.6.dev97-2.0.6.dev99/diff.md --exclude *.pyd
+[2023-06-15 04:51:59] INFO root fetch - processPackages [odoo12-addon-account-bank-statement-import-online]: Downloading https://files.pythonhosted.org/packages/ed/cb/b996c516d17074352c93a30590b80afae4eadfd1260a7b0562505191aac6/odoo12_addon_account_bank_statement_import_online-12.0.2.0.0.99.dev1-py3-none-any.whl
+[2023-06-15 04:51:59] INFO root fetch - processPackages [ats-case]: Downloading https://files.pythonhosted.org/packages/2e/90/d6df0944316944aeb9b1a1ae7d889f8a230559c74bc4294ab3ff26069144/ats_case-0.8.3.tar.gz
+[2023-06-15 04:51:59] INFO root fetch - processPackages [DigiCore]: Downloading https://files.pythonhosted.org/packages/74/84/939fc715cba084d1dfe62bf585d5aefd0097c2da883facc992ac65fae6c3/DigiCore-1.0.5.tar.gz
+[2023-06-15 04:51:59] INFO root fetch - processPackages [neon-utils]: executing diffoscope
+[2023-06-15 04:51:59] INFO root fetch - processPackages [neon-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon_utils-1.5.1a2-py3-none-any.whl.zip tmp/neon_utils-1.5.1a3-py3-none-any.whl.zip --markdown 20230615/n/neon-utils/1.5.1a2-1.5.1a3/diff.md --exclude *.pyd
+[2023-06-15 04:51:59] INFO root fetch - processPackages [paddleocr-convert]: Downloading https://files.pythonhosted.org/packages/c3/bd/a9b1929a499f90e6b5992840327d1d3b74da4cf7b31bbdf4609f700a2648/paddleocr_convert-0.0.9-py3-none-any.whl
+[2023-06-15 04:51:59] INFO root fetch - processPackages [odoo-addon-base-transaction-id]: Downloading https://files.pythonhosted.org/packages/d0/94/12a8d947c10bcf4fc4f761fb6b571cef76d7a8381e83f993be158604402e/odoo_addon_base_transaction_id-16.0.1.0.0.6-py3-none-any.whl
+[2023-06-15 04:51:59] INFO root fetch - processPackages [Priority1py]: executing diffoscope
+[2023-06-15 04:51:59] INFO root fetch - processPackages [Priority1py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Priority1py-0.1.7-beta.tar.gz tmp/Priority1py-1.0.0.tar.gz --markdown 20230615/P/Priority1py/0.1.7b0-1.0.0/diff.md --exclude *.pyd
+[2023-06-15 04:51:59] INFO root fetch - processPackages [ats-case]: executing diffoscope
+[2023-06-15 04:51:59] INFO root fetch - processPackages [ats-case]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ats_case-0.8.2.tar.gz tmp/ats_case-0.8.3.tar.gz --markdown 20230615/a/ats-case/0.8.2-0.8.3/diff.md --exclude *.pyd
+[2023-06-15 04:51:59] INFO root fetch - processPackages [tool-yy]: Downloading https://files.pythonhosted.org/packages/7f/2f/179c334d4ffc65da2a31e2b81ccaeb4ecabe89676e4222ac61b426196ac6/tool-yy-0.1.9.tar.gz
+[2023-06-15 04:51:59] INFO root fetch - processPackages [DigiCore]: executing diffoscope
+[2023-06-15 04:51:59] INFO root fetch - processPackages [DigiCore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DigiCore-1.0.4.tar.gz tmp/DigiCore-1.0.5.tar.gz --markdown 20230615/D/DigiCore/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-06-15 04:51:59] INFO root fetch - processPackages [odoo-addon-account-mass-reconcile]: Downloading https://files.pythonhosted.org/packages/27/d3/7ac17cd1c757add571e218d0c6317236ed5c8fb64916e88c8a821cfcf317/odoo_addon_account_mass_reconcile-16.0.1.0.0.9-py3-none-any.whl
+[2023-06-15 04:51:59] INFO root fetch - processPackages [paddleocr-convert]: executing diffoscope
+[2023-06-15 04:51:59] INFO root fetch - processPackages [paddleocr-convert]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/paddleocr_convert-0.0.8-py3-none-any.whl.zip tmp/paddleocr_convert-0.0.9-py3-none-any.whl.zip --markdown 20230615/p/paddleocr-convert/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-15 04:51:59] INFO root fetch - processPackages [odoo-addon-base-transaction-id]: executing diffoscope
+[2023-06-15 04:51:59] INFO root fetch - processPackages [odoo-addon-base-transaction-id]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_base_transaction_id-16.0.1.0.0.5-py3-none-any.whl.zip tmp/odoo_addon_base_transaction_id-16.0.1.0.0.6-py3-none-any.whl.zip --markdown 20230615/o/odoo-addon-base-transaction-id/16.0.1.0.0.5-16.0.1.0.0.6/diff.md --exclude *.pyd
+[2023-06-15 04:51:59] INFO root fetch - processPackages [tool-yy]: executing diffoscope
+[2023-06-15 04:51:59] INFO root fetch - processPackages [tool-yy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tool-yy-0.1.8.tar.gz tmp/tool-yy-0.1.9.tar.gz --markdown 20230615/t/tool-yy/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-15 04:51:59] INFO root fetch - processPackages [odoo-addon-account-mass-reconcile]: executing diffoscope
+[2023-06-15 04:51:59] INFO root fetch - processPackages [odoo12-addon-account-bank-statement-import-online]: Downloading https://files.pythonhosted.org/packages/2d/6f/a61855363c74acdaa1f8b70e9a82c8ca2a89f28d19756ca8d67e8deef05a/odoo12_addon_account_bank_statement_import_online-12.0.2.0.0.99.dev3-py3-none-any.whl
+[2023-06-15 04:51:59] INFO root fetch - processPackages [odoo-addon-account-mass-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_mass_reconcile-16.0.1.0.0.8-py3-none-any.whl.zip tmp/odoo_addon_account_mass_reconcile-16.0.1.0.0.9-py3-none-any.whl.zip --markdown 20230615/o/odoo-addon-account-mass-reconcile/16.0.1.0.0.8-16.0.1.0.0.9/diff.md --exclude *.pyd
+[2023-06-15 04:52:00] INFO root fetch - processPackages [odoo12-addon-account-bank-statement-import-online]: executing diffoscope
+[2023-06-15 04:52:00] INFO root fetch - processPackages [odoo12-addon-account-bank-statement-import-online]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_account_bank_statement_import_online-12.0.2.0.0.99.dev1-py3-none-any.whl.zip tmp/odoo12_addon_account_bank_statement_import_online-12.0.2.0.0.99.dev3-py3-none-any.whl.zip --markdown 20230615/o/odoo12-addon-account-bank-statement-import-online/12.0.2.0.0.99.dev1-12.0.2.0.0.99.dev3/diff.md --exclude *.pyd
+[2023-06-15 04:52:00] INFO root fetch - processPackages [Priority1py]: Remove: archive file [/home/abi/fetcher/tmp/Priority1py-0.1.7-beta.tar.gz]
+[2023-06-15 04:52:00] INFO root fetch - processPackages [Priority1py]: Remove: archive file [/home/abi/fetcher/tmp/Priority1py-1.0.0.tar.gz]
+[2023-06-15 04:52:00] INFO root fetch - main [MainThread]: End processing [Priority1py]: success
+[2023-06-15 04:52:00] INFO root fetch - processPackages [paddleocr-convert]: Remove: archive file [/home/abi/fetcher/tmp/paddleocr_convert-0.0.8-py3-none-any.whl.zip]
+[2023-06-15 04:52:00] INFO root fetch - processPackages [dorado]: Remove: archive file [/home/abi/fetcher/tmp/dorado-2.0.6.dev97.tar.gz]
+[2023-06-15 04:52:00] INFO root fetch - processPackages [paddleocr-convert]: Remove: archive file [/home/abi/fetcher/tmp/paddleocr_convert-0.0.9-py3-none-any.whl.zip]
+[2023-06-15 04:52:00] INFO root fetch - processPackages [dorado]: Remove: archive file [/home/abi/fetcher/tmp/dorado-2.0.6.dev99.tar.gz]
+[2023-06-15 04:52:00] INFO root fetch - main [MainThread]: End processing [paddleocr-convert]: success
+[2023-06-15 04:52:00] INFO root fetch - main [MainThread]: End processing [dorado]: success
+[2023-06-15 04:52:01] INFO root fetch - processPackages [ats-case]: Remove: archive file [/home/abi/fetcher/tmp/ats_case-0.8.2.tar.gz]
+[2023-06-15 04:52:01] INFO root fetch - processPackages [ats-case]: Remove: archive file [/home/abi/fetcher/tmp/ats_case-0.8.3.tar.gz]
+[2023-06-15 04:52:01] INFO root fetch - main [MainThread]: End processing [ats-case]: success
+[2023-06-15 04:52:01] INFO root fetch - processPackages [DigiCore]: Remove: archive file [/home/abi/fetcher/tmp/DigiCore-1.0.4.tar.gz]
+[2023-06-15 04:52:01] INFO root fetch - processPackages [DigiCore]: Remove: archive file [/home/abi/fetcher/tmp/DigiCore-1.0.5.tar.gz]
+[2023-06-15 04:52:01] INFO root fetch - main [MainThread]: End processing [DigiCore]: success
+[2023-06-15 04:52:01] INFO root fetch - processPackages [neon-utils]: Remove: archive file [/home/abi/fetcher/tmp/neon_utils-1.5.1a2-py3-none-any.whl.zip]
+[2023-06-15 04:52:01] INFO root fetch - processPackages [neon-utils]: Remove: archive file [/home/abi/fetcher/tmp/neon_utils-1.5.1a3-py3-none-any.whl.zip]
+[2023-06-15 04:52:01] INFO root fetch - main [MainThread]: End processing [neon-utils]: success
+[2023-06-15 04:52:01] INFO root fetch - processPackages [odoo-addon-base-transaction-id]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_transaction_id-16.0.1.0.0.5-py3-none-any.whl.zip]
+[2023-06-15 04:52:01] INFO root fetch - processPackages [odoo-addon-base-transaction-id]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_transaction_id-16.0.1.0.0.6-py3-none-any.whl.zip]
+[2023-06-15 04:52:01] INFO root fetch - main [MainThread]: End processing [odoo-addon-base-transaction-id]: success
+[2023-06-15 04:52:01] INFO root fetch - processPackages [tool-yy]: Remove: archive file [/home/abi/fetcher/tmp/tool-yy-0.1.8.tar.gz]
+[2023-06-15 04:52:01] INFO root fetch - processPackages [tool-yy]: Remove: archive file [/home/abi/fetcher/tmp/tool-yy-0.1.9.tar.gz]
+[2023-06-15 04:52:01] INFO root fetch - main [MainThread]: End processing [tool-yy]: success
+[2023-06-15 04:52:01] INFO root fetch - processPackages [odoo12-addon-account-bank-statement-import-online]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_account_bank_statement_import_online-12.0.2.0.0.99.dev1-py3-none-any.whl.zip]
+[2023-06-15 04:52:01] INFO root fetch - processPackages [odoo12-addon-account-bank-statement-import-online]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_account_bank_statement_import_online-12.0.2.0.0.99.dev3-py3-none-any.whl.zip]
+[2023-06-15 04:52:01] INFO root fetch - main [MainThread]: End processing [odoo12-addon-account-bank-statement-import-online]: success
+[2023-06-15 04:52:01] INFO root fetch - processPackages [odoo-addon-account-mass-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_mass_reconcile-16.0.1.0.0.8-py3-none-any.whl.zip]
+[2023-06-15 04:52:01] INFO root fetch - processPackages [odoo-addon-account-mass-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_mass_reconcile-16.0.1.0.0.9-py3-none-any.whl.zip]
+[2023-06-15 04:52:01] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-mass-reconcile]: success
+[2023-06-15 04:52:01] INFO root fetch - main [MainThread]: Store serial: [18510324]
