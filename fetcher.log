@@ -11428,3 +11428,36 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-15 08:12:33] INFO root fetch - processPackages [tree-sitter-apertium]: Remove: archive file [/home/abi/fetcher/tmp/tree-sitter-apertium-0.1.3.tar.gz]
 [2023-06-15 08:12:33] INFO root fetch - main [MainThread]: End processing [tree-sitter-apertium]: success
 [2023-06-15 08:12:33] INFO root fetch - main [MainThread]: Store serial: [18511728]
+[2023-06-15 08:17:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18511728]
+[2023-06-15 08:17:43] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-15 08:17:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: skulk
+[2023-06-15 08:17:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: instagpy
+[2023-06-15 08:17:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: myl
+[2023-06-15 08:17:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rajesh-cli
+[2023-06-15 08:17:43] INFO root fetch - processPackages [skulk]: New version: [2.1.5] Old Version: [2.1.2]
+[2023-06-15 08:17:43] WARNING root fetch - processPackages [rajesh-cli]: Skipping, unable to determine old version
+[2023-06-15 08:17:43] INFO root fetch - main [MainThread]: End processing [rajesh-cli] error
+[2023-06-15 08:17:43] INFO root fetch - processPackages [myl]: New version: [0.8.5] Old Version: [0.8.4]
+[2023-06-15 08:17:43] INFO root fetch - processPackages [instagpy]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-06-15 08:17:43] INFO root fetch - processPackages [myl]: Downloading https://files.pythonhosted.org/packages/80/3c/b65b4ebf382360bb9c86c3a4476fa842d9c806450ce84321ac896ab67ffa/myl-0.8.4.tar.gz
+[2023-06-15 08:17:43] INFO root fetch - processPackages [skulk]: Downloading https://files.pythonhosted.org/packages/ea/ac/527fc465c6e186346909ca5e26d9cb848fd5a797de4e38b8bd50ef97d769/skulk-2.1.2-py2.py3-none-any.whl
+[2023-06-15 08:17:43] INFO root fetch - processPackages [instagpy]: Downloading https://files.pythonhosted.org/packages/6a/fb/24bc6350b24826065952ca5aecc97b891263efbd86e52e22a2e3d0c51f7c/instagpy-0.1.6.tar.gz
+[2023-06-15 08:17:43] INFO root fetch - processPackages [myl]: Downloading https://files.pythonhosted.org/packages/9f/f0/23c15674aea26948533b089e49152886a290ace96a6f214886aec0427e97/myl-0.8.5.tar.gz
+[2023-06-15 08:17:43] INFO root fetch - processPackages [myl]: executing diffoscope
+[2023-06-15 08:17:43] INFO root fetch - processPackages [myl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/myl-0.8.4.tar.gz tmp/myl-0.8.5.tar.gz --markdown 20230615/m/myl/0.8.4-0.8.5/diff.md --exclude *.pyd
+[2023-06-15 08:17:43] INFO root fetch - processPackages [instagpy]: Downloading https://files.pythonhosted.org/packages/87/26/8d7aa153a76fdef383621354b8faeab5e8498e2f6798086d5dc0f07ceb95/instagpy-0.1.7.tar.gz
+[2023-06-15 08:17:44] INFO root fetch - processPackages [skulk]: Downloading https://files.pythonhosted.org/packages/ee/71/b08f1658199f601ca646e9472773df3f08ccdc91696e1e5d1be8d7fa90fe/skulk-2.1.5-py2.py3-none-any.whl
+[2023-06-15 08:17:44] INFO root fetch - processPackages [instagpy]: executing diffoscope
+[2023-06-15 08:17:44] INFO root fetch - processPackages [instagpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/instagpy-0.1.6.tar.gz tmp/instagpy-0.1.7.tar.gz --markdown 20230615/i/instagpy/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-06-15 08:17:44] INFO root fetch - processPackages [skulk]: executing diffoscope
+[2023-06-15 08:17:44] INFO root fetch - processPackages [skulk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skulk-2.1.2-py2.py3-none-any.whl.zip tmp/skulk-2.1.5-py2.py3-none-any.whl.zip --markdown 20230615/s/skulk/2.1.2-2.1.5/diff.md --exclude *.pyd
+[2023-06-15 08:17:45] INFO root fetch - processPackages [skulk]: Remove: archive file [/home/abi/fetcher/tmp/skulk-2.1.2-py2.py3-none-any.whl.zip]
+[2023-06-15 08:17:45] INFO root fetch - processPackages [skulk]: Remove: archive file [/home/abi/fetcher/tmp/skulk-2.1.5-py2.py3-none-any.whl.zip]
+[2023-06-15 08:17:45] INFO root fetch - main [MainThread]: End processing [skulk]: success
+[2023-06-15 08:17:45] INFO root fetch - processPackages [instagpy]: Remove: archive file [/home/abi/fetcher/tmp/instagpy-0.1.6.tar.gz]
+[2023-06-15 08:17:45] INFO root fetch - processPackages [instagpy]: Remove: archive file [/home/abi/fetcher/tmp/instagpy-0.1.7.tar.gz]
+[2023-06-15 08:17:45] INFO root fetch - main [MainThread]: End processing [instagpy]: success
+[2023-06-15 08:17:45] INFO root fetch - processPackages [myl]: Remove: archive file [/home/abi/fetcher/tmp/myl-0.8.4.tar.gz]
+[2023-06-15 08:17:45] INFO root fetch - processPackages [myl]: Remove: archive file [/home/abi/fetcher/tmp/myl-0.8.5.tar.gz]
+[2023-06-15 08:17:45] INFO root fetch - main [MainThread]: End processing [myl]: success
+[2023-06-15 08:17:45] INFO root fetch - main [MainThread]: Store serial: [18511738]
