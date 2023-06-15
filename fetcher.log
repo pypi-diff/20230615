@@ -12725,3 +12725,125 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-06-15 09:22:06] INFO root fetch - processPackages [ory-client]: Remove: archive file [/home/abi/fetcher/tmp/ory-client-1.1.7.tar.gz]
 [2023-06-15 09:22:06] INFO root fetch - main [MainThread]: End processing [ory-client]: success
 [2023-06-15 09:22:06] INFO root fetch - main [MainThread]: Store serial: [18512277]
+[2023-06-15 09:27:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18512277]
+[2023-06-15 09:27:15] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-06-15 09:27:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pepperize.cdk-apigateway-swagger-ui
+[2023-06-15 09:27:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pepperize.cdk-terraform-state-backend
+[2023-06-15 09:27:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bridgecrew
+[2023-06-15 09:27:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: reytool
+[2023-06-15 09:27:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: shakenfist-agent
+[2023-06-15 09:27:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: transformers-supporter
+[2023-06-15 09:27:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: revChatGPT
+[2023-06-15 09:27:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: leanit-mweb
+[2023-06-15 09:27:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo14-addon-ddmrp-warning
+[2023-06-15 09:27:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: typosquatting-package
+[2023-06-15 09:27:15] INFO root fetch - processPackages [reytool]: New version: [0.99] Old Version: [0.98]
+[2023-06-15 09:27:15] INFO root fetch - processPackages [leanit-mweb]: New version: [23.6.9] Old Version: [23.6.8]
+[2023-06-15 09:27:15] INFO root fetch - processPackages [transformers-supporter]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-15 09:27:15] INFO root fetch - processPackages [revChatGPT]: New version: [6.3.1] Old Version: [6.3.0]
+[2023-06-15 09:27:15] INFO root fetch - processPackages [odoo14-addon-ddmrp-warning]: New version: [14.0.1.1.0] Old Version: [14.0.1.0.1.dev3]
+[2023-06-15 09:27:15] INFO root fetch - processPackages [shakenfist-agent]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-06-15 09:27:15] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-06-15 09:27:15] WARNING root fetch - processPackages [typosquatting-package]: Skipping, unable to determine old version
+[2023-06-15 09:27:15] INFO root fetch - processPackages [typosquatting-package]: Start processing: xj-invoice
+[2023-06-15 09:27:15] INFO root fetch - main [MainThread]: End processing [typosquatting-package] error
+[2023-06-15 09:27:15] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: New version: [0.0.99] Old Version: [0.0.97]
+[2023-06-15 09:27:15] INFO root fetch - processPackages [bridgecrew]: New version: [2.3.99] Old Version: [2.3.98]
+[2023-06-15 09:27:15] INFO root fetch - processPackages [transformers-supporter]: Downloading https://files.pythonhosted.org/packages/2d/b3/0a5ba4230b93d8b0af855a0cb099f7cd12620f36b5763aae64e4280f49ac/transformers-supporter-0.0.8.tar.gz
+[2023-06-15 09:27:15] INFO root fetch - processPackages [leanit-mweb]: Downloading https://files.pythonhosted.org/packages/e3/d0/8c5e3921ce223331411d07702b5a482ff39b4312be82341c518fe3649360/leanit-mweb-23.6.8.tar.gz
+[2023-06-15 09:27:15] INFO root fetch - processPackages [xj-invoice]: New version: [1.0.9] Old Version: [1.0.7]
+[2023-06-15 09:27:15] INFO root fetch - processPackages [bridgecrew]: Downloading https://files.pythonhosted.org/packages/c1/70/3267f94d196f9213b2b44a429d64b71cb1f9f3d812687dd74ff8a983a588/bridgecrew-2.3.98.tar.gz
+[2023-06-15 09:27:15] INFO root fetch - processPackages [reytool]: Downloading https://files.pythonhosted.org/packages/f7/1b/12dc89a309309c9361d59a38462b453a322b261239fade997e196d798838/reytool-0.98-py3-none-any.whl
+[2023-06-15 09:27:15] INFO root fetch - processPackages [xj-invoice]: Downloading https://files.pythonhosted.org/packages/8f/a8/6ccf5ba58df70541e82764c6a8e664574509e720a9ebae521eb95658f7ef/xj_invoice-1.0.7.tar.gz
+[2023-06-15 09:27:15] INFO root fetch - processPackages [shakenfist-agent]: Downloading https://files.pythonhosted.org/packages/1b/9d/8e86760dedc977eaad2d9a2b5c4b27400c70f0c4ec38ab513b7cf312f996/shakenfist-agent-0.3.8.tar.gz
+[2023-06-15 09:27:15] INFO root fetch - processPackages [odoo14-addon-ddmrp-warning]: Downloading https://files.pythonhosted.org/packages/10/47/ded698a9457d90ceda769439db4d69af7f5939be9e7f872d1d66ab273a1d/odoo14_addon_ddmrp_warning-14.0.1.0.1.dev3-py3-none-any.whl
+[2023-06-15 09:27:15] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Downloading https://files.pythonhosted.org/packages/67/44/1dba32653c7525f0fbd8908ad6d202d1043a5fcb6cf364972a4c23bffeac/pepperize.cdk-terraform-state-backend-0.1.98.tar.gz
+[2023-06-15 09:27:15] INFO root fetch - processPackages [leanit-mweb]: Downloading https://files.pythonhosted.org/packages/ac/d8/ca31edef88b4543a9866f049722c53b4f62cb4f26ffda726c3273f3793ef/leanit-mweb-23.6.9.tar.gz
+[2023-06-15 09:27:15] INFO root fetch - processPackages [revChatGPT]: Downloading https://files.pythonhosted.org/packages/da/fb/886894421f04b4596d8b2392f28c74deb58c8cad698adfc38d0dbc706d4a/revChatGPT-6.3.0.tar.gz
+[2023-06-15 09:27:15] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Downloading https://files.pythonhosted.org/packages/b5/4b/0742a4ab14bdc0e7e1a1efa5e089f45c05c18e939582e562ff5095837d67/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz
+[2023-06-15 09:27:15] INFO root fetch - processPackages [transformers-supporter]: Downloading https://files.pythonhosted.org/packages/e3/57/5ebc8b77d3f7674a08c327be80e75ae6250845796c3e5eada5d7936121dc/transformers-supporter-0.0.9.tar.gz
+[2023-06-15 09:27:15] INFO root fetch - processPackages [bridgecrew]: Downloading https://files.pythonhosted.org/packages/9e/6b/ea9cdf20d73a8621ab1f56b3ee95c8fe6b3e23cb8cd7a0f75ec041c3f16f/bridgecrew-2.3.99.tar.gz
+[2023-06-15 09:27:15] INFO root fetch - processPackages [leanit-mweb]: executing diffoscope
+[2023-06-15 09:27:15] INFO root fetch - processPackages [leanit-mweb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leanit-mweb-23.6.8.tar.gz tmp/leanit-mweb-23.6.9.tar.gz --markdown 20230615/l/leanit-mweb/23.6.8-23.6.9/diff.md --exclude *.pyd
+[2023-06-15 09:27:15] INFO root fetch - processPackages [transformers-supporter]: executing diffoscope
+[2023-06-15 09:27:15] INFO root fetch - processPackages [transformers-supporter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/transformers-supporter-0.0.8.tar.gz tmp/transformers-supporter-0.0.9.tar.gz --markdown 20230615/t/transformers-supporter/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-15 09:27:15] INFO root fetch - processPackages [xj-invoice]: Downloading https://files.pythonhosted.org/packages/a9/77/baae3fb8c2842e9ee7a0d5261ca27a183ef075f699c7e37397093b4062f2/xj_invoice-1.0.9.tar.gz
+[2023-06-15 09:27:15] INFO root fetch - processPackages [reytool]: Downloading https://files.pythonhosted.org/packages/f3/55/5da881836b0a141d1b9cfbb9118f95b0a7873ba578976b4a1a7cf3718b49/reytool-0.99-py3-none-any.whl
+[2023-06-15 09:27:15] INFO root fetch - processPackages [shakenfist-agent]: Downloading https://files.pythonhosted.org/packages/8d/79/f656d2ef8da79e62fd60458bb773a4d9d04d1881176e7901f83dd4119e6c/shakenfist-agent-0.3.9.tar.gz
+[2023-06-15 09:27:15] INFO root fetch - processPackages [odoo14-addon-ddmrp-warning]: Downloading https://files.pythonhosted.org/packages/c5/67/730f1ebb13e09f63bce3af4bca31b1e43dd872efc8150cee436be4824327/odoo14_addon_ddmrp_warning-14.0.1.1.0-py3-none-any.whl
+[2023-06-15 09:27:15] INFO root fetch - processPackages [revChatGPT]: Downloading https://files.pythonhosted.org/packages/89/bd/b66c1a810934707c9916c1b6dfffb6a6a9666a15161051d67d4df69d2835/revChatGPT-6.3.1.tar.gz
+[2023-06-15 09:27:15] INFO root fetch - processPackages [bridgecrew]: executing diffoscope
+[2023-06-15 09:27:15] INFO root fetch - processPackages [bridgecrew]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bridgecrew-2.3.98.tar.gz tmp/bridgecrew-2.3.99.tar.gz --markdown 20230615/b/bridgecrew/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2023-06-15 09:27:15] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Downloading https://files.pythonhosted.org/packages/49/e5/a2d418e8a59e46c739ecaa72adebcb65d676b8149513d576b8cd05d6324e/pepperize.cdk-terraform-state-backend-0.1.99.tar.gz
+[2023-06-15 09:27:16] INFO root fetch - processPackages [shakenfist-agent]: executing diffoscope
+[2023-06-15 09:27:16] INFO root fetch - processPackages [shakenfist-agent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shakenfist-agent-0.3.8.tar.gz tmp/shakenfist-agent-0.3.9.tar.gz --markdown 20230615/s/shakenfist-agent/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-06-15 09:27:16] INFO root fetch - processPackages [revChatGPT]: executing diffoscope
+[2023-06-15 09:27:16] INFO root fetch - processPackages [revChatGPT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/revChatGPT-6.3.0.tar.gz tmp/revChatGPT-6.3.1.tar.gz --markdown 20230615/r/revChatGPT/6.3.0-6.3.1/diff.md --exclude *.pyd
+[2023-06-15 09:27:16] INFO root fetch - processPackages [odoo14-addon-ddmrp-warning]: executing diffoscope
+[2023-06-15 09:27:16] INFO root fetch - processPackages [odoo14-addon-ddmrp-warning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_ddmrp_warning-14.0.1.0.1.dev3-py3-none-any.whl.zip tmp/odoo14_addon_ddmrp_warning-14.0.1.1.0-py3-none-any.whl.zip --markdown 20230615/o/odoo14-addon-ddmrp-warning/14.0.1.0.1.dev3-14.0.1.1.0/diff.md --exclude *.pyd
+[2023-06-15 09:27:16] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: executing diffoscope
+[2023-06-15 09:27:16] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-terraform-state-backend-0.1.98.tar.gz tmp/pepperize.cdk-terraform-state-backend-0.1.99.tar.gz --markdown 20230615/p/pepperize.cdk-terraform-state-backend/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-06-15 09:27:16] INFO root fetch - processPackages [xj-invoice]: executing diffoscope
+[2023-06-15 09:27:16] INFO root fetch - processPackages [xj-invoice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xj_invoice-1.0.7.tar.gz tmp/xj_invoice-1.0.9.tar.gz --markdown 20230615/x/xj-invoice/1.0.7-1.0.9/diff.md --exclude *.pyd
+[2023-06-15 09:27:16] INFO root fetch - processPackages [reytool]: executing diffoscope
+[2023-06-15 09:27:16] INFO root fetch - processPackages [reytool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reytool-0.98-py3-none-any.whl.zip tmp/reytool-0.99-py3-none-any.whl.zip --markdown 20230615/r/reytool/0.98-0.99/diff.md --exclude *.pyd
+[2023-06-15 09:27:16] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Downloading https://files.pythonhosted.org/packages/c7/46/0f42bc025c61bcf7528be4662164372850647ddcc00ec2a211a0b9e071cc/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz
+[2023-06-15 09:27:16] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: executing diffoscope
+[2023-06-15 09:27:16] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz --markdown 20230615/p/pepperize.cdk-apigateway-swagger-ui/0.0.97-0.0.99/diff.md --exclude *.pyd
+[2023-06-15 09:27:17] INFO root fetch - processPackages [bridgecrew]: Remove: archive file [/home/abi/fetcher/tmp/bridgecrew-2.3.98.tar.gz]
+[2023-06-15 09:27:17] INFO root fetch - processPackages [bridgecrew]: Remove: archive file [/home/abi/fetcher/tmp/bridgecrew-2.3.99.tar.gz]
+[2023-06-15 09:27:17] INFO root fetch - processPackages [bridgecrew]: Start processing: gaohn-common-utils
+[2023-06-15 09:27:17] INFO root fetch - main [MainThread]: End processing [bridgecrew]: success
+[2023-06-15 09:27:17] INFO root fetch - processPackages [gaohn-common-utils]: New version: [0.0.59] Old Version: [0.0.58]
+[2023-06-15 09:27:18] INFO root fetch - processPackages [gaohn-common-utils]: Downloading https://files.pythonhosted.org/packages/af/4d/85063a98b6af8eb2887d3711a10675c65cb61c2ac27ce4a9709f33f3b6a2/gaohn-common-utils-0.0.58.tar.gz
+[2023-06-15 09:27:18] INFO root fetch - processPackages [leanit-mweb]: Remove: archive file [/home/abi/fetcher/tmp/leanit-mweb-23.6.8.tar.gz]
+[2023-06-15 09:27:18] INFO root fetch - processPackages [leanit-mweb]: Remove: archive file [/home/abi/fetcher/tmp/leanit-mweb-23.6.9.tar.gz]
+[2023-06-15 09:27:18] INFO root fetch - processPackages [leanit-mweb]: Start processing: pepperize.cdk-apigateway-swagger-ui
+[2023-06-15 09:27:18] INFO root fetch - main [MainThread]: End processing [leanit-mweb]: success
+[2023-06-15 09:27:18] INFO root fetch - processPackages [revChatGPT]: Remove: archive file [/home/abi/fetcher/tmp/revChatGPT-6.3.0.tar.gz]
+[2023-06-15 09:27:18] INFO root fetch - processPackages [revChatGPT]: Remove: archive file [/home/abi/fetcher/tmp/revChatGPT-6.3.1.tar.gz]
+[2023-06-15 09:27:18] INFO root fetch - processPackages [revChatGPT]: Start processing: odoo-addon-ddmrp-warning
+[2023-06-15 09:27:18] INFO root fetch - main [MainThread]: End processing [revChatGPT]: success
+[2023-06-15 09:27:18] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: New version: [0.0.99] Old Version: [0.0.97]
+[2023-06-15 09:27:18] INFO root fetch - processPackages [odoo-addon-ddmrp-warning]: New version: [15.0.1.1.0] Old Version: [15.0.1.0.1]
+[2023-06-15 09:27:18] INFO root fetch - processPackages [transformers-supporter]: Remove: archive file [/home/abi/fetcher/tmp/transformers-supporter-0.0.8.tar.gz]
+[2023-06-15 09:27:18] INFO root fetch - processPackages [transformers-supporter]: Remove: archive file [/home/abi/fetcher/tmp/transformers-supporter-0.0.9.tar.gz]
+[2023-06-15 09:27:18] INFO root fetch - main [MainThread]: End processing [transformers-supporter]: success
+[2023-06-15 09:27:18] INFO root fetch - processPackages [gaohn-common-utils]: Downloading https://files.pythonhosted.org/packages/6a/cb/069091daaac5eefce597127a95f06f547fc55a55fc9d90b6dc7b46736cb9/gaohn-common-utils-0.0.59.tar.gz
+[2023-06-15 09:27:18] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: executing diffoscope
+[2023-06-15 09:27:18] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz --markdown 20230615/p/pepperize.cdk-apigateway-swagger-ui/0.0.97-0.0.99/diff.md --exclude *.pyd
+[2023-06-15 09:27:18] INFO root fetch - processPackages [reytool]: Remove: archive file [/home/abi/fetcher/tmp/reytool-0.98-py3-none-any.whl.zip]
+[2023-06-15 09:27:18] INFO root fetch - processPackages [reytool]: Remove: archive file [/home/abi/fetcher/tmp/reytool-0.99-py3-none-any.whl.zip]
+[2023-06-15 09:27:18] INFO root fetch - main [MainThread]: End processing [reytool]: success
+[2023-06-15 09:27:18] INFO root fetch - processPackages [odoo14-addon-ddmrp-warning]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_ddmrp_warning-14.0.1.0.1.dev3-py3-none-any.whl.zip]
+[2023-06-15 09:27:18] INFO root fetch - processPackages [odoo14-addon-ddmrp-warning]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_ddmrp_warning-14.0.1.1.0-py3-none-any.whl.zip]
+[2023-06-15 09:27:18] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ddmrp-warning]: success
+[2023-06-15 09:27:18] INFO root fetch - processPackages [odoo-addon-ddmrp-warning]: Downloading https://files.pythonhosted.org/packages/e0/9d/6c0a814e37bcb714e3bcb62d895aaa1701e60db5be5686f67fde31fa7d35/odoo_addon_ddmrp_warning-15.0.1.0.1-py3-none-any.whl
+[2023-06-15 09:27:18] INFO root fetch - processPackages [gaohn-common-utils]: executing diffoscope
+[2023-06-15 09:27:18] INFO root fetch - processPackages [gaohn-common-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gaohn-common-utils-0.0.58.tar.gz tmp/gaohn-common-utils-0.0.59.tar.gz --markdown 20230615/g/gaohn-common-utils/0.0.58-0.0.59/diff.md --exclude *.pyd
+[2023-06-15 09:27:18] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz]
+[2023-06-15 09:27:18] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz]
+[2023-06-15 09:27:18] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-apigateway-swagger-ui]: success
+[2023-06-15 09:27:18] INFO root fetch - processPackages [shakenfist-agent]: Remove: archive file [/home/abi/fetcher/tmp/shakenfist-agent-0.3.8.tar.gz]
+[2023-06-15 09:27:18] INFO root fetch - processPackages [shakenfist-agent]: Remove: archive file [/home/abi/fetcher/tmp/shakenfist-agent-0.3.9.tar.gz]
+[2023-06-15 09:27:18] INFO root fetch - main [MainThread]: End processing [shakenfist-agent]: success
+[2023-06-15 09:27:19] INFO root fetch - processPackages [odoo-addon-ddmrp-warning]: Downloading https://files.pythonhosted.org/packages/c4/22/dfffb8ebdd42aada15a3354387e02397baafaa524f63b25fba003dfca19c/odoo_addon_ddmrp_warning-15.0.1.1.0-py3-none-any.whl
+[2023-06-15 09:27:19] INFO root fetch - processPackages [odoo-addon-ddmrp-warning]: executing diffoscope
+[2023-06-15 09:27:19] INFO root fetch - processPackages [odoo-addon-ddmrp-warning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_ddmrp_warning-15.0.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_ddmrp_warning-15.0.1.1.0-py3-none-any.whl.zip --markdown 20230615/o/odoo-addon-ddmrp-warning/15.0.1.0.1-15.0.1.1.0/diff.md --exclude *.pyd
+[2023-06-15 09:27:19] INFO root fetch - processPackages [xj-invoice]: Remove: archive file [/home/abi/fetcher/tmp/xj_invoice-1.0.7.tar.gz]
+[2023-06-15 09:27:19] INFO root fetch - processPackages [xj-invoice]: Remove: archive file [/home/abi/fetcher/tmp/xj_invoice-1.0.9.tar.gz]
+[2023-06-15 09:27:19] INFO root fetch - main [MainThread]: End processing [xj-invoice]: success
+[2023-06-15 09:27:19] ERROR root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Diffoscope failed: /srv/diffoscope/bin/diffoscope: tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz: No such file or directory
+/srv/diffoscope/bin/diffoscope: tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz: No such file or directory
+
+[2023-06-15 09:27:19] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-apigateway-swagger-ui] error
+[2023-06-15 09:27:19] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-terraform-state-backend-0.1.98.tar.gz]
+[2023-06-15 09:27:19] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-terraform-state-backend-0.1.99.tar.gz]
+[2023-06-15 09:27:19] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-terraform-state-backend]: success
+[2023-06-15 09:27:19] INFO root fetch - processPackages [gaohn-common-utils]: Remove: archive file [/home/abi/fetcher/tmp/gaohn-common-utils-0.0.58.tar.gz]
+[2023-06-15 09:27:19] INFO root fetch - processPackages [gaohn-common-utils]: Remove: archive file [/home/abi/fetcher/tmp/gaohn-common-utils-0.0.59.tar.gz]
+[2023-06-15 09:27:19] INFO root fetch - main [MainThread]: End processing [gaohn-common-utils]: success
+[2023-06-15 09:27:20] INFO root fetch - processPackages [odoo-addon-ddmrp-warning]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_ddmrp_warning-15.0.1.0.1-py3-none-any.whl.zip]
+[2023-06-15 09:27:20] INFO root fetch - processPackages [odoo-addon-ddmrp-warning]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_ddmrp_warning-15.0.1.1.0-py3-none-any.whl.zip]
+[2023-06-15 09:27:20] INFO root fetch - main [MainThread]: End processing [odoo-addon-ddmrp-warning]: success
+[2023-06-15 09:27:20] INFO root fetch - main [MainThread]: Store serial: [18512318]
