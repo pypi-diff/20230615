@@ -22713,3 +22713,163 @@ AssertionError: tmp/stackoverflowapithingy-0.1.5.tar.gz does not exist
 [2023-06-15 14:56:34] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-4.1.9.dev9.tar.gz]
 [2023-06-15 14:56:34] INFO root fetch - main [MainThread]: End processing [moto]: success
 [2023-06-15 14:56:34] INFO root fetch - main [MainThread]: Store serial: [18516212]
+[2023-06-15 15:01:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18516212]
+[2023-06-15 15:01:54] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-06-15 15:01:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: flexmeasures
+[2023-06-15 15:01:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kiln-connect
+[2023-06-15 15:01:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: darwinpyspark
+[2023-06-15 15:01:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: twirl
+[2023-06-15 15:01:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-vault
+[2023-06-15 15:01:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: numerical-py
+[2023-06-15 15:01:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: omero-fpbioimage
+[2023-06-15 15:01:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lanarky
+[2023-06-15 15:01:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: topometry
+[2023-06-15 15:01:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: wizata-dsapi
+[2023-06-15 15:01:54] INFO root fetch - processPackages [numerical-py]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-15 15:01:54] INFO root fetch - processPackages [lanarky]: New version: [0.7.9] Old Version: [0.7.8]
+[2023-06-15 15:01:54] INFO root fetch - processPackages [flexmeasures]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-06-15 15:01:54] INFO root fetch - processPackages [wizata-dsapi]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-06-15 15:01:54] INFO root fetch - processPackages [topometry]: New version: [0.2.0.2] Old Version: [0.2.0.1]
+[2023-06-15 15:01:54] INFO root fetch - processPackages [lanarky]: Downloading https://files.pythonhosted.org/packages/e3/d0/25718133c4af1001b02549187ff8695d89f5c95564ffa6c0d575964115c1/lanarky-0.7.8.tar.gz
+[2023-06-15 15:01:54] INFO root fetch - processPackages [numerical-py]: Downloading https://files.pythonhosted.org/packages/1d/de/1646bfffd31b37c02f76dd709f9c00e9f79df74282ab8379237197ee3794/numerical_py-0.0.8.tar.gz
+[2023-06-15 15:01:54] INFO root fetch - processPackages [wizata-dsapi]: Downloading https://files.pythonhosted.org/packages/d0/ba/f0bdd16f95ee52fb25901409f31bde594458ef362c86f31c8d307c8987d5/wizata-dsapi-0.1.98.tar.gz
+[2023-06-15 15:01:55] INFO root fetch - processPackages [kiln-connect]: New version: [1.0.0.dev7] Old Version: [1.0.0.dev6]
+[2023-06-15 15:01:55] INFO root fetch - processPackages [twirl]: New version: [0.4.0] Old Version: [0.3.3]
+[2023-06-15 15:01:55] INFO root fetch - processPackages [odoo-addon-vault]: New version: [15.0.1.6.2] Old Version: [15.0.1.6.1.6]
+[2023-06-15 15:01:55] INFO root fetch - processPackages [omero-fpbioimage]: New version: [0.4.1] Old Version: [0.4.0.dev3]
+[2023-06-15 15:01:55] INFO root fetch - processPackages [darwinpyspark]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-15 15:01:55] INFO root fetch - processPackages [topometry]: Downloading https://files.pythonhosted.org/packages/7d/4b/884ef8dadfa98dd5ed22c7b8834885291b14cd4d62c0af1fcfd0005483a0/topometry-0.2.0.1.tar.gz
+[2023-06-15 15:01:55] INFO root fetch - processPackages [lanarky]: Downloading https://files.pythonhosted.org/packages/3f/43/1d53c93aa25b84b05fa3ae62ccc998a35d771464e67ada2c200759fdb773/lanarky-0.7.9.tar.gz
+[2023-06-15 15:01:55] INFO root fetch - processPackages [numerical-py]: Downloading https://files.pythonhosted.org/packages/95/1d/7677791c6175f40bd4a70e667ae838300671845f99330142d2e9a3d9f7f8/numerical_py-0.0.9.tar.gz
+[2023-06-15 15:01:55] INFO root fetch - processPackages [wizata-dsapi]: Downloading https://files.pythonhosted.org/packages/3f/a2/8e1949f8e59bf78c31c3953b9c48fc81a94bb23b209d76f41dbd3f8b510f/wizata-dsapi-0.1.99.tar.gz
+[2023-06-15 15:01:55] INFO root fetch - processPackages [flexmeasures]: Downloading https://files.pythonhosted.org/packages/54/d6/5f4106babfe3f4bed4f79ff5e21ee46b716203802745656119b7921714e7/flexmeasures-0.9.3.tar.gz
+[2023-06-15 15:01:55] INFO root fetch - processPackages [lanarky]: executing diffoscope
+[2023-06-15 15:01:55] INFO root fetch - processPackages [numerical-py]: executing diffoscope
+[2023-06-15 15:01:55] INFO root fetch - processPackages [lanarky]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lanarky-0.7.8.tar.gz tmp/lanarky-0.7.9.tar.gz --markdown 20230615/l/lanarky/0.7.8-0.7.9/diff.md --exclude *.pyd
+[2023-06-15 15:01:55] INFO root fetch - processPackages [numerical-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/numerical_py-0.0.8.tar.gz tmp/numerical_py-0.0.9.tar.gz --markdown 20230615/n/numerical-py/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-15 15:01:55] INFO root fetch - processPackages [topometry]: Downloading https://files.pythonhosted.org/packages/7a/4c/69152e77a65c6e7c88a0d6d3bd5a18caa80822cdc46af211b7523dd78fd9/topometry-0.2.0.2.tar.gz
+[2023-06-15 15:01:55] INFO root fetch - processPackages [wizata-dsapi]: executing diffoscope
+[2023-06-15 15:01:55] INFO root fetch - processPackages [wizata-dsapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wizata-dsapi-0.1.98.tar.gz tmp/wizata-dsapi-0.1.99.tar.gz --markdown 20230615/w/wizata-dsapi/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-06-15 15:01:55] INFO root fetch - processPackages [topometry]: executing diffoscope
+[2023-06-15 15:01:55] INFO root fetch - processPackages [topometry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/topometry-0.2.0.1.tar.gz tmp/topometry-0.2.0.2.tar.gz --markdown 20230615/t/topometry/0.2.0.1-0.2.0.2/diff.md --exclude *.pyd
+[2023-06-15 15:01:55] INFO root fetch - processPackages [odoo-addon-vault]: Downloading https://files.pythonhosted.org/packages/16/1e/a004af8beb0d11883728b61b47dba07dee6a583f1ed70c75082bcb39af87/odoo_addon_vault-15.0.1.6.1.6-py3-none-any.whl
+[2023-06-15 15:01:55] INFO root fetch - processPackages [twirl]: Downloading https://files.pythonhosted.org/packages/e5/c1/85ddec5df8f640822a33e54c75b147e957244a2be214f829bc5b7b3780cb/twirl-0.3.3.tar.gz
+[2023-06-15 15:01:55] INFO root fetch - processPackages [kiln-connect]: Downloading https://files.pythonhosted.org/packages/2e/36/3b04714b5e4c33be23417f286a0cac8a0d372f948f8d86a361551b491775/kiln_connect-1.0.0.dev6.tar.gz
+[2023-06-15 15:01:55] INFO root fetch - processPackages [darwinpyspark]: Downloading https://files.pythonhosted.org/packages/d3/9d/10c09da4b1b359c77205948e8246e73e88bd8d822adf6553d72df313de1b/darwinpyspark-0.0.1.tar.gz
+[2023-06-15 15:01:55] INFO root fetch - processPackages [omero-fpbioimage]: Downloading https://files.pythonhosted.org/packages/9a/04/0755d5a9621adb45f1caa130a69b77ce736505a473f3217c7df64ddee2b4/omero-fpbioimage-0.4.0.dev3.tar.gz
+[2023-06-15 15:01:55] INFO root fetch - processPackages [twirl]: Downloading https://files.pythonhosted.org/packages/9b/bf/a97401875ab158173015e4bac61a55f49bc1e80c4f237338daeb8348974b/twirl-0.4.0.tar.gz
+[2023-06-15 15:01:55] INFO root fetch - processPackages [odoo-addon-vault]: Downloading https://files.pythonhosted.org/packages/fa/a8/f20bb92953cf7ae3e00f7ea241765595be691a67e671808c5d53d0298ca8/odoo_addon_vault-15.0.1.6.2-py3-none-any.whl
+[2023-06-15 15:01:55] INFO root fetch - processPackages [kiln-connect]: Downloading https://files.pythonhosted.org/packages/20/2f/663a193db8c78ac1988f869d63a84c0bad5eecc94dfd68456ea46529d996/kiln_connect-1.0.0.dev7.tar.gz
+[2023-06-15 15:01:55] INFO root fetch - processPackages [flexmeasures]: Downloading https://files.pythonhosted.org/packages/36/f9/a77949c243c7adde4c28f2a6861c0208ad20e4f95832238f910fdbea1103/flexmeasures-0.9.4.tar.gz
+[2023-06-15 15:01:55] INFO root fetch - processPackages [twirl]: executing diffoscope
+[2023-06-15 15:01:55] INFO root fetch - processPackages [twirl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/twirl-0.3.3.tar.gz tmp/twirl-0.4.0.tar.gz --markdown 20230615/t/twirl/0.3.3-0.4.0/diff.md --exclude *.pyd
+[2023-06-15 15:01:55] INFO root fetch - processPackages [kiln-connect]: executing diffoscope
+[2023-06-15 15:01:55] INFO root fetch - processPackages [kiln-connect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kiln_connect-1.0.0.dev6.tar.gz tmp/kiln_connect-1.0.0.dev7.tar.gz --markdown 20230615/k/kiln-connect/1.0.0.dev6-1.0.0.dev7/diff.md --exclude *.pyd
+[2023-06-15 15:01:55] INFO root fetch - processPackages [darwinpyspark]: Downloading https://files.pythonhosted.org/packages/a6/82/57c88d9b2dc7fbdc2154f7d2e86cdf7f39e6bd7ad44da67aa9f599266645/darwinpyspark-0.0.2.tar.gz
+[2023-06-15 15:01:55] INFO root fetch - processPackages [odoo-addon-vault]: executing diffoscope
+[2023-06-15 15:01:55] INFO root fetch - processPackages [odoo-addon-vault]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_vault-15.0.1.6.1.6-py3-none-any.whl.zip tmp/odoo_addon_vault-15.0.1.6.2-py3-none-any.whl.zip --markdown 20230615/o/odoo-addon-vault/15.0.1.6.1.6-15.0.1.6.2/diff.md --exclude *.pyd
+[2023-06-15 15:01:55] INFO root fetch - processPackages [flexmeasures]: executing diffoscope
+[2023-06-15 15:01:55] INFO root fetch - processPackages [flexmeasures]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flexmeasures-0.9.3.tar.gz tmp/flexmeasures-0.9.4.tar.gz --markdown 20230615/f/flexmeasures/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-06-15 15:01:55] INFO root fetch - processPackages [darwinpyspark]: executing diffoscope
+[2023-06-15 15:01:55] INFO root fetch - processPackages [darwinpyspark]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/darwinpyspark-0.0.1.tar.gz tmp/darwinpyspark-0.0.2.tar.gz --markdown 20230615/d/darwinpyspark/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-15 15:01:56] INFO root fetch - processPackages [numerical-py]: Remove: archive file [/home/abi/fetcher/tmp/numerical_py-0.0.8.tar.gz]
+[2023-06-15 15:01:56] INFO root fetch - processPackages [numerical-py]: Remove: archive file [/home/abi/fetcher/tmp/numerical_py-0.0.9.tar.gz]
+[2023-06-15 15:01:56] INFO root fetch - processPackages [numerical-py]: Start processing: web3client
+[2023-06-15 15:01:56] INFO root fetch - main [MainThread]: End processing [numerical-py]: success
+[2023-06-15 15:01:56] INFO root fetch - processPackages [lanarky]: Remove: archive file [/home/abi/fetcher/tmp/lanarky-0.7.8.tar.gz]
+[2023-06-15 15:01:56] INFO root fetch - processPackages [lanarky]: Remove: archive file [/home/abi/fetcher/tmp/lanarky-0.7.9.tar.gz]
+[2023-06-15 15:01:56] INFO root fetch - processPackages [lanarky]: Start processing: pepver
+[2023-06-15 15:01:56] INFO root fetch - main [MainThread]: End processing [lanarky]: success
+[2023-06-15 15:01:56] INFO root fetch - processPackages [pepver]: New version: [1.1.post1] Old Version: [1.1.0]
+[2023-06-15 15:01:56] INFO root fetch - processPackages [wizata-dsapi]: Remove: archive file [/home/abi/fetcher/tmp/wizata-dsapi-0.1.98.tar.gz]
+[2023-06-15 15:01:56] INFO root fetch - processPackages [wizata-dsapi]: Remove: archive file [/home/abi/fetcher/tmp/wizata-dsapi-0.1.99.tar.gz]
+[2023-06-15 15:01:56] INFO root fetch - processPackages [wizata-dsapi]: Start processing: kortical
+[2023-06-15 15:01:56] INFO root fetch - main [MainThread]: End processing [wizata-dsapi]: success
+[2023-06-15 15:01:56] INFO root fetch - processPackages [omero-fpbioimage]: Downloading https://files.pythonhosted.org/packages/a9/71/e45a7725702ae511f43df361dff4d32b32ed52c99405bcd51323bedb38c7/omero-fpbioimage-0.4.1.tar.gz
+[2023-06-15 15:01:56] INFO root fetch - processPackages [pepver]: Downloading https://files.pythonhosted.org/packages/91/11/3f0babbd88bc48188974a83f2dc079b080a62d1bbd6662aaace9d487c093/pepver-1.1.0.tar.gz
+[2023-06-15 15:01:56] INFO root fetch - processPackages [web3client]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-06-15 15:01:56] INFO root fetch - processPackages [kortical]: New version: [2.1.3] Old Version: [2.1.2]
+[2023-06-15 15:01:56] INFO root fetch - processPackages [topometry]: Remove: archive file [/home/abi/fetcher/tmp/topometry-0.2.0.1.tar.gz]
+[2023-06-15 15:01:56] INFO root fetch - processPackages [topometry]: Remove: archive file [/home/abi/fetcher/tmp/topometry-0.2.0.2.tar.gz]
+[2023-06-15 15:01:56] INFO root fetch - processPackages [topometry]: Start processing: async-chat-frontend
+[2023-06-15 15:01:56] INFO root fetch - main [MainThread]: End processing [topometry]: success
+[2023-06-15 15:01:56] INFO root fetch - processPackages [pepver]: Downloading https://files.pythonhosted.org/packages/cc/7c/14c8d76bae35b215d04a8017017953aa4a2e568ed85b2777a969e7676dfb/pepver-1.1.post1.tar.gz
+[2023-06-15 15:01:56] INFO root fetch - processPackages [web3client]: Downloading https://files.pythonhosted.org/packages/dd/19/168188e8b67ed7ad4a69a9042bc68bf4bddaad170f9d145077749082ed85/web3client-1.1.8.tar.gz
+[2023-06-15 15:01:56] INFO root fetch - processPackages [kortical]: Downloading https://files.pythonhosted.org/packages/f5/1d/9759dc740884068a722926409a1389aeb6f507862d83807f03dac779c3ea/kortical-2.1.2-py3-none-any.whl
+[2023-06-15 15:01:56] WARNING root fetch - processPackages [async-chat-frontend]: Skipping, unable to determine old version
+[2023-06-15 15:01:56] INFO root fetch - processPackages [async-chat-frontend]: Start processing: trafilatura
+[2023-06-15 15:01:56] INFO root fetch - main [MainThread]: End processing [async-chat-frontend] error
+[2023-06-15 15:01:56] WARNING root fetch - processPackages [kortical]: Skipping package: exceeds size limit 46880882>=10485760
+[2023-06-15 15:01:56] INFO root fetch - processPackages [kortical]: Start processing: django-content-blocks
+[2023-06-15 15:01:56] INFO root fetch - main [MainThread]: End processing [kortical] error
+[2023-06-15 15:01:56] INFO root fetch - processPackages [pepver]: executing diffoscope
+[2023-06-15 15:01:56] INFO root fetch - processPackages [pepver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepver-1.1.0.tar.gz tmp/pepver-1.1.post1.tar.gz --markdown 20230615/p/pepver/1.1.0-1.1.post1/diff.md --exclude *.pyd
+[2023-06-15 15:01:56] INFO root fetch - processPackages [django-content-blocks]: New version: [1.3.4] Old Version: [1.3.3]
+[2023-06-15 15:01:57] INFO root fetch - processPackages [trafilatura]: New version: [1.6.1] Old Version: [1.6.0]
+[2023-06-15 15:01:57] INFO root fetch - processPackages [django-content-blocks]: Downloading https://files.pythonhosted.org/packages/84/47/4b40e55671a59dfacae5b655fceb12d857700f9bf895edefe3f9f4308377/django-content-blocks-1.3.3.tar.gz
+[2023-06-15 15:01:57] INFO root fetch - processPackages [twirl]: Remove: archive file [/home/abi/fetcher/tmp/twirl-0.3.3.tar.gz]
+[2023-06-15 15:01:57] INFO root fetch - processPackages [twirl]: Remove: archive file [/home/abi/fetcher/tmp/twirl-0.4.0.tar.gz]
+[2023-06-15 15:01:57] INFO root fetch - processPackages [twirl]: Start processing: cdktf-cdktf-provider-aws
+[2023-06-15 15:01:57] INFO root fetch - main [MainThread]: End processing [twirl]: success
+[2023-06-15 15:01:57] INFO root fetch - processPackages [web3client]: Downloading https://files.pythonhosted.org/packages/7f/7f/4e0ff47d8a5473c01285a5aa69dd923bfe444e5dd6758f8fb0ac33b3d7e8/web3client-1.1.9.tar.gz
+[2023-06-15 15:01:57] INFO root fetch - processPackages [web3client]: executing diffoscope
+[2023-06-15 15:01:57] INFO root fetch - processPackages [web3client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/web3client-1.1.8.tar.gz tmp/web3client-1.1.9.tar.gz --markdown 20230615/w/web3client/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-06-15 15:01:57] INFO root fetch - processPackages [cdktf-cdktf-provider-aws]: New version: [9.0.9] Old Version: [9.0.8]
+[2023-06-15 15:01:57] INFO root fetch - processPackages [darwinpyspark]: Remove: archive file [/home/abi/fetcher/tmp/darwinpyspark-0.0.1.tar.gz]
+[2023-06-15 15:01:57] INFO root fetch - processPackages [darwinpyspark]: Remove: archive file [/home/abi/fetcher/tmp/darwinpyspark-0.0.2.tar.gz]
+[2023-06-15 15:01:57] INFO root fetch - processPackages [darwinpyspark]: Start processing: awsibox
+[2023-06-15 15:01:57] INFO root fetch - main [MainThread]: End processing [darwinpyspark]: success
+[2023-06-15 15:01:57] INFO root fetch - processPackages [trafilatura]: Downloading https://files.pythonhosted.org/packages/4b/4d/68e6c41cc65487a362e6de1b2af487b8e519ccd645ee2c0373175a58c69b/trafilatura-1.6.0.tar.gz
+[2023-06-15 15:01:57] INFO root fetch - processPackages [awsibox]: New version: [0.8.4] Old Version: [0.8.2]
+[2023-06-15 15:01:57] INFO root fetch - processPackages [awsibox]: Downloading https://files.pythonhosted.org/packages/ff/f6/42bac553317f38f7e0846c1bd0a57e76702b7000fe33b01f82cdefb559a8/awsibox-0.8.2.tar.gz
+[2023-06-15 15:01:57] INFO root fetch - processPackages [cdktf-cdktf-provider-aws]: Downloading https://files.pythonhosted.org/packages/aa/2e/834bb9d56f903b34743b3b8d5766864ad4e2a039b6c88e65b6d835c946e4/cdktf-cdktf-provider-aws-9.0.8.tar.gz
+[2023-06-15 15:01:57] INFO root fetch - processPackages [django-content-blocks]: Downloading https://files.pythonhosted.org/packages/7b/8a/8dff1f90bb019911d7eccfd66046968d55903cce70473b770fbf3e439417/django-content-blocks-1.3.4.tar.gz
+[2023-06-15 15:01:57] INFO root fetch - processPackages [awsibox]: Downloading https://files.pythonhosted.org/packages/81/16/7639d519964eb8b8d3f9fe037f677f89d079848d38077a0ac86e43276220/awsibox-0.8.4.tar.gz
+[2023-06-15 15:01:57] INFO root fetch - processPackages [django-content-blocks]: executing diffoscope
+[2023-06-15 15:01:57] INFO root fetch - processPackages [django-content-blocks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-content-blocks-1.3.3.tar.gz tmp/django-content-blocks-1.3.4.tar.gz --markdown 20230615/d/django-content-blocks/1.3.3-1.3.4/diff.md --exclude *.pyd
+[2023-06-15 15:01:57] INFO root fetch - processPackages [awsibox]: executing diffoscope
+[2023-06-15 15:01:57] INFO root fetch - processPackages [awsibox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/awsibox-0.8.2.tar.gz tmp/awsibox-0.8.4.tar.gz --markdown 20230615/a/awsibox/0.8.2-0.8.4/diff.md --exclude *.pyd
+[2023-06-15 15:01:57] INFO root fetch - processPackages [omero-fpbioimage]: executing diffoscope
+[2023-06-15 15:01:57] INFO root fetch - processPackages [omero-fpbioimage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omero-fpbioimage-0.4.0.dev3.tar.gz tmp/omero-fpbioimage-0.4.1.tar.gz --markdown 20230615/o/omero-fpbioimage/0.4.0.dev3-0.4.1/diff.md --exclude *.pyd
+[2023-06-15 15:01:58] INFO root fetch - processPackages [odoo-addon-vault]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_vault-15.0.1.6.1.6-py3-none-any.whl.zip]
+[2023-06-15 15:01:58] INFO root fetch - processPackages [odoo-addon-vault]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_vault-15.0.1.6.2-py3-none-any.whl.zip]
+[2023-06-15 15:01:58] INFO root fetch - processPackages [odoo-addon-vault]: Start processing: mkdocs-exporter
+[2023-06-15 15:01:58] INFO root fetch - main [MainThread]: End processing [odoo-addon-vault]: success
+[2023-06-15 15:01:58] INFO root fetch - processPackages [mkdocs-exporter]: New version: [3.1.1] Old Version: [3.1.0]
+[2023-06-15 15:01:58] INFO root fetch - processPackages [pepver]: Remove: archive file [/home/abi/fetcher/tmp/pepver-1.1.0.tar.gz]
+[2023-06-15 15:01:58] INFO root fetch - processPackages [pepver]: Remove: archive file [/home/abi/fetcher/tmp/pepver-1.1.post1.tar.gz]
+[2023-06-15 15:01:58] INFO root fetch - main [MainThread]: End processing [pepver]: success
+[2023-06-15 15:01:58] INFO root fetch - processPackages [trafilatura]: Downloading https://files.pythonhosted.org/packages/44/d8/e9f20c95d2e1189258a84467956a00d85a68563cbaec19920302b8a414f6/trafilatura-1.6.1.tar.gz
+[2023-06-15 15:01:58] INFO root fetch - processPackages [mkdocs-exporter]: Downloading https://files.pythonhosted.org/packages/3e/c2/aa2fa2cb05d2e108b41ad914527d96b3143fb7dae8af209fa84661ff17b8/mkdocs_exporter-3.1.0.tar.gz
+[2023-06-15 15:01:58] INFO root fetch - processPackages [web3client]: Remove: archive file [/home/abi/fetcher/tmp/web3client-1.1.8.tar.gz]
+[2023-06-15 15:01:58] INFO root fetch - processPackages [web3client]: Remove: archive file [/home/abi/fetcher/tmp/web3client-1.1.9.tar.gz]
+[2023-06-15 15:01:58] INFO root fetch - main [MainThread]: End processing [web3client]: success
+[2023-06-15 15:01:58] INFO root fetch - processPackages [mkdocs-exporter]: Downloading https://files.pythonhosted.org/packages/66/36/4a6db437a793a46bf831a8175bb3c7902d5e1a0cefa638931c9a677b4855/mkdocs_exporter-3.1.1.tar.gz
+[2023-06-15 15:01:58] WARNING root fetch - processPackages [cdktf-cdktf-provider-aws]: Skipping package: exceeds size limit 23814479>=10485760
+[2023-06-15 15:01:58] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-aws] error
+[2023-06-15 15:01:58] INFO root fetch - processPackages [mkdocs-exporter]: executing diffoscope
+[2023-06-15 15:01:58] INFO root fetch - processPackages [mkdocs-exporter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdocs_exporter-3.1.0.tar.gz tmp/mkdocs_exporter-3.1.1.tar.gz --markdown 20230615/m/mkdocs-exporter/3.1.0-3.1.1/diff.md --exclude *.pyd
+[2023-06-15 15:01:59] INFO root fetch - processPackages [trafilatura]: executing diffoscope
+[2023-06-15 15:01:59] INFO root fetch - processPackages [trafilatura]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trafilatura-1.6.0.tar.gz tmp/trafilatura-1.6.1.tar.gz --markdown 20230615/t/trafilatura/1.6.0-1.6.1/diff.md --exclude *.pyd
+[2023-06-15 15:01:59] INFO root fetch - processPackages [django-content-blocks]: Remove: archive file [/home/abi/fetcher/tmp/django-content-blocks-1.3.3.tar.gz]
+[2023-06-15 15:01:59] INFO root fetch - processPackages [django-content-blocks]: Remove: archive file [/home/abi/fetcher/tmp/django-content-blocks-1.3.4.tar.gz]
+[2023-06-15 15:01:59] INFO root fetch - main [MainThread]: End processing [django-content-blocks]: success
+[2023-06-15 15:01:59] INFO root fetch - processPackages [omero-fpbioimage]: Remove: archive file [/home/abi/fetcher/tmp/omero-fpbioimage-0.4.0.dev3.tar.gz]
+[2023-06-15 15:01:59] INFO root fetch - processPackages [omero-fpbioimage]: Remove: archive file [/home/abi/fetcher/tmp/omero-fpbioimage-0.4.1.tar.gz]
+[2023-06-15 15:01:59] INFO root fetch - main [MainThread]: End processing [omero-fpbioimage]: success
+[2023-06-15 15:01:59] INFO root fetch - processPackages [mkdocs-exporter]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs_exporter-3.1.0.tar.gz]
+[2023-06-15 15:01:59] INFO root fetch - processPackages [mkdocs-exporter]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs_exporter-3.1.1.tar.gz]
+[2023-06-15 15:01:59] INFO root fetch - main [MainThread]: End processing [mkdocs-exporter]: success
+[2023-06-15 15:02:00] INFO root fetch - processPackages [kiln-connect]: Remove: archive file [/home/abi/fetcher/tmp/kiln_connect-1.0.0.dev6.tar.gz]
+[2023-06-15 15:02:00] INFO root fetch - processPackages [kiln-connect]: Remove: archive file [/home/abi/fetcher/tmp/kiln_connect-1.0.0.dev7.tar.gz]
+[2023-06-15 15:02:00] INFO root fetch - main [MainThread]: End processing [kiln-connect]: success
+[2023-06-15 15:02:00] INFO root fetch - processPackages [flexmeasures]: Remove: archive file [/home/abi/fetcher/tmp/flexmeasures-0.9.3.tar.gz]
+[2023-06-15 15:02:00] INFO root fetch - processPackages [flexmeasures]: Remove: archive file [/home/abi/fetcher/tmp/flexmeasures-0.9.4.tar.gz]
+[2023-06-15 15:02:00] INFO root fetch - main [MainThread]: End processing [flexmeasures]: success
+[2023-06-15 15:02:03] INFO root fetch - processPackages [awsibox]: Remove: archive file [/home/abi/fetcher/tmp/awsibox-0.8.2.tar.gz]
+[2023-06-15 15:02:03] INFO root fetch - processPackages [awsibox]: Remove: archive file [/home/abi/fetcher/tmp/awsibox-0.8.4.tar.gz]
+[2023-06-15 15:02:03] INFO root fetch - main [MainThread]: End processing [awsibox]: success
+[2023-06-15 15:02:04] INFO root fetch - processPackages [trafilatura]: Remove: archive file [/home/abi/fetcher/tmp/trafilatura-1.6.0.tar.gz]
+[2023-06-15 15:02:04] INFO root fetch - processPackages [trafilatura]: Remove: archive file [/home/abi/fetcher/tmp/trafilatura-1.6.1.tar.gz]
+[2023-06-15 15:02:04] INFO root fetch - main [MainThread]: End processing [trafilatura]: success
+[2023-06-15 15:02:04] INFO root fetch - main [MainThread]: Store serial: [18516274]
