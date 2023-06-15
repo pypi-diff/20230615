@@ -21264,3 +21264,66 @@ AssertionError: tmp/stackoverflowapithingy-0.1.5.tar.gz does not exist
 [2023-06-15 13:48:22] INFO root fetch - processPackages [composabl-ray-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_ray_dev-0.2.1.dev95-cp38-cp38-musllinux_1_1_x86_64.whl.zip]
 [2023-06-15 13:48:22] INFO root fetch - main [MainThread]: End processing [composabl-ray-dev]: success
 [2023-06-15 13:48:22] INFO root fetch - main [MainThread]: Store serial: [18515585]
+[2023-06-15 13:53:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18515585]
+[2023-06-15 13:53:39] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-15 13:53:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: luisa-python
+[2023-06-15 13:53:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: invenio-communities
+[2023-06-15 13:53:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: numerical-py
+[2023-06-15 13:53:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: xmlrecords
+[2023-06-15 13:53:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: another-sd-client
+[2023-06-15 13:53:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: vdk-impala
+[2023-06-15 13:53:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: SVARpy
+[2023-06-15 13:53:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: hazelbean
+[2023-06-15 13:53:39] INFO root fetch - processPackages [another-sd-client]: New version: [1.3.0] Old Version: [1.2.0]
+[2023-06-15 13:53:39] INFO root fetch - processPackages [invenio-communities]: New version: [7.0.0] Old Version: [6.7.0]
+[2023-06-15 13:53:39] WARNING root fetch - processPackages [SVARpy]: Skipping, unable to determine old version
+[2023-06-15 13:53:39] INFO root fetch - main [MainThread]: End processing [SVARpy] error
+[2023-06-15 13:53:39] INFO root fetch - processPackages [numerical-py]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-15 13:53:39] INFO root fetch - processPackages [xmlrecords]: New version: [0.3.0] Old Version: [0.2.5]
+[2023-06-15 13:53:39] INFO root fetch - processPackages [vdk-impala]: New version: [0.4.901076872] Old Version: [0.4.889197396]
+[2023-06-15 13:53:39] INFO root fetch - processPackages [hazelbean]: New version: [1.4.6] Old Version: [1.4.5]
+[2023-06-15 13:53:39] INFO root fetch - processPackages [another-sd-client]: Downloading https://files.pythonhosted.org/packages/ad/85/8b803ccff2c3ae18661a93c51ea45363fc3a3327cbbb5c4c09de3c537d57/another_sd_client-1.2.0.tar.gz
+[2023-06-15 13:53:39] INFO root fetch - processPackages [numerical-py]: Downloading https://files.pythonhosted.org/packages/1d/de/1646bfffd31b37c02f76dd709f9c00e9f79df74282ab8379237197ee3794/numerical_py-0.0.8.tar.gz
+[2023-06-15 13:53:39] ERROR root fetch - processPackages [luisa-python]: Unable to get metadata: No such project 'luisa-python'
+[2023-06-15 13:53:39] INFO root fetch - main [MainThread]: End processing [luisa-python] error
+[2023-06-15 13:53:39] INFO root fetch - processPackages [invenio-communities]: Downloading https://files.pythonhosted.org/packages/16/62/8472acd0dcff073c0deb19ccc9db871c507a83902d22266fe3fea3ab0b4f/invenio-communities-6.7.0.tar.gz
+[2023-06-15 13:53:39] INFO root fetch - processPackages [xmlrecords]: Downloading https://files.pythonhosted.org/packages/6c/a2/145cddc55b08016509c2c4a11c246ce29afae696844a491a5f8139cc5e63/xmlrecords-0.2.5.tar.gz
+[2023-06-15 13:53:39] INFO root fetch - processPackages [hazelbean]: Downloading https://files.pythonhosted.org/packages/cd/1f/3d0f392fb7be04270e42ef2ac3d2ded93a3a31382940e7f56823242cc596/hazelbean-1.4.5.tar.gz
+[2023-06-15 13:53:39] INFO root fetch - processPackages [vdk-impala]: Downloading https://files.pythonhosted.org/packages/48/dd/cc4d3695a4c88c4c08e8b5306135ef66a12f79975fe7537de49dca10bd0b/vdk-impala-0.4.889197396.tar.gz
+[2023-06-15 13:53:39] INFO root fetch - processPackages [another-sd-client]: Downloading https://files.pythonhosted.org/packages/e1/14/ec0e1f320d0d7fe3b71080031112d1dc4647755e22398891acd8643a9896/another_sd_client-1.3.0.tar.gz
+[2023-06-15 13:53:39] INFO root fetch - processPackages [numerical-py]: Downloading https://files.pythonhosted.org/packages/95/1d/7677791c6175f40bd4a70e667ae838300671845f99330142d2e9a3d9f7f8/numerical_py-0.0.9.tar.gz
+[2023-06-15 13:53:40] INFO root fetch - processPackages [numerical-py]: executing diffoscope
+[2023-06-15 13:53:40] INFO root fetch - processPackages [numerical-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/numerical_py-0.0.8.tar.gz tmp/numerical_py-0.0.9.tar.gz --markdown 20230615/n/numerical-py/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-15 13:53:40] INFO root fetch - processPackages [another-sd-client]: executing diffoscope
+[2023-06-15 13:53:40] INFO root fetch - processPackages [another-sd-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/another_sd_client-1.2.0.tar.gz tmp/another_sd_client-1.3.0.tar.gz --markdown 20230615/a/another-sd-client/1.2.0-1.3.0/diff.md --exclude *.pyd
+[2023-06-15 13:53:40] INFO root fetch - processPackages [xmlrecords]: Downloading https://files.pythonhosted.org/packages/a2/a2/d34e8de021b5623b7623ee07924e1d3056422f1b5f20f59b766744b6f8c6/xmlrecords-0.3.0.tar.gz
+[2023-06-15 13:53:40] INFO root fetch - processPackages [invenio-communities]: Downloading https://files.pythonhosted.org/packages/26/32/a433c840b7b7cb855f647ed718e4c8a9ad2f4685924bf89f013786dede4c/invenio-communities-7.0.0.tar.gz
+[2023-06-15 13:53:40] INFO root fetch - processPackages [vdk-impala]: Downloading https://files.pythonhosted.org/packages/a0/71/9fa4603b637ac367574037ff146bf315cffd570e31c6fecbb7237e6a0eb2/vdk-impala-0.4.901076872.tar.gz
+[2023-06-15 13:53:40] INFO root fetch - processPackages [hazelbean]: Downloading https://files.pythonhosted.org/packages/f3/85/61cb0083b02ad06daefa57c5a6cbd2d8830c630af996cde0d723cbde8b79/hazelbean-1.4.6.tar.gz
+[2023-06-15 13:53:40] INFO root fetch - processPackages [xmlrecords]: executing diffoscope
+[2023-06-15 13:53:40] INFO root fetch - processPackages [xmlrecords]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xmlrecords-0.2.5.tar.gz tmp/xmlrecords-0.3.0.tar.gz --markdown 20230615/x/xmlrecords/0.2.5-0.3.0/diff.md --exclude *.pyd
+[2023-06-15 13:53:40] INFO root fetch - processPackages [vdk-impala]: executing diffoscope
+[2023-06-15 13:53:40] INFO root fetch - processPackages [vdk-impala]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vdk-impala-0.4.889197396.tar.gz tmp/vdk-impala-0.4.901076872.tar.gz --markdown 20230615/v/vdk-impala/0.4.889197396-0.4.901076872/diff.md --exclude *.pyd
+[2023-06-15 13:53:40] INFO root fetch - processPackages [invenio-communities]: executing diffoscope
+[2023-06-15 13:53:40] INFO root fetch - processPackages [invenio-communities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/invenio-communities-6.7.0.tar.gz tmp/invenio-communities-7.0.0.tar.gz --markdown 20230615/i/invenio-communities/6.7.0-7.0.0/diff.md --exclude *.pyd
+[2023-06-15 13:53:40] INFO root fetch - processPackages [hazelbean]: executing diffoscope
+[2023-06-15 13:53:40] INFO root fetch - processPackages [hazelbean]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hazelbean-1.4.5.tar.gz tmp/hazelbean-1.4.6.tar.gz --markdown 20230615/h/hazelbean/1.4.5-1.4.6/diff.md --exclude *.pyd
+[2023-06-15 13:53:41] INFO root fetch - processPackages [another-sd-client]: Remove: archive file [/home/abi/fetcher/tmp/another_sd_client-1.2.0.tar.gz]
+[2023-06-15 13:53:41] INFO root fetch - processPackages [another-sd-client]: Remove: archive file [/home/abi/fetcher/tmp/another_sd_client-1.3.0.tar.gz]
+[2023-06-15 13:53:41] INFO root fetch - main [MainThread]: End processing [another-sd-client]: success
+[2023-06-15 13:53:41] INFO root fetch - processPackages [numerical-py]: Remove: archive file [/home/abi/fetcher/tmp/numerical_py-0.0.8.tar.gz]
+[2023-06-15 13:53:41] INFO root fetch - processPackages [numerical-py]: Remove: archive file [/home/abi/fetcher/tmp/numerical_py-0.0.9.tar.gz]
+[2023-06-15 13:53:41] INFO root fetch - main [MainThread]: End processing [numerical-py]: success
+[2023-06-15 13:53:41] INFO root fetch - processPackages [xmlrecords]: Remove: archive file [/home/abi/fetcher/tmp/xmlrecords-0.2.5.tar.gz]
+[2023-06-15 13:53:41] INFO root fetch - processPackages [xmlrecords]: Remove: archive file [/home/abi/fetcher/tmp/xmlrecords-0.3.0.tar.gz]
+[2023-06-15 13:53:41] INFO root fetch - main [MainThread]: End processing [xmlrecords]: success
+[2023-06-15 13:53:41] INFO root fetch - processPackages [vdk-impala]: Remove: archive file [/home/abi/fetcher/tmp/vdk-impala-0.4.889197396.tar.gz]
+[2023-06-15 13:53:41] INFO root fetch - processPackages [vdk-impala]: Remove: archive file [/home/abi/fetcher/tmp/vdk-impala-0.4.901076872.tar.gz]
+[2023-06-15 13:53:41] INFO root fetch - main [MainThread]: End processing [vdk-impala]: success
+[2023-06-15 13:53:42] INFO root fetch - processPackages [hazelbean]: Remove: archive file [/home/abi/fetcher/tmp/hazelbean-1.4.5.tar.gz]
+[2023-06-15 13:53:42] INFO root fetch - processPackages [hazelbean]: Remove: archive file [/home/abi/fetcher/tmp/hazelbean-1.4.6.tar.gz]
+[2023-06-15 13:53:42] INFO root fetch - main [MainThread]: End processing [hazelbean]: success
+[2023-06-15 13:53:46] INFO root fetch - processPackages [invenio-communities]: Remove: archive file [/home/abi/fetcher/tmp/invenio-communities-6.7.0.tar.gz]
+[2023-06-15 13:53:46] INFO root fetch - processPackages [invenio-communities]: Remove: archive file [/home/abi/fetcher/tmp/invenio-communities-7.0.0.tar.gz]
+[2023-06-15 13:53:46] INFO root fetch - main [MainThread]: End processing [invenio-communities]: success
+[2023-06-15 13:53:46] INFO root fetch - main [MainThread]: Store serial: [18515613]
