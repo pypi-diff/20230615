@@ -14600,3 +14600,162 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-06-15 10:22:27] INFO root fetch - processPackages [workflow-nodes]: Remove: archive file [/home/abi/fetcher/tmp/workflow_nodes-0.9.0-py3-none-any.whl.zip]
 [2023-06-15 10:22:27] INFO root fetch - main [MainThread]: End processing [workflow-nodes]: success
 [2023-06-15 10:22:27] INFO root fetch - main [MainThread]: Store serial: [18512990]
+[2023-06-15 10:27:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18512990]
+[2023-06-15 10:27:37] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-06-15 10:27:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tf-model-optimization-nightly
+[2023-06-15 10:27:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: codegrade
+[2023-06-15 10:27:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cz-github-jira-conventional
+[2023-06-15 10:27:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: py-fumen-util
+[2023-06-15 10:27:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: spd-cli
+[2023-06-15 10:27:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: platform-library
+[2023-06-15 10:27:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hello2
+[2023-06-15 10:27:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: shaku-database
+[2023-06-15 10:27:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: lucidtech-las-cli
+[2023-06-15 10:27:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: hotsos
+[2023-06-15 10:27:37] INFO root fetch - processPackages [shaku-database]: New version: [1.0.0] Old Version: [0.0.1]
+[2023-06-15 10:27:37] INFO root fetch - processPackages [py-fumen-util]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-06-15 10:27:37] INFO root fetch - processPackages [lucidtech-las-cli]: New version: [9.5.0] Old Version: [9.4.0]
+[2023-06-15 10:27:37] INFO root fetch - processPackages [cz-github-jira-conventional]: New version: [2.0.0] Old Version: [1.1.1]
+[2023-06-15 10:27:37] INFO root fetch - processPackages [codegrade]: New version: [16.1.9] Old Version: [16.1.8]
+[2023-06-15 10:27:37] WARNING root fetch - processPackages [spd-cli]: Skipping, unable to determine old version
+[2023-06-15 10:27:37] INFO root fetch - processPackages [spd-cli]: Start processing: negar-gui
+[2023-06-15 10:27:37] INFO root fetch - main [MainThread]: End processing [spd-cli] error
+[2023-06-15 10:27:37] INFO root fetch - processPackages [platform-library]: New version: [0.1.0] Old Version: [0.0.9]
+[2023-06-15 10:27:37] INFO root fetch - processPackages [hotsos]: New version: [1.1.14.post9] Old Version: [1.1.14.post8]
+[2023-06-15 10:27:37] INFO root fetch - processPackages [hello2]: New version: [1.9.8] Old Version: [1.9.7]
+[2023-06-15 10:27:37] INFO root fetch - processPackages [hotsos]: Downloading https://files.pythonhosted.org/packages/de/2d/fdf0aaa2b1e07e6d91918c01be57d8f6a6e848e85ed670d75fe1d9b39cd5/hotsos-1.1.14.post8.tar.gz
+[2023-06-15 10:27:37] INFO root fetch - processPackages [codegrade]: Downloading https://files.pythonhosted.org/packages/a2/99/6dd91f125d60162d9298aca4e361d64263b90012dc12a802e2171ac952ee/codegrade-16.1.8.tar.gz
+[2023-06-15 10:27:37] INFO root fetch - processPackages [negar-gui]: New version: [0.7.8] Old Version: [0.7.7]
+[2023-06-15 10:27:37] INFO root fetch - processPackages [hello2]: Downloading https://files.pythonhosted.org/packages/a0/da/ea8de0846b3f6b830477f9e807bff18614fd5b21c7898936b0dbc0525167/hello2-1.9.7.tar.gz
+[2023-06-15 10:27:37] INFO root fetch - processPackages [tf-model-optimization-nightly]: New version: [0.7.5.dev20230615] Old Version: [0.7.5.dev20230612]
+[2023-06-15 10:27:38] INFO root fetch - processPackages [cz-github-jira-conventional]: Downloading https://files.pythonhosted.org/packages/3e/29/74c64183ba4417fe2e4bc476050730868cdb59d8dbda5fdb7b158dd9b3cb/cz_github_jira_conventional-1.1.1.tar.gz
+[2023-06-15 10:27:38] INFO root fetch - processPackages [shaku-database]: Downloading https://files.pythonhosted.org/packages/1c/4c/821fe978deca8b0487bafa58ba2d7c8d565f41e9926cee7ab8c7433d139e/shaku_database-0.0.1.tar.gz
+[2023-06-15 10:27:38] INFO root fetch - processPackages [lucidtech-las-cli]: Downloading https://files.pythonhosted.org/packages/fc/25/87afa0114b7e6faf66956ba3127e69360ea71efbd676aec8af5bd675303d/lucidtech-las-cli-9.4.0.tar.gz
+[2023-06-15 10:27:38] INFO root fetch - processPackages [codegrade]: Downloading https://files.pythonhosted.org/packages/5c/19/067059110db7547fcfe643055d33ab487be554e0741049ea108c0e330c22/codegrade-16.1.9.tar.gz
+[2023-06-15 10:27:38] INFO root fetch - processPackages [platform-library]: Downloading https://files.pythonhosted.org/packages/18/13/ee8dd2fbfa045231ae0717d17b421bf9cdf9cca91bd0a36df9f9ecf34fe2/platform-library-0.0.9.tar.gz
+[2023-06-15 10:27:38] INFO root fetch - processPackages [py-fumen-util]: Downloading https://files.pythonhosted.org/packages/75/de/faf876ae74736c0bed39cb7ae8af06a2b9d2e1d657c1f4e3ab5731dc46b2/py_fumen_util-0.2.0.tar.gz
+[2023-06-15 10:27:38] INFO root fetch - processPackages [negar-gui]: Downloading https://files.pythonhosted.org/packages/96/f7/1245eb6748d05859150ec44da2a3cf0ed363ddebe9643e4b65cf2b7e16d3/negar-gui-0.7.7.tar.gz
+[2023-06-15 10:27:38] INFO root fetch - processPackages [codegrade]: executing diffoscope
+[2023-06-15 10:27:38] INFO root fetch - processPackages [codegrade]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codegrade-16.1.8.tar.gz tmp/codegrade-16.1.9.tar.gz --markdown 20230615/c/codegrade/16.1.8-16.1.9/diff.md --exclude *.pyd
+[2023-06-15 10:27:38] INFO root fetch - processPackages [tf-model-optimization-nightly]: Downloading https://files.pythonhosted.org/packages/26/8a/9091e7101c6ca3f69ff84f0edfb98426e1c9464980bcf3122d5ee3710b19/tf_model_optimization_nightly-0.7.5.dev20230612-py2.py3-none-any.whl
+[2023-06-15 10:27:38] INFO root fetch - processPackages [hotsos]: Downloading https://files.pythonhosted.org/packages/da/c9/7eacdd09b8fe987d35c33395e293035c63b16ded1000aadb2bc49c6f7882/hotsos-1.1.14.post9.tar.gz
+[2023-06-15 10:27:38] INFO root fetch - processPackages [hotsos]: executing diffoscope
+[2023-06-15 10:27:38] INFO root fetch - processPackages [hotsos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hotsos-1.1.14.post8.tar.gz tmp/hotsos-1.1.14.post9.tar.gz --markdown 20230615/h/hotsos/1.1.14.post8-1.1.14.post9/diff.md --exclude *.pyd
+[2023-06-15 10:27:38] INFO root fetch - processPackages [hello2]: Downloading https://files.pythonhosted.org/packages/49/8e/ad3bd8a06dc93565a7acce7d9cc3baad9968c99a576eba196148f220b50c/hello2-1.9.8.tar.gz
+[2023-06-15 10:27:38] INFO root fetch - processPackages [hello2]: executing diffoscope
+[2023-06-15 10:27:38] INFO root fetch - processPackages [hello2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hello2-1.9.7.tar.gz tmp/hello2-1.9.8.tar.gz --markdown 20230615/h/hello2/1.9.7-1.9.8/diff.md --exclude *.pyd
+[2023-06-15 10:27:38] INFO root fetch - processPackages [cz-github-jira-conventional]: Downloading https://files.pythonhosted.org/packages/f8/13/3c2d005d0d175581c0c5a00622ccce5c73e124d1415e7ee70a4d76eb1a51/cz_github_jira_conventional-2.0.0.tar.gz
+[2023-06-15 10:27:38] INFO root fetch - processPackages [shaku-database]: Downloading https://files.pythonhosted.org/packages/3d/99/37ca79e7c8a04cd81600ba98c041d6ad726a8b0cf394979a44f6f493e905/shaku_database-1.0.0.tar.gz
+[2023-06-15 10:27:38] INFO root fetch - processPackages [py-fumen-util]: Downloading https://files.pythonhosted.org/packages/2c/d9/4c2308ce9f8f4d5e0bf87f30c2e3e019913ec980db7b9336982d75ad2378/py_fumen_util-0.3.0.tar.gz
+[2023-06-15 10:27:38] INFO root fetch - processPackages [platform-library]: Downloading https://files.pythonhosted.org/packages/68/30/75543f3005ac87ba6d618df6408e0a6dca735dd90e73d8be4c57e56c5736/platform-library-0.1.0.tar.gz
+[2023-06-15 10:27:38] INFO root fetch - processPackages [cz-github-jira-conventional]: executing diffoscope
+[2023-06-15 10:27:38] INFO root fetch - processPackages [cz-github-jira-conventional]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cz_github_jira_conventional-1.1.1.tar.gz tmp/cz_github_jira_conventional-2.0.0.tar.gz --markdown 20230615/c/cz-github-jira-conventional/1.1.1-2.0.0/diff.md --exclude *.pyd
+[2023-06-15 10:27:38] INFO root fetch - processPackages [shaku-database]: executing diffoscope
+[2023-06-15 10:27:38] INFO root fetch - processPackages [shaku-database]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shaku_database-0.0.1.tar.gz tmp/shaku_database-1.0.0.tar.gz --markdown 20230615/s/shaku-database/0.0.1-1.0.0/diff.md --exclude *.pyd
+[2023-06-15 10:27:38] INFO root fetch - processPackages [py-fumen-util]: executing diffoscope
+[2023-06-15 10:27:38] INFO root fetch - processPackages [py-fumen-util]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_fumen_util-0.2.0.tar.gz tmp/py_fumen_util-0.3.0.tar.gz --markdown 20230615/p/py-fumen-util/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-06-15 10:27:38] INFO root fetch - processPackages [lucidtech-las-cli]: Downloading https://files.pythonhosted.org/packages/42/a7/f221a980c84aca9f4c32872eb42bb7b9b78ed21588d9f3b13f73f69c2a80/lucidtech-las-cli-9.5.0.tar.gz
+[2023-06-15 10:27:38] INFO root fetch - processPackages [platform-library]: executing diffoscope
+[2023-06-15 10:27:38] INFO root fetch - processPackages [platform-library]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/platform-library-0.0.9.tar.gz tmp/platform-library-0.1.0.tar.gz --markdown 20230615/p/platform-library/0.0.9-0.1.0/diff.md --exclude *.pyd
+[2023-06-15 10:27:38] INFO root fetch - processPackages [tf-model-optimization-nightly]: Downloading https://files.pythonhosted.org/packages/c5/34/b9bff1f58294ec64009c21c3f907e6ac49d2e644733f30152e5c6007b0b0/tf_model_optimization_nightly-0.7.5.dev20230615-py2.py3-none-any.whl
+[2023-06-15 10:27:38] INFO root fetch - processPackages [negar-gui]: Downloading https://files.pythonhosted.org/packages/5e/3c/fd782966aef499a02fae4361f2d3c14bd1df4ea0c51eedc00956d60b99a7/negar-gui-0.7.8.tar.gz
+[2023-06-15 10:27:38] INFO root fetch - processPackages [negar-gui]: executing diffoscope
+[2023-06-15 10:27:38] INFO root fetch - processPackages [negar-gui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/negar-gui-0.7.7.tar.gz tmp/negar-gui-0.7.8.tar.gz --markdown 20230615/n/negar-gui/0.7.7-0.7.8/diff.md --exclude *.pyd
+[2023-06-15 10:27:38] INFO root fetch - processPackages [lucidtech-las-cli]: executing diffoscope
+[2023-06-15 10:27:38] INFO root fetch - processPackages [lucidtech-las-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lucidtech-las-cli-9.4.0.tar.gz tmp/lucidtech-las-cli-9.5.0.tar.gz --markdown 20230615/l/lucidtech-las-cli/9.4.0-9.5.0/diff.md --exclude *.pyd
+[2023-06-15 10:27:38] INFO root fetch - processPackages [tf-model-optimization-nightly]: executing diffoscope
+[2023-06-15 10:27:38] INFO root fetch - processPackages [tf-model-optimization-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_model_optimization_nightly-0.7.5.dev20230612-py2.py3-none-any.whl.zip tmp/tf_model_optimization_nightly-0.7.5.dev20230615-py2.py3-none-any.whl.zip --markdown 20230615/t/tf-model-optimization-nightly/0.7.5.dev20230612-0.7.5.dev20230615/diff.md --exclude *.pyd
+[2023-06-15 10:27:39] INFO root fetch - processPackages [cz-github-jira-conventional]: Remove: archive file [/home/abi/fetcher/tmp/cz_github_jira_conventional-1.1.1.tar.gz]
+[2023-06-15 10:27:39] INFO root fetch - processPackages [cz-github-jira-conventional]: Remove: archive file [/home/abi/fetcher/tmp/cz_github_jira_conventional-2.0.0.tar.gz]
+[2023-06-15 10:27:39] INFO root fetch - processPackages [cz-github-jira-conventional]: Start processing: sertit
+[2023-06-15 10:27:39] INFO root fetch - main [MainThread]: End processing [cz-github-jira-conventional]: success
+[2023-06-15 10:27:39] INFO root fetch - processPackages [sertit]: New version: [1.9.0] Old Version: [1.8.1]
+[2023-06-15 10:27:39] INFO root fetch - processPackages [platform-library]: Remove: archive file [/home/abi/fetcher/tmp/platform-library-0.0.9.tar.gz]
+[2023-06-15 10:27:39] INFO root fetch - processPackages [platform-library]: Remove: archive file [/home/abi/fetcher/tmp/platform-library-0.1.0.tar.gz]
+[2023-06-15 10:27:39] INFO root fetch - processPackages [platform-library]: Start processing: llm-generation-server
+[2023-06-15 10:27:39] INFO root fetch - main [MainThread]: End processing [platform-library]: success
+[2023-06-15 10:27:40] INFO root fetch - processPackages [shaku-database]: Remove: archive file [/home/abi/fetcher/tmp/shaku_database-0.0.1.tar.gz]
+[2023-06-15 10:27:40] INFO root fetch - processPackages [shaku-database]: Remove: archive file [/home/abi/fetcher/tmp/shaku_database-1.0.0.tar.gz]
+[2023-06-15 10:27:40] INFO root fetch - processPackages [shaku-database]: Start processing: torchquad
+[2023-06-15 10:27:40] INFO root fetch - main [MainThread]: End processing [shaku-database]: success
+[2023-06-15 10:27:40] INFO root fetch - processPackages [negar-gui]: Remove: archive file [/home/abi/fetcher/tmp/negar-gui-0.7.7.tar.gz]
+[2023-06-15 10:27:40] INFO root fetch - processPackages [negar-gui]: Remove: archive file [/home/abi/fetcher/tmp/negar-gui-0.7.8.tar.gz]
+[2023-06-15 10:27:40] INFO root fetch - processPackages [negar-gui]: Start processing: jijmodeling
+[2023-06-15 10:27:40] INFO root fetch - main [MainThread]: End processing [negar-gui]: success
+[2023-06-15 10:27:40] INFO root fetch - processPackages [llm-generation-server]: New version: [0.1.0] Old Version: [0.0.9]
+[2023-06-15 10:27:40] INFO root fetch - processPackages [py-fumen-util]: Remove: archive file [/home/abi/fetcher/tmp/py_fumen_util-0.2.0.tar.gz]
+[2023-06-15 10:27:40] INFO root fetch - processPackages [py-fumen-util]: Remove: archive file [/home/abi/fetcher/tmp/py_fumen_util-0.3.0.tar.gz]
+[2023-06-15 10:27:40] INFO root fetch - processPackages [py-fumen-util]: Start processing: limburg-flood-impact
+[2023-06-15 10:27:40] INFO root fetch - main [MainThread]: End processing [py-fumen-util]: success
+[2023-06-15 10:27:40] INFO root fetch - processPackages [sertit]: Downloading https://files.pythonhosted.org/packages/18/b5/8f8ae3243c9a8219ed4d021a73afa00c403efb3965526ea84b690569d3c7/sertit-1.8.1.tar.gz
+[2023-06-15 10:27:40] INFO root fetch - processPackages [lucidtech-las-cli]: Remove: archive file [/home/abi/fetcher/tmp/lucidtech-las-cli-9.4.0.tar.gz]
+[2023-06-15 10:27:40] INFO root fetch - processPackages [lucidtech-las-cli]: Remove: archive file [/home/abi/fetcher/tmp/lucidtech-las-cli-9.5.0.tar.gz]
+[2023-06-15 10:27:40] INFO root fetch - processPackages [lucidtech-las-cli]: Start processing: netbox-cisco-maintenance
+[2023-06-15 10:27:40] INFO root fetch - main [MainThread]: End processing [lucidtech-las-cli]: success
+[2023-06-15 10:27:40] INFO root fetch - processPackages [torchquad]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-06-15 10:27:40] INFO root fetch - processPackages [netbox-cisco-maintenance]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-15 10:27:40] INFO root fetch - processPackages [netbox-cisco-maintenance]: Downloading https://files.pythonhosted.org/packages/49/9b/a1c0c74911cdf52ff01e40ea24fa7dd8c615a41dbbdae40f076bf871e18c/netbox-cisco-maintenance-0.0.98.tar.gz
+[2023-06-15 10:27:40] INFO root fetch - processPackages [limburg-flood-impact]: New version: [0.5.0] Old Version: [0.4.1]
+[2023-06-15 10:27:40] INFO root fetch - processPackages [jijmodeling]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-15 10:27:40] INFO root fetch - processPackages [llm-generation-server]: Downloading https://files.pythonhosted.org/packages/1b/92/b7a81c1ae09072f32e01c8f4f15a71efb359935e76a2cdba62984beb2ea1/llm_generation_server-0.0.9.tar.gz
+[2023-06-15 10:27:40] INFO root fetch - processPackages [netbox-cisco-maintenance]: Downloading https://files.pythonhosted.org/packages/36/61/db227025ce63809f803a3fe44062bf026321f24f9aa12a99bf348ae574ca/netbox-cisco-maintenance-0.0.99.tar.gz
+[2023-06-15 10:27:40] INFO root fetch - processPackages [torchquad]: Downloading https://files.pythonhosted.org/packages/f0/87/e433d08336fea5a83ac96e81da98f4fbbf89f04407b6bc85ed2647fd5e70/torchquad-0.3.0.tar.gz
+[2023-06-15 10:27:40] INFO root fetch - processPackages [netbox-cisco-maintenance]: executing diffoscope
+[2023-06-15 10:27:40] INFO root fetch - processPackages [netbox-cisco-maintenance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox-cisco-maintenance-0.0.98.tar.gz tmp/netbox-cisco-maintenance-0.0.99.tar.gz --markdown 20230615/n/netbox-cisco-maintenance/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-15 10:27:40] INFO root fetch - processPackages [limburg-flood-impact]: Downloading https://files.pythonhosted.org/packages/9e/64/479d033a28cf7a081bbf7446da82c5674b8efe71fbacff76b4e7c57c8c72/limburg_flood_impact-0.4.1.tar.gz
+[2023-06-15 10:27:40] INFO root fetch - processPackages [sertit]: Downloading https://files.pythonhosted.org/packages/59/69/cbc0654faac948effc31798c883e666bf607b99951a584b7d5d192a3f2e4/sertit-1.9.0.tar.gz
+[2023-06-15 10:27:40] INFO root fetch - processPackages [jijmodeling]: Downloading https://files.pythonhosted.org/packages/49/fc/537e863c69af7f86de4ae2f7cb3b9df507938ba8fcbd0fe6c683b76b6e75/jijmodeling-0.9.8-cp39-cp39-win_amd64.whl
+[2023-06-15 10:27:40] INFO root fetch - processPackages [hello2]: Remove: archive file [/home/abi/fetcher/tmp/hello2-1.9.7.tar.gz]
+[2023-06-15 10:27:40] INFO root fetch - processPackages [hello2]: Remove: archive file [/home/abi/fetcher/tmp/hello2-1.9.8.tar.gz]
+[2023-06-15 10:27:40] INFO root fetch - processPackages [hello2]: Start processing: pinecone-datasets
+[2023-06-15 10:27:40] INFO root fetch - main [MainThread]: End processing [hello2]: success
+[2023-06-15 10:27:40] INFO root fetch - processPackages [tf-model-optimization-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_model_optimization_nightly-0.7.5.dev20230612-py2.py3-none-any.whl.zip]
+[2023-06-15 10:27:40] INFO root fetch - processPackages [tf-model-optimization-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_model_optimization_nightly-0.7.5.dev20230615-py2.py3-none-any.whl.zip]
+[2023-06-15 10:27:40] INFO root fetch - main [MainThread]: End processing [tf-model-optimization-nightly]: success
+[2023-06-15 10:27:40] INFO root fetch - processPackages [sertit]: executing diffoscope
+[2023-06-15 10:27:40] INFO root fetch - processPackages [sertit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sertit-1.8.1.tar.gz tmp/sertit-1.9.0.tar.gz --markdown 20230615/s/sertit/1.8.1-1.9.0/diff.md --exclude *.pyd
+[2023-06-15 10:27:40] INFO root fetch - processPackages [pinecone-datasets]: New version: [0.5.0rc6] Old Version: [0.5.0rc5]
+[2023-06-15 10:27:40] INFO root fetch - processPackages [torchquad]: Downloading https://files.pythonhosted.org/packages/e1/20/38b05a99289cc0fba19d70af95d37d1bee154d7f0ce877ace42f4020bc27/torchquad-0.4.0.tar.gz
+[2023-06-15 10:27:40] INFO root fetch - processPackages [llm-generation-server]: Downloading https://files.pythonhosted.org/packages/64/64/1a78a1eecfee80e501aa13c16cd155979965b7952ab39ec3a858c9234b0b/llm_generation_server-0.1.0.tar.gz
+[2023-06-15 10:27:40] INFO root fetch - processPackages [torchquad]: executing diffoscope
+[2023-06-15 10:27:40] INFO root fetch - processPackages [torchquad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchquad-0.3.0.tar.gz tmp/torchquad-0.4.0.tar.gz --markdown 20230615/t/torchquad/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-06-15 10:27:40] INFO root fetch - processPackages [llm-generation-server]: executing diffoscope
+[2023-06-15 10:27:40] INFO root fetch - processPackages [llm-generation-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llm_generation_server-0.0.9.tar.gz tmp/llm_generation_server-0.1.0.tar.gz --markdown 20230615/l/llm-generation-server/0.0.9-0.1.0/diff.md --exclude *.pyd
+[2023-06-15 10:27:40] INFO root fetch - processPackages [limburg-flood-impact]: Downloading https://files.pythonhosted.org/packages/3b/ff/1c96fbac2d3da4610ad2ee11e40e3c4099da420771b62000df789fe90bfd/limburg_flood_impact-0.5.0.tar.gz
+[2023-06-15 10:27:40] INFO root fetch - processPackages [limburg-flood-impact]: executing diffoscope
+[2023-06-15 10:27:40] INFO root fetch - processPackages [limburg-flood-impact]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/limburg_flood_impact-0.4.1.tar.gz tmp/limburg_flood_impact-0.5.0.tar.gz --markdown 20230615/l/limburg-flood-impact/0.4.1-0.5.0/diff.md --exclude *.pyd
+[2023-06-15 10:27:40] INFO root fetch - processPackages [pinecone-datasets]: Downloading https://files.pythonhosted.org/packages/e1/1f/af991a68d845d9be74468033b065b1fff9703189349b98da266e0754ba5d/pinecone_datasets-0.5.0rc5.tar.gz
+[2023-06-15 10:27:41] INFO root fetch - processPackages [pinecone-datasets]: Downloading https://files.pythonhosted.org/packages/33/ee/0ace41202c840d5b9bd9069600c920a840756a0cdd19869b260e55d46315/pinecone_datasets-0.5.0rc6.tar.gz
+[2023-06-15 10:27:41] INFO root fetch - processPackages [pinecone-datasets]: executing diffoscope
+[2023-06-15 10:27:41] INFO root fetch - processPackages [pinecone-datasets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pinecone_datasets-0.5.0rc5.tar.gz tmp/pinecone_datasets-0.5.0rc6.tar.gz --markdown 20230615/p/pinecone-datasets/0.5.0rc5-0.5.0rc6/diff.md --exclude *.pyd
+[2023-06-15 10:27:41] INFO root fetch - processPackages [jijmodeling]: Downloading https://files.pythonhosted.org/packages/89/d0/6cb71561aecdb852259cf24ad501a533d6d8ff22ba4e5836ab18377e567f/jijmodeling-0.9.9-cp39-cp39-win_amd64.whl
+[2023-06-15 10:27:41] INFO root fetch - processPackages [netbox-cisco-maintenance]: Remove: archive file [/home/abi/fetcher/tmp/netbox-cisco-maintenance-0.0.98.tar.gz]
+[2023-06-15 10:27:41] INFO root fetch - processPackages [netbox-cisco-maintenance]: Remove: archive file [/home/abi/fetcher/tmp/netbox-cisco-maintenance-0.0.99.tar.gz]
+[2023-06-15 10:27:41] INFO root fetch - main [MainThread]: End processing [netbox-cisco-maintenance]: success
+[2023-06-15 10:27:41] INFO root fetch - processPackages [jijmodeling]: executing diffoscope
+[2023-06-15 10:27:41] INFO root fetch - processPackages [jijmodeling]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jijmodeling-0.9.8-cp39-cp39-win_amd64.whl.zip tmp/jijmodeling-0.9.9-cp39-cp39-win_amd64.whl.zip --markdown 20230615/j/jijmodeling/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-15 10:27:41] INFO root fetch - processPackages [sertit]: Remove: archive file [/home/abi/fetcher/tmp/sertit-1.8.1.tar.gz]
+[2023-06-15 10:27:41] INFO root fetch - processPackages [sertit]: Remove: archive file [/home/abi/fetcher/tmp/sertit-1.9.0.tar.gz]
+[2023-06-15 10:27:41] INFO root fetch - main [MainThread]: End processing [sertit]: success
+[2023-06-15 10:27:42] INFO root fetch - processPackages [torchquad]: Remove: archive file [/home/abi/fetcher/tmp/torchquad-0.3.0.tar.gz]
+[2023-06-15 10:27:42] INFO root fetch - processPackages [torchquad]: Remove: archive file [/home/abi/fetcher/tmp/torchquad-0.4.0.tar.gz]
+[2023-06-15 10:27:42] INFO root fetch - main [MainThread]: End processing [torchquad]: success
+[2023-06-15 10:27:42] INFO root fetch - processPackages [pinecone-datasets]: Remove: archive file [/home/abi/fetcher/tmp/pinecone_datasets-0.5.0rc5.tar.gz]
+[2023-06-15 10:27:42] INFO root fetch - processPackages [pinecone-datasets]: Remove: archive file [/home/abi/fetcher/tmp/pinecone_datasets-0.5.0rc6.tar.gz]
+[2023-06-15 10:27:42] INFO root fetch - main [MainThread]: End processing [pinecone-datasets]: success
+[2023-06-15 10:27:42] INFO root fetch - processPackages [limburg-flood-impact]: Remove: archive file [/home/abi/fetcher/tmp/limburg_flood_impact-0.4.1.tar.gz]
+[2023-06-15 10:27:42] INFO root fetch - processPackages [limburg-flood-impact]: Remove: archive file [/home/abi/fetcher/tmp/limburg_flood_impact-0.5.0.tar.gz]
+[2023-06-15 10:27:42] INFO root fetch - main [MainThread]: End processing [limburg-flood-impact]: success
+[2023-06-15 10:27:44] INFO root fetch - processPackages [llm-generation-server]: Remove: archive file [/home/abi/fetcher/tmp/llm_generation_server-0.0.9.tar.gz]
+[2023-06-15 10:27:44] INFO root fetch - processPackages [llm-generation-server]: Remove: archive file [/home/abi/fetcher/tmp/llm_generation_server-0.1.0.tar.gz]
+[2023-06-15 10:27:44] INFO root fetch - main [MainThread]: End processing [llm-generation-server]: success
+[2023-06-15 10:27:44] INFO root fetch - processPackages [hotsos]: Remove: archive file [/home/abi/fetcher/tmp/hotsos-1.1.14.post8.tar.gz]
+[2023-06-15 10:27:44] INFO root fetch - processPackages [hotsos]: Remove: archive file [/home/abi/fetcher/tmp/hotsos-1.1.14.post9.tar.gz]
+[2023-06-15 10:27:44] INFO root fetch - main [MainThread]: End processing [hotsos]: success
+[2023-06-15 10:27:44] INFO root fetch - processPackages [codegrade]: Remove: archive file [/home/abi/fetcher/tmp/codegrade-16.1.8.tar.gz]
+[2023-06-15 10:27:44] INFO root fetch - processPackages [codegrade]: Remove: archive file [/home/abi/fetcher/tmp/codegrade-16.1.9.tar.gz]
+[2023-06-15 10:27:44] INFO root fetch - main [MainThread]: End processing [codegrade]: success
+[2023-06-15 10:27:49] INFO root fetch - processPackages [jijmodeling]: Remove: archive file [/home/abi/fetcher/tmp/jijmodeling-0.9.8-cp39-cp39-win_amd64.whl.zip]
+[2023-06-15 10:27:49] INFO root fetch - processPackages [jijmodeling]: Remove: archive file [/home/abi/fetcher/tmp/jijmodeling-0.9.9-cp39-cp39-win_amd64.whl.zip]
+[2023-06-15 10:27:49] INFO root fetch - main [MainThread]: End processing [jijmodeling]: success
+[2023-06-15 10:27:49] INFO root fetch - main [MainThread]: Store serial: [18513062]
