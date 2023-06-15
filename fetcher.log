@@ -20750,3 +20750,211 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-06-15 13:34:15] INFO root fetch - processPackages [bigdl-llm]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_llm-2.4.0b20230615-py3-none-win_amd64.whl.zip]
 [2023-06-15 13:34:15] INFO root fetch - main [MainThread]: End processing [bigdl-llm]: success
 [2023-06-15 13:34:15] INFO root fetch - main [MainThread]: Store serial: [18515392]
+[2023-06-15 13:39:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18515392]
+[2023-06-15 13:39:32] INFO root fetch - main [MainThread]: Found 25 changed packages
+[2023-06-15 13:39:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdktf-cdktf-provider-random
+[2023-06-15 13:39:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: getaltbranches
+[2023-06-15 13:39:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdktf-cdktf-provider-okta
+[2023-06-15 13:39:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdktf-cdktf-provider-salesforce
+[2023-06-15 13:39:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo13-addon-survey-contact-generation
+[2023-06-15 13:39:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ebel-rest
+[2023-06-15 13:39:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: upgini
+[2023-06-15 13:39:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cdktf-cdktf-provider-pagerduty
+[2023-06-15 13:39:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: emmanuelsdk
+[2023-06-15 13:39:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ais-dom
+[2023-06-15 13:39:32] WARNING root fetch - processPackages [getaltbranches]: Skipping, unable to determine old version
+[2023-06-15 13:39:32] INFO root fetch - processPackages [getaltbranches]: Start processing: leadguru-jobs
+[2023-06-15 13:39:32] INFO root fetch - main [MainThread]: End processing [getaltbranches] error
+[2023-06-15 13:39:32] WARNING root fetch - processPackages [emmanuelsdk]: Skipping, unable to determine old version
+[2023-06-15 13:39:32] INFO root fetch - processPackages [emmanuelsdk]: Start processing: cdktf-cdktf-provider-template
+[2023-06-15 13:39:32] INFO root fetch - main [MainThread]: End processing [emmanuelsdk] error
+[2023-06-15 13:39:32] WARNING root fetch - processPackages [odoo13-addon-survey-contact-generation]: Skipping, unable to determine old version
+[2023-06-15 13:39:32] INFO root fetch - processPackages [ebel-rest]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-15 13:39:32] INFO root fetch - processPackages [cdktf-cdktf-provider-random]: New version: [8.0.0] Old Version: [7.0.1]
+[2023-06-15 13:39:32] INFO root fetch - processPackages [cdktf-cdktf-provider-salesforce]: New version: [5.0.0] Old Version: [4.0.1]
+[2023-06-15 13:39:32] INFO root fetch - processPackages [odoo13-addon-survey-contact-generation]: Start processing: netbox-cisco-maintenance
+[2023-06-15 13:39:32] INFO root fetch - main [MainThread]: End processing [odoo13-addon-survey-contact-generation] error
+[2023-06-15 13:39:32] INFO root fetch - processPackages [cdktf-cdktf-provider-okta]: New version: [9.0.0] Old Version: [8.0.2]
+[2023-06-15 13:39:32] INFO root fetch - processPackages [upgini]: New version: [1.1.99] Old Version: [1.1.98]
+[2023-06-15 13:39:32] INFO root fetch - processPackages [leadguru-jobs]: New version: [0.99.0] Old Version: [0.98.0]
+[2023-06-15 13:39:32] INFO root fetch - processPackages [cdktf-cdktf-provider-template]: New version: [7.0.0] Old Version: [6.0.1]
+[2023-06-15 13:39:32] INFO root fetch - processPackages [ais-dom]: New version: [2023.6.2] Old Version: [2023.6.1]
+[2023-06-15 13:39:32] INFO root fetch - processPackages [cdktf-cdktf-provider-pagerduty]: New version: [8.0.0] Old Version: [7.0.6]
+[2023-06-15 13:39:32] INFO root fetch - processPackages [netbox-cisco-maintenance]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-15 13:39:32] INFO root fetch - processPackages [cdktf-cdktf-provider-random]: Downloading https://files.pythonhosted.org/packages/22/c8/ed8af293cb842389f06cf52d1e3bde34b06867de5c0b00d4a229bd8a4756/cdktf-cdktf-provider-random-7.0.1.tar.gz
+[2023-06-15 13:39:32] INFO root fetch - processPackages [leadguru-jobs]: Downloading https://files.pythonhosted.org/packages/58/0a/904c1f8e92c5b6adf3bf97a755cae87648f67ca82bb52bc30055558e0ce3/leadguru_jobs-0.98.0.tar.gz
+[2023-06-15 13:39:32] INFO root fetch - processPackages [cdktf-cdktf-provider-salesforce]: Downloading https://files.pythonhosted.org/packages/cf/e4/c639d91340b9851c52993e897689f83794da70fdd8956fa6a7ab8519b24e/cdktf-cdktf-provider-salesforce-4.0.1.tar.gz
+[2023-06-15 13:39:32] INFO root fetch - processPackages [netbox-cisco-maintenance]: Downloading https://files.pythonhosted.org/packages/49/9b/a1c0c74911cdf52ff01e40ea24fa7dd8c615a41dbbdae40f076bf871e18c/netbox-cisco-maintenance-0.0.98.tar.gz
+[2023-06-15 13:39:32] INFO root fetch - processPackages [ebel-rest]: Downloading https://files.pythonhosted.org/packages/78/21/11226f02d7cfa12ad0a22392d8dd25870c32f60db2c0cfa48fdd1b4978cb/ebel_rest-1.0.8.tar.gz
+[2023-06-15 13:39:32] INFO root fetch - processPackages [cdktf-cdktf-provider-template]: Downloading https://files.pythonhosted.org/packages/fe/fb/b5f943c40946649d6b21e7f6df312961bbbe8cc5cc7ab8c3f62890781229/cdktf-cdktf-provider-template-6.0.1.tar.gz
+[2023-06-15 13:39:32] INFO root fetch - processPackages [cdktf-cdktf-provider-random]: Downloading https://files.pythonhosted.org/packages/b2/96/d577b90a44bcb87339b5c1c1fa000bd65c32a35640657250db410e87783e/cdktf-cdktf-provider-random-8.0.0.tar.gz
+[2023-06-15 13:39:32] INFO root fetch - processPackages [cdktf-cdktf-provider-okta]: Downloading https://files.pythonhosted.org/packages/1c/18/2a62b6718999fc6b17e0ceab705057b3fb79d734c1a4c1b5591cf6d4ada7/cdktf-cdktf-provider-okta-8.0.2.tar.gz
+[2023-06-15 13:39:32] INFO root fetch - processPackages [upgini]: Downloading https://files.pythonhosted.org/packages/59/79/dc47448e0c68a4e00d9d0b7f4c640207fa605fe48cdc53e30221037a1962/upgini-1.1.98.tar.gz
+[2023-06-15 13:39:32] INFO root fetch - processPackages [leadguru-jobs]: Downloading https://files.pythonhosted.org/packages/e4/7f/189fe7a4dc1256297dd1956413531652ee35cd4ee527f02aa7f2d608775a/leadguru_jobs-0.99.0.tar.gz
+[2023-06-15 13:39:32] INFO root fetch - processPackages [cdktf-cdktf-provider-pagerduty]: Downloading https://files.pythonhosted.org/packages/c9/32/e7c2601dcb13c36180cad22b6cecabd998da7c30e1547b799a365d1e4ac1/cdktf-cdktf-provider-pagerduty-7.0.6.tar.gz
+[2023-06-15 13:39:32] INFO root fetch - processPackages [netbox-cisco-maintenance]: Downloading https://files.pythonhosted.org/packages/36/61/db227025ce63809f803a3fe44062bf026321f24f9aa12a99bf348ae574ca/netbox-cisco-maintenance-0.0.99.tar.gz
+[2023-06-15 13:39:32] INFO root fetch - processPackages [cdktf-cdktf-provider-random]: executing diffoscope
+[2023-06-15 13:39:32] INFO root fetch - processPackages [cdktf-cdktf-provider-random]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdktf-provider-random-7.0.1.tar.gz tmp/cdktf-cdktf-provider-random-8.0.0.tar.gz --markdown 20230615/c/cdktf-cdktf-provider-random/7.0.1-8.0.0/diff.md --exclude *.pyd
+[2023-06-15 13:39:32] INFO root fetch - processPackages [leadguru-jobs]: executing diffoscope
+[2023-06-15 13:39:32] INFO root fetch - processPackages [leadguru-jobs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leadguru_jobs-0.98.0.tar.gz tmp/leadguru_jobs-0.99.0.tar.gz --markdown 20230615/l/leadguru-jobs/0.98.0-0.99.0/diff.md --exclude *.pyd
+[2023-06-15 13:39:32] INFO root fetch - processPackages [netbox-cisco-maintenance]: executing diffoscope
+[2023-06-15 13:39:32] INFO root fetch - processPackages [netbox-cisco-maintenance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox-cisco-maintenance-0.0.98.tar.gz tmp/netbox-cisco-maintenance-0.0.99.tar.gz --markdown 20230615/n/netbox-cisco-maintenance/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-15 13:39:32] INFO root fetch - processPackages [ais-dom]: Downloading https://files.pythonhosted.org/packages/3d/0d/6dc040d05ab3875b205d91eb61e9d1308f57c0fe14ebb6499de73ed251d2/ais-dom-2023.6.2.tar.gz
+[2023-06-15 13:39:32] INFO root fetch - processPackages [cdktf-cdktf-provider-template]: Downloading https://files.pythonhosted.org/packages/39/cc/36fe73ec7d15de461fd6933904869e59f04bdd7a8bcb3af60b8de7b68b16/cdktf-cdktf-provider-template-7.0.0.tar.gz
+[2023-06-15 13:39:32] INFO root fetch - processPackages [upgini]: Downloading https://files.pythonhosted.org/packages/32/f1/1df90a6a856d855308ddf057a7b8cdad7dbcafb6230f0592bbff90f929fd/upgini-1.1.99.tar.gz
+[2023-06-15 13:39:32] INFO root fetch - processPackages [ais-dom]: executing diffoscope
+[2023-06-15 13:39:32] INFO root fetch - processPackages [ais-dom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ais-dom-2023.6.1.tar.gz tmp/ais-dom-2023.6.2.tar.gz --markdown 20230615/a/ais-dom/2023.6.1-2023.6.2/diff.md --exclude *.pyd
+[2023-06-15 13:39:32] INFO root fetch - processPackages [cdktf-cdktf-provider-pagerduty]: Downloading https://files.pythonhosted.org/packages/dc/39/9376d1efdc0009e0a3731309685a7632304bc5ec0d129fb3548afc8609c5/cdktf-cdktf-provider-pagerduty-8.0.0.tar.gz
+[2023-06-15 13:39:32] INFO root fetch - processPackages [cdktf-cdktf-provider-template]: executing diffoscope
+[2023-06-15 13:39:32] INFO root fetch - processPackages [cdktf-cdktf-provider-template]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdktf-provider-template-6.0.1.tar.gz tmp/cdktf-cdktf-provider-template-7.0.0.tar.gz --markdown 20230615/c/cdktf-cdktf-provider-template/6.0.1-7.0.0/diff.md --exclude *.pyd
+[2023-06-15 13:39:32] INFO root fetch - processPackages [upgini]: executing diffoscope
+[2023-06-15 13:39:32] INFO root fetch - processPackages [upgini]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/upgini-1.1.98.tar.gz tmp/upgini-1.1.99.tar.gz --markdown 20230615/u/upgini/1.1.98-1.1.99/diff.md --exclude *.pyd
+[2023-06-15 13:39:32] INFO root fetch - processPackages [cdktf-cdktf-provider-salesforce]: Downloading https://files.pythonhosted.org/packages/1c/ce/d1c2070f8405c935490cd81c4e9b0eff9c78fd662ff1657b75075492e814/cdktf-cdktf-provider-salesforce-5.0.0.tar.gz
+[2023-06-15 13:39:33] INFO root fetch - processPackages [cdktf-cdktf-provider-salesforce]: executing diffoscope
+[2023-06-15 13:39:33] INFO root fetch - processPackages [cdktf-cdktf-provider-salesforce]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdktf-provider-salesforce-4.0.1.tar.gz tmp/cdktf-cdktf-provider-salesforce-5.0.0.tar.gz --markdown 20230615/c/cdktf-cdktf-provider-salesforce/4.0.1-5.0.0/diff.md --exclude *.pyd
+[2023-06-15 13:39:33] INFO root fetch - processPackages [cdktf-cdktf-provider-pagerduty]: executing diffoscope
+[2023-06-15 13:39:33] INFO root fetch - processPackages [cdktf-cdktf-provider-pagerduty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdktf-provider-pagerduty-7.0.6.tar.gz tmp/cdktf-cdktf-provider-pagerduty-8.0.0.tar.gz --markdown 20230615/c/cdktf-cdktf-provider-pagerduty/7.0.6-8.0.0/diff.md --exclude *.pyd
+[2023-06-15 13:39:33] INFO root fetch - processPackages [cdktf-cdktf-provider-okta]: Downloading https://files.pythonhosted.org/packages/0b/d0/a4b8860a54a663d18f37333481694546cc1e870c23aa8abaa96fe8d85d2f/cdktf-cdktf-provider-okta-9.0.0.tar.gz
+[2023-06-15 13:39:33] INFO root fetch - processPackages [cdktf-cdktf-provider-okta]: executing diffoscope
+[2023-06-15 13:39:33] INFO root fetch - processPackages [cdktf-cdktf-provider-okta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdktf-provider-okta-8.0.2.tar.gz tmp/cdktf-cdktf-provider-okta-9.0.0.tar.gz --markdown 20230615/c/cdktf-cdktf-provider-okta/8.0.2-9.0.0/diff.md --exclude *.pyd
+[2023-06-15 13:39:33] INFO root fetch - processPackages [ebel-rest]: Downloading https://files.pythonhosted.org/packages/bc/d8/5aa330feee3136dbba28678c91b11ba00a8c388d4ac65605211086e1a835/ebel_rest-1.0.9.tar.gz
+[2023-06-15 13:39:33] INFO root fetch - processPackages [ebel-rest]: executing diffoscope
+[2023-06-15 13:39:33] INFO root fetch - processPackages [ebel-rest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ebel_rest-1.0.8.tar.gz tmp/ebel_rest-1.0.9.tar.gz --markdown 20230615/e/ebel-rest/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-15 13:39:34] INFO root fetch - processPackages [netbox-cisco-maintenance]: Remove: archive file [/home/abi/fetcher/tmp/netbox-cisco-maintenance-0.0.98.tar.gz]
+[2023-06-15 13:39:34] INFO root fetch - processPackages [netbox-cisco-maintenance]: Remove: archive file [/home/abi/fetcher/tmp/netbox-cisco-maintenance-0.0.99.tar.gz]
+[2023-06-15 13:39:34] INFO root fetch - processPackages [netbox-cisco-maintenance]: Start processing: cdktf-cdktf-provider-time
+[2023-06-15 13:39:34] INFO root fetch - main [MainThread]: End processing [netbox-cisco-maintenance]: success
+[2023-06-15 13:39:34] INFO root fetch - processPackages [cdktf-cdktf-provider-salesforce]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-salesforce-4.0.1.tar.gz]
+[2023-06-15 13:39:34] INFO root fetch - processPackages [cdktf-cdktf-provider-salesforce]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-salesforce-5.0.0.tar.gz]
+[2023-06-15 13:39:34] INFO root fetch - processPackages [cdktf-cdktf-provider-salesforce]: Start processing: cdktf-cdktf-provider-tfe
+[2023-06-15 13:39:34] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-salesforce]: success
+[2023-06-15 13:39:34] INFO root fetch - processPackages [cdktf-cdktf-provider-tfe]: New version: [7.0.0] Old Version: [6.0.4]
+[2023-06-15 13:39:34] INFO root fetch - processPackages [cdktf-cdktf-provider-time]: New version: [7.0.0] Old Version: [6.0.1]
+[2023-06-15 13:39:34] INFO root fetch - processPackages [leadguru-jobs]: Remove: archive file [/home/abi/fetcher/tmp/leadguru_jobs-0.98.0.tar.gz]
+[2023-06-15 13:39:34] INFO root fetch - processPackages [leadguru-jobs]: Remove: archive file [/home/abi/fetcher/tmp/leadguru_jobs-0.99.0.tar.gz]
+[2023-06-15 13:39:34] INFO root fetch - processPackages [leadguru-jobs]: Start processing: pyporscheconnectapi
+[2023-06-15 13:39:34] INFO root fetch - main [MainThread]: End processing [leadguru-jobs]: success
+[2023-06-15 13:39:34] INFO root fetch - processPackages [pyporscheconnectapi]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-15 13:39:34] INFO root fetch - processPackages [pyporscheconnectapi]: Downloading https://files.pythonhosted.org/packages/0a/43/2e3297ded4fa4b26efc8b1cf581581846f5490262f1e71538db556490763/pyporscheconnectapi-0.1.2.tar.gz
+[2023-06-15 13:39:34] INFO root fetch - processPackages [cdktf-cdktf-provider-tfe]: Downloading https://files.pythonhosted.org/packages/cb/b2/347612dcefe7ed417bd74a9560242bb47051aba467c7de034768dfcbb5a5/cdktf-cdktf-provider-tfe-6.0.4.tar.gz
+[2023-06-15 13:39:34] INFO root fetch - processPackages [cdktf-cdktf-provider-time]: Downloading https://files.pythonhosted.org/packages/c4/01/da7b36ce7d86ec8582031d9c0c6c9ebbec20479db34ab8f7d91fabf74d5e/cdktf-cdktf-provider-time-6.0.1.tar.gz
+[2023-06-15 13:39:34] INFO root fetch - processPackages [cdktf-cdktf-provider-random]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-random-7.0.1.tar.gz]
+[2023-06-15 13:39:34] INFO root fetch - processPackages [cdktf-cdktf-provider-random]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-random-8.0.0.tar.gz]
+[2023-06-15 13:39:34] INFO root fetch - processPackages [cdktf-cdktf-provider-random]: Start processing: threedi-schema
+[2023-06-15 13:39:34] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-random]: success
+[2023-06-15 13:39:34] INFO root fetch - processPackages [threedi-schema]: New version: [0.217.4] Old Version: [0.217.3]
+[2023-06-15 13:39:34] INFO root fetch - processPackages [upgini]: Remove: archive file [/home/abi/fetcher/tmp/upgini-1.1.98.tar.gz]
+[2023-06-15 13:39:34] INFO root fetch - processPackages [upgini]: Remove: archive file [/home/abi/fetcher/tmp/upgini-1.1.99.tar.gz]
+[2023-06-15 13:39:34] INFO root fetch - processPackages [upgini]: Start processing: cdktf-cdktf-provider-spotinst
+[2023-06-15 13:39:34] INFO root fetch - main [MainThread]: End processing [upgini]: success
+[2023-06-15 13:39:34] INFO root fetch - processPackages [pyporscheconnectapi]: Downloading https://files.pythonhosted.org/packages/08/f1/f1705aec38ce5e6445a13fe08571e23c6e0e8ae187c94a924bce18342ba1/pyporscheconnectapi-0.1.3.tar.gz
+[2023-06-15 13:39:34] INFO root fetch - processPackages [cdktf-cdktf-provider-spotinst]: New version: [8.0.0] Old Version: [7.0.9]
+[2023-06-15 13:39:34] INFO root fetch - processPackages [cdktf-cdktf-provider-spotinst]: Downloading https://files.pythonhosted.org/packages/ef/b4/fb2777b6ee3bdbddf28d9c9f6b0538010b9fb7ac79f206a8f7e5abc8606d/cdktf-cdktf-provider-spotinst-7.0.9.tar.gz
+[2023-06-15 13:39:34] INFO root fetch - processPackages [cdktf-cdktf-provider-tfe]: Downloading https://files.pythonhosted.org/packages/61/8b/a9f13fd798b5f6cdc0f6758618af97ee3306177b51836f2a0c91f5a88819/cdktf-cdktf-provider-tfe-7.0.0.tar.gz
+[2023-06-15 13:39:34] INFO root fetch - processPackages [cdktf-cdktf-provider-time]: Downloading https://files.pythonhosted.org/packages/fb/87/05a41b4cbe9596abab48e9f11b90cb09ef7a5e8073bca617d3c743d43abb/cdktf-cdktf-provider-time-7.0.0.tar.gz
+[2023-06-15 13:39:35] INFO root fetch - processPackages [pyporscheconnectapi]: executing diffoscope
+[2023-06-15 13:39:35] INFO root fetch - processPackages [pyporscheconnectapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyporscheconnectapi-0.1.2.tar.gz tmp/pyporscheconnectapi-0.1.3.tar.gz --markdown 20230615/p/pyporscheconnectapi/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-15 13:39:35] INFO root fetch - processPackages [threedi-schema]: Downloading https://files.pythonhosted.org/packages/22/d5/3ebfbd59cdbbd7b055595f77ad36f06352b4bc9776f3de4823f4859c8912/threedi-schema-0.217.3.tar.gz
+[2023-06-15 13:39:35] INFO root fetch - processPackages [cdktf-cdktf-provider-time]: executing diffoscope
+[2023-06-15 13:39:35] INFO root fetch - processPackages [cdktf-cdktf-provider-time]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdktf-provider-time-6.0.1.tar.gz tmp/cdktf-cdktf-provider-time-7.0.0.tar.gz --markdown 20230615/c/cdktf-cdktf-provider-time/6.0.1-7.0.0/diff.md --exclude *.pyd
+[2023-06-15 13:39:35] INFO root fetch - processPackages [cdktf-cdktf-provider-template]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-template-6.0.1.tar.gz]
+[2023-06-15 13:39:35] INFO root fetch - processPackages [cdktf-cdktf-provider-template]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-template-7.0.0.tar.gz]
+[2023-06-15 13:39:35] INFO root fetch - processPackages [cdktf-cdktf-provider-template]: Start processing: p3do
+[2023-06-15 13:39:35] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-template]: success
+[2023-06-15 13:39:35] INFO root fetch - processPackages [p3do]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-06-15 13:39:35] INFO root fetch - processPackages [cdktf-cdktf-provider-tfe]: executing diffoscope
+[2023-06-15 13:39:35] INFO root fetch - processPackages [cdktf-cdktf-provider-tfe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdktf-provider-tfe-6.0.4.tar.gz tmp/cdktf-cdktf-provider-tfe-7.0.0.tar.gz --markdown 20230615/c/cdktf-cdktf-provider-tfe/6.0.4-7.0.0/diff.md --exclude *.pyd
+[2023-06-15 13:39:35] INFO root fetch - processPackages [p3do]: Downloading https://files.pythonhosted.org/packages/5a/8f/b7a66521080b4f05a956aedbbe4cf973b4a12be2f51ca48d8c11d28e2430/p3do-0.7.0.tar.gz
+[2023-06-15 13:39:35] INFO root fetch - processPackages [cdktf-cdktf-provider-spotinst]: Downloading https://files.pythonhosted.org/packages/96/62/01d32430de229c7fb16c3e5c55d8e3a0465bc0cfd2dcb2fed73bb59eee1a/cdktf-cdktf-provider-spotinst-8.0.0.tar.gz
+[2023-06-15 13:39:35] INFO root fetch - processPackages [threedi-schema]: Downloading https://files.pythonhosted.org/packages/e5/17/a096c064dcde403ee99c5aa26cb4ceb149053f69437122ab7e994874092f/threedi-schema-0.217.4.tar.gz
+[2023-06-15 13:39:35] INFO root fetch - processPackages [cdktf-cdktf-provider-pagerduty]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-pagerduty-7.0.6.tar.gz]
+[2023-06-15 13:39:35] INFO root fetch - processPackages [cdktf-cdktf-provider-pagerduty]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-pagerduty-8.0.0.tar.gz]
+[2023-06-15 13:39:35] INFO root fetch - processPackages [cdktf-cdktf-provider-pagerduty]: Start processing: McStasScript
+[2023-06-15 13:39:35] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-pagerduty]: success
+[2023-06-15 13:39:35] INFO root fetch - processPackages [p3do]: Downloading https://files.pythonhosted.org/packages/50/eb/8f764fb6a2224b88bdf0f1df9a84329069c76c2b3a4cc31b5ca460953bbd/p3do-0.7.1.tar.gz
+[2023-06-15 13:39:35] INFO root fetch - processPackages [McStasScript]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-15 13:39:35] INFO root fetch - processPackages [threedi-schema]: executing diffoscope
+[2023-06-15 13:39:35] INFO root fetch - processPackages [threedi-schema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/threedi-schema-0.217.3.tar.gz tmp/threedi-schema-0.217.4.tar.gz --markdown 20230615/t/threedi-schema/0.217.3-0.217.4/diff.md --exclude *.pyd
+[2023-06-15 13:39:35] INFO root fetch - processPackages [p3do]: executing diffoscope
+[2023-06-15 13:39:35] INFO root fetch - processPackages [p3do]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/p3do-0.7.0.tar.gz tmp/p3do-0.7.1.tar.gz --markdown 20230615/p/p3do/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2023-06-15 13:39:35] INFO root fetch - processPackages [McStasScript]: Downloading https://files.pythonhosted.org/packages/56/0a/c24af13421dd6c3e121bb2cfdd52ac0b3d5c702b8580a34167c4053d832b/McStasScript-0.0.8.tar.gz
+[2023-06-15 13:39:35] INFO root fetch - processPackages [cdktf-cdktf-provider-spotinst]: executing diffoscope
+[2023-06-15 13:39:35] INFO root fetch - processPackages [cdktf-cdktf-provider-spotinst]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdktf-provider-spotinst-7.0.9.tar.gz tmp/cdktf-cdktf-provider-spotinst-8.0.0.tar.gz --markdown 20230615/c/cdktf-cdktf-provider-spotinst/7.0.9-8.0.0/diff.md --exclude *.pyd
+[2023-06-15 13:39:36] INFO root fetch - processPackages [cdktf-cdktf-provider-okta]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-okta-8.0.2.tar.gz]
+[2023-06-15 13:39:36] INFO root fetch - processPackages [cdktf-cdktf-provider-okta]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-okta-9.0.0.tar.gz]
+[2023-06-15 13:39:36] INFO root fetch - processPackages [cdktf-cdktf-provider-okta]: Start processing: cdktf-cdktf-provider-tls
+[2023-06-15 13:39:36] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-okta]: success
+[2023-06-15 13:39:36] INFO root fetch - processPackages [cdktf-cdktf-provider-tls]: New version: [7.0.0] Old Version: [6.0.1]
+[2023-06-15 13:39:36] INFO root fetch - processPackages [McStasScript]: Downloading https://files.pythonhosted.org/packages/98/b6/1a25793f77b2d91c1e78b0626694765539da27789bed1c385949e76786f1/McStasScript-0.0.9.tar.gz
+[2023-06-15 13:39:36] INFO root fetch - processPackages [cdktf-cdktf-provider-tls]: Downloading https://files.pythonhosted.org/packages/f9/ed/749ba08c35fa7e47ab063107bf507ad31839cf1ab2e5c4b85c8f2fc5ae23/cdktf-cdktf-provider-tls-6.0.1.tar.gz
+[2023-06-15 13:39:36] INFO root fetch - processPackages [McStasScript]: executing diffoscope
+[2023-06-15 13:39:36] INFO root fetch - processPackages [McStasScript]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/McStasScript-0.0.8.tar.gz tmp/McStasScript-0.0.9.tar.gz --markdown 20230615/M/McStasScript/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-15 13:39:36] INFO root fetch - processPackages [cdktf-cdktf-provider-tls]: Downloading https://files.pythonhosted.org/packages/f6/26/a7809a1845908a036916a271a4a206c5bafc1964153b52a57604b050bf97/cdktf-cdktf-provider-tls-7.0.0.tar.gz
+[2023-06-15 13:39:36] INFO root fetch - processPackages [pyporscheconnectapi]: Remove: archive file [/home/abi/fetcher/tmp/pyporscheconnectapi-0.1.2.tar.gz]
+[2023-06-15 13:39:36] INFO root fetch - processPackages [pyporscheconnectapi]: Remove: archive file [/home/abi/fetcher/tmp/pyporscheconnectapi-0.1.3.tar.gz]
+[2023-06-15 13:39:36] INFO root fetch - processPackages [pyporscheconnectapi]: Start processing: CodeChat-Server
+[2023-06-15 13:39:36] INFO root fetch - main [MainThread]: End processing [pyporscheconnectapi]: success
+[2023-06-15 13:39:36] INFO root fetch - processPackages [CodeChat-Server]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-15 13:39:36] INFO root fetch - processPackages [CodeChat-Server]: Downloading https://files.pythonhosted.org/packages/e8/dc/798a7f20ee21120a405cdac61af471c81b0847a1d67336b334c60e7aeab7/CodeChat_Server-0.2.8.tar.gz
+[2023-06-15 13:39:36] INFO root fetch - processPackages [cdktf-cdktf-provider-tls]: executing diffoscope
+[2023-06-15 13:39:36] INFO root fetch - processPackages [cdktf-cdktf-provider-tls]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdktf-provider-tls-6.0.1.tar.gz tmp/cdktf-cdktf-provider-tls-7.0.0.tar.gz --markdown 20230615/c/cdktf-cdktf-provider-tls/6.0.1-7.0.0/diff.md --exclude *.pyd
+[2023-06-15 13:39:36] INFO root fetch - processPackages [threedi-schema]: Remove: archive file [/home/abi/fetcher/tmp/threedi-schema-0.217.3.tar.gz]
+[2023-06-15 13:39:36] INFO root fetch - processPackages [threedi-schema]: Remove: archive file [/home/abi/fetcher/tmp/threedi-schema-0.217.4.tar.gz]
+[2023-06-15 13:39:36] INFO root fetch - processPackages [threedi-schema]: Start processing: satosacontrib.perun
+[2023-06-15 13:39:36] INFO root fetch - main [MainThread]: End processing [threedi-schema]: success
+[2023-06-15 13:39:36] INFO root fetch - processPackages [satosacontrib.perun]: New version: [3.5.0] Old Version: [3.4.0]
+[2023-06-15 13:39:36] INFO root fetch - processPackages [p3do]: Remove: archive file [/home/abi/fetcher/tmp/p3do-0.7.0.tar.gz]
+[2023-06-15 13:39:36] INFO root fetch - processPackages [p3do]: Remove: archive file [/home/abi/fetcher/tmp/p3do-0.7.1.tar.gz]
+[2023-06-15 13:39:36] INFO root fetch - processPackages [p3do]: Start processing: cdktf-cdktf-provider-upcloud
+[2023-06-15 13:39:36] INFO root fetch - main [MainThread]: End processing [p3do]: success
+[2023-06-15 13:39:36] INFO root fetch - processPackages [cdktf-cdktf-provider-upcloud]: New version: [7.0.0] Old Version: [6.0.3]
+[2023-06-15 13:39:36] INFO root fetch - processPackages [CodeChat-Server]: Downloading https://files.pythonhosted.org/packages/4e/37/2ec355690a21bc91dc40d4b16417c4a295e2b9917d1a3853d24d71d29b91/CodeChat_Server-0.2.9.tar.gz
+[2023-06-15 13:39:37] INFO root fetch - processPackages [CodeChat-Server]: executing diffoscope
+[2023-06-15 13:39:37] INFO root fetch - processPackages [CodeChat-Server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CodeChat_Server-0.2.8.tar.gz tmp/CodeChat_Server-0.2.9.tar.gz --markdown 20230615/C/CodeChat-Server/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-15 13:39:37] INFO root fetch - processPackages [satosacontrib.perun]: Downloading https://files.pythonhosted.org/packages/44/e7/abb821e566d0255c5c0d038ef4b212c4c591cf4143bec85504a860efaad8/satosacontrib.perun-3.4.0.tar.gz
+[2023-06-15 13:39:37] INFO root fetch - processPackages [cdktf-cdktf-provider-upcloud]: Downloading https://files.pythonhosted.org/packages/05/cc/bca1e06d461250cdb3fb49154be1d86a651f4836489a99587d15ac969d27/cdktf-cdktf-provider-upcloud-6.0.3.tar.gz
+[2023-06-15 13:39:37] INFO root fetch - processPackages [cdktf-cdktf-provider-upcloud]: Downloading https://files.pythonhosted.org/packages/4f/72/10d7abb57109d6fe00b484cc4bf31daba33af16b05d4a6dc82f484c9b3de/cdktf-cdktf-provider-upcloud-7.0.0.tar.gz
+[2023-06-15 13:39:37] INFO root fetch - processPackages [satosacontrib.perun]: Downloading https://files.pythonhosted.org/packages/11/a9/b47748eeaecc8d201be7695f3b324f5eab872683775fd2941df65a281300/satosacontrib.perun-3.5.0.tar.gz
+[2023-06-15 13:39:37] INFO root fetch - processPackages [cdktf-cdktf-provider-upcloud]: executing diffoscope
+[2023-06-15 13:39:37] INFO root fetch - processPackages [cdktf-cdktf-provider-upcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdktf-provider-upcloud-6.0.3.tar.gz tmp/cdktf-cdktf-provider-upcloud-7.0.0.tar.gz --markdown 20230615/c/cdktf-cdktf-provider-upcloud/6.0.3-7.0.0/diff.md --exclude *.pyd
+[2023-06-15 13:39:37] INFO root fetch - processPackages [satosacontrib.perun]: executing diffoscope
+[2023-06-15 13:39:37] INFO root fetch - processPackages [satosacontrib.perun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/satosacontrib.perun-3.4.0.tar.gz tmp/satosacontrib.perun-3.5.0.tar.gz --markdown 20230615/s/satosacontrib.perun/3.4.0-3.5.0/diff.md --exclude *.pyd
+[2023-06-15 13:39:37] INFO root fetch - processPackages [cdktf-cdktf-provider-time]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-time-6.0.1.tar.gz]
+[2023-06-15 13:39:37] INFO root fetch - processPackages [cdktf-cdktf-provider-time]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-time-7.0.0.tar.gz]
+[2023-06-15 13:39:37] INFO root fetch - processPackages [cdktf-cdktf-provider-time]: Start processing: functional-sampling-tool
+[2023-06-15 13:39:37] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-time]: success
+[2023-06-15 13:39:37] INFO root fetch - processPackages [functional-sampling-tool]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-15 13:39:37] INFO root fetch - processPackages [functional-sampling-tool]: Downloading https://files.pythonhosted.org/packages/d3/05/5c5cec6b2c2ebb45ee42db2506e6317cf3e79027539943d0c6ee1479d9d2/functional_sampling_tool-0.0.4.tar.gz
+[2023-06-15 13:39:37] INFO root fetch - processPackages [functional-sampling-tool]: Downloading https://files.pythonhosted.org/packages/7c/70/602705a520eef9104621e81465ec5958be9818436c6bb2ded3d611eceb9f/functional_sampling_tool-0.0.5.tar.gz
+[2023-06-15 13:39:38] INFO root fetch - processPackages [functional-sampling-tool]: executing diffoscope
+[2023-06-15 13:39:38] INFO root fetch - processPackages [functional-sampling-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/functional_sampling_tool-0.0.4.tar.gz tmp/functional_sampling_tool-0.0.5.tar.gz --markdown 20230615/f/functional-sampling-tool/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-15 13:39:38] INFO root fetch - processPackages [McStasScript]: Remove: archive file [/home/abi/fetcher/tmp/McStasScript-0.0.8.tar.gz]
+[2023-06-15 13:39:38] INFO root fetch - processPackages [McStasScript]: Remove: archive file [/home/abi/fetcher/tmp/McStasScript-0.0.9.tar.gz]
+[2023-06-15 13:39:38] INFO root fetch - main [MainThread]: End processing [McStasScript]: success
+[2023-06-15 13:39:38] INFO root fetch - processPackages [CodeChat-Server]: Remove: archive file [/home/abi/fetcher/tmp/CodeChat_Server-0.2.8.tar.gz]
+[2023-06-15 13:39:38] INFO root fetch - processPackages [CodeChat-Server]: Remove: archive file [/home/abi/fetcher/tmp/CodeChat_Server-0.2.9.tar.gz]
+[2023-06-15 13:39:38] INFO root fetch - main [MainThread]: End processing [CodeChat-Server]: success
+[2023-06-15 13:39:38] INFO root fetch - processPackages [satosacontrib.perun]: Remove: archive file [/home/abi/fetcher/tmp/satosacontrib.perun-3.4.0.tar.gz]
+[2023-06-15 13:39:38] INFO root fetch - processPackages [satosacontrib.perun]: Remove: archive file [/home/abi/fetcher/tmp/satosacontrib.perun-3.5.0.tar.gz]
+[2023-06-15 13:39:38] INFO root fetch - main [MainThread]: End processing [satosacontrib.perun]: success
+[2023-06-15 13:39:38] INFO root fetch - processPackages [cdktf-cdktf-provider-tls]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-tls-6.0.1.tar.gz]
+[2023-06-15 13:39:38] INFO root fetch - processPackages [cdktf-cdktf-provider-tls]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-tls-7.0.0.tar.gz]
+[2023-06-15 13:39:38] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-tls]: success
+[2023-06-15 13:39:39] INFO root fetch - processPackages [cdktf-cdktf-provider-upcloud]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-upcloud-6.0.3.tar.gz]
+[2023-06-15 13:39:39] INFO root fetch - processPackages [cdktf-cdktf-provider-upcloud]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-upcloud-7.0.0.tar.gz]
+[2023-06-15 13:39:39] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-upcloud]: success
+[2023-06-15 13:39:39] INFO root fetch - processPackages [ebel-rest]: Remove: archive file [/home/abi/fetcher/tmp/ebel_rest-1.0.8.tar.gz]
+[2023-06-15 13:39:39] INFO root fetch - processPackages [ebel-rest]: Remove: archive file [/home/abi/fetcher/tmp/ebel_rest-1.0.9.tar.gz]
+[2023-06-15 13:39:39] INFO root fetch - main [MainThread]: End processing [ebel-rest]: success
+[2023-06-15 13:39:40] INFO root fetch - processPackages [cdktf-cdktf-provider-tfe]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-tfe-6.0.4.tar.gz]
+[2023-06-15 13:39:40] INFO root fetch - processPackages [cdktf-cdktf-provider-tfe]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-tfe-7.0.0.tar.gz]
+[2023-06-15 13:39:40] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-tfe]: success
+[2023-06-15 13:39:40] INFO root fetch - processPackages [cdktf-cdktf-provider-spotinst]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-spotinst-7.0.9.tar.gz]
+[2023-06-15 13:39:40] INFO root fetch - processPackages [cdktf-cdktf-provider-spotinst]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-spotinst-8.0.0.tar.gz]
+[2023-06-15 13:39:40] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-spotinst]: success
+[2023-06-15 13:39:41] INFO root fetch - processPackages [functional-sampling-tool]: Remove: archive file [/home/abi/fetcher/tmp/functional_sampling_tool-0.0.4.tar.gz]
+[2023-06-15 13:39:41] INFO root fetch - processPackages [functional-sampling-tool]: Remove: archive file [/home/abi/fetcher/tmp/functional_sampling_tool-0.0.5.tar.gz]
+[2023-06-15 13:39:41] INFO root fetch - main [MainThread]: End processing [functional-sampling-tool]: success
+[2023-06-15 13:42:33] ERROR root fetch - processPackages [ais-dom]: Timeout during execution of pkgdiff
+[2023-06-15 13:42:33] INFO root fetch - main [MainThread]: End processing [ais-dom] error
+[2023-06-15 13:42:33] INFO root fetch - main [MainThread]: Store serial: [18515472]
