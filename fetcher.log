@@ -20490,3 +20490,263 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-06-15 13:28:21] INFO root fetch - processPackages [cdktf-cdktf-provider-github]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-github-9.0.0.tar.gz]
 [2023-06-15 13:28:21] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-github]: success
 [2023-06-15 13:28:21] INFO root fetch - main [MainThread]: Store serial: [18515305]
+[2023-06-15 13:33:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18515305]
+[2023-06-15 13:33:30] INFO root fetch - main [MainThread]: Found 29 changed packages
+[2023-06-15 13:33:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ango
+[2023-06-15 13:33:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: imerit-ango
+[2023-06-15 13:33:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: leadguru-common
+[2023-06-15 13:33:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdktf-cdktf-provider-http
+[2023-06-15 13:33:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: chainmapping
+[2023-06-15 13:33:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: torchserve-nightly
+[2023-06-15 13:33:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: torch-model-archiver-nightly
+[2023-06-15 13:33:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: torch-workflow-archiver-nightly
+[2023-06-15 13:33:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: labeltransform2
+[2023-06-15 13:33:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: invenio-administration
+[2023-06-15 13:33:30] INFO root fetch - processPackages [imerit-ango]: New version: [1.1.6] Old Version: [1.1.5]
+[2023-06-15 13:33:30] INFO root fetch - processPackages [cdktf-cdktf-provider-http]: New version: [5.0.0] Old Version: [4.0.2]
+[2023-06-15 13:33:30] INFO root fetch - processPackages [labeltransform2]: New version: [2.0] Old Version: [1.9]
+[2023-06-15 13:33:30] INFO root fetch - processPackages [chainmapping]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-15 13:33:30] INFO root fetch - processPackages [invenio-administration]: New version: [1.5.0] Old Version: [1.4.1]
+[2023-06-15 13:33:30] INFO root fetch - processPackages [ango]: New version: [1.1.4] Old Version: [1.1.3]
+[2023-06-15 13:33:31] INFO root fetch - processPackages [leadguru-common]: New version: [0.99.0] Old Version: [0.98.0]
+[2023-06-15 13:33:31] INFO root fetch - processPackages [chainmapping]: Downloading https://files.pythonhosted.org/packages/a2/a0/6ccf83e0d51e3edff30de8a5beedc71001735182e48928d6b09dd6026460/chainmapping-0.1.2.tar.gz
+[2023-06-15 13:33:31] INFO root fetch - processPackages [torchserve-nightly]: New version: [2023.6.9] Old Version: [2023.6.8]
+[2023-06-15 13:33:31] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: New version: [2023.6.9] Old Version: [2023.6.8]
+[2023-06-15 13:33:31] INFO root fetch - processPackages [torch-model-archiver-nightly]: New version: [2023.6.9] Old Version: [2023.6.8]
+[2023-06-15 13:33:31] INFO root fetch - processPackages [cdktf-cdktf-provider-http]: Downloading https://files.pythonhosted.org/packages/47/9d/b04ef931ca26d3281c0797aeffdb761cf406b802072e7c7a888df37db7ed/cdktf-cdktf-provider-http-4.0.2.tar.gz
+[2023-06-15 13:33:31] INFO root fetch - processPackages [ango]: Downloading https://files.pythonhosted.org/packages/e7/41/008b95f921f42319ba2fc0675970863304f844c516bc4041770ba9b6764a/ango-1.1.3.tar.gz
+[2023-06-15 13:33:31] INFO root fetch - processPackages [leadguru-common]: Downloading https://files.pythonhosted.org/packages/fc/35/ca8dc82028975cbcb02faead26153071461e5c78a03fb67e0f27256aee8d/leadguru_common-0.98.0.tar.gz
+[2023-06-15 13:33:31] INFO root fetch - processPackages [imerit-ango]: Downloading https://files.pythonhosted.org/packages/61/48/73ac41ec19f4564eccded7c2152d1f7757aa579f6d434a6cce68357c3569/imerit-ango-1.1.5.tar.gz
+[2023-06-15 13:33:31] INFO root fetch - processPackages [invenio-administration]: Downloading https://files.pythonhosted.org/packages/70/dd/fee48b6920f702709785a0e41f2fd3df051032fba65400f635e695487d14/invenio-administration-1.4.1.tar.gz
+[2023-06-15 13:33:31] INFO root fetch - processPackages [labeltransform2]: Downloading https://files.pythonhosted.org/packages/d7/99/79309881719b26d4d1f9492fe6451bb0b1b6fbc44bd551b204d252a62e76/labeltransform2-1.9.tar.gz
+[2023-06-15 13:33:31] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/f5/2a/88193e82d25d79119cc3ada46f444a1b21b3f7e2c788642590d33eac95e9/torch_workflow_archiver_nightly-2023.6.8-py3-none-any.whl
+[2023-06-15 13:33:31] INFO root fetch - processPackages [torchserve-nightly]: Downloading https://files.pythonhosted.org/packages/56/b6/048d65207c6147185cedfdfe7821bba7a9b4dcbe0872a2ea7bf026469542/torchserve_nightly-2023.6.8-py3-none-any.whl
+[2023-06-15 13:33:31] INFO root fetch - processPackages [torch-model-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/2d/32/4e894d3be8e8e9434a6a981f3753ef5962d2361cf8b1882e7b00802b9794/torch_model_archiver_nightly-2023.6.8-py3-none-any.whl
+[2023-06-15 13:33:31] INFO root fetch - processPackages [chainmapping]: Downloading https://files.pythonhosted.org/packages/9f/f0/d31ad4fb337bc95c729337fcd3e7964480aded4bdc6fc0063d33a584a54b/chainmapping-0.1.3.tar.gz
+[2023-06-15 13:33:31] INFO root fetch - processPackages [ango]: Downloading https://files.pythonhosted.org/packages/d0/dd/768f4365f03a21ad52ad5fef393cc7955fdaee1988a945480c976b62544d/ango-1.1.4.tar.gz
+[2023-06-15 13:33:31] WARNING root fetch - processPackages [torchserve-nightly]: Skipping package: exceeds size limit 23719695>=10485760
+[2023-06-15 13:33:31] INFO root fetch - processPackages [torchserve-nightly]: Start processing: cdktf-cdktf-provider-nomad
+[2023-06-15 13:33:31] INFO root fetch - main [MainThread]: End processing [torchserve-nightly] error
+[2023-06-15 13:33:31] INFO root fetch - processPackages [cdktf-cdktf-provider-http]: Downloading https://files.pythonhosted.org/packages/42/a1/13e7acfa5ad5151567a62d036ad9cabc6165c1abf2b2d7ff09498c07b3c1/cdktf-cdktf-provider-http-5.0.0.tar.gz
+[2023-06-15 13:33:31] INFO root fetch - processPackages [cdktf-cdktf-provider-nomad]: New version: [5.0.0] Old Version: [4.0.2]
+[2023-06-15 13:33:31] INFO root fetch - processPackages [imerit-ango]: Downloading https://files.pythonhosted.org/packages/87/3d/02abff05e7bc1626d00c9b7430c4933606655115d4ad9f279cdefc663be3/imerit-ango-1.1.6.tar.gz
+[2023-06-15 13:33:31] INFO root fetch - processPackages [labeltransform2]: Downloading https://files.pythonhosted.org/packages/4b/9a/2bb65ca8d335a1264bec8fb86fdb9aee903e050387d8d1c6e53ed03e6b1a/labeltransform2-2.0.tar.gz
+[2023-06-15 13:33:31] INFO root fetch - processPackages [ango]: executing diffoscope
+[2023-06-15 13:33:31] INFO root fetch - processPackages [ango]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ango-1.1.3.tar.gz tmp/ango-1.1.4.tar.gz --markdown 20230615/a/ango/1.1.3-1.1.4/diff.md --exclude *.pyd
+[2023-06-15 13:33:31] INFO root fetch - processPackages [chainmapping]: executing diffoscope
+[2023-06-15 13:33:31] INFO root fetch - processPackages [chainmapping]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chainmapping-0.1.2.tar.gz tmp/chainmapping-0.1.3.tar.gz --markdown 20230615/c/chainmapping/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-15 13:33:31] INFO root fetch - processPackages [cdktf-cdktf-provider-http]: executing diffoscope
+[2023-06-15 13:33:31] INFO root fetch - processPackages [cdktf-cdktf-provider-http]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdktf-provider-http-4.0.2.tar.gz tmp/cdktf-cdktf-provider-http-5.0.0.tar.gz --markdown 20230615/c/cdktf-cdktf-provider-http/4.0.2-5.0.0/diff.md --exclude *.pyd
+[2023-06-15 13:33:31] INFO root fetch - processPackages [imerit-ango]: executing diffoscope
+[2023-06-15 13:33:31] INFO root fetch - processPackages [imerit-ango]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imerit-ango-1.1.5.tar.gz tmp/imerit-ango-1.1.6.tar.gz --markdown 20230615/i/imerit-ango/1.1.5-1.1.6/diff.md --exclude *.pyd
+[2023-06-15 13:33:31] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/5f/39/ae38721c2532ed03ae71497a6d5158695daf882cb31dff90ce342e46ef32/torch_workflow_archiver_nightly-2023.6.9-py3-none-any.whl
+[2023-06-15 13:33:31] INFO root fetch - processPackages [labeltransform2]: executing diffoscope
+[2023-06-15 13:33:31] INFO root fetch - processPackages [labeltransform2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/labeltransform2-1.9.tar.gz tmp/labeltransform2-2.0.tar.gz --markdown 20230615/l/labeltransform2/1.9-2.0/diff.md --exclude *.pyd
+[2023-06-15 13:33:31] INFO root fetch - processPackages [invenio-administration]: Downloading https://files.pythonhosted.org/packages/d2/16/75530a4cee7b9f3cd23d0e976e3f8180c94660efae48161a2dc1dcc66485/invenio-administration-1.5.0.tar.gz
+[2023-06-15 13:33:31] INFO root fetch - processPackages [leadguru-common]: Downloading https://files.pythonhosted.org/packages/4e/4f/236c71729e1b70c3c5c202003cf9aa48c1c9b9d202620f8c5e94a7aacdc9/leadguru_common-0.99.0.tar.gz
+[2023-06-15 13:33:31] INFO root fetch - processPackages [cdktf-cdktf-provider-nomad]: Downloading https://files.pythonhosted.org/packages/e2/f4/cc093e71d96aada7f97830f8162f3d9b61b40c7b554e126037cc4935621b/cdktf-cdktf-provider-nomad-4.0.2.tar.gz
+[2023-06-15 13:33:31] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: executing diffoscope
+[2023-06-15 13:33:31] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_workflow_archiver_nightly-2023.6.8-py3-none-any.whl.zip tmp/torch_workflow_archiver_nightly-2023.6.9-py3-none-any.whl.zip --markdown 20230615/t/torch-workflow-archiver-nightly/2023.6.8-2023.6.9/diff.md --exclude *.pyd
+[2023-06-15 13:33:31] INFO root fetch - processPackages [invenio-administration]: executing diffoscope
+[2023-06-15 13:33:31] INFO root fetch - processPackages [invenio-administration]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/invenio-administration-1.4.1.tar.gz tmp/invenio-administration-1.5.0.tar.gz --markdown 20230615/i/invenio-administration/1.4.1-1.5.0/diff.md --exclude *.pyd
+[2023-06-15 13:33:31] INFO root fetch - processPackages [torch-model-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/f1/30/b2bda61c7beb66124a778454c53b13e6e3368a1964be094e7a260aafb8a7/torch_model_archiver_nightly-2023.6.9-py3-none-any.whl
+[2023-06-15 13:33:31] INFO root fetch - processPackages [leadguru-common]: executing diffoscope
+[2023-06-15 13:33:31] INFO root fetch - processPackages [leadguru-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leadguru_common-0.98.0.tar.gz tmp/leadguru_common-0.99.0.tar.gz --markdown 20230615/l/leadguru-common/0.98.0-0.99.0/diff.md --exclude *.pyd
+[2023-06-15 13:33:31] INFO root fetch - processPackages [torch-model-archiver-nightly]: executing diffoscope
+[2023-06-15 13:33:31] INFO root fetch - processPackages [torch-model-archiver-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_model_archiver_nightly-2023.6.8-py3-none-any.whl.zip tmp/torch_model_archiver_nightly-2023.6.9-py3-none-any.whl.zip --markdown 20230615/t/torch-model-archiver-nightly/2023.6.8-2023.6.9/diff.md --exclude *.pyd
+[2023-06-15 13:33:31] INFO root fetch - processPackages [cdktf-cdktf-provider-nomad]: Downloading https://files.pythonhosted.org/packages/3b/76/043b7d85f479b923544b21c409d4360507354841b3cc2c5eba5624a670e5/cdktf-cdktf-provider-nomad-5.0.0.tar.gz
+[2023-06-15 13:33:32] INFO root fetch - processPackages [cdktf-cdktf-provider-nomad]: executing diffoscope
+[2023-06-15 13:33:32] INFO root fetch - processPackages [cdktf-cdktf-provider-nomad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdktf-provider-nomad-4.0.2.tar.gz tmp/cdktf-cdktf-provider-nomad-5.0.0.tar.gz --markdown 20230615/c/cdktf-cdktf-provider-nomad/4.0.2-5.0.0/diff.md --exclude *.pyd
+[2023-06-15 13:33:33] INFO root fetch - processPackages [ango]: Remove: archive file [/home/abi/fetcher/tmp/ango-1.1.3.tar.gz]
+[2023-06-15 13:33:33] INFO root fetch - processPackages [ango]: Remove: archive file [/home/abi/fetcher/tmp/ango-1.1.4.tar.gz]
+[2023-06-15 13:33:33] INFO root fetch - processPackages [ango]: Start processing: blob-mounting-helper-utility
+[2023-06-15 13:33:33] INFO root fetch - main [MainThread]: End processing [ango]: success
+[2023-06-15 13:33:33] INFO root fetch - processPackages [blob-mounting-helper-utility]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-15 13:33:33] INFO root fetch - processPackages [chainmapping]: Remove: archive file [/home/abi/fetcher/tmp/chainmapping-0.1.2.tar.gz]
+[2023-06-15 13:33:33] INFO root fetch - processPackages [chainmapping]: Remove: archive file [/home/abi/fetcher/tmp/chainmapping-0.1.3.tar.gz]
+[2023-06-15 13:33:33] INFO root fetch - processPackages [chainmapping]: Start processing: cdktf-cdktf-provider-mongodbatlas
+[2023-06-15 13:33:33] INFO root fetch - main [MainThread]: End processing [chainmapping]: success
+[2023-06-15 13:33:33] INFO root fetch - processPackages [cdktf-cdktf-provider-mongodbatlas]: New version: [3.0.0] Old Version: [2.0.2]
+[2023-06-15 13:33:33] INFO root fetch - processPackages [blob-mounting-helper-utility]: Downloading https://files.pythonhosted.org/packages/4d/a4/4438803e79fda5f8349a5ebd91a36452da3926bcee4651e81749d33fe8ac/blob_mounting_helper_utility-1.0.0.tar.gz
+[2023-06-15 13:33:33] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_workflow_archiver_nightly-2023.6.8-py3-none-any.whl.zip]
+[2023-06-15 13:33:33] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_workflow_archiver_nightly-2023.6.9-py3-none-any.whl.zip]
+[2023-06-15 13:33:33] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Start processing: cdktf-cdktf-provider-null
+[2023-06-15 13:33:33] INFO root fetch - main [MainThread]: End processing [torch-workflow-archiver-nightly]: success
+[2023-06-15 13:33:33] INFO root fetch - processPackages [cdktf-cdktf-provider-null]: New version: [7.0.0] Old Version: [6.0.1]
+[2023-06-15 13:33:33] INFO root fetch - processPackages [torch-model-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_archiver_nightly-2023.6.8-py3-none-any.whl.zip]
+[2023-06-15 13:33:33] INFO root fetch - processPackages [torch-model-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_archiver_nightly-2023.6.9-py3-none-any.whl.zip]
+[2023-06-15 13:33:33] INFO root fetch - processPackages [torch-model-archiver-nightly]: Start processing: cdktf-cdktf-provider-ionoscloud
+[2023-06-15 13:33:33] INFO root fetch - main [MainThread]: End processing [torch-model-archiver-nightly]: success
+[2023-06-15 13:33:33] INFO root fetch - processPackages [cdktf-cdktf-provider-mongodbatlas]: Downloading https://files.pythonhosted.org/packages/7e/2a/31111b5391db0c5ae4e4a5ded63e2625dbd4fe911b35cbd2c94b37eea010/cdktf-cdktf-provider-mongodbatlas-2.0.2.tar.gz
+[2023-06-15 13:33:33] INFO root fetch - processPackages [labeltransform2]: Remove: archive file [/home/abi/fetcher/tmp/labeltransform2-1.9.tar.gz]
+[2023-06-15 13:33:33] INFO root fetch - processPackages [labeltransform2]: Remove: archive file [/home/abi/fetcher/tmp/labeltransform2-2.0.tar.gz]
+[2023-06-15 13:33:33] INFO root fetch - processPackages [labeltransform2]: Start processing: fastwapi
+[2023-06-15 13:33:33] INFO root fetch - main [MainThread]: End processing [labeltransform2]: success
+[2023-06-15 13:33:33] INFO root fetch - processPackages [cdktf-cdktf-provider-ionoscloud]: New version: [7.0.0] Old Version: [6.0.2]
+[2023-06-15 13:33:33] INFO root fetch - processPackages [fastwapi]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-15 13:33:33] INFO root fetch - processPackages [imerit-ango]: Remove: archive file [/home/abi/fetcher/tmp/imerit-ango-1.1.5.tar.gz]
+[2023-06-15 13:33:33] INFO root fetch - processPackages [imerit-ango]: Remove: archive file [/home/abi/fetcher/tmp/imerit-ango-1.1.6.tar.gz]
+[2023-06-15 13:33:33] INFO root fetch - processPackages [imerit-ango]: Start processing: ramodels
+[2023-06-15 13:33:33] INFO root fetch - main [MainThread]: End processing [imerit-ango]: success
+[2023-06-15 13:33:33] INFO root fetch - processPackages [cdktf-cdktf-provider-ionoscloud]: Downloading https://files.pythonhosted.org/packages/1c/50/9839563254a192b9ae90812961cc043a89479c4b3b734cec9493e4a805cf/cdktf-cdktf-provider-ionoscloud-6.0.2.tar.gz
+[2023-06-15 13:33:33] INFO root fetch - processPackages [ramodels]: New version: [9.7.3] Old Version: [9.7.2]
+[2023-06-15 13:33:33] INFO root fetch - processPackages [blob-mounting-helper-utility]: Downloading https://files.pythonhosted.org/packages/a0/f0/deea9ed5777f5ffbc5f71fb8bc48c6e489a4df289f092bbeae995b0f4302/blob_mounting_helper_utility-1.0.1.tar.gz
+[2023-06-15 13:33:33] INFO root fetch - processPackages [cdktf-cdktf-provider-null]: Downloading https://files.pythonhosted.org/packages/a1/aa/2a762e0407dff25df43a341901b1a7aff968d242510660961438a16fe395/cdktf-cdktf-provider-null-6.0.1.tar.gz
+[2023-06-15 13:33:33] INFO root fetch - processPackages [ramodels]: Downloading https://files.pythonhosted.org/packages/29/94/25c6513c9642d16d4d771d154cb5d58a1f40fbf5e9234badf73bf79c1b4d/ramodels-9.7.2.tar.gz
+[2023-06-15 13:33:33] INFO root fetch - processPackages [fastwapi]: Downloading https://files.pythonhosted.org/packages/da/3a/bc9f8bdb1353d8ba0ca55c773aa74c9e0fd15a0c3e4e8efe46af1dd6c4eb/fastwapi-0.1.2.tar.gz
+[2023-06-15 13:33:33] INFO root fetch - processPackages [leadguru-common]: Remove: archive file [/home/abi/fetcher/tmp/leadguru_common-0.98.0.tar.gz]
+[2023-06-15 13:33:33] INFO root fetch - processPackages [leadguru-common]: Remove: archive file [/home/abi/fetcher/tmp/leadguru_common-0.99.0.tar.gz]
+[2023-06-15 13:33:33] INFO root fetch - processPackages [leadguru-common]: Start processing: qiskit-iqm
+[2023-06-15 13:33:33] INFO root fetch - main [MainThread]: End processing [leadguru-common]: success
+[2023-06-15 13:33:33] INFO root fetch - processPackages [cdktf-cdktf-provider-http]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-http-4.0.2.tar.gz]
+[2023-06-15 13:33:33] INFO root fetch - processPackages [cdktf-cdktf-provider-http]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-http-5.0.0.tar.gz]
+[2023-06-15 13:33:33] INFO root fetch - processPackages [cdktf-cdktf-provider-http]: Start processing: cdktf-cdktf-provider-datadog
+[2023-06-15 13:33:33] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-http]: success
+[2023-06-15 13:33:33] INFO root fetch - processPackages [qiskit-iqm]: New version: [9.0] Old Version: [8.3]
+[2023-06-15 13:33:33] INFO root fetch - processPackages [cdktf-cdktf-provider-datadog]: New version: [7.0.0] Old Version: [6.0.5]
+[2023-06-15 13:33:33] INFO root fetch - processPackages [cdktf-cdktf-provider-mongodbatlas]: Downloading https://files.pythonhosted.org/packages/a9/21/21e255c97628a394b608c1ed2a5f609da55fb44e524d12d81e6aeb49a07a/cdktf-cdktf-provider-mongodbatlas-3.0.0.tar.gz
+[2023-06-15 13:33:33] INFO root fetch - processPackages [blob-mounting-helper-utility]: executing diffoscope
+[2023-06-15 13:33:33] INFO root fetch - processPackages [blob-mounting-helper-utility]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blob_mounting_helper_utility-1.0.0.tar.gz tmp/blob_mounting_helper_utility-1.0.1.tar.gz --markdown 20230615/b/blob-mounting-helper-utility/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-15 13:33:33] INFO root fetch - processPackages [cdktf-cdktf-provider-null]: Downloading https://files.pythonhosted.org/packages/16/a4/1bb3ba97d41a6a30b11207584c9e7728fd0a7686868d4dca33d96d4ceb12/cdktf-cdktf-provider-null-7.0.0.tar.gz
+[2023-06-15 13:33:33] INFO root fetch - processPackages [cdktf-cdktf-provider-ionoscloud]: Downloading https://files.pythonhosted.org/packages/0c/57/788b5a519afe711dfd6fd8fadfab423880a276e12d133519e969d5a1cedb/cdktf-cdktf-provider-ionoscloud-7.0.0.tar.gz
+[2023-06-15 13:33:33] INFO root fetch - processPackages [ramodels]: Downloading https://files.pythonhosted.org/packages/b1/d1/a8e61257ea98cd3ecc586e4ab73fdc4c6dc2c4b71071bd21a7915b67aeb9/ramodels-9.7.3.tar.gz
+[2023-06-15 13:33:33] INFO root fetch - processPackages [fastwapi]: Downloading https://files.pythonhosted.org/packages/5d/ac/ea1bb40ad2fc348039e7c0d384436b57d54b54c9c53db2d361767e1682b3/fastwapi-0.1.3.tar.gz
+[2023-06-15 13:33:33] INFO root fetch - processPackages [cdktf-cdktf-provider-mongodbatlas]: executing diffoscope
+[2023-06-15 13:33:33] INFO root fetch - processPackages [cdktf-cdktf-provider-mongodbatlas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdktf-provider-mongodbatlas-2.0.2.tar.gz tmp/cdktf-cdktf-provider-mongodbatlas-3.0.0.tar.gz --markdown 20230615/c/cdktf-cdktf-provider-mongodbatlas/2.0.2-3.0.0/diff.md --exclude *.pyd
+[2023-06-15 13:33:33] INFO root fetch - processPackages [qiskit-iqm]: Downloading https://files.pythonhosted.org/packages/6f/9f/9f7666c7e61e4ba8b3f959e0c5eef07e997c7500f0d051b41a202380e0fc/qiskit-iqm-8.3.tar.gz
+[2023-06-15 13:33:33] INFO root fetch - processPackages [cdktf-cdktf-provider-null]: executing diffoscope
+[2023-06-15 13:33:33] INFO root fetch - processPackages [cdktf-cdktf-provider-null]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdktf-provider-null-6.0.1.tar.gz tmp/cdktf-cdktf-provider-null-7.0.0.tar.gz --markdown 20230615/c/cdktf-cdktf-provider-null/6.0.1-7.0.0/diff.md --exclude *.pyd
+[2023-06-15 13:33:33] INFO root fetch - processPackages [cdktf-cdktf-provider-datadog]: Downloading https://files.pythonhosted.org/packages/0b/6e/881d3455212a7e36ff973d022dc301a168dadef2208c3f81a0bfc3bdf2a4/cdktf-cdktf-provider-datadog-6.0.5.tar.gz
+[2023-06-15 13:33:33] INFO root fetch - processPackages [fastwapi]: executing diffoscope
+[2023-06-15 13:33:33] INFO root fetch - processPackages [fastwapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastwapi-0.1.2.tar.gz tmp/fastwapi-0.1.3.tar.gz --markdown 20230615/f/fastwapi/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-15 13:33:34] INFO root fetch - processPackages [cdktf-cdktf-provider-ionoscloud]: executing diffoscope
+[2023-06-15 13:33:34] INFO root fetch - processPackages [cdktf-cdktf-provider-ionoscloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdktf-provider-ionoscloud-6.0.2.tar.gz tmp/cdktf-cdktf-provider-ionoscloud-7.0.0.tar.gz --markdown 20230615/c/cdktf-cdktf-provider-ionoscloud/6.0.2-7.0.0/diff.md --exclude *.pyd
+[2023-06-15 13:33:34] INFO root fetch - processPackages [qiskit-iqm]: Downloading https://files.pythonhosted.org/packages/21/fa/19188be4ca367f4ebaec7bd7ee3b5daab94d4a3a20da3ac629796190e76b/qiskit-iqm-9.0.tar.gz
+[2023-06-15 13:33:34] INFO root fetch - processPackages [ramodels]: executing diffoscope
+[2023-06-15 13:33:34] INFO root fetch - processPackages [ramodels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ramodels-9.7.2.tar.gz tmp/ramodels-9.7.3.tar.gz --markdown 20230615/r/ramodels/9.7.2-9.7.3/diff.md --exclude *.pyd
+[2023-06-15 13:33:34] INFO root fetch - processPackages [qiskit-iqm]: executing diffoscope
+[2023-06-15 13:33:34] INFO root fetch - processPackages [qiskit-iqm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qiskit-iqm-8.3.tar.gz tmp/qiskit-iqm-9.0.tar.gz --markdown 20230615/q/qiskit-iqm/8.3-9.0/diff.md --exclude *.pyd
+[2023-06-15 13:33:34] INFO root fetch - processPackages [blob-mounting-helper-utility]: Remove: archive file [/home/abi/fetcher/tmp/blob_mounting_helper_utility-1.0.0.tar.gz]
+[2023-06-15 13:33:34] INFO root fetch - processPackages [blob-mounting-helper-utility]: Remove: archive file [/home/abi/fetcher/tmp/blob_mounting_helper_utility-1.0.1.tar.gz]
+[2023-06-15 13:33:34] INFO root fetch - processPackages [blob-mounting-helper-utility]: Start processing: cdktf-cdktf-provider-newrelic
+[2023-06-15 13:33:34] INFO root fetch - main [MainThread]: End processing [blob-mounting-helper-utility]: success
+[2023-06-15 13:33:34] INFO root fetch - processPackages [cdktf-cdktf-provider-newrelic]: New version: [8.0.0] Old Version: [7.0.7]
+[2023-06-15 13:33:34] INFO root fetch - processPackages [cdktf-cdktf-provider-datadog]: Downloading https://files.pythonhosted.org/packages/42/15/a6000c13492983438df4fe335a446c8f6eb9ceba209e74844327abe338c4/cdktf-cdktf-provider-datadog-7.0.0.tar.gz
+[2023-06-15 13:33:34] INFO root fetch - processPackages [cdktf-cdktf-provider-datadog]: executing diffoscope
+[2023-06-15 13:33:34] INFO root fetch - processPackages [cdktf-cdktf-provider-datadog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdktf-provider-datadog-6.0.5.tar.gz tmp/cdktf-cdktf-provider-datadog-7.0.0.tar.gz --markdown 20230615/c/cdktf-cdktf-provider-datadog/6.0.5-7.0.0/diff.md --exclude *.pyd
+[2023-06-15 13:33:35] INFO root fetch - processPackages [cdktf-cdktf-provider-newrelic]: Downloading https://files.pythonhosted.org/packages/6e/22/1c12ec815483a40db5032e1436839020a61e86db86f77f3d706cfed5f9f7/cdktf-cdktf-provider-newrelic-7.0.7.tar.gz
+[2023-06-15 13:33:35] INFO root fetch - processPackages [fastwapi]: Remove: archive file [/home/abi/fetcher/tmp/fastwapi-0.1.2.tar.gz]
+[2023-06-15 13:33:35] INFO root fetch - processPackages [fastwapi]: Remove: archive file [/home/abi/fetcher/tmp/fastwapi-0.1.3.tar.gz]
+[2023-06-15 13:33:35] INFO root fetch - processPackages [fastwapi]: Start processing: cdktf-cdktf-provider-opc
+[2023-06-15 13:33:35] INFO root fetch - main [MainThread]: End processing [fastwapi]: success
+[2023-06-15 13:33:35] INFO root fetch - processPackages [cdktf-cdktf-provider-opc]: New version: [5.0.0] Old Version: [4.0.1]
+[2023-06-15 13:33:35] INFO root fetch - processPackages [cdktf-cdktf-provider-newrelic]: Downloading https://files.pythonhosted.org/packages/ef/a6/5a2dc7e59387b8255b81669c6a9d61ee0f45ce40ec1601299246c18ab98c/cdktf-cdktf-provider-newrelic-8.0.0.tar.gz
+[2023-06-15 13:33:35] INFO root fetch - processPackages [cdktf-cdktf-provider-null]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-null-6.0.1.tar.gz]
+[2023-06-15 13:33:35] INFO root fetch - processPackages [cdktf-cdktf-provider-null]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-null-7.0.0.tar.gz]
+[2023-06-15 13:33:35] INFO root fetch - processPackages [cdktf-cdktf-provider-null]: Start processing: cdktf-cdktf-provider-oraclepaas
+[2023-06-15 13:33:35] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-null]: success
+[2023-06-15 13:33:35] INFO root fetch - processPackages [cdktf-cdktf-provider-oraclepaas]: New version: [5.0.0] Old Version: [4.0.1]
+[2023-06-15 13:33:35] INFO root fetch - processPackages [ramodels]: Remove: archive file [/home/abi/fetcher/tmp/ramodels-9.7.2.tar.gz]
+[2023-06-15 13:33:35] INFO root fetch - processPackages [ramodels]: Remove: archive file [/home/abi/fetcher/tmp/ramodels-9.7.3.tar.gz]
+[2023-06-15 13:33:35] INFO root fetch - processPackages [ramodels]: Start processing: bigdl-nano
+[2023-06-15 13:33:35] INFO root fetch - main [MainThread]: End processing [ramodels]: success
+[2023-06-15 13:33:35] INFO root fetch - processPackages [cdktf-cdktf-provider-opc]: Downloading https://files.pythonhosted.org/packages/b4/d1/e8fd3d852b967f4946df81df36963b12a3ff75ef3e9196d89f7c07a50b83/cdktf-cdktf-provider-opc-4.0.1.tar.gz
+[2023-06-15 13:33:35] INFO root fetch - processPackages [cdktf-cdktf-provider-newrelic]: executing diffoscope
+[2023-06-15 13:33:35] INFO root fetch - processPackages [cdktf-cdktf-provider-newrelic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdktf-provider-newrelic-7.0.7.tar.gz tmp/cdktf-cdktf-provider-newrelic-8.0.0.tar.gz --markdown 20230615/c/cdktf-cdktf-provider-newrelic/7.0.7-8.0.0/diff.md --exclude *.pyd
+[2023-06-15 13:33:35] INFO root fetch - processPackages [bigdl-nano]: New version: [2.4.0b20230615] Old Version: [2.4.0b20230614]
+[2023-06-15 13:33:35] INFO root fetch - processPackages [cdktf-cdktf-provider-oraclepaas]: Downloading https://files.pythonhosted.org/packages/20/9f/6807f80bbc8df489b010199f3aae9d5b43fa057a7151cd76d5e5883e9ace/cdktf-cdktf-provider-oraclepaas-4.0.1.tar.gz
+[2023-06-15 13:33:35] INFO root fetch - processPackages [bigdl-nano]: Downloading https://files.pythonhosted.org/packages/5d/86/e4945cad23be0a4967e8ce026662608c3efdbfd485c217322df21e0af0b5/bigdl_nano-2.4.0b20230614-py3-none-win_amd64.whl
+[2023-06-15 13:33:35] INFO root fetch - processPackages [cdktf-cdktf-provider-opc]: Downloading https://files.pythonhosted.org/packages/a7/13/9c40f45468a66539bc682027ffb2492039b540a9eb5351f6be9d8c73cffb/cdktf-cdktf-provider-opc-5.0.0.tar.gz
+[2023-06-15 13:33:35] INFO root fetch - processPackages [cdktf-cdktf-provider-oraclepaas]: Downloading https://files.pythonhosted.org/packages/a2/bd/3102e0846def24e845895db86e10dd0c5974a3de1e4d770e74642193a027/cdktf-cdktf-provider-oraclepaas-5.0.0.tar.gz
+[2023-06-15 13:33:36] INFO root fetch - processPackages [cdktf-cdktf-provider-opc]: executing diffoscope
+[2023-06-15 13:33:36] INFO root fetch - processPackages [cdktf-cdktf-provider-opc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdktf-provider-opc-4.0.1.tar.gz tmp/cdktf-cdktf-provider-opc-5.0.0.tar.gz --markdown 20230615/c/cdktf-cdktf-provider-opc/4.0.1-5.0.0/diff.md --exclude *.pyd
+[2023-06-15 13:33:36] INFO root fetch - processPackages [cdktf-cdktf-provider-oraclepaas]: executing diffoscope
+[2023-06-15 13:33:36] INFO root fetch - processPackages [cdktf-cdktf-provider-oraclepaas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdktf-provider-oraclepaas-4.0.1.tar.gz tmp/cdktf-cdktf-provider-oraclepaas-5.0.0.tar.gz --markdown 20230615/c/cdktf-cdktf-provider-oraclepaas/4.0.1-5.0.0/diff.md --exclude *.pyd
+[2023-06-15 13:33:36] INFO root fetch - processPackages [bigdl-nano]: Downloading https://files.pythonhosted.org/packages/fe/19/2e880c70f15c01b16520201f509ebc5eeff9122838f3a2baf6697f08a424/bigdl_nano-2.4.0b20230615-py3-none-win_amd64.whl
+[2023-06-15 13:33:36] INFO root fetch - processPackages [bigdl-nano]: executing diffoscope
+[2023-06-15 13:33:36] INFO root fetch - processPackages [bigdl-nano]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_nano-2.4.0b20230614-py3-none-win_amd64.whl.zip tmp/bigdl_nano-2.4.0b20230615-py3-none-win_amd64.whl.zip --markdown 20230615/b/bigdl-nano/2.4.0b20230614-2.4.0b20230615/diff.md --exclude *.pyd
+[2023-06-15 13:33:36] INFO root fetch - processPackages [cdktf-cdktf-provider-ionoscloud]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-ionoscloud-6.0.2.tar.gz]
+[2023-06-15 13:33:36] INFO root fetch - processPackages [cdktf-cdktf-provider-ionoscloud]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-ionoscloud-7.0.0.tar.gz]
+[2023-06-15 13:33:36] INFO root fetch - processPackages [cdktf-cdktf-provider-ionoscloud]: Start processing: gamium
+[2023-06-15 13:33:36] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-ionoscloud]: success
+[2023-06-15 13:33:36] INFO root fetch - processPackages [gamium]: New version: [2.0.2] Old Version: [2.0.1]
+[2023-06-15 13:33:36] INFO root fetch - processPackages [cdktf-cdktf-provider-mongodbatlas]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-mongodbatlas-2.0.2.tar.gz]
+[2023-06-15 13:33:36] INFO root fetch - processPackages [cdktf-cdktf-provider-mongodbatlas]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-mongodbatlas-3.0.0.tar.gz]
+[2023-06-15 13:33:36] INFO root fetch - processPackages [cdktf-cdktf-provider-mongodbatlas]: Start processing: bigdl-llm
+[2023-06-15 13:33:36] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-mongodbatlas]: success
+[2023-06-15 13:33:36] INFO root fetch - processPackages [gamium]: Downloading https://files.pythonhosted.org/packages/90/f0/01cf18df22f10d1379f778a2ad595f46fcd3e857f83851d878326e9f5693/gamium-2.0.1.tar.gz
+[2023-06-15 13:33:36] INFO root fetch - processPackages [bigdl-llm]: New version: [2.4.0b20230615] Old Version: [2.4.0b20230614]
+[2023-06-15 13:33:36] INFO root fetch - processPackages [bigdl-llm]: Downloading https://files.pythonhosted.org/packages/19/86/810a41923f709e04f076fadac43171755b3d05656735ffde94c24bc947b9/bigdl_llm-2.4.0b20230614-py3-none-win_amd64.whl
+[2023-06-15 13:33:36] INFO root fetch - processPackages [gamium]: Downloading https://files.pythonhosted.org/packages/0c/15/e40c21f81a917ac281b2c9ba77fbe05fcf194f7e338d35fdda9d1bad688d/gamium-2.0.2.tar.gz
+[2023-06-15 13:33:36] INFO root fetch - processPackages [gamium]: executing diffoscope
+[2023-06-15 13:33:36] INFO root fetch - processPackages [gamium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gamium-2.0.1.tar.gz tmp/gamium-2.0.2.tar.gz --markdown 20230615/g/gamium/2.0.1-2.0.2/diff.md --exclude *.pyd
+[2023-06-15 13:33:37] INFO root fetch - processPackages [invenio-administration]: Remove: archive file [/home/abi/fetcher/tmp/invenio-administration-1.4.1.tar.gz]
+[2023-06-15 13:33:37] INFO root fetch - processPackages [invenio-administration]: Remove: archive file [/home/abi/fetcher/tmp/invenio-administration-1.5.0.tar.gz]
+[2023-06-15 13:33:37] INFO root fetch - processPackages [invenio-administration]: Start processing: bigdl-chronos
+[2023-06-15 13:33:37] INFO root fetch - main [MainThread]: End processing [invenio-administration]: success
+[2023-06-15 13:33:37] INFO root fetch - processPackages [bigdl-chronos]: New version: [2.4.0b20230615] Old Version: [2.4.0b20230614]
+[2023-06-15 13:33:37] INFO root fetch - processPackages [bigdl-llm]: Downloading https://files.pythonhosted.org/packages/0a/e8/8c220df723ef1107fb9570f579555bb045cd1f4fb1f0da569c4817f7fb96/bigdl_llm-2.4.0b20230615-py3-none-win_amd64.whl
+[2023-06-15 13:33:37] INFO root fetch - processPackages [qiskit-iqm]: Remove: archive file [/home/abi/fetcher/tmp/qiskit-iqm-8.3.tar.gz]
+[2023-06-15 13:33:37] INFO root fetch - processPackages [qiskit-iqm]: Remove: archive file [/home/abi/fetcher/tmp/qiskit-iqm-9.0.tar.gz]
+[2023-06-15 13:33:37] INFO root fetch - processPackages [qiskit-iqm]: Start processing: cdktf-cdktf-provider-postgresql
+[2023-06-15 13:33:37] INFO root fetch - main [MainThread]: End processing [qiskit-iqm]: success
+[2023-06-15 13:33:37] INFO root fetch - processPackages [cdktf-cdktf-provider-postgresql]: New version: [7.0.0] Old Version: [6.0.1]
+[2023-06-15 13:33:37] INFO root fetch - processPackages [bigdl-chronos]: Downloading https://files.pythonhosted.org/packages/1e/97/a96abc0249ce2ae37db0d8293efa28d39836a01a91da052bc8ebdd3ace1d/bigdl_chronos-2.4.0b20230614-py3-none-win_amd64.whl
+[2023-06-15 13:33:37] INFO root fetch - processPackages [bigdl-llm]: executing diffoscope
+[2023-06-15 13:33:37] INFO root fetch - processPackages [bigdl-llm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_llm-2.4.0b20230614-py3-none-win_amd64.whl.zip tmp/bigdl_llm-2.4.0b20230615-py3-none-win_amd64.whl.zip --markdown 20230615/b/bigdl-llm/2.4.0b20230614-2.4.0b20230615/diff.md --exclude *.pyd
+[2023-06-15 13:33:37] INFO root fetch - processPackages [cdktf-cdktf-provider-postgresql]: Downloading https://files.pythonhosted.org/packages/83/c7/aef283a15d19f17446e4d9a122fc2e8e4e91607a72e1992762f2cf4eef78/cdktf-cdktf-provider-postgresql-6.0.1.tar.gz
+[2023-06-15 13:33:37] INFO root fetch - processPackages [cdktf-cdktf-provider-oraclepaas]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-oraclepaas-4.0.1.tar.gz]
+[2023-06-15 13:33:37] INFO root fetch - processPackages [cdktf-cdktf-provider-oraclepaas]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-oraclepaas-5.0.0.tar.gz]
+[2023-06-15 13:33:37] INFO root fetch - processPackages [cdktf-cdktf-provider-oraclepaas]: Start processing: bigdl-serving
+[2023-06-15 13:33:37] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-oraclepaas]: success
+[2023-06-15 13:33:37] INFO root fetch - processPackages [bigdl-serving]: New version: [2.4.0b20230615] Old Version: [2.4.0b20230614]
+[2023-06-15 13:33:37] INFO root fetch - processPackages [bigdl-chronos]: Downloading https://files.pythonhosted.org/packages/ee/30/f0222fee2433bb3e96c6c10e57e213d8f668159b3f65e8ac8a8d31c7de71/bigdl_chronos-2.4.0b20230615-py3-none-win_amd64.whl
+[2023-06-15 13:33:37] INFO root fetch - processPackages [bigdl-serving]: Downloading https://files.pythonhosted.org/packages/5c/a5/15b1522ecf4a4aee2931bd8887b1041366c2af7c35ff498cd78d73263da3/bigdl_serving-2.4.0b20230614-py2.py3-none-any.whl
+[2023-06-15 13:33:37] INFO root fetch - processPackages [cdktf-cdktf-provider-postgresql]: Downloading https://files.pythonhosted.org/packages/c1/d5/8ed43c70568362f04f267255c8267745cd81dbc7a0d1c4d8799d1308e503/cdktf-cdktf-provider-postgresql-7.0.0.tar.gz
+[2023-06-15 13:33:37] INFO root fetch - processPackages [cdktf-cdktf-provider-newrelic]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-newrelic-7.0.7.tar.gz]
+[2023-06-15 13:33:37] INFO root fetch - processPackages [cdktf-cdktf-provider-newrelic]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-newrelic-8.0.0.tar.gz]
+[2023-06-15 13:33:37] INFO root fetch - processPackages [cdktf-cdktf-provider-newrelic]: Start processing: cdktf-cdktf-provider-random
+[2023-06-15 13:33:37] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-newrelic]: success
+[2023-06-15 13:33:37] INFO root fetch - processPackages [bigdl-chronos]: executing diffoscope
+[2023-06-15 13:33:37] INFO root fetch - processPackages [bigdl-chronos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_chronos-2.4.0b20230614-py3-none-win_amd64.whl.zip tmp/bigdl_chronos-2.4.0b20230615-py3-none-win_amd64.whl.zip --markdown 20230615/b/bigdl-chronos/2.4.0b20230614-2.4.0b20230615/diff.md --exclude *.pyd
+[2023-06-15 13:33:37] INFO root fetch - processPackages [bigdl-serving]: Downloading https://files.pythonhosted.org/packages/a1/bd/0651a8386f58493aed84c17f13bc5427e9a918d47d5691865d8d87bf2f7b/bigdl_serving-2.4.0b20230615-py2.py3-none-any.whl
+[2023-06-15 13:33:37] INFO root fetch - processPackages [cdktf-cdktf-provider-postgresql]: executing diffoscope
+[2023-06-15 13:33:37] INFO root fetch - processPackages [cdktf-cdktf-provider-postgresql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdktf-provider-postgresql-6.0.1.tar.gz tmp/cdktf-cdktf-provider-postgresql-7.0.0.tar.gz --markdown 20230615/c/cdktf-cdktf-provider-postgresql/6.0.1-7.0.0/diff.md --exclude *.pyd
+[2023-06-15 13:33:38] INFO root fetch - processPackages [cdktf-cdktf-provider-random]: New version: [8.0.0] Old Version: [7.0.1]
+[2023-06-15 13:33:38] INFO root fetch - processPackages [cdktf-cdktf-provider-nomad]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-nomad-4.0.2.tar.gz]
+[2023-06-15 13:33:38] INFO root fetch - processPackages [cdktf-cdktf-provider-nomad]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-nomad-5.0.0.tar.gz]
+[2023-06-15 13:33:38] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-nomad]: success
+[2023-06-15 13:33:38] INFO root fetch - processPackages [bigdl-serving]: executing diffoscope
+[2023-06-15 13:33:38] INFO root fetch - processPackages [bigdl-serving]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_serving-2.4.0b20230614-py2.py3-none-any.whl.zip tmp/bigdl_serving-2.4.0b20230615-py2.py3-none-any.whl.zip --markdown 20230615/b/bigdl-serving/2.4.0b20230614-2.4.0b20230615/diff.md --exclude *.pyd
+[2023-06-15 13:33:38] INFO root fetch - processPackages [cdktf-cdktf-provider-random]: Downloading https://files.pythonhosted.org/packages/22/c8/ed8af293cb842389f06cf52d1e3bde34b06867de5c0b00d4a229bd8a4756/cdktf-cdktf-provider-random-7.0.1.tar.gz
+[2023-06-15 13:33:38] INFO root fetch - processPackages [gamium]: Remove: archive file [/home/abi/fetcher/tmp/gamium-2.0.1.tar.gz]
+[2023-06-15 13:33:38] INFO root fetch - processPackages [gamium]: Remove: archive file [/home/abi/fetcher/tmp/gamium-2.0.2.tar.gz]
+[2023-06-15 13:33:38] INFO root fetch - main [MainThread]: End processing [gamium]: success
+[2023-06-15 13:33:38] INFO root fetch - processPackages [cdktf-cdktf-provider-random]: Downloading https://files.pythonhosted.org/packages/b2/96/d577b90a44bcb87339b5c1c1fa000bd65c32a35640657250db410e87783e/cdktf-cdktf-provider-random-8.0.0.tar.gz
+[2023-06-15 13:33:38] INFO root fetch - processPackages [cdktf-cdktf-provider-random]: executing diffoscope
+[2023-06-15 13:33:38] INFO root fetch - processPackages [cdktf-cdktf-provider-random]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdktf-provider-random-7.0.1.tar.gz tmp/cdktf-cdktf-provider-random-8.0.0.tar.gz --markdown 20230615/c/cdktf-cdktf-provider-random/7.0.1-8.0.0/diff.md --exclude *.pyd
+[2023-06-15 13:33:39] INFO root fetch - processPackages [bigdl-serving]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_serving-2.4.0b20230614-py2.py3-none-any.whl.zip]
+[2023-06-15 13:33:39] INFO root fetch - processPackages [bigdl-serving]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_serving-2.4.0b20230615-py2.py3-none-any.whl.zip]
+[2023-06-15 13:33:39] INFO root fetch - main [MainThread]: End processing [bigdl-serving]: success
+[2023-06-15 13:33:39] INFO root fetch - processPackages [cdktf-cdktf-provider-postgresql]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-postgresql-6.0.1.tar.gz]
+[2023-06-15 13:33:39] INFO root fetch - processPackages [cdktf-cdktf-provider-postgresql]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-postgresql-7.0.0.tar.gz]
+[2023-06-15 13:33:39] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-postgresql]: success
+[2023-06-15 13:33:39] INFO root fetch - processPackages [bigdl-nano]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_nano-2.4.0b20230614-py3-none-win_amd64.whl.zip]
+[2023-06-15 13:33:39] INFO root fetch - processPackages [bigdl-nano]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_nano-2.4.0b20230615-py3-none-win_amd64.whl.zip]
+[2023-06-15 13:33:39] INFO root fetch - main [MainThread]: End processing [bigdl-nano]: success
+[2023-06-15 13:33:39] INFO root fetch - processPackages [cdktf-cdktf-provider-datadog]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-datadog-6.0.5.tar.gz]
+[2023-06-15 13:33:39] INFO root fetch - processPackages [cdktf-cdktf-provider-datadog]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-datadog-7.0.0.tar.gz]
+[2023-06-15 13:33:39] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-datadog]: success
+[2023-06-15 13:33:39] INFO root fetch - processPackages [cdktf-cdktf-provider-random]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-random-7.0.1.tar.gz]
+[2023-06-15 13:33:39] INFO root fetch - processPackages [cdktf-cdktf-provider-random]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-random-8.0.0.tar.gz]
+[2023-06-15 13:33:39] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-random]: success
+[2023-06-15 13:33:39] INFO root fetch - processPackages [bigdl-chronos]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_chronos-2.4.0b20230614-py3-none-win_amd64.whl.zip]
+[2023-06-15 13:33:39] INFO root fetch - processPackages [bigdl-chronos]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_chronos-2.4.0b20230615-py3-none-win_amd64.whl.zip]
+[2023-06-15 13:33:39] INFO root fetch - main [MainThread]: End processing [bigdl-chronos]: success
+[2023-06-15 13:33:40] INFO root fetch - processPackages [cdktf-cdktf-provider-opc]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-opc-4.0.1.tar.gz]
+[2023-06-15 13:33:40] INFO root fetch - processPackages [cdktf-cdktf-provider-opc]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-opc-5.0.0.tar.gz]
+[2023-06-15 13:33:40] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-opc]: success
+[2023-06-15 13:34:15] INFO root fetch - processPackages [bigdl-llm]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_llm-2.4.0b20230614-py3-none-win_amd64.whl.zip]
+[2023-06-15 13:34:15] INFO root fetch - processPackages [bigdl-llm]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_llm-2.4.0b20230615-py3-none-win_amd64.whl.zip]
+[2023-06-15 13:34:15] INFO root fetch - main [MainThread]: End processing [bigdl-llm]: success
+[2023-06-15 13:34:15] INFO root fetch - main [MainThread]: Store serial: [18515392]
