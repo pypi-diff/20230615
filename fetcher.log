@@ -9863,3 +9863,93 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-15 06:38:51] INFO root fetch - processPackages [matgl]: Remove: archive file [/home/abi/fetcher/tmp/matgl-0.5.6.tar.gz]
 [2023-06-15 06:38:51] INFO root fetch - main [MainThread]: End processing [matgl]: success
 [2023-06-15 06:38:51] INFO root fetch - main [MainThread]: Store serial: [18511111]
+[2023-06-15 06:43:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18511111]
+[2023-06-15 06:44:00] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-15 06:44:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyramm
+[2023-06-15 06:44:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aifunc
+[2023-06-15 06:44:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mapdata
+[2023-06-15 06:44:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo9-addon-project-stage-state
+[2023-06-15 06:44:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: qualiti
+[2023-06-15 06:44:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo13-addon-project-status
+[2023-06-15 06:44:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: aifunc
+[2023-06-15 06:44:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo-addon-project-status
+[2023-06-15 06:44:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo14-addon-project-stage-state
+[2023-06-15 06:44:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo-addon-project-task-stage-state
+[2023-06-15 06:44:00] INFO root fetch - processPackages [pyramm]: New version: [1.9] Old Version: [1.8]
+[2023-06-15 06:44:00] INFO root fetch - processPackages [odoo-addon-project-task-stage-state]: New version: [15.0.1.0.1.5] Old Version: [15.0.1.0.1.4]
+[2023-06-15 06:44:00] INFO root fetch - processPackages [odoo-addon-project-status]: New version: [15.0.1.0.0.9] Old Version: [15.0.1.0.0.8]
+[2023-06-15 06:44:00] WARNING root fetch - processPackages [qualiti]: Skipping, unable to determine old version
+[2023-06-15 06:44:00] INFO root fetch - processPackages [qualiti]: Start processing: nimblephysics
+[2023-06-15 06:44:00] INFO root fetch - processPackages [aifunc]: New version: [0.4.4] Old Version: [0.4.3]
+[2023-06-15 06:44:00] INFO root fetch - main [MainThread]: End processing [qualiti] error
+[2023-06-15 06:44:00] INFO root fetch - processPackages [aifunc]: New version: [0.4.4] Old Version: [0.4.3]
+[2023-06-15 06:44:00] INFO root fetch - processPackages [odoo9-addon-project-stage-state]: New version: [9.0.1.0.0.99.dev7] Old Version: [9.0.1.0.0.99.dev6]
+[2023-06-15 06:44:00] INFO root fetch - processPackages [odoo13-addon-project-status]: New version: [13.0.2.1.2.dev5] Old Version: [13.0.2.1.2.dev4]
+[2023-06-15 06:44:00] INFO root fetch - processPackages [mapdata]: New version: [2.0.0] Old Version: [1.8.2]
+[2023-06-15 06:44:00] INFO root fetch - processPackages [odoo14-addon-project-stage-state]: New version: [14.0.1.1.1.dev9] Old Version: [14.0.1.1.1.dev8]
+[2023-06-15 06:44:00] INFO root fetch - processPackages [nimblephysics]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-15 06:44:00] INFO root fetch - processPackages [aifunc]: Downloading https://files.pythonhosted.org/packages/a9/ed/2c21ac517fb76cfbc3d5fc04b6fad02e7f85718d2eac6d78fbf34298b22d/aifunc-0.4.3.tar.gz
+[2023-06-15 06:44:00] INFO root fetch - processPackages [aifunc]: Downloading https://files.pythonhosted.org/packages/a9/ed/2c21ac517fb76cfbc3d5fc04b6fad02e7f85718d2eac6d78fbf34298b22d/aifunc-0.4.3.tar.gz
+[2023-06-15 06:44:00] INFO root fetch - processPackages [pyramm]: Downloading https://files.pythonhosted.org/packages/82/cd/1d0c354eb8064c45f667bd48772162211e74c58e262a17c03835deeea0e1/pyramm-1.8.tar.gz
+[2023-06-15 06:44:00] INFO root fetch - processPackages [odoo14-addon-project-stage-state]: Downloading https://files.pythonhosted.org/packages/d0/a1/4b81d59fbc4318828ee88acd17a8b46b92d8b91e07db635e91f35e499717/odoo14_addon_project_stage_state-14.0.1.1.1.dev8-py3-none-any.whl
+[2023-06-15 06:44:00] INFO root fetch - processPackages [odoo13-addon-project-status]: Downloading https://files.pythonhosted.org/packages/97/cf/9ca6b8586a4cb2581584a595b58f3803e72ba2eaad649b643bee9b35b105/odoo13_addon_project_status-13.0.2.1.2.dev4-py3-none-any.whl
+[2023-06-15 06:44:00] INFO root fetch - processPackages [odoo-addon-project-status]: Downloading https://files.pythonhosted.org/packages/5f/6b/c1c92f5860bb29a9bcbb956cfa2ba561988304710a14f3f44e43e660e254/odoo_addon_project_status-15.0.1.0.0.8-py3-none-any.whl
+[2023-06-15 06:44:00] INFO root fetch - processPackages [mapdata]: Downloading https://files.pythonhosted.org/packages/6e/cb/86211fd8e4643e4269cb2c699fe8ebdf14e32724fb936871c9ec8606058d/mapdata-1.8.2.tar.gz
+[2023-06-15 06:44:00] INFO root fetch - processPackages [nimblephysics]: Downloading https://files.pythonhosted.org/packages/e2/b9/4722adb08c31a974418723f0ac892aa3845d4afb9dbcc696ac2515a3fca8/nimblephysics-0.9.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-15 06:44:00] INFO root fetch - processPackages [odoo9-addon-project-stage-state]: Downloading https://files.pythonhosted.org/packages/e3/71/c29dc1d61169bbf5dbbabdf068ff8789aa1e98022a9aa44e9c853ef9ce15/odoo9_addon_project_stage_state-9.0.1.0.0.99.dev6-py2-none-any.whl
+[2023-06-15 06:44:00] INFO root fetch - processPackages [odoo-addon-project-task-stage-state]: Downloading https://files.pythonhosted.org/packages/82/cb/f6003f1cc24129ab26b1d3bc649c9db5b63dd981fb73c777cec947aa6018/odoo_addon_project_task_stage_state-15.0.1.0.1.4-py3-none-any.whl
+[2023-06-15 06:44:00] INFO root fetch - processPackages [pyramm]: Downloading https://files.pythonhosted.org/packages/48/d2/4a266da41f00068ddb8d5ab01903309a2d8653ce863390db6972605a93c6/pyramm-1.9.tar.gz
+[2023-06-15 06:44:00] INFO root fetch - processPackages [aifunc]: Downloading https://files.pythonhosted.org/packages/41/af/66dbfd5332508467c785825f543cb30200cca9a959756f9c6c8a2b050a72/aifunc-0.4.4.tar.gz
+[2023-06-15 06:44:00] INFO root fetch - processPackages [aifunc]: Downloading https://files.pythonhosted.org/packages/41/af/66dbfd5332508467c785825f543cb30200cca9a959756f9c6c8a2b050a72/aifunc-0.4.4.tar.gz
+[2023-06-15 06:44:00] INFO root fetch - processPackages [pyramm]: executing diffoscope
+[2023-06-15 06:44:00] INFO root fetch - processPackages [pyramm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyramm-1.8.tar.gz tmp/pyramm-1.9.tar.gz --markdown 20230615/p/pyramm/1.8-1.9/diff.md --exclude *.pyd
+[2023-06-15 06:44:00] INFO root fetch - processPackages [aifunc]: executing diffoscope
+[2023-06-15 06:44:00] INFO root fetch - processPackages [aifunc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aifunc-0.4.3.tar.gz tmp/aifunc-0.4.4.tar.gz --markdown 20230615/a/aifunc/0.4.3-0.4.4/diff.md --exclude *.pyd
+[2023-06-15 06:44:00] INFO root fetch - processPackages [aifunc]: executing diffoscope
+[2023-06-15 06:44:00] INFO root fetch - processPackages [aifunc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aifunc-0.4.3.tar.gz tmp/aifunc-0.4.4.tar.gz --markdown 20230615/a/aifunc/0.4.3-0.4.4/diff.md --exclude *.pyd
+[2023-06-15 06:44:00] INFO root fetch - processPackages [odoo-addon-project-status]: Downloading https://files.pythonhosted.org/packages/01/e9/e1ed5df3e5df354bf9eb7c708909bfb02dfdac0bf7c1a3a424a49d20d87c/odoo_addon_project_status-15.0.1.0.0.9-py3-none-any.whl
+[2023-06-15 06:44:00] INFO root fetch - processPackages [odoo13-addon-project-status]: Downloading https://files.pythonhosted.org/packages/60/19/0ed9a7aaf8ca1cd01bd7f3789f8ba45503235429e32e31cf58fb993795c1/odoo13_addon_project_status-13.0.2.1.2.dev5-py3-none-any.whl
+[2023-06-15 06:44:00] INFO root fetch - processPackages [odoo14-addon-project-stage-state]: Downloading https://files.pythonhosted.org/packages/3e/90/27dab07c8a9710357ece5a90a0a718de5b01ffe552dedc4d54b4b53e084c/odoo14_addon_project_stage_state-14.0.1.1.1.dev9-py3-none-any.whl
+[2023-06-15 06:44:00] INFO root fetch - processPackages [odoo9-addon-project-stage-state]: Downloading https://files.pythonhosted.org/packages/64/12/291b08d501bd0cea8f16b5f0eae1c448543c419c5c9a43640d417395900b/odoo9_addon_project_stage_state-9.0.1.0.0.99.dev7-py2-none-any.whl
+[2023-06-15 06:44:00] INFO root fetch - processPackages [mapdata]: Downloading https://files.pythonhosted.org/packages/b5/b5/6e63514de0e145052edc3144bfd7dd050e5b6bac44e14f8f2e5bd4387765/mapdata-2.0.0.tar.gz
+[2023-06-15 06:44:00] INFO root fetch - processPackages [odoo-addon-project-task-stage-state]: Downloading https://files.pythonhosted.org/packages/bc/4d/139272ff3500ee3ee98d380867ac2a5c807137bd34b65dfc0564fbaee1d6/odoo_addon_project_task_stage_state-15.0.1.0.1.5-py3-none-any.whl
+[2023-06-15 06:44:00] INFO root fetch - processPackages [odoo-addon-project-status]: executing diffoscope
+[2023-06-15 06:44:00] INFO root fetch - processPackages [odoo-addon-project-status]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_project_status-15.0.1.0.0.8-py3-none-any.whl.zip tmp/odoo_addon_project_status-15.0.1.0.0.9-py3-none-any.whl.zip --markdown 20230615/o/odoo-addon-project-status/15.0.1.0.0.8-15.0.1.0.0.9/diff.md --exclude *.pyd
+[2023-06-15 06:44:00] INFO root fetch - processPackages [mapdata]: executing diffoscope
+[2023-06-15 06:44:00] INFO root fetch - processPackages [mapdata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mapdata-1.8.2.tar.gz tmp/mapdata-2.0.0.tar.gz --markdown 20230615/m/mapdata/1.8.2-2.0.0/diff.md --exclude *.pyd
+[2023-06-15 06:44:01] INFO root fetch - processPackages [odoo-addon-project-task-stage-state]: executing diffoscope
+[2023-06-15 06:44:01] INFO root fetch - processPackages [odoo-addon-project-task-stage-state]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_project_task_stage_state-15.0.1.0.1.4-py3-none-any.whl.zip tmp/odoo_addon_project_task_stage_state-15.0.1.0.1.5-py3-none-any.whl.zip --markdown 20230615/o/odoo-addon-project-task-stage-state/15.0.1.0.1.4-15.0.1.0.1.5/diff.md --exclude *.pyd
+[2023-06-15 06:44:01] INFO root fetch - processPackages [odoo9-addon-project-stage-state]: executing diffoscope
+[2023-06-15 06:44:01] INFO root fetch - processPackages [odoo9-addon-project-stage-state]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo9_addon_project_stage_state-9.0.1.0.0.99.dev6-py2-none-any.whl.zip tmp/odoo9_addon_project_stage_state-9.0.1.0.0.99.dev7-py2-none-any.whl.zip --markdown 20230615/o/odoo9-addon-project-stage-state/9.0.1.0.0.99.dev6-9.0.1.0.0.99.dev7/diff.md --exclude *.pyd
+[2023-06-15 06:44:01] INFO root fetch - processPackages [odoo14-addon-project-stage-state]: executing diffoscope
+[2023-06-15 06:44:01] INFO root fetch - processPackages [odoo14-addon-project-stage-state]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_project_stage_state-14.0.1.1.1.dev8-py3-none-any.whl.zip tmp/odoo14_addon_project_stage_state-14.0.1.1.1.dev9-py3-none-any.whl.zip --markdown 20230615/o/odoo14-addon-project-stage-state/14.0.1.1.1.dev8-14.0.1.1.1.dev9/diff.md --exclude *.pyd
+[2023-06-15 06:44:01] INFO root fetch - processPackages [odoo13-addon-project-status]: executing diffoscope
+[2023-06-15 06:44:01] INFO root fetch - processPackages [odoo13-addon-project-status]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_project_status-13.0.2.1.2.dev4-py3-none-any.whl.zip tmp/odoo13_addon_project_status-13.0.2.1.2.dev5-py3-none-any.whl.zip --markdown 20230615/o/odoo13-addon-project-status/13.0.2.1.2.dev4-13.0.2.1.2.dev5/diff.md --exclude *.pyd
+[2023-06-15 06:44:01] WARNING root fetch - processPackages [nimblephysics]: Skipping package: exceeds size limit 67824984>=10485760
+[2023-06-15 06:44:01] INFO root fetch - main [MainThread]: End processing [nimblephysics] error
+[2023-06-15 06:44:02] INFO root fetch - processPackages [pyramm]: Remove: archive file [/home/abi/fetcher/tmp/pyramm-1.8.tar.gz]
+[2023-06-15 06:44:02] INFO root fetch - processPackages [pyramm]: Remove: archive file [/home/abi/fetcher/tmp/pyramm-1.9.tar.gz]
+[2023-06-15 06:44:02] INFO root fetch - main [MainThread]: End processing [pyramm]: success
+[2023-06-15 06:44:02] INFO root fetch - processPackages [aifunc]: Remove: archive file [/home/abi/fetcher/tmp/aifunc-0.4.3.tar.gz]
+[2023-06-15 06:44:02] INFO root fetch - processPackages [aifunc]: Remove: archive file [/home/abi/fetcher/tmp/aifunc-0.4.4.tar.gz]
+[2023-06-15 06:44:02] INFO root fetch - main [MainThread]: End processing [aifunc]: success
+[2023-06-15 06:44:02] INFO root fetch - main [MainThread]: End processing [aifunc]: success
+[2023-06-15 06:44:02] INFO root fetch - processPackages [mapdata]: Remove: archive file [/home/abi/fetcher/tmp/mapdata-1.8.2.tar.gz]
+[2023-06-15 06:44:02] INFO root fetch - processPackages [mapdata]: Remove: archive file [/home/abi/fetcher/tmp/mapdata-2.0.0.tar.gz]
+[2023-06-15 06:44:02] INFO root fetch - main [MainThread]: End processing [mapdata]: success
+[2023-06-15 06:44:02] INFO root fetch - processPackages [odoo-addon-project-status]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_project_status-15.0.1.0.0.8-py3-none-any.whl.zip]
+[2023-06-15 06:44:02] INFO root fetch - processPackages [odoo-addon-project-status]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_project_status-15.0.1.0.0.9-py3-none-any.whl.zip]
+[2023-06-15 06:44:02] INFO root fetch - main [MainThread]: End processing [odoo-addon-project-status]: success
+[2023-06-15 06:44:02] INFO root fetch - processPackages [odoo13-addon-project-status]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_project_status-13.0.2.1.2.dev4-py3-none-any.whl.zip]
+[2023-06-15 06:44:02] INFO root fetch - processPackages [odoo13-addon-project-status]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_project_status-13.0.2.1.2.dev5-py3-none-any.whl.zip]
+[2023-06-15 06:44:02] INFO root fetch - main [MainThread]: End processing [odoo13-addon-project-status]: success
+[2023-06-15 06:44:02] INFO root fetch - processPackages [odoo-addon-project-task-stage-state]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_project_task_stage_state-15.0.1.0.1.4-py3-none-any.whl.zip]
+[2023-06-15 06:44:02] INFO root fetch - processPackages [odoo-addon-project-task-stage-state]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_project_task_stage_state-15.0.1.0.1.5-py3-none-any.whl.zip]
+[2023-06-15 06:44:02] INFO root fetch - main [MainThread]: End processing [odoo-addon-project-task-stage-state]: success
+[2023-06-15 06:44:02] INFO root fetch - processPackages [odoo14-addon-project-stage-state]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_project_stage_state-14.0.1.1.1.dev8-py3-none-any.whl.zip]
+[2023-06-15 06:44:02] INFO root fetch - processPackages [odoo14-addon-project-stage-state]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_project_stage_state-14.0.1.1.1.dev9-py3-none-any.whl.zip]
+[2023-06-15 06:44:02] INFO root fetch - main [MainThread]: End processing [odoo14-addon-project-stage-state]: success
+[2023-06-15 06:44:02] INFO root fetch - processPackages [odoo9-addon-project-stage-state]: Remove: archive file [/home/abi/fetcher/tmp/odoo9_addon_project_stage_state-9.0.1.0.0.99.dev6-py2-none-any.whl.zip]
+[2023-06-15 06:44:02] INFO root fetch - processPackages [odoo9-addon-project-stage-state]: Remove: archive file [/home/abi/fetcher/tmp/odoo9_addon_project_stage_state-9.0.1.0.0.99.dev7-py2-none-any.whl.zip]
+[2023-06-15 06:44:02] INFO root fetch - main [MainThread]: End processing [odoo9-addon-project-stage-state]: success
+[2023-06-15 06:44:02] INFO root fetch - main [MainThread]: Store serial: [18511141]
