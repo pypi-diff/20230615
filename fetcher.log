@@ -11461,3 +11461,89 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-15 08:17:45] INFO root fetch - processPackages [myl]: Remove: archive file [/home/abi/fetcher/tmp/myl-0.8.5.tar.gz]
 [2023-06-15 08:17:45] INFO root fetch - main [MainThread]: End processing [myl]: success
 [2023-06-15 08:17:45] INFO root fetch - main [MainThread]: Store serial: [18511738]
+[2023-06-15 08:22:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18511738]
+[2023-06-15 08:22:54] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-15 08:22:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pytorch-pipline
+[2023-06-15 08:22:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: inhandtest
+[2023-06-15 08:22:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: piperider
+[2023-06-15 08:22:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: huntflow-api-client
+[2023-06-15 08:22:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: creditagricole-particuliers
+[2023-06-15 08:22:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ml-plugins-2
+[2023-06-15 08:22:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: qodex-cameras
+[2023-06-15 08:22:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: databend
+[2023-06-15 08:22:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: fenjing
+[2023-06-15 08:22:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: Deepurify
+[2023-06-15 08:22:54] INFO root fetch - processPackages [inhandtest]: New version: [0.0.56] Old Version: [0.0.55]
+[2023-06-15 08:22:54] WARNING root fetch - processPackages [ml-plugins-2]: Skipping, unable to determine old version
+[2023-06-15 08:22:54] INFO root fetch - processPackages [ml-plugins-2]: Start processing: storekit-python
+[2023-06-15 08:22:54] INFO root fetch - main [MainThread]: End processing [ml-plugins-2] error
+[2023-06-15 08:22:54] WARNING root fetch - processPackages [pytorch-pipline]: Skipping, unable to determine old version
+[2023-06-15 08:22:54] INFO root fetch - processPackages [creditagricole-particuliers]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-15 08:22:54] INFO root fetch - main [MainThread]: End processing [pytorch-pipline] error
+[2023-06-15 08:22:54] INFO root fetch - processPackages [piperider]: New version: [0.9.0rc1] Old Version: [0.9.0]
+[2023-06-15 08:22:54] INFO root fetch - processPackages [huntflow-api-client]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-15 08:22:54] INFO root fetch - processPackages [qodex-cameras]: New version: [0.0.21] Old Version: [0.0.2]
+[2023-06-15 08:22:54] INFO root fetch - processPackages [databend]: New version: [1.1.60] Old Version: [1.1.59]
+[2023-06-15 08:22:54] INFO root fetch - processPackages [fenjing]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-06-15 08:22:54] INFO root fetch - processPackages [Deepurify]: New version: [1.1.0.4] Old Version: [1.1.0.3]
+[2023-06-15 08:22:54] INFO root fetch - processPackages [storekit-python]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-15 08:22:54] INFO root fetch - processPackages [inhandtest]: Downloading https://files.pythonhosted.org/packages/3a/32/d6bf93344335b60c250c32bd82396293bf57da1eab7989ea7bbeb492709d/inhandtest-0.0.55.tar.gz
+[2023-06-15 08:22:54] INFO root fetch - processPackages [creditagricole-particuliers]: Downloading https://files.pythonhosted.org/packages/1f/c5/eda87e48da90f89ebcaa21aae4ebcafca72941837ece446e3d2a722602aa/creditagricole_particuliers-0.8.0.tar.gz
+[2023-06-15 08:22:54] INFO root fetch - processPackages [piperider]: Downloading https://files.pythonhosted.org/packages/a4/50/e24b00f8c9eee6add2d234812268358dd31efb1c7692b89e4f2abcf53b3a/piperider-0.9.0.tar.gz
+[2023-06-15 08:22:54] INFO root fetch - processPackages [huntflow-api-client]: Downloading https://files.pythonhosted.org/packages/20/ae/1d503f46af98d56f5fb74e3dd81613d2f05393d88b22d969e9cd60b52e13/huntflow_api_client-0.0.8.tar.gz
+[2023-06-15 08:22:54] INFO root fetch - processPackages [qodex-cameras]: Downloading https://files.pythonhosted.org/packages/9f/74/ba18c0149fa637f6b5042f0099ec7689f41ec7b17a4dcfc26539f0fdc2ec/qodex_cameras-0.0.2-py3-none-any.whl
+[2023-06-15 08:22:54] INFO root fetch - processPackages [databend]: Downloading https://files.pythonhosted.org/packages/d2/27/027e5abb5d5affb6446b60e066e8c27056d20be751f281581c2a6fd0f872/databend-1.1.59-cp37-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-15 08:22:54] INFO root fetch - processPackages [fenjing]: Downloading https://files.pythonhosted.org/packages/bc/7d/77dababa28cea58457cd2784275d1c7e2fe64fae50c8dc3bc64ce2542e1f/fenjing-0.3.8.tar.gz
+[2023-06-15 08:22:54] INFO root fetch - processPackages [Deepurify]: Downloading https://files.pythonhosted.org/packages/2e/68/54c87c0fe2ed5a22740a6ea35e02994eebe857f4b66aa6b0e27ff23050cc/Deepurify-1.1.0.3.tar.gz
+[2023-06-15 08:22:54] WARNING root fetch - processPackages [databend]: Skipping package: exceeds size limit 29284158>=10485760
+[2023-06-15 08:22:54] INFO root fetch - main [MainThread]: End processing [databend] error
+[2023-06-15 08:22:54] INFO root fetch - processPackages [storekit-python]: Downloading https://files.pythonhosted.org/packages/5b/a3/8568fd8a59d80da072757a326a5adff1481cce9495b9325141abf7541108/storekit_python-0.0.1.tar.gz
+[2023-06-15 08:22:55] INFO root fetch - processPackages [inhandtest]: Downloading https://files.pythonhosted.org/packages/18/f9/badbe6cf5dbcf2b32193d31d0fe242bc4bd08810a36ae1a98c0c627ba782/inhandtest-0.0.56.tar.gz
+[2023-06-15 08:22:55] INFO root fetch - processPackages [qodex-cameras]: Downloading https://files.pythonhosted.org/packages/04/af/ff79e4e15d1cf8457703405984c9a4725c975a1f7ce868b993fd8fa0cbee/qodex_cameras-0.0.21-py3-none-any.whl
+[2023-06-15 08:22:55] INFO root fetch - processPackages [fenjing]: Downloading https://files.pythonhosted.org/packages/15/bd/106653912915592aedd180ea99df3e1de7db25bbc54ba87be35758083755/fenjing-0.3.9.tar.gz
+[2023-06-15 08:22:55] INFO root fetch - processPackages [inhandtest]: executing diffoscope
+[2023-06-15 08:22:55] INFO root fetch - processPackages [inhandtest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inhandtest-0.0.55.tar.gz tmp/inhandtest-0.0.56.tar.gz --markdown 20230615/i/inhandtest/0.0.55-0.0.56/diff.md --exclude *.pyd
+[2023-06-15 08:22:55] INFO root fetch - processPackages [huntflow-api-client]: Downloading https://files.pythonhosted.org/packages/9e/6f/642adabc7e91f1ab063d1e21cd5cb785aa60f97f8e7900923faad0bc4f45/huntflow_api_client-0.0.9.tar.gz
+[2023-06-15 08:22:55] INFO root fetch - processPackages [storekit-python]: Downloading https://files.pythonhosted.org/packages/12/af/f815338973dc829bdebf865d6fbe0934ea60491c0f55a9d9901d82d79723/storekit_python-0.0.2.tar.gz
+[2023-06-15 08:22:55] INFO root fetch - processPackages [Deepurify]: Downloading https://files.pythonhosted.org/packages/b1/cf/a37af08e4bc394e077452b86d2e5e0a93d2981ee4d803ebc8ba576737eea/Deepurify-1.1.0.4-py3-none-any.whl
+[2023-06-15 08:22:55] INFO root fetch - processPackages [qodex-cameras]: executing diffoscope
+[2023-06-15 08:22:55] INFO root fetch - processPackages [qodex-cameras]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qodex_cameras-0.0.2-py3-none-any.whl.zip tmp/qodex_cameras-0.0.21-py3-none-any.whl.zip --markdown 20230615/q/qodex-cameras/0.0.2-0.0.21/diff.md --exclude *.pyd
+[2023-06-15 08:22:55] INFO root fetch - processPackages [fenjing]: executing diffoscope
+[2023-06-15 08:22:55] INFO root fetch - processPackages [fenjing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fenjing-0.3.8.tar.gz tmp/fenjing-0.3.9.tar.gz --markdown 20230615/f/fenjing/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-06-15 08:22:55] INFO root fetch - processPackages [huntflow-api-client]: executing diffoscope
+[2023-06-15 08:22:55] INFO root fetch - processPackages [huntflow-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huntflow_api_client-0.0.8.tar.gz tmp/huntflow_api_client-0.0.9.tar.gz --markdown 20230615/h/huntflow-api-client/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-15 08:22:55] INFO root fetch - processPackages [Deepurify]: executing diffoscope
+[2023-06-15 08:22:55] INFO root fetch - processPackages [Deepurify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Deepurify-1.1.0.3.tar.gz tmp/Deepurify-1.1.0.4-py3-none-any.whl.zip --markdown 20230615/D/Deepurify/1.1.0.3-1.1.0.4/diff.md --exclude *.pyd
+[2023-06-15 08:22:55] INFO root fetch - processPackages [storekit-python]: executing diffoscope
+[2023-06-15 08:22:55] INFO root fetch - processPackages [storekit-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/storekit_python-0.0.1.tar.gz tmp/storekit_python-0.0.2.tar.gz --markdown 20230615/s/storekit-python/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-15 08:22:55] INFO root fetch - processPackages [creditagricole-particuliers]: Downloading https://files.pythonhosted.org/packages/e0/c2/3e877cce40c2c51eb71a3a198c3fe362ee01801956d858a707f3c3da98c1/creditagricole_particuliers-0.9.0.tar.gz
+[2023-06-15 08:22:55] INFO root fetch - processPackages [creditagricole-particuliers]: executing diffoscope
+[2023-06-15 08:22:55] INFO root fetch - processPackages [creditagricole-particuliers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/creditagricole_particuliers-0.8.0.tar.gz tmp/creditagricole_particuliers-0.9.0.tar.gz --markdown 20230615/c/creditagricole-particuliers/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-15 08:22:56] INFO root fetch - processPackages [piperider]: Downloading https://files.pythonhosted.org/packages/7a/f9/9cc8461c7b00069da016c58db04f6c975e2adf28d9cbd443a882dd7396de/piperider-0.9.0rc1.tar.gz
+[2023-06-15 08:22:56] INFO root fetch - processPackages [qodex-cameras]: Remove: archive file [/home/abi/fetcher/tmp/qodex_cameras-0.0.2-py3-none-any.whl.zip]
+[2023-06-15 08:22:56] INFO root fetch - processPackages [qodex-cameras]: Remove: archive file [/home/abi/fetcher/tmp/qodex_cameras-0.0.21-py3-none-any.whl.zip]
+[2023-06-15 08:22:56] INFO root fetch - main [MainThread]: End processing [qodex-cameras]: success
+[2023-06-15 08:22:56] INFO root fetch - processPackages [huntflow-api-client]: Remove: archive file [/home/abi/fetcher/tmp/huntflow_api_client-0.0.8.tar.gz]
+[2023-06-15 08:22:56] INFO root fetch - processPackages [huntflow-api-client]: Remove: archive file [/home/abi/fetcher/tmp/huntflow_api_client-0.0.9.tar.gz]
+[2023-06-15 08:22:56] INFO root fetch - main [MainThread]: End processing [huntflow-api-client]: success
+[2023-06-15 08:22:57] INFO root fetch - processPackages [piperider]: executing diffoscope
+[2023-06-15 08:22:57] INFO root fetch - processPackages [piperider]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/piperider-0.9.0.tar.gz tmp/piperider-0.9.0rc1.tar.gz --markdown 20230615/p/piperider/0.9.0-0.9.0rc1/diff.md --exclude *.pyd
+[2023-06-15 08:22:57] INFO root fetch - processPackages [creditagricole-particuliers]: Remove: archive file [/home/abi/fetcher/tmp/creditagricole_particuliers-0.8.0.tar.gz]
+[2023-06-15 08:22:57] INFO root fetch - processPackages [creditagricole-particuliers]: Remove: archive file [/home/abi/fetcher/tmp/creditagricole_particuliers-0.9.0.tar.gz]
+[2023-06-15 08:22:57] INFO root fetch - main [MainThread]: End processing [creditagricole-particuliers]: success
+[2023-06-15 08:22:57] INFO root fetch - processPackages [Deepurify]: Remove: archive file [/home/abi/fetcher/tmp/Deepurify-1.1.0.3.tar.gz]
+[2023-06-15 08:22:57] INFO root fetch - processPackages [Deepurify]: Remove: archive file [/home/abi/fetcher/tmp/Deepurify-1.1.0.4-py3-none-any.whl.zip]
+[2023-06-15 08:22:57] INFO root fetch - main [MainThread]: End processing [Deepurify]: success
+[2023-06-15 08:22:57] INFO root fetch - processPackages [fenjing]: Remove: archive file [/home/abi/fetcher/tmp/fenjing-0.3.8.tar.gz]
+[2023-06-15 08:22:57] INFO root fetch - processPackages [fenjing]: Remove: archive file [/home/abi/fetcher/tmp/fenjing-0.3.9.tar.gz]
+[2023-06-15 08:22:57] INFO root fetch - main [MainThread]: End processing [fenjing]: success
+[2023-06-15 08:22:58] INFO root fetch - processPackages [storekit-python]: Remove: archive file [/home/abi/fetcher/tmp/storekit_python-0.0.1.tar.gz]
+[2023-06-15 08:22:58] INFO root fetch - processPackages [storekit-python]: Remove: archive file [/home/abi/fetcher/tmp/storekit_python-0.0.2.tar.gz]
+[2023-06-15 08:22:58] INFO root fetch - main [MainThread]: End processing [storekit-python]: success
+[2023-06-15 08:22:58] INFO root fetch - processPackages [inhandtest]: Remove: archive file [/home/abi/fetcher/tmp/inhandtest-0.0.55.tar.gz]
+[2023-06-15 08:22:58] INFO root fetch - processPackages [inhandtest]: Remove: archive file [/home/abi/fetcher/tmp/inhandtest-0.0.56.tar.gz]
+[2023-06-15 08:22:58] INFO root fetch - main [MainThread]: End processing [inhandtest]: success
+[2023-06-15 08:23:00] INFO root fetch - processPackages [piperider]: Remove: archive file [/home/abi/fetcher/tmp/piperider-0.9.0.tar.gz]
+[2023-06-15 08:23:00] INFO root fetch - processPackages [piperider]: Remove: archive file [/home/abi/fetcher/tmp/piperider-0.9.0rc1.tar.gz]
+[2023-06-15 08:23:00] INFO root fetch - main [MainThread]: End processing [piperider]: success
+[2023-06-15 08:23:00] INFO root fetch - main [MainThread]: Store serial: [18511774]
