@@ -9156,3 +9156,93 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-15 05:49:17] INFO root fetch - processPackages [flict]: Remove: archive file [/home/abi/fetcher/tmp/flict-1.0.9.tar.gz]
 [2023-06-15 05:49:17] INFO root fetch - main [MainThread]: End processing [flict]: success
 [2023-06-15 05:49:17] INFO root fetch - main [MainThread]: Store serial: [18510842]
+[2023-06-15 05:54:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18510842]
+[2023-06-15 05:54:26] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-15 05:54:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: coliseum
+[2023-06-15 05:54:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo14-addon-l10n-it-invoices-data-communication
+[2023-06-15 05:54:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: happyrobot
+[2023-06-15 05:54:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: login-gmail-selenium
+[2023-06-15 05:54:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dash-deckgl
+[2023-06-15 05:54:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cnmfsns
+[2023-06-15 05:54:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo14-addon-l10n-it-intrastat
+[2023-06-15 05:54:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo14-addons-oca-l10n-italy
+[2023-06-15 05:54:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: lolpop
+[2023-06-15 05:54:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: xflow-net
+[2023-06-15 05:54:26] INFO root fetch - processPackages [login-gmail-selenium]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-06-15 05:54:26] INFO root fetch - processPackages [coliseum]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-06-15 05:54:26] INFO root fetch - processPackages [xflow-net]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-06-15 05:54:26] INFO root fetch - processPackages [odoo14-addons-oca-l10n-italy]: New version: [14.0.20230614.0] Old Version: [14.0.20230509.0]
+[2023-06-15 05:54:26] INFO root fetch - processPackages [odoo14-addon-l10n-it-invoices-data-communication]: New version: [14.0.1.0.3.dev5] Old Version: [14.0.1.0.3.dev4]
+[2023-06-15 05:54:26] INFO root fetch - processPackages [dash-deckgl]: New version: [0.2.0] Old Version: [0.1.3]
+[2023-06-15 05:54:26] INFO root fetch - processPackages [cnmfsns]: New version: [1.4.0] Old Version: [1.3.2]
+[2023-06-15 05:54:26] INFO root fetch - processPackages [odoo14-addon-l10n-it-intrastat]: New version: [14.0.1.3.1.dev5] Old Version: [14.0.1.3.1.dev4]
+[2023-06-15 05:54:26] INFO root fetch - processPackages [lolpop]: New version: [0.1.0a8] Old Version: [0.1.0a7]
+[2023-06-15 05:54:26] INFO root fetch - processPackages [login-gmail-selenium]: Downloading https://files.pythonhosted.org/packages/ab/48/ba244569a608833e0672d30af655f0ad014623287da8eefa486c7bc2736a/login_gmail_selenium-1.1.8.tar.gz
+[2023-06-15 05:54:26] INFO root fetch - processPackages [xflow-net]: Downloading https://files.pythonhosted.org/packages/45/23/eb514e9a645e71f50b02088272167764c7065b5ceb68568bfe7af87a3893/xflow-net-0.0.6.tar.gz
+[2023-06-15 05:54:26] ERROR root fetch - processPackages [happyrobot]: Unable to get metadata: No such project 'happyrobot'
+[2023-06-15 05:54:26] INFO root fetch - processPackages [happyrobot]: Start processing: halc
+[2023-06-15 05:54:26] INFO root fetch - main [MainThread]: End processing [happyrobot] error
+[2023-06-15 05:54:26] INFO root fetch - processPackages [dash-deckgl]: Downloading https://files.pythonhosted.org/packages/40/4d/3fb1df01b4aff871605d4bd3daa603dff34ffd67ae8444d6e0ed08aaf67c/dash_deckgl-0.1.3.tar.gz
+[2023-06-15 05:54:26] INFO root fetch - processPackages [cnmfsns]: Downloading https://files.pythonhosted.org/packages/7e/b4/1f7c3ebd42ec114f0ce88b224960c47b86ef2e8d4bd6f98114040fef1a70/cnmfsns-1.3.2.tar.gz
+[2023-06-15 05:54:26] INFO root fetch - processPackages [odoo14-addons-oca-l10n-italy]: Downloading https://files.pythonhosted.org/packages/c6/49/c4ca9568c42654be4953c7d7c19b168bc991ca9c0c2759d21cf892e806e7/odoo14_addons_oca_l10n_italy-14.0.20230509.0-py3-none-any.whl
+[2023-06-15 05:54:26] WARNING root fetch - processPackages [halc]: Skipping, unable to determine old version
+[2023-06-15 05:54:26] INFO root fetch - processPackages [lolpop]: Downloading https://files.pythonhosted.org/packages/1f/eb/1bb706b2a108dbe20684d4568215f7368e794120c4acac63951714c88f1d/lolpop-0.1.0a7.tar.gz
+[2023-06-15 05:54:26] INFO root fetch - main [MainThread]: End processing [halc] error
+[2023-06-15 05:54:26] INFO root fetch - processPackages [odoo14-addon-l10n-it-intrastat]: Downloading https://files.pythonhosted.org/packages/76/53/b6044fee41933400207656e6cfefeaad27ded6eec888d9f7463f9d203d2c/odoo14_addon_l10n_it_intrastat-14.0.1.3.1.dev4-py3-none-any.whl
+[2023-06-15 05:54:26] INFO root fetch - processPackages [coliseum]: Downloading https://files.pythonhosted.org/packages/2b/4a/617567b970c08002de7fb78d2f51870c79e4510790f2a34496ca76ec8832/coliseum-1.0.4.tar.gz
+[2023-06-15 05:54:26] INFO root fetch - processPackages [odoo14-addon-l10n-it-invoices-data-communication]: Downloading https://files.pythonhosted.org/packages/d2/56/ab19986ba981c6a4ab1dad094c9e953f899c8f7ab642951998fdf78e80a4/odoo14_addon_l10n_it_invoices_data_communication-14.0.1.0.3.dev4-py3-none-any.whl
+[2023-06-15 05:54:26] INFO root fetch - processPackages [xflow-net]: Downloading https://files.pythonhosted.org/packages/30/82/e016ac091ff4e180dab20806ed765abbc58dc9105ca767a19aa696f18412/xflow-net-0.0.7.tar.gz
+[2023-06-15 05:54:27] INFO root fetch - processPackages [xflow-net]: executing diffoscope
+[2023-06-15 05:54:27] INFO root fetch - processPackages [xflow-net]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xflow-net-0.0.6.tar.gz tmp/xflow-net-0.0.7.tar.gz --markdown 20230615/x/xflow-net/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-06-15 05:54:27] INFO root fetch - processPackages [lolpop]: Downloading https://files.pythonhosted.org/packages/b2/9e/94dbbcebef06a8ae802383cf170bedaf904d084b2592c571b03c8702d75c/lolpop-0.1.0a8.tar.gz
+[2023-06-15 05:54:27] INFO root fetch - processPackages [login-gmail-selenium]: Downloading https://files.pythonhosted.org/packages/39/83/e8121e3a3877269ba6f93b9b0ff4fb253cd85716c457d678af64e50a91d1/login_gmail_selenium-1.1.9.tar.gz
+[2023-06-15 05:54:27] INFO root fetch - processPackages [odoo14-addons-oca-l10n-italy]: Downloading https://files.pythonhosted.org/packages/d2/03/f96c7064b9d239c9ed2bf8064e0e6a703e2333884c37fc605a6931a8aee8/odoo14_addons_oca_l10n_italy-14.0.20230614.0-py3-none-any.whl
+[2023-06-15 05:54:27] INFO root fetch - processPackages [cnmfsns]: Downloading https://files.pythonhosted.org/packages/d6/95/bdd9c3bae85a586ba94391c14920ae4ea8df1a2d81bb8587cc223980f71f/cnmfsns-1.4.0.tar.gz
+[2023-06-15 05:54:27] INFO root fetch - processPackages [coliseum]: Downloading https://files.pythonhosted.org/packages/4f/31/89ac436c9ed043e01aa55c6aa220d4e7ba0e77893720ac403ffbdef0897f/coliseum-1.0.5.tar.gz
+[2023-06-15 05:54:27] INFO root fetch - processPackages [dash-deckgl]: Downloading https://files.pythonhosted.org/packages/ac/d9/2ad292eb58a357617049a8718a4e89077665f947a866dcae8e712c1dcc44/dash_deckgl-0.2.0.tar.gz
+[2023-06-15 05:54:27] INFO root fetch - processPackages [odoo14-addon-l10n-it-invoices-data-communication]: Downloading https://files.pythonhosted.org/packages/22/27/42fb11e743d4564eb2df65f2d9b18edf86991b29e0fe54e4e3374b6224a7/odoo14_addon_l10n_it_invoices_data_communication-14.0.1.0.3.dev5-py3-none-any.whl
+[2023-06-15 05:54:27] INFO root fetch - processPackages [odoo14-addons-oca-l10n-italy]: executing diffoscope
+[2023-06-15 05:54:27] INFO root fetch - processPackages [odoo14-addons-oca-l10n-italy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addons_oca_l10n_italy-14.0.20230509.0-py3-none-any.whl.zip tmp/odoo14_addons_oca_l10n_italy-14.0.20230614.0-py3-none-any.whl.zip --markdown 20230615/o/odoo14-addons-oca-l10n-italy/14.0.20230509.0-14.0.20230614.0/diff.md --exclude *.pyd
+[2023-06-15 05:54:27] INFO root fetch - processPackages [cnmfsns]: executing diffoscope
+[2023-06-15 05:54:27] INFO root fetch - processPackages [cnmfsns]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cnmfsns-1.3.2.tar.gz tmp/cnmfsns-1.4.0.tar.gz --markdown 20230615/c/cnmfsns/1.3.2-1.4.0/diff.md --exclude *.pyd
+[2023-06-15 05:54:27] INFO root fetch - processPackages [coliseum]: executing diffoscope
+[2023-06-15 05:54:27] INFO root fetch - processPackages [coliseum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coliseum-1.0.4.tar.gz tmp/coliseum-1.0.5.tar.gz --markdown 20230615/c/coliseum/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-06-15 05:54:27] INFO root fetch - processPackages [login-gmail-selenium]: executing diffoscope
+[2023-06-15 05:54:27] INFO root fetch - processPackages [login-gmail-selenium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/login_gmail_selenium-1.1.8.tar.gz tmp/login_gmail_selenium-1.1.9.tar.gz --markdown 20230615/l/login-gmail-selenium/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-06-15 05:54:27] INFO root fetch - processPackages [odoo14-addon-l10n-it-invoices-data-communication]: executing diffoscope
+[2023-06-15 05:54:27] INFO root fetch - processPackages [odoo14-addon-l10n-it-invoices-data-communication]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_it_invoices_data_communication-14.0.1.0.3.dev4-py3-none-any.whl.zip tmp/odoo14_addon_l10n_it_invoices_data_communication-14.0.1.0.3.dev5-py3-none-any.whl.zip --markdown 20230615/o/odoo14-addon-l10n-it-invoices-data-communication/14.0.1.0.3.dev4-14.0.1.0.3.dev5/diff.md --exclude *.pyd
+[2023-06-15 05:54:27] INFO root fetch - processPackages [lolpop]: executing diffoscope
+[2023-06-15 05:54:27] INFO root fetch - processPackages [lolpop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lolpop-0.1.0a7.tar.gz tmp/lolpop-0.1.0a8.tar.gz --markdown 20230615/l/lolpop/0.1.0a7-0.1.0a8/diff.md --exclude *.pyd
+[2023-06-15 05:54:27] INFO root fetch - processPackages [dash-deckgl]: executing diffoscope
+[2023-06-15 05:54:27] INFO root fetch - processPackages [dash-deckgl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dash_deckgl-0.1.3.tar.gz tmp/dash_deckgl-0.2.0.tar.gz --markdown 20230615/d/dash-deckgl/0.1.3-0.2.0/diff.md --exclude *.pyd
+[2023-06-15 05:54:27] INFO root fetch - processPackages [odoo14-addon-l10n-it-intrastat]: Downloading https://files.pythonhosted.org/packages/98/ac/4d2b6b2cda5506e0e7f80705dff199353c66ea959b29849e3751438d5406/odoo14_addon_l10n_it_intrastat-14.0.1.3.1.dev5-py3-none-any.whl
+[2023-06-15 05:54:27] INFO root fetch - processPackages [odoo14-addon-l10n-it-intrastat]: executing diffoscope
+[2023-06-15 05:54:27] INFO root fetch - processPackages [odoo14-addon-l10n-it-intrastat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_it_intrastat-14.0.1.3.1.dev4-py3-none-any.whl.zip tmp/odoo14_addon_l10n_it_intrastat-14.0.1.3.1.dev5-py3-none-any.whl.zip --markdown 20230615/o/odoo14-addon-l10n-it-intrastat/14.0.1.3.1.dev4-14.0.1.3.1.dev5/diff.md --exclude *.pyd
+[2023-06-15 05:54:28] INFO root fetch - processPackages [xflow-net]: Remove: archive file [/home/abi/fetcher/tmp/xflow-net-0.0.6.tar.gz]
+[2023-06-15 05:54:28] INFO root fetch - processPackages [xflow-net]: Remove: archive file [/home/abi/fetcher/tmp/xflow-net-0.0.7.tar.gz]
+[2023-06-15 05:54:28] INFO root fetch - main [MainThread]: End processing [xflow-net]: success
+[2023-06-15 05:54:28] INFO root fetch - processPackages [odoo14-addons-oca-l10n-italy]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addons_oca_l10n_italy-14.0.20230509.0-py3-none-any.whl.zip]
+[2023-06-15 05:54:28] INFO root fetch - processPackages [odoo14-addons-oca-l10n-italy]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addons_oca_l10n_italy-14.0.20230614.0-py3-none-any.whl.zip]
+[2023-06-15 05:54:28] INFO root fetch - main [MainThread]: End processing [odoo14-addons-oca-l10n-italy]: success
+[2023-06-15 05:54:28] INFO root fetch - processPackages [coliseum]: Remove: archive file [/home/abi/fetcher/tmp/coliseum-1.0.4.tar.gz]
+[2023-06-15 05:54:28] INFO root fetch - processPackages [coliseum]: Remove: archive file [/home/abi/fetcher/tmp/coliseum-1.0.5.tar.gz]
+[2023-06-15 05:54:28] INFO root fetch - main [MainThread]: End processing [coliseum]: success
+[2023-06-15 05:54:28] INFO root fetch - processPackages [odoo14-addon-l10n-it-invoices-data-communication]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_it_invoices_data_communication-14.0.1.0.3.dev4-py3-none-any.whl.zip]
+[2023-06-15 05:54:28] INFO root fetch - processPackages [odoo14-addon-l10n-it-invoices-data-communication]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_it_invoices_data_communication-14.0.1.0.3.dev5-py3-none-any.whl.zip]
+[2023-06-15 05:54:28] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-it-invoices-data-communication]: success
+[2023-06-15 05:54:29] INFO root fetch - processPackages [login-gmail-selenium]: Remove: archive file [/home/abi/fetcher/tmp/login_gmail_selenium-1.1.8.tar.gz]
+[2023-06-15 05:54:29] INFO root fetch - processPackages [login-gmail-selenium]: Remove: archive file [/home/abi/fetcher/tmp/login_gmail_selenium-1.1.9.tar.gz]
+[2023-06-15 05:54:29] INFO root fetch - main [MainThread]: End processing [login-gmail-selenium]: success
+[2023-06-15 05:54:29] INFO root fetch - processPackages [cnmfsns]: Remove: archive file [/home/abi/fetcher/tmp/cnmfsns-1.3.2.tar.gz]
+[2023-06-15 05:54:29] INFO root fetch - processPackages [cnmfsns]: Remove: archive file [/home/abi/fetcher/tmp/cnmfsns-1.4.0.tar.gz]
+[2023-06-15 05:54:29] INFO root fetch - main [MainThread]: End processing [cnmfsns]: success
+[2023-06-15 05:54:30] INFO root fetch - processPackages [lolpop]: Remove: archive file [/home/abi/fetcher/tmp/lolpop-0.1.0a7.tar.gz]
+[2023-06-15 05:54:30] INFO root fetch - processPackages [lolpop]: Remove: archive file [/home/abi/fetcher/tmp/lolpop-0.1.0a8.tar.gz]
+[2023-06-15 05:54:30] INFO root fetch - main [MainThread]: End processing [lolpop]: success
+[2023-06-15 05:54:31] INFO root fetch - processPackages [odoo14-addon-l10n-it-intrastat]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_it_intrastat-14.0.1.3.1.dev4-py3-none-any.whl.zip]
+[2023-06-15 05:54:31] INFO root fetch - processPackages [odoo14-addon-l10n-it-intrastat]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_it_intrastat-14.0.1.3.1.dev5-py3-none-any.whl.zip]
+[2023-06-15 05:54:31] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-it-intrastat]: success
+[2023-06-15 05:54:39] INFO root fetch - processPackages [dash-deckgl]: Remove: archive file [/home/abi/fetcher/tmp/dash_deckgl-0.1.3.tar.gz]
+[2023-06-15 05:54:39] INFO root fetch - processPackages [dash-deckgl]: Remove: archive file [/home/abi/fetcher/tmp/dash_deckgl-0.2.0.tar.gz]
+[2023-06-15 05:54:39] INFO root fetch - main [MainThread]: End processing [dash-deckgl]: success
+[2023-06-15 05:54:39] INFO root fetch - main [MainThread]: Store serial: [18510877]
