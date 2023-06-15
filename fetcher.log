@@ -5570,3 +5570,105 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 
 [2023-06-15 03:01:04] INFO root fetch - main [MainThread]: End processing [pycde] error
 [2023-06-15 03:01:04] INFO root fetch - main [MainThread]: Store serial: [18509485]
+[2023-06-15 03:06:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18509485]
+[2023-06-15 03:06:12] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-15 03:06:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: benchling-api-client
+[2023-06-15 03:06:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-sns-notify
+[2023-06-15 03:06:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyproject-ops
+[2023-06-15 03:06:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bioversions
+[2023-06-15 03:06:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: concurrent-executor
+[2023-06-15 03:06:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: django-ckc
+[2023-06-15 03:06:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: proxidize-wrapper
+[2023-06-15 03:06:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cdk-emrserverless-with-delta-lake
+[2023-06-15 03:06:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: aemcmc-nightly
+[2023-06-15 03:06:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cdk-lambda-layer-curl
+[2023-06-15 03:06:12] INFO root fetch - processPackages [concurrent-executor]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-06-15 03:06:12] INFO root fetch - processPackages [django-ckc]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-15 03:06:12] INFO root fetch - processPackages [proxidize-wrapper]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-15 03:06:12] INFO root fetch - processPackages [bioversions]: New version: [0.5.99] Old Version: [0.5.98]
+[2023-06-15 03:06:12] INFO root fetch - processPackages [cdk-sns-notify]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-15 03:06:12] INFO root fetch - processPackages [pyproject-ops]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-06-15 03:06:12] INFO root fetch - processPackages [benchling-api-client]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-06-15 03:06:12] INFO root fetch - processPackages [aemcmc-nightly]: New version: [0.0.8.dev20230614] Old Version: [0.0.8.dev20230613]
+[2023-06-15 03:06:12] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-06-15 03:06:12] INFO root fetch - processPackages [cdk-lambda-layer-curl]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-06-15 03:06:12] INFO root fetch - processPackages [bioversions]: Downloading https://files.pythonhosted.org/packages/e6/34/7c40209c13edc9fe7c611a00fd4b0d6e59d501613427ed6713ad6398b655/bioversions-0.5.98.tar.gz
+[2023-06-15 03:06:12] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Downloading https://files.pythonhosted.org/packages/c8/e2/39c88cfa63f418383f3a383b2b62dfe801cbfd5c53de4d005804c19d76dc/cdk-lambda-layer-curl-2.0.98.tar.gz
+[2023-06-15 03:06:12] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: Downloading https://files.pythonhosted.org/packages/ca/c8/c8aec8668c8ae715e0e15ea3ea2e2e326fea6b5d0258b79e2b876aefa521/cdk_emrserverless_with_delta_lake-2.0.98.tar.gz
+[2023-06-15 03:06:12] INFO root fetch - processPackages [proxidize-wrapper]: Downloading https://files.pythonhosted.org/packages/ed/07/51fe54fc6370b6f9617dc29f375a9c04b7aa81ad7ad63bcb02572860ee67/proxidize_wrapper-0.1.0.tar.gz
+[2023-06-15 03:06:12] INFO root fetch - processPackages [bioversions]: Downloading https://files.pythonhosted.org/packages/0d/f5/5956eccd9643084cc5f7aba6325ec9de1ed3a2bb3568a8ee7ab88d0eac77/bioversions-0.5.99.tar.gz
+[2023-06-15 03:06:12] INFO root fetch - processPackages [concurrent-executor]: Downloading https://files.pythonhosted.org/packages/22/4a/87731c1e87cc3fe25e3cc12cee36d83bf244db48b344c8b729284389263f/concurrent-executor-1.1.1.tar.gz
+[2023-06-15 03:06:12] INFO root fetch - processPackages [cdk-sns-notify]: Downloading https://files.pythonhosted.org/packages/63/7d/ec62f3b7c0e08e1437b2036911a0d42b75ee30ea2cbb819399bdf8b55111/cdk-sns-notify-0.0.98.tar.gz
+[2023-06-15 03:06:13] INFO root fetch - processPackages [benchling-api-client]: Downloading https://files.pythonhosted.org/packages/ce/1d/9c3669396c4c52924ccf39a48a438a2c8167c4fb512eca865bd64066d33e/benchling_api_client-2.0.98.tar.gz
+[2023-06-15 03:06:13] INFO root fetch - processPackages [django-ckc]: Downloading https://files.pythonhosted.org/packages/17/53/4d9fca1b266ef1c1026397ef92c6f80ea058de8963faa699494b8658ad8f/django-ckc-0.0.8.tar.gz
+[2023-06-15 03:06:13] INFO root fetch - processPackages [aemcmc-nightly]: Downloading https://files.pythonhosted.org/packages/fb/cc/e2b2109007eebd1371fd67958f483b2298a4650446bbbbabfad1e9975fa6/aemcmc-nightly-0.0.8.dev20230613.tar.gz
+[2023-06-15 03:06:13] INFO root fetch - processPackages [pyproject-ops]: Downloading https://files.pythonhosted.org/packages/bd/ed/1fa7ce27b100a9a1cc8336e3feeb1c9af1495accf0dfb48da90f62e406d9/pyproject_ops-0.2.1.tar.gz
+[2023-06-15 03:06:13] INFO root fetch - processPackages [bioversions]: executing diffoscope
+[2023-06-15 03:06:13] INFO root fetch - processPackages [bioversions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bioversions-0.5.98.tar.gz tmp/bioversions-0.5.99.tar.gz --markdown 20230615/b/bioversions/0.5.98-0.5.99/diff.md --exclude *.pyd
+[2023-06-15 03:06:13] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Downloading https://files.pythonhosted.org/packages/2e/02/9e7ab6bc6191e2cbe6705c1530f695ed00527096133668b731e72d6a6445/cdk-lambda-layer-curl-2.0.99.tar.gz
+[2023-06-15 03:06:13] INFO root fetch - processPackages [proxidize-wrapper]: Downloading https://files.pythonhosted.org/packages/03/96/a7958906f17d8b3a64e0c2ad37b227e81022bc572a799268cae0e03df00d/proxidize_wrapper-0.1.1.tar.gz
+[2023-06-15 03:06:13] INFO root fetch - processPackages [cdk-lambda-layer-curl]: executing diffoscope
+[2023-06-15 03:06:13] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: Downloading https://files.pythonhosted.org/packages/7f/24/30b3ba3f3be3fa0cda5f66dcfce20bb782a7327b2635d12d6f66d6acf91f/cdk_emrserverless_with_delta_lake-2.0.99.tar.gz
+[2023-06-15 03:06:13] INFO root fetch - processPackages [cdk-lambda-layer-curl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-lambda-layer-curl-2.0.98.tar.gz tmp/cdk-lambda-layer-curl-2.0.99.tar.gz --markdown 20230615/c/cdk-lambda-layer-curl/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-06-15 03:06:13] INFO root fetch - processPackages [cdk-sns-notify]: Downloading https://files.pythonhosted.org/packages/18/81/3593e022c53913815c1207f0d20763efc2764992a13c81d641f3a01edf7d/cdk-sns-notify-0.0.99.tar.gz
+[2023-06-15 03:06:13] INFO root fetch - processPackages [proxidize-wrapper]: executing diffoscope
+[2023-06-15 03:06:13] INFO root fetch - processPackages [proxidize-wrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proxidize_wrapper-0.1.0.tar.gz tmp/proxidize_wrapper-0.1.1.tar.gz --markdown 20230615/p/proxidize-wrapper/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-15 03:06:13] INFO root fetch - processPackages [aemcmc-nightly]: Downloading https://files.pythonhosted.org/packages/c9/e8/90aaa4c4ed669ab7a87f65c051c487895c07308c7f482c776843cce3a663/aemcmc-nightly-0.0.8.dev20230614.tar.gz
+[2023-06-15 03:06:13] INFO root fetch - processPackages [concurrent-executor]: Downloading https://files.pythonhosted.org/packages/04/57/d659120de5e793c048474065e2bce09b73342a4fd0c74abe0857c55931b9/concurrent-executor-1.1.2.tar.gz
+[2023-06-15 03:06:13] INFO root fetch - processPackages [cdk-sns-notify]: executing diffoscope
+[2023-06-15 03:06:13] INFO root fetch - processPackages [cdk-sns-notify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-sns-notify-0.0.98.tar.gz tmp/cdk-sns-notify-0.0.99.tar.gz --markdown 20230615/c/cdk-sns-notify/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-15 03:06:13] INFO root fetch - processPackages [django-ckc]: Downloading https://files.pythonhosted.org/packages/64/a0/8f3ffbf980a27149b538f8f66dbbcbe62c70a887a155ab9ce6d7cf2ac2df/django-ckc-0.0.9.tar.gz
+[2023-06-15 03:06:13] INFO root fetch - processPackages [pyproject-ops]: Downloading https://files.pythonhosted.org/packages/70/b8/10d981ec43511f483cedc51052eb406b6e1edd41edfdc6ca9673eac7b66f/pyproject_ops-0.2.2.tar.gz
+[2023-06-15 03:06:13] INFO root fetch - processPackages [concurrent-executor]: executing diffoscope
+[2023-06-15 03:06:13] INFO root fetch - processPackages [concurrent-executor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/concurrent-executor-1.1.1.tar.gz tmp/concurrent-executor-1.1.2.tar.gz --markdown 20230615/c/concurrent-executor/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-06-15 03:06:13] INFO root fetch - processPackages [pyproject-ops]: executing diffoscope
+[2023-06-15 03:06:13] INFO root fetch - processPackages [pyproject-ops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyproject_ops-0.2.1.tar.gz tmp/pyproject_ops-0.2.2.tar.gz --markdown 20230615/p/pyproject-ops/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-06-15 03:06:13] INFO root fetch - processPackages [aemcmc-nightly]: executing diffoscope
+[2023-06-15 03:06:13] INFO root fetch - processPackages [aemcmc-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aemcmc-nightly-0.0.8.dev20230613.tar.gz tmp/aemcmc-nightly-0.0.8.dev20230614.tar.gz --markdown 20230615/a/aemcmc-nightly/0.0.8.dev20230613-0.0.8.dev20230614/diff.md --exclude *.pyd
+[2023-06-15 03:06:13] INFO root fetch - processPackages [django-ckc]: executing diffoscope
+[2023-06-15 03:06:13] INFO root fetch - processPackages [django-ckc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-ckc-0.0.8.tar.gz tmp/django-ckc-0.0.9.tar.gz --markdown 20230615/d/django-ckc/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-15 03:06:13] INFO root fetch - processPackages [benchling-api-client]: Downloading https://files.pythonhosted.org/packages/f9/23/649c2147d11c171b4b3d27c6a52dab32d22dc24ec1c248cf5d1dd8a4451d/benchling_api_client-2.0.99.tar.gz
+[2023-06-15 03:06:13] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: executing diffoscope
+[2023-06-15 03:06:13] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk_emrserverless_with_delta_lake-2.0.98.tar.gz tmp/cdk_emrserverless_with_delta_lake-2.0.99.tar.gz --markdown 20230615/c/cdk-emrserverless-with-delta-lake/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-06-15 03:06:14] INFO root fetch - processPackages [benchling-api-client]: executing diffoscope
+[2023-06-15 03:06:14] INFO root fetch - processPackages [benchling-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/benchling_api_client-2.0.98.tar.gz tmp/benchling_api_client-2.0.99.tar.gz --markdown 20230615/b/benchling-api-client/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-06-15 03:06:14] INFO root fetch - processPackages [proxidize-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/proxidize_wrapper-0.1.0.tar.gz]
+[2023-06-15 03:06:14] INFO root fetch - processPackages [proxidize-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/proxidize_wrapper-0.1.1.tar.gz]
+[2023-06-15 03:06:14] INFO root fetch - processPackages [proxidize-wrapper]: Start processing: connected-components-3d
+[2023-06-15 03:06:14] INFO root fetch - main [MainThread]: End processing [proxidize-wrapper]: success
+[2023-06-15 03:06:14] INFO root fetch - processPackages [cdk-sns-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sns-notify-0.0.98.tar.gz]
+[2023-06-15 03:06:14] INFO root fetch - processPackages [cdk-sns-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sns-notify-0.0.99.tar.gz]
+[2023-06-15 03:06:14] INFO root fetch - main [MainThread]: End processing [cdk-sns-notify]: success
+[2023-06-15 03:06:14] INFO root fetch - processPackages [connected-components-3d]: New version: [3.9.1] Old Version: [3.9.0]
+[2023-06-15 03:06:14] INFO root fetch - processPackages [concurrent-executor]: Remove: archive file [/home/abi/fetcher/tmp/concurrent-executor-1.1.1.tar.gz]
+[2023-06-15 03:06:14] INFO root fetch - processPackages [concurrent-executor]: Remove: archive file [/home/abi/fetcher/tmp/concurrent-executor-1.1.2.tar.gz]
+[2023-06-15 03:06:14] INFO root fetch - main [MainThread]: End processing [concurrent-executor]: success
+[2023-06-15 03:06:15] INFO root fetch - processPackages [pyproject-ops]: Remove: archive file [/home/abi/fetcher/tmp/pyproject_ops-0.2.1.tar.gz]
+[2023-06-15 03:06:15] INFO root fetch - processPackages [pyproject-ops]: Remove: archive file [/home/abi/fetcher/tmp/pyproject_ops-0.2.2.tar.gz]
+[2023-06-15 03:06:15] INFO root fetch - main [MainThread]: End processing [pyproject-ops]: success
+[2023-06-15 03:06:15] INFO root fetch - processPackages [connected-components-3d]: Downloading https://files.pythonhosted.org/packages/51/f7/273086ac8fbe360bd2595ef0d4dd153890299f2197dacb752a43441f87cf/connected-components-3d-3.9.0.tar.gz
+[2023-06-15 03:06:15] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: Remove: archive file [/home/abi/fetcher/tmp/cdk_emrserverless_with_delta_lake-2.0.98.tar.gz]
+[2023-06-15 03:06:15] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: Remove: archive file [/home/abi/fetcher/tmp/cdk_emrserverless_with_delta_lake-2.0.99.tar.gz]
+[2023-06-15 03:06:15] INFO root fetch - main [MainThread]: End processing [cdk-emrserverless-with-delta-lake]: success
+[2023-06-15 03:06:15] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.98.tar.gz]
+[2023-06-15 03:06:15] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.99.tar.gz]
+[2023-06-15 03:06:15] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-curl]: success
+[2023-06-15 03:06:15] INFO root fetch - processPackages [django-ckc]: Remove: archive file [/home/abi/fetcher/tmp/django-ckc-0.0.8.tar.gz]
+[2023-06-15 03:06:15] INFO root fetch - processPackages [django-ckc]: Remove: archive file [/home/abi/fetcher/tmp/django-ckc-0.0.9.tar.gz]
+[2023-06-15 03:06:15] INFO root fetch - main [MainThread]: End processing [django-ckc]: success
+[2023-06-15 03:06:15] INFO root fetch - processPackages [connected-components-3d]: Downloading https://files.pythonhosted.org/packages/14/97/5d0d6bde68a8f6a4eca89d60116c7e6c1761f7d410f586fecde73d7d67dc/connected-components-3d-3.9.1.tar.gz
+[2023-06-15 03:06:15] INFO root fetch - processPackages [aemcmc-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aemcmc-nightly-0.0.8.dev20230613.tar.gz]
+[2023-06-15 03:06:15] INFO root fetch - processPackages [aemcmc-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aemcmc-nightly-0.0.8.dev20230614.tar.gz]
+[2023-06-15 03:06:15] INFO root fetch - main [MainThread]: End processing [aemcmc-nightly]: success
+[2023-06-15 03:06:15] INFO root fetch - processPackages [connected-components-3d]: executing diffoscope
+[2023-06-15 03:06:15] INFO root fetch - processPackages [connected-components-3d]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/connected-components-3d-3.9.0.tar.gz tmp/connected-components-3d-3.9.1.tar.gz --markdown 20230615/c/connected-components-3d/3.9.0-3.9.1/diff.md --exclude *.pyd
+[2023-06-15 03:06:17] INFO root fetch - processPackages [connected-components-3d]: Remove: archive file [/home/abi/fetcher/tmp/connected-components-3d-3.9.0.tar.gz]
+[2023-06-15 03:06:17] INFO root fetch - processPackages [connected-components-3d]: Remove: archive file [/home/abi/fetcher/tmp/connected-components-3d-3.9.1.tar.gz]
+[2023-06-15 03:06:17] INFO root fetch - main [MainThread]: End processing [connected-components-3d]: success
+[2023-06-15 03:06:34] INFO root fetch - processPackages [bioversions]: Remove: archive file [/home/abi/fetcher/tmp/bioversions-0.5.98.tar.gz]
+[2023-06-15 03:06:34] INFO root fetch - processPackages [bioversions]: Remove: archive file [/home/abi/fetcher/tmp/bioversions-0.5.99.tar.gz]
+[2023-06-15 03:06:34] INFO root fetch - main [MainThread]: End processing [bioversions]: success
+[2023-06-15 03:08:02] INFO root fetch - processPackages [benchling-api-client]: Remove: archive file [/home/abi/fetcher/tmp/benchling_api_client-2.0.98.tar.gz]
+[2023-06-15 03:08:02] INFO root fetch - processPackages [benchling-api-client]: Remove: archive file [/home/abi/fetcher/tmp/benchling_api_client-2.0.99.tar.gz]
+[2023-06-15 03:08:02] INFO root fetch - main [MainThread]: End processing [benchling-api-client]: success
+[2023-06-15 03:08:02] INFO root fetch - main [MainThread]: Store serial: [18509525]
