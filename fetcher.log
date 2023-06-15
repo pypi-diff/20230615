@@ -11210,3 +11210,81 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-15 07:56:53] INFO root fetch - processPackages [je-editor-dev]: Remove: archive file [/home/abi/fetcher/tmp/je_editor_dev-0.0.99.tar.gz]
 [2023-06-15 07:56:53] INFO root fetch - main [MainThread]: End processing [je-editor-dev]: success
 [2023-06-15 07:56:53] INFO root fetch - main [MainThread]: Store serial: [18511598]
+[2023-06-15 08:01:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18511598]
+[2023-06-15 08:02:02] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-15 08:02:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: control-lab-ly
+[2023-06-15 08:02:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: yunxiao
+[2023-06-15 08:02:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: spPersist
+[2023-06-15 08:02:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: algokit
+[2023-06-15 08:02:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rongdavbaaddins
+[2023-06-15 08:02:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: turborest
+[2023-06-15 08:02:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: democracy
+[2023-06-15 08:02:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mynacode
+[2023-06-15 08:02:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: rajesh-cli
+[2023-06-15 08:02:02] INFO root fetch - processPackages [yunxiao]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-06-15 08:02:02] INFO root fetch - processPackages [control-lab-ly]: New version: [1.1.0b0] Old Version: [1.1.0a0]
+[2023-06-15 08:02:02] INFO root fetch - processPackages [algokit]: New version: [1.1.5] Old Version: [1.1.4]
+[2023-06-15 08:02:02] INFO root fetch - processPackages [spPersist]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-06-15 08:02:02] INFO root fetch - processPackages [mynacode]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-06-15 08:02:02] INFO root fetch - processPackages [democracy]: New version: [1.0.28] Old Version: [1.0.27]
+[2023-06-15 08:02:02] WARNING root fetch - processPackages [rajesh-cli]: Skipping, unable to determine old version
+[2023-06-15 08:02:02] INFO root fetch - main [MainThread]: End processing [rajesh-cli] error
+[2023-06-15 08:02:02] INFO root fetch - processPackages [turborest]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-06-15 08:02:02] INFO root fetch - processPackages [rongdavbaaddins]: New version: [0.0.2.1] Old Version: [0.0.2.0]
+[2023-06-15 08:02:02] INFO root fetch - processPackages [yunxiao]: Downloading https://files.pythonhosted.org/packages/52/61/4e2292e7efb06f7982c49efe7e1a51e601c4fdc9506b9f2a6932db2626ca/yunxiao-0.2.7.tar.gz
+[2023-06-15 08:02:02] INFO root fetch - processPackages [algokit]: Downloading https://files.pythonhosted.org/packages/a2/09/6ba8adf9eab8a75701100669c73e82d2c107cac0828252d700e1c2b7ee07/algokit-1.1.4-py3-none-any.whl
+[2023-06-15 08:02:02] INFO root fetch - processPackages [mynacode]: Downloading https://files.pythonhosted.org/packages/1d/24/3d4ef0a0a267fb47bcbac68ff9b760a9b892095f2ee727874f0286d600c3/mynacode-1.0.98-py3-none-any.whl
+[2023-06-15 08:02:02] INFO root fetch - processPackages [spPersist]: Downloading https://files.pythonhosted.org/packages/cb/db/b39bb6d30a1622b90b29b68e40f7edc2a0b5afee70b3b6d726228473b29b/spPersist-1.0.6.tar.gz
+[2023-06-15 08:02:02] INFO root fetch - processPackages [democracy]: Downloading https://files.pythonhosted.org/packages/78/a4/42d898b51d101bc313410d4628eb444014154e884ce7dc5fe09e3103f2f9/democracy-1.0.27.tar.gz
+[2023-06-15 08:02:02] INFO root fetch - processPackages [turborest]: Downloading https://files.pythonhosted.org/packages/a3/f2/1da9e03952360a7e36dc86bce5d06077696b95b0af7eca91ef898ff31e97/turborest-0.1.3.tar.gz
+[2023-06-15 08:02:02] INFO root fetch - processPackages [mynacode]: Downloading https://files.pythonhosted.org/packages/38/32/362f7abef6d28b78afa03843fa2eadc7bb1454ef66bde894a08e281d5bfb/mynacode-1.0.99-py3-none-any.whl
+[2023-06-15 08:02:02] INFO root fetch - processPackages [control-lab-ly]: Downloading https://files.pythonhosted.org/packages/3f/b1/08d4041f7ba754b499228aafbb457cafd2563735773794641ce258ec2a65/control-lab-ly-1.1.0a0.tar.gz
+[2023-06-15 08:02:02] INFO root fetch - processPackages [mynacode]: executing diffoscope
+[2023-06-15 08:02:02] INFO root fetch - processPackages [mynacode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mynacode-1.0.98-py3-none-any.whl.zip tmp/mynacode-1.0.99-py3-none-any.whl.zip --markdown 20230615/m/mynacode/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-06-15 08:02:02] INFO root fetch - processPackages [rongdavbaaddins]: Downloading https://files.pythonhosted.org/packages/e1/b6/47f138fa2a5cddfe316b0ba763cda4dc24723a5a64d0167c37ee531e0a05/rongdavbaaddins-0.0.2.0.tar.gz
+[2023-06-15 08:02:02] INFO root fetch - processPackages [spPersist]: Downloading https://files.pythonhosted.org/packages/df/c1/008ba705a0db9dadff44775496f843d51b40d0364014a58bec9e9a7f147a/sppersist-1.0.7.tar.gz
+[2023-06-15 08:02:02] INFO root fetch - processPackages [turborest]: Downloading https://files.pythonhosted.org/packages/8a/d5/c8c6046408c066bb887e1b78e19abae920bce4fac4372a3ca853a09eb66f/turborest-0.1.4.tar.gz
+[2023-06-15 08:02:02] INFO root fetch - processPackages [democracy]: Downloading https://files.pythonhosted.org/packages/19/1a/0ffca442fc3d1710191b37d6481474b29b7200bf125cb9e57fc93b89725a/democracy-1.0.28.tar.gz
+[2023-06-15 08:02:02] INFO root fetch - processPackages [algokit]: Downloading https://files.pythonhosted.org/packages/7b/c6/4b0a61e5df36849b64e22b7ff23149ad8f765f4ba6bac435c732ca7c6cb6/algokit-1.1.5-py3-none-any.whl
+[2023-06-15 08:02:02] INFO root fetch - processPackages [spPersist]: executing diffoscope
+[2023-06-15 08:02:02] INFO root fetch - processPackages [spPersist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spPersist-1.0.6.tar.gz tmp/sppersist-1.0.7.tar.gz --markdown 20230615/s/spPersist/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-06-15 08:02:02] INFO root fetch - processPackages [yunxiao]: Downloading https://files.pythonhosted.org/packages/57/69/29061f6a84ab3f0e0f0a0d3584dd47e5392b78b550851182104893b1d694/yunxiao-0.2.8.tar.gz
+[2023-06-15 08:02:02] INFO root fetch - processPackages [algokit]: executing diffoscope
+[2023-06-15 08:02:02] INFO root fetch - processPackages [algokit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/algokit-1.1.4-py3-none-any.whl.zip tmp/algokit-1.1.5-py3-none-any.whl.zip --markdown 20230615/a/algokit/1.1.4-1.1.5/diff.md --exclude *.pyd
+[2023-06-15 08:02:02] INFO root fetch - processPackages [turborest]: executing diffoscope
+[2023-06-15 08:02:02] INFO root fetch - processPackages [turborest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/turborest-0.1.3.tar.gz tmp/turborest-0.1.4.tar.gz --markdown 20230615/t/turborest/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-06-15 08:02:02] INFO root fetch - processPackages [yunxiao]: executing diffoscope
+[2023-06-15 08:02:02] INFO root fetch - processPackages [yunxiao]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yunxiao-0.2.7.tar.gz tmp/yunxiao-0.2.8.tar.gz --markdown 20230615/y/yunxiao/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-06-15 08:02:03] INFO root fetch - processPackages [democracy]: executing diffoscope
+[2023-06-15 08:02:03] INFO root fetch - processPackages [democracy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/democracy-1.0.27.tar.gz tmp/democracy-1.0.28.tar.gz --markdown 20230615/d/democracy/1.0.27-1.0.28/diff.md --exclude *.pyd
+[2023-06-15 08:02:03] INFO root fetch - processPackages [rongdavbaaddins]: Downloading https://files.pythonhosted.org/packages/74/af/429bc61916fcb7704c0e61d3c218bb3d741f849b1aed43252b3a90b0759d/rongdavbaaddins-0.0.2.1.tar.gz
+[2023-06-15 08:02:03] INFO root fetch - processPackages [rongdavbaaddins]: executing diffoscope
+[2023-06-15 08:02:03] INFO root fetch - processPackages [rongdavbaaddins]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rongdavbaaddins-0.0.2.0.tar.gz tmp/rongdavbaaddins-0.0.2.1.tar.gz --markdown 20230615/r/rongdavbaaddins/0.0.2.0-0.0.2.1/diff.md --exclude *.pyd
+[2023-06-15 08:02:03] INFO root fetch - processPackages [control-lab-ly]: Downloading https://files.pythonhosted.org/packages/84/14/f24043b0d5e244780c12662b67f775d95a3dff52d9e42a8e16992f187281/control-lab-ly-1.1.0b0.tar.gz
+[2023-06-15 08:02:03] INFO root fetch - processPackages [control-lab-ly]: executing diffoscope
+[2023-06-15 08:02:03] INFO root fetch - processPackages [control-lab-ly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/control-lab-ly-1.1.0a0.tar.gz tmp/control-lab-ly-1.1.0b0.tar.gz --markdown 20230615/c/control-lab-ly/1.1.0a0-1.1.0b0/diff.md --exclude *.pyd
+[2023-06-15 08:02:03] INFO root fetch - processPackages [mynacode]: Remove: archive file [/home/abi/fetcher/tmp/mynacode-1.0.98-py3-none-any.whl.zip]
+[2023-06-15 08:02:03] INFO root fetch - processPackages [mynacode]: Remove: archive file [/home/abi/fetcher/tmp/mynacode-1.0.99-py3-none-any.whl.zip]
+[2023-06-15 08:02:03] INFO root fetch - main [MainThread]: End processing [mynacode]: success
+[2023-06-15 08:02:04] INFO root fetch - processPackages [spPersist]: Remove: archive file [/home/abi/fetcher/tmp/spPersist-1.0.6.tar.gz]
+[2023-06-15 08:02:04] INFO root fetch - processPackages [spPersist]: Remove: archive file [/home/abi/fetcher/tmp/sppersist-1.0.7.tar.gz]
+[2023-06-15 08:02:04] INFO root fetch - main [MainThread]: End processing [spPersist]: success
+[2023-06-15 08:02:04] INFO root fetch - processPackages [yunxiao]: Remove: archive file [/home/abi/fetcher/tmp/yunxiao-0.2.7.tar.gz]
+[2023-06-15 08:02:04] INFO root fetch - processPackages [yunxiao]: Remove: archive file [/home/abi/fetcher/tmp/yunxiao-0.2.8.tar.gz]
+[2023-06-15 08:02:04] INFO root fetch - main [MainThread]: End processing [yunxiao]: success
+[2023-06-15 08:02:04] INFO root fetch - processPackages [algokit]: Remove: archive file [/home/abi/fetcher/tmp/algokit-1.1.4-py3-none-any.whl.zip]
+[2023-06-15 08:02:04] INFO root fetch - processPackages [algokit]: Remove: archive file [/home/abi/fetcher/tmp/algokit-1.1.5-py3-none-any.whl.zip]
+[2023-06-15 08:02:04] INFO root fetch - main [MainThread]: End processing [algokit]: success
+[2023-06-15 08:02:04] INFO root fetch - processPackages [democracy]: Remove: archive file [/home/abi/fetcher/tmp/democracy-1.0.27.tar.gz]
+[2023-06-15 08:02:04] INFO root fetch - processPackages [democracy]: Remove: archive file [/home/abi/fetcher/tmp/democracy-1.0.28.tar.gz]
+[2023-06-15 08:02:04] INFO root fetch - main [MainThread]: End processing [democracy]: success
+[2023-06-15 08:02:04] INFO root fetch - processPackages [turborest]: Remove: archive file [/home/abi/fetcher/tmp/turborest-0.1.3.tar.gz]
+[2023-06-15 08:02:04] INFO root fetch - processPackages [turborest]: Remove: archive file [/home/abi/fetcher/tmp/turborest-0.1.4.tar.gz]
+[2023-06-15 08:02:04] INFO root fetch - main [MainThread]: End processing [turborest]: success
+[2023-06-15 08:02:05] INFO root fetch - processPackages [rongdavbaaddins]: Remove: archive file [/home/abi/fetcher/tmp/rongdavbaaddins-0.0.2.0.tar.gz]
+[2023-06-15 08:02:05] INFO root fetch - processPackages [rongdavbaaddins]: Remove: archive file [/home/abi/fetcher/tmp/rongdavbaaddins-0.0.2.1.tar.gz]
+[2023-06-15 08:02:05] INFO root fetch - main [MainThread]: End processing [rongdavbaaddins]: success
+[2023-06-15 08:02:06] INFO root fetch - processPackages [control-lab-ly]: Remove: archive file [/home/abi/fetcher/tmp/control-lab-ly-1.1.0a0.tar.gz]
+[2023-06-15 08:02:06] INFO root fetch - processPackages [control-lab-ly]: Remove: archive file [/home/abi/fetcher/tmp/control-lab-ly-1.1.0b0.tar.gz]
+[2023-06-15 08:02:06] INFO root fetch - main [MainThread]: End processing [control-lab-ly]: success
+[2023-06-15 08:02:06] INFO root fetch - main [MainThread]: Store serial: [18511628]
