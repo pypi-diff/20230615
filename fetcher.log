@@ -9431,3 +9431,100 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-15 06:11:37] INFO root fetch - processPackages [neon-skill-weather]: Remove: archive file [/home/abi/fetcher/tmp/neon_skill_weather-0.1.1a1-py3-none-any.whl.zip]
 [2023-06-15 06:11:37] INFO root fetch - main [MainThread]: End processing [neon-skill-weather]: success
 [2023-06-15 06:11:37] INFO root fetch - main [MainThread]: Store serial: [18510936]
+[2023-06-15 06:16:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18510936]
+[2023-06-15 06:16:47] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-06-15 06:16:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo13-addon-mgmtsystem-claim
+[2023-06-15 06:16:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo14-addon-mgmtsystem-claim
+[2023-06-15 06:16:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-mgmtsystem-claim
+[2023-06-15 06:16:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Spider-Toolkit
+[2023-06-15 06:16:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-mgmtsystem-claim
+[2023-06-15 06:16:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bunch-py3
+[2023-06-15 06:16:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ruff-lsp
+[2023-06-15 06:16:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ToolGPT
+[2023-06-15 06:16:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo12-addon-quality-control-issue
+[2023-06-15 06:16:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo14-addon-mrp-bom-attribute-match
+[2023-06-15 06:16:47] INFO root fetch - processPackages [odoo-addon-mgmtsystem-claim]: New version: [16.0.1.0.0.8] Old Version: [16.0.1.0.0.7]
+[2023-06-15 06:16:47] INFO root fetch - processPackages [Spider-Toolkit]: New version: [23.0.4] Old Version: [23.0.3]
+[2023-06-15 06:16:47] WARNING root fetch - processPackages [bunch-py3]: Skipping, unable to determine old version
+[2023-06-15 06:16:47] INFO root fetch - processPackages [bunch-py3]: Start processing: spPersist
+[2023-06-15 06:16:47] INFO root fetch - main [MainThread]: End processing [bunch-py3] error
+[2023-06-15 06:16:47] INFO root fetch - processPackages [odoo14-addon-mgmtsystem-claim]: New version: [14.0.1.0.1.dev9] Old Version: [14.0.1.0.1.dev8]
+[2023-06-15 06:16:47] WARNING root fetch - processPackages [ToolGPT]: Skipping, unable to determine old version
+[2023-06-15 06:16:47] INFO root fetch - processPackages [odoo-addon-mgmtsystem-claim]: New version: [16.0.1.0.0.8] Old Version: [16.0.1.0.0.7]
+[2023-06-15 06:16:47] INFO root fetch - processPackages [ToolGPT]: Start processing: odoo-addon-quality-control-oca
+[2023-06-15 06:16:47] INFO root fetch - processPackages [odoo12-addon-quality-control-issue]: New version: [12.0.1.0.1.99.dev9] Old Version: [12.0.1.0.1.99.dev8]
+[2023-06-15 06:16:47] INFO root fetch - main [MainThread]: End processing [ToolGPT] error
+[2023-06-15 06:16:47] INFO root fetch - processPackages [odoo14-addon-mrp-bom-attribute-match]: New version: [14.0.1.1.2.dev2] Old Version: [14.0.1.1.2.dev1]
+[2023-06-15 06:16:47] INFO root fetch - processPackages [odoo13-addon-mgmtsystem-claim]: New version: [13.0.1.1.1.dev9] Old Version: [13.0.1.1.1.dev8]
+[2023-06-15 06:16:47] INFO root fetch - processPackages [ruff-lsp]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-15 06:16:47] INFO root fetch - processPackages [odoo-addon-quality-control-oca]: New version: [16.0.1.0.0.9] Old Version: [16.0.1.0.0.8]
+[2023-06-15 06:16:47] INFO root fetch - processPackages [spPersist]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-06-15 06:16:47] INFO root fetch - processPackages [spPersist]: Downloading https://files.pythonhosted.org/packages/41/97/326f7f5d9e0ac55555f096b4217f2753eedbe4b874da2f20292be8cfc530/spPersist-1.0.4.tar.gz
+[2023-06-15 06:16:47] INFO root fetch - processPackages [ruff-lsp]: Downloading https://files.pythonhosted.org/packages/48/64/90652b282a0d554a2483ebfdd37a317091e73d1b5caa0303f9a61bd27f78/ruff-lsp-0.0.8.tar.gz
+[2023-06-15 06:16:47] INFO root fetch - processPackages [Spider-Toolkit]: Downloading https://files.pythonhosted.org/packages/ed/e0/dce925fc762014ade1ca12c88543e0ac32ab434acc37df3a60d33d6b6e43/Spider_Toolkit-23.0.3.tar.gz
+[2023-06-15 06:16:47] INFO root fetch - processPackages [odoo-addon-mgmtsystem-claim]: Downloading https://files.pythonhosted.org/packages/68/f8/1aca352b71926aead871709ebd4f19fab968505c4d568d874c71765930c8/odoo_addon_mgmtsystem_claim-16.0.1.0.0.7-py3-none-any.whl
+[2023-06-15 06:16:47] INFO root fetch - processPackages [odoo13-addon-mgmtsystem-claim]: Downloading https://files.pythonhosted.org/packages/8b/82/0edf6a733246252bfc92c563fcbdeb76a10bce95edea1a16e0736dffaae8/odoo13_addon_mgmtsystem_claim-13.0.1.1.1.dev8-py3-none-any.whl
+[2023-06-15 06:16:47] INFO root fetch - processPackages [odoo-addon-mgmtsystem-claim]: Downloading https://files.pythonhosted.org/packages/68/f8/1aca352b71926aead871709ebd4f19fab968505c4d568d874c71765930c8/odoo_addon_mgmtsystem_claim-16.0.1.0.0.7-py3-none-any.whl
+[2023-06-15 06:16:47] INFO root fetch - processPackages [odoo12-addon-quality-control-issue]: Downloading https://files.pythonhosted.org/packages/e1/d9/405703b88c10f080babafbb8e2f44d2c2aa01e15e10a25b11a6c95bec82f/odoo12_addon_quality_control_issue-12.0.1.0.1.99.dev8-py3-none-any.whl
+[2023-06-15 06:16:47] INFO root fetch - processPackages [odoo14-addon-mgmtsystem-claim]: Downloading https://files.pythonhosted.org/packages/02/c5/88ede75042616b722b6b4cde5afe74089f2b05ee48b716d356e2fc6981cb/odoo14_addon_mgmtsystem_claim-14.0.1.0.1.dev8-py3-none-any.whl
+[2023-06-15 06:16:47] INFO root fetch - processPackages [odoo14-addon-mrp-bom-attribute-match]: Downloading https://files.pythonhosted.org/packages/1e/5c/a8c9c14bc1e33c6367fbce82333ec1e078be9151a8c19645c16f3b31cb66/odoo14_addon_mrp_bom_attribute_match-14.0.1.1.2.dev1-py3-none-any.whl
+[2023-06-15 06:16:47] INFO root fetch - processPackages [odoo-addon-quality-control-oca]: Downloading https://files.pythonhosted.org/packages/ac/9a/e20a4a4ca39618eb108575de07b27c526e075c982e6c46a445487adb4018/odoo_addon_quality_control_oca-16.0.1.0.0.8-py3-none-any.whl
+[2023-06-15 06:16:47] INFO root fetch - processPackages [Spider-Toolkit]: Downloading https://files.pythonhosted.org/packages/7a/04/8270195599f2008c6b49a371ebba052326f96c449e407f6ac49fc28c1d4a/Spider_Toolkit-23.0.4.tar.gz
+[2023-06-15 06:16:47] INFO root fetch - processPackages [ruff-lsp]: Downloading https://files.pythonhosted.org/packages/33/19/dc8533de6945cbfa428f42fe750158bfebd5cc496e0ae9834c44180dc185/ruff-lsp-0.0.9.tar.gz
+[2023-06-15 06:16:47] INFO root fetch - processPackages [Spider-Toolkit]: executing diffoscope
+[2023-06-15 06:16:47] INFO root fetch - processPackages [Spider-Toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Spider_Toolkit-23.0.3.tar.gz tmp/Spider_Toolkit-23.0.4.tar.gz --markdown 20230615/S/Spider-Toolkit/23.0.3-23.0.4/diff.md --exclude *.pyd
+[2023-06-15 06:16:47] INFO root fetch - processPackages [spPersist]: Downloading https://files.pythonhosted.org/packages/bd/96/cb5eaec82572a277ea8496901f64a2e60c964e7fa6cef827b9f6e1d94374/spPersist-1.0.5.tar.gz
+[2023-06-15 06:16:47] INFO root fetch - processPackages [odoo14-addon-mrp-bom-attribute-match]: Downloading https://files.pythonhosted.org/packages/b8/e6/d17f1da437a97dc3d9ce09b1cc50d9aed96b52a6e0a223e6ceb12857895a/odoo14_addon_mrp_bom_attribute_match-14.0.1.1.2.dev2-py3-none-any.whl
+[2023-06-15 06:16:47] INFO root fetch - processPackages [ruff-lsp]: executing diffoscope
+[2023-06-15 06:16:47] INFO root fetch - processPackages [ruff-lsp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ruff-lsp-0.0.8.tar.gz tmp/ruff-lsp-0.0.9.tar.gz --markdown 20230615/r/ruff-lsp/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-15 06:16:48] INFO root fetch - processPackages [odoo-addon-mgmtsystem-claim]: Downloading https://files.pythonhosted.org/packages/32/fd/80401e39d19b44848cfb39efb34f674f29f3956523ff61af5e26b5370cd2/odoo_addon_mgmtsystem_claim-16.0.1.0.0.8-py3-none-any.whl
+[2023-06-15 06:16:48] INFO root fetch - processPackages [spPersist]: executing diffoscope
+[2023-06-15 06:16:48] INFO root fetch - processPackages [odoo-addon-mgmtsystem-claim]: Downloading https://files.pythonhosted.org/packages/32/fd/80401e39d19b44848cfb39efb34f674f29f3956523ff61af5e26b5370cd2/odoo_addon_mgmtsystem_claim-16.0.1.0.0.8-py3-none-any.whl
+[2023-06-15 06:16:48] INFO root fetch - processPackages [odoo13-addon-mgmtsystem-claim]: Downloading https://files.pythonhosted.org/packages/4f/be/a817d07df759165cc263b0a72162fac1247f71db6518f7194b673929ef02/odoo13_addon_mgmtsystem_claim-13.0.1.1.1.dev9-py3-none-any.whl
+[2023-06-15 06:16:48] INFO root fetch - processPackages [spPersist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spPersist-1.0.4.tar.gz tmp/spPersist-1.0.5.tar.gz --markdown 20230615/s/spPersist/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-06-15 06:16:48] INFO root fetch - processPackages [odoo-addon-quality-control-oca]: Downloading https://files.pythonhosted.org/packages/b7/13/079ced61883dc20aef6e569352f11af1fb76b2abc20344b5484c6ef0584b/odoo_addon_quality_control_oca-16.0.1.0.0.9-py3-none-any.whl
+[2023-06-15 06:16:48] INFO root fetch - processPackages [odoo14-addon-mrp-bom-attribute-match]: executing diffoscope
+[2023-06-15 06:16:48] INFO root fetch - processPackages [odoo14-addon-mrp-bom-attribute-match]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_mrp_bom_attribute_match-14.0.1.1.2.dev1-py3-none-any.whl.zip tmp/odoo14_addon_mrp_bom_attribute_match-14.0.1.1.2.dev2-py3-none-any.whl.zip --markdown 20230615/o/odoo14-addon-mrp-bom-attribute-match/14.0.1.1.2.dev1-14.0.1.1.2.dev2/diff.md --exclude *.pyd
+[2023-06-15 06:16:48] INFO root fetch - processPackages [odoo12-addon-quality-control-issue]: Downloading https://files.pythonhosted.org/packages/51/e3/d2c0458b8f105836e8451456e15be75ed78a88e2c3a7a63cae87ae762a9f/odoo12_addon_quality_control_issue-12.0.1.0.1.99.dev9-py3-none-any.whl
+[2023-06-15 06:16:48] INFO root fetch - processPackages [odoo-addon-quality-control-oca]: executing diffoscope
+[2023-06-15 06:16:48] INFO root fetch - processPackages [odoo-addon-quality-control-oca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_quality_control_oca-16.0.1.0.0.8-py3-none-any.whl.zip tmp/odoo_addon_quality_control_oca-16.0.1.0.0.9-py3-none-any.whl.zip --markdown 20230615/o/odoo-addon-quality-control-oca/16.0.1.0.0.8-16.0.1.0.0.9/diff.md --exclude *.pyd
+[2023-06-15 06:16:48] INFO root fetch - processPackages [odoo13-addon-mgmtsystem-claim]: executing diffoscope
+[2023-06-15 06:16:48] INFO root fetch - processPackages [odoo13-addon-mgmtsystem-claim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_mgmtsystem_claim-13.0.1.1.1.dev8-py3-none-any.whl.zip tmp/odoo13_addon_mgmtsystem_claim-13.0.1.1.1.dev9-py3-none-any.whl.zip --markdown 20230615/o/odoo13-addon-mgmtsystem-claim/13.0.1.1.1.dev8-13.0.1.1.1.dev9/diff.md --exclude *.pyd
+[2023-06-15 06:16:48] INFO root fetch - processPackages [odoo-addon-mgmtsystem-claim]: executing diffoscope
+[2023-06-15 06:16:48] INFO root fetch - processPackages [odoo-addon-mgmtsystem-claim]: executing diffoscope
+[2023-06-15 06:16:48] INFO root fetch - processPackages [odoo-addon-mgmtsystem-claim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_mgmtsystem_claim-16.0.1.0.0.7-py3-none-any.whl.zip tmp/odoo_addon_mgmtsystem_claim-16.0.1.0.0.8-py3-none-any.whl.zip --markdown 20230615/o/odoo-addon-mgmtsystem-claim/16.0.1.0.0.7-16.0.1.0.0.8/diff.md --exclude *.pyd
+[2023-06-15 06:16:48] INFO root fetch - processPackages [odoo-addon-mgmtsystem-claim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_mgmtsystem_claim-16.0.1.0.0.7-py3-none-any.whl.zip tmp/odoo_addon_mgmtsystem_claim-16.0.1.0.0.8-py3-none-any.whl.zip --markdown 20230615/o/odoo-addon-mgmtsystem-claim/16.0.1.0.0.7-16.0.1.0.0.8/diff.md --exclude *.pyd
+[2023-06-15 06:16:48] INFO root fetch - processPackages [odoo12-addon-quality-control-issue]: executing diffoscope
+[2023-06-15 06:16:48] INFO root fetch - processPackages [odoo12-addon-quality-control-issue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_quality_control_issue-12.0.1.0.1.99.dev8-py3-none-any.whl.zip tmp/odoo12_addon_quality_control_issue-12.0.1.0.1.99.dev9-py3-none-any.whl.zip --markdown 20230615/o/odoo12-addon-quality-control-issue/12.0.1.0.1.99.dev8-12.0.1.0.1.99.dev9/diff.md --exclude *.pyd
+[2023-06-15 06:16:48] INFO root fetch - processPackages [odoo14-addon-mgmtsystem-claim]: Downloading https://files.pythonhosted.org/packages/9f/a3/b4529a0416824221072fafddb7f89fab63b5dde5dccc096dbaf86acbbc7c/odoo14_addon_mgmtsystem_claim-14.0.1.0.1.dev9-py3-none-any.whl
+[2023-06-15 06:16:48] INFO root fetch - processPackages [odoo14-addon-mgmtsystem-claim]: executing diffoscope
+[2023-06-15 06:16:48] INFO root fetch - processPackages [odoo14-addon-mgmtsystem-claim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_mgmtsystem_claim-14.0.1.0.1.dev8-py3-none-any.whl.zip tmp/odoo14_addon_mgmtsystem_claim-14.0.1.0.1.dev9-py3-none-any.whl.zip --markdown 20230615/o/odoo14-addon-mgmtsystem-claim/14.0.1.0.1.dev8-14.0.1.0.1.dev9/diff.md --exclude *.pyd
+[2023-06-15 06:16:49] INFO root fetch - processPackages [ruff-lsp]: Remove: archive file [/home/abi/fetcher/tmp/ruff-lsp-0.0.8.tar.gz]
+[2023-06-15 06:16:49] INFO root fetch - processPackages [ruff-lsp]: Remove: archive file [/home/abi/fetcher/tmp/ruff-lsp-0.0.9.tar.gz]
+[2023-06-15 06:16:49] INFO root fetch - main [MainThread]: End processing [ruff-lsp]: success
+[2023-06-15 06:16:49] INFO root fetch - processPackages [Spider-Toolkit]: Remove: archive file [/home/abi/fetcher/tmp/Spider_Toolkit-23.0.3.tar.gz]
+[2023-06-15 06:16:49] INFO root fetch - processPackages [Spider-Toolkit]: Remove: archive file [/home/abi/fetcher/tmp/Spider_Toolkit-23.0.4.tar.gz]
+[2023-06-15 06:16:49] INFO root fetch - main [MainThread]: End processing [Spider-Toolkit]: success
+[2023-06-15 06:16:49] INFO root fetch - processPackages [odoo14-addon-mrp-bom-attribute-match]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_mrp_bom_attribute_match-14.0.1.1.2.dev1-py3-none-any.whl.zip]
+[2023-06-15 06:16:49] INFO root fetch - processPackages [odoo14-addon-mrp-bom-attribute-match]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_mrp_bom_attribute_match-14.0.1.1.2.dev2-py3-none-any.whl.zip]
+[2023-06-15 06:16:49] INFO root fetch - main [MainThread]: End processing [odoo14-addon-mrp-bom-attribute-match]: success
+[2023-06-15 06:16:49] INFO root fetch - processPackages [spPersist]: Remove: archive file [/home/abi/fetcher/tmp/spPersist-1.0.4.tar.gz]
+[2023-06-15 06:16:49] INFO root fetch - processPackages [spPersist]: Remove: archive file [/home/abi/fetcher/tmp/spPersist-1.0.5.tar.gz]
+[2023-06-15 06:16:49] INFO root fetch - main [MainThread]: End processing [spPersist]: success
+[2023-06-15 06:16:50] INFO root fetch - processPackages [odoo-addon-mgmtsystem-claim]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mgmtsystem_claim-16.0.1.0.0.7-py3-none-any.whl.zip]
+[2023-06-15 06:16:50] INFO root fetch - processPackages [odoo-addon-mgmtsystem-claim]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mgmtsystem_claim-16.0.1.0.0.8-py3-none-any.whl.zip]
+[2023-06-15 06:16:50] INFO root fetch - main [MainThread]: End processing [odoo-addon-mgmtsystem-claim]: success
+[2023-06-15 06:16:50] INFO root fetch - processPackages [odoo12-addon-quality-control-issue]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_quality_control_issue-12.0.1.0.1.99.dev8-py3-none-any.whl.zip]
+[2023-06-15 06:16:50] INFO root fetch - processPackages [odoo12-addon-quality-control-issue]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_quality_control_issue-12.0.1.0.1.99.dev9-py3-none-any.whl.zip]
+[2023-06-15 06:16:50] INFO root fetch - main [MainThread]: End processing [odoo12-addon-quality-control-issue]: success
+[2023-06-15 06:16:50] INFO root fetch - main [MainThread]: End processing [odoo-addon-mgmtsystem-claim]: success
+[2023-06-15 06:16:50] INFO root fetch - processPackages [odoo13-addon-mgmtsystem-claim]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_mgmtsystem_claim-13.0.1.1.1.dev8-py3-none-any.whl.zip]
+[2023-06-15 06:16:50] INFO root fetch - processPackages [odoo13-addon-mgmtsystem-claim]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_mgmtsystem_claim-13.0.1.1.1.dev9-py3-none-any.whl.zip]
+[2023-06-15 06:16:50] INFO root fetch - main [MainThread]: End processing [odoo13-addon-mgmtsystem-claim]: success
+[2023-06-15 06:16:50] INFO root fetch - processPackages [odoo-addon-quality-control-oca]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_quality_control_oca-16.0.1.0.0.8-py3-none-any.whl.zip]
+[2023-06-15 06:16:50] INFO root fetch - processPackages [odoo-addon-quality-control-oca]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_quality_control_oca-16.0.1.0.0.9-py3-none-any.whl.zip]
+[2023-06-15 06:16:50] INFO root fetch - main [MainThread]: End processing [odoo-addon-quality-control-oca]: success
+[2023-06-15 06:17:43] INFO root fetch - processPackages [odoo14-addon-mgmtsystem-claim]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_mgmtsystem_claim-14.0.1.0.1.dev8-py3-none-any.whl.zip]
+[2023-06-15 06:17:43] INFO root fetch - processPackages [odoo14-addon-mgmtsystem-claim]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_mgmtsystem_claim-14.0.1.0.1.dev9-py3-none-any.whl.zip]
+[2023-06-15 06:17:43] INFO root fetch - main [MainThread]: End processing [odoo14-addon-mgmtsystem-claim]: success
+[2023-06-15 06:17:43] INFO root fetch - main [MainThread]: Store serial: [18510968]
