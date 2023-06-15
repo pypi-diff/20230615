@@ -22149,3 +22149,70 @@ AssertionError: tmp/stackoverflowapithingy-0.1.5.tar.gz does not exist
 [2023-06-15 14:28:29] INFO root fetch - processPackages [su6]: Remove: archive file [/home/abi/fetcher/tmp/su6-1.4.0.tar.gz]
 [2023-06-15 14:28:29] INFO root fetch - main [MainThread]: End processing [su6]: success
 [2023-06-15 14:28:29] INFO root fetch - main [MainThread]: Store serial: [18515954]
+[2023-06-15 14:33:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18515954]
+[2023-06-15 14:33:38] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-15 14:33:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: EveryStamp
+[2023-06-15 14:33:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: elvia-datascience-forecasting
+[2023-06-15 14:33:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: docbuild
+[2023-06-15 14:33:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hin
+[2023-06-15 14:33:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: yyxx-game-pkg
+[2023-06-15 14:33:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ncOrtho
+[2023-06-15 14:33:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sourcery-nightly
+[2023-06-15 14:33:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: chdb
+[2023-06-15 14:33:38] INFO root fetch - processPackages [yyxx-game-pkg]: New version: [2023.6.9.1] Old Version: [2023.6.6.2]
+[2023-06-15 14:33:38] INFO root fetch - processPackages [EveryStamp]: New version: [1.3.0] Old Version: [1.2.0]
+[2023-06-15 14:33:38] INFO root fetch - processPackages [hin]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-15 14:33:38] INFO root fetch - processPackages [docbuild]: New version: [0.1.114] Old Version: [0.1.113]
+[2023-06-15 14:33:38] INFO root fetch - processPackages [ncOrtho]: New version: [0.4.0] Old Version: [0.3.9]
+[2023-06-15 14:33:38] INFO root fetch - processPackages [elvia-datascience-forecasting]: New version: [2.3.4] Old Version: [2.3.3]
+[2023-06-15 14:33:38] INFO root fetch - processPackages [yyxx-game-pkg]: Downloading https://files.pythonhosted.org/packages/73/f8/4b4d35bd7bb4c8f3fae1755149d17255c1a22dac93555dc3f25d2bd62df9/yyxx_game_pkg-2023.6.6.2.tar.gz
+[2023-06-15 14:33:38] INFO root fetch - processPackages [sourcery-nightly]: New version: [1.3.1b9] Old Version: [1.3.1b8]
+[2023-06-15 14:33:38] INFO root fetch - processPackages [chdb]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-15 14:33:38] INFO root fetch - processPackages [EveryStamp]: Downloading https://files.pythonhosted.org/packages/97/bb/8da66f817923c76cd1a848419a84a729589eba281b87aded30c30f9fdbe7/EveryStamp-1.2.0.tar.gz
+[2023-06-15 14:33:38] INFO root fetch - processPackages [ncOrtho]: Downloading https://files.pythonhosted.org/packages/4f/be/4b33f65f712eea13f73396afcf2564524a9287b09280b50c3e22fe108ecf/ncOrtho-0.3.9.tar.gz
+[2023-06-15 14:33:38] INFO root fetch - processPackages [hin]: Downloading https://files.pythonhosted.org/packages/36/75/0afcf5b6b4ccf48c81b4d4d8899616ba13840226f4b1ed2412f8fb1ee435/hin-0.1.1.tar.gz
+[2023-06-15 14:33:38] INFO root fetch - processPackages [docbuild]: Downloading https://files.pythonhosted.org/packages/fe/10/6046fb6c6a455406aa2aa402893664dd43a8f4d8406a6729633d4b5942cd/docbuild-0.1.113.tar.gz
+[2023-06-15 14:33:38] INFO root fetch - processPackages [elvia-datascience-forecasting]: Downloading https://files.pythonhosted.org/packages/63/1d/4e991e45a7a11945b6ec40c1dc9466c4112764944021572421434f10ae5d/elvia-datascience-forecasting-2.3.3.tar.gz
+[2023-06-15 14:33:38] INFO root fetch - processPackages [sourcery-nightly]: Downloading https://files.pythonhosted.org/packages/29/18/ad9b7cf71f4ed9e14c12d1e096d050d07b94bd4dfb90329e967254028ab4/sourcery_nightly-1.3.1b8-py2.py3-none-win_amd64.whl
+[2023-06-15 14:33:38] INFO root fetch - processPackages [chdb]: Downloading https://files.pythonhosted.org/packages/46/34/78cda0c6a8c072a692d2240af17a7c99de4739831f72ec6589ec96e8952b/chdb-0.8.0-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-15 14:33:38] INFO root fetch - processPackages [yyxx-game-pkg]: Downloading https://files.pythonhosted.org/packages/e5/82/79da6672e322e316d7b077a31d056141061d0271696087e26fd350612628/yyxx_game_pkg-2023.6.9.1.tar.gz
+[2023-06-15 14:33:38] INFO root fetch - processPackages [EveryStamp]: Downloading https://files.pythonhosted.org/packages/1c/7a/dd0c0e782cf91d7dddf372df8c4b157a300597aa19ae7ea2e7701b2eaec3/EveryStamp-1.3.0.tar.gz
+[2023-06-15 14:33:38] INFO root fetch - processPackages [ncOrtho]: Downloading https://files.pythonhosted.org/packages/ee/1b/79976366225505d3072a7d4e5009bf4f32f0b637c2902526f523c0e77ec9/ncOrtho-0.4.0.tar.gz
+[2023-06-15 14:33:38] INFO root fetch - processPackages [hin]: Downloading https://files.pythonhosted.org/packages/a0/e4/afe02cf21ef9840a823f9c46513bc962fe6286e8e55d1f213bee45715266/hin-0.1.2.tar.gz
+[2023-06-15 14:33:39] INFO root fetch - processPackages [elvia-datascience-forecasting]: Downloading https://files.pythonhosted.org/packages/53/9a/d36ca620d5241f8e29f0e39f9f4f40f1685736fada03f7482c1ede637754/elvia-datascience-forecasting-2.3.4.tar.gz
+[2023-06-15 14:33:39] INFO root fetch - processPackages [docbuild]: Downloading https://files.pythonhosted.org/packages/47/13/cd010be7858f512129979fed953016c5f7c684627a3cb694d978177a3e3e/docbuild-0.1.114.tar.gz
+[2023-06-15 14:33:39] INFO root fetch - processPackages [yyxx-game-pkg]: executing diffoscope
+[2023-06-15 14:33:39] INFO root fetch - processPackages [yyxx-game-pkg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yyxx_game_pkg-2023.6.6.2.tar.gz tmp/yyxx_game_pkg-2023.6.9.1.tar.gz --markdown 20230615/y/yyxx-game-pkg/2023.6.6.2-2023.6.9.1/diff.md --exclude *.pyd
+[2023-06-15 14:33:39] INFO root fetch - processPackages [hin]: executing diffoscope
+[2023-06-15 14:33:39] INFO root fetch - processPackages [hin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hin-0.1.1.tar.gz tmp/hin-0.1.2.tar.gz --markdown 20230615/h/hin/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-15 14:33:39] INFO root fetch - processPackages [EveryStamp]: executing diffoscope
+[2023-06-15 14:33:39] INFO root fetch - processPackages [EveryStamp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/EveryStamp-1.2.0.tar.gz tmp/EveryStamp-1.3.0.tar.gz --markdown 20230615/E/EveryStamp/1.2.0-1.3.0/diff.md --exclude *.pyd
+[2023-06-15 14:33:39] INFO root fetch - processPackages [ncOrtho]: executing diffoscope
+[2023-06-15 14:33:39] INFO root fetch - processPackages [ncOrtho]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ncOrtho-0.3.9.tar.gz tmp/ncOrtho-0.4.0.tar.gz --markdown 20230615/n/ncOrtho/0.3.9-0.4.0/diff.md --exclude *.pyd
+[2023-06-15 14:33:39] INFO root fetch - processPackages [elvia-datascience-forecasting]: executing diffoscope
+[2023-06-15 14:33:39] INFO root fetch - processPackages [elvia-datascience-forecasting]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elvia-datascience-forecasting-2.3.3.tar.gz tmp/elvia-datascience-forecasting-2.3.4.tar.gz --markdown 20230615/e/elvia-datascience-forecasting/2.3.3-2.3.4/diff.md --exclude *.pyd
+[2023-06-15 14:33:39] INFO root fetch - processPackages [docbuild]: executing diffoscope
+[2023-06-15 14:33:39] INFO root fetch - processPackages [docbuild]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docbuild-0.1.113.tar.gz tmp/docbuild-0.1.114.tar.gz --markdown 20230615/d/docbuild/0.1.113-0.1.114/diff.md --exclude *.pyd
+[2023-06-15 14:33:39] WARNING root fetch - processPackages [chdb]: Skipping package: exceeds size limit 108993016>=10485760
+[2023-06-15 14:33:39] INFO root fetch - main [MainThread]: End processing [chdb] error
+[2023-06-15 14:33:39] WARNING root fetch - processPackages [sourcery-nightly]: Skipping package: exceeds size limit 58876457>=10485760
+[2023-06-15 14:33:39] INFO root fetch - main [MainThread]: End processing [sourcery-nightly] error
+[2023-06-15 14:33:40] INFO root fetch - processPackages [docbuild]: Remove: archive file [/home/abi/fetcher/tmp/docbuild-0.1.113.tar.gz]
+[2023-06-15 14:33:40] INFO root fetch - processPackages [docbuild]: Remove: archive file [/home/abi/fetcher/tmp/docbuild-0.1.114.tar.gz]
+[2023-06-15 14:33:40] INFO root fetch - main [MainThread]: End processing [docbuild]: success
+[2023-06-15 14:33:40] INFO root fetch - processPackages [hin]: Remove: archive file [/home/abi/fetcher/tmp/hin-0.1.1.tar.gz]
+[2023-06-15 14:33:40] INFO root fetch - processPackages [hin]: Remove: archive file [/home/abi/fetcher/tmp/hin-0.1.2.tar.gz]
+[2023-06-15 14:33:40] INFO root fetch - main [MainThread]: End processing [hin]: success
+[2023-06-15 14:33:40] INFO root fetch - processPackages [EveryStamp]: Remove: archive file [/home/abi/fetcher/tmp/EveryStamp-1.2.0.tar.gz]
+[2023-06-15 14:33:40] INFO root fetch - processPackages [EveryStamp]: Remove: archive file [/home/abi/fetcher/tmp/EveryStamp-1.3.0.tar.gz]
+[2023-06-15 14:33:40] INFO root fetch - main [MainThread]: End processing [EveryStamp]: success
+[2023-06-15 14:33:40] INFO root fetch - processPackages [elvia-datascience-forecasting]: Remove: archive file [/home/abi/fetcher/tmp/elvia-datascience-forecasting-2.3.3.tar.gz]
+[2023-06-15 14:33:40] INFO root fetch - processPackages [elvia-datascience-forecasting]: Remove: archive file [/home/abi/fetcher/tmp/elvia-datascience-forecasting-2.3.4.tar.gz]
+[2023-06-15 14:33:40] INFO root fetch - main [MainThread]: End processing [elvia-datascience-forecasting]: success
+[2023-06-15 14:33:40] INFO root fetch - processPackages [ncOrtho]: Remove: archive file [/home/abi/fetcher/tmp/ncOrtho-0.3.9.tar.gz]
+[2023-06-15 14:33:40] INFO root fetch - processPackages [ncOrtho]: Remove: archive file [/home/abi/fetcher/tmp/ncOrtho-0.4.0.tar.gz]
+[2023-06-15 14:33:40] INFO root fetch - main [MainThread]: End processing [ncOrtho]: success
+[2023-06-15 14:33:41] INFO root fetch - processPackages [yyxx-game-pkg]: Remove: archive file [/home/abi/fetcher/tmp/yyxx_game_pkg-2023.6.6.2.tar.gz]
+[2023-06-15 14:33:41] INFO root fetch - processPackages [yyxx-game-pkg]: Remove: archive file [/home/abi/fetcher/tmp/yyxx_game_pkg-2023.6.9.1.tar.gz]
+[2023-06-15 14:33:41] INFO root fetch - main [MainThread]: End processing [yyxx-game-pkg]: success
+[2023-06-15 14:33:41] INFO root fetch - main [MainThread]: Store serial: [18515983]
