@@ -11682,3 +11682,51 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-15 08:33:33] INFO root fetch - processPackages [fake-bpy-module-latest]: Remove: archive file [/home/abi/fetcher/tmp/fake-bpy-module-latest-20230615.tar.gz]
 [2023-06-15 08:33:33] INFO root fetch - main [MainThread]: End processing [fake-bpy-module-latest]: success
 [2023-06-15 08:33:33] INFO root fetch - main [MainThread]: Store serial: [18511820]
+[2023-06-15 08:38:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18511820]
+[2023-06-15 08:38:46] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-15 08:38:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: misskey-python
+[2023-06-15 08:38:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kgdata
+[2023-06-15 08:38:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: flask-marshmallow-openapi
+[2023-06-15 08:38:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: toolstr
+[2023-06-15 08:38:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fudan-utils
+[2023-06-15 08:38:46] INFO root fetch - processPackages [misskey-python]: New version: [1.1] Old Version: [1.0]
+[2023-06-15 08:38:46] INFO root fetch - processPackages [fudan-utils]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-15 08:38:46] INFO root fetch - processPackages [flask-marshmallow-openapi]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-06-15 08:38:46] INFO root fetch - processPackages [kgdata]: New version: [3.8.0] Old Version: [3.7.2]
+[2023-06-15 08:38:46] INFO root fetch - processPackages [toolstr]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-06-15 08:38:46] INFO root fetch - processPackages [fudan-utils]: Downloading https://files.pythonhosted.org/packages/95/3a/9a18a5ba632d2ae92a21dea736608dd9af7803c01f7bcbf65c4d26333d30/fudan_utils-0.1.1.tar.gz
+[2023-06-15 08:38:46] INFO root fetch - processPackages [flask-marshmallow-openapi]: Downloading https://files.pythonhosted.org/packages/98/d8/26c38b337c7b90763f2fc3ed55eac5ed82b3c54f798ffd8927b35eb044fc/flask-marshmallow-openapi-0.1.7.tar.gz
+[2023-06-15 08:38:46] INFO root fetch - processPackages [misskey-python]: Downloading https://files.pythonhosted.org/packages/d9/d1/bfcb0311fdd8d685a992247e64ef8e326037e1b30a24c0a017767795149f/misskey_python-1.0.tar.gz
+[2023-06-15 08:38:46] INFO root fetch - processPackages [kgdata]: Downloading https://files.pythonhosted.org/packages/d9/3d/0d1fe4fe0b91a357796f0f0e4eeb151e7eb6d6d626ef12466db41f146ec9/kgdata-3.7.2.tar.gz
+[2023-06-15 08:38:46] INFO root fetch - processPackages [toolstr]: Downloading https://files.pythonhosted.org/packages/4a/52/48a1cae6e2ee7bf40e9b51013aff27367110c187a028d246e7101ccac4a3/toolstr-0.9.5.tar.gz
+[2023-06-15 08:38:46] INFO root fetch - processPackages [fudan-utils]: Downloading https://files.pythonhosted.org/packages/f6/0c/e98f8117cdf6d7222203f88f20e045b8946139f36cd302c4b6c9ceadebf1/fudan_utils-0.1.2.tar.gz
+[2023-06-15 08:38:46] INFO root fetch - processPackages [flask-marshmallow-openapi]: Downloading https://files.pythonhosted.org/packages/7a/e2/e8cb16a4502d1a4bf82981193ad30483bc9567ca20583595f30c04784aa2/flask-marshmallow-openapi-0.1.8.tar.gz
+[2023-06-15 08:38:46] INFO root fetch - processPackages [fudan-utils]: executing diffoscope
+[2023-06-15 08:38:46] INFO root fetch - processPackages [fudan-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fudan_utils-0.1.1.tar.gz tmp/fudan_utils-0.1.2.tar.gz --markdown 20230615/f/fudan-utils/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-15 08:38:46] INFO root fetch - processPackages [misskey-python]: Downloading https://files.pythonhosted.org/packages/eb/21/2b039d0ceda27237c0fbe32343475825cfd8fba554c5dabeb22d4d688c81/misskey_python-1.1.tar.gz
+[2023-06-15 08:38:46] INFO root fetch - processPackages [flask-marshmallow-openapi]: executing diffoscope
+[2023-06-15 08:38:46] INFO root fetch - processPackages [flask-marshmallow-openapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flask-marshmallow-openapi-0.1.7.tar.gz tmp/flask-marshmallow-openapi-0.1.8.tar.gz --markdown 20230615/f/flask-marshmallow-openapi/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-06-15 08:38:46] INFO root fetch - processPackages [misskey-python]: executing diffoscope
+[2023-06-15 08:38:46] INFO root fetch - processPackages [misskey-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/misskey_python-1.0.tar.gz tmp/misskey_python-1.1.tar.gz --markdown 20230615/m/misskey-python/1.0-1.1/diff.md --exclude *.pyd
+[2023-06-15 08:38:47] INFO root fetch - processPackages [kgdata]: Downloading https://files.pythonhosted.org/packages/b6/c5/825d6125877c4b980d4ed784585ce2f59e0bc32e01d9a85df926b5dfe43d/kgdata-3.8.0.tar.gz
+[2023-06-15 08:38:47] INFO root fetch - processPackages [toolstr]: Downloading https://files.pythonhosted.org/packages/a6/3f/1911b105b76a36da4b51d2805002681dae3ff5d1be1eab0d9d14133fda4f/toolstr-0.9.6.tar.gz
+[2023-06-15 08:38:47] INFO root fetch - processPackages [kgdata]: executing diffoscope
+[2023-06-15 08:38:47] INFO root fetch - processPackages [kgdata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kgdata-3.7.2.tar.gz tmp/kgdata-3.8.0.tar.gz --markdown 20230615/k/kgdata/3.7.2-3.8.0/diff.md --exclude *.pyd
+[2023-06-15 08:38:47] INFO root fetch - processPackages [toolstr]: executing diffoscope
+[2023-06-15 08:38:47] INFO root fetch - processPackages [toolstr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/toolstr-0.9.5.tar.gz tmp/toolstr-0.9.6.tar.gz --markdown 20230615/t/toolstr/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-06-15 08:38:47] INFO root fetch - processPackages [fudan-utils]: Remove: archive file [/home/abi/fetcher/tmp/fudan_utils-0.1.1.tar.gz]
+[2023-06-15 08:38:47] INFO root fetch - processPackages [fudan-utils]: Remove: archive file [/home/abi/fetcher/tmp/fudan_utils-0.1.2.tar.gz]
+[2023-06-15 08:38:47] INFO root fetch - main [MainThread]: End processing [fudan-utils]: success
+[2023-06-15 08:38:47] INFO root fetch - processPackages [misskey-python]: Remove: archive file [/home/abi/fetcher/tmp/misskey_python-1.0.tar.gz]
+[2023-06-15 08:38:47] INFO root fetch - processPackages [misskey-python]: Remove: archive file [/home/abi/fetcher/tmp/misskey_python-1.1.tar.gz]
+[2023-06-15 08:38:47] INFO root fetch - main [MainThread]: End processing [misskey-python]: success
+[2023-06-15 08:38:48] INFO root fetch - processPackages [toolstr]: Remove: archive file [/home/abi/fetcher/tmp/toolstr-0.9.5.tar.gz]
+[2023-06-15 08:38:48] INFO root fetch - processPackages [toolstr]: Remove: archive file [/home/abi/fetcher/tmp/toolstr-0.9.6.tar.gz]
+[2023-06-15 08:38:48] INFO root fetch - main [MainThread]: End processing [toolstr]: success
+[2023-06-15 08:38:48] INFO root fetch - processPackages [kgdata]: Remove: archive file [/home/abi/fetcher/tmp/kgdata-3.7.2.tar.gz]
+[2023-06-15 08:38:48] INFO root fetch - processPackages [kgdata]: Remove: archive file [/home/abi/fetcher/tmp/kgdata-3.8.0.tar.gz]
+[2023-06-15 08:38:48] INFO root fetch - main [MainThread]: End processing [kgdata]: success
+[2023-06-15 08:38:50] INFO root fetch - processPackages [flask-marshmallow-openapi]: Remove: archive file [/home/abi/fetcher/tmp/flask-marshmallow-openapi-0.1.7.tar.gz]
+[2023-06-15 08:38:50] INFO root fetch - processPackages [flask-marshmallow-openapi]: Remove: archive file [/home/abi/fetcher/tmp/flask-marshmallow-openapi-0.1.8.tar.gz]
+[2023-06-15 08:38:50] INFO root fetch - main [MainThread]: End processing [flask-marshmallow-openapi]: success
+[2023-06-15 08:38:50] INFO root fetch - main [MainThread]: Store serial: [18511853]
