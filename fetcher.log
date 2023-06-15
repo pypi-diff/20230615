@@ -2143,3 +2143,95 @@
 [2023-06-15 02:05:40] INFO root fetch - processPackages [mct-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-nightly-1.8.0.9052023.post348.tar.gz]
 [2023-06-15 02:05:40] INFO root fetch - main [MainThread]: End processing [mct-nightly]: success
 [2023-06-15 02:05:40] INFO root fetch - main [MainThread]: Store serial: [18508339]
+[2023-06-15 02:10:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18508339]
+[2023-06-15 02:10:48] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-15 02:10:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jaxutils-nightly
+[2023-06-15 02:10:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pymemuc
+[2023-06-15 02:10:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: torchlayers-nightly
+[2023-06-15 02:10:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk-aws-discord-notifiers
+[2023-06-15 02:10:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dorado
+[2023-06-15 02:10:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: vesselapi
+[2023-06-15 02:10:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pypdfe
+[2023-06-15 02:10:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cdk8s-jenkins
+[2023-06-15 02:10:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cdk-common
+[2023-06-15 02:10:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: openbb-nightly
+[2023-06-15 02:10:49] INFO root fetch - processPackages [pymemuc]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-06-15 02:10:49] INFO root fetch - processPackages [cdk8s-jenkins]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-15 02:10:49] WARNING root fetch - processPackages [pypdfe]: Skipping, unable to determine old version
+[2023-06-15 02:10:49] INFO root fetch - processPackages [pypdfe]: Start processing: biblelib
+[2023-06-15 02:10:49] INFO root fetch - main [MainThread]: End processing [pypdfe] error
+[2023-06-15 02:10:49] INFO root fetch - processPackages [jaxutils-nightly]: New version: [0.0.8.dev20230614] Old Version: [0.0.8.dev20230613]
+[2023-06-15 02:10:49] INFO root fetch - processPackages [vesselapi]: New version: [3.5.2] Old Version: [3.28.0]
+[2023-06-15 02:10:49] INFO root fetch - processPackages [dorado]: New version: [2.0.6.dev99] Old Version: [2.0.6.dev97]
+[2023-06-15 02:10:49] INFO root fetch - processPackages [openbb-nightly]: New version: [3.0.1.dev20230614] Old Version: [3.0.1.dev20230613]
+[2023-06-15 02:10:49] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: New version: [0.0.95] Old Version: [0.0.94]
+[2023-06-15 02:10:49] INFO root fetch - processPackages [cdk-common]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-06-15 02:10:49] INFO root fetch - processPackages [pymemuc]: Downloading https://files.pythonhosted.org/packages/71/1e/33319a841e544707c2526549d89bbacad1149c2ad17b59a7009867be9cef/pymemuc-0.4.1.tar.gz
+[2023-06-15 02:10:49] INFO root fetch - processPackages [torchlayers-nightly]: New version: [1686701226] Old Version: [1686614860]
+[2023-06-15 02:10:49] INFO root fetch - processPackages [cdk8s-jenkins]: Downloading https://files.pythonhosted.org/packages/90/ba/1d34a887bfae9752a98646fbb4ba086b72cc56f857a5b9642929b03e46f2/cdk8s-jenkins-0.0.98.tar.gz
+[2023-06-15 02:10:49] INFO root fetch - processPackages [biblelib]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-15 02:10:49] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: Downloading https://files.pythonhosted.org/packages/0a/30/646497d377783a32ae832f96f6ad8e42d9a2c8b627d499eb0082ad542cab/cdk-aws-discord-notifiers-0.0.94.tar.gz
+[2023-06-15 02:10:49] INFO root fetch - processPackages [jaxutils-nightly]: Downloading https://files.pythonhosted.org/packages/20/ed/bec2ea367ff194f2db0aab0461f989a4c8204f90ffb51d51d8c8cf9d45a2/jaxutils-nightly-0.0.8.dev20230613.tar.gz
+[2023-06-15 02:10:49] INFO root fetch - processPackages [torchlayers-nightly]: Downloading https://files.pythonhosted.org/packages/ae/32/5ba91e217a07f03c369f8216bbccbfc4c3c402bdf7f56a7f246567a12a17/torchlayers-nightly-1686614860.tar.gz
+[2023-06-15 02:10:49] INFO root fetch - processPackages [cdk-common]: Downloading https://files.pythonhosted.org/packages/f3/30/796e7080e9a9b293ccf386b0d95f40dde8e214e0415d2c59be9c661105a9/cdk-common-2.0.98.tar.gz
+[2023-06-15 02:10:49] INFO root fetch - processPackages [vesselapi]: Downloading https://files.pythonhosted.org/packages/89/5f/59ccced9c0a037d925980c8351ea0e321b710d473ff110f5766e46cc796a/vesselapi-3.28.0.tar.gz
+[2023-06-15 02:10:49] INFO root fetch - processPackages [cdk8s-jenkins]: Downloading https://files.pythonhosted.org/packages/1d/dc/2404b70a9e64251aafef4957d08604e1863c0d6026d1bd4faf3e70e3e690/cdk8s-jenkins-0.0.99.tar.gz
+[2023-06-15 02:10:49] INFO root fetch - processPackages [dorado]: Downloading https://files.pythonhosted.org/packages/28/c3/25ec9324622ba0dd720edcd3809a1c623c162133d247d2e22790624c723b/dorado-2.0.6.dev97.tar.gz
+[2023-06-15 02:10:49] INFO root fetch - processPackages [openbb-nightly]: Downloading https://files.pythonhosted.org/packages/19/7b/678070635e9d082d2e59050cae7792b14beb1f41b8af75189aa473965c5f/openbb_nightly-3.0.1.dev20230613.tar.gz
+[2023-06-15 02:10:49] INFO root fetch - processPackages [biblelib]: Downloading https://files.pythonhosted.org/packages/94/19/6d3a4a411b21b4868b2816c322ff3cf8bc014b31f0b83172f7ea4d038fcc/biblelib-0.2.8.tar.gz
+[2023-06-15 02:10:49] INFO root fetch - processPackages [cdk8s-jenkins]: executing diffoscope
+[2023-06-15 02:10:49] INFO root fetch - processPackages [cdk8s-jenkins]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-jenkins-0.0.98.tar.gz tmp/cdk8s-jenkins-0.0.99.tar.gz --markdown 20230615/c/cdk8s-jenkins/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-15 02:10:49] INFO root fetch - processPackages [cdk-common]: Downloading https://files.pythonhosted.org/packages/11/10/ca183f281275ec945ede082d9491c0bb5bfb9152c437124c86e37cba7079/cdk-common-2.0.99.tar.gz
+[2023-06-15 02:10:49] INFO root fetch - processPackages [pymemuc]: Downloading https://files.pythonhosted.org/packages/af/83/7f7505a44adc9e2830514439009a69e647b975b6557e1967cca998d61262/pymemuc-0.4.2.tar.gz
+[2023-06-15 02:10:49] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: Downloading https://files.pythonhosted.org/packages/d5/18/4b554412d41edd5b50f79b1220974d8de80fa9729e061adec6823bf0036a/cdk-aws-discord-notifiers-0.0.95.tar.gz
+[2023-06-15 02:10:49] INFO root fetch - processPackages [torchlayers-nightly]: Downloading https://files.pythonhosted.org/packages/89/df/5018c33db42003ec8ae6c28c2a148934a85d9ab36a9777c6f94d7d3474e3/torchlayers-nightly-1686701226.tar.gz
+[2023-06-15 02:10:49] INFO root fetch - processPackages [jaxutils-nightly]: Downloading https://files.pythonhosted.org/packages/ab/99/1c6f8b5c601ecbf1486ca05cd40c9850a2f306e034341ae2154e048e1c37/jaxutils-nightly-0.0.8.dev20230614.tar.gz
+[2023-06-15 02:10:49] WARNING root fetch - processPackages [openbb-nightly]: Skipping package: exceeds size limit 21237529>=10485760
+[2023-06-15 02:10:49] INFO root fetch - main [MainThread]: End processing [openbb-nightly] error
+[2023-06-15 02:10:49] INFO root fetch - processPackages [pymemuc]: executing diffoscope
+[2023-06-15 02:10:49] INFO root fetch - processPackages [pymemuc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymemuc-0.4.1.tar.gz tmp/pymemuc-0.4.2.tar.gz --markdown 20230615/p/pymemuc/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-06-15 02:10:49] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: executing diffoscope
+[2023-06-15 02:10:49] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-aws-discord-notifiers-0.0.94.tar.gz tmp/cdk-aws-discord-notifiers-0.0.95.tar.gz --markdown 20230615/c/cdk-aws-discord-notifiers/0.0.94-0.0.95/diff.md --exclude *.pyd
+[2023-06-15 02:10:49] INFO root fetch - processPackages [jaxutils-nightly]: executing diffoscope
+[2023-06-15 02:10:49] INFO root fetch - processPackages [vesselapi]: Downloading https://files.pythonhosted.org/packages/82/f2/105170d36bec43bbe554de48bf20f0f1727c0db0e62b44a2412f0e180fa6/vesselapi-3.5.2.tar.gz
+[2023-06-15 02:10:49] INFO root fetch - processPackages [jaxutils-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxutils-nightly-0.0.8.dev20230613.tar.gz tmp/jaxutils-nightly-0.0.8.dev20230614.tar.gz --markdown 20230615/j/jaxutils-nightly/0.0.8.dev20230613-0.0.8.dev20230614/diff.md --exclude *.pyd
+[2023-06-15 02:10:49] INFO root fetch - processPackages [cdk-common]: executing diffoscope
+[2023-06-15 02:10:49] INFO root fetch - processPackages [cdk-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-common-2.0.98.tar.gz tmp/cdk-common-2.0.99.tar.gz --markdown 20230615/c/cdk-common/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-06-15 02:10:49] INFO root fetch - processPackages [vesselapi]: executing diffoscope
+[2023-06-15 02:10:49] INFO root fetch - processPackages [vesselapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vesselapi-3.28.0.tar.gz tmp/vesselapi-3.5.2.tar.gz --markdown 20230615/v/vesselapi/3.28.0-3.5.2/diff.md --exclude *.pyd
+[2023-06-15 02:10:49] INFO root fetch - processPackages [torchlayers-nightly]: executing diffoscope
+[2023-06-15 02:10:49] INFO root fetch - processPackages [torchlayers-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchlayers-nightly-1686614860.tar.gz tmp/torchlayers-nightly-1686701226.tar.gz --markdown 20230615/t/torchlayers-nightly/1686614860-1686701226/diff.md --exclude *.pyd
+[2023-06-15 02:10:49] INFO root fetch - processPackages [biblelib]: Downloading https://files.pythonhosted.org/packages/4d/ee/a6162c67869ea892fa70aa203a6bc1585c99ab07cad149a8f6cfec5eef9a/biblelib-0.2.9.tar.gz
+[2023-06-15 02:10:49] INFO root fetch - processPackages [dorado]: Downloading https://files.pythonhosted.org/packages/b9/2e/854512bc2085bd5738d74bd4b50e4a958e43ee3e802999c5402e429e6030/dorado-2.0.6.dev99.tar.gz
+[2023-06-15 02:10:49] INFO root fetch - processPackages [dorado]: executing diffoscope
+[2023-06-15 02:10:49] INFO root fetch - processPackages [dorado]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dorado-2.0.6.dev97.tar.gz tmp/dorado-2.0.6.dev99.tar.gz --markdown 20230615/d/dorado/2.0.6.dev97-2.0.6.dev99/diff.md --exclude *.pyd
+[2023-06-15 02:10:49] INFO root fetch - processPackages [biblelib]: executing diffoscope
+[2023-06-15 02:10:49] INFO root fetch - processPackages [biblelib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/biblelib-0.2.8.tar.gz tmp/biblelib-0.2.9.tar.gz --markdown 20230615/b/biblelib/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-15 02:10:50] INFO root fetch - processPackages [cdk8s-jenkins]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-jenkins-0.0.98.tar.gz]
+[2023-06-15 02:10:50] INFO root fetch - processPackages [cdk8s-jenkins]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-jenkins-0.0.99.tar.gz]
+[2023-06-15 02:10:50] INFO root fetch - main [MainThread]: End processing [cdk8s-jenkins]: success
+[2023-06-15 02:10:50] INFO root fetch - processPackages [pymemuc]: Remove: archive file [/home/abi/fetcher/tmp/pymemuc-0.4.1.tar.gz]
+[2023-06-15 02:10:50] INFO root fetch - processPackages [pymemuc]: Remove: archive file [/home/abi/fetcher/tmp/pymemuc-0.4.2.tar.gz]
+[2023-06-15 02:10:50] INFO root fetch - main [MainThread]: End processing [pymemuc]: success
+[2023-06-15 02:10:51] INFO root fetch - processPackages [torchlayers-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchlayers-nightly-1686614860.tar.gz]
+[2023-06-15 02:10:51] INFO root fetch - processPackages [torchlayers-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchlayers-nightly-1686701226.tar.gz]
+[2023-06-15 02:10:51] INFO root fetch - main [MainThread]: End processing [torchlayers-nightly]: success
+[2023-06-15 02:10:51] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.98.tar.gz]
+[2023-06-15 02:10:51] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.99.tar.gz]
+[2023-06-15 02:10:51] INFO root fetch - main [MainThread]: End processing [cdk-common]: success
+[2023-06-15 02:10:51] INFO root fetch - processPackages [jaxutils-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxutils-nightly-0.0.8.dev20230613.tar.gz]
+[2023-06-15 02:10:51] INFO root fetch - processPackages [jaxutils-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxutils-nightly-0.0.8.dev20230614.tar.gz]
+[2023-06-15 02:10:51] INFO root fetch - main [MainThread]: End processing [jaxutils-nightly]: success
+[2023-06-15 02:10:51] INFO root fetch - processPackages [biblelib]: Remove: archive file [/home/abi/fetcher/tmp/biblelib-0.2.8.tar.gz]
+[2023-06-15 02:10:51] INFO root fetch - processPackages [biblelib]: Remove: archive file [/home/abi/fetcher/tmp/biblelib-0.2.9.tar.gz]
+[2023-06-15 02:10:51] INFO root fetch - main [MainThread]: End processing [biblelib]: success
+[2023-06-15 02:10:51] INFO root fetch - processPackages [dorado]: Remove: archive file [/home/abi/fetcher/tmp/dorado-2.0.6.dev97.tar.gz]
+[2023-06-15 02:10:51] INFO root fetch - processPackages [dorado]: Remove: archive file [/home/abi/fetcher/tmp/dorado-2.0.6.dev99.tar.gz]
+[2023-06-15 02:10:51] INFO root fetch - main [MainThread]: End processing [dorado]: success
+[2023-06-15 02:10:52] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aws-discord-notifiers-0.0.94.tar.gz]
+[2023-06-15 02:10:52] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aws-discord-notifiers-0.0.95.tar.gz]
+[2023-06-15 02:10:52] INFO root fetch - main [MainThread]: End processing [cdk-aws-discord-notifiers]: success
+[2023-06-15 02:10:55] INFO root fetch - processPackages [vesselapi]: Remove: archive file [/home/abi/fetcher/tmp/vesselapi-3.28.0.tar.gz]
+[2023-06-15 02:10:55] INFO root fetch - processPackages [vesselapi]: Remove: archive file [/home/abi/fetcher/tmp/vesselapi-3.5.2.tar.gz]
+[2023-06-15 02:10:55] INFO root fetch - main [MainThread]: End processing [vesselapi]: success
+[2023-06-15 02:10:55] INFO root fetch - main [MainThread]: Store serial: [18508376]
