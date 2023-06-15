@@ -5424,3 +5424,149 @@
 [2023-06-15 02:55:10] INFO root fetch - processPackages [ssh2awsec2]: Remove: archive file [/home/abi/fetcher/tmp/ssh2awsec2-0.1.1.tar.gz]
 [2023-06-15 02:55:10] INFO root fetch - main [MainThread]: End processing [ssh2awsec2]: success
 [2023-06-15 02:55:10] INFO root fetch - main [MainThread]: Store serial: [18509462]
+[2023-06-15 03:00:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18509462]
+[2023-06-15 03:00:19] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-15 03:00:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: DexonlineParser
+[2023-06-15 03:00:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: GlitchTech-AI
+[2023-06-15 03:00:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pycde
+[2023-06-15 03:00:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: vcosmos
+[2023-06-15 03:00:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk-databrew-cicd
+[2023-06-15 03:00:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tutor-ecommerce
+[2023-06-15 03:00:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: centralcli
+[2023-06-15 03:00:19] INFO root fetch - processPackages [DexonlineParser]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-15 03:00:19] INFO root fetch - processPackages [cdk-databrew-cicd]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-06-15 03:00:19] INFO root fetch - processPackages [GlitchTech-AI]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-15 03:00:19] WARNING root fetch - processPackages [vcosmos]: Skipping, unable to determine old version
+[2023-06-15 03:00:19] INFO root fetch - main [MainThread]: End processing [vcosmos] error
+[2023-06-15 03:00:19] INFO root fetch - processPackages [tutor-ecommerce]: New version: [16.0.0] Old Version: [15.0.2]
+[2023-06-15 03:00:19] INFO root fetch - processPackages [pycde]: New version: [0.2.1.dev9] Old Version: [0.2.1.dev80]
+[2023-06-15 03:00:19] INFO root fetch - processPackages [centralcli]: New version: [1.2] Old Version: [1.1]
+[2023-06-15 03:00:19] INFO root fetch - processPackages [GlitchTech-AI]: Downloading https://files.pythonhosted.org/packages/50/4f/7ae6abbe565e73d7404cacf6f85acb8a8394fa30e43663beba7e2a9ece10/GlitchTech-AI-0.0.8.tar.gz
+[2023-06-15 03:00:19] INFO root fetch - processPackages [cdk-databrew-cicd]: Downloading https://files.pythonhosted.org/packages/9c/18/acad9d22fe20a13d93a1aee49739981e3ab739a2edcb478344aa0fc5b783/cdk_databrew_cicd-2.0.98.tar.gz
+[2023-06-15 03:00:19] INFO root fetch - processPackages [DexonlineParser]: Downloading https://files.pythonhosted.org/packages/b1/c9/a2d38058a462f5a065cf5960a56941afa83d0656bf454c28637f803e516e/dexonlineparser-0.0.1.tar.gz
+[2023-06-15 03:00:19] INFO root fetch - processPackages [tutor-ecommerce]: Downloading https://files.pythonhosted.org/packages/4e/b3/04370dc4db27bc7b99c202fc956027bf8ce6714c5a411bfd0fe262a36c63/tutor-ecommerce-15.0.2.tar.gz
+[2023-06-15 03:00:19] INFO root fetch - processPackages [centralcli]: Downloading https://files.pythonhosted.org/packages/c9/24/14fe4f61e6ebf7dd5e306f29e2c2ef228c59f1824ecb88b48b46f62f8687/centralcli-1.1.tar.gz
+[2023-06-15 03:00:19] INFO root fetch - processPackages [cdk-databrew-cicd]: Downloading https://files.pythonhosted.org/packages/66/41/4c5089b171b28b627753bb3de1b4b696fdaeb4f78ef49dcb72a79fcb6e9d/cdk_databrew_cicd-2.0.99.tar.gz
+[2023-06-15 03:00:19] INFO root fetch - processPackages [GlitchTech-AI]: Downloading https://files.pythonhosted.org/packages/79/2d/ada1b2bf9dd32781de157673867e228e2ee9a692c7f79d1c9bd189ec0f4e/GlitchTech-AI-0.0.9.tar.gz
+[2023-06-15 03:00:19] INFO root fetch - processPackages [GlitchTech-AI]: executing diffoscope
+[2023-06-15 03:00:19] INFO root fetch - processPackages [GlitchTech-AI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GlitchTech-AI-0.0.8.tar.gz tmp/GlitchTech-AI-0.0.9.tar.gz --markdown 20230615/G/GlitchTech-AI/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-15 03:00:19] INFO root fetch - processPackages [cdk-databrew-cicd]: executing diffoscope
+[2023-06-15 03:00:19] INFO root fetch - processPackages [cdk-databrew-cicd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk_databrew_cicd-2.0.98.tar.gz tmp/cdk_databrew_cicd-2.0.99.tar.gz --markdown 20230615/c/cdk-databrew-cicd/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-06-15 03:00:19] INFO root fetch - processPackages [pycde]: executing diffoscope
+[2023-06-15 03:00:19] INFO root fetch - processPackages [pycde]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycde-0.2.1.dev80-cp39-cp39-win_amd64.whl.zip tmp/pycde-0.2.1.dev9-cp39-cp39-win_amd64.whl.zip --markdown 20230615/p/pycde/0.2.1.dev80-0.2.1.dev9/diff.md --exclude *.pyd
+[2023-06-15 03:00:19] INFO root fetch - processPackages [DexonlineParser]: Downloading https://files.pythonhosted.org/packages/0e/fd/b92b471e399373518221682a006e4fdded2a0cacdfd60ef8c85160335ae0/dexonlineparser-0.0.2.tar.gz
+[2023-06-15 03:00:19] INFO root fetch - processPackages [centralcli]: Downloading https://files.pythonhosted.org/packages/15/1a/5d1b916e15a60be0ae71954c80c4e54384e019cca0adca5dc07278e81d59/centralcli-1.2.tar.gz
+[2023-06-15 03:00:20] INFO root fetch - processPackages [tutor-ecommerce]: Downloading https://files.pythonhosted.org/packages/9f/a4/62eb4816a53659dea10ab8e22568a1a0225931b0c3e65a0d506bfdac4445/tutor-ecommerce-16.0.0.tar.gz
+[2023-06-15 03:00:20] INFO root fetch - processPackages [centralcli]: executing diffoscope
+[2023-06-15 03:00:20] INFO root fetch - processPackages [centralcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/centralcli-1.1.tar.gz tmp/centralcli-1.2.tar.gz --markdown 20230615/c/centralcli/1.1-1.2/diff.md --exclude *.pyd
+[2023-06-15 03:00:20] INFO root fetch - processPackages [tutor-ecommerce]: executing diffoscope
+[2023-06-15 03:00:20] INFO root fetch - processPackages [tutor-ecommerce]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tutor-ecommerce-15.0.2.tar.gz tmp/tutor-ecommerce-16.0.0.tar.gz --markdown 20230615/t/tutor-ecommerce/15.0.2-16.0.0/diff.md --exclude *.pyd
+[2023-06-15 03:00:20] INFO root fetch - processPackages [DexonlineParser]: executing diffoscope
+[2023-06-15 03:00:20] INFO root fetch - processPackages [DexonlineParser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dexonlineparser-0.0.1.tar.gz tmp/dexonlineparser-0.0.2.tar.gz --markdown 20230615/D/DexonlineParser/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-15 03:00:21] INFO root fetch - processPackages [cdk-databrew-cicd]: Remove: archive file [/home/abi/fetcher/tmp/cdk_databrew_cicd-2.0.98.tar.gz]
+[2023-06-15 03:00:21] INFO root fetch - processPackages [cdk-databrew-cicd]: Remove: archive file [/home/abi/fetcher/tmp/cdk_databrew_cicd-2.0.99.tar.gz]
+[2023-06-15 03:00:21] INFO root fetch - main [MainThread]: End processing [cdk-databrew-cicd]: success
+[2023-06-15 03:00:21] INFO root fetch - processPackages [DexonlineParser]: Remove: archive file [/home/abi/fetcher/tmp/dexonlineparser-0.0.1.tar.gz]
+[2023-06-15 03:00:21] INFO root fetch - processPackages [DexonlineParser]: Remove: archive file [/home/abi/fetcher/tmp/dexonlineparser-0.0.2.tar.gz]
+[2023-06-15 03:00:21] INFO root fetch - main [MainThread]: End processing [DexonlineParser]: success
+[2023-06-15 03:00:21] INFO root fetch - processPackages [GlitchTech-AI]: Remove: archive file [/home/abi/fetcher/tmp/GlitchTech-AI-0.0.8.tar.gz]
+[2023-06-15 03:00:21] INFO root fetch - processPackages [GlitchTech-AI]: Remove: archive file [/home/abi/fetcher/tmp/GlitchTech-AI-0.0.9.tar.gz]
+[2023-06-15 03:00:21] INFO root fetch - main [MainThread]: End processing [GlitchTech-AI]: success
+[2023-06-15 03:00:21] INFO root fetch - processPackages [tutor-ecommerce]: Remove: archive file [/home/abi/fetcher/tmp/tutor-ecommerce-15.0.2.tar.gz]
+[2023-06-15 03:00:21] INFO root fetch - processPackages [tutor-ecommerce]: Remove: archive file [/home/abi/fetcher/tmp/tutor-ecommerce-16.0.0.tar.gz]
+[2023-06-15 03:00:21] INFO root fetch - main [MainThread]: End processing [tutor-ecommerce]: success
+[2023-06-15 03:00:21] INFO root fetch - processPackages [centralcli]: Remove: archive file [/home/abi/fetcher/tmp/centralcli-1.1.tar.gz]
+[2023-06-15 03:00:21] INFO root fetch - processPackages [centralcli]: Remove: archive file [/home/abi/fetcher/tmp/centralcli-1.2.tar.gz]
+[2023-06-15 03:00:21] INFO root fetch - main [MainThread]: End processing [centralcli]: success
+[2023-06-15 03:01:04] ERROR root fetch - processPackages [pycde]: Diffoscope failed: Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 79, in feeder
+    for buf in in_file:
+  File "/srv/diffoscope/diffoscope/comparators/utils/libarchive.py", line 127, in list_libarchive
+    for entry in archive:
+  File "/usr/lib/python3/dist-packages/libarchive/read.py", line 26, in __iter__
+    r = read_next_header2(archive_p, entry_p)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/libarchive/ffi.py", line 91, in check_int
+    raise archive_error(args[0], retcode)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/libarchive/ffi.py", line 75, in archive_error
+    raise ArchiveError(msg, errno(archive_p), retcode, archive_p)
+libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, archive_p=140591929237872)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 217, in compare
+    x = super().compare(other, source)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 450, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 197, in compare_pair
+    difference = compare_files(
+                 ^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 416, in _compare_using_details
+    details.extend(self.compare_details(other, source))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/ar.py", line 71, in compare_details
+    Difference.from_text_readers(
+  File "/srv/diffoscope/diffoscope/difference.py", line 258, in from_text_readers
+    return Difference.from_feeder(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 214, in from_feeder
+    unified_diff = diff(feeder1, feeder2)
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 79, in feeder
+    for buf in in_file:
+  File "/srv/diffoscope/diffoscope/comparators/utils/libarchive.py", line 127, in list_libarchive
+    for entry in archive:
+  File "/usr/lib/python3/dist-packages/libarchive/read.py", line 26, in __iter__
+    r = read_next_header2(archive_p, entry_p)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/libarchive/ffi.py", line 91, in check_int
+    raise archive_error(args[0], retcode)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/libarchive/ffi.py", line 75, in archive_error
+    raise ArchiveError(msg, errno(archive_p), retcode, archive_p)
+libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, archive_p=140591795019344)
+
+[2023-06-15 03:01:04] INFO root fetch - main [MainThread]: End processing [pycde] error
+[2023-06-15 03:01:04] INFO root fetch - main [MainThread]: Store serial: [18509485]
