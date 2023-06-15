@@ -23398,3 +23398,157 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-06-15 15:12:49] INFO root fetch - processPackages [tb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tb_nightly-2.9.0a20220502-py3-none-any.whl.zip]
 [2023-06-15 15:12:49] INFO root fetch - main [MainThread]: End processing [tb-nightly]: success
 [2023-06-15 15:12:49] INFO root fetch - main [MainThread]: Store serial: [18516454]
+[2023-06-15 15:17:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18516454]
+[2023-06-15 15:18:01] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-06-15 15:18:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: configuraptor
+[2023-06-15 15:18:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nbdev-pytorch
+[2023-06-15 15:18:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cf-plot
+[2023-06-15 15:18:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: small-world-propensity
+[2023-06-15 15:18:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: small-world-propensity
+[2023-06-15 15:18:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: osism
+[2023-06-15 15:18:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nbdev-scipy
+[2023-06-15 15:18:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: th2-grpc-lw-data-provider
+[2023-06-15 15:18:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: il-datasets
+[2023-06-15 15:18:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nbdev-sphinx
+[2023-06-15 15:18:01] INFO root fetch - processPackages [small-world-propensity]: New version: [0.0.2] Old Version: [0.0.0]
+[2023-06-15 15:18:01] INFO root fetch - processPackages [configuraptor]: New version: [1.5.0] Old Version: [1.4.0]
+[2023-06-15 15:18:01] INFO root fetch - processPackages [small-world-propensity]: New version: [0.0.2] Old Version: [0.0.0]
+[2023-06-15 15:18:01] INFO root fetch - processPackages [osism]: New version: [0.9.8] Old Version: [0.9.7]
+[2023-06-15 15:18:01] INFO root fetch - processPackages [cf-plot]: New version: [3.2.7] Old Version: [3.2.6]
+[2023-06-15 15:18:01] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: New version: [2.1.0.dev3871883101] Old Version: [2.0.0.dev5276005409]
+[2023-06-15 15:18:01] INFO root fetch - processPackages [nbdev-scipy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-15 15:18:01] INFO root fetch - processPackages [nbdev-pytorch]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-15 15:18:01] INFO root fetch - processPackages [nbdev-sphinx]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-15 15:18:01] INFO root fetch - processPackages [configuraptor]: Downloading https://files.pythonhosted.org/packages/68/38/c054500e11ce9b786d3e7045c16cb8c44cac199989f48fdaf8a178da51a8/configuraptor-1.4.0.tar.gz
+[2023-06-15 15:18:01] INFO root fetch - processPackages [osism]: Downloading https://files.pythonhosted.org/packages/d9/e4/97288db572dab148de08d6921483c28336f8657f5955abf4742e87d99ce1/osism-0.9.7.tar.gz
+[2023-06-15 15:18:01] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: Downloading https://files.pythonhosted.org/packages/d2/0f/80b256d6db4a6c4ef2946fdb12d2663c6f9e2b58a66c4affb9ba24dd7921/th2_grpc_lw_data_provider-2.0.0.dev5276005409.tar.gz
+[2023-06-15 15:18:01] INFO root fetch - processPackages [nbdev-scipy]: Downloading https://files.pythonhosted.org/packages/94/a7/9596b1506d5fc0b0ceb265f8bbd5e0919fc146eb6df0916b4e546e9f074f/nbdev-scipy-0.0.98.tar.gz
+[2023-06-15 15:18:01] INFO root fetch - processPackages [nbdev-sphinx]: Downloading https://files.pythonhosted.org/packages/50/26/1673892b3686c404af92c390906ab3bac81806c424381e82dedac6477190/nbdev-sphinx-0.0.98.tar.gz
+[2023-06-15 15:18:01] INFO root fetch - processPackages [small-world-propensity]: Downloading https://files.pythonhosted.org/packages/8c/24/94618ea45ec1c5101f7ae6372908c0aa89de7ae72365525aebbbbb89213f/small_world_propensity-0.0.0.tar.gz
+[2023-06-15 15:18:01] INFO root fetch - processPackages [cf-plot]: Downloading https://files.pythonhosted.org/packages/ce/4d/46e8ef367ffbca7ec4bb6deeef567e6abf21c3b31a63a44dba97bf3fbfe5/cf-plot-3.2.6.tar.gz
+[2023-06-15 15:18:01] INFO root fetch - processPackages [small-world-propensity]: Downloading https://files.pythonhosted.org/packages/8c/24/94618ea45ec1c5101f7ae6372908c0aa89de7ae72365525aebbbbb89213f/small_world_propensity-0.0.0.tar.gz
+[2023-06-15 15:18:01] INFO root fetch - processPackages [osism]: Downloading https://files.pythonhosted.org/packages/f7/c9/7fabbdb50265b5306f0b31470c421517d434bda5f7f3f41fe3fcd98acac0/osism-0.9.8.tar.gz
+[2023-06-15 15:18:01] INFO root fetch - processPackages [nbdev-scipy]: Downloading https://files.pythonhosted.org/packages/d4/25/482f9160692bdd2d374401b19f8b4700ae91c179761991cee076e37aae0d/nbdev-scipy-0.0.99.tar.gz
+[2023-06-15 15:18:01] INFO root fetch - processPackages [nbdev-sphinx]: Downloading https://files.pythonhosted.org/packages/55/5e/ba946430b849ba8f51f4047dad2bb2417fbc794da9bb8301308347bb6207/nbdev-sphinx-0.0.99.tar.gz
+[2023-06-15 15:18:01] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: Downloading https://files.pythonhosted.org/packages/b8/71/939eea7287068082732ec066dc1b9af347f7ee06c935058691236acf7459/th2_grpc_lw_data_provider-2.1.0.dev3871883101.tar.gz
+[2023-06-15 15:18:01] INFO root fetch - processPackages [osism]: executing diffoscope
+[2023-06-15 15:18:01] INFO root fetch - processPackages [osism]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/osism-0.9.7.tar.gz tmp/osism-0.9.8.tar.gz --markdown 20230615/o/osism/0.9.7-0.9.8/diff.md --exclude *.pyd
+[2023-06-15 15:18:01] INFO root fetch - processPackages [nbdev-sphinx]: executing diffoscope
+[2023-06-15 15:18:01] INFO root fetch - processPackages [nbdev-sphinx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-sphinx-0.0.98.tar.gz tmp/nbdev-sphinx-0.0.99.tar.gz --markdown 20230615/n/nbdev-sphinx/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-15 15:18:01] INFO root fetch - processPackages [nbdev-pytorch]: Downloading https://files.pythonhosted.org/packages/f8/45/4613a0137d296a1960d76ded45b0af15a8fd578bf48df103c50675b49136/nbdev-pytorch-0.0.98.tar.gz
+[2023-06-15 15:18:01] INFO root fetch - processPackages [il-datasets]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-15 15:18:01] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: executing diffoscope
+[2023-06-15 15:18:01] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th2_grpc_lw_data_provider-2.0.0.dev5276005409.tar.gz tmp/th2_grpc_lw_data_provider-2.1.0.dev3871883101.tar.gz --markdown 20230615/t/th2-grpc-lw-data-provider/2.0.0.dev5276005409-2.1.0.dev3871883101/diff.md --exclude *.pyd
+[2023-06-15 15:18:01] INFO root fetch - processPackages [nbdev-scipy]: executing diffoscope
+[2023-06-15 15:18:01] INFO root fetch - processPackages [nbdev-scipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-scipy-0.0.98.tar.gz tmp/nbdev-scipy-0.0.99.tar.gz --markdown 20230615/n/nbdev-scipy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-15 15:18:02] INFO root fetch - processPackages [configuraptor]: Downloading https://files.pythonhosted.org/packages/bf/c6/77673113b1028311d154c4d43124d53b6b68bb48f1815ceeecaee7db5604/configuraptor-1.5.0.tar.gz
+[2023-06-15 15:18:02] INFO root fetch - processPackages [small-world-propensity]: Downloading https://files.pythonhosted.org/packages/cc/4d/d3bc0c1fbf3da81f6fd35a20d2a18d464656c5a7cd373fd6958ce516efc4/small_world_propensity-0.0.2.tar.gz
+[2023-06-15 15:18:02] INFO root fetch - processPackages [cf-plot]: Downloading https://files.pythonhosted.org/packages/2c/25/af6ae9580ed44ad918cc4dc4c99c98268cda6c4239d64618ec2f95585630/cf-plot-3.2.7.tar.gz
+[2023-06-15 15:18:02] INFO root fetch - processPackages [small-world-propensity]: Downloading https://files.pythonhosted.org/packages/cc/4d/d3bc0c1fbf3da81f6fd35a20d2a18d464656c5a7cd373fd6958ce516efc4/small_world_propensity-0.0.2.tar.gz
+[2023-06-15 15:18:02] INFO root fetch - processPackages [configuraptor]: executing diffoscope
+[2023-06-15 15:18:02] INFO root fetch - processPackages [configuraptor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/configuraptor-1.4.0.tar.gz tmp/configuraptor-1.5.0.tar.gz --markdown 20230615/c/configuraptor/1.4.0-1.5.0/diff.md --exclude *.pyd
+[2023-06-15 15:18:02] INFO root fetch - processPackages [il-datasets]: Downloading https://files.pythonhosted.org/packages/d0/ba/edf2836ee205a8574c40d84e5075d4006cbdebc9ad981fa2e14ab66dfd71/il-datasets-0.1.0.tar.gz
+[2023-06-15 15:18:02] INFO root fetch - processPackages [nbdev-pytorch]: Downloading https://files.pythonhosted.org/packages/b0/37/5921f26bef4d07ebb5599f7ccb4d57ab1a847950edaa615ebcf9ef228690/nbdev-pytorch-0.0.99.tar.gz
+[2023-06-15 15:18:02] INFO root fetch - processPackages [small-world-propensity]: executing diffoscope
+[2023-06-15 15:18:02] INFO root fetch - processPackages [small-world-propensity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/small_world_propensity-0.0.0.tar.gz tmp/small_world_propensity-0.0.2.tar.gz --markdown 20230615/s/small-world-propensity/0.0.0-0.0.2/diff.md --exclude *.pyd
+[2023-06-15 15:18:02] INFO root fetch - processPackages [small-world-propensity]: executing diffoscope
+[2023-06-15 15:18:02] INFO root fetch - processPackages [small-world-propensity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/small_world_propensity-0.0.0.tar.gz tmp/small_world_propensity-0.0.2.tar.gz --markdown 20230615/s/small-world-propensity/0.0.0-0.0.2/diff.md --exclude *.pyd
+[2023-06-15 15:18:02] INFO root fetch - processPackages [nbdev-pytorch]: executing diffoscope
+[2023-06-15 15:18:02] INFO root fetch - processPackages [nbdev-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-pytorch-0.0.98.tar.gz tmp/nbdev-pytorch-0.0.99.tar.gz --markdown 20230615/n/nbdev-pytorch/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-15 15:18:02] INFO root fetch - processPackages [cf-plot]: executing diffoscope
+[2023-06-15 15:18:02] INFO root fetch - processPackages [cf-plot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cf-plot-3.2.6.tar.gz tmp/cf-plot-3.2.7.tar.gz --markdown 20230615/c/cf-plot/3.2.6-3.2.7/diff.md --exclude *.pyd
+[2023-06-15 15:18:02] INFO root fetch - processPackages [il-datasets]: Downloading https://files.pythonhosted.org/packages/6e/c2/02730ab32ba9ea1b6a82fcea01ea8297f5560a2956a1f045f94b60734f40/il-datasets-0.1.1.tar.gz
+[2023-06-15 15:18:02] INFO root fetch - processPackages [il-datasets]: executing diffoscope
+[2023-06-15 15:18:02] INFO root fetch - processPackages [il-datasets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/il-datasets-0.1.0.tar.gz tmp/il-datasets-0.1.1.tar.gz --markdown 20230615/i/il-datasets/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-15 15:18:03] INFO root fetch - processPackages [small-world-propensity]: Remove: archive file [/home/abi/fetcher/tmp/small_world_propensity-0.0.0.tar.gz]
+[2023-06-15 15:18:03] INFO root fetch - processPackages [small-world-propensity]: Remove: archive file [/home/abi/fetcher/tmp/small_world_propensity-0.0.2.tar.gz]
+[2023-06-15 15:18:03] INFO root fetch - processPackages [small-world-propensity]: Start processing: filedepot
+[2023-06-15 15:18:03] INFO root fetch - main [MainThread]: End processing [small-world-propensity]: success
+[2023-06-15 15:18:03] INFO root fetch - processPackages [small-world-propensity]: Start processing: datafusion
+[2023-06-15 15:18:03] INFO root fetch - main [MainThread]: End processing [small-world-propensity]: success
+[2023-06-15 15:18:03] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: Remove: archive file [/home/abi/fetcher/tmp/th2_grpc_lw_data_provider-2.0.0.dev5276005409.tar.gz]
+[2023-06-15 15:18:03] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: Remove: archive file [/home/abi/fetcher/tmp/th2_grpc_lw_data_provider-2.1.0.dev3871883101.tar.gz]
+[2023-06-15 15:18:03] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: Start processing: py-concodese
+[2023-06-15 15:18:03] INFO root fetch - main [MainThread]: End processing [th2-grpc-lw-data-provider]: success
+[2023-06-15 15:18:03] INFO root fetch - processPackages [nbdev-sphinx]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-sphinx-0.0.98.tar.gz]
+[2023-06-15 15:18:03] INFO root fetch - processPackages [nbdev-sphinx]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-sphinx-0.0.99.tar.gz]
+[2023-06-15 15:18:03] INFO root fetch - processPackages [nbdev-sphinx]: Start processing: kombu
+[2023-06-15 15:18:03] INFO root fetch - main [MainThread]: End processing [nbdev-sphinx]: success
+[2023-06-15 15:18:03] INFO root fetch - processPackages [filedepot]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-15 15:18:03] INFO root fetch - processPackages [datafusion]: New version: [26.0.0] Old Version: [25.0.0]
+[2023-06-15 15:18:03] WARNING root fetch - processPackages [py-concodese]: Skipping, unable to determine old version
+[2023-06-15 15:18:03] INFO root fetch - processPackages [py-concodese]: Start processing: nbdev-django
+[2023-06-15 15:18:03] INFO root fetch - main [MainThread]: End processing [py-concodese] error
+[2023-06-15 15:18:03] INFO root fetch - processPackages [kombu]: New version: [5.3.1] Old Version: [5.3.0rc2]
+[2023-06-15 15:18:03] INFO root fetch - processPackages [nbdev-django]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-15 15:18:04] INFO root fetch - processPackages [filedepot]: Downloading https://files.pythonhosted.org/packages/71/0e/62179878898056bcda31f15c94b50a09a3c7dbd6e564a8fda375810dbd0d/filedepot-0.8.0.tar.gz
+[2023-06-15 15:18:04] INFO root fetch - processPackages [nbdev-django]: Downloading https://files.pythonhosted.org/packages/2b/95/9e261b8f3e5f931da5a2f9ddc475954265376d1d468b6f3877f38ad482c3/nbdev-django-0.0.98.tar.gz
+[2023-06-15 15:18:04] INFO root fetch - processPackages [configuraptor]: Remove: archive file [/home/abi/fetcher/tmp/configuraptor-1.4.0.tar.gz]
+[2023-06-15 15:18:04] INFO root fetch - processPackages [configuraptor]: Remove: archive file [/home/abi/fetcher/tmp/configuraptor-1.5.0.tar.gz]
+[2023-06-15 15:18:04] INFO root fetch - processPackages [configuraptor]: Start processing: asociita
+[2023-06-15 15:18:04] INFO root fetch - main [MainThread]: End processing [configuraptor]: success
+[2023-06-15 15:18:04] INFO root fetch - processPackages [il-datasets]: Remove: archive file [/home/abi/fetcher/tmp/il-datasets-0.1.0.tar.gz]
+[2023-06-15 15:18:04] INFO root fetch - processPackages [il-datasets]: Remove: archive file [/home/abi/fetcher/tmp/il-datasets-0.1.1.tar.gz]
+[2023-06-15 15:18:04] INFO root fetch - processPackages [il-datasets]: Start processing: codestripper
+[2023-06-15 15:18:04] INFO root fetch - main [MainThread]: End processing [il-datasets]: success
+[2023-06-15 15:18:04] INFO root fetch - processPackages [asociita]: New version: [0.1.9.1] Old Version: [0.1.9]
+[2023-06-15 15:18:04] INFO root fetch - processPackages [datafusion]: Downloading https://files.pythonhosted.org/packages/ee/5a/06ae52a96309428e6b09be0177e5b02bbb936215154efb47ddaff57f42b7/datafusion-25.0.0.tar.gz
+[2023-06-15 15:18:04] INFO root fetch - processPackages [nbdev-django]: Downloading https://files.pythonhosted.org/packages/f2/7a/5214014e1426324d1fea2f984c9b5480e467e5eddefe61721e8f4d1c025e/nbdev-django-0.0.99.tar.gz
+[2023-06-15 15:18:04] INFO root fetch - processPackages [asociita]: Downloading https://files.pythonhosted.org/packages/c5/07/e97f708e780fff2ae44460c985b1f556bc32d5f2b7243781a23d02f709ad/asociita-0.1.9.tar.gz
+[2023-06-15 15:18:04] INFO root fetch - processPackages [kombu]: Downloading https://files.pythonhosted.org/packages/5c/e7/bec8cffa8aaa9c1c850f76cabcb737489b098272c4a6e084ed6f0f3d0f1d/kombu-5.3.0rc2.tar.gz
+[2023-06-15 15:18:04] INFO root fetch - processPackages [nbdev-django]: executing diffoscope
+[2023-06-15 15:18:04] INFO root fetch - processPackages [nbdev-django]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-django-0.0.98.tar.gz tmp/nbdev-django-0.0.99.tar.gz --markdown 20230615/n/nbdev-django/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-15 15:18:04] INFO root fetch - processPackages [codestripper]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-15 15:18:04] INFO root fetch - processPackages [asociita]: Downloading https://files.pythonhosted.org/packages/9d/43/6f0bc9b1304acc06009038cc92a1a27d11c4389bdcddabafa33e18f93b72/asociita-0.1.9.1.tar.gz
+[2023-06-15 15:18:04] INFO root fetch - processPackages [asociita]: executing diffoscope
+[2023-06-15 15:18:04] INFO root fetch - processPackages [asociita]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asociita-0.1.9.tar.gz tmp/asociita-0.1.9.1.tar.gz --markdown 20230615/a/asociita/0.1.9-0.1.9.1/diff.md --exclude *.pyd
+[2023-06-15 15:18:04] INFO root fetch - processPackages [filedepot]: Downloading https://files.pythonhosted.org/packages/93/f0/32dffb32d3bf6b0c597ee93dc4939f72c28262f40c77b4df3f9f2bef7b04/filedepot-0.9.0.tar.gz
+[2023-06-15 15:18:04] INFO root fetch - processPackages [datafusion]: Downloading https://files.pythonhosted.org/packages/9d/a9/e548e4c70957d0b21766fca81f85e68a04aa09486145b0120c420db5fa72/datafusion-26.0.0-cp37-abi3-win_amd64.whl
+[2023-06-15 15:18:04] INFO root fetch - processPackages [filedepot]: executing diffoscope
+[2023-06-15 15:18:04] INFO root fetch - processPackages [filedepot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/filedepot-0.8.0.tar.gz tmp/filedepot-0.9.0.tar.gz --markdown 20230615/f/filedepot/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-15 15:18:04] INFO root fetch - processPackages [codestripper]: Downloading https://files.pythonhosted.org/packages/18/ad/bd4ca0551683f70bfc4b4df1e5e0fbc7c9799b0c0038fa4e9f263cf4f6e1/codestripper-0.1.2.tar.gz
+[2023-06-15 15:18:04] INFO root fetch - processPackages [kombu]: Downloading https://files.pythonhosted.org/packages/c8/69/b703f8ec8d0406be22534dad885cac847fe092b793c4893034e3308feb9b/kombu-5.3.1.tar.gz
+[2023-06-15 15:18:04] WARNING root fetch - processPackages [datafusion]: Skipping package: exceeds size limit 15015906>=10485760
+[2023-06-15 15:18:04] INFO root fetch - processPackages [datafusion]: Start processing: aloso
+[2023-06-15 15:18:04] INFO root fetch - main [MainThread]: End processing [datafusion] error
+[2023-06-15 15:18:04] INFO root fetch - processPackages [aloso]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-15 15:18:04] INFO root fetch - processPackages [nbdev-scipy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-scipy-0.0.98.tar.gz]
+[2023-06-15 15:18:04] INFO root fetch - processPackages [nbdev-scipy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-scipy-0.0.99.tar.gz]
+[2023-06-15 15:18:04] INFO root fetch - main [MainThread]: End processing [nbdev-scipy]: success
+[2023-06-15 15:18:04] INFO root fetch - processPackages [aloso]: Downloading https://files.pythonhosted.org/packages/50/9d/0ff14b1bc5f2263235cdcf24ed3d3350aa202844d04965c4926ec9b0c09b/aloso-0.0.8-py3-none-any.whl
+[2023-06-15 15:18:04] INFO root fetch - processPackages [kombu]: executing diffoscope
+[2023-06-15 15:18:04] INFO root fetch - processPackages [kombu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kombu-5.3.0rc2.tar.gz tmp/kombu-5.3.1.tar.gz --markdown 20230615/k/kombu/5.3.0rc2-5.3.1/diff.md --exclude *.pyd
+[2023-06-15 15:18:04] INFO root fetch - processPackages [nbdev-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pytorch-0.0.98.tar.gz]
+[2023-06-15 15:18:04] INFO root fetch - processPackages [nbdev-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pytorch-0.0.99.tar.gz]
+[2023-06-15 15:18:04] INFO root fetch - main [MainThread]: End processing [nbdev-pytorch]: success
+[2023-06-15 15:18:04] INFO root fetch - processPackages [codestripper]: Downloading https://files.pythonhosted.org/packages/46/8a/4c6127638be845655561d62171efd8a2482b64b99a41894d8f88bd6dc089/codestripper-0.1.3.tar.gz
+[2023-06-15 15:18:04] INFO root fetch - processPackages [aloso]: Downloading https://files.pythonhosted.org/packages/8d/c7/4327030a3a76e4d5eb22fc9af6b920dd9d50887fe3bd59e743a9e7b1ac9d/aloso-0.0.9-py3-none-any.whl
+[2023-06-15 15:18:04] INFO root fetch - processPackages [codestripper]: executing diffoscope
+[2023-06-15 15:18:04] INFO root fetch - processPackages [codestripper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codestripper-0.1.2.tar.gz tmp/codestripper-0.1.3.tar.gz --markdown 20230615/c/codestripper/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-15 15:18:04] INFO root fetch - processPackages [aloso]: executing diffoscope
+[2023-06-15 15:18:04] INFO root fetch - processPackages [aloso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aloso-0.0.8-py3-none-any.whl.zip tmp/aloso-0.0.9-py3-none-any.whl.zip --markdown 20230615/a/aloso/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-15 15:18:05] INFO root fetch - processPackages [cf-plot]: Remove: archive file [/home/abi/fetcher/tmp/cf-plot-3.2.6.tar.gz]
+[2023-06-15 15:18:05] INFO root fetch - processPackages [cf-plot]: Remove: archive file [/home/abi/fetcher/tmp/cf-plot-3.2.7.tar.gz]
+[2023-06-15 15:18:05] INFO root fetch - main [MainThread]: End processing [cf-plot]: success
+[2023-06-15 15:18:05] INFO root fetch - processPackages [nbdev-django]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-django-0.0.98.tar.gz]
+[2023-06-15 15:18:05] INFO root fetch - processPackages [nbdev-django]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-django-0.0.99.tar.gz]
+[2023-06-15 15:18:05] INFO root fetch - main [MainThread]: End processing [nbdev-django]: success
+[2023-06-15 15:18:05] INFO root fetch - processPackages [osism]: Remove: archive file [/home/abi/fetcher/tmp/osism-0.9.7.tar.gz]
+[2023-06-15 15:18:05] INFO root fetch - processPackages [osism]: Remove: archive file [/home/abi/fetcher/tmp/osism-0.9.8.tar.gz]
+[2023-06-15 15:18:05] INFO root fetch - main [MainThread]: End processing [osism]: success
+[2023-06-15 15:18:05] INFO root fetch - processPackages [filedepot]: Remove: archive file [/home/abi/fetcher/tmp/filedepot-0.8.0.tar.gz]
+[2023-06-15 15:18:05] INFO root fetch - processPackages [filedepot]: Remove: archive file [/home/abi/fetcher/tmp/filedepot-0.9.0.tar.gz]
+[2023-06-15 15:18:05] INFO root fetch - main [MainThread]: End processing [filedepot]: success
+[2023-06-15 15:18:05] INFO root fetch - processPackages [asociita]: Remove: archive file [/home/abi/fetcher/tmp/asociita-0.1.9.tar.gz]
+[2023-06-15 15:18:05] INFO root fetch - processPackages [asociita]: Remove: archive file [/home/abi/fetcher/tmp/asociita-0.1.9.1.tar.gz]
+[2023-06-15 15:18:05] INFO root fetch - main [MainThread]: End processing [asociita]: success
+[2023-06-15 15:18:06] INFO root fetch - processPackages [codestripper]: Remove: archive file [/home/abi/fetcher/tmp/codestripper-0.1.2.tar.gz]
+[2023-06-15 15:18:06] INFO root fetch - processPackages [codestripper]: Remove: archive file [/home/abi/fetcher/tmp/codestripper-0.1.3.tar.gz]
+[2023-06-15 15:18:06] INFO root fetch - main [MainThread]: End processing [codestripper]: success
+[2023-06-15 15:18:06] INFO root fetch - processPackages [aloso]: Remove: archive file [/home/abi/fetcher/tmp/aloso-0.0.8-py3-none-any.whl.zip]
+[2023-06-15 15:18:06] INFO root fetch - processPackages [aloso]: Remove: archive file [/home/abi/fetcher/tmp/aloso-0.0.9-py3-none-any.whl.zip]
+[2023-06-15 15:18:06] INFO root fetch - main [MainThread]: End processing [aloso]: success
+[2023-06-15 15:18:07] INFO root fetch - processPackages [kombu]: Remove: archive file [/home/abi/fetcher/tmp/kombu-5.3.0rc2.tar.gz]
+[2023-06-15 15:18:07] INFO root fetch - processPackages [kombu]: Remove: archive file [/home/abi/fetcher/tmp/kombu-5.3.1.tar.gz]
+[2023-06-15 15:18:07] INFO root fetch - main [MainThread]: End processing [kombu]: success
+[2023-06-15 15:18:07] INFO root fetch - main [MainThread]: Store serial: [18516514]
