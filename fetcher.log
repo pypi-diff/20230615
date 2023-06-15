@@ -9597,3 +9597,119 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-15 06:22:59] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_openupgrade_scripts-16.0.1.0.0.7-py3-none-any.whl.zip]
 [2023-06-15 06:22:59] INFO root fetch - main [MainThread]: End processing [odoo-addon-openupgrade-scripts]: success
 [2023-06-15 06:22:59] INFO root fetch - main [MainThread]: Store serial: [18510999]
+[2023-06-15 06:28:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18510999]
+[2023-06-15 06:28:09] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-06-15 06:28:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: graphscope
+[2023-06-15 06:28:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: graphscope-client
+[2023-06-15 06:28:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo12-addon-sale-multi-operating-unit
+[2023-06-15 06:28:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: vector-quantize-pytorch
+[2023-06-15 06:28:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gs-apps
+[2023-06-15 06:28:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gs-coordinator
+[2023-06-15 06:28:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gs-engine
+[2023-06-15 06:28:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: gs-include
+[2023-06-15 06:28:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo8-addon-partner-identification
+[2023-06-15 06:28:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: jscc
+[2023-06-15 06:28:10] INFO root fetch - processPackages [vector-quantize-pytorch]: New version: [1.6.9] Old Version: [1.6.7]
+[2023-06-15 06:28:10] INFO root fetch - processPackages [gs-apps]: New version: [0.23.0a20230615] Old Version: [0.23.0a20230614]
+[2023-06-15 06:28:10] INFO root fetch - processPackages [odoo12-addon-sale-multi-operating-unit]: New version: [12.0.1.0.0.99.dev35] Old Version: [12.0.1.0.0.99.dev34]
+[2023-06-15 06:28:10] INFO root fetch - processPackages [jscc]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-06-15 06:28:10] INFO root fetch - processPackages [gs-coordinator]: New version: [0.23.0a20230615] Old Version: [0.23.0a20230613]
+[2023-06-15 06:28:10] INFO root fetch - processPackages [gs-include]: New version: [0.23.0a20230615] Old Version: [0.23.0a20230613]
+[2023-06-15 06:28:10] INFO root fetch - processPackages [gs-engine]: New version: [0.23.0a20230615] Old Version: [0.23.0a20230613]
+[2023-06-15 06:28:10] INFO root fetch - processPackages [graphscope]: New version: [0.23.0a20230615] Old Version: [0.23.0a20230614]
+[2023-06-15 06:28:10] INFO root fetch - processPackages [graphscope-client]: New version: [0.23.0a20230615] Old Version: [0.23.0a20230614]
+[2023-06-15 06:28:10] INFO root fetch - processPackages [vector-quantize-pytorch]: Downloading https://files.pythonhosted.org/packages/f9/64/771c9abd337a81ba6dfe0e6a0132b5a43e24b2640538385a01dc17b972f5/vector_quantize_pytorch-1.6.7.tar.gz
+[2023-06-15 06:28:10] INFO root fetch - processPackages [odoo8-addon-partner-identification]: New version: [8.0.1.1.1.99.dev9] Old Version: [8.0.1.1.1.99.dev8]
+[2023-06-15 06:28:10] INFO root fetch - processPackages [jscc]: Downloading https://files.pythonhosted.org/packages/e5/2e/3c92064a92cb701f6832c7a30977c0fd2fc0d74b761136ee9f5a7beea8ce/jscc-0.2.0.tar.gz
+[2023-06-15 06:28:10] INFO root fetch - processPackages [odoo12-addon-sale-multi-operating-unit]: Downloading https://files.pythonhosted.org/packages/f4/0b/1d351162ada8beeba868f7020d04ee200221ec9caf52dfbd3c1a46f30e1c/odoo12_addon_sale_multi_operating_unit-12.0.1.0.0.99.dev34-py3-none-any.whl
+[2023-06-15 06:28:10] INFO root fetch - processPackages [gs-apps]: Downloading https://files.pythonhosted.org/packages/68/01/58a4cc88745be1b5e7407e0dd0f91369532ee78b2b595279f80889a284f5/gs_apps-0.23.0a20230614-py2.py3-none-manylinux_2_17_aarch64.manylinux2014_aarch64.whl
+[2023-06-15 06:28:10] INFO root fetch - processPackages [gs-coordinator]: Downloading https://files.pythonhosted.org/packages/75/3c/58d10f5bb9ee0f35091d7e2564081f0cb6616f5692554eb27037057e0e04/gs_coordinator-0.23.0a20230613-py2.py3-none-any.whl
+[2023-06-15 06:28:10] INFO root fetch - processPackages [gs-engine]: Downloading https://files.pythonhosted.org/packages/6b/e9/e94ccf0071006911dbbf240f507c537b8b250a7c04401c04145163539fd5/gs_engine-0.23.0a20230613-py2.py3-none-any.whl
+[2023-06-15 06:28:10] INFO root fetch - processPackages [gs-include]: Downloading https://files.pythonhosted.org/packages/9c/e1/28228f2779445a6717d16cc783fe7273a481fc82cf104e9ccef4994319e0/gs_include-0.23.0a20230613-py2.py3-none-any.whl
+[2023-06-15 06:28:10] INFO root fetch - processPackages [jscc]: Downloading https://files.pythonhosted.org/packages/f4/74/d3721019bd9ec14cfc6d64d756118117b2ef3f6c8dd8024e937fb3af5318/jscc-0.2.1.tar.gz
+[2023-06-15 06:28:10] INFO root fetch - processPackages [graphscope-client]: Downloading https://files.pythonhosted.org/packages/b8/0d/82ee113ea0e2a899e3d205c8f1a56b4a6f87817c641dc3ed1ca6fbcc8060/graphscope_client-0.23.0a20230614-cp39-cp39-manylinux_2_17_aarch64.manylinux2014_aarch64.whl
+[2023-06-15 06:28:10] INFO root fetch - processPackages [graphscope]: Downloading https://files.pythonhosted.org/packages/83/cd/9e64aed7fd66ae948ed28e098de71e35740da2ba59c79b1b6b0f62239c35/graphscope-0.23.0a20230614-py2.py3-none-manylinux_2_17_aarch64.manylinux2014_aarch64.whl
+[2023-06-15 06:28:10] INFO root fetch - processPackages [vector-quantize-pytorch]: Downloading https://files.pythonhosted.org/packages/59/2f/a0f5b7e39fdec57501b5b479d9b4fac9c2c81adc65b2ed6f30dd4dbfd3ab/vector_quantize_pytorch-1.6.9.tar.gz
+[2023-06-15 06:28:10] INFO root fetch - processPackages [jscc]: executing diffoscope
+[2023-06-15 06:28:10] INFO root fetch - processPackages [jscc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jscc-0.2.0.tar.gz tmp/jscc-0.2.1.tar.gz --markdown 20230615/j/jscc/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-06-15 06:28:10] WARNING root fetch - processPackages [gs-apps]: Skipping package: exceeds size limit 45038544>=10485760
+[2023-06-15 06:28:10] INFO root fetch - processPackages [gs-apps]: Start processing: mlbi-at-dku-lib
+[2023-06-15 06:28:10] INFO root fetch - main [MainThread]: End processing [gs-apps] error
+[2023-06-15 06:28:10] WARNING root fetch - processPackages [gs-include]: Skipping package: exceeds size limit 27683008>=10485760
+[2023-06-15 06:28:10] INFO root fetch - processPackages [gs-include]: Start processing: pipen-board
+[2023-06-15 06:28:10] INFO root fetch - main [MainThread]: End processing [gs-include] error
+[2023-06-15 06:28:10] INFO root fetch - processPackages [odoo8-addon-partner-identification]: Downloading https://files.pythonhosted.org/packages/fa/2c/11db5746aed29fe868cd7a7820d12328e363d2bc3fb6d6eefbb83310eaa5/odoo8_addon_partner_identification-8.0.1.1.1.99.dev8-py2-none-any.whl
+[2023-06-15 06:28:10] INFO root fetch - processPackages [vector-quantize-pytorch]: executing diffoscope
+[2023-06-15 06:28:10] INFO root fetch - processPackages [vector-quantize-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vector_quantize_pytorch-1.6.7.tar.gz tmp/vector_quantize_pytorch-1.6.9.tar.gz --markdown 20230615/v/vector-quantize-pytorch/1.6.7-1.6.9/diff.md --exclude *.pyd
+[2023-06-15 06:28:10] INFO root fetch - processPackages [mlbi-at-dku-lib]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-06-15 06:28:10] WARNING root fetch - processPackages [graphscope]: Skipping package: exceeds size limit 132610382>=10485760
+[2023-06-15 06:28:10] INFO root fetch - processPackages [graphscope]: Start processing: ghostpip
+[2023-06-15 06:28:10] INFO root fetch - main [MainThread]: End processing [graphscope] error
+[2023-06-15 06:28:10] INFO root fetch - processPackages [pipen-board]: New version: [0.5.5] Old Version: [0.5.4]
+[2023-06-15 06:28:10] INFO root fetch - processPackages [odoo12-addon-sale-multi-operating-unit]: Downloading https://files.pythonhosted.org/packages/79/4b/2abf793ed57d6f8a74bc8f6fc0dbfb6e8db7de2b7f892b6eb7f245b3935c/odoo12_addon_sale_multi_operating_unit-12.0.1.0.0.99.dev35-py3-none-any.whl
+[2023-06-15 06:28:10] INFO root fetch - processPackages [pipen-board]: Downloading https://files.pythonhosted.org/packages/d1/4d/a7431f9abbe385c17477d4fe6fc054b42707edd75e2bd0a1490f68dfce23/pipen_board-0.5.4.tar.gz
+[2023-06-15 06:28:10] INFO root fetch - processPackages [mlbi-at-dku-lib]: Downloading https://files.pythonhosted.org/packages/b1/33/42bcea03054d837277a05a57dee62a11f6c0a05e24d69957243e5264cff1/mlbi_at_dku_lib-0.1.4.tar.gz
+[2023-06-15 06:28:10] WARNING root fetch - processPackages [graphscope-client]: Skipping package: exceeds size limit 61379169>=10485760
+[2023-06-15 06:28:10] INFO root fetch - processPackages [graphscope-client]: Start processing: spider-st
+[2023-06-15 06:28:10] INFO root fetch - main [MainThread]: End processing [graphscope-client] error
+[2023-06-15 06:28:10] WARNING root fetch - processPackages [ghostpip]: Skipping, unable to determine old version
+[2023-06-15 06:28:10] INFO root fetch - processPackages [ghostpip]: Start processing: scrapy-arweave
+[2023-06-15 06:28:10] INFO root fetch - main [MainThread]: End processing [ghostpip] error
+[2023-06-15 06:28:10] INFO root fetch - processPackages [gs-engine]: Downloading https://files.pythonhosted.org/packages/07/5c/9422f4e000005ef04e974d8ec542387c02f6854cac3bdad4e21d7a23f0a1/gs_engine-0.23.0a20230615-py2.py3-none-any.whl
+[2023-06-15 06:28:10] INFO root fetch - processPackages [gs-coordinator]: Downloading https://files.pythonhosted.org/packages/0e/fd/150e39fe833d2423edc8457bb106d7881f7d556a3885aeebbc6c88c639c7/gs_coordinator-0.23.0a20230615-py2.py3-none-any.whl
+[2023-06-15 06:28:10] INFO root fetch - processPackages [pipen-board]: Downloading https://files.pythonhosted.org/packages/57/68/56430f523ca9922df11f7a368b0e8fab4f01712ba9de67adc531cdcb66d6/pipen_board-0.5.5.tar.gz
+[2023-06-15 06:28:10] INFO root fetch - processPackages [odoo12-addon-sale-multi-operating-unit]: executing diffoscope
+[2023-06-15 06:28:10] INFO root fetch - processPackages [odoo12-addon-sale-multi-operating-unit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_sale_multi_operating_unit-12.0.1.0.0.99.dev34-py3-none-any.whl.zip tmp/odoo12_addon_sale_multi_operating_unit-12.0.1.0.0.99.dev35-py3-none-any.whl.zip --markdown 20230615/o/odoo12-addon-sale-multi-operating-unit/12.0.1.0.0.99.dev34-12.0.1.0.0.99.dev35/diff.md --exclude *.pyd
+[2023-06-15 06:28:10] INFO root fetch - processPackages [spider-st]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-15 06:28:10] INFO root fetch - processPackages [pipen-board]: executing diffoscope
+[2023-06-15 06:28:10] INFO root fetch - processPackages [pipen-board]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipen_board-0.5.4.tar.gz tmp/pipen_board-0.5.5.tar.gz --markdown 20230615/p/pipen-board/0.5.4-0.5.5/diff.md --exclude *.pyd
+[2023-06-15 06:28:10] INFO root fetch - processPackages [scrapy-arweave]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-15 06:28:10] INFO root fetch - processPackages [odoo8-addon-partner-identification]: Downloading https://files.pythonhosted.org/packages/67/d0/f5a9f87e8a658b7570e6549dd149ee5f9c6cd322c2fe07af0f14b174d5e0/odoo8_addon_partner_identification-8.0.1.1.1.99.dev9-py2-none-any.whl
+[2023-06-15 06:28:10] INFO root fetch - processPackages [gs-engine]: executing diffoscope
+[2023-06-15 06:28:10] INFO root fetch - processPackages [gs-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gs_engine-0.23.0a20230613-py2.py3-none-any.whl.zip tmp/gs_engine-0.23.0a20230615-py2.py3-none-any.whl.zip --markdown 20230615/g/gs-engine/0.23.0a20230613-0.23.0a20230615/diff.md --exclude *.pyd
+[2023-06-15 06:28:10] INFO root fetch - processPackages [mlbi-at-dku-lib]: Downloading https://files.pythonhosted.org/packages/21/24/7df85912f11066e53d2ef168e51bf7e7e1e158823a38a3c31a3d1ff981f4/mlbi_at_dku_lib-0.1.5.tar.gz
+[2023-06-15 06:28:10] INFO root fetch - processPackages [gs-coordinator]: executing diffoscope
+[2023-06-15 06:28:10] INFO root fetch - processPackages [gs-coordinator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gs_coordinator-0.23.0a20230613-py2.py3-none-any.whl.zip tmp/gs_coordinator-0.23.0a20230615-py2.py3-none-any.whl.zip --markdown 20230615/g/gs-coordinator/0.23.0a20230613-0.23.0a20230615/diff.md --exclude *.pyd
+[2023-06-15 06:28:10] INFO root fetch - processPackages [mlbi-at-dku-lib]: executing diffoscope
+[2023-06-15 06:28:10] INFO root fetch - processPackages [mlbi-at-dku-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlbi_at_dku_lib-0.1.4.tar.gz tmp/mlbi_at_dku_lib-0.1.5.tar.gz --markdown 20230615/m/mlbi-at-dku-lib/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-06-15 06:28:10] INFO root fetch - processPackages [odoo8-addon-partner-identification]: executing diffoscope
+[2023-06-15 06:28:10] INFO root fetch - processPackages [odoo8-addon-partner-identification]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo8_addon_partner_identification-8.0.1.1.1.99.dev8-py2-none-any.whl.zip tmp/odoo8_addon_partner_identification-8.0.1.1.1.99.dev9-py2-none-any.whl.zip --markdown 20230615/o/odoo8-addon-partner-identification/8.0.1.1.1.99.dev8-8.0.1.1.1.99.dev9/diff.md --exclude *.pyd
+[2023-06-15 06:28:11] INFO root fetch - processPackages [spider-st]: Downloading https://files.pythonhosted.org/packages/27/f0/797c715930041af8dcdb6be6e3b61bac6e084f6335e8e1bb34a7163c65d9/spider-st-0.1.8.tar.gz
+[2023-06-15 06:28:11] INFO root fetch - processPackages [scrapy-arweave]: Downloading https://files.pythonhosted.org/packages/86/76/ce533f3512105fccee6a4a8de653f80debc5a982b471472276aca851df86/scrapy_arweave-0.0.1.tar.gz
+[2023-06-15 06:28:11] INFO root fetch - processPackages [scrapy-arweave]: Downloading https://files.pythonhosted.org/packages/16/d5/f3c4a160c98de1ca598c76ec8a56161e680b3e95d4f956f6d1ce1e6b4675/scrapy_arweave-0.0.2.tar.gz
+[2023-06-15 06:28:11] INFO root fetch - processPackages [scrapy-arweave]: executing diffoscope
+[2023-06-15 06:28:11] INFO root fetch - processPackages [scrapy-arweave]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scrapy_arweave-0.0.1.tar.gz tmp/scrapy_arweave-0.0.2.tar.gz --markdown 20230615/s/scrapy-arweave/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-15 06:28:11] INFO root fetch - processPackages [vector-quantize-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/vector_quantize_pytorch-1.6.7.tar.gz]
+[2023-06-15 06:28:11] INFO root fetch - processPackages [vector-quantize-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/vector_quantize_pytorch-1.6.9.tar.gz]
+[2023-06-15 06:28:11] INFO root fetch - main [MainThread]: End processing [vector-quantize-pytorch]: success
+[2023-06-15 06:28:11] INFO root fetch - processPackages [spider-st]: Downloading https://files.pythonhosted.org/packages/cd/c9/655add848a603be8b1146a92ed2829a4fa4b2f18fbe6bc408dd130d11b22/spider-st-0.1.9.tar.gz
+[2023-06-15 06:28:12] INFO root fetch - processPackages [odoo12-addon-sale-multi-operating-unit]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_sale_multi_operating_unit-12.0.1.0.0.99.dev34-py3-none-any.whl.zip]
+[2023-06-15 06:28:12] INFO root fetch - processPackages [odoo12-addon-sale-multi-operating-unit]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_sale_multi_operating_unit-12.0.1.0.0.99.dev35-py3-none-any.whl.zip]
+[2023-06-15 06:28:12] INFO root fetch - main [MainThread]: End processing [odoo12-addon-sale-multi-operating-unit]: success
+[2023-06-15 06:28:12] INFO root fetch - processPackages [spider-st]: executing diffoscope
+[2023-06-15 06:28:12] INFO root fetch - processPackages [spider-st]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spider-st-0.1.8.tar.gz tmp/spider-st-0.1.9.tar.gz --markdown 20230615/s/spider-st/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-15 06:28:12] INFO root fetch - processPackages [pipen-board]: Remove: archive file [/home/abi/fetcher/tmp/pipen_board-0.5.4.tar.gz]
+[2023-06-15 06:28:12] INFO root fetch - processPackages [pipen-board]: Remove: archive file [/home/abi/fetcher/tmp/pipen_board-0.5.5.tar.gz]
+[2023-06-15 06:28:12] INFO root fetch - main [MainThread]: End processing [pipen-board]: success
+[2023-06-15 06:28:12] INFO root fetch - processPackages [odoo8-addon-partner-identification]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_partner_identification-8.0.1.1.1.99.dev8-py2-none-any.whl.zip]
+[2023-06-15 06:28:12] INFO root fetch - processPackages [odoo8-addon-partner-identification]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_partner_identification-8.0.1.1.1.99.dev9-py2-none-any.whl.zip]
+[2023-06-15 06:28:12] INFO root fetch - main [MainThread]: End processing [odoo8-addon-partner-identification]: success
+[2023-06-15 06:28:12] INFO root fetch - processPackages [jscc]: Remove: archive file [/home/abi/fetcher/tmp/jscc-0.2.0.tar.gz]
+[2023-06-15 06:28:12] INFO root fetch - processPackages [jscc]: Remove: archive file [/home/abi/fetcher/tmp/jscc-0.2.1.tar.gz]
+[2023-06-15 06:28:12] INFO root fetch - main [MainThread]: End processing [jscc]: success
+[2023-06-15 06:28:12] INFO root fetch - processPackages [gs-engine]: Remove: archive file [/home/abi/fetcher/tmp/gs_engine-0.23.0a20230613-py2.py3-none-any.whl.zip]
+[2023-06-15 06:28:12] INFO root fetch - processPackages [gs-engine]: Remove: archive file [/home/abi/fetcher/tmp/gs_engine-0.23.0a20230615-py2.py3-none-any.whl.zip]
+[2023-06-15 06:28:12] INFO root fetch - main [MainThread]: End processing [gs-engine]: success
+[2023-06-15 06:28:12] INFO root fetch - processPackages [scrapy-arweave]: Remove: archive file [/home/abi/fetcher/tmp/scrapy_arweave-0.0.1.tar.gz]
+[2023-06-15 06:28:12] INFO root fetch - processPackages [scrapy-arweave]: Remove: archive file [/home/abi/fetcher/tmp/scrapy_arweave-0.0.2.tar.gz]
+[2023-06-15 06:28:12] INFO root fetch - main [MainThread]: End processing [scrapy-arweave]: success
+[2023-06-15 06:28:12] INFO root fetch - processPackages [mlbi-at-dku-lib]: Remove: archive file [/home/abi/fetcher/tmp/mlbi_at_dku_lib-0.1.4.tar.gz]
+[2023-06-15 06:28:12] INFO root fetch - processPackages [mlbi-at-dku-lib]: Remove: archive file [/home/abi/fetcher/tmp/mlbi_at_dku_lib-0.1.5.tar.gz]
+[2023-06-15 06:28:12] INFO root fetch - main [MainThread]: End processing [mlbi-at-dku-lib]: success
+[2023-06-15 06:28:12] INFO root fetch - processPackages [gs-coordinator]: Remove: archive file [/home/abi/fetcher/tmp/gs_coordinator-0.23.0a20230613-py2.py3-none-any.whl.zip]
+[2023-06-15 06:28:12] INFO root fetch - processPackages [gs-coordinator]: Remove: archive file [/home/abi/fetcher/tmp/gs_coordinator-0.23.0a20230615-py2.py3-none-any.whl.zip]
+[2023-06-15 06:28:12] INFO root fetch - main [MainThread]: End processing [gs-coordinator]: success
+[2023-06-15 06:28:24] INFO root fetch - processPackages [spider-st]: Remove: archive file [/home/abi/fetcher/tmp/spider-st-0.1.8.tar.gz]
+[2023-06-15 06:28:24] INFO root fetch - processPackages [spider-st]: Remove: archive file [/home/abi/fetcher/tmp/spider-st-0.1.9.tar.gz]
+[2023-06-15 06:28:24] INFO root fetch - main [MainThread]: End processing [spider-st]: success
+[2023-06-15 06:28:24] INFO root fetch - main [MainThread]: Store serial: [18511047]
