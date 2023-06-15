@@ -1,0 +1,747 @@
+# Comparing `tmp/wds-client-0.2.87.tar.gz` & `tmp/wds-client-0.2.88.tar.gz`
+
+## filetype from file(1)
+
+```diff
+@@ -1 +1 @@
+-gzip compressed data, was "wds-client-0.2.87.tar", last modified: Fri May 26 16:41:38 2023, max compression
++gzip compressed data, was "wds-client-0.2.88.tar", last modified: Thu Jun 15 19:12:50 2023, max compression
+```
+
+## Comparing `wds-client-0.2.87.tar` & `wds-client-0.2.88.tar`
+
+### file list
+
+```diff
+@@ -1,90 +1,94 @@
+-drwxr-xr-x   0 runner    (1001) docker     (123)        0 2023-05-26 16:41:38.583443 wds-client-0.2.87/
+--rw-r--r--   0 runner    (1001) docker     (123)      357 2023-05-26 16:41:38.583443 wds-client-0.2.87/PKG-INFO
+--rw-r--r--   0 runner    (1001) docker     (123)     6479 2023-05-26 16:40:25.000000 wds-client-0.2.87/README.md
+--rw-r--r--   0 runner    (1001) docker     (123)       69 2023-05-26 16:41:38.583443 wds-client-0.2.87/setup.cfg
+--rw-r--r--   0 runner    (1001) docker     (123)     1111 2023-05-26 16:40:25.000000 wds-client-0.2.87/setup.py
+-drwxr-xr-x   0 runner    (1001) docker     (123)        0 2023-05-26 16:41:38.571443 wds-client-0.2.87/test/
+--rw-r--r--   0 runner    (1001) docker     (123)     1536 2023-05-26 16:40:24.000000 wds-client-0.2.87/test/test_attribute_schema.py
+--rw-r--r--   0 runner    (1001) docker     (123)     3022 2023-05-26 16:40:24.000000 wds-client-0.2.87/test/test_batch_operation.py
+--rw-r--r--   0 runner    (1001) docker     (123)     2791 2023-05-26 16:40:24.000000 wds-client-0.2.87/test/test_batch_record_request.py
+--rw-r--r--   0 runner    (1001) docker     (123)     1487 2023-05-26 16:40:24.000000 wds-client-0.2.87/test/test_batch_response.py
+--rw-r--r--   0 runner    (1001) docker     (123)     1481 2023-05-26 16:40:24.000000 wds-client-0.2.87/test/test_build.py
+--rw-r--r--   0 runner    (1001) docker     (123)     1395 2023-05-26 16:40:24.000000 wds-client-0.2.87/test/test_commit.py
+--rw-r--r--   0 runner    (1001) docker     (123)     1362 2023-05-26 16:40:24.000000 wds-client-0.2.87/test/test_component.py
+--rw-r--r--   0 runner    (1001) docker     (123)     2766 2023-05-26 16:40:24.000000 wds-client-0.2.87/test/test_components.py
+--rw-r--r--   0 runner    (1001) docker     (123)     1496 2023-05-26 16:40:24.000000 wds-client-0.2.87/test/test_db_component.py
+--rw-r--r--   0 runner    (1001) docker     (123)     1657 2023-05-26 16:40:24.000000 wds-client-0.2.87/test/test_db_validationcomponent.py
+--rw-r--r--   0 runner    (1001) docker     (123)     1586 2023-05-26 16:40:24.000000 wds-client-0.2.87/test/test_db_validationcomponent_details.py
+--rw-r--r--   0 runner    (1001) docker     (123)     1679 2023-05-26 16:40:24.000000 wds-client-0.2.87/test/test_disk_space_component.py
+--rw-r--r--   0 runner    (1001) docker     (123)     1608 2023-05-26 16:40:24.000000 wds-client-0.2.87/test/test_disk_space_component_details.py
+--rw-r--r--   0 runner    (1001) docker     (123)     1650 2023-05-26 16:40:24.000000 wds-client-0.2.87/test/test_error_response.py
+--rw-r--r--   0 runner    (1001) docker     (123)     1368 2023-05-26 16:40:25.000000 wds-client-0.2.87/test/test_general_wds_information_api.py
+--rw-r--r--   0 runner    (1001) docker     (123)     1462 2023-05-26 16:40:24.000000 wds-client-0.2.87/test/test_git.py
+--rw-r--r--   0 runner    (1001) docker     (123)     1419 2023-05-26 16:40:24.000000 wds-client-0.2.87/test/test_inline_object.py
+--rw-r--r--   0 runner    (1001) docker     (123)     1166 2023-05-26 16:40:25.000000 wds-client-0.2.87/test/test_instances_api.py
+--rw-r--r--   0 runner    (1001) docker     (123)     1536 2023-05-26 16:40:24.000000 wds-client-0.2.87/test/test_record_attribute_definition.py
+--rw-r--r--   0 runner    (1001) docker     (123)     3624 2023-05-26 16:40:24.000000 wds-client-0.2.87/test/test_record_query_response.py
+--rw-r--r--   0 runner    (1001) docker     (123)     2624 2023-05-26 16:40:24.000000 wds-client-0.2.87/test/test_record_request.py
+--rw-r--r--   0 runner    (1001) docker     (123)     2745 2023-05-26 16:40:24.000000 wds-client-0.2.87/test/test_record_response.py
+--rw-r--r--   0 runner    (1001) docker     (123)     2074 2023-05-26 16:40:24.000000 wds-client-0.2.87/test/test_record_type_schema.py
+--rw-r--r--   0 runner    (1001) docker     (123)     1899 2023-05-26 16:40:25.000000 wds-client-0.2.87/test/test_records_api.py
+--rw-r--r--   0 runner    (1001) docker     (123)     1485 2023-05-26 16:40:24.000000 wds-client-0.2.87/test/test_request_body_search.py
+--rw-r--r--   0 runner    (1001) docker     (123)     1175 2023-05-26 16:40:25.000000 wds-client-0.2.87/test/test_schema_api.py
+--rw-r--r--   0 runner    (1001) docker     (123)     1358 2023-05-26 16:40:24.000000 wds-client-0.2.87/test/test_search_operator.py
+--rw-r--r--   0 runner    (1001) docker     (123)     1472 2023-05-26 16:40:24.000000 wds-client-0.2.87/test/test_search_request.py
+--rw-r--r--   0 runner    (1001) docker     (123)     1415 2023-05-26 16:40:24.000000 wds-client-0.2.87/test/test_search_sort_direction.py
+--rw-r--r--   0 runner    (1001) docker     (123)      878 2023-05-26 16:40:25.000000 wds-client-0.2.87/test/test_snapshots_api.py
+--rw-r--r--   0 runner    (1001) docker     (123)     1667 2023-05-26 16:40:24.000000 wds-client-0.2.87/test/test_stack_trace_element.py
+--rw-r--r--   0 runner    (1001) docker     (123)     2376 2023-05-26 16:40:24.000000 wds-client-0.2.87/test/test_status_response.py
+--rw-r--r--   0 runner    (1001) docker     (123)     1533 2023-05-26 16:40:24.000000 wds-client-0.2.87/test/test_tsv_upload_response.py
+--rw-r--r--   0 runner    (1001) docker     (123)     1968 2023-05-26 16:40:24.000000 wds-client-0.2.87/test/test_version_response.py
+-drwxr-xr-x   0 runner    (1001) docker     (123)        0 2023-05-26 16:41:38.571443 wds-client-0.2.87/wds_client/
+--rw-r--r--   0 runner    (1001) docker     (123)     2876 2023-05-26 16:40:25.000000 wds-client-0.2.87/wds_client/__init__.py
+-drwxr-xr-x   0 runner    (1001) docker     (123)        0 2023-05-26 16:41:38.575443 wds-client-0.2.87/wds_client/api/
+--rw-r--r--   0 runner    (1001) docker     (123)      373 2023-05-26 16:40:25.000000 wds-client-0.2.87/wds_client/api/__init__.py
+--rw-r--r--   0 runner    (1001) docker     (123)     9761 2023-05-26 16:40:25.000000 wds-client-0.2.87/wds_client/api/general_wds_information_api.py
+--rw-r--r--   0 runner    (1001) docker     (123)    17329 2023-05-26 16:40:25.000000 wds-client-0.2.87/wds_client/api/instances_api.py
+--rw-r--r--   0 runner    (1001) docker     (123)    61562 2023-05-26 16:40:25.000000 wds-client-0.2.87/wds_client/api/records_api.py
+--rw-r--r--   0 runner    (1001) docker     (123)    19354 2023-05-26 16:40:25.000000 wds-client-0.2.87/wds_client/api/schema_api.py
+--rw-r--r--   0 runner    (1001) docker     (123)     6994 2023-05-26 16:40:25.000000 wds-client-0.2.87/wds_client/api/snapshots_api.py
+--rw-r--r--   0 runner    (1001) docker     (123)    26217 2023-05-26 16:40:25.000000 wds-client-0.2.87/wds_client/api_client.py
+--rw-r--r--   0 runner    (1001) docker     (123)    12795 2023-05-26 16:40:25.000000 wds-client-0.2.87/wds_client/configuration.py
+--rw-r--r--   0 runner    (1001) docker     (123)     3781 2023-05-26 16:40:25.000000 wds-client-0.2.87/wds_client/exceptions.py
+-drwxr-xr-x   0 runner    (1001) docker     (123)        0 2023-05-26 16:41:38.583443 wds-client-0.2.87/wds_client/models/
+--rw-r--r--   0 runner    (1001) docker     (123)     2181 2023-05-26 16:40:25.000000 wds-client-0.2.87/wds_client/models/__init__.py
+--rw-r--r--   0 runner    (1001) docker     (123)     6287 2023-05-26 16:40:24.000000 wds-client-0.2.87/wds_client/models/attribute_schema.py
+--rw-r--r--   0 runner    (1001) docker     (123)     4707 2023-05-26 16:40:24.000000 wds-client-0.2.87/wds_client/models/batch_operation.py
+--rw-r--r--   0 runner    (1001) docker     (123)     5522 2023-05-26 16:40:24.000000 wds-client-0.2.87/wds_client/models/batch_record_request.py
+--rw-r--r--   0 runner    (1001) docker     (123)     4459 2023-05-26 16:40:24.000000 wds-client-0.2.87/wds_client/models/batch_response.py
+--rw-r--r--   0 runner    (1001) docker     (123)     5563 2023-05-26 16:40:24.000000 wds-client-0.2.87/wds_client/models/build.py
+--rw-r--r--   0 runner    (1001) docker     (123)     3728 2023-05-26 16:40:24.000000 wds-client-0.2.87/wds_client/models/commit.py
+--rw-r--r--   0 runner    (1001) docker     (123)     3889 2023-05-26 16:40:24.000000 wds-client-0.2.87/wds_client/models/component.py
+--rw-r--r--   0 runner    (1001) docker     (123)     6000 2023-05-26 16:40:24.000000 wds-client-0.2.87/wds_client/models/components.py
+--rw-r--r--   0 runner    (1001) docker     (123)     3991 2023-05-26 16:40:24.000000 wds-client-0.2.87/wds_client/models/db_component.py
+--rw-r--r--   0 runner    (1001) docker     (123)     4168 2023-05-26 16:40:24.000000 wds-client-0.2.87/wds_client/models/db_validationcomponent.py
+--rw-r--r--   0 runner    (1001) docker     (123)     4336 2023-05-26 16:40:24.000000 wds-client-0.2.87/wds_client/models/db_validationcomponent_details.py
+--rw-r--r--   0 runner    (1001) docker     (123)     4063 2023-05-26 16:40:24.000000 wds-client-0.2.87/wds_client/models/disk_space_component.py
+--rw-r--r--   0 runner    (1001) docker     (123)     5414 2023-05-26 16:40:24.000000 wds-client-0.2.87/wds_client/models/disk_space_component_details.py
+--rw-r--r--   0 runner    (1001) docker     (123)     6947 2023-05-26 16:40:24.000000 wds-client-0.2.87/wds_client/models/error_response.py
+--rw-r--r--   0 runner    (1001) docker     (123)     3806 2023-05-26 16:40:24.000000 wds-client-0.2.87/wds_client/models/git.py
+--rw-r--r--   0 runner    (1001) docker     (123)     3560 2023-05-26 16:40:24.000000 wds-client-0.2.87/wds_client/models/inline_object.py
+--rw-r--r--   0 runner    (1001) docker     (123)     3580 2023-05-26 16:40:24.000000 wds-client-0.2.87/wds_client/models/record_attribute_definition.py
+--rw-r--r--   0 runner    (1001) docker     (123)     5723 2023-05-26 16:40:24.000000 wds-client-0.2.87/wds_client/models/record_query_response.py
+--rw-r--r--   0 runner    (1001) docker     (123)     3882 2023-05-26 16:40:24.000000 wds-client-0.2.87/wds_client/models/record_request.py
+--rw-r--r--   0 runner    (1001) docker     (123)     5458 2023-05-26 16:40:24.000000 wds-client-0.2.87/wds_client/models/record_response.py
+--rw-r--r--   0 runner    (1001) docker     (123)     6722 2023-05-26 16:40:24.000000 wds-client-0.2.87/wds_client/models/record_type_schema.py
+--rw-r--r--   0 runner    (1001) docker     (123)     4315 2023-05-26 16:40:24.000000 wds-client-0.2.87/wds_client/models/request_body_search.py
+--rw-r--r--   0 runner    (1001) docker     (123)     2798 2023-05-26 16:40:24.000000 wds-client-0.2.87/wds_client/models/search_operator.py
+--rw-r--r--   0 runner    (1001) docker     (123)     6218 2023-05-26 16:40:24.000000 wds-client-0.2.87/wds_client/models/search_request.py
+--rw-r--r--   0 runner    (1001) docker     (123)     2824 2023-05-26 16:40:24.000000 wds-client-0.2.87/wds_client/models/search_sort_direction.py
+--rw-r--r--   0 runner    (1001) docker     (123)     6496 2023-05-26 16:40:24.000000 wds-client-0.2.87/wds_client/models/stack_trace_element.py
+--rw-r--r--   0 runner    (1001) docker     (123)     4030 2023-05-26 16:40:24.000000 wds-client-0.2.87/wds_client/models/status_response.py
+--rw-r--r--   0 runner    (1001) docker     (123)     4507 2023-05-26 16:40:24.000000 wds-client-0.2.87/wds_client/models/tsv_upload_response.py
+--rw-r--r--   0 runner    (1001) docker     (123)     3867 2023-05-26 16:40:24.000000 wds-client-0.2.87/wds_client/models/version_response.py
+--rw-r--r--   0 runner    (1001) docker     (123)    12309 2023-05-26 16:40:25.000000 wds-client-0.2.87/wds_client/rest.py
+-drwxr-xr-x   0 runner    (1001) docker     (123)        0 2023-05-26 16:41:38.575443 wds-client-0.2.87/wds_client.egg-info/
+--rw-r--r--   0 runner    (1001) docker     (123)      357 2023-05-26 16:41:38.000000 wds-client-0.2.87/wds_client.egg-info/PKG-INFO
+--rw-r--r--   0 runner    (1001) docker     (123)     2671 2023-05-26 16:41:38.000000 wds-client-0.2.87/wds_client.egg-info/SOURCES.txt
+--rw-r--r--   0 runner    (1001) docker     (123)        1 2023-05-26 16:41:38.000000 wds-client-0.2.87/wds_client.egg-info/dependency_links.txt
+--rw-r--r--   0 runner    (1001) docker     (123)       48 2023-05-26 16:41:38.000000 wds-client-0.2.87/wds_client.egg-info/requires.txt
+--rw-r--r--   0 runner    (1001) docker     (123)       11 2023-05-26 16:41:38.000000 wds-client-0.2.87/wds_client.egg-info/top_level.txt
++drwxr-xr-x   0 runner    (1001) docker     (123)        0 2023-06-15 19:12:50.169639 wds-client-0.2.88/
++-rw-r--r--   0 runner    (1001) docker     (123)      357 2023-06-15 19:12:50.173639 wds-client-0.2.88/PKG-INFO
++-rw-r--r--   0 runner    (1001) docker     (123)     6638 2023-06-15 19:11:27.000000 wds-client-0.2.88/README.md
++-rw-r--r--   0 runner    (1001) docker     (123)       69 2023-06-15 19:12:50.173639 wds-client-0.2.88/setup.cfg
++-rw-r--r--   0 runner    (1001) docker     (123)     1111 2023-06-15 19:11:27.000000 wds-client-0.2.88/setup.py
++drwxr-xr-x   0 runner    (1001) docker     (123)        0 2023-06-15 19:12:50.165639 wds-client-0.2.88/test/
++-rw-r--r--   0 runner    (1001) docker     (123)     1536 2023-06-15 19:11:26.000000 wds-client-0.2.88/test/test_attribute_schema.py
++-rw-r--r--   0 runner    (1001) docker     (123)     1427 2023-06-15 19:11:26.000000 wds-client-0.2.88/test/test_backup_response.py
++-rw-r--r--   0 runner    (1001) docker     (123)     3022 2023-06-15 19:11:26.000000 wds-client-0.2.88/test/test_batch_operation.py
++-rw-r--r--   0 runner    (1001) docker     (123)     2791 2023-06-15 19:11:26.000000 wds-client-0.2.88/test/test_batch_record_request.py
++-rw-r--r--   0 runner    (1001) docker     (123)     1487 2023-06-15 19:11:26.000000 wds-client-0.2.88/test/test_batch_response.py
++-rw-r--r--   0 runner    (1001) docker     (123)     1481 2023-06-15 19:11:26.000000 wds-client-0.2.88/test/test_build.py
++-rw-r--r--   0 runner    (1001) docker     (123)      900 2023-06-15 19:11:27.000000 wds-client-0.2.88/test/test_cloning_api.py
++-rw-r--r--   0 runner    (1001) docker     (123)     1395 2023-06-15 19:11:26.000000 wds-client-0.2.88/test/test_commit.py
++-rw-r--r--   0 runner    (1001) docker     (123)     1362 2023-06-15 19:11:26.000000 wds-client-0.2.88/test/test_component.py
++-rw-r--r--   0 runner    (1001) docker     (123)     2766 2023-06-15 19:11:26.000000 wds-client-0.2.88/test/test_components.py
++-rw-r--r--   0 runner    (1001) docker     (123)     1496 2023-06-15 19:11:26.000000 wds-client-0.2.88/test/test_db_component.py
++-rw-r--r--   0 runner    (1001) docker     (123)     1657 2023-06-15 19:11:26.000000 wds-client-0.2.88/test/test_db_validationcomponent.py
++-rw-r--r--   0 runner    (1001) docker     (123)     1586 2023-06-15 19:11:27.000000 wds-client-0.2.88/test/test_db_validationcomponent_details.py
++-rw-r--r--   0 runner    (1001) docker     (123)     1679 2023-06-15 19:11:27.000000 wds-client-0.2.88/test/test_disk_space_component.py
++-rw-r--r--   0 runner    (1001) docker     (123)     1608 2023-06-15 19:11:27.000000 wds-client-0.2.88/test/test_disk_space_component_details.py
++-rw-r--r--   0 runner    (1001) docker     (123)     1650 2023-06-15 19:11:27.000000 wds-client-0.2.88/test/test_error_response.py
++-rw-r--r--   0 runner    (1001) docker     (123)     1368 2023-06-15 19:11:27.000000 wds-client-0.2.88/test/test_general_wds_information_api.py
++-rw-r--r--   0 runner    (1001) docker     (123)     1462 2023-06-15 19:11:27.000000 wds-client-0.2.88/test/test_git.py
++-rw-r--r--   0 runner    (1001) docker     (123)     1419 2023-06-15 19:11:27.000000 wds-client-0.2.88/test/test_inline_object.py
++-rw-r--r--   0 runner    (1001) docker     (123)     1166 2023-06-15 19:11:27.000000 wds-client-0.2.88/test/test_instances_api.py
++-rw-r--r--   0 runner    (1001) docker     (123)     1536 2023-06-15 19:11:27.000000 wds-client-0.2.88/test/test_record_attribute_definition.py
++-rw-r--r--   0 runner    (1001) docker     (123)     3624 2023-06-15 19:11:27.000000 wds-client-0.2.88/test/test_record_query_response.py
++-rw-r--r--   0 runner    (1001) docker     (123)     2624 2023-06-15 19:11:27.000000 wds-client-0.2.88/test/test_record_request.py
++-rw-r--r--   0 runner    (1001) docker     (123)     2745 2023-06-15 19:11:27.000000 wds-client-0.2.88/test/test_record_response.py
++-rw-r--r--   0 runner    (1001) docker     (123)     2074 2023-06-15 19:11:27.000000 wds-client-0.2.88/test/test_record_type_schema.py
++-rw-r--r--   0 runner    (1001) docker     (123)     1899 2023-06-15 19:11:27.000000 wds-client-0.2.88/test/test_records_api.py
++-rw-r--r--   0 runner    (1001) docker     (123)     1485 2023-06-15 19:11:27.000000 wds-client-0.2.88/test/test_request_body_search.py
++-rw-r--r--   0 runner    (1001) docker     (123)     1175 2023-06-15 19:11:27.000000 wds-client-0.2.88/test/test_schema_api.py
++-rw-r--r--   0 runner    (1001) docker     (123)     1358 2023-06-15 19:11:27.000000 wds-client-0.2.88/test/test_search_operator.py
++-rw-r--r--   0 runner    (1001) docker     (123)     1472 2023-06-15 19:11:27.000000 wds-client-0.2.88/test/test_search_request.py
++-rw-r--r--   0 runner    (1001) docker     (123)     1415 2023-06-15 19:11:27.000000 wds-client-0.2.88/test/test_search_sort_direction.py
++-rw-r--r--   0 runner    (1001) docker     (123)      878 2023-06-15 19:11:27.000000 wds-client-0.2.88/test/test_snapshots_api.py
++-rw-r--r--   0 runner    (1001) docker     (123)     1667 2023-06-15 19:11:27.000000 wds-client-0.2.88/test/test_stack_trace_element.py
++-rw-r--r--   0 runner    (1001) docker     (123)     2376 2023-06-15 19:11:27.000000 wds-client-0.2.88/test/test_status_response.py
++-rw-r--r--   0 runner    (1001) docker     (123)     1533 2023-06-15 19:11:27.000000 wds-client-0.2.88/test/test_tsv_upload_response.py
++-rw-r--r--   0 runner    (1001) docker     (123)     1968 2023-06-15 19:11:27.000000 wds-client-0.2.88/test/test_version_response.py
++drwxr-xr-x   0 runner    (1001) docker     (123)        0 2023-06-15 19:12:50.165639 wds-client-0.2.88/wds_client/
++-rw-r--r--   0 runner    (1001) docker     (123)     2987 2023-06-15 19:11:27.000000 wds-client-0.2.88/wds_client/__init__.py
++drwxr-xr-x   0 runner    (1001) docker     (123)        0 2023-06-15 19:12:50.165639 wds-client-0.2.88/wds_client/api/
++-rw-r--r--   0 runner    (1001) docker     (123)      423 2023-06-15 19:11:27.000000 wds-client-0.2.88/wds_client/api/__init__.py
++-rw-r--r--   0 runner    (1001) docker     (123)     5709 2023-06-15 19:11:27.000000 wds-client-0.2.88/wds_client/api/cloning_api.py
++-rw-r--r--   0 runner    (1001) docker     (123)     9761 2023-06-15 19:11:27.000000 wds-client-0.2.88/wds_client/api/general_wds_information_api.py
++-rw-r--r--   0 runner    (1001) docker     (123)    17329 2023-06-15 19:11:27.000000 wds-client-0.2.88/wds_client/api/instances_api.py
++-rw-r--r--   0 runner    (1001) docker     (123)    61562 2023-06-15 19:11:27.000000 wds-client-0.2.88/wds_client/api/records_api.py
++-rw-r--r--   0 runner    (1001) docker     (123)    19354 2023-06-15 19:11:27.000000 wds-client-0.2.88/wds_client/api/schema_api.py
++-rw-r--r--   0 runner    (1001) docker     (123)     6994 2023-06-15 19:11:27.000000 wds-client-0.2.88/wds_client/api/snapshots_api.py
++-rw-r--r--   0 runner    (1001) docker     (123)    26217 2023-06-15 19:11:27.000000 wds-client-0.2.88/wds_client/api_client.py
++-rw-r--r--   0 runner    (1001) docker     (123)    12795 2023-06-15 19:11:27.000000 wds-client-0.2.88/wds_client/configuration.py
++-rw-r--r--   0 runner    (1001) docker     (123)     3781 2023-06-15 19:11:27.000000 wds-client-0.2.88/wds_client/exceptions.py
++drwxr-xr-x   0 runner    (1001) docker     (123)        0 2023-06-15 19:12:50.169639 wds-client-0.2.88/wds_client/models/
++-rw-r--r--   0 runner    (1001) docker     (123)     2242 2023-06-15 19:11:27.000000 wds-client-0.2.88/wds_client/models/__init__.py
++-rw-r--r--   0 runner    (1001) docker     (123)     6287 2023-06-15 19:11:26.000000 wds-client-0.2.88/wds_client/models/attribute_schema.py
++-rw-r--r--   0 runner    (1001) docker     (123)     4277 2023-06-15 19:11:26.000000 wds-client-0.2.88/wds_client/models/backup_response.py
++-rw-r--r--   0 runner    (1001) docker     (123)     4707 2023-06-15 19:11:26.000000 wds-client-0.2.88/wds_client/models/batch_operation.py
++-rw-r--r--   0 runner    (1001) docker     (123)     5522 2023-06-15 19:11:26.000000 wds-client-0.2.88/wds_client/models/batch_record_request.py
++-rw-r--r--   0 runner    (1001) docker     (123)     4459 2023-06-15 19:11:26.000000 wds-client-0.2.88/wds_client/models/batch_response.py
++-rw-r--r--   0 runner    (1001) docker     (123)     5563 2023-06-15 19:11:26.000000 wds-client-0.2.88/wds_client/models/build.py
++-rw-r--r--   0 runner    (1001) docker     (123)     3728 2023-06-15 19:11:26.000000 wds-client-0.2.88/wds_client/models/commit.py
++-rw-r--r--   0 runner    (1001) docker     (123)     3889 2023-06-15 19:11:26.000000 wds-client-0.2.88/wds_client/models/component.py
++-rw-r--r--   0 runner    (1001) docker     (123)     6000 2023-06-15 19:11:26.000000 wds-client-0.2.88/wds_client/models/components.py
++-rw-r--r--   0 runner    (1001) docker     (123)     3991 2023-06-15 19:11:26.000000 wds-client-0.2.88/wds_client/models/db_component.py
++-rw-r--r--   0 runner    (1001) docker     (123)     4168 2023-06-15 19:11:26.000000 wds-client-0.2.88/wds_client/models/db_validationcomponent.py
++-rw-r--r--   0 runner    (1001) docker     (123)     4336 2023-06-15 19:11:26.000000 wds-client-0.2.88/wds_client/models/db_validationcomponent_details.py
++-rw-r--r--   0 runner    (1001) docker     (123)     4063 2023-06-15 19:11:27.000000 wds-client-0.2.88/wds_client/models/disk_space_component.py
++-rw-r--r--   0 runner    (1001) docker     (123)     5414 2023-06-15 19:11:27.000000 wds-client-0.2.88/wds_client/models/disk_space_component_details.py
++-rw-r--r--   0 runner    (1001) docker     (123)     6947 2023-06-15 19:11:27.000000 wds-client-0.2.88/wds_client/models/error_response.py
++-rw-r--r--   0 runner    (1001) docker     (123)     3806 2023-06-15 19:11:27.000000 wds-client-0.2.88/wds_client/models/git.py
++-rw-r--r--   0 runner    (1001) docker     (123)     3560 2023-06-15 19:11:27.000000 wds-client-0.2.88/wds_client/models/inline_object.py
++-rw-r--r--   0 runner    (1001) docker     (123)     3580 2023-06-15 19:11:27.000000 wds-client-0.2.88/wds_client/models/record_attribute_definition.py
++-rw-r--r--   0 runner    (1001) docker     (123)     5723 2023-06-15 19:11:27.000000 wds-client-0.2.88/wds_client/models/record_query_response.py
++-rw-r--r--   0 runner    (1001) docker     (123)     3882 2023-06-15 19:11:27.000000 wds-client-0.2.88/wds_client/models/record_request.py
++-rw-r--r--   0 runner    (1001) docker     (123)     5458 2023-06-15 19:11:27.000000 wds-client-0.2.88/wds_client/models/record_response.py
++-rw-r--r--   0 runner    (1001) docker     (123)     6722 2023-06-15 19:11:27.000000 wds-client-0.2.88/wds_client/models/record_type_schema.py
++-rw-r--r--   0 runner    (1001) docker     (123)     4315 2023-06-15 19:11:27.000000 wds-client-0.2.88/wds_client/models/request_body_search.py
++-rw-r--r--   0 runner    (1001) docker     (123)     2798 2023-06-15 19:11:27.000000 wds-client-0.2.88/wds_client/models/search_operator.py
++-rw-r--r--   0 runner    (1001) docker     (123)     6218 2023-06-15 19:11:27.000000 wds-client-0.2.88/wds_client/models/search_request.py
++-rw-r--r--   0 runner    (1001) docker     (123)     2824 2023-06-15 19:11:27.000000 wds-client-0.2.88/wds_client/models/search_sort_direction.py
++-rw-r--r--   0 runner    (1001) docker     (123)     6496 2023-06-15 19:11:27.000000 wds-client-0.2.88/wds_client/models/stack_trace_element.py
++-rw-r--r--   0 runner    (1001) docker     (123)     4030 2023-06-15 19:11:27.000000 wds-client-0.2.88/wds_client/models/status_response.py
++-rw-r--r--   0 runner    (1001) docker     (123)     4507 2023-06-15 19:11:27.000000 wds-client-0.2.88/wds_client/models/tsv_upload_response.py
++-rw-r--r--   0 runner    (1001) docker     (123)     3867 2023-06-15 19:11:27.000000 wds-client-0.2.88/wds_client/models/version_response.py
++-rw-r--r--   0 runner    (1001) docker     (123)    12309 2023-06-15 19:11:27.000000 wds-client-0.2.88/wds_client/rest.py
++drwxr-xr-x   0 runner    (1001) docker     (123)        0 2023-06-15 19:12:50.165639 wds-client-0.2.88/wds_client.egg-info/
++-rw-r--r--   0 runner    (1001) docker     (123)      357 2023-06-15 19:12:50.000000 wds-client-0.2.88/wds_client.egg-info/PKG-INFO
++-rw-r--r--   0 runner    (1001) docker     (123)     2792 2023-06-15 19:12:50.000000 wds-client-0.2.88/wds_client.egg-info/SOURCES.txt
++-rw-r--r--   0 runner    (1001) docker     (123)        1 2023-06-15 19:12:50.000000 wds-client-0.2.88/wds_client.egg-info/dependency_links.txt
++-rw-r--r--   0 runner    (1001) docker     (123)       48 2023-06-15 19:12:50.000000 wds-client-0.2.88/wds_client.egg-info/requires.txt
++-rw-r--r--   0 runner    (1001) docker     (123)       11 2023-06-15 19:12:50.000000 wds-client-0.2.88/wds_client.egg-info/top_level.txt
+```
+
+### Comparing `wds-client-0.2.87/README.md` & `wds-client-0.2.88/README.md`
+
+ * *Files 5% similar despite different names*
+
+```diff
+@@ -2,15 +2,15 @@
+ This page lists current APIs.
+ As of v0.2, all APIs are subject to change without notice.
+ 
+ 
+ This Python package is automatically generated by the [OpenAPI Generator](https://openapi-generator.tech) project:
+ 
+ - API version: v0.2
+-- Package version: 0.2.87
++- Package version: 0.2.88
+ - Build package: org.openapitools.codegen.languages.PythonClientCodegen
+ 
+ ## Requirements.
+ 
+ Python 2.7 and 3.4+
+ 
+ ## Installation & Usage
+@@ -61,31 +61,33 @@
+ )
+ 
+ 
+ 
+ # Enter a context with an instance of the API client
+ with wds_client.ApiClient(configuration) as api_client:
+     # Create an instance of the API class
+-    api_instance = wds_client.GeneralWDSInformationApi(api_client)
+-    
++    api_instance = wds_client.CloningApi(api_client)
++    v = 'v0.2' # str | API version (default to 'v0.2')
++
+     try:
+-        # Gets health status for WDS -- generated via Spring Boot Actuator (see https://docs.spring.io/spring-boot/docs/current/actuator-api/htmlsingle/#health for details)
+-        api_response = api_instance.status_get()
++        # Create a backup of a PostgreSQL instance and upload it to Azure Blob Storage
++        api_response = api_instance.create_backup(v)
+         pprint(api_response)
+     except ApiException as e:
+-        print("Exception when calling GeneralWDSInformationApi->status_get: %s\n" % e)
++        print("Exception when calling CloningApi->create_backup: %s\n" % e)
+     
+ ```
+ 
+ ## Documentation for API Endpoints
+ 
+ All URIs are relative to *http://..*
+ 
+ Class | Method | HTTP request | Description
+ ------------ | ------------- | ------------- | -------------
++*CloningApi* | [**create_backup**](docs/CloningApi.md#create_backup) | **POST** /backup/{v} | Create a backup of a PostgreSQL instance and upload it to Azure Blob Storage
+ *GeneralWDSInformationApi* | [**status_get**](docs/GeneralWDSInformationApi.md#status_get) | **GET** /status | Gets health status for WDS -- generated via Spring Boot Actuator (see https://docs.spring.io/spring-boot/docs/current/actuator-api/htmlsingle/#health for details)
+ *GeneralWDSInformationApi* | [**version_get**](docs/GeneralWDSInformationApi.md#version_get) | **GET** /version | Gets related git and build version info for WDS -- generated via Spring Boot Actuator (see https://docs.spring.io/spring-boot/docs/current/actuator-api/htmlsingle/#info for details)
+ *InstancesApi* | [**create_wds_instance**](docs/InstancesApi.md#create_wds_instance) | **POST** /instances/{v}/{instanceid} | Create an instance
+ *InstancesApi* | [**delete_wds_instance**](docs/InstancesApi.md#delete_wds_instance) | **DELETE** /instances/{v}/{instanceid} | Delete an instance
+ *InstancesApi* | [**list_wds_instances**](docs/InstancesApi.md#list_wds_instances) | **GET** /instances/{v} | List instances
+ *RecordsApi* | [**batch_write_records**](docs/RecordsApi.md#batch_write_records) | **POST** /{instanceid}/batch/{v}/{type} | Batch write records
+ *RecordsApi* | [**create_or_replace_record**](docs/RecordsApi.md#create_or_replace_record) | **PUT** /{instanceid}/records/{v}/{type}/{id} | Create or replace record
+@@ -100,14 +102,15 @@
+ *SchemaApi* | [**describe_record_type**](docs/SchemaApi.md#describe_record_type) | **GET** /{instanceid}/types/{v}/{type} | Describe record type
+ *SnapshotsApi* | [**import_snapshot**](docs/SnapshotsApi.md#import_snapshot) | **POST** /{instanceid}/snapshots/{v}/{snapshotid} | Import a snapshot from Terra Data Repo
+ 
+ 
+ ## Documentation For Models
+ 
+  - [AttributeSchema](docs/AttributeSchema.md)
++ - [BackupResponse](docs/BackupResponse.md)
+  - [BatchOperation](docs/BatchOperation.md)
+  - [BatchRecordRequest](docs/BatchRecordRequest.md)
+  - [BatchResponse](docs/BatchResponse.md)
+  - [Build](docs/Build.md)
+  - [Commit](docs/Commit.md)
+  - [Component](docs/Component.md)
+  - [Components](docs/Components.md)
+```
+
+### Comparing `wds-client-0.2.87/setup.py` & `wds-client-0.2.88/setup.py`
+
+ * *Files 7% similar despite different names*
+
+```diff
+@@ -9,15 +9,15 @@
+     Generated by: https://openapi-generator.tech
+ """
+ 
+ 
+ from setuptools import setup, find_packages  # noqa: H301
+ 
+ NAME = "wds-client"
+-VERSION = "0.2.87"
++VERSION = "0.2.88"
+ # To install the library, run the following
+ #
+ # python setup.py install
+ #
+ # prerequisite: setuptools
+ # http://pypi.python.org/pypi/setuptools
+```
+
+### Comparing `wds-client-0.2.87/test/test_attribute_schema.py` & `wds-client-0.2.88/test/test_attribute_schema.py`
+
+ * *Files identical despite different names*
+
+### Comparing `wds-client-0.2.87/test/test_batch_operation.py` & `wds-client-0.2.88/test/test_batch_operation.py`
+
+ * *Files identical despite different names*
+
+### Comparing `wds-client-0.2.87/test/test_batch_record_request.py` & `wds-client-0.2.88/test/test_batch_record_request.py`
+
+ * *Files identical despite different names*
+
+### Comparing `wds-client-0.2.87/test/test_batch_response.py` & `wds-client-0.2.88/test/test_batch_response.py`
+
+ * *Files identical despite different names*
+
+### Comparing `wds-client-0.2.87/test/test_build.py` & `wds-client-0.2.88/test/test_build.py`
+
+ * *Files identical despite different names*
+
+### Comparing `wds-client-0.2.87/test/test_commit.py` & `wds-client-0.2.88/test/test_commit.py`
+
+ * *Files identical despite different names*
+
+### Comparing `wds-client-0.2.87/test/test_component.py` & `wds-client-0.2.88/test/test_component.py`
+
+ * *Files identical despite different names*
+
+### Comparing `wds-client-0.2.87/test/test_components.py` & `wds-client-0.2.88/test/test_components.py`
+
+ * *Files identical despite different names*
+
+### Comparing `wds-client-0.2.87/test/test_db_component.py` & `wds-client-0.2.88/test/test_db_component.py`
+
+ * *Files identical despite different names*
+
+### Comparing `wds-client-0.2.87/test/test_db_validationcomponent.py` & `wds-client-0.2.88/test/test_db_validationcomponent.py`
+
+ * *Files identical despite different names*
+
+### Comparing `wds-client-0.2.87/test/test_db_validationcomponent_details.py` & `wds-client-0.2.88/test/test_db_validationcomponent_details.py`
+
+ * *Files identical despite different names*
+
+### Comparing `wds-client-0.2.87/test/test_disk_space_component.py` & `wds-client-0.2.88/test/test_disk_space_component.py`
+
+ * *Files identical despite different names*
+
+### Comparing `wds-client-0.2.87/test/test_disk_space_component_details.py` & `wds-client-0.2.88/test/test_disk_space_component_details.py`
+
+ * *Files identical despite different names*
+
+### Comparing `wds-client-0.2.87/test/test_error_response.py` & `wds-client-0.2.88/test/test_error_response.py`
+
+ * *Files identical despite different names*
+
+### Comparing `wds-client-0.2.87/test/test_general_wds_information_api.py` & `wds-client-0.2.88/test/test_general_wds_information_api.py`
+
+ * *Files identical despite different names*
+
+### Comparing `wds-client-0.2.87/test/test_git.py` & `wds-client-0.2.88/test/test_git.py`
+
+ * *Files identical despite different names*
+
+### Comparing `wds-client-0.2.87/test/test_inline_object.py` & `wds-client-0.2.88/test/test_inline_object.py`
+
+ * *Files identical despite different names*
+
+### Comparing `wds-client-0.2.87/test/test_instances_api.py` & `wds-client-0.2.88/test/test_instances_api.py`
+
+ * *Files identical despite different names*
+
+### Comparing `wds-client-0.2.87/test/test_record_attribute_definition.py` & `wds-client-0.2.88/test/test_record_attribute_definition.py`
+
+ * *Files identical despite different names*
+
+### Comparing `wds-client-0.2.87/test/test_record_query_response.py` & `wds-client-0.2.88/test/test_record_query_response.py`
+
+ * *Files identical despite different names*
+
+### Comparing `wds-client-0.2.87/test/test_record_request.py` & `wds-client-0.2.88/test/test_record_request.py`
+
+ * *Files identical despite different names*
+
+### Comparing `wds-client-0.2.87/test/test_record_response.py` & `wds-client-0.2.88/test/test_record_response.py`
+
+ * *Files identical despite different names*
+
+### Comparing `wds-client-0.2.87/test/test_record_type_schema.py` & `wds-client-0.2.88/test/test_record_type_schema.py`
+
+ * *Files identical despite different names*
+
+### Comparing `wds-client-0.2.87/test/test_records_api.py` & `wds-client-0.2.88/test/test_records_api.py`
+
+ * *Files identical despite different names*
+
+### Comparing `wds-client-0.2.87/test/test_request_body_search.py` & `wds-client-0.2.88/test/test_request_body_search.py`
+
+ * *Files identical despite different names*
+
+### Comparing `wds-client-0.2.87/test/test_schema_api.py` & `wds-client-0.2.88/test/test_schema_api.py`
+
+ * *Files identical despite different names*
+
+### Comparing `wds-client-0.2.87/test/test_search_operator.py` & `wds-client-0.2.88/test/test_search_operator.py`
+
+ * *Files identical despite different names*
+
+### Comparing `wds-client-0.2.87/test/test_search_request.py` & `wds-client-0.2.88/test/test_search_request.py`
+
+ * *Files identical despite different names*
+
+### Comparing `wds-client-0.2.87/test/test_search_sort_direction.py` & `wds-client-0.2.88/test/test_search_sort_direction.py`
+
+ * *Files identical despite different names*
+
+### Comparing `wds-client-0.2.87/test/test_snapshots_api.py` & `wds-client-0.2.88/test/test_snapshots_api.py`
+
+ * *Files identical despite different names*
+
+### Comparing `wds-client-0.2.87/test/test_stack_trace_element.py` & `wds-client-0.2.88/test/test_stack_trace_element.py`
+
+ * *Files identical despite different names*
+
+### Comparing `wds-client-0.2.87/test/test_status_response.py` & `wds-client-0.2.88/test/test_status_response.py`
+
+ * *Files identical despite different names*
+
+### Comparing `wds-client-0.2.87/test/test_tsv_upload_response.py` & `wds-client-0.2.88/test/test_tsv_upload_response.py`
+
+ * *Files identical despite different names*
+
+### Comparing `wds-client-0.2.87/test/test_version_response.py` & `wds-client-0.2.88/test/test_version_response.py`
+
+ * *Files identical despite different names*
+
+### Comparing `wds-client-0.2.87/wds_client/__init__.py` & `wds-client-0.2.88/wds_client/__init__.py`
+
+ * *Files 1% similar despite different names*
+
+```diff
+@@ -10,17 +10,18 @@
+     The version of the OpenAPI document: v0.2
+     Generated by: https://openapi-generator.tech
+ """
+ 
+ 
+ from __future__ import absolute_import
+ 
+-__version__ = "0.2.87"
++__version__ = "0.2.88"
+ 
+ # import apis into sdk package
++from wds_client.api.cloning_api import CloningApi
+ from wds_client.api.general_wds_information_api import GeneralWDSInformationApi
+ from wds_client.api.instances_api import InstancesApi
+ from wds_client.api.records_api import RecordsApi
+ from wds_client.api.schema_api import SchemaApi
+ from wds_client.api.snapshots_api import SnapshotsApi
+ 
+ # import ApiClient
+@@ -29,14 +30,15 @@
+ from wds_client.exceptions import OpenApiException
+ from wds_client.exceptions import ApiTypeError
+ from wds_client.exceptions import ApiValueError
+ from wds_client.exceptions import ApiKeyError
+ from wds_client.exceptions import ApiException
+ # import models into sdk package
+ from wds_client.models.attribute_schema import AttributeSchema
++from wds_client.models.backup_response import BackupResponse
+ from wds_client.models.batch_operation import BatchOperation
+ from wds_client.models.batch_record_request import BatchRecordRequest
+ from wds_client.models.batch_response import BatchResponse
+ from wds_client.models.build import Build
+ from wds_client.models.commit import Commit
+ from wds_client.models.component import Component
+ from wds_client.models.components import Components
+```
+
+### Comparing `wds-client-0.2.87/wds_client/api/general_wds_information_api.py` & `wds-client-0.2.88/wds_client/api/general_wds_information_api.py`
+
+ * *Files identical despite different names*
+
+### Comparing `wds-client-0.2.87/wds_client/api/instances_api.py` & `wds-client-0.2.88/wds_client/api/instances_api.py`
+
+ * *Files identical despite different names*
+
+### Comparing `wds-client-0.2.87/wds_client/api/records_api.py` & `wds-client-0.2.88/wds_client/api/records_api.py`
+
+ * *Files identical despite different names*
+
+### Comparing `wds-client-0.2.87/wds_client/api/schema_api.py` & `wds-client-0.2.88/wds_client/api/schema_api.py`
+
+ * *Files identical despite different names*
+
+### Comparing `wds-client-0.2.87/wds_client/api/snapshots_api.py` & `wds-client-0.2.88/wds_client/api/snapshots_api.py`
+
+ * *Files identical despite different names*
+
+### Comparing `wds-client-0.2.87/wds_client/api_client.py` & `wds-client-0.2.88/wds_client/api_client.py`
+
+ * *Files 0% similar despite different names*
+
+```diff
+@@ -74,15 +74,15 @@
+ 
+         self.rest_client = rest.RESTClientObject(configuration)
+         self.default_headers = {}
+         if header_name is not None:
+             self.default_headers[header_name] = header_value
+         self.cookie = cookie
+         # Set default User-Agent.
+-        self.user_agent = 'OpenAPI-Generator/0.2.87/python'
++        self.user_agent = 'OpenAPI-Generator/0.2.88/python'
+         self.client_side_validation = configuration.client_side_validation
+ 
+     def __enter__(self):
+         return self
+ 
+     def __exit__(self, exc_type, exc_value, traceback):
+         self.close()
+```
+
+### Comparing `wds-client-0.2.87/wds_client/configuration.py` & `wds-client-0.2.88/wds_client/configuration.py`
+
+ * *Files 0% similar despite different names*
+
+```diff
+@@ -332,15 +332,15 @@
+ 
+         :return: The report for debugging.
+         """
+         return "Python SDK Debug Report:\n"\
+                "OS: {env}\n"\
+                "Python Version: {pyversion}\n"\
+                "Version of the API: v0.2\n"\
+-               "SDK Package Version: 0.2.87".\
++               "SDK Package Version: 0.2.88".\
+                format(env=sys.platform, pyversion=sys.version)
+ 
+     def get_host_settings(self):
+         """Gets an array of host settings
+ 
+         :return: An array of host settings
+         """
+```
+
+### Comparing `wds-client-0.2.87/wds_client/exceptions.py` & `wds-client-0.2.88/wds_client/exceptions.py`
+
+ * *Files identical despite different names*
+
+### Comparing `wds-client-0.2.87/wds_client/models/__init__.py` & `wds-client-0.2.88/wds_client/models/__init__.py`
+
+ * *Files 5% similar despite different names*
+
+```diff
+@@ -11,14 +11,15 @@
+ """
+ 
+ 
+ from __future__ import absolute_import
+ 
+ # import models into model package
+ from wds_client.models.attribute_schema import AttributeSchema
++from wds_client.models.backup_response import BackupResponse
+ from wds_client.models.batch_operation import BatchOperation
+ from wds_client.models.batch_record_request import BatchRecordRequest
+ from wds_client.models.batch_response import BatchResponse
+ from wds_client.models.build import Build
+ from wds_client.models.commit import Commit
+ from wds_client.models.component import Component
+ from wds_client.models.components import Components
+```
+
+### Comparing `wds-client-0.2.87/wds_client/models/attribute_schema.py` & `wds-client-0.2.88/wds_client/models/attribute_schema.py`
+
+ * *Files identical despite different names*
+
+### Comparing `wds-client-0.2.87/wds_client/models/batch_operation.py` & `wds-client-0.2.88/wds_client/models/batch_operation.py`
+
+ * *Files identical despite different names*
+
+### Comparing `wds-client-0.2.87/wds_client/models/batch_record_request.py` & `wds-client-0.2.88/wds_client/models/batch_record_request.py`
+
+ * *Files identical despite different names*
+
+### Comparing `wds-client-0.2.87/wds_client/models/batch_response.py` & `wds-client-0.2.88/wds_client/models/batch_response.py`
+
+ * *Files identical despite different names*
+
+### Comparing `wds-client-0.2.87/wds_client/models/build.py` & `wds-client-0.2.88/wds_client/models/build.py`
+
+ * *Files identical despite different names*
+
+### Comparing `wds-client-0.2.87/wds_client/models/commit.py` & `wds-client-0.2.88/wds_client/models/commit.py`
+
+ * *Files identical despite different names*
+
+### Comparing `wds-client-0.2.87/wds_client/models/component.py` & `wds-client-0.2.88/wds_client/models/component.py`
+
+ * *Files identical despite different names*
+
+### Comparing `wds-client-0.2.87/wds_client/models/components.py` & `wds-client-0.2.88/wds_client/models/components.py`
+
+ * *Files identical despite different names*
+
+### Comparing `wds-client-0.2.87/wds_client/models/db_component.py` & `wds-client-0.2.88/wds_client/models/db_component.py`
+
+ * *Files identical despite different names*
+
+### Comparing `wds-client-0.2.87/wds_client/models/db_validationcomponent.py` & `wds-client-0.2.88/wds_client/models/db_validationcomponent.py`
+
+ * *Files identical despite different names*
+
+### Comparing `wds-client-0.2.87/wds_client/models/db_validationcomponent_details.py` & `wds-client-0.2.88/wds_client/models/db_validationcomponent_details.py`
+
+ * *Files identical despite different names*
+
+### Comparing `wds-client-0.2.87/wds_client/models/disk_space_component.py` & `wds-client-0.2.88/wds_client/models/disk_space_component.py`
+
+ * *Files identical despite different names*
+
+### Comparing `wds-client-0.2.87/wds_client/models/disk_space_component_details.py` & `wds-client-0.2.88/wds_client/models/disk_space_component_details.py`
+
+ * *Files identical despite different names*
+
+### Comparing `wds-client-0.2.87/wds_client/models/error_response.py` & `wds-client-0.2.88/wds_client/models/error_response.py`
+
+ * *Files identical despite different names*
+
+### Comparing `wds-client-0.2.87/wds_client/models/git.py` & `wds-client-0.2.88/wds_client/models/git.py`
+
+ * *Files identical despite different names*
+
+### Comparing `wds-client-0.2.87/wds_client/models/inline_object.py` & `wds-client-0.2.88/wds_client/models/inline_object.py`
+
+ * *Files identical despite different names*
+
+### Comparing `wds-client-0.2.87/wds_client/models/record_attribute_definition.py` & `wds-client-0.2.88/wds_client/models/record_attribute_definition.py`
+
+ * *Files identical despite different names*
+
+### Comparing `wds-client-0.2.87/wds_client/models/record_query_response.py` & `wds-client-0.2.88/wds_client/models/record_query_response.py`
+
+ * *Files identical despite different names*
+
+### Comparing `wds-client-0.2.87/wds_client/models/record_request.py` & `wds-client-0.2.88/wds_client/models/record_request.py`
+
+ * *Files identical despite different names*
+
+### Comparing `wds-client-0.2.87/wds_client/models/record_response.py` & `wds-client-0.2.88/wds_client/models/record_response.py`
+
+ * *Files identical despite different names*
+
+### Comparing `wds-client-0.2.87/wds_client/models/record_type_schema.py` & `wds-client-0.2.88/wds_client/models/record_type_schema.py`
+
+ * *Files identical despite different names*
+
+### Comparing `wds-client-0.2.87/wds_client/models/request_body_search.py` & `wds-client-0.2.88/wds_client/models/request_body_search.py`
+
+ * *Files identical despite different names*
+
+### Comparing `wds-client-0.2.87/wds_client/models/search_operator.py` & `wds-client-0.2.88/wds_client/models/search_operator.py`
+
+ * *Files identical despite different names*
+
+### Comparing `wds-client-0.2.87/wds_client/models/search_request.py` & `wds-client-0.2.88/wds_client/models/search_request.py`
+
+ * *Files identical despite different names*
+
+### Comparing `wds-client-0.2.87/wds_client/models/search_sort_direction.py` & `wds-client-0.2.88/wds_client/models/search_sort_direction.py`
+
+ * *Files identical despite different names*
+
+### Comparing `wds-client-0.2.87/wds_client/models/stack_trace_element.py` & `wds-client-0.2.88/wds_client/models/stack_trace_element.py`
+
+ * *Files identical despite different names*
+
+### Comparing `wds-client-0.2.87/wds_client/models/status_response.py` & `wds-client-0.2.88/wds_client/models/status_response.py`
+
+ * *Files identical despite different names*
+
+### Comparing `wds-client-0.2.87/wds_client/models/tsv_upload_response.py` & `wds-client-0.2.88/wds_client/models/tsv_upload_response.py`
+
+ * *Files identical despite different names*
+
+### Comparing `wds-client-0.2.87/wds_client/models/version_response.py` & `wds-client-0.2.88/wds_client/models/version_response.py`
+
+ * *Files identical despite different names*
+
+### Comparing `wds-client-0.2.87/wds_client/rest.py` & `wds-client-0.2.88/wds_client/rest.py`
+
+ * *Files identical despite different names*
+
+### Comparing `wds-client-0.2.87/wds_client.egg-info/SOURCES.txt` & `wds-client-0.2.88/wds_client.egg-info/SOURCES.txt`
+
+ * *Files 8% similar despite different names*
+
+```diff
+@@ -1,15 +1,17 @@
+ README.md
+ setup.cfg
+ setup.py
+ test/test_attribute_schema.py
++test/test_backup_response.py
+ test/test_batch_operation.py
+ test/test_batch_record_request.py
+ test/test_batch_response.py
+ test/test_build.py
++test/test_cloning_api.py
+ test/test_commit.py
+ test/test_component.py
+ test/test_components.py
+ test/test_db_component.py
+ test/test_db_validationcomponent.py
+ test/test_db_validationcomponent_details.py
+ test/test_disk_space_component.py
+@@ -42,21 +44,23 @@
+ wds_client/rest.py
+ wds_client.egg-info/PKG-INFO
+ wds_client.egg-info/SOURCES.txt
+ wds_client.egg-info/dependency_links.txt
+ wds_client.egg-info/requires.txt
+ wds_client.egg-info/top_level.txt
+ wds_client/api/__init__.py
++wds_client/api/cloning_api.py
+ wds_client/api/general_wds_information_api.py
+ wds_client/api/instances_api.py
+ wds_client/api/records_api.py
+ wds_client/api/schema_api.py
+ wds_client/api/snapshots_api.py
+ wds_client/models/__init__.py
+ wds_client/models/attribute_schema.py
++wds_client/models/backup_response.py
+ wds_client/models/batch_operation.py
+ wds_client/models/batch_record_request.py
+ wds_client/models/batch_response.py
+ wds_client/models/build.py
+ wds_client/models/commit.py
+ wds_client/models/component.py
+ wds_client/models/components.py
+```
+
