@@ -8859,3 +8859,129 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-15 05:32:46] INFO root fetch - processPackages [fastflix]: Remove: archive file [/home/abi/fetcher/tmp/fastflix-5.5.6-py3-none-any.whl.zip]
 [2023-06-15 05:32:46] INFO root fetch - main [MainThread]: End processing [fastflix]: success
 [2023-06-15 05:32:46] INFO root fetch - main [MainThread]: Store serial: [18510741]
+[2023-06-15 05:37:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18510741]
+[2023-06-15 05:37:55] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-06-15 05:37:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cpptools
+[2023-06-15 05:37:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tybase
+[2023-06-15 05:37:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bulma-sphinx-theme
+[2023-06-15 05:37:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sincfold
+[2023-06-15 05:37:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tybase
+[2023-06-15 05:37:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo9-addon-document-page
+[2023-06-15 05:37:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo10-addon-document-page
+[2023-06-15 05:37:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo11-addon-document-page
+[2023-06-15 05:37:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nzbn
+[2023-06-15 05:37:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo12-addon-document-page
+[2023-06-15 05:37:55] INFO root fetch - processPackages [tybase]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-06-15 05:37:55] INFO root fetch - processPackages [bulma-sphinx-theme]: New version: [0.2.0rc1] Old Version: [0.1.0rc1]
+[2023-06-15 05:37:55] WARNING root fetch - processPackages [sincfold]: Skipping, unable to determine old version
+[2023-06-15 05:37:55] INFO root fetch - processPackages [sincfold]: Start processing: odoo13-addon-document-page
+[2023-06-15 05:37:55] INFO root fetch - main [MainThread]: End processing [sincfold] error
+[2023-06-15 05:37:55] INFO root fetch - processPackages [odoo9-addon-document-page]: New version: [9.0.2.1.0.99.dev9] Old Version: [9.0.2.1.0.99.dev8]
+[2023-06-15 05:37:55] INFO root fetch - processPackages [cpptools]: New version: [1.2.0] Old Version: [1.0.1]
+[2023-06-15 05:37:55] INFO root fetch - processPackages [odoo11-addon-document-page]: New version: [11.0.2.4.0.99.dev8] Old Version: [11.0.2.4.0.99.dev7]
+[2023-06-15 05:37:55] INFO root fetch - processPackages [nzbn]: New version: [1.0.0] Old Version: [0.0.9]
+[2023-06-15 05:37:55] INFO root fetch - processPackages [odoo12-addon-document-page]: New version: [12.0.1.4.0.99.dev9] Old Version: [12.0.1.4.0.99.dev8]
+[2023-06-15 05:37:55] INFO root fetch - processPackages [odoo10-addon-document-page]: New version: [10.0.2.1.0.99.dev9] Old Version: [10.0.2.1.0.99.dev8]
+[2023-06-15 05:37:55] INFO root fetch - processPackages [tybase]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-06-15 05:37:55] INFO root fetch - processPackages [odoo13-addon-document-page]: New version: [13.0.1.1.1.dev9] Old Version: [13.0.1.1.1.dev8]
+[2023-06-15 05:37:55] INFO root fetch - processPackages [tybase]: Downloading https://files.pythonhosted.org/packages/af/ad/e4c1806d5776b5266a870610634bc25fb4ed7fb57f051d84456983cea95c/tybase-0.1.3.tar.gz
+[2023-06-15 05:37:55] INFO root fetch - processPackages [tybase]: Downloading https://files.pythonhosted.org/packages/af/ad/e4c1806d5776b5266a870610634bc25fb4ed7fb57f051d84456983cea95c/tybase-0.1.3.tar.gz
+[2023-06-15 05:37:55] INFO root fetch - processPackages [bulma-sphinx-theme]: Downloading https://files.pythonhosted.org/packages/31/a0/a4e8a925f89e57d658881df3b3230e32ea5c48fd2b40d90e00b02fc314b2/bulma_sphinx_theme-0.1.0rc1.tar.gz
+[2023-06-15 05:37:55] INFO root fetch - processPackages [odoo9-addon-document-page]: Downloading https://files.pythonhosted.org/packages/1b/33/9426730ce1b12785ea91f59cade91d9a7e1d4f23220397e6113bcec28677/odoo9_addon_document_page-9.0.2.1.0.99.dev8-py2-none-any.whl
+[2023-06-15 05:37:55] INFO root fetch - processPackages [cpptools]: Downloading https://files.pythonhosted.org/packages/55/88/16768223a5400e69fd2cfc33ee97510658d7fcd44ca3f769e3098d5c403d/cpptools-1.0.1.win-amd64.zip
+[2023-06-15 05:37:55] INFO root fetch - processPackages [odoo12-addon-document-page]: Downloading https://files.pythonhosted.org/packages/02/32/a0f9f5abe41539077cccd81d1880ff837f67e1a6dcd8cc3dd0f7ab8ec812/odoo12_addon_document_page-12.0.1.4.0.99.dev8-py3-none-any.whl
+[2023-06-15 05:37:55] INFO root fetch - processPackages [odoo13-addon-document-page]: Downloading https://files.pythonhosted.org/packages/4a/e1/719a6d27c344d7c15a3bd6738cfe93ecc2c0c30a61bb9516a962ee8002d7/odoo13_addon_document_page-13.0.1.1.1.dev8-py3-none-any.whl
+[2023-06-15 05:37:55] INFO root fetch - processPackages [odoo11-addon-document-page]: Downloading https://files.pythonhosted.org/packages/06/a7/336ee27a659f660669d2cfd028a1ab392491b5f31cd9acaa965ca51c5917/odoo11_addon_document_page-11.0.2.4.0.99.dev7-py2.py3-none-any.whl
+[2023-06-15 05:37:55] INFO root fetch - processPackages [odoo10-addon-document-page]: Downloading https://files.pythonhosted.org/packages/b7/f2/e6bf986b5222ac22ce2936c57b5521c09c713242319a1cd959590938914b/odoo10_addon_document_page-10.0.2.1.0.99.dev8-py2-none-any.whl
+[2023-06-15 05:37:55] INFO root fetch - processPackages [nzbn]: Downloading https://files.pythonhosted.org/packages/69/3b/765c77fcdc84777d44a2ee2926e08e5335e9750e50efa7f673fcdf0840c5/nzbn-0.0.9.tar.gz
+[2023-06-15 05:37:55] INFO root fetch - processPackages [tybase]: Downloading https://files.pythonhosted.org/packages/04/ac/dd9616c47197355b645fd5104ffcf58804dd069a0b9a00eba796c8788eb8/tybase-0.1.4.tar.gz
+[2023-06-15 05:37:55] INFO root fetch - processPackages [tybase]: Downloading https://files.pythonhosted.org/packages/04/ac/dd9616c47197355b645fd5104ffcf58804dd069a0b9a00eba796c8788eb8/tybase-0.1.4.tar.gz
+[2023-06-15 05:37:56] INFO root fetch - processPackages [tybase]: executing diffoscope
+[2023-06-15 05:37:56] INFO root fetch - processPackages [tybase]: executing diffoscope
+[2023-06-15 05:37:56] INFO root fetch - processPackages [tybase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tybase-0.1.3.tar.gz tmp/tybase-0.1.4.tar.gz --markdown 20230615/t/tybase/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-06-15 05:37:56] INFO root fetch - processPackages [tybase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tybase-0.1.3.tar.gz tmp/tybase-0.1.4.tar.gz --markdown 20230615/t/tybase/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-06-15 05:37:56] INFO root fetch - processPackages [odoo9-addon-document-page]: Downloading https://files.pythonhosted.org/packages/f3/f1/2334ebde8e139bbfee10b33cfa75939a5769ed46e2c0d5770592c0deb8ec/odoo9_addon_document_page-9.0.2.1.0.99.dev9-py2-none-any.whl
+[2023-06-15 05:37:56] INFO root fetch - processPackages [bulma-sphinx-theme]: Downloading https://files.pythonhosted.org/packages/f1/b9/a0ecba78c64ff3c1c361731e13f833257429fea8785f56fa69240ed7f24b/bulma_sphinx_theme-0.2.0rc1.tar.gz
+[2023-06-15 05:37:56] INFO root fetch - processPackages [nzbn]: Downloading https://files.pythonhosted.org/packages/ba/a2/046d34574abf2e565166543b884ec167a3f0a8d0c8c47e91491e369fcacd/nzbn-1.0.0.tar.gz
+[2023-06-15 05:37:56] INFO root fetch - processPackages [cpptools]: Downloading https://files.pythonhosted.org/packages/3a/88/06a66a87c7d070e2e87ed855724b0c32338ed8a7a532724057d7363b8095/cpptools-1.2.0.win-amd64.zip
+[2023-06-15 05:37:56] INFO root fetch - processPackages [nzbn]: executing diffoscope
+[2023-06-15 05:37:56] INFO root fetch - processPackages [nzbn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nzbn-0.0.9.tar.gz tmp/nzbn-1.0.0.tar.gz --markdown 20230615/n/nzbn/0.0.9-1.0.0/diff.md --exclude *.pyd
+[2023-06-15 05:37:56] INFO root fetch - processPackages [odoo11-addon-document-page]: Downloading https://files.pythonhosted.org/packages/74/a9/92ab6590785d8781aa0cbea62e533b7d111e67f1d7caff18c537b3daf1cf/odoo11_addon_document_page-11.0.2.4.0.99.dev8-py2.py3-none-any.whl
+[2023-06-15 05:37:56] INFO root fetch - processPackages [odoo10-addon-document-page]: Downloading https://files.pythonhosted.org/packages/04/ec/7ff2643de94f60efc1e4ec2e6b6132ebb795a59bf2ec6ebb0fb9a3e4d080/odoo10_addon_document_page-10.0.2.1.0.99.dev9-py2-none-any.whl
+[2023-06-15 05:37:56] INFO root fetch - processPackages [cpptools]: executing diffoscope
+[2023-06-15 05:37:56] INFO root fetch - processPackages [cpptools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cpptools-1.0.1.win-amd64.zip tmp/cpptools-1.2.0.win-amd64.zip --markdown 20230615/c/cpptools/1.0.1-1.2.0/diff.md --exclude *.pyd
+[2023-06-15 05:37:56] INFO root fetch - processPackages [odoo13-addon-document-page]: Downloading https://files.pythonhosted.org/packages/15/36/1f5f6f5de0d2f6785920878e3f14c4fa01774323ce17274f0ae866586ab1/odoo13_addon_document_page-13.0.1.1.1.dev9-py3-none-any.whl
+[2023-06-15 05:37:56] INFO root fetch - processPackages [bulma-sphinx-theme]: executing diffoscope
+[2023-06-15 05:37:56] INFO root fetch - processPackages [bulma-sphinx-theme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bulma_sphinx_theme-0.1.0rc1.tar.gz tmp/bulma_sphinx_theme-0.2.0rc1.tar.gz --markdown 20230615/b/bulma-sphinx-theme/0.1.0rc1-0.2.0rc1/diff.md --exclude *.pyd
+[2023-06-15 05:37:56] INFO root fetch - processPackages [odoo12-addon-document-page]: Downloading https://files.pythonhosted.org/packages/66/84/d4e81b566901a7741533ce200b9c2d435cda7138bd8f3a5ab2b1399e9e98/odoo12_addon_document_page-12.0.1.4.0.99.dev9-py3-none-any.whl
+[2023-06-15 05:37:56] INFO root fetch - processPackages [odoo11-addon-document-page]: executing diffoscope
+[2023-06-15 05:37:56] INFO root fetch - processPackages [odoo11-addon-document-page]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo11_addon_document_page-11.0.2.4.0.99.dev7-py2.py3-none-any.whl.zip tmp/odoo11_addon_document_page-11.0.2.4.0.99.dev8-py2.py3-none-any.whl.zip --markdown 20230615/o/odoo11-addon-document-page/11.0.2.4.0.99.dev7-11.0.2.4.0.99.dev8/diff.md --exclude *.pyd
+[2023-06-15 05:37:56] INFO root fetch - processPackages [odoo10-addon-document-page]: executing diffoscope
+[2023-06-15 05:37:56] INFO root fetch - processPackages [odoo10-addon-document-page]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo10_addon_document_page-10.0.2.1.0.99.dev8-py2-none-any.whl.zip tmp/odoo10_addon_document_page-10.0.2.1.0.99.dev9-py2-none-any.whl.zip --markdown 20230615/o/odoo10-addon-document-page/10.0.2.1.0.99.dev8-10.0.2.1.0.99.dev9/diff.md --exclude *.pyd
+[2023-06-15 05:37:56] INFO root fetch - processPackages [odoo9-addon-document-page]: executing diffoscope
+[2023-06-15 05:37:56] INFO root fetch - processPackages [odoo9-addon-document-page]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo9_addon_document_page-9.0.2.1.0.99.dev8-py2-none-any.whl.zip tmp/odoo9_addon_document_page-9.0.2.1.0.99.dev9-py2-none-any.whl.zip --markdown 20230615/o/odoo9-addon-document-page/9.0.2.1.0.99.dev8-9.0.2.1.0.99.dev9/diff.md --exclude *.pyd
+[2023-06-15 05:37:56] INFO root fetch - processPackages [odoo13-addon-document-page]: executing diffoscope
+[2023-06-15 05:37:56] INFO root fetch - processPackages [odoo13-addon-document-page]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_document_page-13.0.1.1.1.dev8-py3-none-any.whl.zip tmp/odoo13_addon_document_page-13.0.1.1.1.dev9-py3-none-any.whl.zip --markdown 20230615/o/odoo13-addon-document-page/13.0.1.1.1.dev8-13.0.1.1.1.dev9/diff.md --exclude *.pyd
+[2023-06-15 05:37:56] INFO root fetch - processPackages [odoo12-addon-document-page]: executing diffoscope
+[2023-06-15 05:37:56] INFO root fetch - processPackages [odoo12-addon-document-page]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_document_page-12.0.1.4.0.99.dev8-py3-none-any.whl.zip tmp/odoo12_addon_document_page-12.0.1.4.0.99.dev9-py3-none-any.whl.zip --markdown 20230615/o/odoo12-addon-document-page/12.0.1.4.0.99.dev8-12.0.1.4.0.99.dev9/diff.md --exclude *.pyd
+[2023-06-15 05:37:57] INFO root fetch - processPackages [tybase]: Remove: archive file [/home/abi/fetcher/tmp/tybase-0.1.3.tar.gz]
+[2023-06-15 05:37:57] INFO root fetch - processPackages [tybase]: Remove: archive file [/home/abi/fetcher/tmp/tybase-0.1.4.tar.gz]
+[2023-06-15 05:37:57] INFO root fetch - processPackages [tybase]: Start processing: cvxportfolio
+[2023-06-15 05:37:57] INFO root fetch - main [MainThread]: End processing [tybase]: success
+[2023-06-15 05:37:57] INFO root fetch - processPackages [cvxportfolio]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-06-15 05:37:57] INFO root fetch - processPackages [tybase]: Start processing: odoo14-addon-document-page
+[2023-06-15 05:37:57] INFO root fetch - main [MainThread]: End processing [tybase]: success
+[2023-06-15 05:37:57] INFO root fetch - processPackages [odoo14-addon-document-page]: New version: [14.0.1.2.4.dev1] Old Version: [14.0.1.2.3.dev9]
+[2023-06-15 05:37:57] INFO root fetch - processPackages [cvxportfolio]: Downloading https://files.pythonhosted.org/packages/ef/c4/cb0f02fd3c325926d50d1d2813f20d4f44705222b81301bcc5a9c8cdb71c/cvxportfolio-0.3.1.tar.gz
+[2023-06-15 05:37:57] INFO root fetch - processPackages [odoo14-addon-document-page]: Downloading https://files.pythonhosted.org/packages/d2/c1/2f7cd4b3b994e78a8006727b6146f6592be41922ac5fd5005241569c268b/odoo14_addon_document_page-14.0.1.2.3.dev9-py3-none-any.whl
+[2023-06-15 05:37:57] INFO root fetch - processPackages [nzbn]: Remove: archive file [/home/abi/fetcher/tmp/nzbn-0.0.9.tar.gz]
+[2023-06-15 05:37:57] INFO root fetch - processPackages [nzbn]: Remove: archive file [/home/abi/fetcher/tmp/nzbn-1.0.0.tar.gz]
+[2023-06-15 05:37:57] INFO root fetch - processPackages [nzbn]: Start processing: odoo-addon-document-page
+[2023-06-15 05:37:57] INFO root fetch - main [MainThread]: End processing [nzbn]: success
+[2023-06-15 05:37:58] INFO root fetch - processPackages [cvxportfolio]: Downloading https://files.pythonhosted.org/packages/50/1b/34776cfee51df8d2cda99c7c1b5a366159d3017c7e13a9027c713cea65e1/cvxportfolio-0.3.2.tar.gz
+[2023-06-15 05:37:58] INFO root fetch - processPackages [odoo-addon-document-page]: New version: [16.0.1.1.0.8] Old Version: [16.0.1.1.0.7]
+[2023-06-15 05:37:58] INFO root fetch - processPackages [cvxportfolio]: executing diffoscope
+[2023-06-15 05:37:58] INFO root fetch - processPackages [cvxportfolio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cvxportfolio-0.3.1.tar.gz tmp/cvxportfolio-0.3.2.tar.gz --markdown 20230615/c/cvxportfolio/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-06-15 05:37:58] INFO root fetch - processPackages [odoo-addon-document-page]: Downloading https://files.pythonhosted.org/packages/2f/d1/e563c7492448f0a0762a3df564cc76509b4d595e9b9ee0254d8c18f310d6/odoo_addon_document_page-16.0.1.1.0.7-py3-none-any.whl
+[2023-06-15 05:37:58] INFO root fetch - processPackages [odoo14-addon-document-page]: Downloading https://files.pythonhosted.org/packages/61/d2/bcdadc0f849fda1b49d82701b2c922c2bb4d83f7773ecd68dd3bc18e0278/odoo14_addon_document_page-14.0.1.2.4.dev1-py3-none-any.whl
+[2023-06-15 05:37:58] INFO root fetch - processPackages [odoo14-addon-document-page]: executing diffoscope
+[2023-06-15 05:37:58] INFO root fetch - processPackages [odoo14-addon-document-page]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_document_page-14.0.1.2.3.dev9-py3-none-any.whl.zip tmp/odoo14_addon_document_page-14.0.1.2.4.dev1-py3-none-any.whl.zip --markdown 20230615/o/odoo14-addon-document-page/14.0.1.2.3.dev9-14.0.1.2.4.dev1/diff.md --exclude *.pyd
+[2023-06-15 05:37:58] INFO root fetch - processPackages [odoo-addon-document-page]: Downloading https://files.pythonhosted.org/packages/58/76/9fbca08728bd9c34da76e88a217087c03890c5a1a3b12381575c6ca5a725/odoo_addon_document_page-16.0.1.1.0.8-py3-none-any.whl
+[2023-06-15 05:37:58] INFO root fetch - processPackages [cpptools]: Remove: archive file [/home/abi/fetcher/tmp/cpptools-1.0.1.win-amd64.zip]
+[2023-06-15 05:37:58] INFO root fetch - processPackages [cpptools]: Remove: archive file [/home/abi/fetcher/tmp/cpptools-1.2.0.win-amd64.zip]
+[2023-06-15 05:37:58] INFO root fetch - processPackages [cpptools]: Start processing: odoo-addon-document-page
+[2023-06-15 05:37:58] INFO root fetch - main [MainThread]: End processing [cpptools]: success
+[2023-06-15 05:37:58] INFO root fetch - processPackages [odoo-addon-document-page]: New version: [16.0.1.1.0.8] Old Version: [16.0.1.1.0.7]
+[2023-06-15 05:37:58] INFO root fetch - processPackages [odoo-addon-document-page]: executing diffoscope
+[2023-06-15 05:37:58] INFO root fetch - processPackages [odoo-addon-document-page]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_document_page-16.0.1.1.0.7-py3-none-any.whl.zip tmp/odoo_addon_document_page-16.0.1.1.0.8-py3-none-any.whl.zip --markdown 20230615/o/odoo-addon-document-page/16.0.1.1.0.7-16.0.1.1.0.8/diff.md --exclude *.pyd
+[2023-06-15 05:37:58] INFO root fetch - processPackages [odoo-addon-document-page]: executing diffoscope
+[2023-06-15 05:37:58] INFO root fetch - processPackages [odoo-addon-document-page]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_document_page-16.0.1.1.0.7-py3-none-any.whl.zip tmp/odoo_addon_document_page-16.0.1.1.0.8-py3-none-any.whl.zip --markdown 20230615/o/odoo-addon-document-page/16.0.1.1.0.7-16.0.1.1.0.8/diff.md --exclude *.pyd
+[2023-06-15 05:37:58] INFO root fetch - processPackages [odoo11-addon-document-page]: Remove: archive file [/home/abi/fetcher/tmp/odoo11_addon_document_page-11.0.2.4.0.99.dev7-py2.py3-none-any.whl.zip]
+[2023-06-15 05:37:58] INFO root fetch - processPackages [odoo11-addon-document-page]: Remove: archive file [/home/abi/fetcher/tmp/odoo11_addon_document_page-11.0.2.4.0.99.dev8-py2.py3-none-any.whl.zip]
+[2023-06-15 05:37:58] INFO root fetch - main [MainThread]: End processing [odoo11-addon-document-page]: success
+[2023-06-15 05:37:58] INFO root fetch - processPackages [odoo10-addon-document-page]: Remove: archive file [/home/abi/fetcher/tmp/odoo10_addon_document_page-10.0.2.1.0.99.dev8-py2-none-any.whl.zip]
+[2023-06-15 05:37:58] INFO root fetch - processPackages [odoo10-addon-document-page]: Remove: archive file [/home/abi/fetcher/tmp/odoo10_addon_document_page-10.0.2.1.0.99.dev9-py2-none-any.whl.zip]
+[2023-06-15 05:37:58] INFO root fetch - main [MainThread]: End processing [odoo10-addon-document-page]: success
+[2023-06-15 05:37:59] INFO root fetch - processPackages [odoo9-addon-document-page]: Remove: archive file [/home/abi/fetcher/tmp/odoo9_addon_document_page-9.0.2.1.0.99.dev8-py2-none-any.whl.zip]
+[2023-06-15 05:37:59] INFO root fetch - processPackages [odoo9-addon-document-page]: Remove: archive file [/home/abi/fetcher/tmp/odoo9_addon_document_page-9.0.2.1.0.99.dev9-py2-none-any.whl.zip]
+[2023-06-15 05:37:59] INFO root fetch - main [MainThread]: End processing [odoo9-addon-document-page]: success
+[2023-06-15 05:37:59] INFO root fetch - processPackages [odoo13-addon-document-page]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_document_page-13.0.1.1.1.dev8-py3-none-any.whl.zip]
+[2023-06-15 05:37:59] INFO root fetch - processPackages [odoo13-addon-document-page]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_document_page-13.0.1.1.1.dev9-py3-none-any.whl.zip]
+[2023-06-15 05:37:59] INFO root fetch - main [MainThread]: End processing [odoo13-addon-document-page]: success
+[2023-06-15 05:37:59] INFO root fetch - processPackages [odoo12-addon-document-page]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_document_page-12.0.1.4.0.99.dev8-py3-none-any.whl.zip]
+[2023-06-15 05:37:59] INFO root fetch - processPackages [odoo12-addon-document-page]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_document_page-12.0.1.4.0.99.dev9-py3-none-any.whl.zip]
+[2023-06-15 05:37:59] INFO root fetch - main [MainThread]: End processing [odoo12-addon-document-page]: success
+[2023-06-15 05:37:59] INFO root fetch - processPackages [bulma-sphinx-theme]: Remove: archive file [/home/abi/fetcher/tmp/bulma_sphinx_theme-0.1.0rc1.tar.gz]
+[2023-06-15 05:37:59] INFO root fetch - processPackages [bulma-sphinx-theme]: Remove: archive file [/home/abi/fetcher/tmp/bulma_sphinx_theme-0.2.0rc1.tar.gz]
+[2023-06-15 05:37:59] INFO root fetch - main [MainThread]: End processing [bulma-sphinx-theme]: success
+[2023-06-15 05:38:00] INFO root fetch - processPackages [odoo14-addon-document-page]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_document_page-14.0.1.2.3.dev9-py3-none-any.whl.zip]
+[2023-06-15 05:38:00] INFO root fetch - processPackages [odoo14-addon-document-page]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_document_page-14.0.1.2.4.dev1-py3-none-any.whl.zip]
+[2023-06-15 05:38:00] INFO root fetch - main [MainThread]: End processing [odoo14-addon-document-page]: success
+[2023-06-15 05:38:00] INFO root fetch - processPackages [odoo-addon-document-page]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_document_page-16.0.1.1.0.7-py3-none-any.whl.zip]
+[2023-06-15 05:38:00] INFO root fetch - processPackages [odoo-addon-document-page]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_document_page-16.0.1.1.0.8-py3-none-any.whl.zip]
+[2023-06-15 05:38:00] INFO root fetch - main [MainThread]: End processing [odoo-addon-document-page]: success
+[2023-06-15 05:38:00] INFO root fetch - main [MainThread]: End processing [odoo-addon-document-page]: success
+[2023-06-15 05:38:01] INFO root fetch - processPackages [cvxportfolio]: Remove: archive file [/home/abi/fetcher/tmp/cvxportfolio-0.3.1.tar.gz]
+[2023-06-15 05:38:01] INFO root fetch - processPackages [cvxportfolio]: Remove: archive file [/home/abi/fetcher/tmp/cvxportfolio-0.3.2.tar.gz]
+[2023-06-15 05:38:01] INFO root fetch - main [MainThread]: End processing [cvxportfolio]: success
+[2023-06-15 05:38:01] INFO root fetch - main [MainThread]: Store serial: [18510777]
