@@ -6405,3 +6405,15 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-15 04:02:12] INFO root fetch - processPackages [fovus]: Remove: archive file [/home/abi/fetcher/tmp/fovus-1.0.6-py3-none-any.whl.zip]
 [2023-06-15 04:02:12] INFO root fetch - main [MainThread]: End processing [fovus]: success
 [2023-06-15 04:02:12] INFO root fetch - main [MainThread]: Store serial: [18509898]
+[2023-06-15 04:07:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18509898]
+[2023-06-15 04:07:21] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2023-06-15 04:07:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ruff-lsp
+[2023-06-15 04:07:21] INFO root fetch - processPackages [ruff-lsp]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-15 04:07:21] INFO root fetch - processPackages [ruff-lsp]: Downloading https://files.pythonhosted.org/packages/48/64/90652b282a0d554a2483ebfdd37a317091e73d1b5caa0303f9a61bd27f78/ruff-lsp-0.0.8.tar.gz
+[2023-06-15 04:07:22] INFO root fetch - processPackages [ruff-lsp]: Downloading https://files.pythonhosted.org/packages/33/19/dc8533de6945cbfa428f42fe750158bfebd5cc496e0ae9834c44180dc185/ruff-lsp-0.0.9.tar.gz
+[2023-06-15 04:07:22] INFO root fetch - processPackages [ruff-lsp]: executing diffoscope
+[2023-06-15 04:07:22] INFO root fetch - processPackages [ruff-lsp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ruff-lsp-0.0.8.tar.gz tmp/ruff-lsp-0.0.9.tar.gz --markdown 20230615/r/ruff-lsp/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-15 04:07:24] INFO root fetch - processPackages [ruff-lsp]: Remove: archive file [/home/abi/fetcher/tmp/ruff-lsp-0.0.8.tar.gz]
+[2023-06-15 04:07:24] INFO root fetch - processPackages [ruff-lsp]: Remove: archive file [/home/abi/fetcher/tmp/ruff-lsp-0.0.9.tar.gz]
+[2023-06-15 04:07:24] INFO root fetch - main [MainThread]: End processing [ruff-lsp]: success
+[2023-06-15 04:07:24] INFO root fetch - main [MainThread]: Store serial: [18509903]
