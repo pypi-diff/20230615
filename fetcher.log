@@ -15463,3 +15463,130 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-06-15 10:55:16] INFO root fetch - processPackages [udata-front]: Remove: archive file [/home/abi/fetcher/tmp/udata_front-3.2.4.dev11184-py2.py3-none-any.whl.zip]
 [2023-06-15 10:55:16] INFO root fetch - main [MainThread]: End processing [udata-front]: success
 [2023-06-15 10:55:16] INFO root fetch - main [MainThread]: Store serial: [18513341]
+[2023-06-15 11:00:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18513341]
+[2023-06-15 11:00:26] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-06-15 11:00:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Java-Dependency-Manager
+[2023-06-15 11:00:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-listing
+[2023-06-15 11:00:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ir-datasets
+[2023-06-15 11:00:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: localstack-core
+[2023-06-15 11:00:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pytest-xdist-worker-stats
+[2023-06-15 11:00:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: rdfreader
+[2023-06-15 11:00:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mlbi-at-dku-lib
+[2023-06-15 11:00:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: srxraylib
+[2023-06-15 11:00:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: numerical-py
+[2023-06-15 11:00:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pytest-xdist-worker-stats
+[2023-06-15 11:00:26] INFO root fetch - processPackages [srxraylib]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-15 11:00:26] INFO root fetch - processPackages [django-listing]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-15 11:00:26] INFO root fetch - processPackages [ir-datasets]: New version: [0.5.5] Old Version: [0.5.4]
+[2023-06-15 11:00:26] INFO root fetch - processPackages [rdfreader]: New version: [1.0.1] Old Version: [1.0.0a2]
+[2023-06-15 11:00:26] INFO root fetch - processPackages [pytest-xdist-worker-stats]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-15 11:00:26] WARNING root fetch - processPackages [numerical-py]: Skipping, unable to determine old version
+[2023-06-15 11:00:26] INFO root fetch - processPackages [numerical-py]: Start processing: pynocaptcha
+[2023-06-15 11:00:26] INFO root fetch - processPackages [mlbi-at-dku-lib]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-06-15 11:00:26] INFO root fetch - main [MainThread]: End processing [numerical-py] error
+[2023-06-15 11:00:26] INFO root fetch - processPackages [pytest-xdist-worker-stats]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-15 11:00:26] WARNING root fetch - processPackages [Java-Dependency-Manager]: Skipping, unable to determine old version
+[2023-06-15 11:00:26] INFO root fetch - processPackages [Java-Dependency-Manager]: Start processing: lsst-ctrl-bps-htcondor
+[2023-06-15 11:00:26] INFO root fetch - main [MainThread]: End processing [Java-Dependency-Manager] error
+[2023-06-15 11:00:26] INFO root fetch - processPackages [localstack-core]: New version: [2.1.1.dev20230615085543] Old Version: [2.1.1.dev20230614212748]
+[2023-06-15 11:00:26] INFO root fetch - processPackages [pynocaptcha]: New version: [1.5.4] Old Version: [1.5.3]
+[2023-06-15 11:00:26] INFO root fetch - processPackages [lsst-ctrl-bps-htcondor]: New version: [26.0.0a20230500] Old Version: [26.0.0a20230400]
+[2023-06-15 11:00:26] INFO root fetch - processPackages [srxraylib]: Downloading https://files.pythonhosted.org/packages/bd/3b/62846e4f44e8ea32f36b28ca395ceea65da9d416deea42c54a98930ad6c1/srxraylib-1.0.8.tar.gz
+[2023-06-15 11:00:26] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/9a/13/c5fc80a516c328f6dc7f9c55bb0d697656ff9ebc7d337d9775618beb291a/localstack-core-2.1.1.dev20230614212748.tar.gz
+[2023-06-15 11:00:26] INFO root fetch - processPackages [rdfreader]: Downloading https://files.pythonhosted.org/packages/41/a2/2bacc8dbfc77bbc9659aa8345878fe04c47ffc5d3869de75d03910433919/rdfreader-1.0.0a2.tar.gz
+[2023-06-15 11:00:26] INFO root fetch - processPackages [pynocaptcha]: Downloading https://files.pythonhosted.org/packages/a3/f6/9f117e4a2c3b9724a8ccdcc5767a711bc8b1b8e31074c6458c59cfce2148/pynocaptcha-1.5.3.tar.gz
+[2023-06-15 11:00:26] INFO root fetch - processPackages [django-listing]: Downloading https://files.pythonhosted.org/packages/a3/59/905c67a72e8b857c31c798d6e0cc0030c1ee535d793a4ea094ecda645d18/django-listing-0.0.8.tar.gz
+[2023-06-15 11:00:26] INFO root fetch - processPackages [pytest-xdist-worker-stats]: Downloading https://files.pythonhosted.org/packages/4f/5b/cb04389c1091940ca2d71f8b932695cc100b455c746ef9045586810e9638/pytest_xdist_worker_stats-0.1.0.tar.gz
+[2023-06-15 11:00:26] INFO root fetch - processPackages [pytest-xdist-worker-stats]: Downloading https://files.pythonhosted.org/packages/4f/5b/cb04389c1091940ca2d71f8b932695cc100b455c746ef9045586810e9638/pytest_xdist_worker_stats-0.1.0.tar.gz
+[2023-06-15 11:00:26] INFO root fetch - processPackages [mlbi-at-dku-lib]: Downloading https://files.pythonhosted.org/packages/2a/57/06686a7fa27dc0eaee1a573d93976a85b211a46502d3b534d1116a23ae2c/mlbi_at_dku_lib-0.1.6.tar.gz
+[2023-06-15 11:00:26] INFO root fetch - processPackages [ir-datasets]: Downloading https://files.pythonhosted.org/packages/ad/5f/3ecffa5e6ca4c9d289d1d17b58faa579a81a3a6db8aa86c3145cd13f2ba7/ir_datasets-0.5.4.tar.gz
+[2023-06-15 11:00:26] INFO root fetch - processPackages [srxraylib]: Downloading https://files.pythonhosted.org/packages/ca/b0/4954ea595d4b42f4f93aa9929bcca5ccdd90e68312d0469da175b640b5ca/srxraylib-1.0.9.tar.gz
+[2023-06-15 11:00:26] INFO root fetch - processPackages [lsst-ctrl-bps-htcondor]: Downloading https://files.pythonhosted.org/packages/9c/29/1a3392502c8a25f2eb2fabe112e03edaf4de2d8396df282510856200f6a7/lsst-ctrl-bps-htcondor-26.0.0a20230400.tar.gz
+[2023-06-15 11:00:26] INFO root fetch - processPackages [srxraylib]: executing diffoscope
+[2023-06-15 11:00:26] INFO root fetch - processPackages [srxraylib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/srxraylib-1.0.8.tar.gz tmp/srxraylib-1.0.9.tar.gz --markdown 20230615/s/srxraylib/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-15 11:00:26] INFO root fetch - processPackages [pynocaptcha]: Downloading https://files.pythonhosted.org/packages/48/a9/2163d1ae362ea2dcf25bec51bfbf311c480841cab4f896ce35b4ef412058/pynocaptcha-1.5.4.tar.gz
+[2023-06-15 11:00:26] INFO root fetch - processPackages [rdfreader]: Downloading https://files.pythonhosted.org/packages/4e/9e/f143f405e983e71c05110e8182e174a304e7d03cb16461fd91047fe3519f/rdfreader-1.0.1.tar.gz
+[2023-06-15 11:00:26] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/ca/8c/c7c67028549bf6c4cfb171264554d2353dc070454efb9ada0f29ca9e94de/localstack-core-2.1.1.dev20230615085543.tar.gz
+[2023-06-15 11:00:26] INFO root fetch - processPackages [pytest-xdist-worker-stats]: Downloading https://files.pythonhosted.org/packages/48/04/e12cebe8021aecd511f528dc0780636366e22a35bc7349835b6817cbc996/pytest_xdist_worker_stats-0.1.1.tar.gz
+[2023-06-15 11:00:26] INFO root fetch - processPackages [pynocaptcha]: executing diffoscope
+[2023-06-15 11:00:26] INFO root fetch - processPackages [pynocaptcha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pynocaptcha-1.5.3.tar.gz tmp/pynocaptcha-1.5.4.tar.gz --markdown 20230615/p/pynocaptcha/1.5.3-1.5.4/diff.md --exclude *.pyd
+[2023-06-15 11:00:26] INFO root fetch - processPackages [pytest-xdist-worker-stats]: Downloading https://files.pythonhosted.org/packages/48/04/e12cebe8021aecd511f528dc0780636366e22a35bc7349835b6817cbc996/pytest_xdist_worker_stats-0.1.1.tar.gz
+[2023-06-15 11:00:26] INFO root fetch - processPackages [mlbi-at-dku-lib]: Downloading https://files.pythonhosted.org/packages/e3/68/f6bb67b5c96c732337804ce7f400c8557ba8d6ef3dc97d4db5a4f8c9dd08/mlbi_at_dku_lib-0.1.7.tar.gz
+[2023-06-15 11:00:26] INFO root fetch - processPackages [rdfreader]: executing diffoscope
+[2023-06-15 11:00:26] INFO root fetch - processPackages [rdfreader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rdfreader-1.0.0a2.tar.gz tmp/rdfreader-1.0.1.tar.gz --markdown 20230615/r/rdfreader/1.0.0a2-1.0.1/diff.md --exclude *.pyd
+[2023-06-15 11:00:26] INFO root fetch - processPackages [pytest-xdist-worker-stats]: executing diffoscope
+[2023-06-15 11:00:26] INFO root fetch - processPackages [pytest-xdist-worker-stats]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest_xdist_worker_stats-0.1.0.tar.gz tmp/pytest_xdist_worker_stats-0.1.1.tar.gz --markdown 20230615/p/pytest-xdist-worker-stats/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-15 11:00:26] INFO root fetch - processPackages [pytest-xdist-worker-stats]: executing diffoscope
+[2023-06-15 11:00:26] INFO root fetch - processPackages [pytest-xdist-worker-stats]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest_xdist_worker_stats-0.1.0.tar.gz tmp/pytest_xdist_worker_stats-0.1.1.tar.gz --markdown 20230615/p/pytest-xdist-worker-stats/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-15 11:00:26] INFO root fetch - processPackages [mlbi-at-dku-lib]: executing diffoscope
+[2023-06-15 11:00:26] INFO root fetch - processPackages [mlbi-at-dku-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlbi_at_dku_lib-0.1.6.tar.gz tmp/mlbi_at_dku_lib-0.1.7.tar.gz --markdown 20230615/m/mlbi-at-dku-lib/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-06-15 11:00:26] INFO root fetch - processPackages [lsst-ctrl-bps-htcondor]: Downloading https://files.pythonhosted.org/packages/3c/cc/c973405023d7f2d0de5436529223459d8600f71b8be3454b9262b1ac019c/lsst-ctrl-bps-htcondor-26.0.0a20230500.tar.gz
+[2023-06-15 11:00:26] INFO root fetch - processPackages [ir-datasets]: Downloading https://files.pythonhosted.org/packages/8a/fa/645c9fcc2f1f6ecae0005e8e8f1808762b559b2a4888185ebc216438a7b1/ir_datasets-0.5.5.tar.gz
+[2023-06-15 11:00:27] INFO root fetch - processPackages [ir-datasets]: executing diffoscope
+[2023-06-15 11:00:27] INFO root fetch - processPackages [ir-datasets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ir_datasets-0.5.4.tar.gz tmp/ir_datasets-0.5.5.tar.gz --markdown 20230615/i/ir-datasets/0.5.4-0.5.5/diff.md --exclude *.pyd
+[2023-06-15 11:00:27] INFO root fetch - processPackages [lsst-ctrl-bps-htcondor]: executing diffoscope
+[2023-06-15 11:00:27] INFO root fetch - processPackages [lsst-ctrl-bps-htcondor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsst-ctrl-bps-htcondor-26.0.0a20230400.tar.gz tmp/lsst-ctrl-bps-htcondor-26.0.0a20230500.tar.gz --markdown 20230615/l/lsst-ctrl-bps-htcondor/26.0.0a20230400-26.0.0a20230500/diff.md --exclude *.pyd
+[2023-06-15 11:00:27] INFO root fetch - processPackages [django-listing]: Downloading https://files.pythonhosted.org/packages/36/b5/8586923d028b409a49b3a4b40b855f09eeba833cb2bacab0ecae6f8f4200/django-listing-0.0.9.tar.gz
+[2023-06-15 11:00:27] INFO root fetch - processPackages [django-listing]: executing diffoscope
+[2023-06-15 11:00:27] INFO root fetch - processPackages [django-listing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-listing-0.0.8.tar.gz tmp/django-listing-0.0.9.tar.gz --markdown 20230615/d/django-listing/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-15 11:00:27] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2023-06-15 11:00:27] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack-core-2.1.1.dev20230614212748.tar.gz tmp/localstack-core-2.1.1.dev20230615085543.tar.gz --markdown 20230615/l/localstack-core/2.1.1.dev20230614212748-2.1.1.dev20230615085543/diff.md --exclude *.pyd
+[2023-06-15 11:00:28] INFO root fetch - processPackages [pytest-xdist-worker-stats]: Remove: archive file [/home/abi/fetcher/tmp/pytest_xdist_worker_stats-0.1.0.tar.gz]
+[2023-06-15 11:00:28] INFO root fetch - processPackages [pytest-xdist-worker-stats]: Remove: archive file [/home/abi/fetcher/tmp/pytest_xdist_worker_stats-0.1.1.tar.gz]
+[2023-06-15 11:00:28] INFO root fetch - processPackages [pytest-xdist-worker-stats]: Start processing: hotsos
+[2023-06-15 11:00:28] INFO root fetch - main [MainThread]: End processing [pytest-xdist-worker-stats]: success
+[2023-06-15 11:00:28] INFO root fetch - processPackages [hotsos]: New version: [1.1.14.post9] Old Version: [1.1.14.post8]
+[2023-06-15 11:00:28] INFO root fetch - processPackages [pytest-xdist-worker-stats]: Start processing: afex-audit-trail
+[2023-06-15 11:00:28] INFO root fetch - main [MainThread]: End processing [pytest-xdist-worker-stats]: success
+[2023-06-15 11:00:28] INFO root fetch - processPackages [hotsos]: Downloading https://files.pythonhosted.org/packages/de/2d/fdf0aaa2b1e07e6d91918c01be57d8f6a6e848e85ed670d75fe1d9b39cd5/hotsos-1.1.14.post8.tar.gz
+[2023-06-15 11:00:28] INFO root fetch - processPackages [rdfreader]: Remove: archive file [/home/abi/fetcher/tmp/rdfreader-1.0.0a2.tar.gz]
+[2023-06-15 11:00:28] INFO root fetch - processPackages [rdfreader]: Remove: archive file [/home/abi/fetcher/tmp/rdfreader-1.0.1.tar.gz]
+[2023-06-15 11:00:28] INFO root fetch - processPackages [rdfreader]: Start processing: harissumcheck
+[2023-06-15 11:00:28] INFO root fetch - main [MainThread]: End processing [rdfreader]: success
+[2023-06-15 11:00:28] INFO root fetch - processPackages [afex-audit-trail]: New version: [0.2.0] Old Version: [0.1.9]
+[2023-06-15 11:00:28] INFO root fetch - processPackages [hotsos]: Downloading https://files.pythonhosted.org/packages/da/c9/7eacdd09b8fe987d35c33395e293035c63b16ded1000aadb2bc49c6f7882/hotsos-1.1.14.post9.tar.gz
+[2023-06-15 11:00:28] INFO root fetch - processPackages [lsst-ctrl-bps-htcondor]: Remove: archive file [/home/abi/fetcher/tmp/lsst-ctrl-bps-htcondor-26.0.0a20230400.tar.gz]
+[2023-06-15 11:00:28] INFO root fetch - processPackages [lsst-ctrl-bps-htcondor]: Remove: archive file [/home/abi/fetcher/tmp/lsst-ctrl-bps-htcondor-26.0.0a20230500.tar.gz]
+[2023-06-15 11:00:28] INFO root fetch - processPackages [lsst-ctrl-bps-htcondor]: Start processing: astro-metadata-translator
+[2023-06-15 11:00:28] INFO root fetch - main [MainThread]: End processing [lsst-ctrl-bps-htcondor]: success
+[2023-06-15 11:00:28] INFO root fetch - processPackages [hotsos]: executing diffoscope
+[2023-06-15 11:00:28] INFO root fetch - processPackages [hotsos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hotsos-1.1.14.post8.tar.gz tmp/hotsos-1.1.14.post9.tar.gz --markdown 20230615/h/hotsos/1.1.14.post8-1.1.14.post9/diff.md --exclude *.pyd
+[2023-06-15 11:00:28] WARNING root fetch - processPackages [harissumcheck]: Skipping, unable to determine old version
+[2023-06-15 11:00:28] INFO root fetch - main [MainThread]: End processing [harissumcheck] error
+[2023-06-15 11:00:28] INFO root fetch - processPackages [astro-metadata-translator]: New version: [26.0.0a20230500] Old Version: [26.0.0a20230400]
+[2023-06-15 11:00:28] INFO root fetch - processPackages [afex-audit-trail]: Downloading https://files.pythonhosted.org/packages/c8/12/a1aa3c06f22d19723f2a6d655a610a7fcde2845ec3b62903ac16d2b9e3c2/afex-audit-trail-0.1.9.tar.gz
+[2023-06-15 11:00:28] INFO root fetch - processPackages [mlbi-at-dku-lib]: Remove: archive file [/home/abi/fetcher/tmp/mlbi_at_dku_lib-0.1.6.tar.gz]
+[2023-06-15 11:00:28] INFO root fetch - processPackages [mlbi-at-dku-lib]: Remove: archive file [/home/abi/fetcher/tmp/mlbi_at_dku_lib-0.1.7.tar.gz]
+[2023-06-15 11:00:28] INFO root fetch - main [MainThread]: End processing [mlbi-at-dku-lib]: success
+[2023-06-15 11:00:28] INFO root fetch - processPackages [pynocaptcha]: Remove: archive file [/home/abi/fetcher/tmp/pynocaptcha-1.5.3.tar.gz]
+[2023-06-15 11:00:28] INFO root fetch - processPackages [pynocaptcha]: Remove: archive file [/home/abi/fetcher/tmp/pynocaptcha-1.5.4.tar.gz]
+[2023-06-15 11:00:28] INFO root fetch - main [MainThread]: End processing [pynocaptcha]: success
+[2023-06-15 11:00:28] INFO root fetch - processPackages [astro-metadata-translator]: Downloading https://files.pythonhosted.org/packages/88/0f/ddf4d690ba71629b94ef331c1dcf381615f5fa0220cfb725331d64d70fe9/astro-metadata-translator-26.0.0a20230400.tar.gz
+[2023-06-15 11:00:29] INFO root fetch - processPackages [afex-audit-trail]: Downloading https://files.pythonhosted.org/packages/c6/9e/03618610517169a299f0fbafee5ed73a8073e59667f6ce885b2bf4ec3fe0/afex-audit-trail-0.2.0.tar.gz
+[2023-06-15 11:00:29] INFO root fetch - processPackages [srxraylib]: Remove: archive file [/home/abi/fetcher/tmp/srxraylib-1.0.8.tar.gz]
+[2023-06-15 11:00:29] INFO root fetch - processPackages [srxraylib]: Remove: archive file [/home/abi/fetcher/tmp/srxraylib-1.0.9.tar.gz]
+[2023-06-15 11:00:29] INFO root fetch - main [MainThread]: End processing [srxraylib]: success
+[2023-06-15 11:00:29] INFO root fetch - processPackages [afex-audit-trail]: executing diffoscope
+[2023-06-15 11:00:29] INFO root fetch - processPackages [afex-audit-trail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/afex-audit-trail-0.1.9.tar.gz tmp/afex-audit-trail-0.2.0.tar.gz --markdown 20230615/a/afex-audit-trail/0.1.9-0.2.0/diff.md --exclude *.pyd
+[2023-06-15 11:00:29] INFO root fetch - processPackages [astro-metadata-translator]: Downloading https://files.pythonhosted.org/packages/f6/a2/6962018c4d5dc18839328422a99767c526540467659fab3d4282192e3763/astro-metadata-translator-26.0.0a20230500.tar.gz
+[2023-06-15 11:00:29] INFO root fetch - processPackages [astro-metadata-translator]: executing diffoscope
+[2023-06-15 11:00:29] INFO root fetch - processPackages [astro-metadata-translator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/astro-metadata-translator-26.0.0a20230400.tar.gz tmp/astro-metadata-translator-26.0.0a20230500.tar.gz --markdown 20230615/a/astro-metadata-translator/26.0.0a20230400-26.0.0a20230500/diff.md --exclude *.pyd
+[2023-06-15 11:00:30] INFO root fetch - processPackages [afex-audit-trail]: Remove: archive file [/home/abi/fetcher/tmp/afex-audit-trail-0.1.9.tar.gz]
+[2023-06-15 11:00:30] INFO root fetch - processPackages [afex-audit-trail]: Remove: archive file [/home/abi/fetcher/tmp/afex-audit-trail-0.2.0.tar.gz]
+[2023-06-15 11:00:30] INFO root fetch - main [MainThread]: End processing [afex-audit-trail]: success
+[2023-06-15 11:00:30] INFO root fetch - processPackages [astro-metadata-translator]: Remove: archive file [/home/abi/fetcher/tmp/astro-metadata-translator-26.0.0a20230400.tar.gz]
+[2023-06-15 11:00:30] INFO root fetch - processPackages [astro-metadata-translator]: Remove: archive file [/home/abi/fetcher/tmp/astro-metadata-translator-26.0.0a20230500.tar.gz]
+[2023-06-15 11:00:30] INFO root fetch - main [MainThread]: End processing [astro-metadata-translator]: success
+[2023-06-15 11:00:31] INFO root fetch - processPackages [django-listing]: Remove: archive file [/home/abi/fetcher/tmp/django-listing-0.0.8.tar.gz]
+[2023-06-15 11:00:31] INFO root fetch - processPackages [django-listing]: Remove: archive file [/home/abi/fetcher/tmp/django-listing-0.0.9.tar.gz]
+[2023-06-15 11:00:31] INFO root fetch - main [MainThread]: End processing [django-listing]: success
+[2023-06-15 11:00:31] INFO root fetch - processPackages [hotsos]: Remove: archive file [/home/abi/fetcher/tmp/hotsos-1.1.14.post8.tar.gz]
+[2023-06-15 11:00:31] INFO root fetch - processPackages [hotsos]: Remove: archive file [/home/abi/fetcher/tmp/hotsos-1.1.14.post9.tar.gz]
+[2023-06-15 11:00:31] INFO root fetch - main [MainThread]: End processing [hotsos]: success
+[2023-06-15 11:00:32] INFO root fetch - processPackages [ir-datasets]: Remove: archive file [/home/abi/fetcher/tmp/ir_datasets-0.5.4.tar.gz]
+[2023-06-15 11:00:32] INFO root fetch - processPackages [ir-datasets]: Remove: archive file [/home/abi/fetcher/tmp/ir_datasets-0.5.5.tar.gz]
+[2023-06-15 11:00:32] INFO root fetch - main [MainThread]: End processing [ir-datasets]: success
+[2023-06-15 11:00:35] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-2.1.1.dev20230614212748.tar.gz]
+[2023-06-15 11:00:35] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-2.1.1.dev20230615085543.tar.gz]
+[2023-06-15 11:00:35] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2023-06-15 11:00:35] INFO root fetch - main [MainThread]: Store serial: [18513395]
