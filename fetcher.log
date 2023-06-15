@@ -17728,3 +17728,176 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-06-15 11:26:29] INFO root fetch - processPackages [tbp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tbp-nightly-2.9.0a20221130.tar.gz]
 [2023-06-15 11:26:29] INFO root fetch - main [MainThread]: End processing [tbp-nightly]: success
 [2023-06-15 11:26:29] INFO root fetch - main [MainThread]: Store serial: [18513999]
+[2023-06-15 11:31:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18513999]
+[2023-06-15 11:31:40] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-06-15 11:31:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: babelfont
+[2023-06-15 11:31:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: netdoc
+[2023-06-15 11:31:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: yyxx-game-pkg-dev
+[2023-06-15 11:31:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: unitlab
+[2023-06-15 11:31:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: OASYS1-XOPPY
+[2023-06-15 11:31:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: piperider
+[2023-06-15 11:31:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: numerical-py
+[2023-06-15 11:31:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bagbag
+[2023-06-15 11:31:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: python-lorem
+[2023-06-15 11:31:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: typeops
+[2023-06-15 11:31:40] INFO root fetch - processPackages [babelfont]: New version: [3.0.1] Old Version: [3.0.0a9]
+[2023-06-15 11:31:40] INFO root fetch - processPackages [yyxx-game-pkg-dev]: New version: [2023.6.9.1.dev8] Old Version: [2023.5.17.1.dev5]
+[2023-06-15 11:31:40] INFO root fetch - processPackages [python-lorem]: New version: [1.3.0rc1] Old Version: [1.3.0.post1]
+[2023-06-15 11:31:40] INFO root fetch - processPackages [netdoc]: New version: [0.9.71] Old Version: [0.9.70]
+[2023-06-15 11:31:40] INFO root fetch - processPackages [unitlab]: New version: [1.9.0] Old Version: [1.8.9]
+[2023-06-15 11:31:40] WARNING root fetch - processPackages [typeops]: Skipping, unable to determine old version
+[2023-06-15 11:31:40] INFO root fetch - processPackages [typeops]: Start processing: afex-sso
+[2023-06-15 11:31:40] INFO root fetch - main [MainThread]: End processing [typeops] error
+[2023-06-15 11:31:40] INFO root fetch - processPackages [numerical-py]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-06-15 11:31:40] INFO root fetch - processPackages [piperider]: New version: [0.9.0rc1] Old Version: [0.9.0]
+[2023-06-15 11:31:40] INFO root fetch - processPackages [OASYS1-XOPPY]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-06-15 11:31:40] INFO root fetch - processPackages [bagbag]: New version: [0.60.9] Old Version: [0.60.8]
+[2023-06-15 11:31:40] INFO root fetch - processPackages [afex-sso]: New version: [0.0.59] Old Version: [0.0.58]
+[2023-06-15 11:31:40] INFO root fetch - processPackages [netdoc]: Downloading https://files.pythonhosted.org/packages/f2/ef/1d391989d1fcf09c8c91936ac38fc2ecb4b2432ab959707ae3761c31002a/netdoc-0.9.70.tar.gz
+[2023-06-15 11:31:40] INFO root fetch - processPackages [piperider]: Downloading https://files.pythonhosted.org/packages/a4/50/e24b00f8c9eee6add2d234812268358dd31efb1c7692b89e4f2abcf53b3a/piperider-0.9.0.tar.gz
+[2023-06-15 11:31:40] INFO root fetch - processPackages [babelfont]: Downloading https://files.pythonhosted.org/packages/86/55/b27ae4da8ea0dfaed007ae4c5a9afb099b0ea4c726366793be1aec298d0a/babelfont-3.0.0a9.tar.gz
+[2023-06-15 11:31:40] INFO root fetch - processPackages [bagbag]: Downloading https://files.pythonhosted.org/packages/9c/d9/18fcc3667854a152644716d257d55e30c5845485e0c8c0086d1449f5fca5/bagbag-0.60.8.tar.gz
+[2023-06-15 11:31:40] INFO root fetch - processPackages [python-lorem]: Downloading https://files.pythonhosted.org/packages/75/d7/1856ba85f56e587240a01a317017b316d43d5d63d77295881a9173368b1e/python-lorem-1.3.0.post1.tar.gz
+[2023-06-15 11:31:40] INFO root fetch - processPackages [unitlab]: Downloading https://files.pythonhosted.org/packages/68/8c/17358e9eeb5b4bb819d4805b9b08dce16b639f6453bce69d8175d7f614e9/unitlab-1.8.9.tar.gz
+[2023-06-15 11:31:40] INFO root fetch - processPackages [babelfont]: Downloading https://files.pythonhosted.org/packages/74/a0/a5042a9daca0a9a2acc7ec8cb6239617a3a91c7fef313659a8609989dd96/babelfont-3.0.1.tar.gz
+[2023-06-15 11:31:40] INFO root fetch - processPackages [yyxx-game-pkg-dev]: Downloading https://files.pythonhosted.org/packages/40/3d/44d17492c0885d7e49755cca283f35f76f8391a42716b6365903f78d1468/yyxx_game_pkg_dev-2023.5.17.1.dev5.tar.gz
+[2023-06-15 11:31:40] INFO root fetch - processPackages [afex-sso]: Downloading https://files.pythonhosted.org/packages/22/45/6beb9befdfdbfacbadd96b210302b40c3de847c946300a5b55e0a3a17f5a/afex-sso-0.0.58.tar.gz
+[2023-06-15 11:31:40] INFO root fetch - processPackages [numerical-py]: Downloading https://files.pythonhosted.org/packages/3c/68/5947324216163d665478cadc3f786e3d9f29004018d36c96bd0b161ada4b/numerical_py-0.0.6.tar.gz
+[2023-06-15 11:31:40] INFO root fetch - processPackages [OASYS1-XOPPY]: Downloading https://files.pythonhosted.org/packages/8c/28/96a8bac07c4effd6b60e2275fc6eec4b7c2f2f5bae962d797d5dad45625b/OASYS1-XOPPY-1.2.8.tar.gz
+[2023-06-15 11:31:40] INFO root fetch - processPackages [netdoc]: Downloading https://files.pythonhosted.org/packages/c5/bc/813dccd0af76852b3fea6f6f9ba3ebc578c1efa3980ff3e4676ac88f2077/netdoc-0.9.71.tar.gz
+[2023-06-15 11:31:40] INFO root fetch - processPackages [babelfont]: executing diffoscope
+[2023-06-15 11:31:40] INFO root fetch - processPackages [babelfont]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/babelfont-3.0.0a9.tar.gz tmp/babelfont-3.0.1.tar.gz --markdown 20230615/b/babelfont/3.0.0a9-3.0.1/diff.md --exclude *.pyd
+[2023-06-15 11:31:40] INFO root fetch - processPackages [netdoc]: executing diffoscope
+[2023-06-15 11:31:40] INFO root fetch - processPackages [netdoc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netdoc-0.9.70.tar.gz tmp/netdoc-0.9.71.tar.gz --markdown 20230615/n/netdoc/0.9.70-0.9.71/diff.md --exclude *.pyd
+[2023-06-15 11:31:40] INFO root fetch - processPackages [python-lorem]: Downloading https://files.pythonhosted.org/packages/b7/d3/fa58e3aa667fdaebbdf10f0eebb49e0cf609eea1525b0f02a6d17d3e0dfc/python-lorem-1.3.0rc1.tar.gz
+[2023-06-15 11:31:41] INFO root fetch - processPackages [unitlab]: Downloading https://files.pythonhosted.org/packages/d6/e3/cebe9db29a3068d87518e5ed8f227168a16373260175efe7730ccc818bb6/unitlab-1.9.0.tar.gz
+[2023-06-15 11:31:41] INFO root fetch - processPackages [bagbag]: Downloading https://files.pythonhosted.org/packages/c5/51/7ae0a1a526da702787345e0082bd8b3269a7b0c64300d0b309a215fbe724/bagbag-0.60.9.tar.gz
+[2023-06-15 11:31:41] INFO root fetch - processPackages [numerical-py]: Downloading https://files.pythonhosted.org/packages/9a/01/39a8549c566e982a8468263a0cb23f023992821c1c4a327d37b7eeb6772c/numerical_py-0.0.7.tar.gz
+[2023-06-15 11:31:41] INFO root fetch - processPackages [unitlab]: executing diffoscope
+[2023-06-15 11:31:41] INFO root fetch - processPackages [unitlab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unitlab-1.8.9.tar.gz tmp/unitlab-1.9.0.tar.gz --markdown 20230615/u/unitlab/1.8.9-1.9.0/diff.md --exclude *.pyd
+[2023-06-15 11:31:41] INFO root fetch - processPackages [bagbag]: executing diffoscope
+[2023-06-15 11:31:41] INFO root fetch - processPackages [bagbag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bagbag-0.60.8.tar.gz tmp/bagbag-0.60.9.tar.gz --markdown 20230615/b/bagbag/0.60.8-0.60.9/diff.md --exclude *.pyd
+[2023-06-15 11:31:41] INFO root fetch - processPackages [numerical-py]: executing diffoscope
+[2023-06-15 11:31:41] INFO root fetch - processPackages [numerical-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/numerical_py-0.0.6.tar.gz tmp/numerical_py-0.0.7.tar.gz --markdown 20230615/n/numerical-py/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-06-15 11:31:41] INFO root fetch - processPackages [python-lorem]: executing diffoscope
+[2023-06-15 11:31:41] INFO root fetch - processPackages [python-lorem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-lorem-1.3.0.post1.tar.gz tmp/python-lorem-1.3.0rc1.tar.gz --markdown 20230615/p/python-lorem/1.3.0.post1-1.3.0rc1/diff.md --exclude *.pyd
+[2023-06-15 11:31:41] INFO root fetch - processPackages [afex-sso]: Downloading https://files.pythonhosted.org/packages/aa/32/397580d882f7fc4d12fc334dfd201f09849828faa0c3df816d1da3814de1/afex-sso-0.0.59.tar.gz
+[2023-06-15 11:31:41] INFO root fetch - processPackages [OASYS1-XOPPY]: Downloading https://files.pythonhosted.org/packages/2e/2c/5baa7bd94753c8a19828244a15d4a938d58a6896362202f16076bedbbdf3/OASYS1-XOPPY-1.2.9.tar.gz
+[2023-06-15 11:31:41] INFO root fetch - processPackages [afex-sso]: executing diffoscope
+[2023-06-15 11:31:41] INFO root fetch - processPackages [afex-sso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/afex-sso-0.0.58.tar.gz tmp/afex-sso-0.0.59.tar.gz --markdown 20230615/a/afex-sso/0.0.58-0.0.59/diff.md --exclude *.pyd
+[2023-06-15 11:31:41] INFO root fetch - processPackages [OASYS1-XOPPY]: executing diffoscope
+[2023-06-15 11:31:41] INFO root fetch - processPackages [OASYS1-XOPPY]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OASYS1-XOPPY-1.2.8.tar.gz tmp/OASYS1-XOPPY-1.2.9.tar.gz --markdown 20230615/O/OASYS1-XOPPY/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-06-15 11:31:41] INFO root fetch - processPackages [yyxx-game-pkg-dev]: Downloading https://files.pythonhosted.org/packages/45/ee/1a373a27583f07ade419690f49aa7c0cf5e912ac98d6e76d61c84500b51f/yyxx_game_pkg_dev-2023.6.9.1.dev8.tar.gz
+[2023-06-15 11:31:41] INFO root fetch - processPackages [piperider]: Downloading https://files.pythonhosted.org/packages/7a/f9/9cc8461c7b00069da016c58db04f6c975e2adf28d9cbd443a882dd7396de/piperider-0.9.0rc1.tar.gz
+[2023-06-15 11:31:42] INFO root fetch - processPackages [piperider]: executing diffoscope
+[2023-06-15 11:31:42] INFO root fetch - processPackages [piperider]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/piperider-0.9.0.tar.gz tmp/piperider-0.9.0rc1.tar.gz --markdown 20230615/p/piperider/0.9.0-0.9.0rc1/diff.md --exclude *.pyd
+[2023-06-15 11:31:42] INFO root fetch - processPackages [yyxx-game-pkg-dev]: executing diffoscope
+[2023-06-15 11:31:42] INFO root fetch - processPackages [yyxx-game-pkg-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yyxx_game_pkg_dev-2023.5.17.1.dev5.tar.gz tmp/yyxx_game_pkg_dev-2023.6.9.1.dev8.tar.gz --markdown 20230615/y/yyxx-game-pkg-dev/2023.5.17.1.dev5-2023.6.9.1.dev8/diff.md --exclude *.pyd
+[2023-06-15 11:31:42] INFO root fetch - processPackages [unitlab]: Remove: archive file [/home/abi/fetcher/tmp/unitlab-1.8.9.tar.gz]
+[2023-06-15 11:31:42] INFO root fetch - processPackages [unitlab]: Remove: archive file [/home/abi/fetcher/tmp/unitlab-1.9.0.tar.gz]
+[2023-06-15 11:31:42] INFO root fetch - processPackages [unitlab]: Start processing: talkytrend
+[2023-06-15 11:31:42] INFO root fetch - main [MainThread]: End processing [unitlab]: success
+[2023-06-15 11:31:43] INFO root fetch - processPackages [numerical-py]: Remove: archive file [/home/abi/fetcher/tmp/numerical_py-0.0.6.tar.gz]
+[2023-06-15 11:31:43] INFO root fetch - processPackages [numerical-py]: Remove: archive file [/home/abi/fetcher/tmp/numerical_py-0.0.7.tar.gz]
+[2023-06-15 11:31:43] INFO root fetch - processPackages [numerical-py]: Start processing: tf-nightly-cpu-aws
+[2023-06-15 11:31:43] INFO root fetch - main [MainThread]: End processing [numerical-py]: success
+[2023-06-15 11:31:43] INFO root fetch - processPackages [talkytrend]: New version: [1.3.0] Old Version: [1.2.1]
+[2023-06-15 11:31:43] INFO root fetch - processPackages [tf-nightly-cpu-aws]: New version: [2.14.0.dev20230614] Old Version: [2.14.0.dev20230605]
+[2023-06-15 11:31:43] INFO root fetch - processPackages [talkytrend]: Downloading https://files.pythonhosted.org/packages/9a/1d/58ccc8114a53dc11209ab6c7dcd7214918e2970359bb2e65d4debd8b29fc/talkytrend-1.2.1.tar.gz
+[2023-06-15 11:31:43] INFO root fetch - processPackages [afex-sso]: Remove: archive file [/home/abi/fetcher/tmp/afex-sso-0.0.58.tar.gz]
+[2023-06-15 11:31:43] INFO root fetch - processPackages [afex-sso]: Remove: archive file [/home/abi/fetcher/tmp/afex-sso-0.0.59.tar.gz]
+[2023-06-15 11:31:43] INFO root fetch - processPackages [afex-sso]: Start processing: refuel-autolabel
+[2023-06-15 11:31:43] INFO root fetch - main [MainThread]: End processing [afex-sso]: success
+[2023-06-15 11:31:43] INFO root fetch - processPackages [refuel-autolabel]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-15 11:31:43] INFO root fetch - processPackages [python-lorem]: Remove: archive file [/home/abi/fetcher/tmp/python-lorem-1.3.0.post1.tar.gz]
+[2023-06-15 11:31:43] INFO root fetch - processPackages [python-lorem]: Remove: archive file [/home/abi/fetcher/tmp/python-lorem-1.3.0rc1.tar.gz]
+[2023-06-15 11:31:43] INFO root fetch - processPackages [python-lorem]: Start processing: rquge
+[2023-06-15 11:31:43] INFO root fetch - main [MainThread]: End processing [python-lorem]: success
+[2023-06-15 11:31:43] INFO root fetch - processPackages [tf-nightly-cpu-aws]: Downloading https://files.pythonhosted.org/packages/3e/c6/bb6dcc641f8a1eedad3765c1d74d0a3344cdb59c3459a01e5f33362dfd15/tf_nightly_cpu_aws-2.14.0.dev20230605-cp39-cp39-manylinux_2_17_aarch64.manylinux2014_aarch64.whl
+[2023-06-15 11:31:43] INFO root fetch - processPackages [rquge]: New version: [0.2] Old Version: [0.1]
+[2023-06-15 11:31:43] INFO root fetch - processPackages [talkytrend]: Downloading https://files.pythonhosted.org/packages/64/28/6794acf3d5a48a9b4b1539bd0c034bd03b26ec9736e7b3eda271f3475c57/talkytrend-1.3.0.tar.gz
+[2023-06-15 11:31:43] WARNING root fetch - processPackages [tf-nightly-cpu-aws]: Skipping package: exceeds size limit 258859055>=10485760
+[2023-06-15 11:31:43] INFO root fetch - processPackages [tf-nightly-cpu-aws]: Start processing: spider-st
+[2023-06-15 11:31:43] INFO root fetch - main [MainThread]: End processing [tf-nightly-cpu-aws] error
+[2023-06-15 11:31:43] INFO root fetch - processPackages [talkytrend]: executing diffoscope
+[2023-06-15 11:31:43] INFO root fetch - processPackages [talkytrend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/talkytrend-1.2.1.tar.gz tmp/talkytrend-1.3.0.tar.gz --markdown 20230615/t/talkytrend/1.2.1-1.3.0/diff.md --exclude *.pyd
+[2023-06-15 11:31:43] INFO root fetch - processPackages [refuel-autolabel]: Downloading https://files.pythonhosted.org/packages/12/ce/f884bc80d4639e5a0c4570abc88b1fe0815e2d4b9b2f1c25c33f5e32bfae/refuel-autolabel-0.0.1.tar.gz
+[2023-06-15 11:31:43] INFO root fetch - processPackages [spider-st]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-15 11:31:43] INFO root fetch - processPackages [rquge]: Downloading https://files.pythonhosted.org/packages/4d/93/b0e8a0108085edea1faa13ac395e04a230c3a3041522f58877394300ab9b/rquge-0.1.tar.gz
+[2023-06-15 11:31:43] INFO root fetch - processPackages [spider-st]: Downloading https://files.pythonhosted.org/packages/27/f0/797c715930041af8dcdb6be6e3b61bac6e084f6335e8e1bb34a7163c65d9/spider-st-0.1.8.tar.gz
+[2023-06-15 11:31:43] INFO root fetch - processPackages [refuel-autolabel]: Downloading https://files.pythonhosted.org/packages/fe/87/ad2a5bf6301cca6a804ca4ebf236f6a6b5158f0f02d81f860cc2da914301/refuel-autolabel-0.0.2.tar.gz
+[2023-06-15 11:31:43] INFO root fetch - processPackages [rquge]: Downloading https://files.pythonhosted.org/packages/1a/2b/3f5710ef5c6c7f2fa8ca614e3556b5463b6c7168109d3465cc87a0081015/rquge-0.2-py3-none-any.whl
+[2023-06-15 11:31:43] INFO root fetch - processPackages [babelfont]: Remove: archive file [/home/abi/fetcher/tmp/babelfont-3.0.0a9.tar.gz]
+[2023-06-15 11:31:43] INFO root fetch - processPackages [babelfont]: Remove: archive file [/home/abi/fetcher/tmp/babelfont-3.0.1.tar.gz]
+[2023-06-15 11:31:43] INFO root fetch - processPackages [babelfont]: Start processing: TeamsGraphApi
+[2023-06-15 11:31:43] INFO root fetch - main [MainThread]: End processing [babelfont]: success
+[2023-06-15 11:31:43] INFO root fetch - processPackages [TeamsGraphApi]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-15 11:31:43] INFO root fetch - processPackages [refuel-autolabel]: executing diffoscope
+[2023-06-15 11:31:43] INFO root fetch - processPackages [refuel-autolabel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/refuel-autolabel-0.0.1.tar.gz tmp/refuel-autolabel-0.0.2.tar.gz --markdown 20230615/r/refuel-autolabel/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-15 11:31:43] INFO root fetch - processPackages [rquge]: executing diffoscope
+[2023-06-15 11:31:43] INFO root fetch - processPackages [spider-st]: Downloading https://files.pythonhosted.org/packages/cd/c9/655add848a603be8b1146a92ed2829a4fa4b2f18fbe6bc408dd130d11b22/spider-st-0.1.9.tar.gz
+[2023-06-15 11:31:43] INFO root fetch - processPackages [rquge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rquge-0.1.tar.gz tmp/rquge-0.2-py3-none-any.whl.zip --markdown 20230615/r/rquge/0.1-0.2/diff.md --exclude *.pyd
+[2023-06-15 11:31:43] INFO root fetch - processPackages [spider-st]: executing diffoscope
+[2023-06-15 11:31:43] INFO root fetch - processPackages [spider-st]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spider-st-0.1.8.tar.gz tmp/spider-st-0.1.9.tar.gz --markdown 20230615/s/spider-st/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-15 11:31:43] INFO root fetch - processPackages [TeamsGraphApi]: Downloading https://files.pythonhosted.org/packages/e7/a8/4025016c4c1226b36859fd4e15c6237050707d7b2bbd492a332453585cee/teamsgraphapi-0.0.3.tar.gz
+[2023-06-15 11:31:44] INFO root fetch - processPackages [TeamsGraphApi]: Downloading https://files.pythonhosted.org/packages/2d/aa/3f75893f28c1bcdb52cfc344b34151be9a93d8f5061f53e14916224fd6d8/teamsgraphapi-0.0.4.tar.gz
+[2023-06-15 11:31:44] INFO root fetch - processPackages [TeamsGraphApi]: executing diffoscope
+[2023-06-15 11:31:44] INFO root fetch - processPackages [TeamsGraphApi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/teamsgraphapi-0.0.3.tar.gz tmp/teamsgraphapi-0.0.4.tar.gz --markdown 20230615/T/TeamsGraphApi/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-15 11:31:45] INFO root fetch - processPackages [talkytrend]: Remove: archive file [/home/abi/fetcher/tmp/talkytrend-1.2.1.tar.gz]
+[2023-06-15 11:31:45] INFO root fetch - processPackages [talkytrend]: Remove: archive file [/home/abi/fetcher/tmp/talkytrend-1.3.0.tar.gz]
+[2023-06-15 11:31:45] INFO root fetch - processPackages [talkytrend]: Start processing: numerical-py
+[2023-06-15 11:31:45] INFO root fetch - main [MainThread]: End processing [talkytrend]: success
+[2023-06-15 11:31:45] INFO root fetch - processPackages [numerical-py]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-06-15 11:31:45] INFO root fetch - processPackages [numerical-py]: Downloading https://files.pythonhosted.org/packages/3c/68/5947324216163d665478cadc3f786e3d9f29004018d36c96bd0b161ada4b/numerical_py-0.0.6.tar.gz
+[2023-06-15 11:31:45] INFO root fetch - processPackages [bagbag]: Remove: archive file [/home/abi/fetcher/tmp/bagbag-0.60.8.tar.gz]
+[2023-06-15 11:31:45] INFO root fetch - processPackages [bagbag]: Remove: archive file [/home/abi/fetcher/tmp/bagbag-0.60.9.tar.gz]
+[2023-06-15 11:31:45] INFO root fetch - processPackages [bagbag]: Start processing: timeseriesflattener
+[2023-06-15 11:31:45] INFO root fetch - main [MainThread]: End processing [bagbag]: success
+[2023-06-15 11:31:45] INFO root fetch - processPackages [numerical-py]: Downloading https://files.pythonhosted.org/packages/9a/01/39a8549c566e982a8468263a0cb23f023992821c1c4a327d37b7eeb6772c/numerical_py-0.0.7.tar.gz
+[2023-06-15 11:31:45] INFO root fetch - processPackages [rquge]: Remove: archive file [/home/abi/fetcher/tmp/rquge-0.1.tar.gz]
+[2023-06-15 11:31:45] INFO root fetch - processPackages [rquge]: Remove: archive file [/home/abi/fetcher/tmp/rquge-0.2-py3-none-any.whl.zip]
+[2023-06-15 11:31:45] INFO root fetch - processPackages [rquge]: Start processing: langchain-decorators
+[2023-06-15 11:31:45] INFO root fetch - main [MainThread]: End processing [rquge]: success
+[2023-06-15 11:31:45] INFO root fetch - processPackages [numerical-py]: executing diffoscope
+[2023-06-15 11:31:45] INFO root fetch - processPackages [numerical-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/numerical_py-0.0.6.tar.gz tmp/numerical_py-0.0.7.tar.gz --markdown 20230615/n/numerical-py/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-06-15 11:31:45] INFO root fetch - processPackages [timeseriesflattener]: New version: [1.0.0] Old Version: [0.27.0]
+[2023-06-15 11:31:45] INFO root fetch - processPackages [langchain-decorators]: New version: [0.0.6] Old Version: [0.0.4]
+[2023-06-15 11:31:45] INFO root fetch - processPackages [timeseriesflattener]: Downloading https://files.pythonhosted.org/packages/f2/f4/d06d2e7a660cd7eaa3947e72ecc0490a686779ba053ac1eb93adb175b2bd/timeseriesflattener-0.27.0.tar.gz
+[2023-06-15 11:31:45] INFO root fetch - processPackages [TeamsGraphApi]: Remove: archive file [/home/abi/fetcher/tmp/teamsgraphapi-0.0.3.tar.gz]
+[2023-06-15 11:31:45] INFO root fetch - processPackages [TeamsGraphApi]: Remove: archive file [/home/abi/fetcher/tmp/teamsgraphapi-0.0.4.tar.gz]
+[2023-06-15 11:31:45] INFO root fetch - main [MainThread]: End processing [TeamsGraphApi]: success
+[2023-06-15 11:31:45] INFO root fetch - processPackages [langchain-decorators]: Downloading https://files.pythonhosted.org/packages/5a/93/61750f82d9a813cc3b153aae9ad821fb5a7cea80c650bb2b2dbf58354d7a/langchain-decorators-0.0.4.tar.gz
+[2023-06-15 11:31:46] INFO root fetch - processPackages [langchain-decorators]: Downloading https://files.pythonhosted.org/packages/ed/70/af82e4d7f849b31cb365c991e1f4d3baf3eccdb0022627612139210ac885/langchain-decorators-0.0.6.tar.gz
+[2023-06-15 11:31:46] INFO root fetch - processPackages [refuel-autolabel]: Remove: archive file [/home/abi/fetcher/tmp/refuel-autolabel-0.0.1.tar.gz]
+[2023-06-15 11:31:46] INFO root fetch - processPackages [refuel-autolabel]: Remove: archive file [/home/abi/fetcher/tmp/refuel-autolabel-0.0.2.tar.gz]
+[2023-06-15 11:31:46] INFO root fetch - main [MainThread]: End processing [refuel-autolabel]: success
+[2023-06-15 11:31:46] INFO root fetch - processPackages [langchain-decorators]: executing diffoscope
+[2023-06-15 11:31:46] INFO root fetch - processPackages [langchain-decorators]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain-decorators-0.0.4.tar.gz tmp/langchain-decorators-0.0.6.tar.gz --markdown 20230615/l/langchain-decorators/0.0.4-0.0.6/diff.md --exclude *.pyd
+[2023-06-15 11:31:46] INFO root fetch - processPackages [netdoc]: Remove: archive file [/home/abi/fetcher/tmp/netdoc-0.9.70.tar.gz]
+[2023-06-15 11:31:46] INFO root fetch - processPackages [netdoc]: Remove: archive file [/home/abi/fetcher/tmp/netdoc-0.9.71.tar.gz]
+[2023-06-15 11:31:46] INFO root fetch - main [MainThread]: End processing [netdoc]: success
+[2023-06-15 11:31:46] INFO root fetch - processPackages [timeseriesflattener]: Downloading https://files.pythonhosted.org/packages/26/36/1e1cc1f1eae740e7017dd3fe8ec6f3c7ffb9bd37cf0670c3af2c47223abc/timeseriesflattener-1.0.0.tar.gz
+[2023-06-15 11:31:46] INFO root fetch - processPackages [numerical-py]: Remove: archive file [/home/abi/fetcher/tmp/numerical_py-0.0.6.tar.gz]
+[2023-06-15 11:31:46] INFO root fetch - processPackages [numerical-py]: Remove: archive file [/home/abi/fetcher/tmp/numerical_py-0.0.7.tar.gz]
+[2023-06-15 11:31:46] INFO root fetch - main [MainThread]: End processing [numerical-py]: success
+[2023-06-15 11:31:47] INFO root fetch - processPackages [OASYS1-XOPPY]: Remove: archive file [/home/abi/fetcher/tmp/OASYS1-XOPPY-1.2.8.tar.gz]
+[2023-06-15 11:31:47] INFO root fetch - processPackages [OASYS1-XOPPY]: Remove: archive file [/home/abi/fetcher/tmp/OASYS1-XOPPY-1.2.9.tar.gz]
+[2023-06-15 11:31:47] INFO root fetch - main [MainThread]: End processing [OASYS1-XOPPY]: success
+[2023-06-15 11:31:47] INFO root fetch - processPackages [langchain-decorators]: Remove: archive file [/home/abi/fetcher/tmp/langchain-decorators-0.0.4.tar.gz]
+[2023-06-15 11:31:47] INFO root fetch - processPackages [langchain-decorators]: Remove: archive file [/home/abi/fetcher/tmp/langchain-decorators-0.0.6.tar.gz]
+[2023-06-15 11:31:47] INFO root fetch - main [MainThread]: End processing [langchain-decorators]: success
+[2023-06-15 11:31:47] INFO root fetch - processPackages [timeseriesflattener]: executing diffoscope
+[2023-06-15 11:31:47] INFO root fetch - processPackages [timeseriesflattener]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/timeseriesflattener-0.27.0.tar.gz tmp/timeseriesflattener-1.0.0.tar.gz --markdown 20230615/t/timeseriesflattener/0.27.0-1.0.0/diff.md --exclude *.pyd
+[2023-06-15 11:31:49] INFO root fetch - processPackages [yyxx-game-pkg-dev]: Remove: archive file [/home/abi/fetcher/tmp/yyxx_game_pkg_dev-2023.5.17.1.dev5.tar.gz]
+[2023-06-15 11:31:49] INFO root fetch - processPackages [yyxx-game-pkg-dev]: Remove: archive file [/home/abi/fetcher/tmp/yyxx_game_pkg_dev-2023.6.9.1.dev8.tar.gz]
+[2023-06-15 11:31:49] INFO root fetch - main [MainThread]: End processing [yyxx-game-pkg-dev]: success
+[2023-06-15 11:31:50] INFO root fetch - processPackages [piperider]: Remove: archive file [/home/abi/fetcher/tmp/piperider-0.9.0.tar.gz]
+[2023-06-15 11:31:50] INFO root fetch - processPackages [piperider]: Remove: archive file [/home/abi/fetcher/tmp/piperider-0.9.0rc1.tar.gz]
+[2023-06-15 11:31:50] INFO root fetch - main [MainThread]: End processing [piperider]: success
+[2023-06-15 11:31:53] INFO root fetch - processPackages [timeseriesflattener]: Remove: archive file [/home/abi/fetcher/tmp/timeseriesflattener-0.27.0.tar.gz]
+[2023-06-15 11:31:53] INFO root fetch - processPackages [timeseriesflattener]: Remove: archive file [/home/abi/fetcher/tmp/timeseriesflattener-1.0.0.tar.gz]
+[2023-06-15 11:31:53] INFO root fetch - main [MainThread]: End processing [timeseriesflattener]: success
+[2023-06-15 11:31:59] INFO root fetch - processPackages [spider-st]: Remove: archive file [/home/abi/fetcher/tmp/spider-st-0.1.8.tar.gz]
+[2023-06-15 11:31:59] INFO root fetch - processPackages [spider-st]: Remove: archive file [/home/abi/fetcher/tmp/spider-st-0.1.9.tar.gz]
+[2023-06-15 11:31:59] INFO root fetch - main [MainThread]: End processing [spider-st]: success
+[2023-06-15 11:31:59] INFO root fetch - main [MainThread]: Store serial: [18514070]
