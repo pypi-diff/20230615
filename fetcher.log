@@ -9797,3 +9797,69 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-15 06:33:38] INFO root fetch - processPackages [typedpy]: Remove: archive file [/home/abi/fetcher/tmp/typedpy-2.9.0.tar.gz]
 [2023-06-15 06:33:38] INFO root fetch - main [MainThread]: End processing [typedpy]: success
 [2023-06-15 06:33:38] INFO root fetch - main [MainThread]: Store serial: [18511082]
+[2023-06-15 06:38:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18511082]
+[2023-06-15 06:38:48] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-15 06:38:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: alpaca-farm
+[2023-06-15 06:38:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: matgl
+[2023-06-15 06:38:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aifunc
+[2023-06-15 06:38:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aifunc
+[2023-06-15 06:38:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ghostpip
+[2023-06-15 06:38:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lols0
+[2023-06-15 06:38:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tf-nightly-macos
+[2023-06-15 06:38:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: emailalert
+[2023-06-15 06:38:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: vector-quantize-pytorch
+[2023-06-15 06:38:48] INFO root fetch - processPackages [aifunc]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-06-15 06:38:48] INFO root fetch - processPackages [matgl]: New version: [0.5.6] Old Version: [0.5.5]
+[2023-06-15 06:38:48] WARNING root fetch - processPackages [lols0]: Skipping, unable to determine old version
+[2023-06-15 06:38:48] INFO root fetch - main [MainThread]: End processing [lols0] error
+[2023-06-15 06:38:48] WARNING root fetch - processPackages [emailalert]: Skipping, unable to determine old version
+[2023-06-15 06:38:48] INFO root fetch - main [MainThread]: End processing [emailalert] error
+[2023-06-15 06:38:48] INFO root fetch - processPackages [ghostpip]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-06-15 06:38:48] INFO root fetch - processPackages [vector-quantize-pytorch]: New version: [1.6.9] Old Version: [1.6.7]
+[2023-06-15 06:38:48] INFO root fetch - processPackages [alpaca-farm]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-06-15 06:38:48] INFO root fetch - processPackages [aifunc]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-06-15 06:38:48] INFO root fetch - processPackages [ghostpip]: Downloading https://files.pythonhosted.org/packages/95/5e/1257fb900a83f9e6f27ba0dc5783e77aa0ed6f43053b3a9e8c4e091545e4/ghostpip-1.0.1.tar.gz
+[2023-06-15 06:38:48] INFO root fetch - processPackages [vector-quantize-pytorch]: Downloading https://files.pythonhosted.org/packages/f9/64/771c9abd337a81ba6dfe0e6a0132b5a43e24b2640538385a01dc17b972f5/vector_quantize_pytorch-1.6.7.tar.gz
+[2023-06-15 06:38:48] INFO root fetch - processPackages [tf-nightly-macos]: New version: [2.14.0.dev20230614] Old Version: [2.14.0.dev20230613]
+[2023-06-15 06:38:48] INFO root fetch - processPackages [aifunc]: Downloading https://files.pythonhosted.org/packages/2e/38/d88e2659d9cf3367d4d14e053513788a77a5abc5ad91255ac0d3f0254c74/aifunc-0.4.1.tar.gz
+[2023-06-15 06:38:48] INFO root fetch - processPackages [aifunc]: Downloading https://files.pythonhosted.org/packages/2e/38/d88e2659d9cf3367d4d14e053513788a77a5abc5ad91255ac0d3f0254c74/aifunc-0.4.1.tar.gz
+[2023-06-15 06:38:48] INFO root fetch - processPackages [alpaca-farm]: Downloading https://files.pythonhosted.org/packages/62/ce/d0bb583f0571f4341bad332576eca963db7190c672bda04d464bde756645/alpaca_farm-0.1.4.tar.gz
+[2023-06-15 06:38:48] INFO root fetch - processPackages [matgl]: Downloading https://files.pythonhosted.org/packages/5f/0a/0e3cca4f1bd869b167f309dcd95c2b62e17df1b00a7488294079d433b2c7/matgl-0.5.5.tar.gz
+[2023-06-15 06:38:48] INFO root fetch - processPackages [vector-quantize-pytorch]: Downloading https://files.pythonhosted.org/packages/59/2f/a0f5b7e39fdec57501b5b479d9b4fac9c2c81adc65b2ed6f30dd4dbfd3ab/vector_quantize_pytorch-1.6.9.tar.gz
+[2023-06-15 06:38:48] INFO root fetch - processPackages [tf-nightly-macos]: Downloading https://files.pythonhosted.org/packages/20/9d/adbc392f620b0c5243373c273a7c4e9ade106dcf2f684152b39a3f71bb58/tf_nightly_macos-2.14.0.dev20230613-cp39-cp39-macosx_12_0_arm64.whl
+[2023-06-15 06:38:48] INFO root fetch - processPackages [vector-quantize-pytorch]: executing diffoscope
+[2023-06-15 06:38:48] INFO root fetch - processPackages [vector-quantize-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vector_quantize_pytorch-1.6.7.tar.gz tmp/vector_quantize_pytorch-1.6.9.tar.gz --markdown 20230615/v/vector-quantize-pytorch/1.6.7-1.6.9/diff.md --exclude *.pyd
+[2023-06-15 06:38:48] WARNING root fetch - processPackages [tf-nightly-macos]: Skipping package: exceeds size limit 198958759>=10485760
+[2023-06-15 06:38:48] INFO root fetch - main [MainThread]: End processing [tf-nightly-macos] error
+[2023-06-15 06:38:49] INFO root fetch - processPackages [ghostpip]: Downloading https://files.pythonhosted.org/packages/f6/47/1990a28a1e69387f8b5fe8a0009434d2b68652cd14944eede9b64fde06a5/ghostpip-1.0.2.tar.gz
+[2023-06-15 06:38:49] INFO root fetch - processPackages [ghostpip]: executing diffoscope
+[2023-06-15 06:38:49] INFO root fetch - processPackages [ghostpip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ghostpip-1.0.1.tar.gz tmp/ghostpip-1.0.2.tar.gz --markdown 20230615/g/ghostpip/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-06-15 06:38:49] INFO root fetch - processPackages [aifunc]: Downloading https://files.pythonhosted.org/packages/a6/19/14ca2e385f23a023faf1c01e75c9bf372b6d9c4bbfe9f898b0a98b11258f/aifunc-0.4.2.tar.gz
+[2023-06-15 06:38:49] INFO root fetch - processPackages [alpaca-farm]: Downloading https://files.pythonhosted.org/packages/11/f0/ede086a6c4e75acde59a5e1d6f014295fddec0eff6e90b90e5f38270f6a7/alpaca_farm-0.1.5.tar.gz
+[2023-06-15 06:38:49] INFO root fetch - processPackages [aifunc]: Downloading https://files.pythonhosted.org/packages/a6/19/14ca2e385f23a023faf1c01e75c9bf372b6d9c4bbfe9f898b0a98b11258f/aifunc-0.4.2.tar.gz
+[2023-06-15 06:38:49] INFO root fetch - processPackages [matgl]: Downloading https://files.pythonhosted.org/packages/dc/ce/9987d3bb02bb9d667e73d9efc67ddf7a936a7c0e92973a8ca40fae138a0a/matgl-0.5.6.tar.gz
+[2023-06-15 06:38:49] INFO root fetch - processPackages [alpaca-farm]: executing diffoscope
+[2023-06-15 06:38:49] INFO root fetch - processPackages [alpaca-farm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alpaca_farm-0.1.4.tar.gz tmp/alpaca_farm-0.1.5.tar.gz --markdown 20230615/a/alpaca-farm/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-06-15 06:38:49] INFO root fetch - processPackages [matgl]: executing diffoscope
+[2023-06-15 06:38:49] INFO root fetch - processPackages [matgl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/matgl-0.5.5.tar.gz tmp/matgl-0.5.6.tar.gz --markdown 20230615/m/matgl/0.5.5-0.5.6/diff.md --exclude *.pyd
+[2023-06-15 06:38:49] INFO root fetch - processPackages [aifunc]: executing diffoscope
+[2023-06-15 06:38:49] INFO root fetch - processPackages [aifunc]: executing diffoscope
+[2023-06-15 06:38:49] INFO root fetch - processPackages [aifunc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aifunc-0.4.1.tar.gz tmp/aifunc-0.4.2.tar.gz --markdown 20230615/a/aifunc/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-06-15 06:38:49] INFO root fetch - processPackages [aifunc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aifunc-0.4.1.tar.gz tmp/aifunc-0.4.2.tar.gz --markdown 20230615/a/aifunc/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-06-15 06:38:50] INFO root fetch - processPackages [vector-quantize-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/vector_quantize_pytorch-1.6.7.tar.gz]
+[2023-06-15 06:38:50] INFO root fetch - processPackages [vector-quantize-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/vector_quantize_pytorch-1.6.9.tar.gz]
+[2023-06-15 06:38:50] INFO root fetch - main [MainThread]: End processing [vector-quantize-pytorch]: success
+[2023-06-15 06:38:50] INFO root fetch - processPackages [ghostpip]: Remove: archive file [/home/abi/fetcher/tmp/ghostpip-1.0.1.tar.gz]
+[2023-06-15 06:38:50] INFO root fetch - processPackages [ghostpip]: Remove: archive file [/home/abi/fetcher/tmp/ghostpip-1.0.2.tar.gz]
+[2023-06-15 06:38:50] INFO root fetch - main [MainThread]: End processing [ghostpip]: success
+[2023-06-15 06:38:50] INFO root fetch - processPackages [aifunc]: Remove: archive file [/home/abi/fetcher/tmp/aifunc-0.4.1.tar.gz]
+[2023-06-15 06:38:50] INFO root fetch - processPackages [aifunc]: Remove: archive file [/home/abi/fetcher/tmp/aifunc-0.4.2.tar.gz]
+[2023-06-15 06:38:50] INFO root fetch - main [MainThread]: End processing [aifunc]: success
+[2023-06-15 06:38:50] INFO root fetch - main [MainThread]: End processing [aifunc]: success
+[2023-06-15 06:38:50] INFO root fetch - processPackages [alpaca-farm]: Remove: archive file [/home/abi/fetcher/tmp/alpaca_farm-0.1.4.tar.gz]
+[2023-06-15 06:38:50] INFO root fetch - processPackages [alpaca-farm]: Remove: archive file [/home/abi/fetcher/tmp/alpaca_farm-0.1.5.tar.gz]
+[2023-06-15 06:38:50] INFO root fetch - main [MainThread]: End processing [alpaca-farm]: success
+[2023-06-15 06:38:51] INFO root fetch - processPackages [matgl]: Remove: archive file [/home/abi/fetcher/tmp/matgl-0.5.5.tar.gz]
+[2023-06-15 06:38:51] INFO root fetch - processPackages [matgl]: Remove: archive file [/home/abi/fetcher/tmp/matgl-0.5.6.tar.gz]
+[2023-06-15 06:38:51] INFO root fetch - main [MainThread]: End processing [matgl]: success
+[2023-06-15 06:38:51] INFO root fetch - main [MainThread]: Store serial: [18511111]
