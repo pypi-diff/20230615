@@ -19063,3 +19063,129 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-06-15 12:32:02] INFO root fetch - processPackages [a2]: Remove: archive file [/home/abi/fetcher/tmp/a2-0.4.0.tar.gz]
 [2023-06-15 12:32:02] INFO root fetch - main [MainThread]: End processing [a2]: success
 [2023-06-15 12:32:02] INFO root fetch - main [MainThread]: Store serial: [18514634]
+[2023-06-15 12:37:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18514634]
+[2023-06-15 12:37:13] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-06-15 12:37:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fastmodels
+[2023-06-15 12:37:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: idtrackerai
+[2023-06-15 12:37:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: systemd
+[2023-06-15 12:37:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pdf-language-detector
+[2023-06-15 12:37:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pydatawork
+[2023-06-15 12:37:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kafe2
+[2023-06-15 12:37:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: unitlab
+[2023-06-15 12:37:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ms-salesforce-api
+[2023-06-15 12:37:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: capellambse
+[2023-06-15 12:37:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: emmanuel-lotr-sdk
+[2023-06-15 12:37:13] INFO root fetch - processPackages [pydatawork]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-15 12:37:13] INFO root fetch - processPackages [pdf-language-detector]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-15 12:37:13] WARNING root fetch - processPackages [emmanuel-lotr-sdk]: Skipping, unable to determine old version
+[2023-06-15 12:37:13] INFO root fetch - processPackages [unitlab]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-06-15 12:37:13] INFO root fetch - processPackages [emmanuel-lotr-sdk]: Start processing: oblv-ctl
+[2023-06-15 12:37:13] INFO root fetch - main [MainThread]: End processing [emmanuel-lotr-sdk] error
+[2023-06-15 12:37:13] INFO root fetch - processPackages [fastmodels]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-06-15 12:37:13] INFO root fetch - processPackages [systemd]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-15 12:37:13] INFO root fetch - processPackages [kafe2]: New version: [2.8.0rc1] Old Version: [2.8.0]
+[2023-06-15 12:37:13] INFO root fetch - processPackages [idtrackerai]: New version: [5.1.5] Old Version: [5.1.4]
+[2023-06-15 12:37:13] INFO root fetch - processPackages [capellambse]: New version: [0.5.9.dev5] Old Version: [0.5.9]
+[2023-06-15 12:37:13] INFO root fetch - processPackages [ms-salesforce-api]: New version: [1.1.0] Old Version: [1.0.1]
+[2023-06-15 12:37:13] INFO root fetch - processPackages [oblv-ctl]: New version: [0.4.1] Old Version: [0.3.1]
+[2023-06-15 12:37:13] INFO root fetch - processPackages [systemd]: Downloading https://files.pythonhosted.org/packages/b7/a6/6f8c3e16cbbe261fe56e57500992c980a48e94e133a0813465a39f74a1e6/systemd-0.9.8.tar.gz
+[2023-06-15 12:37:13] INFO root fetch - processPackages [capellambse]: Downloading https://files.pythonhosted.org/packages/0a/bb/e7974d92c6a3d93dbf30730a6d9302f37f52093b4985246d97e22939147d/capellambse-0.5.9.tar.gz
+[2023-06-15 12:37:13] INFO root fetch - processPackages [ms-salesforce-api]: Downloading https://files.pythonhosted.org/packages/9f/ac/7ad7a525103a0239d6fde3dc3cc2bfd57d165a2e8d7bc315b48189688206/ms_salesforce_api-1.0.1.tar.gz
+[2023-06-15 12:37:13] INFO root fetch - processPackages [pdf-language-detector]: Downloading https://files.pythonhosted.org/packages/66/dc/921180ac786936e24f2efb5be5b6ba09b7f5aebb7bde0bb663b533c3f649/pdf_language_detector-0.0.2.tar.gz
+[2023-06-15 12:37:13] INFO root fetch - processPackages [unitlab]: Downloading https://files.pythonhosted.org/packages/d6/e3/cebe9db29a3068d87518e5ed8f227168a16373260175efe7730ccc818bb6/unitlab-1.9.0.tar.gz
+[2023-06-15 12:37:13] INFO root fetch - processPackages [pydatawork]: Downloading https://files.pythonhosted.org/packages/69/d1/9960e2ea95c477dc1a09731030d4fbfb26c9dfecb08cf0e3489bdba4301d/pydatawork-0.0.1.tar.gz
+[2023-06-15 12:37:13] INFO root fetch - processPackages [kafe2]: Downloading https://files.pythonhosted.org/packages/38/04/1a9657b8625f0ff57011fa97d5a9b93f14af87161521b82914158fab814a/kafe2-2.8.0.tar.gz
+[2023-06-15 12:37:13] INFO root fetch - processPackages [fastmodels]: Downloading https://files.pythonhosted.org/packages/9b/43/9074da5ff344ac6e33465888386ffdd2d765f69ef1a644468875aa5a3a15/fastmodels-0.1.4.tar.gz
+[2023-06-15 12:37:13] INFO root fetch - processPackages [idtrackerai]: Downloading https://files.pythonhosted.org/packages/dd/7f/df73855d8ff159291f4e528eda14eb4c34175567d3669d0d05f01ea72396/idtrackerai-5.1.4.tar.gz
+[2023-06-15 12:37:13] INFO root fetch - processPackages [oblv-ctl]: Downloading https://files.pythonhosted.org/packages/4f/95/fc33ada4a2fd3e986f26fc7e1a469b8488009740c388dcb0f20bdb68809e/oblv_ctl-0.3.1.tar.gz
+[2023-06-15 12:37:13] INFO root fetch - processPackages [pdf-language-detector]: Downloading https://files.pythonhosted.org/packages/e8/2f/d586b584bc215cbeefc89e6841e35fe86133952b43ad04eaf97a200ec333/pdf_language_detector-0.0.3.tar.gz
+[2023-06-15 12:37:13] INFO root fetch - processPackages [systemd]: Downloading https://files.pythonhosted.org/packages/89/96/2ec26001fa405d03ec36387d9e0f527367f645264806d2c2687a69adf5a5/systemd-0.9.9.tar.gz
+[2023-06-15 12:37:13] INFO root fetch - processPackages [ms-salesforce-api]: Downloading https://files.pythonhosted.org/packages/56/de/060fd6da858a8e8bfadcc07a23629b32a77aadb9b7308f49ea136d092f67/ms_salesforce_api-1.1.0.tar.gz
+[2023-06-15 12:37:13] INFO root fetch - processPackages [pydatawork]: Downloading https://files.pythonhosted.org/packages/66/f6/040e96809fad79644d2b886370807a6c0ee9899a82246451d882b1260b6d/pydatawork-0.0.2.tar.gz
+[2023-06-15 12:37:13] INFO root fetch - processPackages [unitlab]: Downloading https://files.pythonhosted.org/packages/3e/3c/3157bea07daf6e1e26fdf0f1b800236d7059f68d88274e7db5cac3550d37/unitlab-1.9.1.tar.gz
+[2023-06-15 12:37:13] INFO root fetch - processPackages [fastmodels]: Downloading https://files.pythonhosted.org/packages/5a/ea/e7a2b0415351fa1e0045d56be8b8ae376b089e64b2f473c86d354459e13e/fastmodels-0.1.5.tar.gz
+[2023-06-15 12:37:13] INFO root fetch - processPackages [pdf-language-detector]: executing diffoscope
+[2023-06-15 12:37:13] INFO root fetch - processPackages [pdf-language-detector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdf_language_detector-0.0.2.tar.gz tmp/pdf_language_detector-0.0.3.tar.gz --markdown 20230615/p/pdf-language-detector/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-15 12:37:13] INFO root fetch - processPackages [kafe2]: Downloading https://files.pythonhosted.org/packages/f2/51/52cb8e505cfddcddaa990e9b22581d1f6b822d4927e9e9594b841d715654/kafe2-2.8.0rc1.tar.gz
+[2023-06-15 12:37:14] INFO root fetch - processPackages [pydatawork]: executing diffoscope
+[2023-06-15 12:37:14] INFO root fetch - processPackages [pydatawork]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydatawork-0.0.1.tar.gz tmp/pydatawork-0.0.2.tar.gz --markdown 20230615/p/pydatawork/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-15 12:37:14] INFO root fetch - processPackages [unitlab]: executing diffoscope
+[2023-06-15 12:37:14] INFO root fetch - processPackages [unitlab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unitlab-1.9.0.tar.gz tmp/unitlab-1.9.1.tar.gz --markdown 20230615/u/unitlab/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-06-15 12:37:14] INFO root fetch - processPackages [fastmodels]: executing diffoscope
+[2023-06-15 12:37:14] INFO root fetch - processPackages [fastmodels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastmodels-0.1.4.tar.gz tmp/fastmodels-0.1.5.tar.gz --markdown 20230615/f/fastmodels/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-06-15 12:37:14] INFO root fetch - processPackages [systemd]: executing diffoscope
+[2023-06-15 12:37:14] INFO root fetch - processPackages [systemd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/systemd-0.9.8.tar.gz tmp/systemd-0.9.9.tar.gz --markdown 20230615/s/systemd/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-15 12:37:14] INFO root fetch - processPackages [ms-salesforce-api]: executing diffoscope
+[2023-06-15 12:37:14] INFO root fetch - processPackages [ms-salesforce-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ms_salesforce_api-1.0.1.tar.gz tmp/ms_salesforce_api-1.1.0.tar.gz --markdown 20230615/m/ms-salesforce-api/1.0.1-1.1.0/diff.md --exclude *.pyd
+[2023-06-15 12:37:14] INFO root fetch - processPackages [oblv-ctl]: Downloading https://files.pythonhosted.org/packages/d1/cc/11d0258b9fbf7709c5afe5e7a915234d2de29861ce32b4771894350f6ae9/oblv_ctl-0.4.1.tar.gz
+[2023-06-15 12:37:14] INFO root fetch - processPackages [kafe2]: executing diffoscope
+[2023-06-15 12:37:14] INFO root fetch - processPackages [kafe2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kafe2-2.8.0.tar.gz tmp/kafe2-2.8.0rc1.tar.gz --markdown 20230615/k/kafe2/2.8.0-2.8.0rc1/diff.md --exclude *.pyd
+[2023-06-15 12:37:14] INFO root fetch - processPackages [oblv-ctl]: executing diffoscope
+[2023-06-15 12:37:14] INFO root fetch - processPackages [oblv-ctl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oblv_ctl-0.3.1.tar.gz tmp/oblv_ctl-0.4.1.tar.gz --markdown 20230615/o/oblv-ctl/0.3.1-0.4.1/diff.md --exclude *.pyd
+[2023-06-15 12:37:14] INFO root fetch - processPackages [capellambse]: Downloading https://files.pythonhosted.org/packages/31/3c/3a68e2e4cc3165b37471f5302bc500647962d3db54edea8081d0ced76387/capellambse-0.5.9.dev5.tar.gz
+[2023-06-15 12:37:15] INFO root fetch - processPackages [idtrackerai]: Downloading https://files.pythonhosted.org/packages/20/4b/ac616759304f3276ceacb1d4701c3af77cf4847181dc8d5dc8ddad51aa09/idtrackerai-5.1.5.tar.gz
+[2023-06-15 12:37:15] INFO root fetch - processPackages [idtrackerai]: executing diffoscope
+[2023-06-15 12:37:15] INFO root fetch - processPackages [idtrackerai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idtrackerai-5.1.4.tar.gz tmp/idtrackerai-5.1.5.tar.gz --markdown 20230615/i/idtrackerai/5.1.4-5.1.5/diff.md --exclude *.pyd
+[2023-06-15 12:37:15] INFO root fetch - processPackages [capellambse]: executing diffoscope
+[2023-06-15 12:37:15] INFO root fetch - processPackages [capellambse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/capellambse-0.5.9.tar.gz tmp/capellambse-0.5.9.dev5.tar.gz --markdown 20230615/c/capellambse/0.5.9-0.5.9.dev5/diff.md --exclude *.pyd
+[2023-06-15 12:37:16] INFO root fetch - processPackages [pydatawork]: Remove: archive file [/home/abi/fetcher/tmp/pydatawork-0.0.1.tar.gz]
+[2023-06-15 12:37:16] INFO root fetch - processPackages [pydatawork]: Remove: archive file [/home/abi/fetcher/tmp/pydatawork-0.0.2.tar.gz]
+[2023-06-15 12:37:16] INFO root fetch - processPackages [pydatawork]: Start processing: TheSilent
+[2023-06-15 12:37:16] INFO root fetch - main [MainThread]: End processing [pydatawork]: success
+[2023-06-15 12:37:16] INFO root fetch - processPackages [fastmodels]: Remove: archive file [/home/abi/fetcher/tmp/fastmodels-0.1.4.tar.gz]
+[2023-06-15 12:37:16] INFO root fetch - processPackages [fastmodels]: Remove: archive file [/home/abi/fetcher/tmp/fastmodels-0.1.5.tar.gz]
+[2023-06-15 12:37:16] INFO root fetch - processPackages [fastmodels]: Start processing: qwak-sdk
+[2023-06-15 12:37:16] INFO root fetch - main [MainThread]: End processing [fastmodels]: success
+[2023-06-15 12:37:16] INFO root fetch - processPackages [pdf-language-detector]: Remove: archive file [/home/abi/fetcher/tmp/pdf_language_detector-0.0.2.tar.gz]
+[2023-06-15 12:37:16] INFO root fetch - processPackages [pdf-language-detector]: Remove: archive file [/home/abi/fetcher/tmp/pdf_language_detector-0.0.3.tar.gz]
+[2023-06-15 12:37:16] INFO root fetch - processPackages [pdf-language-detector]: Start processing: getmodelspec
+[2023-06-15 12:37:16] INFO root fetch - main [MainThread]: End processing [pdf-language-detector]: success
+[2023-06-15 12:37:16] INFO root fetch - processPackages [TheSilent]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-15 12:37:16] WARNING root fetch - processPackages [getmodelspec]: Skipping, unable to determine old version
+[2023-06-15 12:37:16] INFO root fetch - processPackages [getmodelspec]: Start processing: openai-dbd
+[2023-06-15 12:37:16] INFO root fetch - main [MainThread]: End processing [getmodelspec] error
+[2023-06-15 12:37:16] INFO root fetch - processPackages [qwak-sdk]: New version: [0.5.6] Old Version: [0.5.5]
+[2023-06-15 12:37:16] INFO root fetch - processPackages [openai-dbd]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-15 12:37:16] INFO root fetch - processPackages [ms-salesforce-api]: Remove: archive file [/home/abi/fetcher/tmp/ms_salesforce_api-1.0.1.tar.gz]
+[2023-06-15 12:37:16] INFO root fetch - processPackages [ms-salesforce-api]: Remove: archive file [/home/abi/fetcher/tmp/ms_salesforce_api-1.1.0.tar.gz]
+[2023-06-15 12:37:16] INFO root fetch - main [MainThread]: End processing [ms-salesforce-api]: success
+[2023-06-15 12:37:16] INFO root fetch - processPackages [TheSilent]: Downloading https://files.pythonhosted.org/packages/ad/09/2a1f42483bf3fbc17417489cf4f3d6ec17c5c763e219aa02ad1827f29dc1/TheSilent-0.0.98.tar.gz
+[2023-06-15 12:37:16] INFO root fetch - processPackages [unitlab]: Remove: archive file [/home/abi/fetcher/tmp/unitlab-1.9.0.tar.gz]
+[2023-06-15 12:37:16] INFO root fetch - processPackages [unitlab]: Remove: archive file [/home/abi/fetcher/tmp/unitlab-1.9.1.tar.gz]
+[2023-06-15 12:37:16] INFO root fetch - main [MainThread]: End processing [unitlab]: success
+[2023-06-15 12:37:16] INFO root fetch - processPackages [qwak-sdk]: Downloading https://files.pythonhosted.org/packages/d9/2a/526ce4e3521122d67f465543d39f16778bb76b5832187cb28b08ce8dd781/qwak_sdk-0.5.5.tar.gz
+[2023-06-15 12:37:16] INFO root fetch - processPackages [openai-dbd]: Downloading https://files.pythonhosted.org/packages/d9/31/d86f0f50993f5e8dc618557dd9b665b20eb455d40c850a6f35aed5bd146b/openai_dbd-0.0.8-py3-none-any.whl
+[2023-06-15 12:37:16] INFO root fetch - processPackages [qwak-sdk]: Downloading https://files.pythonhosted.org/packages/49/41/b81ae6046a59e8a57a2d155d564c45eee7d6612f145e062147b9b54a7eb4/qwak_sdk-0.5.6.tar.gz
+[2023-06-15 12:37:16] INFO root fetch - processPackages [TheSilent]: Downloading https://files.pythonhosted.org/packages/38/21/9b42cfa55edd85cfd4fefba7fb94aab0891af2b6c90ef59e687a42228a0b/TheSilent-0.0.99.tar.gz
+[2023-06-15 12:37:16] INFO root fetch - processPackages [openai-dbd]: Downloading https://files.pythonhosted.org/packages/fc/89/8191aebb736ee888c76204cd3dffedad5abfb27acc27bc9ccabd4a30f62b/openai_dbd-0.0.9-py3-none-any.whl
+[2023-06-15 12:37:16] INFO root fetch - processPackages [openai-dbd]: executing diffoscope
+[2023-06-15 12:37:16] INFO root fetch - processPackages [openai-dbd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openai_dbd-0.0.8-py3-none-any.whl.zip tmp/openai_dbd-0.0.9-py3-none-any.whl.zip --markdown 20230615/o/openai-dbd/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-15 12:37:16] INFO root fetch - processPackages [qwak-sdk]: executing diffoscope
+[2023-06-15 12:37:16] INFO root fetch - processPackages [qwak-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qwak_sdk-0.5.5.tar.gz tmp/qwak_sdk-0.5.6.tar.gz --markdown 20230615/q/qwak-sdk/0.5.5-0.5.6/diff.md --exclude *.pyd
+[2023-06-15 12:37:16] INFO root fetch - processPackages [TheSilent]: executing diffoscope
+[2023-06-15 12:37:16] INFO root fetch - processPackages [TheSilent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TheSilent-0.0.98.tar.gz tmp/TheSilent-0.0.99.tar.gz --markdown 20230615/T/TheSilent/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-15 12:37:17] INFO root fetch - processPackages [systemd]: Remove: archive file [/home/abi/fetcher/tmp/systemd-0.9.8.tar.gz]
+[2023-06-15 12:37:17] INFO root fetch - processPackages [systemd]: Remove: archive file [/home/abi/fetcher/tmp/systemd-0.9.9.tar.gz]
+[2023-06-15 12:37:17] INFO root fetch - main [MainThread]: End processing [systemd]: success
+[2023-06-15 12:37:18] INFO root fetch - processPackages [openai-dbd]: Remove: archive file [/home/abi/fetcher/tmp/openai_dbd-0.0.8-py3-none-any.whl.zip]
+[2023-06-15 12:37:18] INFO root fetch - processPackages [openai-dbd]: Remove: archive file [/home/abi/fetcher/tmp/openai_dbd-0.0.9-py3-none-any.whl.zip]
+[2023-06-15 12:37:18] INFO root fetch - main [MainThread]: End processing [openai-dbd]: success
+[2023-06-15 12:37:18] INFO root fetch - processPackages [TheSilent]: Remove: archive file [/home/abi/fetcher/tmp/TheSilent-0.0.98.tar.gz]
+[2023-06-15 12:37:18] INFO root fetch - processPackages [TheSilent]: Remove: archive file [/home/abi/fetcher/tmp/TheSilent-0.0.99.tar.gz]
+[2023-06-15 12:37:18] INFO root fetch - main [MainThread]: End processing [TheSilent]: success
+[2023-06-15 12:37:18] INFO root fetch - processPackages [oblv-ctl]: Remove: archive file [/home/abi/fetcher/tmp/oblv_ctl-0.3.1.tar.gz]
+[2023-06-15 12:37:18] INFO root fetch - processPackages [oblv-ctl]: Remove: archive file [/home/abi/fetcher/tmp/oblv_ctl-0.4.1.tar.gz]
+[2023-06-15 12:37:18] INFO root fetch - main [MainThread]: End processing [oblv-ctl]: success
+[2023-06-15 12:37:20] INFO root fetch - processPackages [kafe2]: Remove: archive file [/home/abi/fetcher/tmp/kafe2-2.8.0.tar.gz]
+[2023-06-15 12:37:20] INFO root fetch - processPackages [kafe2]: Remove: archive file [/home/abi/fetcher/tmp/kafe2-2.8.0rc1.tar.gz]
+[2023-06-15 12:37:20] INFO root fetch - main [MainThread]: End processing [kafe2]: success
+[2023-06-15 12:37:21] INFO root fetch - processPackages [qwak-sdk]: Remove: archive file [/home/abi/fetcher/tmp/qwak_sdk-0.5.5.tar.gz]
+[2023-06-15 12:37:21] INFO root fetch - processPackages [qwak-sdk]: Remove: archive file [/home/abi/fetcher/tmp/qwak_sdk-0.5.6.tar.gz]
+[2023-06-15 12:37:21] INFO root fetch - main [MainThread]: End processing [qwak-sdk]: success
+[2023-06-15 12:37:22] INFO root fetch - processPackages [idtrackerai]: Remove: archive file [/home/abi/fetcher/tmp/idtrackerai-5.1.4.tar.gz]
+[2023-06-15 12:37:22] INFO root fetch - processPackages [idtrackerai]: Remove: archive file [/home/abi/fetcher/tmp/idtrackerai-5.1.5.tar.gz]
+[2023-06-15 12:37:22] INFO root fetch - main [MainThread]: End processing [idtrackerai]: success
+[2023-06-15 12:37:26] INFO root fetch - processPackages [capellambse]: Remove: archive file [/home/abi/fetcher/tmp/capellambse-0.5.9.tar.gz]
+[2023-06-15 12:37:26] INFO root fetch - processPackages [capellambse]: Remove: archive file [/home/abi/fetcher/tmp/capellambse-0.5.9.dev5.tar.gz]
+[2023-06-15 12:37:26] INFO root fetch - main [MainThread]: End processing [capellambse]: success
+[2023-06-15 12:37:26] INFO root fetch - main [MainThread]: Store serial: [18514680]
