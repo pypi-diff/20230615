@@ -18625,3 +18625,93 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-06-15 12:08:58] INFO root fetch - processPackages [akshare]: Remove: archive file [/home/abi/fetcher/tmp/akshare-1.9.99.tar.gz]
 [2023-06-15 12:08:58] INFO root fetch - main [MainThread]: End processing [akshare]: success
 [2023-06-15 12:08:58] INFO root fetch - main [MainThread]: Store serial: [18514446]
+[2023-06-15 12:14:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18514446]
+[2023-06-15 12:14:09] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-15 12:14:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: AutoFun
+[2023-06-15 12:14:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fastmodels
+[2023-06-15 12:14:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: eodc-faas-force
+[2023-06-15 12:14:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dm-reverb-nightly
+[2023-06-15 12:14:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: multisesh
+[2023-06-15 12:14:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: current-events-magnifier
+[2023-06-15 12:14:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addon-hr-employee-calendar-planning
+[2023-06-15 12:14:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: numerical-py
+[2023-06-15 12:14:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ensta
+[2023-06-15 12:14:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: fastmodels
+[2023-06-15 12:14:09] INFO root fetch - processPackages [eodc-faas-force]: New version: [2023.6.2] Old Version: [2023.6.1]
+[2023-06-15 12:14:09] INFO root fetch - processPackages [odoo-addon-hr-employee-calendar-planning]: New version: [15.0.1.1.7] Old Version: [15.0.1.1.6]
+[2023-06-15 12:14:09] INFO root fetch - processPackages [numerical-py]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-15 12:14:09] INFO root fetch - processPackages [current-events-magnifier]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-15 12:14:09] INFO root fetch - processPackages [AutoFun]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-06-15 12:14:09] INFO root fetch - processPackages [fastmodels]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-15 12:14:09] INFO root fetch - processPackages [ensta]: New version: [2.4] Old Version: [2.3]
+[2023-06-15 12:14:09] INFO root fetch - processPackages [multisesh]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-15 12:14:09] INFO root fetch - processPackages [fastmodels]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-15 12:14:09] INFO root fetch - processPackages [dm-reverb-nightly]: New version: [0.9.0.dev20221207] Old Version: [0.9.0.dev20221206]
+[2023-06-15 12:14:09] INFO root fetch - processPackages [current-events-magnifier]: Downloading https://files.pythonhosted.org/packages/9e/ab/969300595af1d5253164064710313bd33881c203c1ec9a8631f1d884cb37/current_events_magnifier-0.0.2.tar.gz
+[2023-06-15 12:14:09] INFO root fetch - processPackages [numerical-py]: Downloading https://files.pythonhosted.org/packages/1d/de/1646bfffd31b37c02f76dd709f9c00e9f79df74282ab8379237197ee3794/numerical_py-0.0.8.tar.gz
+[2023-06-15 12:14:09] INFO root fetch - processPackages [fastmodels]: Downloading https://files.pythonhosted.org/packages/c4/89/03622482cb4e62584fdf769898fb03eb43eed996908db69fb8e5e480fd8c/fastmodels-0.1.1.tar.gz
+[2023-06-15 12:14:09] INFO root fetch - processPackages [fastmodels]: Downloading https://files.pythonhosted.org/packages/c4/89/03622482cb4e62584fdf769898fb03eb43eed996908db69fb8e5e480fd8c/fastmodels-0.1.1.tar.gz
+[2023-06-15 12:14:09] INFO root fetch - processPackages [ensta]: Downloading https://files.pythonhosted.org/packages/5b/20/8d159d9332dc2c273785d9b627c9d9cef9f842c41b59fe7e08b721928f4d/ensta-2.3.tar.gz
+[2023-06-15 12:14:09] INFO root fetch - processPackages [multisesh]: Downloading https://files.pythonhosted.org/packages/6e/cd/691dd03e7cf38979b053399a8811a10f45c2056fd6367ca81e28291a11f2/multisesh-0.0.8.tar.gz
+[2023-06-15 12:14:09] INFO root fetch - processPackages [dm-reverb-nightly]: Downloading https://files.pythonhosted.org/packages/b4/60/e92fdb2c772dd865b56f7c50bfc1c4bffe5431b4007700cd760900e7aaf2/dm_reverb_nightly-0.9.0.dev20221206-cp39-cp39-manylinux2014_x86_64.whl
+[2023-06-15 12:14:09] INFO root fetch - processPackages [numerical-py]: Downloading https://files.pythonhosted.org/packages/95/1d/7677791c6175f40bd4a70e667ae838300671845f99330142d2e9a3d9f7f8/numerical_py-0.0.9.tar.gz
+[2023-06-15 12:14:09] INFO root fetch - processPackages [multisesh]: Downloading https://files.pythonhosted.org/packages/5a/1c/948892eb28d271e94154d23aea3c2649b1d1c24d0e879cf3d3170586cd27/multisesh-0.0.9.tar.gz
+[2023-06-15 12:14:09] INFO root fetch - processPackages [eodc-faas-force]: Downloading https://files.pythonhosted.org/packages/c4/40/43e3021e6b7fabc30a3554a448a5073254c36375ceb2cb6a5fa460b97af7/eodc_faas_force-2023.6.1.tar.gz
+[2023-06-15 12:14:09] INFO root fetch - processPackages [numerical-py]: executing diffoscope
+[2023-06-15 12:14:09] INFO root fetch - processPackages [numerical-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/numerical_py-0.0.8.tar.gz tmp/numerical_py-0.0.9.tar.gz --markdown 20230615/n/numerical-py/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-15 12:14:09] INFO root fetch - processPackages [odoo-addon-hr-employee-calendar-planning]: Downloading https://files.pythonhosted.org/packages/20/b8/b4d906a9fccb09eb2e5b29c5998bfc7a89197f09ee2484f3ee730bc9ea70/odoo_addon_hr_employee_calendar_planning-15.0.1.1.6-py3-none-any.whl
+[2023-06-15 12:14:09] INFO root fetch - processPackages [ensta]: Downloading https://files.pythonhosted.org/packages/07/f5/08ab20460294ad3a6cff55ad16d598d829faa3337cd7e86a8873863c079f/ensta-2.4.tar.gz
+[2023-06-15 12:14:09] INFO root fetch - processPackages [AutoFun]: Downloading https://files.pythonhosted.org/packages/6d/85/279de912dfd86b7879f37f77c5c39ae00a9494aaaa37c06107212b72ef03/AutoFun-0.3.9.tar.gz
+[2023-06-15 12:14:09] WARNING root fetch - processPackages [AutoFun]: Skipping package: exceeds size limit 61458619>=10485760
+[2023-06-15 12:14:09] INFO root fetch - processPackages [AutoFun]: Start processing: dup-fmt
+[2023-06-15 12:14:09] INFO root fetch - main [MainThread]: End processing [AutoFun] error
+[2023-06-15 12:14:09] INFO root fetch - processPackages [ensta]: executing diffoscope
+[2023-06-15 12:14:09] INFO root fetch - processPackages [ensta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ensta-2.3.tar.gz tmp/ensta-2.4.tar.gz --markdown 20230615/e/ensta/2.3-2.4/diff.md --exclude *.pyd
+[2023-06-15 12:14:09] INFO root fetch - processPackages [multisesh]: executing diffoscope
+[2023-06-15 12:14:09] INFO root fetch - processPackages [multisesh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multisesh-0.0.8.tar.gz tmp/multisesh-0.0.9.tar.gz --markdown 20230615/m/multisesh/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-15 12:14:09] INFO root fetch - processPackages [fastmodels]: Downloading https://files.pythonhosted.org/packages/8f/08/e6828e9e72d456c60a97351780332d85663e41a15d6005bb74453cd5bb2e/fastmodels-0.1.2.tar.gz
+[2023-06-15 12:14:09] INFO root fetch - processPackages [fastmodels]: Downloading https://files.pythonhosted.org/packages/8f/08/e6828e9e72d456c60a97351780332d85663e41a15d6005bb74453cd5bb2e/fastmodels-0.1.2.tar.gz
+[2023-06-15 12:14:09] INFO root fetch - processPackages [current-events-magnifier]: Downloading https://files.pythonhosted.org/packages/7d/e4/657fe48b6f09f0457176107f0cf6aca99e498fb394ca79f88972ba9fe134/current_events_magnifier-0.0.3.tar.gz
+[2023-06-15 12:14:09] WARNING root fetch - processPackages [dup-fmt]: Skipping, unable to determine old version
+[2023-06-15 12:14:09] INFO root fetch - main [MainThread]: End processing [dup-fmt] error
+[2023-06-15 12:14:09] INFO root fetch - processPackages [fastmodels]: executing diffoscope
+[2023-06-15 12:14:09] INFO root fetch - processPackages [fastmodels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastmodels-0.1.1.tar.gz tmp/fastmodels-0.1.2.tar.gz --markdown 20230615/f/fastmodels/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-15 12:14:09] INFO root fetch - processPackages [fastmodels]: executing diffoscope
+[2023-06-15 12:14:09] INFO root fetch - processPackages [fastmodels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastmodels-0.1.1.tar.gz tmp/fastmodels-0.1.2.tar.gz --markdown 20230615/f/fastmodels/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-15 12:14:09] INFO root fetch - processPackages [current-events-magnifier]: executing diffoscope
+[2023-06-15 12:14:09] INFO root fetch - processPackages [current-events-magnifier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/current_events_magnifier-0.0.2.tar.gz tmp/current_events_magnifier-0.0.3.tar.gz --markdown 20230615/c/current-events-magnifier/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-15 12:14:09] INFO root fetch - processPackages [odoo-addon-hr-employee-calendar-planning]: Downloading https://files.pythonhosted.org/packages/1f/dd/350569d7ae7dc81f9a8e955b52215ad724815bffeeefc2ae942701993d73/odoo_addon_hr_employee_calendar_planning-15.0.1.1.7-py3-none-any.whl
+[2023-06-15 12:14:09] INFO root fetch - processPackages [eodc-faas-force]: Downloading https://files.pythonhosted.org/packages/82/40/0c5cdb23d0dad8662029978775949871c0ac0ff4bad0f7e1fa2a7158cba1/eodc_faas_force-2023.6.2.tar.gz
+[2023-06-15 12:14:09] INFO root fetch - processPackages [eodc-faas-force]: executing diffoscope
+[2023-06-15 12:14:09] INFO root fetch - processPackages [eodc-faas-force]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eodc_faas_force-2023.6.1.tar.gz tmp/eodc_faas_force-2023.6.2.tar.gz --markdown 20230615/e/eodc-faas-force/2023.6.1-2023.6.2/diff.md --exclude *.pyd
+[2023-06-15 12:14:09] INFO root fetch - processPackages [odoo-addon-hr-employee-calendar-planning]: executing diffoscope
+[2023-06-15 12:14:09] INFO root fetch - processPackages [odoo-addon-hr-employee-calendar-planning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_hr_employee_calendar_planning-15.0.1.1.6-py3-none-any.whl.zip tmp/odoo_addon_hr_employee_calendar_planning-15.0.1.1.7-py3-none-any.whl.zip --markdown 20230615/o/odoo-addon-hr-employee-calendar-planning/15.0.1.1.6-15.0.1.1.7/diff.md --exclude *.pyd
+[2023-06-15 12:14:10] INFO root fetch - processPackages [numerical-py]: Remove: archive file [/home/abi/fetcher/tmp/numerical_py-0.0.8.tar.gz]
+[2023-06-15 12:14:10] INFO root fetch - processPackages [numerical-py]: Remove: archive file [/home/abi/fetcher/tmp/numerical_py-0.0.9.tar.gz]
+[2023-06-15 12:14:10] INFO root fetch - main [MainThread]: End processing [numerical-py]: success
+[2023-06-15 12:14:11] INFO root fetch - processPackages [fastmodels]: Remove: archive file [/home/abi/fetcher/tmp/fastmodels-0.1.1.tar.gz]
+[2023-06-15 12:14:11] INFO root fetch - processPackages [fastmodels]: Remove: archive file [/home/abi/fetcher/tmp/fastmodels-0.1.2.tar.gz]
+[2023-06-15 12:14:11] INFO root fetch - main [MainThread]: End processing [fastmodels]: success
+[2023-06-15 12:14:11] INFO root fetch - processPackages [dm-reverb-nightly]: Downloading https://files.pythonhosted.org/packages/07/ba/e9ef4e61b606a17814023d4b0a99ebf04f48787449f89134eb770db70591/dm_reverb_nightly-0.9.0.dev20221207-cp39-cp39-manylinux2014_x86_64.whl
+[2023-06-15 12:14:11] INFO root fetch - processPackages [multisesh]: Remove: archive file [/home/abi/fetcher/tmp/multisesh-0.0.8.tar.gz]
+[2023-06-15 12:14:11] INFO root fetch - processPackages [multisesh]: Remove: archive file [/home/abi/fetcher/tmp/multisesh-0.0.9.tar.gz]
+[2023-06-15 12:14:11] INFO root fetch - main [MainThread]: End processing [multisesh]: success
+[2023-06-15 12:14:11] INFO root fetch - main [MainThread]: End processing [fastmodels]: success
+[2023-06-15 12:14:11] INFO root fetch - processPackages [eodc-faas-force]: Remove: archive file [/home/abi/fetcher/tmp/eodc_faas_force-2023.6.1.tar.gz]
+[2023-06-15 12:14:11] INFO root fetch - processPackages [eodc-faas-force]: Remove: archive file [/home/abi/fetcher/tmp/eodc_faas_force-2023.6.2.tar.gz]
+[2023-06-15 12:14:11] INFO root fetch - main [MainThread]: End processing [eodc-faas-force]: success
+[2023-06-15 12:14:11] INFO root fetch - processPackages [ensta]: Remove: archive file [/home/abi/fetcher/tmp/ensta-2.3.tar.gz]
+[2023-06-15 12:14:11] INFO root fetch - processPackages [ensta]: Remove: archive file [/home/abi/fetcher/tmp/ensta-2.4.tar.gz]
+[2023-06-15 12:14:11] INFO root fetch - main [MainThread]: End processing [ensta]: success
+[2023-06-15 12:14:11] INFO root fetch - processPackages [odoo-addon-hr-employee-calendar-planning]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_hr_employee_calendar_planning-15.0.1.1.6-py3-none-any.whl.zip]
+[2023-06-15 12:14:11] INFO root fetch - processPackages [odoo-addon-hr-employee-calendar-planning]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_hr_employee_calendar_planning-15.0.1.1.7-py3-none-any.whl.zip]
+[2023-06-15 12:14:11] INFO root fetch - main [MainThread]: End processing [odoo-addon-hr-employee-calendar-planning]: success
+[2023-06-15 12:14:11] INFO root fetch - processPackages [current-events-magnifier]: Remove: archive file [/home/abi/fetcher/tmp/current_events_magnifier-0.0.2.tar.gz]
+[2023-06-15 12:14:11] INFO root fetch - processPackages [current-events-magnifier]: Remove: archive file [/home/abi/fetcher/tmp/current_events_magnifier-0.0.3.tar.gz]
+[2023-06-15 12:14:11] INFO root fetch - main [MainThread]: End processing [current-events-magnifier]: success
+[2023-06-15 12:14:13] INFO root fetch - processPackages [dm-reverb-nightly]: executing diffoscope
+[2023-06-15 12:14:13] INFO root fetch - processPackages [dm-reverb-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dm_reverb_nightly-0.9.0.dev20221206-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/dm_reverb_nightly-0.9.0.dev20221207-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230615/d/dm-reverb-nightly/0.9.0.dev20221206-0.9.0.dev20221207/diff.md --exclude *.pyd
+[2023-06-15 12:15:12] INFO root fetch - processPackages [dm-reverb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/dm_reverb_nightly-0.9.0.dev20221206-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-06-15 12:15:12] INFO root fetch - processPackages [dm-reverb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/dm_reverb_nightly-0.9.0.dev20221207-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-06-15 12:15:12] INFO root fetch - main [MainThread]: End processing [dm-reverb-nightly]: success
+[2023-06-15 12:15:12] INFO root fetch - main [MainThread]: Store serial: [18514480]
