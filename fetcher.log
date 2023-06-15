@@ -12148,3 +12148,122 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-06-15 08:59:58] INFO root fetch - processPackages [thundra]: Remove: archive file [/home/abi/fetcher/tmp/thundra-3.0.7.tar.gz]
 [2023-06-15 08:59:58] INFO root fetch - main [MainThread]: End processing [thundra]: success
 [2023-06-15 08:59:58] INFO root fetch - main [MainThread]: Store serial: [18511961]
+[2023-06-15 09:05:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18511961]
+[2023-06-15 09:05:07] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-06-15 09:05:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qctrl-commons
+[2023-06-15 09:05:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gaohn-common-utils
+[2023-06-15 09:05:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mlcvzoo-mmocr
+[2023-06-15 09:05:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: savant-rs
+[2023-06-15 09:05:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: vosk-autosrt
+[2023-06-15 09:05:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cns
+[2023-06-15 09:05:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: superspreader
+[2023-06-15 09:05:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: seqio-nightly
+[2023-06-15 09:05:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: zoviz
+[2023-06-15 09:05:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: automation-editor
+[2023-06-15 09:05:07] INFO root fetch - processPackages [gaohn-common-utils]: New version: [0.0.58] Old Version: [0.0.57]
+[2023-06-15 09:05:07] INFO root fetch - processPackages [superspreader]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-06-15 09:05:07] INFO root fetch - processPackages [qctrl-commons]: New version: [9.0.0] Old Version: [8.1.0]
+[2023-06-15 09:05:07] WARNING root fetch - processPackages [cns]: Skipping, unable to determine old version
+[2023-06-15 09:05:07] INFO root fetch - processPackages [automation-editor]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-15 09:05:07] INFO root fetch - processPackages [cns]: Start processing: zarrita
+[2023-06-15 09:05:07] INFO root fetch - processPackages [mlcvzoo-mmocr]: New version: [6.0.0] Old Version: [5.0.1]
+[2023-06-15 09:05:07] INFO root fetch - main [MainThread]: End processing [cns] error
+[2023-06-15 09:05:07] INFO root fetch - processPackages [vosk-autosrt]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-15 09:05:07] INFO root fetch - processPackages [savant-rs]: New version: [0.1.9] Old Version: [0.1.7]
+[2023-06-15 09:05:07] INFO root fetch - processPackages [zoviz]: New version: [0.4.99] Old Version: [0.4.98]
+[2023-06-15 09:05:07] INFO root fetch - processPackages [seqio-nightly]: New version: [0.0.8.dev20220907] Old Version: [0.0.8.dev20220906]
+[2023-06-15 09:05:07] INFO root fetch - processPackages [zarrita]: New version: [0.1.0a9] Old Version: [0.1.0a8]
+[2023-06-15 09:05:07] INFO root fetch - processPackages [gaohn-common-utils]: Downloading https://files.pythonhosted.org/packages/d4/c6/f94cd389885a1dae84fc7f2120864d21912de0914ea68b053ff98f443904/gaohn-common-utils-0.0.57.tar.gz
+[2023-06-15 09:05:07] INFO root fetch - processPackages [superspreader]: Downloading https://files.pythonhosted.org/packages/3b/cd/ec9cf2e402257ea307ff8fc8c7e2bf5521cf3ce5a9dee24efe13133e0d83/superspreader-0.2.4.tar.gz
+[2023-06-15 09:05:07] INFO root fetch - processPackages [seqio-nightly]: Downloading https://files.pythonhosted.org/packages/43/a0/f60ad514b6f8534fa5ba8cc5fcc2a8f2e32e7d06d2dbfd43b12c2cb29931/seqio-nightly-0.0.8.dev20220906.tar.gz
+[2023-06-15 09:05:07] INFO root fetch - processPackages [vosk-autosrt]: Downloading https://files.pythonhosted.org/packages/eb/5d/3709ee364085068b8124161cbd7124d652d6c96ba9039456c49e496a5e18/vosk_autosrt-0.0.5.tar.gz
+[2023-06-15 09:05:08] INFO root fetch - processPackages [automation-editor]: Downloading https://files.pythonhosted.org/packages/a6/cc/235d014fef7e03686b0488b987150241cb106dcd6fd45abc8fcb6af5a349/automation_editor-0.0.8.tar.gz
+[2023-06-15 09:05:08] INFO root fetch - processPackages [zoviz]: Downloading https://files.pythonhosted.org/packages/39/01/118ff39e3e5bc58e05756a517d2b426abe032aa3420d27e3000aaac3b14a/zoviz-0.4.98.tar.gz
+[2023-06-15 09:05:08] INFO root fetch - processPackages [qctrl-commons]: Downloading https://files.pythonhosted.org/packages/46/db/d0de42840a30f78ba5260811263005b4cdbad033c1657ac8496e03ef08e2/qctrl-commons-8.1.0.tar.gz
+[2023-06-15 09:05:08] INFO root fetch - processPackages [mlcvzoo-mmocr]: Downloading https://files.pythonhosted.org/packages/80/7e/501ca360a4ad19a38184e8d929a6f0c1847f3853763cc1ca48fd71078527/mlcvzoo_mmocr-5.0.1.tar.gz
+[2023-06-15 09:05:08] INFO root fetch - processPackages [savant-rs]: Downloading https://files.pythonhosted.org/packages/c4/00/2644997dc31784c2debfbda253c475ca3463024586165f400ebc3871aaba/savant_rs-0.1.7.tar.gz
+[2023-06-15 09:05:08] INFO root fetch - processPackages [gaohn-common-utils]: Downloading https://files.pythonhosted.org/packages/af/4d/85063a98b6af8eb2887d3711a10675c65cb61c2ac27ce4a9709f33f3b6a2/gaohn-common-utils-0.0.58.tar.gz
+[2023-06-15 09:05:08] WARNING root fetch - processPackages [vosk-autosrt]: Skipping package: exceeds size limit 21461395>=10485760
+[2023-06-15 09:05:08] INFO root fetch - processPackages [vosk-autosrt]: Start processing: casho
+[2023-06-15 09:05:08] INFO root fetch - main [MainThread]: End processing [vosk-autosrt] error
+[2023-06-15 09:05:08] INFO root fetch - processPackages [zarrita]: Downloading https://files.pythonhosted.org/packages/19/fd/b7d58a4596798a19110e8075746de02cdc52728557585d96d3fa89de7e29/zarrita-0.1.0a8.tar.gz
+[2023-06-15 09:05:08] WARNING root fetch - processPackages [casho]: Skipping, unable to determine old version
+[2023-06-15 09:05:08] INFO root fetch - processPackages [casho]: Start processing: revoltapi
+[2023-06-15 09:05:08] INFO root fetch - main [MainThread]: End processing [casho] error
+[2023-06-15 09:05:08] INFO root fetch - processPackages [gaohn-common-utils]: executing diffoscope
+[2023-06-15 09:05:08] INFO root fetch - processPackages [gaohn-common-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gaohn-common-utils-0.0.57.tar.gz tmp/gaohn-common-utils-0.0.58.tar.gz --markdown 20230615/g/gaohn-common-utils/0.0.57-0.0.58/diff.md --exclude *.pyd
+[2023-06-15 09:05:08] INFO root fetch - processPackages [superspreader]: Downloading https://files.pythonhosted.org/packages/bd/63/6d284f172369c15d5bd96713dc0b55ef3dad358008a3a615a99eadeeb05b/superspreader-0.2.5.tar.gz
+[2023-06-15 09:05:08] INFO root fetch - processPackages [zoviz]: Downloading https://files.pythonhosted.org/packages/4b/9a/dea269ed1403497e3e963b49e4d08cdc0e831c8642e0f505481d42cdc405/zoviz-0.4.99.tar.gz
+[2023-06-15 09:05:08] INFO root fetch - processPackages [seqio-nightly]: Downloading https://files.pythonhosted.org/packages/2a/76/25f4c7602cdd724deac948a914e454756abfad2119a525c06d9ce341b918/seqio-nightly-0.0.8.dev20220907.tar.gz
+[2023-06-15 09:05:08] WARNING root fetch - processPackages [revoltapi]: Skipping, unable to determine old version
+[2023-06-15 09:05:08] INFO root fetch - processPackages [revoltapi]: Start processing: ebooksp
+[2023-06-15 09:05:08] INFO root fetch - main [MainThread]: End processing [revoltapi] error
+[2023-06-15 09:05:08] INFO root fetch - processPackages [zarrita]: Downloading https://files.pythonhosted.org/packages/4f/b4/c1b0bfc89890b5045b1bdb574a44033b4bb5a15bbbdda9e78c3e5c035224/zarrita-0.1.0a9.tar.gz
+[2023-06-15 09:05:08] INFO root fetch - processPackages [mlcvzoo-mmocr]: Downloading https://files.pythonhosted.org/packages/6d/0d/937ab6a4410cc332ceec9f260af471e49b3b986a3bad41712ef48edc1741/mlcvzoo_mmocr-6.0.0.tar.gz
+[2023-06-15 09:05:08] INFO root fetch - processPackages [superspreader]: executing diffoscope
+[2023-06-15 09:05:08] INFO root fetch - processPackages [superspreader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/superspreader-0.2.4.tar.gz tmp/superspreader-0.2.5.tar.gz --markdown 20230615/s/superspreader/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-06-15 09:05:08] INFO root fetch - processPackages [qctrl-commons]: Downloading https://files.pythonhosted.org/packages/52/e6/108f3806637d0e22c3ca08e15d9dd71a4b256080e9616b42a0fdf859a5c6/qctrl-commons-9.0.0.tar.gz
+[2023-06-15 09:05:08] INFO root fetch - processPackages [zarrita]: executing diffoscope
+[2023-06-15 09:05:08] INFO root fetch - processPackages [zarrita]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zarrita-0.1.0a8.tar.gz tmp/zarrita-0.1.0a9.tar.gz --markdown 20230615/z/zarrita/0.1.0a8-0.1.0a9/diff.md --exclude *.pyd
+[2023-06-15 09:05:08] INFO root fetch - processPackages [savant-rs]: Downloading https://files.pythonhosted.org/packages/14/6f/20424ad55aaad55bea7d3a27e5a0cc5fe726f0b4507b2b6f406d79e8015a/savant_rs-0.1.9.tar.gz
+[2023-06-15 09:05:08] INFO root fetch - processPackages [zoviz]: executing diffoscope
+[2023-06-15 09:05:08] INFO root fetch - processPackages [zoviz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zoviz-0.4.98.tar.gz tmp/zoviz-0.4.99.tar.gz --markdown 20230615/z/zoviz/0.4.98-0.4.99/diff.md --exclude *.pyd
+[2023-06-15 09:05:08] INFO root fetch - processPackages [ebooksp]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-15 09:05:08] INFO root fetch - processPackages [seqio-nightly]: executing diffoscope
+[2023-06-15 09:05:08] INFO root fetch - processPackages [seqio-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seqio-nightly-0.0.8.dev20220906.tar.gz tmp/seqio-nightly-0.0.8.dev20220907.tar.gz --markdown 20230615/s/seqio-nightly/0.0.8.dev20220906-0.0.8.dev20220907/diff.md --exclude *.pyd
+[2023-06-15 09:05:08] INFO root fetch - processPackages [mlcvzoo-mmocr]: executing diffoscope
+[2023-06-15 09:05:08] INFO root fetch - processPackages [mlcvzoo-mmocr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlcvzoo_mmocr-5.0.1.tar.gz tmp/mlcvzoo_mmocr-6.0.0.tar.gz --markdown 20230615/m/mlcvzoo-mmocr/5.0.1-6.0.0/diff.md --exclude *.pyd
+[2023-06-15 09:05:08] INFO root fetch - processPackages [qctrl-commons]: executing diffoscope
+[2023-06-15 09:05:08] INFO root fetch - processPackages [qctrl-commons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qctrl-commons-8.1.0.tar.gz tmp/qctrl-commons-9.0.0.tar.gz --markdown 20230615/q/qctrl-commons/8.1.0-9.0.0/diff.md --exclude *.pyd
+[2023-06-15 09:05:08] INFO root fetch - processPackages [savant-rs]: executing diffoscope
+[2023-06-15 09:05:08] INFO root fetch - processPackages [savant-rs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/savant_rs-0.1.7.tar.gz tmp/savant_rs-0.1.9.tar.gz --markdown 20230615/s/savant-rs/0.1.7-0.1.9/diff.md --exclude *.pyd
+[2023-06-15 09:05:08] INFO root fetch - processPackages [ebooksp]: Downloading https://files.pythonhosted.org/packages/f3/72/da496ce3473e6637e2ef20ecad6fc2fbee04cc8288c668bbe23a8eead925/ebooksp-0.0.5.tar.gz
+[2023-06-15 09:05:08] INFO root fetch - processPackages [automation-editor]: Downloading https://files.pythonhosted.org/packages/50/4c/caa76f5eb438558d75b65bbcb114724ff8359c2db4245dd07c86a05485a5/automation_editor-0.0.9.tar.gz
+[2023-06-15 09:05:08] INFO root fetch - processPackages [automation-editor]: executing diffoscope
+[2023-06-15 09:05:08] INFO root fetch - processPackages [automation-editor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/automation_editor-0.0.8.tar.gz tmp/automation_editor-0.0.9.tar.gz --markdown 20230615/a/automation-editor/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-15 09:05:09] INFO root fetch - processPackages [ebooksp]: Downloading https://files.pythonhosted.org/packages/12/53/5065269dd658ef13aca9c685c9d0a01ca186d65f44502a840bdf552f54ad/ebooksp-0.0.6.tar.gz
+[2023-06-15 09:05:09] INFO root fetch - processPackages [ebooksp]: executing diffoscope
+[2023-06-15 09:05:09] INFO root fetch - processPackages [ebooksp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ebooksp-0.0.5.tar.gz tmp/ebooksp-0.0.6.tar.gz --markdown 20230615/e/ebooksp/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-15 09:05:10] INFO root fetch - processPackages [superspreader]: Remove: archive file [/home/abi/fetcher/tmp/superspreader-0.2.4.tar.gz]
+[2023-06-15 09:05:10] INFO root fetch - processPackages [superspreader]: Remove: archive file [/home/abi/fetcher/tmp/superspreader-0.2.5.tar.gz]
+[2023-06-15 09:05:10] INFO root fetch - processPackages [superspreader]: Start processing: savant-rs-etcd-dynamic-state
+[2023-06-15 09:05:10] INFO root fetch - main [MainThread]: End processing [superspreader]: success
+[2023-06-15 09:05:10] INFO root fetch - processPackages [zoviz]: Remove: archive file [/home/abi/fetcher/tmp/zoviz-0.4.98.tar.gz]
+[2023-06-15 09:05:10] INFO root fetch - processPackages [zoviz]: Remove: archive file [/home/abi/fetcher/tmp/zoviz-0.4.99.tar.gz]
+[2023-06-15 09:05:10] INFO root fetch - processPackages [zoviz]: Start processing: soe-parser
+[2023-06-15 09:05:10] INFO root fetch - main [MainThread]: End processing [zoviz]: success
+[2023-06-15 09:05:10] INFO root fetch - processPackages [zarrita]: Remove: archive file [/home/abi/fetcher/tmp/zarrita-0.1.0a8.tar.gz]
+[2023-06-15 09:05:10] INFO root fetch - processPackages [zarrita]: Remove: archive file [/home/abi/fetcher/tmp/zarrita-0.1.0a9.tar.gz]
+[2023-06-15 09:05:10] INFO root fetch - main [MainThread]: End processing [zarrita]: success
+[2023-06-15 09:05:10] INFO root fetch - processPackages [savant-rs-etcd-dynamic-state]: New version: [0.1.26] Old Version: [0.1.24]
+[2023-06-15 09:05:10] INFO root fetch - processPackages [savant-rs-etcd-dynamic-state]: Downloading https://files.pythonhosted.org/packages/fb/74/52a425185c5d817f0dd1002f738abd3ff4796204c790a4d106d49b8a358a/savant_rs_etcd_dynamic_state-0.1.24-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-15 09:05:10] WARNING root fetch - processPackages [soe-parser]: Skipping, unable to determine old version
+[2023-06-15 09:05:10] INFO root fetch - main [MainThread]: End processing [soe-parser] error
+[2023-06-15 09:05:10] INFO root fetch - processPackages [mlcvzoo-mmocr]: Remove: archive file [/home/abi/fetcher/tmp/mlcvzoo_mmocr-5.0.1.tar.gz]
+[2023-06-15 09:05:10] INFO root fetch - processPackages [mlcvzoo-mmocr]: Remove: archive file [/home/abi/fetcher/tmp/mlcvzoo_mmocr-6.0.0.tar.gz]
+[2023-06-15 09:05:10] INFO root fetch - main [MainThread]: End processing [mlcvzoo-mmocr]: success
+[2023-06-15 09:05:10] INFO root fetch - processPackages [automation-editor]: Remove: archive file [/home/abi/fetcher/tmp/automation_editor-0.0.8.tar.gz]
+[2023-06-15 09:05:10] INFO root fetch - processPackages [automation-editor]: Remove: archive file [/home/abi/fetcher/tmp/automation_editor-0.0.9.tar.gz]
+[2023-06-15 09:05:10] INFO root fetch - main [MainThread]: End processing [automation-editor]: success
+[2023-06-15 09:05:10] INFO root fetch - processPackages [gaohn-common-utils]: Remove: archive file [/home/abi/fetcher/tmp/gaohn-common-utils-0.0.57.tar.gz]
+[2023-06-15 09:05:10] INFO root fetch - processPackages [gaohn-common-utils]: Remove: archive file [/home/abi/fetcher/tmp/gaohn-common-utils-0.0.58.tar.gz]
+[2023-06-15 09:05:10] INFO root fetch - main [MainThread]: End processing [gaohn-common-utils]: success
+[2023-06-15 09:05:10] INFO root fetch - processPackages [ebooksp]: Remove: archive file [/home/abi/fetcher/tmp/ebooksp-0.0.5.tar.gz]
+[2023-06-15 09:05:10] INFO root fetch - processPackages [ebooksp]: Remove: archive file [/home/abi/fetcher/tmp/ebooksp-0.0.6.tar.gz]
+[2023-06-15 09:05:10] INFO root fetch - main [MainThread]: End processing [ebooksp]: success
+[2023-06-15 09:05:11] INFO root fetch - processPackages [savant-rs]: Remove: archive file [/home/abi/fetcher/tmp/savant_rs-0.1.7.tar.gz]
+[2023-06-15 09:05:11] INFO root fetch - processPackages [savant-rs]: Remove: archive file [/home/abi/fetcher/tmp/savant_rs-0.1.9.tar.gz]
+[2023-06-15 09:05:11] INFO root fetch - main [MainThread]: End processing [savant-rs]: success
+[2023-06-15 09:05:11] INFO root fetch - processPackages [qctrl-commons]: Remove: archive file [/home/abi/fetcher/tmp/qctrl-commons-8.1.0.tar.gz]
+[2023-06-15 09:05:11] INFO root fetch - processPackages [qctrl-commons]: Remove: archive file [/home/abi/fetcher/tmp/qctrl-commons-9.0.0.tar.gz]
+[2023-06-15 09:05:11] INFO root fetch - main [MainThread]: End processing [qctrl-commons]: success
+[2023-06-15 09:05:11] INFO root fetch - processPackages [savant-rs-etcd-dynamic-state]: Downloading https://files.pythonhosted.org/packages/4a/8e/cab850f492f088387ca0b435003573c6a142d89fbfd040a56c2bf9a88ed8/savant_rs_etcd_dynamic_state-0.1.26-pp38-pypy38_pp73-manylinux_2_17_aarch64.manylinux2014_aarch64.whl
+[2023-06-15 09:05:11] INFO root fetch - processPackages [seqio-nightly]: Remove: archive file [/home/abi/fetcher/tmp/seqio-nightly-0.0.8.dev20220906.tar.gz]
+[2023-06-15 09:05:11] INFO root fetch - processPackages [seqio-nightly]: Remove: archive file [/home/abi/fetcher/tmp/seqio-nightly-0.0.8.dev20220907.tar.gz]
+[2023-06-15 09:05:11] INFO root fetch - main [MainThread]: End processing [seqio-nightly]: success
+[2023-06-15 09:05:15] INFO root fetch - processPackages [savant-rs-etcd-dynamic-state]: executing diffoscope
+[2023-06-15 09:05:15] INFO root fetch - processPackages [savant-rs-etcd-dynamic-state]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/savant_rs_etcd_dynamic_state-0.1.24-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/savant_rs_etcd_dynamic_state-0.1.26-pp38-pypy38_pp73-manylinux_2_17_aarch64.manylinux2014_aarch64.whl.zip --markdown 20230615/s/savant-rs-etcd-dynamic-state/0.1.24-0.1.26/diff.md --exclude *.pyd
+[2023-06-15 09:05:17] INFO root fetch - processPackages [savant-rs-etcd-dynamic-state]: Remove: archive file [/home/abi/fetcher/tmp/savant_rs_etcd_dynamic_state-0.1.24-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-15 09:05:17] INFO root fetch - processPackages [savant-rs-etcd-dynamic-state]: Remove: archive file [/home/abi/fetcher/tmp/savant_rs_etcd_dynamic_state-0.1.26-pp38-pypy38_pp73-manylinux_2_17_aarch64.manylinux2014_aarch64.whl.zip]
+[2023-06-15 09:05:17] INFO root fetch - main [MainThread]: End processing [savant-rs-etcd-dynamic-state]: success
+[2023-06-15 09:05:17] INFO root fetch - main [MainThread]: Store serial: [18512037]
