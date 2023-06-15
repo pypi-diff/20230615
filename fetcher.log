@@ -8985,3 +8985,132 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-15 05:38:01] INFO root fetch - processPackages [cvxportfolio]: Remove: archive file [/home/abi/fetcher/tmp/cvxportfolio-0.3.2.tar.gz]
 [2023-06-15 05:38:01] INFO root fetch - main [MainThread]: End processing [cvxportfolio]: success
 [2023-06-15 05:38:01] INFO root fetch - main [MainThread]: Store serial: [18510777]
+[2023-06-15 05:43:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18510777]
+[2023-06-15 05:43:10] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-06-15 05:43:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: alibabacloud-btripopen20220520-py2
+[2023-06-15 05:43:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: alibabacloud-btripopen20220520
+[2023-06-15 05:43:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: esphome
+[2023-06-15 05:43:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo13-addon-companyweb-base
+[2023-06-15 05:43:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo14-addon-companyweb-base
+[2023-06-15 05:43:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addon-companyweb-base
+[2023-06-15 05:43:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: steam-sdk
+[2023-06-15 05:43:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: skytemple-rust
+[2023-06-15 05:43:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sqlglot
+[2023-06-15 05:43:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo-addon-l10n-br-zip
+[2023-06-15 05:43:10] INFO root fetch - processPackages [odoo-addon-companyweb-base]: New version: [16.0.1.0.7] Old Version: [16.0.1.0.6]
+[2023-06-15 05:43:10] INFO root fetch - processPackages [alibabacloud-btripopen20220520]: New version: [1.1.4] Old Version: [1.1.3]
+[2023-06-15 05:43:10] INFO root fetch - processPackages [skytemple-rust]: New version: [1.6.0a1] Old Version: [1.5.2]
+[2023-06-15 05:43:10] INFO root fetch - processPackages [odoo-addon-l10n-br-zip]: New version: [16.0.1.0.1.1] Old Version: [16.0.1.0.1]
+[2023-06-15 05:43:10] INFO root fetch - processPackages [odoo13-addon-companyweb-base]: New version: [13.0.1.1.5.dev1] Old Version: [13.0.1.1.4]
+[2023-06-15 05:43:10] INFO root fetch - processPackages [esphome]: New version: [2023.6.0b1] Old Version: [2023.5.5]
+[2023-06-15 05:43:10] INFO root fetch - processPackages [odoo14-addon-companyweb-base]: New version: [14.0.1.1.5.dev1] Old Version: [14.0.1.1.4]
+[2023-06-15 05:43:10] INFO root fetch - processPackages [alibabacloud-btripopen20220520-py2]: New version: [1.1.4] Old Version: [1.1.3]
+[2023-06-15 05:43:10] INFO root fetch - processPackages [sqlglot]: New version: [9.0.6] Old Version: [9.0.5]
+[2023-06-15 05:43:10] INFO root fetch - processPackages [steam-sdk]: New version: [2023.6.9] Old Version: [2023.6.8]
+[2023-06-15 05:43:11] INFO root fetch - processPackages [odoo-addon-companyweb-base]: Downloading https://files.pythonhosted.org/packages/3c/f2/9a3aadb19be74ff4676e584bb5abd8c7bde835efeddd6ae4c50d82e9dc5d/odoo_addon_companyweb_base-16.0.1.0.6-py3-none-any.whl
+[2023-06-15 05:43:11] INFO root fetch - processPackages [odoo13-addon-companyweb-base]: Downloading https://files.pythonhosted.org/packages/fb/ce/080921f890f8109457e38df68ea8b17311856f95a982a480979370d5f077/odoo13_addon_companyweb_base-13.0.1.1.4-py3-none-any.whl
+[2023-06-15 05:43:11] INFO root fetch - processPackages [sqlglot]: Downloading https://files.pythonhosted.org/packages/20/6b/5034324cd2ac42831b5103037f6a14e518172128c4196b8d01b93dcc76c8/sqlglot-9.0.5.tar.gz
+[2023-06-15 05:43:11] INFO root fetch - processPackages [odoo14-addon-companyweb-base]: Downloading https://files.pythonhosted.org/packages/28/7c/7466fc05044f8085fb6e86dd8904b91723c3f3d71f1bc1449ae5ee87b884/odoo14_addon_companyweb_base-14.0.1.1.4-py3-none-any.whl
+[2023-06-15 05:43:11] INFO root fetch - processPackages [steam-sdk]: Downloading https://files.pythonhosted.org/packages/60/2c/3c21c0815edf029e79c95d2f5fccd2a2f589a21e648b6c3ea6a2a61d7c1e/steam-sdk-2023.6.8.tar.gz
+[2023-06-15 05:43:11] INFO root fetch - processPackages [skytemple-rust]: Downloading https://files.pythonhosted.org/packages/02/d2/e68d886041db454e7ce087f28930b7ba93b949a920a8818d9eb025d848f9/skytemple_rust-1.5.2-cp39-cp39-win_amd64.whl
+[2023-06-15 05:43:11] INFO root fetch - processPackages [alibabacloud-btripopen20220520]: Downloading https://files.pythonhosted.org/packages/f9/c4/af3b3c3d535d03db40a0174e609d6d3315e2dabea3ec1d1ca765770ed42a/alibabacloud_btripopen20220520-1.1.3.tar.gz
+[2023-06-15 05:43:11] INFO root fetch - processPackages [esphome]: Downloading https://files.pythonhosted.org/packages/ba/99/e3de03c370f1d42ddf8aef3c7f34680b185c74ec86ea48d828a322c361ac/esphome-2023.5.5.tar.gz
+[2023-06-15 05:43:11] INFO root fetch - processPackages [odoo-addon-l10n-br-zip]: Downloading https://files.pythonhosted.org/packages/3d/8f/1a0ba1b1eda138f3a3a9d82ae895ac997a94720a297c97c673d4994fecdc/odoo_addon_l10n_br_zip-16.0.1.0.1-py3-none-any.whl
+[2023-06-15 05:43:11] INFO root fetch - processPackages [sqlglot]: Downloading https://files.pythonhosted.org/packages/36/2a/e7389a112e1a7cfd1fcc7c7209a0f8f5ffe905ce8aad03f447367dc9b209/sqlglot-9.0.6.tar.gz
+[2023-06-15 05:43:11] INFO root fetch - processPackages [alibabacloud-btripopen20220520-py2]: Downloading https://files.pythonhosted.org/packages/7e/1a/090311a333b9a74610e3abeaa1bcd5069b14d38a2c9bff7f7ce6166a06d2/alibabacloud_btripopen20220520_py2-1.1.3.tar.gz
+[2023-06-15 05:43:11] INFO root fetch - processPackages [odoo-addon-companyweb-base]: Downloading https://files.pythonhosted.org/packages/51/bd/605db45a0a62ee4023b298255615aeb236bc473f695e3ad48463d3c52790/odoo_addon_companyweb_base-16.0.1.0.7-py3-none-any.whl
+[2023-06-15 05:43:11] INFO root fetch - processPackages [steam-sdk]: Downloading https://files.pythonhosted.org/packages/cf/10/2b634f09e25cfaaa5b5c4ea8889e69240ff6c0ad61d248fcbfd14e6aa988/steam-sdk-2023.6.9.tar.gz
+[2023-06-15 05:43:11] INFO root fetch - processPackages [odoo14-addon-companyweb-base]: Downloading https://files.pythonhosted.org/packages/f8/0a/7c3acc82e45b0e89f884b8204b786d2225172d77d9a2147da7a8794c34f5/odoo14_addon_companyweb_base-14.0.1.1.5.dev1-py3-none-any.whl
+[2023-06-15 05:43:11] INFO root fetch - processPackages [odoo13-addon-companyweb-base]: Downloading https://files.pythonhosted.org/packages/47/b9/541beab7c03b43105cffdedb83a2bd590b9bea74cedf7e3343ad794d2320/odoo13_addon_companyweb_base-13.0.1.1.5.dev1-py3-none-any.whl
+[2023-06-15 05:43:11] INFO root fetch - processPackages [sqlglot]: executing diffoscope
+[2023-06-15 05:43:11] INFO root fetch - processPackages [sqlglot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlglot-9.0.5.tar.gz tmp/sqlglot-9.0.6.tar.gz --markdown 20230615/s/sqlglot/9.0.5-9.0.6/diff.md --exclude *.pyd
+[2023-06-15 05:43:11] INFO root fetch - processPackages [steam-sdk]: executing diffoscope
+[2023-06-15 05:43:11] INFO root fetch - processPackages [steam-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/steam-sdk-2023.6.8.tar.gz tmp/steam-sdk-2023.6.9.tar.gz --markdown 20230615/s/steam-sdk/2023.6.8-2023.6.9/diff.md --exclude *.pyd
+[2023-06-15 05:43:11] INFO root fetch - processPackages [odoo-addon-companyweb-base]: executing diffoscope
+[2023-06-15 05:43:11] INFO root fetch - processPackages [odoo-addon-companyweb-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_companyweb_base-16.0.1.0.6-py3-none-any.whl.zip tmp/odoo_addon_companyweb_base-16.0.1.0.7-py3-none-any.whl.zip --markdown 20230615/o/odoo-addon-companyweb-base/16.0.1.0.6-16.0.1.0.7/diff.md --exclude *.pyd
+[2023-06-15 05:43:11] INFO root fetch - processPackages [alibabacloud-btripopen20220520]: Downloading https://files.pythonhosted.org/packages/eb/c2/58cd4ff23d413239ba99c532f9636fa0aed5f0cd6779d1aacd7c4620b149/alibabacloud_btripopen20220520-1.1.4.tar.gz
+[2023-06-15 05:43:11] INFO root fetch - processPackages [odoo-addon-l10n-br-zip]: Downloading https://files.pythonhosted.org/packages/26/21/ddfce5860ceceb80f926460cdceafffa39165e75459c7ac51ab72549002f/odoo_addon_l10n_br_zip-16.0.1.0.1.1-py3-none-any.whl
+[2023-06-15 05:43:11] INFO root fetch - processPackages [odoo13-addon-companyweb-base]: executing diffoscope
+[2023-06-15 05:43:11] INFO root fetch - processPackages [odoo13-addon-companyweb-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_companyweb_base-13.0.1.1.4-py3-none-any.whl.zip tmp/odoo13_addon_companyweb_base-13.0.1.1.5.dev1-py3-none-any.whl.zip --markdown 20230615/o/odoo13-addon-companyweb-base/13.0.1.1.4-13.0.1.1.5.dev1/diff.md --exclude *.pyd
+[2023-06-15 05:43:11] INFO root fetch - processPackages [esphome]: Downloading https://files.pythonhosted.org/packages/8b/05/5625d15d0091907aaa8e41a484480a364b55ef19df54c4113a7e96ce9759/esphome-2023.6.0b1.tar.gz
+[2023-06-15 05:43:11] INFO root fetch - processPackages [alibabacloud-btripopen20220520-py2]: Downloading https://files.pythonhosted.org/packages/d2/8c/0e87f6ddb1fadd190117c6d829162f803b51f0dc5b573e2e8c0538aee456/alibabacloud_btripopen20220520_py2-1.1.4.tar.gz
+[2023-06-15 05:43:11] INFO root fetch - processPackages [skytemple-rust]: Downloading https://files.pythonhosted.org/packages/2e/14/98f1763c35c48e219f48f829d8036f8f921586298be0d5d4a1d9a5e7c640/skytemple-rust-1.6.0a1.tar.gz
+[2023-06-15 05:43:11] INFO root fetch - processPackages [alibabacloud-btripopen20220520]: executing diffoscope
+[2023-06-15 05:43:11] INFO root fetch - processPackages [alibabacloud-btripopen20220520]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_btripopen20220520-1.1.3.tar.gz tmp/alibabacloud_btripopen20220520-1.1.4.tar.gz --markdown 20230615/a/alibabacloud-btripopen20220520/1.1.3-1.1.4/diff.md --exclude *.pyd
+[2023-06-15 05:43:11] INFO root fetch - processPackages [odoo-addon-l10n-br-zip]: executing diffoscope
+[2023-06-15 05:43:11] INFO root fetch - processPackages [odoo-addon-l10n-br-zip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_br_zip-16.0.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_l10n_br_zip-16.0.1.0.1.1-py3-none-any.whl.zip --markdown 20230615/o/odoo-addon-l10n-br-zip/16.0.1.0.1-16.0.1.0.1.1/diff.md --exclude *.pyd
+[2023-06-15 05:43:11] INFO root fetch - processPackages [alibabacloud-btripopen20220520-py2]: executing diffoscope
+[2023-06-15 05:43:11] INFO root fetch - processPackages [alibabacloud-btripopen20220520-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_btripopen20220520_py2-1.1.3.tar.gz tmp/alibabacloud_btripopen20220520_py2-1.1.4.tar.gz --markdown 20230615/a/alibabacloud-btripopen20220520-py2/1.1.3-1.1.4/diff.md --exclude *.pyd
+[2023-06-15 05:43:11] INFO root fetch - processPackages [esphome]: executing diffoscope
+[2023-06-15 05:43:11] INFO root fetch - processPackages [esphome]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/esphome-2023.5.5.tar.gz tmp/esphome-2023.6.0b1.tar.gz --markdown 20230615/e/esphome/2023.5.5-2023.6.0b1/diff.md --exclude *.pyd
+[2023-06-15 05:43:11] INFO root fetch - processPackages [odoo14-addon-companyweb-base]: executing diffoscope
+[2023-06-15 05:43:11] INFO root fetch - processPackages [odoo14-addon-companyweb-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_companyweb_base-14.0.1.1.4-py3-none-any.whl.zip tmp/odoo14_addon_companyweb_base-14.0.1.1.5.dev1-py3-none-any.whl.zip --markdown 20230615/o/odoo14-addon-companyweb-base/14.0.1.1.4-14.0.1.1.5.dev1/diff.md --exclude *.pyd
+[2023-06-15 05:43:11] INFO root fetch - processPackages [skytemple-rust]: executing diffoscope
+[2023-06-15 05:43:11] INFO root fetch - processPackages [skytemple-rust]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skytemple_rust-1.5.2-cp39-cp39-win_amd64.whl.zip tmp/skytemple-rust-1.6.0a1.tar.gz --markdown 20230615/s/skytemple-rust/1.5.2-1.6.0a1/diff.md --exclude *.pyd
+[2023-06-15 05:43:13] INFO root fetch - processPackages [odoo-addon-l10n-br-zip]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_br_zip-16.0.1.0.1-py3-none-any.whl.zip]
+[2023-06-15 05:43:13] INFO root fetch - processPackages [odoo-addon-l10n-br-zip]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_br_zip-16.0.1.0.1.1-py3-none-any.whl.zip]
+[2023-06-15 05:43:13] INFO root fetch - processPackages [odoo-addon-l10n-br-zip]: Start processing: odoo-addon-l10n-br-crm
+[2023-06-15 05:43:13] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-br-zip]: success
+[2023-06-15 05:43:13] INFO root fetch - processPackages [odoo-addon-l10n-br-crm]: New version: [16.0.1.0.0.5] Old Version: [16.0.1.0.0.4]
+[2023-06-15 05:43:13] INFO root fetch - processPackages [odoo-addon-l10n-br-crm]: Downloading https://files.pythonhosted.org/packages/9b/7f/2c42b63351f8e18f25aa043153523dc9165596618730a4c8fe448da6b858/odoo_addon_l10n_br_crm-16.0.1.0.0.4-py3-none-any.whl
+[2023-06-15 05:43:13] INFO root fetch - processPackages [odoo-addon-companyweb-base]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_companyweb_base-16.0.1.0.6-py3-none-any.whl.zip]
+[2023-06-15 05:43:13] INFO root fetch - processPackages [odoo-addon-companyweb-base]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_companyweb_base-16.0.1.0.7-py3-none-any.whl.zip]
+[2023-06-15 05:43:13] INFO root fetch - processPackages [odoo-addon-companyweb-base]: Start processing: odoo-addon-l10n-br-stock
+[2023-06-15 05:43:13] INFO root fetch - main [MainThread]: End processing [odoo-addon-companyweb-base]: success
+[2023-06-15 05:43:13] INFO root fetch - processPackages [odoo-addon-l10n-br-stock]: New version: [16.0.1.0.1.1] Old Version: [16.0.1.0.1]
+[2023-06-15 05:43:13] INFO root fetch - processPackages [sqlglot]: Remove: archive file [/home/abi/fetcher/tmp/sqlglot-9.0.5.tar.gz]
+[2023-06-15 05:43:13] INFO root fetch - processPackages [sqlglot]: Remove: archive file [/home/abi/fetcher/tmp/sqlglot-9.0.6.tar.gz]
+[2023-06-15 05:43:13] INFO root fetch - processPackages [sqlglot]: Start processing: odoo-addon-l10n-br-coa
+[2023-06-15 05:43:13] INFO root fetch - main [MainThread]: End processing [sqlglot]: success
+[2023-06-15 05:43:13] INFO root fetch - processPackages [odoo-addon-l10n-br-coa]: New version: [16.0.1.0.0.8] Old Version: [16.0.1.0.0.7]
+[2023-06-15 05:43:13] INFO root fetch - processPackages [odoo-addon-l10n-br-stock]: Downloading https://files.pythonhosted.org/packages/fb/f2/0828530fc6ebb2e880e0add25e39d8eb36aae19c41d6ce765fbddc7f0f99/odoo_addon_l10n_br_stock-16.0.1.0.1-py3-none-any.whl
+[2023-06-15 05:43:14] INFO root fetch - processPackages [steam-sdk]: Remove: archive file [/home/abi/fetcher/tmp/steam-sdk-2023.6.8.tar.gz]
+[2023-06-15 05:43:14] INFO root fetch - processPackages [steam-sdk]: Remove: archive file [/home/abi/fetcher/tmp/steam-sdk-2023.6.9.tar.gz]
+[2023-06-15 05:43:14] INFO root fetch - processPackages [steam-sdk]: Start processing: WaterNetworkAnalysis
+[2023-06-15 05:43:14] INFO root fetch - main [MainThread]: End processing [steam-sdk]: success
+[2023-06-15 05:43:14] INFO root fetch - processPackages [odoo-addon-l10n-br-crm]: Downloading https://files.pythonhosted.org/packages/12/28/564f982a7c9157e57a103aca5af524d827897f5991fab132a9b461ac6fa0/odoo_addon_l10n_br_crm-16.0.1.0.0.5-py3-none-any.whl
+[2023-06-15 05:43:14] INFO root fetch - processPackages [WaterNetworkAnalysis]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-15 05:43:14] INFO root fetch - processPackages [odoo13-addon-companyweb-base]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_companyweb_base-13.0.1.1.4-py3-none-any.whl.zip]
+[2023-06-15 05:43:14] INFO root fetch - processPackages [odoo13-addon-companyweb-base]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_companyweb_base-13.0.1.1.5.dev1-py3-none-any.whl.zip]
+[2023-06-15 05:43:14] INFO root fetch - main [MainThread]: End processing [odoo13-addon-companyweb-base]: success
+[2023-06-15 05:43:14] INFO root fetch - processPackages [odoo-addon-l10n-br-crm]: executing diffoscope
+[2023-06-15 05:43:14] INFO root fetch - processPackages [odoo-addon-l10n-br-crm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_br_crm-16.0.1.0.0.4-py3-none-any.whl.zip tmp/odoo_addon_l10n_br_crm-16.0.1.0.0.5-py3-none-any.whl.zip --markdown 20230615/o/odoo-addon-l10n-br-crm/16.0.1.0.0.4-16.0.1.0.0.5/diff.md --exclude *.pyd
+[2023-06-15 05:43:14] INFO root fetch - processPackages [odoo-addon-l10n-br-coa]: Downloading https://files.pythonhosted.org/packages/01/7e/a4e91bf348b3c05f2659c6e7ec052b767498b6c2bfc5d48216c05a5f527b/odoo_addon_l10n_br_coa-16.0.1.0.0.7-py3-none-any.whl
+[2023-06-15 05:43:14] INFO root fetch - processPackages [odoo14-addon-companyweb-base]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_companyweb_base-14.0.1.1.4-py3-none-any.whl.zip]
+[2023-06-15 05:43:14] INFO root fetch - processPackages [odoo14-addon-companyweb-base]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_companyweb_base-14.0.1.1.5.dev1-py3-none-any.whl.zip]
+[2023-06-15 05:43:14] INFO root fetch - main [MainThread]: End processing [odoo14-addon-companyweb-base]: success
+[2023-06-15 05:43:14] INFO root fetch - processPackages [WaterNetworkAnalysis]: Downloading https://files.pythonhosted.org/packages/9e/1a/b8871c3e2053269e74257a1adfa27b19bf2b6bb9c65e26a1015ab1338a34/WaterNetworkAnalysis-0.1.1.tar.gz
+[2023-06-15 05:43:14] INFO root fetch - processPackages [odoo-addon-l10n-br-stock]: Downloading https://files.pythonhosted.org/packages/21/f5/fcf28cc8e4cd834d9519bb7967c39043675c4c6466e787392c4f58ae1b64/odoo_addon_l10n_br_stock-16.0.1.0.1.1-py3-none-any.whl
+[2023-06-15 05:43:14] INFO root fetch - processPackages [skytemple-rust]: Remove: archive file [/home/abi/fetcher/tmp/skytemple_rust-1.5.2-cp39-cp39-win_amd64.whl.zip]
+[2023-06-15 05:43:14] INFO root fetch - processPackages [skytemple-rust]: Remove: archive file [/home/abi/fetcher/tmp/skytemple-rust-1.6.0a1.tar.gz]
+[2023-06-15 05:43:14] INFO root fetch - main [MainThread]: End processing [skytemple-rust]: success
+[2023-06-15 05:43:14] INFO root fetch - processPackages [odoo-addon-l10n-br-stock]: executing diffoscope
+[2023-06-15 05:43:14] INFO root fetch - processPackages [odoo-addon-l10n-br-stock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_br_stock-16.0.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_l10n_br_stock-16.0.1.0.1.1-py3-none-any.whl.zip --markdown 20230615/o/odoo-addon-l10n-br-stock/16.0.1.0.1-16.0.1.0.1.1/diff.md --exclude *.pyd
+[2023-06-15 05:43:14] INFO root fetch - processPackages [odoo-addon-l10n-br-coa]: Downloading https://files.pythonhosted.org/packages/af/3e/a0f0ae994abdbc9b97f79f2fc483344f7179c303a4a3d525c643f1b9bcfa/odoo_addon_l10n_br_coa-16.0.1.0.0.8-py3-none-any.whl
+[2023-06-15 05:43:14] INFO root fetch - processPackages [odoo-addon-l10n-br-coa]: executing diffoscope
+[2023-06-15 05:43:14] INFO root fetch - processPackages [odoo-addon-l10n-br-coa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_br_coa-16.0.1.0.0.7-py3-none-any.whl.zip tmp/odoo_addon_l10n_br_coa-16.0.1.0.0.8-py3-none-any.whl.zip --markdown 20230615/o/odoo-addon-l10n-br-coa/16.0.1.0.0.7-16.0.1.0.0.8/diff.md --exclude *.pyd
+[2023-06-15 05:43:14] INFO root fetch - processPackages [WaterNetworkAnalysis]: Downloading https://files.pythonhosted.org/packages/11/bc/db5ceb9af4632a37d16497436a888d2d69a8ca0aeca2f519e222c29f4854/WaterNetworkAnalysis-0.1.2.tar.gz
+[2023-06-15 05:43:14] INFO root fetch - processPackages [WaterNetworkAnalysis]: executing diffoscope
+[2023-06-15 05:43:14] INFO root fetch - processPackages [WaterNetworkAnalysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/WaterNetworkAnalysis-0.1.1.tar.gz tmp/WaterNetworkAnalysis-0.1.2.tar.gz --markdown 20230615/W/WaterNetworkAnalysis/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-15 05:43:15] INFO root fetch - processPackages [odoo-addon-l10n-br-crm]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_br_crm-16.0.1.0.0.4-py3-none-any.whl.zip]
+[2023-06-15 05:43:15] INFO root fetch - processPackages [odoo-addon-l10n-br-crm]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_br_crm-16.0.1.0.0.5-py3-none-any.whl.zip]
+[2023-06-15 05:43:15] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-br-crm]: success
+[2023-06-15 05:43:15] INFO root fetch - processPackages [odoo-addon-l10n-br-stock]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_br_stock-16.0.1.0.1-py3-none-any.whl.zip]
+[2023-06-15 05:43:15] INFO root fetch - processPackages [odoo-addon-l10n-br-stock]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_br_stock-16.0.1.0.1.1-py3-none-any.whl.zip]
+[2023-06-15 05:43:15] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-br-stock]: success
+[2023-06-15 05:43:15] INFO root fetch - processPackages [odoo-addon-l10n-br-coa]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_br_coa-16.0.1.0.0.7-py3-none-any.whl.zip]
+[2023-06-15 05:43:15] INFO root fetch - processPackages [odoo-addon-l10n-br-coa]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_br_coa-16.0.1.0.0.8-py3-none-any.whl.zip]
+[2023-06-15 05:43:15] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-br-coa]: success
+[2023-06-15 05:43:15] INFO root fetch - processPackages [WaterNetworkAnalysis]: Remove: archive file [/home/abi/fetcher/tmp/WaterNetworkAnalysis-0.1.1.tar.gz]
+[2023-06-15 05:43:15] INFO root fetch - processPackages [WaterNetworkAnalysis]: Remove: archive file [/home/abi/fetcher/tmp/WaterNetworkAnalysis-0.1.2.tar.gz]
+[2023-06-15 05:43:15] INFO root fetch - main [MainThread]: End processing [WaterNetworkAnalysis]: success
+[2023-06-15 05:43:16] INFO root fetch - processPackages [alibabacloud-btripopen20220520-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_btripopen20220520_py2-1.1.3.tar.gz]
+[2023-06-15 05:43:16] INFO root fetch - processPackages [alibabacloud-btripopen20220520-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_btripopen20220520_py2-1.1.4.tar.gz]
+[2023-06-15 05:43:16] INFO root fetch - main [MainThread]: End processing [alibabacloud-btripopen20220520-py2]: success
+[2023-06-15 05:43:17] INFO root fetch - processPackages [alibabacloud-btripopen20220520]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_btripopen20220520-1.1.3.tar.gz]
+[2023-06-15 05:43:17] INFO root fetch - processPackages [alibabacloud-btripopen20220520]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_btripopen20220520-1.1.4.tar.gz]
+[2023-06-15 05:43:17] INFO root fetch - main [MainThread]: End processing [alibabacloud-btripopen20220520]: success
+[2023-06-15 05:44:03] INFO root fetch - processPackages [esphome]: Remove: archive file [/home/abi/fetcher/tmp/esphome-2023.5.5.tar.gz]
+[2023-06-15 05:44:03] INFO root fetch - processPackages [esphome]: Remove: archive file [/home/abi/fetcher/tmp/esphome-2023.6.0b1.tar.gz]
+[2023-06-15 05:44:03] INFO root fetch - main [MainThread]: End processing [esphome]: success
+[2023-06-15 05:44:03] INFO root fetch - main [MainThread]: Store serial: [18510827]
