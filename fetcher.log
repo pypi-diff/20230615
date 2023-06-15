@@ -20958,3 +20958,309 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-06-15 13:42:33] ERROR root fetch - processPackages [ais-dom]: Timeout during execution of pkgdiff
 [2023-06-15 13:42:33] INFO root fetch - main [MainThread]: End processing [ais-dom] error
 [2023-06-15 13:42:33] INFO root fetch - main [MainThread]: Store serial: [18515472]
+[2023-06-15 13:47:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18515472]
+[2023-06-15 13:47:43] INFO root fetch - main [MainThread]: Found 35 changed packages
+[2023-06-15 13:47:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdktf-cdktf-provider-vsphere
+[2023-06-15 13:47:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: openapi-spec-validator
+[2023-06-15 13:47:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: numerical-py
+[2023-06-15 13:47:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: datajudge
+[2023-06-15 13:47:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdktf-cdktf-provider-vault
+[2023-06-15 13:47:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdktf-cdktf-provider-snowflake
+[2023-06-15 13:47:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: phonoLAMMPS
+[2023-06-15 13:47:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: zen-models
+[2023-06-15 13:47:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cdktf-cdktf-provider-opentelekomcloud
+[2023-06-15 13:47:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: coloquinte
+[2023-06-15 13:47:43] INFO root fetch - processPackages [datajudge]: New version: [1.8.0] Old Version: [1.7.0]
+[2023-06-15 13:47:43] INFO root fetch - processPackages [coloquinte]: New version: [0.3.1] Old Version: [0.2.0]
+[2023-06-15 13:47:43] INFO root fetch - processPackages [openapi-spec-validator]: New version: [0.6.0a1] Old Version: [0.5.7]
+[2023-06-15 13:47:43] INFO root fetch - processPackages [numerical-py]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-15 13:47:43] INFO root fetch - processPackages [phonoLAMMPS]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-06-15 13:47:43] WARNING root fetch - processPackages [zen-models]: Skipping, unable to determine old version
+[2023-06-15 13:47:43] INFO root fetch - processPackages [zen-models]: Start processing: CodeChat-Server
+[2023-06-15 13:47:43] INFO root fetch - main [MainThread]: End processing [zen-models] error
+[2023-06-15 13:47:43] INFO root fetch - processPackages [cdktf-cdktf-provider-snowflake]: New version: [7.0.0] Old Version: [6.0.5]
+[2023-06-15 13:47:43] INFO root fetch - processPackages [cdktf-cdktf-provider-vsphere]: New version: [5.0.0] Old Version: [4.0.2]
+[2023-06-15 13:47:43] INFO root fetch - processPackages [cdktf-cdktf-provider-vault]: New version: [8.0.0] Old Version: [7.0.4]
+[2023-06-15 13:47:43] INFO root fetch - processPackages [cdktf-cdktf-provider-opentelekomcloud]: New version: [7.0.0] Old Version: [6.0.5]
+[2023-06-15 13:47:43] INFO root fetch - processPackages [CodeChat-Server]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-15 13:47:43] INFO root fetch - processPackages [openapi-spec-validator]: Downloading https://files.pythonhosted.org/packages/27/e5/9fe67dfd403777d500abb5cd650c16ef9d4918a6c12e87731c3a4feeb4ff/openapi_spec_validator-0.5.7.tar.gz
+[2023-06-15 13:47:43] INFO root fetch - processPackages [datajudge]: Downloading https://files.pythonhosted.org/packages/71/71/961c447af9b0c91f23f84c9227ed97d530ced6b1fc8391e4837ed2a8c0f3/datajudge-1.7.0.tar.gz
+[2023-06-15 13:47:43] INFO root fetch - processPackages [phonoLAMMPS]: Downloading https://files.pythonhosted.org/packages/d5/25/b93df833761e2fec3c228c18b039f55d0577b0b0c8f711b5aa9b26f65693/phonoLAMMPS-0.9.0.tar.gz
+[2023-06-15 13:47:43] INFO root fetch - processPackages [numerical-py]: Downloading https://files.pythonhosted.org/packages/1d/de/1646bfffd31b37c02f76dd709f9c00e9f79df74282ab8379237197ee3794/numerical_py-0.0.8.tar.gz
+[2023-06-15 13:47:43] INFO root fetch - processPackages [coloquinte]: Downloading https://files.pythonhosted.org/packages/de/54/d3b9a0519d81f6875533a5de22a50f8d6fecfa3ce336755aa34a260be8d9/coloquinte-0.2.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-15 13:47:43] INFO root fetch - processPackages [CodeChat-Server]: Downloading https://files.pythonhosted.org/packages/e8/dc/798a7f20ee21120a405cdac61af471c81b0847a1d67336b334c60e7aeab7/CodeChat_Server-0.2.8.tar.gz
+[2023-06-15 13:47:43] INFO root fetch - processPackages [cdktf-cdktf-provider-snowflake]: Downloading https://files.pythonhosted.org/packages/ec/ca/f34f1bca178e45d76cc57e169532909d6f56dcca4d5e991c3be44a7e4aa4/cdktf-cdktf-provider-snowflake-6.0.5.tar.gz
+[2023-06-15 13:47:43] INFO root fetch - processPackages [cdktf-cdktf-provider-vsphere]: Downloading https://files.pythonhosted.org/packages/71/1b/79e550f50f9e6855d67f239d58e7602a68202df5c7a778ee4c6137c6cf15/cdktf-cdktf-provider-vsphere-4.0.2.tar.gz
+[2023-06-15 13:47:43] INFO root fetch - processPackages [cdktf-cdktf-provider-opentelekomcloud]: Downloading https://files.pythonhosted.org/packages/42/4d/18c782f0da185388bde480e82360671a7797aa915b9d737008c60e93b1e0/cdktf-cdktf-provider-opentelekomcloud-6.0.5.tar.gz
+[2023-06-15 13:47:43] INFO root fetch - processPackages [cdktf-cdktf-provider-vault]: Downloading https://files.pythonhosted.org/packages/f8/22/28e6586838cb54745fadee000daa77a9283c9ff851e0d613c3a2e8b4c3f4/cdktf-cdktf-provider-vault-7.0.4.tar.gz
+[2023-06-15 13:47:44] INFO root fetch - processPackages [numerical-py]: Downloading https://files.pythonhosted.org/packages/95/1d/7677791c6175f40bd4a70e667ae838300671845f99330142d2e9a3d9f7f8/numerical_py-0.0.9.tar.gz
+[2023-06-15 13:47:44] INFO root fetch - processPackages [openapi-spec-validator]: Downloading https://files.pythonhosted.org/packages/cd/69/f17be3de82b1c4967c2fbe6458a36b9e35daecb79372f57806ae3b0745bd/openapi_spec_validator-0.6.0a1.tar.gz
+[2023-06-15 13:47:44] INFO root fetch - processPackages [CodeChat-Server]: Downloading https://files.pythonhosted.org/packages/4e/37/2ec355690a21bc91dc40d4b16417c4a295e2b9917d1a3853d24d71d29b91/CodeChat_Server-0.2.9.tar.gz
+[2023-06-15 13:47:44] INFO root fetch - processPackages [datajudge]: Downloading https://files.pythonhosted.org/packages/b0/f4/0774d027ccdb842ff3b7a3049b9467f54daf7d4590da678a8680e7aa7edb/datajudge-1.8.0.tar.gz
+[2023-06-15 13:47:44] INFO root fetch - processPackages [numerical-py]: executing diffoscope
+[2023-06-15 13:47:44] INFO root fetch - processPackages [numerical-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/numerical_py-0.0.8.tar.gz tmp/numerical_py-0.0.9.tar.gz --markdown 20230615/n/numerical-py/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-15 13:47:44] INFO root fetch - processPackages [phonoLAMMPS]: Downloading https://files.pythonhosted.org/packages/b9/07/f3bd45557caf2a2e5a5eaf25062f196bd545fe34b98c921f807c564a1b22/phonoLAMMPS-0.9.1.tar.gz
+[2023-06-15 13:47:44] INFO root fetch - processPackages [CodeChat-Server]: executing diffoscope
+[2023-06-15 13:47:44] INFO root fetch - processPackages [CodeChat-Server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CodeChat_Server-0.2.8.tar.gz tmp/CodeChat_Server-0.2.9.tar.gz --markdown 20230615/C/CodeChat-Server/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-15 13:47:44] INFO root fetch - processPackages [datajudge]: executing diffoscope
+[2023-06-15 13:47:44] INFO root fetch - processPackages [datajudge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datajudge-1.7.0.tar.gz tmp/datajudge-1.8.0.tar.gz --markdown 20230615/d/datajudge/1.7.0-1.8.0/diff.md --exclude *.pyd
+[2023-06-15 13:47:44] INFO root fetch - processPackages [openapi-spec-validator]: executing diffoscope
+[2023-06-15 13:47:44] INFO root fetch - processPackages [openapi-spec-validator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openapi_spec_validator-0.5.7.tar.gz tmp/openapi_spec_validator-0.6.0a1.tar.gz --markdown 20230615/o/openapi-spec-validator/0.5.7-0.6.0a1/diff.md --exclude *.pyd
+[2023-06-15 13:47:44] INFO root fetch - processPackages [coloquinte]: Downloading https://files.pythonhosted.org/packages/a0/0c/1d037a18f92b8a3edaa3d8116581f7de59587918a2f5a8dc220897f3f062/coloquinte-0.3.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-15 13:47:44] INFO root fetch - processPackages [cdktf-cdktf-provider-vsphere]: Downloading https://files.pythonhosted.org/packages/2e/bb/418d94b3353ce2e2a34fc298eac53e48f19f186f6d4f2d05dd98222ccf82/cdktf-cdktf-provider-vsphere-5.0.0.tar.gz
+[2023-06-15 13:47:44] INFO root fetch - processPackages [phonoLAMMPS]: executing diffoscope
+[2023-06-15 13:47:44] INFO root fetch - processPackages [phonoLAMMPS]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phonoLAMMPS-0.9.0.tar.gz tmp/phonoLAMMPS-0.9.1.tar.gz --markdown 20230615/p/phonoLAMMPS/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-06-15 13:47:44] INFO root fetch - processPackages [cdktf-cdktf-provider-vsphere]: executing diffoscope
+[2023-06-15 13:47:44] INFO root fetch - processPackages [cdktf-cdktf-provider-vsphere]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdktf-provider-vsphere-4.0.2.tar.gz tmp/cdktf-cdktf-provider-vsphere-5.0.0.tar.gz --markdown 20230615/c/cdktf-cdktf-provider-vsphere/4.0.2-5.0.0/diff.md --exclude *.pyd
+[2023-06-15 13:47:44] INFO root fetch - processPackages [cdktf-cdktf-provider-snowflake]: Downloading https://files.pythonhosted.org/packages/d1/9b/7a6a1a793e56e8ccae08e393dfb01ef63b7a14b6b5d410f69a110c11ce56/cdktf-cdktf-provider-snowflake-7.0.0.tar.gz
+[2023-06-15 13:47:44] INFO root fetch - processPackages [coloquinte]: executing diffoscope
+[2023-06-15 13:47:44] INFO root fetch - processPackages [coloquinte]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coloquinte-0.2.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/coloquinte-0.3.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230615/c/coloquinte/0.2.0-0.3.1/diff.md --exclude *.pyd
+[2023-06-15 13:47:44] INFO root fetch - processPackages [cdktf-cdktf-provider-vault]: Downloading https://files.pythonhosted.org/packages/b1/3b/fbd57b9ed946e13e5d88688ee2d1afaf74b7717119b18d62b1e156fbacf0/cdktf-cdktf-provider-vault-8.0.0.tar.gz
+[2023-06-15 13:47:44] INFO root fetch - processPackages [cdktf-cdktf-provider-snowflake]: executing diffoscope
+[2023-06-15 13:47:44] INFO root fetch - processPackages [cdktf-cdktf-provider-snowflake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdktf-provider-snowflake-6.0.5.tar.gz tmp/cdktf-cdktf-provider-snowflake-7.0.0.tar.gz --markdown 20230615/c/cdktf-cdktf-provider-snowflake/6.0.5-7.0.0/diff.md --exclude *.pyd
+[2023-06-15 13:47:44] INFO root fetch - processPackages [cdktf-cdktf-provider-opentelekomcloud]: Downloading https://files.pythonhosted.org/packages/0f/c1/8f1602e8ce629ce481c1a4a06cc7354bb02b1d65abc7fd2d56c2f3e320d5/cdktf-cdktf-provider-opentelekomcloud-7.0.0.tar.gz
+[2023-06-15 13:47:44] INFO root fetch - processPackages [cdktf-cdktf-provider-vault]: executing diffoscope
+[2023-06-15 13:47:44] INFO root fetch - processPackages [cdktf-cdktf-provider-vault]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdktf-provider-vault-7.0.4.tar.gz tmp/cdktf-cdktf-provider-vault-8.0.0.tar.gz --markdown 20230615/c/cdktf-cdktf-provider-vault/7.0.4-8.0.0/diff.md --exclude *.pyd
+[2023-06-15 13:47:45] INFO root fetch - processPackages [numerical-py]: Remove: archive file [/home/abi/fetcher/tmp/numerical_py-0.0.8.tar.gz]
+[2023-06-15 13:47:45] INFO root fetch - processPackages [numerical-py]: Remove: archive file [/home/abi/fetcher/tmp/numerical_py-0.0.9.tar.gz]
+[2023-06-15 13:47:45] INFO root fetch - processPackages [numerical-py]: Start processing: cpumodel
+[2023-06-15 13:47:45] INFO root fetch - main [MainThread]: End processing [numerical-py]: success
+[2023-06-15 13:47:45] INFO root fetch - processPackages [cpumodel]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-15 13:47:45] INFO root fetch - processPackages [cdktf-cdktf-provider-opentelekomcloud]: executing diffoscope
+[2023-06-15 13:47:45] INFO root fetch - processPackages [cdktf-cdktf-provider-opentelekomcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdktf-provider-opentelekomcloud-6.0.5.tar.gz tmp/cdktf-cdktf-provider-opentelekomcloud-7.0.0.tar.gz --markdown 20230615/c/cdktf-cdktf-provider-opentelekomcloud/6.0.5-7.0.0/diff.md --exclude *.pyd
+[2023-06-15 13:47:45] INFO root fetch - processPackages [phonoLAMMPS]: Remove: archive file [/home/abi/fetcher/tmp/phonoLAMMPS-0.9.0.tar.gz]
+[2023-06-15 13:47:45] INFO root fetch - processPackages [cpumodel]: Downloading https://files.pythonhosted.org/packages/15/2c/378ef87c05be69a84f652cc2b7c9335aa5bb47a350b2e3513a687404284e/cpumodel-0.0.1.tar.gz
+[2023-06-15 13:47:45] INFO root fetch - processPackages [phonoLAMMPS]: Remove: archive file [/home/abi/fetcher/tmp/phonoLAMMPS-0.9.1.tar.gz]
+[2023-06-15 13:47:45] INFO root fetch - processPackages [phonoLAMMPS]: Start processing: cdktf-cdktf-provider-kubernetes
+[2023-06-15 13:47:45] INFO root fetch - main [MainThread]: End processing [phonoLAMMPS]: success
+[2023-06-15 13:47:45] INFO root fetch - processPackages [cdktf-cdktf-provider-kubernetes]: New version: [7.0.0] Old Version: [6.0.4]
+[2023-06-15 13:47:45] INFO root fetch - processPackages [cpumodel]: Downloading https://files.pythonhosted.org/packages/e3/27/8ab882a11038d51db71cade34325e63fe0e02585dcb11d0c8bcae4d4447c/cpumodel-0.0.2.tar.gz
+[2023-06-15 13:47:45] INFO root fetch - processPackages [cdktf-cdktf-provider-kubernetes]: Downloading https://files.pythonhosted.org/packages/f9/94/af83903195d027e95aeb253a140bf75b4fadf70cf8e756b4e40a0da55912/cdktf-cdktf-provider-kubernetes-6.0.4.tar.gz
+[2023-06-15 13:47:46] INFO root fetch - processPackages [cpumodel]: executing diffoscope
+[2023-06-15 13:47:46] INFO root fetch - processPackages [cpumodel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cpumodel-0.0.1.tar.gz tmp/cpumodel-0.0.2.tar.gz --markdown 20230615/c/cpumodel/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-15 13:47:46] WARNING root fetch - processPackages [cdktf-cdktf-provider-kubernetes]: Skipping package: exceeds size limit 14686692>=10485760
+[2023-06-15 13:47:46] INFO root fetch - processPackages [cdktf-cdktf-provider-kubernetes]: Start processing: pyees
+[2023-06-15 13:47:46] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-kubernetes] error
+[2023-06-15 13:47:46] INFO root fetch - processPackages [pyees]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-06-15 13:47:46] INFO root fetch - processPackages [pyees]: Downloading https://files.pythonhosted.org/packages/5a/57/c90799358ec60f8ed94ec6bd333f6df39ceef4cb63dafd6176f79fdac746/pyees-1.2.8.tar.gz
+[2023-06-15 13:47:46] INFO root fetch - processPackages [openapi-spec-validator]: Remove: archive file [/home/abi/fetcher/tmp/openapi_spec_validator-0.5.7.tar.gz]
+[2023-06-15 13:47:46] INFO root fetch - processPackages [openapi-spec-validator]: Remove: archive file [/home/abi/fetcher/tmp/openapi_spec_validator-0.6.0a1.tar.gz]
+[2023-06-15 13:47:46] INFO root fetch - processPackages [openapi-spec-validator]: Start processing: stackoverflowapithingy
+[2023-06-15 13:47:46] INFO root fetch - main [MainThread]: End processing [openapi-spec-validator]: success
+[2023-06-15 13:47:46] INFO root fetch - processPackages [cdktf-cdktf-provider-vsphere]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-vsphere-4.0.2.tar.gz]
+[2023-06-15 13:47:46] INFO root fetch - processPackages [cdktf-cdktf-provider-vsphere]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-vsphere-5.0.0.tar.gz]
+[2023-06-15 13:47:46] INFO root fetch - processPackages [cdktf-cdktf-provider-vsphere]: Start processing: pyre-check-nightly
+[2023-06-15 13:47:46] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-vsphere]: success
+[2023-06-15 13:47:46] INFO root fetch - processPackages [stackoverflowapithingy]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-06-15 13:47:46] INFO root fetch - processPackages [pyre-check-nightly]: New version: [0.0.101686827547] Old Version: [0.0.101686741063]
+[2023-06-15 13:47:46] INFO root fetch - processPackages [stackoverflowapithingy]: Downloading https://files.pythonhosted.org/packages/5e/7a/a9548cc8b44738e4bfbad196cc134fae82b63f1cae150d3a9b5a53ab4946/stackoverflowapithingy-0.1.5.tar.gz
+[2023-06-15 13:47:46] INFO root fetch - processPackages [pyees]: Downloading https://files.pythonhosted.org/packages/7d/a1/4f42b080da6cb1b9702a4b5652a7e9c781b873e83bbf0060483e975523b5/pyees-1.2.9.tar.gz
+[2023-06-15 13:47:46] INFO root fetch - processPackages [pyre-check-nightly]: Downloading https://files.pythonhosted.org/packages/67/b5/81c6001703b8db924d75a78cd274a551cf448883c3141ce21e554a3673b7/pyre-check-nightly-0.0.101686741063.tar.gz
+[2023-06-15 13:47:46] INFO root fetch - processPackages [pyees]: executing diffoscope
+[2023-06-15 13:47:46] INFO root fetch - processPackages [pyees]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyees-1.2.8.tar.gz tmp/pyees-1.2.9.tar.gz --markdown 20230615/p/pyees/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-06-15 13:47:46] WARNING root fetch - processPackages [pyre-check-nightly]: Skipping package: exceeds size limit 23502319>=10485760
+[2023-06-15 13:47:46] INFO root fetch - processPackages [pyre-check-nightly]: Start processing: repo-test-sdk
+[2023-06-15 13:47:46] INFO root fetch - main [MainThread]: End processing [pyre-check-nightly] error
+[2023-06-15 13:47:46] INFO root fetch - processPackages [repo-test-sdk]: New version: [7.7.7] Old Version: [2.0.0]
+[2023-06-15 13:47:46] INFO root fetch - processPackages [stackoverflowapithingy]: Downloading https://files.pythonhosted.org/packages/15/39/195df52d24f71746bded81ce06de1b340e54faab7d05836f8d272f4cd5e2/stackoverflowapithingy-0.1.6.tar.gz
+[2023-06-15 13:47:46] INFO root fetch - processPackages [stackoverflowapithingy]: executing diffoscope
+[2023-06-15 13:47:46] INFO root fetch - processPackages [stackoverflowapithingy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stackoverflowapithingy-0.1.5.tar.gz tmp/stackoverflowapithingy-0.1.6.tar.gz --markdown 20230615/s/stackoverflowapithingy/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-06-15 13:47:46] INFO root fetch - processPackages [repo-test-sdk]: Downloading https://files.pythonhosted.org/packages/74/4a/ddb9f19ea3c90523f5f4284be76e64e3086e616db7869758fbddace9aefd/repo-test-sdk-2.0.0.tar.gz
+[2023-06-15 13:47:47] INFO root fetch - processPackages [CodeChat-Server]: Remove: archive file [/home/abi/fetcher/tmp/CodeChat_Server-0.2.8.tar.gz]
+[2023-06-15 13:47:47] INFO root fetch - processPackages [CodeChat-Server]: Remove: archive file [/home/abi/fetcher/tmp/CodeChat_Server-0.2.9.tar.gz]
+[2023-06-15 13:47:47] INFO root fetch - processPackages [CodeChat-Server]: Start processing: edubot
+[2023-06-15 13:47:47] INFO root fetch - main [MainThread]: End processing [CodeChat-Server]: success
+[2023-06-15 13:47:47] INFO root fetch - processPackages [edubot]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-06-15 13:47:47] INFO root fetch - processPackages [cpumodel]: Remove: archive file [/home/abi/fetcher/tmp/cpumodel-0.0.1.tar.gz]
+[2023-06-15 13:47:47] INFO root fetch - processPackages [cpumodel]: Remove: archive file [/home/abi/fetcher/tmp/cpumodel-0.0.2.tar.gz]
+[2023-06-15 13:47:47] INFO root fetch - processPackages [cpumodel]: Start processing: stackoverflowapithingy
+[2023-06-15 13:47:47] INFO root fetch - main [MainThread]: End processing [cpumodel]: success
+[2023-06-15 13:47:47] INFO root fetch - processPackages [stackoverflowapithingy]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-06-15 13:47:47] INFO root fetch - processPackages [repo-test-sdk]: Downloading https://files.pythonhosted.org/packages/e4/36/ed542bb196cb040c5009f865e2e7b9e647bb49a7147f695b91489c706a4b/repo-test-sdk-7.7.7.tar.gz
+[2023-06-15 13:47:47] INFO root fetch - processPackages [repo-test-sdk]: executing diffoscope
+[2023-06-15 13:47:47] INFO root fetch - processPackages [repo-test-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/repo-test-sdk-2.0.0.tar.gz tmp/repo-test-sdk-7.7.7.tar.gz --markdown 20230615/r/repo-test-sdk/2.0.0-7.7.7/diff.md --exclude *.pyd
+[2023-06-15 13:47:47] INFO root fetch - processPackages [edubot]: Downloading https://files.pythonhosted.org/packages/15/d1/6b94379f3acf02c3da1e3fbf9b430906d5843d6afc148d80697a1aa40040/edubot-0.7.0.tar.gz
+[2023-06-15 13:47:47] INFO root fetch - processPackages [stackoverflowapithingy]: executing diffoscope
+[2023-06-15 13:47:47] INFO root fetch - processPackages [stackoverflowapithingy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stackoverflowapithingy-0.1.5.tar.gz tmp/stackoverflowapithingy-0.1.6.tar.gz --markdown 20230615/s/stackoverflowapithingy/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-06-15 13:47:47] INFO root fetch - processPackages [edubot]: Downloading https://files.pythonhosted.org/packages/22/f2/8363e7c09484bd8d11710f95ba649ee708ebc10d815e3e98d896548cf960/edubot-0.7.1.tar.gz
+[2023-06-15 13:47:47] INFO root fetch - processPackages [edubot]: executing diffoscope
+[2023-06-15 13:47:47] INFO root fetch - processPackages [edubot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edubot-0.7.0.tar.gz tmp/edubot-0.7.1.tar.gz --markdown 20230615/e/edubot/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2023-06-15 13:47:48] INFO root fetch - processPackages [cdktf-cdktf-provider-vault]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-vault-7.0.4.tar.gz]
+[2023-06-15 13:47:48] INFO root fetch - processPackages [cdktf-cdktf-provider-vault]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-vault-8.0.0.tar.gz]
+[2023-06-15 13:47:48] INFO root fetch - processPackages [cdktf-cdktf-provider-vault]: Start processing: zonesmart-utils
+[2023-06-15 13:47:48] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-vault]: success
+[2023-06-15 13:47:48] INFO root fetch - processPackages [zonesmart-utils]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-06-15 13:47:48] INFO root fetch - processPackages [stackoverflowapithingy]: Remove: archive file [/home/abi/fetcher/tmp/stackoverflowapithingy-0.1.5.tar.gz]
+[2023-06-15 13:47:48] INFO root fetch - processPackages [stackoverflowapithingy]: Remove: archive file [/home/abi/fetcher/tmp/stackoverflowapithingy-0.1.6.tar.gz]
+[2023-06-15 13:47:48] INFO root fetch - processPackages [stackoverflowapithingy]: Start processing: composabl-ray-dev
+[2023-06-15 13:47:48] INFO root fetch - main [MainThread]: End processing [stackoverflowapithingy]: success
+[2023-06-15 13:47:48] INFO root fetch - processPackages [composabl-ray-dev]: New version: [0.2.1.dev95] Old Version: [0.2.1.dev85]
+[2023-06-15 13:47:48] INFO root fetch - processPackages [pyees]: Remove: archive file [/home/abi/fetcher/tmp/pyees-1.2.8.tar.gz]
+[2023-06-15 13:47:48] INFO root fetch - processPackages [pyees]: Remove: archive file [/home/abi/fetcher/tmp/pyees-1.2.9.tar.gz]
+[2023-06-15 13:47:48] INFO root fetch - processPackages [pyees]: Start processing: uniem
+[2023-06-15 13:47:48] INFO root fetch - main [MainThread]: End processing [pyees]: success
+[2023-06-15 13:47:48] INFO root fetch - processPackages [uniem]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-06-15 13:47:48] INFO root fetch - processPackages [zonesmart-utils]: Downloading https://files.pythonhosted.org/packages/1c/4c/b12ae3ccd4f432f689ad7afddb3d8926c75e748844b97a95049491aa4f56/zonesmart-utils-0.3.1.tar.gz
+[2023-06-15 13:47:48] INFO root fetch - processPackages [composabl-ray-dev]: Downloading https://files.pythonhosted.org/packages/6d/92/79065d36761bd34abd22e6a4c5bc64234065bae2a79ebed82a4ed00a7541/composabl_ray_dev-0.2.1.dev85-cp38-cp38-musllinux_1_1_x86_64.whl
+[2023-06-15 13:47:48] ERROR root fetch - processPackages [stackoverflowapithingy]: Diffoscope failed: Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 66, in compare_root_paths
+    file1 = specialize(FilesystemFile(path1, container=container1))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/specialize.py", line 54, in specialize
+    if try_recognize(file, cls, cls.recognizes):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/specialize.py", line 37, in try_recognize
+    if not recognizes(file):
+           ^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/missing_file.py", line 43, in recognizes
+    assert Config().new_file, f"{file.name} does not exist"
+AssertionError: tmp/stackoverflowapithingy-0.1.5.tar.gz does not exist
+
+[2023-06-15 13:47:48] INFO root fetch - processPackages [stackoverflowapithingy]: Start processing: agenta
+[2023-06-15 13:47:48] INFO root fetch - main [MainThread]: End processing [stackoverflowapithingy] error
+[2023-06-15 13:47:48] INFO root fetch - processPackages [agenta]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-06-15 13:47:48] INFO root fetch - processPackages [uniem]: Downloading https://files.pythonhosted.org/packages/f4/56/7ff1355f5ca027829834663741cbe42d533b1784154fa6d4b17cd9c9f47c/uniem-0.1.1.tar.gz
+[2023-06-15 13:47:48] INFO root fetch - processPackages [datajudge]: Remove: archive file [/home/abi/fetcher/tmp/datajudge-1.7.0.tar.gz]
+[2023-06-15 13:47:48] INFO root fetch - processPackages [datajudge]: Remove: archive file [/home/abi/fetcher/tmp/datajudge-1.8.0.tar.gz]
+[2023-06-15 13:47:48] INFO root fetch - processPackages [datajudge]: Start processing: skga
+[2023-06-15 13:47:48] INFO root fetch - main [MainThread]: End processing [datajudge]: success
+[2023-06-15 13:47:48] INFO root fetch - processPackages [skga]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-15 13:47:48] INFO root fetch - processPackages [repo-test-sdk]: Remove: archive file [/home/abi/fetcher/tmp/repo-test-sdk-2.0.0.tar.gz]
+[2023-06-15 13:47:48] INFO root fetch - processPackages [repo-test-sdk]: Remove: archive file [/home/abi/fetcher/tmp/repo-test-sdk-7.7.7.tar.gz]
+[2023-06-15 13:47:48] INFO root fetch - processPackages [repo-test-sdk]: Start processing: yeref
+[2023-06-15 13:47:48] INFO root fetch - main [MainThread]: End processing [repo-test-sdk]: success
+[2023-06-15 13:47:48] INFO root fetch - processPackages [zonesmart-utils]: Downloading https://files.pythonhosted.org/packages/f2/68/e97074c3ae1c8c3c3482112c3e356475cc1d6aa9ddec5a842622948eb94c/zonesmart-utils-0.3.2.tar.gz
+[2023-06-15 13:47:48] INFO root fetch - processPackages [yeref]: New version: [0.1.98] Old Version: [0.1.96]
+[2023-06-15 13:47:48] INFO root fetch - processPackages [zonesmart-utils]: executing diffoscope
+[2023-06-15 13:47:48] INFO root fetch - processPackages [zonesmart-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zonesmart-utils-0.3.1.tar.gz tmp/zonesmart-utils-0.3.2.tar.gz --markdown 20230615/z/zonesmart-utils/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-06-15 13:47:48] INFO root fetch - processPackages [agenta]: Downloading https://files.pythonhosted.org/packages/98/a0/c4ef683fd8196b0c9b1cdfec6b7c2b438cc0063f9c0dff678286fdebaf2b/agenta-0.1.7.tar.gz
+[2023-06-15 13:47:48] INFO root fetch - processPackages [skga]: Downloading https://files.pythonhosted.org/packages/e9/e9/b7fe30c459d971a69080cd56a83b753b90bcfbb26b5dd8f057d1d08da132/skga-0.0.2.tar.gz
+[2023-06-15 13:47:48] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/80/26/5af690fa94dbd003265b7339c4e576ed1c16558f92c6afe692215d5b31b7/yeref-0.1.96.tar.gz
+[2023-06-15 13:47:48] INFO root fetch - processPackages [composabl-ray-dev]: Downloading https://files.pythonhosted.org/packages/bb/c2/f04b4f0892c7191424f5ebc8cf1a0805c8929af9fda123d07af4b0b3f365/composabl_ray_dev-0.2.1.dev95-cp38-cp38-musllinux_1_1_x86_64.whl
+[2023-06-15 13:47:49] INFO root fetch - processPackages [agenta]: Downloading https://files.pythonhosted.org/packages/a1/3b/53962d2540ae69229bd38185a0220af1a6e92b246d8c7d05ad9885e8322d/agenta-0.1.8.tar.gz
+[2023-06-15 13:47:49] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/7c/83/2ead914e0f63dd47a951410a84ac8214b7b6534a97785144d1b5a1895fa9/yeref-0.1.98.tar.gz
+[2023-06-15 13:47:49] INFO root fetch - processPackages [agenta]: executing diffoscope
+[2023-06-15 13:47:49] INFO root fetch - processPackages [agenta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agenta-0.1.7.tar.gz tmp/agenta-0.1.8.tar.gz --markdown 20230615/a/agenta/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-06-15 13:47:49] INFO root fetch - processPackages [uniem]: Downloading https://files.pythonhosted.org/packages/16/41/d9ae4afa52f5fdf4761ed44f7584c73c561f9b3da5fd497579e8fd3eb323/uniem-0.2.0.tar.gz
+[2023-06-15 13:47:49] INFO root fetch - processPackages [skga]: Downloading https://files.pythonhosted.org/packages/55/ae/b6c0dd63aea16dc9c08dfd5ec226c5fad64faaf4144caa3b6a34dbc3de2d/skga-0.0.3.tar.gz
+[2023-06-15 13:47:49] INFO root fetch - processPackages [uniem]: executing diffoscope
+[2023-06-15 13:47:49] INFO root fetch - processPackages [uniem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uniem-0.1.1.tar.gz tmp/uniem-0.2.0.tar.gz --markdown 20230615/u/uniem/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-06-15 13:47:49] INFO root fetch - processPackages [yeref]: executing diffoscope
+[2023-06-15 13:47:49] INFO root fetch - processPackages [yeref]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yeref-0.1.96.tar.gz tmp/yeref-0.1.98.tar.gz --markdown 20230615/y/yeref/0.1.96-0.1.98/diff.md --exclude *.pyd
+[2023-06-15 13:47:49] INFO root fetch - processPackages [edubot]: Remove: archive file [/home/abi/fetcher/tmp/edubot-0.7.0.tar.gz]
+[2023-06-15 13:47:49] INFO root fetch - processPackages [edubot]: Remove: archive file [/home/abi/fetcher/tmp/edubot-0.7.1.tar.gz]
+[2023-06-15 13:47:49] INFO root fetch - processPackages [edubot]: Start processing: bigdl-dllib-spark3
+[2023-06-15 13:47:49] INFO root fetch - main [MainThread]: End processing [edubot]: success
+[2023-06-15 13:47:49] INFO root fetch - processPackages [skga]: executing diffoscope
+[2023-06-15 13:47:49] INFO root fetch - processPackages [skga]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skga-0.0.2.tar.gz tmp/skga-0.0.3.tar.gz --markdown 20230615/s/skga/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-15 13:47:49] INFO root fetch - processPackages [bigdl-dllib-spark3]: New version: [2.4.0b20230615] Old Version: [2.4.0b20230614]
+[2023-06-15 13:47:49] INFO root fetch - processPackages [composabl-ray-dev]: executing diffoscope
+[2023-06-15 13:47:49] INFO root fetch - processPackages [composabl-ray-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composabl_ray_dev-0.2.1.dev85-cp38-cp38-musllinux_1_1_x86_64.whl.zip tmp/composabl_ray_dev-0.2.1.dev95-cp38-cp38-musllinux_1_1_x86_64.whl.zip --markdown 20230615/c/composabl-ray-dev/0.2.1.dev85-0.2.1.dev95/diff.md --exclude *.pyd
+[2023-06-15 13:47:49] INFO root fetch - processPackages [bigdl-dllib-spark3]: Downloading https://files.pythonhosted.org/packages/65/bc/2b295d697762cca249f6141c1dcfff53ba3cf70836f4d8bb795656ccc69d/bigdl-dllib-spark3-2.4.0b20230614.tar.gz
+[2023-06-15 13:47:49] WARNING root fetch - processPackages [bigdl-dllib-spark3]: Skipping package: exceeds size limit 61251967>=10485760
+[2023-06-15 13:47:49] INFO root fetch - processPackages [bigdl-dllib-spark3]: Start processing: bigdl-orca-spark3
+[2023-06-15 13:47:49] INFO root fetch - main [MainThread]: End processing [bigdl-dllib-spark3] error
+[2023-06-15 13:47:49] INFO root fetch - processPackages [bigdl-orca-spark3]: New version: [2.4.0b20230615] Old Version: [2.4.0b20230614]
+[2023-06-15 13:47:49] INFO root fetch - processPackages [cdktf-cdktf-provider-snowflake]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-snowflake-6.0.5.tar.gz]
+[2023-06-15 13:47:49] INFO root fetch - processPackages [cdktf-cdktf-provider-snowflake]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-snowflake-7.0.0.tar.gz]
+[2023-06-15 13:47:49] INFO root fetch - processPackages [cdktf-cdktf-provider-snowflake]: Start processing: sam-ml-py
+[2023-06-15 13:47:49] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-snowflake]: success
+[2023-06-15 13:47:49] WARNING root fetch - processPackages [sam-ml-py]: Skipping, unable to determine old version
+[2023-06-15 13:47:49] INFO root fetch - processPackages [sam-ml-py]: Start processing: trigger-count
+[2023-06-15 13:47:49] INFO root fetch - main [MainThread]: End processing [sam-ml-py] error
+[2023-06-15 13:47:49] INFO root fetch - processPackages [trigger-count]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-15 13:47:49] INFO root fetch - processPackages [bigdl-orca-spark3]: Downloading https://files.pythonhosted.org/packages/55/0a/0813dbbea1e67681618603d0d9b351445e5e8cce9d917feece1469ca7b75/bigdl_orca_spark3-2.4.0b20230614-py3-none-manylinux1_x86_64.whl
+[2023-06-15 13:47:49] INFO root fetch - processPackages [trigger-count]: Downloading https://files.pythonhosted.org/packages/7a/82/dba081ccd7f9c4fd71f3466850cb766136e7c007c6d43101eb596aac1f32/trigger_count-0.1.8.tar.gz
+[2023-06-15 13:47:50] INFO root fetch - processPackages [trigger-count]: Downloading https://files.pythonhosted.org/packages/2c/85/41067601037776196eb489197d97b65d5d99267ba4008f59efd801303843/trigger_count-0.1.9.tar.gz
+[2023-06-15 13:47:50] WARNING root fetch - processPackages [bigdl-orca-spark3]: Skipping package: exceeds size limit 20207900>=10485760
+[2023-06-15 13:47:50] INFO root fetch - processPackages [bigdl-orca-spark3]: Start processing: bigdl-friesian-spark3
+[2023-06-15 13:47:50] INFO root fetch - main [MainThread]: End processing [bigdl-orca-spark3] error
+[2023-06-15 13:47:50] INFO root fetch - processPackages [trigger-count]: executing diffoscope
+[2023-06-15 13:47:50] INFO root fetch - processPackages [trigger-count]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trigger_count-0.1.8.tar.gz tmp/trigger_count-0.1.9.tar.gz --markdown 20230615/t/trigger-count/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-15 13:47:50] INFO root fetch - processPackages [bigdl-friesian-spark3]: New version: [2.4.0b20230615] Old Version: [2.4.0b20230614]
+[2023-06-15 13:47:50] INFO root fetch - processPackages [agenta]: Remove: archive file [/home/abi/fetcher/tmp/agenta-0.1.7.tar.gz]
+[2023-06-15 13:47:50] INFO root fetch - processPackages [agenta]: Remove: archive file [/home/abi/fetcher/tmp/agenta-0.1.8.tar.gz]
+[2023-06-15 13:47:50] INFO root fetch - processPackages [agenta]: Start processing: bigdl-chronos-spark3
+[2023-06-15 13:47:50] INFO root fetch - main [MainThread]: End processing [agenta]: success
+[2023-06-15 13:47:50] INFO root fetch - processPackages [bigdl-chronos-spark3]: New version: [2.4.0b20230615] Old Version: [2.4.0b20230614]
+[2023-06-15 13:47:50] INFO root fetch - processPackages [uniem]: Remove: archive file [/home/abi/fetcher/tmp/uniem-0.1.1.tar.gz]
+[2023-06-15 13:47:50] INFO root fetch - processPackages [uniem]: Remove: archive file [/home/abi/fetcher/tmp/uniem-0.2.0.tar.gz]
+[2023-06-15 13:47:50] INFO root fetch - processPackages [uniem]: Start processing: bigdl-spark3
+[2023-06-15 13:47:50] INFO root fetch - main [MainThread]: End processing [uniem]: success
+[2023-06-15 13:47:50] INFO root fetch - processPackages [bigdl-spark3]: New version: [2.4.0b20230615] Old Version: [2.4.0b20230614]
+[2023-06-15 13:47:50] INFO root fetch - processPackages [bigdl-friesian-spark3]: Downloading https://files.pythonhosted.org/packages/2d/c3/1d3674cdc3f4f34f602a44a7c8dbc1442225991af1cf21fd0fa66694b65b/bigdl_friesian_spark3-2.4.0b20230614-py3-none-manylinux1_x86_64.whl
+[2023-06-15 13:47:50] INFO root fetch - processPackages [bigdl-chronos-spark3]: Downloading https://files.pythonhosted.org/packages/ff/5e/ffd152a1f85a77d0d0da8ea82fb6ccbb627d11208cca1c62296efc269648/bigdl_chronos_spark3-2.4.0b20230614-py3-none-manylinux1_x86_64.whl
+[2023-06-15 13:47:50] INFO root fetch - processPackages [bigdl-spark3]: Downloading https://files.pythonhosted.org/packages/2a/94/1921fb8481c38f500c6c134796a50207f263ae8ab6b8ab1920841ac1f892/bigdl_spark3-2.4.0b20230614-py3-none-manylinux1_x86_64.whl
+[2023-06-15 13:47:50] INFO root fetch - processPackages [bigdl-friesian-spark3]: Downloading https://files.pythonhosted.org/packages/ef/d0/5f900be70836cd638522f93a35925bd35d3abf12843003bd7bdce71054f8/bigdl_friesian_spark3-2.4.0b20230615-py3-none-manylinux1_x86_64.whl
+[2023-06-15 13:47:50] INFO root fetch - processPackages [bigdl-chronos-spark3]: Downloading https://files.pythonhosted.org/packages/ad/17/a97fccba18afab71195ca8046a5cbf04d259546d97c7ca4ad595ef12e821/bigdl_chronos_spark3-2.4.0b20230615-py3-none-manylinux1_x86_64.whl
+[2023-06-15 13:47:50] INFO root fetch - processPackages [skga]: Remove: archive file [/home/abi/fetcher/tmp/skga-0.0.2.tar.gz]
+[2023-06-15 13:47:50] INFO root fetch - processPackages [skga]: Remove: archive file [/home/abi/fetcher/tmp/skga-0.0.3.tar.gz]
+[2023-06-15 13:47:50] INFO root fetch - processPackages [skga]: Start processing: SamIdea
+[2023-06-15 13:47:50] INFO root fetch - main [MainThread]: End processing [skga]: success
+[2023-06-15 13:47:50] INFO root fetch - processPackages [SamIdea]: New version: [0.0.7] Old Version: [0.0.4]
+[2023-06-15 13:47:51] INFO root fetch - processPackages [bigdl-friesian-spark3]: executing diffoscope
+[2023-06-15 13:47:51] INFO root fetch - processPackages [bigdl-friesian-spark3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_friesian_spark3-2.4.0b20230614-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_friesian_spark3-2.4.0b20230615-py3-none-manylinux1_x86_64.whl.zip --markdown 20230615/b/bigdl-friesian-spark3/2.4.0b20230614-2.4.0b20230615/diff.md --exclude *.pyd
+[2023-06-15 13:47:51] INFO root fetch - processPackages [bigdl-spark3]: Downloading https://files.pythonhosted.org/packages/29/7e/2510b50f703bef9afd8cb984e97a3980070673642e4daa7d8ab37307ed4f/bigdl_spark3-2.4.0b20230615-py3-none-manylinux1_x86_64.whl
+[2023-06-15 13:47:51] INFO root fetch - processPackages [bigdl-chronos-spark3]: executing diffoscope
+[2023-06-15 13:47:51] INFO root fetch - processPackages [bigdl-chronos-spark3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_chronos_spark3-2.4.0b20230614-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_chronos_spark3-2.4.0b20230615-py3-none-manylinux1_x86_64.whl.zip --markdown 20230615/b/bigdl-chronos-spark3/2.4.0b20230614-2.4.0b20230615/diff.md --exclude *.pyd
+[2023-06-15 13:47:51] INFO root fetch - processPackages [bigdl-spark3]: executing diffoscope
+[2023-06-15 13:47:51] INFO root fetch - processPackages [bigdl-spark3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_spark3-2.4.0b20230614-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_spark3-2.4.0b20230615-py3-none-manylinux1_x86_64.whl.zip --markdown 20230615/b/bigdl-spark3/2.4.0b20230614-2.4.0b20230615/diff.md --exclude *.pyd
+[2023-06-15 13:47:51] INFO root fetch - processPackages [SamIdea]: Downloading https://files.pythonhosted.org/packages/92/3d/ebb03c948e9e705737d248e3a21889f9e8db575ca40a2a60ac52403d31a2/samidea-0.0.4.tar.gz
+[2023-06-15 13:47:51] INFO root fetch - processPackages [trigger-count]: Remove: archive file [/home/abi/fetcher/tmp/trigger_count-0.1.8.tar.gz]
+[2023-06-15 13:47:51] INFO root fetch - processPackages [trigger-count]: Remove: archive file [/home/abi/fetcher/tmp/trigger_count-0.1.9.tar.gz]
+[2023-06-15 13:47:51] INFO root fetch - processPackages [trigger-count]: Start processing: pytorch-partial-tagger
+[2023-06-15 13:47:51] INFO root fetch - main [MainThread]: End processing [trigger-count]: success
+[2023-06-15 13:47:51] INFO root fetch - processPackages [pytorch-partial-tagger]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-06-15 13:47:51] INFO root fetch - processPackages [SamIdea]: Downloading https://files.pythonhosted.org/packages/5b/a5/ebe6dd0351509b0437527f53295b6949cf421fe4e1a74b9df72be53c55f7/samidea-0.0.7.tar.gz
+[2023-06-15 13:47:51] INFO root fetch - processPackages [SamIdea]: executing diffoscope
+[2023-06-15 13:47:51] INFO root fetch - processPackages [SamIdea]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/samidea-0.0.4.tar.gz tmp/samidea-0.0.7.tar.gz --markdown 20230615/S/SamIdea/0.0.4-0.0.7/diff.md --exclude *.pyd
+[2023-06-15 13:47:51] INFO root fetch - processPackages [pytorch-partial-tagger]: Downloading https://files.pythonhosted.org/packages/b4/d2/3e7651bf6ebbd4c5141f27ca2461b71dbd13d558d0f5f08e99de28600bff/pytorch_partial_tagger-0.1.7.tar.gz
+[2023-06-15 13:47:51] INFO root fetch - processPackages [pytorch-partial-tagger]: Downloading https://files.pythonhosted.org/packages/7e/6b/8561317788fc781412ab58417fb7bf871bd1e912c27d44fce5274dca36a5/pytorch_partial_tagger-0.1.8.tar.gz
+[2023-06-15 13:47:51] INFO root fetch - processPackages [pytorch-partial-tagger]: executing diffoscope
+[2023-06-15 13:47:51] INFO root fetch - processPackages [pytorch-partial-tagger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytorch_partial_tagger-0.1.7.tar.gz tmp/pytorch_partial_tagger-0.1.8.tar.gz --markdown 20230615/p/pytorch-partial-tagger/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-06-15 13:47:52] INFO root fetch - processPackages [bigdl-spark3]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_spark3-2.4.0b20230614-py3-none-manylinux1_x86_64.whl.zip]
+[2023-06-15 13:47:52] INFO root fetch - processPackages [bigdl-spark3]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_spark3-2.4.0b20230615-py3-none-manylinux1_x86_64.whl.zip]
+[2023-06-15 13:47:52] INFO root fetch - processPackages [bigdl-spark3]: Start processing: embiggen
+[2023-06-15 13:47:52] INFO root fetch - main [MainThread]: End processing [bigdl-spark3]: success
+[2023-06-15 13:47:52] INFO root fetch - processPackages [embiggen]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-06-15 13:47:52] INFO root fetch - processPackages [embiggen]: Downloading https://files.pythonhosted.org/packages/93/68/e13cdca050b32069a58f9e36d05835a384d261a5d1f299af468629e721e1/embiggen-0.9.2.tar.gz
+[2023-06-15 13:47:52] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.1.96.tar.gz]
+[2023-06-15 13:47:52] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.1.98.tar.gz]
+[2023-06-15 13:47:52] INFO root fetch - main [MainThread]: End processing [yeref]: success
+[2023-06-15 13:47:52] INFO root fetch - processPackages [bigdl-friesian-spark3]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_friesian_spark3-2.4.0b20230614-py3-none-manylinux1_x86_64.whl.zip]
+[2023-06-15 13:47:52] INFO root fetch - processPackages [bigdl-friesian-spark3]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_friesian_spark3-2.4.0b20230615-py3-none-manylinux1_x86_64.whl.zip]
+[2023-06-15 13:47:52] INFO root fetch - main [MainThread]: End processing [bigdl-friesian-spark3]: success
+[2023-06-15 13:47:52] INFO root fetch - processPackages [embiggen]: Downloading https://files.pythonhosted.org/packages/4b/25/4e08b9a62e34917ef75c8ed47526252ca4bcd5d5e15961bc14dc9486ccf8/embiggen-0.9.3.tar.gz
+[2023-06-15 13:47:52] INFO root fetch - processPackages [SamIdea]: Remove: archive file [/home/abi/fetcher/tmp/samidea-0.0.4.tar.gz]
+[2023-06-15 13:47:52] INFO root fetch - processPackages [SamIdea]: Remove: archive file [/home/abi/fetcher/tmp/samidea-0.0.7.tar.gz]
+[2023-06-15 13:47:52] INFO root fetch - main [MainThread]: End processing [SamIdea]: success
+[2023-06-15 13:47:52] INFO root fetch - processPackages [embiggen]: executing diffoscope
+[2023-06-15 13:47:52] INFO root fetch - processPackages [embiggen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/embiggen-0.9.2.tar.gz tmp/embiggen-0.9.3.tar.gz --markdown 20230615/e/embiggen/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-06-15 13:47:53] INFO root fetch - processPackages [bigdl-chronos-spark3]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_chronos_spark3-2.4.0b20230614-py3-none-manylinux1_x86_64.whl.zip]
+[2023-06-15 13:47:53] INFO root fetch - processPackages [bigdl-chronos-spark3]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_chronos_spark3-2.4.0b20230615-py3-none-manylinux1_x86_64.whl.zip]
+[2023-06-15 13:47:53] INFO root fetch - main [MainThread]: End processing [bigdl-chronos-spark3]: success
+[2023-06-15 13:47:53] INFO root fetch - processPackages [zonesmart-utils]: Remove: archive file [/home/abi/fetcher/tmp/zonesmart-utils-0.3.1.tar.gz]
+[2023-06-15 13:47:53] INFO root fetch - processPackages [zonesmart-utils]: Remove: archive file [/home/abi/fetcher/tmp/zonesmart-utils-0.3.2.tar.gz]
+[2023-06-15 13:47:53] INFO root fetch - main [MainThread]: End processing [zonesmart-utils]: success
+[2023-06-15 13:47:53] INFO root fetch - processPackages [coloquinte]: Remove: archive file [/home/abi/fetcher/tmp/coloquinte-0.2.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-15 13:47:53] INFO root fetch - processPackages [coloquinte]: Remove: archive file [/home/abi/fetcher/tmp/coloquinte-0.3.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-15 13:47:53] INFO root fetch - main [MainThread]: End processing [coloquinte]: success
+[2023-06-15 13:47:54] INFO root fetch - processPackages [embiggen]: Remove: archive file [/home/abi/fetcher/tmp/embiggen-0.9.2.tar.gz]
+[2023-06-15 13:47:54] INFO root fetch - processPackages [embiggen]: Remove: archive file [/home/abi/fetcher/tmp/embiggen-0.9.3.tar.gz]
+[2023-06-15 13:47:54] INFO root fetch - main [MainThread]: End processing [embiggen]: success
+[2023-06-15 13:47:54] INFO root fetch - processPackages [pytorch-partial-tagger]: Remove: archive file [/home/abi/fetcher/tmp/pytorch_partial_tagger-0.1.7.tar.gz]
+[2023-06-15 13:47:54] INFO root fetch - processPackages [pytorch-partial-tagger]: Remove: archive file [/home/abi/fetcher/tmp/pytorch_partial_tagger-0.1.8.tar.gz]
+[2023-06-15 13:47:54] INFO root fetch - main [MainThread]: End processing [pytorch-partial-tagger]: success
+[2023-06-15 13:47:55] INFO root fetch - processPackages [cdktf-cdktf-provider-opentelekomcloud]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-opentelekomcloud-6.0.5.tar.gz]
+[2023-06-15 13:47:55] INFO root fetch - processPackages [cdktf-cdktf-provider-opentelekomcloud]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-opentelekomcloud-7.0.0.tar.gz]
+[2023-06-15 13:47:55] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-opentelekomcloud]: success
+[2023-06-15 13:48:22] INFO root fetch - processPackages [composabl-ray-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_ray_dev-0.2.1.dev85-cp38-cp38-musllinux_1_1_x86_64.whl.zip]
+[2023-06-15 13:48:22] INFO root fetch - processPackages [composabl-ray-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_ray_dev-0.2.1.dev95-cp38-cp38-musllinux_1_1_x86_64.whl.zip]
+[2023-06-15 13:48:22] INFO root fetch - main [MainThread]: End processing [composabl-ray-dev]: success
+[2023-06-15 13:48:22] INFO root fetch - main [MainThread]: Store serial: [18515585]
