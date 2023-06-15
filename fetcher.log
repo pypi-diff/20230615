@@ -12267,3 +12267,96 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-06-15 09:05:17] INFO root fetch - processPackages [savant-rs-etcd-dynamic-state]: Remove: archive file [/home/abi/fetcher/tmp/savant_rs_etcd_dynamic_state-0.1.26-pp38-pypy38_pp73-manylinux_2_17_aarch64.manylinux2014_aarch64.whl.zip]
 [2023-06-15 09:05:17] INFO root fetch - main [MainThread]: End processing [savant-rs-etcd-dynamic-state]: success
 [2023-06-15 09:05:17] INFO root fetch - main [MainThread]: Store serial: [18512037]
+[2023-06-15 09:10:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18512037]
+[2023-06-15 09:10:26] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-15 09:10:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wizata-dsapi
+[2023-06-15 09:10:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: netbox-cisco-maintenance
+[2023-06-15 09:10:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyarmor.cli.core
+[2023-06-15 09:10:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tempo-api-python-client
+[2023-06-15 09:10:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: UComp
+[2023-06-15 09:10:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mtmtool
+[2023-06-15 09:10:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mlcvzoo-tf-classification
+[2023-06-15 09:10:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pepperize.cdk-terraform-state-backend
+[2023-06-15 09:10:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: apidev-coop-bar
+[2023-06-15 09:10:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: jax-sgmc
+[2023-06-15 09:10:26] INFO root fetch - processPackages [tempo-api-python-client]: New version: [0.8.0] Old Version: [0.7.3]
+[2023-06-15 09:10:26] INFO root fetch - processPackages [mlcvzoo-tf-classification]: New version: [6.0.2] Old Version: [6.0.1]
+[2023-06-15 09:10:26] INFO root fetch - processPackages [netbox-cisco-maintenance]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-15 09:10:26] INFO root fetch - processPackages [UComp]: New version: [1.0.61] Old Version: [1.0.60]
+[2023-06-15 09:10:26] INFO root fetch - processPackages [apidev-coop-bar]: New version: [1.6.1] Old Version: [1.6.0]
+[2023-06-15 09:10:26] INFO root fetch - processPackages [mtmtool]: New version: [1.2.5] Old Version: [1.2.4]
+[2023-06-15 09:10:26] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-06-15 09:10:26] INFO root fetch - processPackages [pyarmor.cli.core]: New version: [3.2.dev2] Old Version: [3.2.dev1]
+[2023-06-15 09:10:27] INFO root fetch - processPackages [netbox-cisco-maintenance]: Downloading https://files.pythonhosted.org/packages/49/9b/a1c0c74911cdf52ff01e40ea24fa7dd8c615a41dbbdae40f076bf871e18c/netbox-cisco-maintenance-0.0.98.tar.gz
+[2023-06-15 09:10:27] INFO root fetch - processPackages [wizata-dsapi]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-06-15 09:10:27] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Downloading https://files.pythonhosted.org/packages/67/44/1dba32653c7525f0fbd8908ad6d202d1043a5fcb6cf364972a4c23bffeac/pepperize.cdk-terraform-state-backend-0.1.98.tar.gz
+[2023-06-15 09:10:27] INFO root fetch - processPackages [jax-sgmc]: New version: [0.1.3] Old Version: [0.1.1]
+[2023-06-15 09:10:27] INFO root fetch - processPackages [tempo-api-python-client]: Downloading https://files.pythonhosted.org/packages/f5/28/f47b39a1dc23a7846c51ba752f61c8ca46135b7112d95b74c66028ac6b08/tempo-api-python-client-0.7.3.tar.gz
+[2023-06-15 09:10:27] INFO root fetch - processPackages [mlcvzoo-tf-classification]: Downloading https://files.pythonhosted.org/packages/ef/76/cddf6145d6164f99ee34eb0f5d9b7ca478dcb63cd42b6e317314d173c6d0/mlcvzoo_tf_classification-6.0.1.tar.gz
+[2023-06-15 09:10:27] INFO root fetch - processPackages [UComp]: Downloading https://files.pythonhosted.org/packages/a7/c2/2d0d09e5c117bbf9a54f93f121d4bc1fe9f6112872abd2fab634e1cde5fe/UComp-1.0.60.tar.gz
+[2023-06-15 09:10:27] INFO root fetch - processPackages [mtmtool]: Downloading https://files.pythonhosted.org/packages/12/26/fcc997432c5ec72cd6e289c154aa8349aceaa5168d97d5c5d9d0077c0791/mtmtool-1.2.4.tar.gz
+[2023-06-15 09:10:27] INFO root fetch - processPackages [apidev-coop-bar]: Downloading https://files.pythonhosted.org/packages/41/b3/7f821f64c514a5fe689fd68a1e4d4bb1952971b6ea43908565d65f8abb00/apidev-coop_bar-1.6.0.tar.gz
+[2023-06-15 09:10:27] INFO root fetch - processPackages [wizata-dsapi]: Downloading https://files.pythonhosted.org/packages/d0/ba/f0bdd16f95ee52fb25901409f31bde594458ef362c86f31c8d307c8987d5/wizata-dsapi-0.1.98.tar.gz
+[2023-06-15 09:10:27] INFO root fetch - processPackages [netbox-cisco-maintenance]: Downloading https://files.pythonhosted.org/packages/36/61/db227025ce63809f803a3fe44062bf026321f24f9aa12a99bf348ae574ca/netbox-cisco-maintenance-0.0.99.tar.gz
+[2023-06-15 09:10:27] INFO root fetch - processPackages [pyarmor.cli.core]: Downloading https://files.pythonhosted.org/packages/48/21/f309e3e6a66c267acb350a388359fa9cf280f6e75c917b4f765a9b99881e/pyarmor.cli.core-3.2.dev1-cp39-none-win_amd64.whl
+[2023-06-15 09:10:27] INFO root fetch - processPackages [jax-sgmc]: Downloading https://files.pythonhosted.org/packages/37/50/eb435bdb335f78c1a1ddfb726013f861ec4f52fce94c14efb330ce1da14e/jax-sgmc-0.1.1.tar.gz
+[2023-06-15 09:10:27] INFO root fetch - processPackages [netbox-cisco-maintenance]: executing diffoscope
+[2023-06-15 09:10:27] INFO root fetch - processPackages [netbox-cisco-maintenance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox-cisco-maintenance-0.0.98.tar.gz tmp/netbox-cisco-maintenance-0.0.99.tar.gz --markdown 20230615/n/netbox-cisco-maintenance/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-15 09:10:27] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Downloading https://files.pythonhosted.org/packages/49/e5/a2d418e8a59e46c739ecaa72adebcb65d676b8149513d576b8cd05d6324e/pepperize.cdk-terraform-state-backend-0.1.99.tar.gz
+[2023-06-15 09:10:27] INFO root fetch - processPackages [apidev-coop-bar]: Downloading https://files.pythonhosted.org/packages/b8/3d/665c0147081df3347b7245665a0a08c4cc21eb6f6996285547ffc130b79e/apidev-coop_bar-1.6.1.tar.gz
+[2023-06-15 09:10:27] INFO root fetch - processPackages [mtmtool]: Downloading https://files.pythonhosted.org/packages/d8/95/63c81d9831c773e6284a8c8247e22a2848099b54b9b304269577d7d622a4/mtmtool-1.2.5.tar.gz
+[2023-06-15 09:10:27] INFO root fetch - processPackages [tempo-api-python-client]: Downloading https://files.pythonhosted.org/packages/d6/75/e55dedb107ae02584571b350baf64f525e23cc7855a70393f5dd479d909e/tempo-api-python-client-0.8.0.tar.gz
+[2023-06-15 09:10:27] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: executing diffoscope
+[2023-06-15 09:10:27] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-terraform-state-backend-0.1.98.tar.gz tmp/pepperize.cdk-terraform-state-backend-0.1.99.tar.gz --markdown 20230615/p/pepperize.cdk-terraform-state-backend/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-06-15 09:10:27] INFO root fetch - processPackages [wizata-dsapi]: Downloading https://files.pythonhosted.org/packages/3f/a2/8e1949f8e59bf78c31c3953b9c48fc81a94bb23b209d76f41dbd3f8b510f/wizata-dsapi-0.1.99.tar.gz
+[2023-06-15 09:10:27] INFO root fetch - processPackages [apidev-coop-bar]: executing diffoscope
+[2023-06-15 09:10:27] INFO root fetch - processPackages [apidev-coop-bar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apidev-coop_bar-1.6.0.tar.gz tmp/apidev-coop_bar-1.6.1.tar.gz --markdown 20230615/a/apidev-coop-bar/1.6.0-1.6.1/diff.md --exclude *.pyd
+[2023-06-15 09:10:27] INFO root fetch - processPackages [mtmtool]: executing diffoscope
+[2023-06-15 09:10:27] INFO root fetch - processPackages [tempo-api-python-client]: executing diffoscope
+[2023-06-15 09:10:27] INFO root fetch - processPackages [mtmtool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mtmtool-1.2.4.tar.gz tmp/mtmtool-1.2.5.tar.gz --markdown 20230615/m/mtmtool/1.2.4-1.2.5/diff.md --exclude *.pyd
+[2023-06-15 09:10:27] INFO root fetch - processPackages [tempo-api-python-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tempo-api-python-client-0.7.3.tar.gz tmp/tempo-api-python-client-0.8.0.tar.gz --markdown 20230615/t/tempo-api-python-client/0.7.3-0.8.0/diff.md --exclude *.pyd
+[2023-06-15 09:10:27] INFO root fetch - processPackages [mlcvzoo-tf-classification]: Downloading https://files.pythonhosted.org/packages/15/7e/b0d424daf6d6635986ec71af3e0419061d8d13d29262539b45556169fa23/mlcvzoo_tf_classification-6.0.2.tar.gz
+[2023-06-15 09:10:27] INFO root fetch - processPackages [UComp]: Downloading https://files.pythonhosted.org/packages/cf/8d/1dac497f49a02922c53d1d9d6fe8b0b6ae9e2b971056810abf2ac552584f/UComp-1.0.61.tar.gz
+[2023-06-15 09:10:27] INFO root fetch - processPackages [pyarmor.cli.core]: Downloading https://files.pythonhosted.org/packages/fd/1a/f6bf6d3f325ce7a27ea433aee7c098a8d878b83307538ce49c7ef9c1c891/pyarmor.cli.core-3.2.dev2-cp39-none-win_amd64.whl
+[2023-06-15 09:10:27] INFO root fetch - processPackages [wizata-dsapi]: executing diffoscope
+[2023-06-15 09:10:27] INFO root fetch - processPackages [wizata-dsapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wizata-dsapi-0.1.98.tar.gz tmp/wizata-dsapi-0.1.99.tar.gz --markdown 20230615/w/wizata-dsapi/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-06-15 09:10:27] INFO root fetch - processPackages [mlcvzoo-tf-classification]: executing diffoscope
+[2023-06-15 09:10:27] INFO root fetch - processPackages [mlcvzoo-tf-classification]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlcvzoo_tf_classification-6.0.1.tar.gz tmp/mlcvzoo_tf_classification-6.0.2.tar.gz --markdown 20230615/m/mlcvzoo-tf-classification/6.0.1-6.0.2/diff.md --exclude *.pyd
+[2023-06-15 09:10:27] INFO root fetch - processPackages [jax-sgmc]: Downloading https://files.pythonhosted.org/packages/b4/69/153ff04b54a383e5b7774a76e8f043241859f353d53b1e2b40fd4a872b1b/jax-sgmc-0.1.3.tar.gz
+[2023-06-15 09:10:27] INFO root fetch - processPackages [UComp]: executing diffoscope
+[2023-06-15 09:10:27] INFO root fetch - processPackages [UComp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/UComp-1.0.60.tar.gz tmp/UComp-1.0.61.tar.gz --markdown 20230615/U/UComp/1.0.60-1.0.61/diff.md --exclude *.pyd
+[2023-06-15 09:10:27] INFO root fetch - processPackages [pyarmor.cli.core]: executing diffoscope
+[2023-06-15 09:10:27] INFO root fetch - processPackages [pyarmor.cli.core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyarmor.cli.core-3.2.dev1-cp39-none-win_amd64.whl.zip tmp/pyarmor.cli.core-3.2.dev2-cp39-none-win_amd64.whl.zip --markdown 20230615/p/pyarmor.cli.core/3.2.dev1-3.2.dev2/diff.md --exclude *.pyd
+[2023-06-15 09:10:28] INFO root fetch - processPackages [jax-sgmc]: executing diffoscope
+[2023-06-15 09:10:28] INFO root fetch - processPackages [jax-sgmc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jax-sgmc-0.1.1.tar.gz tmp/jax-sgmc-0.1.3.tar.gz --markdown 20230615/j/jax-sgmc/0.1.1-0.1.3/diff.md --exclude *.pyd
+[2023-06-15 09:10:29] INFO root fetch - processPackages [tempo-api-python-client]: Remove: archive file [/home/abi/fetcher/tmp/tempo-api-python-client-0.7.3.tar.gz]
+[2023-06-15 09:10:29] INFO root fetch - processPackages [tempo-api-python-client]: Remove: archive file [/home/abi/fetcher/tmp/tempo-api-python-client-0.8.0.tar.gz]
+[2023-06-15 09:10:29] INFO root fetch - main [MainThread]: End processing [tempo-api-python-client]: success
+[2023-06-15 09:10:29] INFO root fetch - processPackages [apidev-coop-bar]: Remove: archive file [/home/abi/fetcher/tmp/apidev-coop_bar-1.6.0.tar.gz]
+[2023-06-15 09:10:29] INFO root fetch - processPackages [apidev-coop-bar]: Remove: archive file [/home/abi/fetcher/tmp/apidev-coop_bar-1.6.1.tar.gz]
+[2023-06-15 09:10:29] INFO root fetch - main [MainThread]: End processing [apidev-coop-bar]: success
+[2023-06-15 09:10:29] INFO root fetch - processPackages [pyarmor.cli.core]: Remove: archive file [/home/abi/fetcher/tmp/pyarmor.cli.core-3.2.dev1-cp39-none-win_amd64.whl.zip]
+[2023-06-15 09:10:29] INFO root fetch - processPackages [pyarmor.cli.core]: Remove: archive file [/home/abi/fetcher/tmp/pyarmor.cli.core-3.2.dev2-cp39-none-win_amd64.whl.zip]
+[2023-06-15 09:10:29] INFO root fetch - main [MainThread]: End processing [pyarmor.cli.core]: success
+[2023-06-15 09:10:29] INFO root fetch - processPackages [netbox-cisco-maintenance]: Remove: archive file [/home/abi/fetcher/tmp/netbox-cisco-maintenance-0.0.98.tar.gz]
+[2023-06-15 09:10:29] INFO root fetch - processPackages [netbox-cisco-maintenance]: Remove: archive file [/home/abi/fetcher/tmp/netbox-cisco-maintenance-0.0.99.tar.gz]
+[2023-06-15 09:10:29] INFO root fetch - main [MainThread]: End processing [netbox-cisco-maintenance]: success
+[2023-06-15 09:10:29] INFO root fetch - processPackages [mtmtool]: Remove: archive file [/home/abi/fetcher/tmp/mtmtool-1.2.4.tar.gz]
+[2023-06-15 09:10:29] INFO root fetch - processPackages [mtmtool]: Remove: archive file [/home/abi/fetcher/tmp/mtmtool-1.2.5.tar.gz]
+[2023-06-15 09:10:29] INFO root fetch - main [MainThread]: End processing [mtmtool]: success
+[2023-06-15 09:10:30] INFO root fetch - processPackages [mlcvzoo-tf-classification]: Remove: archive file [/home/abi/fetcher/tmp/mlcvzoo_tf_classification-6.0.1.tar.gz]
+[2023-06-15 09:10:30] INFO root fetch - processPackages [mlcvzoo-tf-classification]: Remove: archive file [/home/abi/fetcher/tmp/mlcvzoo_tf_classification-6.0.2.tar.gz]
+[2023-06-15 09:10:30] INFO root fetch - main [MainThread]: End processing [mlcvzoo-tf-classification]: success
+[2023-06-15 09:10:30] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-terraform-state-backend-0.1.98.tar.gz]
+[2023-06-15 09:10:30] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-terraform-state-backend-0.1.99.tar.gz]
+[2023-06-15 09:10:30] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-terraform-state-backend]: success
+[2023-06-15 09:10:30] INFO root fetch - processPackages [wizata-dsapi]: Remove: archive file [/home/abi/fetcher/tmp/wizata-dsapi-0.1.98.tar.gz]
+[2023-06-15 09:10:30] INFO root fetch - processPackages [wizata-dsapi]: Remove: archive file [/home/abi/fetcher/tmp/wizata-dsapi-0.1.99.tar.gz]
+[2023-06-15 09:10:30] INFO root fetch - main [MainThread]: End processing [wizata-dsapi]: success
+[2023-06-15 09:10:31] INFO root fetch - processPackages [jax-sgmc]: Remove: archive file [/home/abi/fetcher/tmp/jax-sgmc-0.1.1.tar.gz]
+[2023-06-15 09:10:31] INFO root fetch - processPackages [jax-sgmc]: Remove: archive file [/home/abi/fetcher/tmp/jax-sgmc-0.1.3.tar.gz]
+[2023-06-15 09:10:31] INFO root fetch - main [MainThread]: End processing [jax-sgmc]: success
+[2023-06-15 09:10:33] INFO root fetch - processPackages [UComp]: Remove: archive file [/home/abi/fetcher/tmp/UComp-1.0.60.tar.gz]
+[2023-06-15 09:10:33] INFO root fetch - processPackages [UComp]: Remove: archive file [/home/abi/fetcher/tmp/UComp-1.0.61.tar.gz]
+[2023-06-15 09:10:33] INFO root fetch - main [MainThread]: End processing [UComp]: success
+[2023-06-15 09:10:33] INFO root fetch - main [MainThread]: Store serial: [18512113]
