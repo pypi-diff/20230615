@@ -9713,3 +9713,87 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-15 06:28:24] INFO root fetch - processPackages [spider-st]: Remove: archive file [/home/abi/fetcher/tmp/spider-st-0.1.9.tar.gz]
 [2023-06-15 06:28:24] INFO root fetch - main [MainThread]: End processing [spider-st]: success
 [2023-06-15 06:28:24] INFO root fetch - main [MainThread]: Store serial: [18511047]
+[2023-06-15 06:33:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18511047]
+[2023-06-15 06:33:35] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-15 06:33:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: emailalert
+[2023-06-15 06:33:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo14-addon-partner-firstname
+[2023-06-15 06:33:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: data-ecosystem-services
+[2023-06-15 06:33:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sophie-lang
+[2023-06-15 06:33:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: datatypes
+[2023-06-15 06:33:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: typedpy
+[2023-06-15 06:33:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: monito-tools
+[2023-06-15 06:33:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ghostpip
+[2023-06-15 06:33:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo14-addon-pos-order-to-sale-order
+[2023-06-15 06:33:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dask-jobqueue
+[2023-06-15 06:33:35] INFO root fetch - processPackages [data-ecosystem-services]: New version: [202306.0.1] Old Version: [202304.0.9]
+[2023-06-15 06:33:35] INFO root fetch - processPackages [odoo14-addon-partner-firstname]: New version: [14.0.1.1.1.dev5] Old Version: [14.0.1.1.1.dev4]
+[2023-06-15 06:33:35] INFO root fetch - processPackages [typedpy]: New version: [2.9.0] Old Version: [2.8.2]
+[2023-06-15 06:33:35] INFO root fetch - processPackages [ghostpip]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-15 06:33:35] WARNING root fetch - processPackages [monito-tools]: Skipping, unable to determine old version
+[2023-06-15 06:33:35] INFO root fetch - processPackages [monito-tools]: Start processing: psyke
+[2023-06-15 06:33:35] INFO root fetch - processPackages [datatypes]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-06-15 06:33:35] INFO root fetch - main [MainThread]: End processing [monito-tools] error
+[2023-06-15 06:33:35] WARNING root fetch - processPackages [sophie-lang]: Skipping, unable to determine old version
+[2023-06-15 06:33:35] INFO root fetch - main [MainThread]: End processing [sophie-lang] error
+[2023-06-15 06:33:36] WARNING root fetch - processPackages [emailalert]: Skipping, unable to determine old version
+[2023-06-15 06:33:36] INFO root fetch - main [MainThread]: End processing [emailalert] error
+[2023-06-15 06:33:36] INFO root fetch - processPackages [psyke]: New version: [0.4.9.dev2] Old Version: [0.4.9.dev1]
+[2023-06-15 06:33:36] INFO root fetch - processPackages [dask-jobqueue]: New version: [0.8.2] Old Version: [0.8.1]
+[2023-06-15 06:33:36] INFO root fetch - processPackages [odoo14-addon-pos-order-to-sale-order]: New version: [14.0.1.0.1.dev5] Old Version: [14.0.1.0.1.dev4]
+[2023-06-15 06:33:36] INFO root fetch - processPackages [psyke]: Downloading https://files.pythonhosted.org/packages/48/4b/34cb0524ef839e9698a6a4d78cb80b0f72ced532b3592770bf40894e12dc/psyke-0.4.9.dev1.tar.gz
+[2023-06-15 06:33:36] INFO root fetch - processPackages [ghostpip]: Downloading https://files.pythonhosted.org/packages/d9/c9/7981261e7d15b88b37d25efce31ffcf8da124f1fe10d92ced4a934fb51ce/ghostpip-1.0.0.tar.gz
+[2023-06-15 06:33:36] INFO root fetch - processPackages [odoo14-addon-partner-firstname]: Downloading https://files.pythonhosted.org/packages/63/2a/e8e416bcb3ea4eab896721040f06f4db3988ab28e9dffe1a69f8a6fb0573/odoo14_addon_partner_firstname-14.0.1.1.1.dev4-py3-none-any.whl
+[2023-06-15 06:33:36] INFO root fetch - processPackages [data-ecosystem-services]: Downloading https://files.pythonhosted.org/packages/15/de/29642f7e8d98c422cb2d05ebed7e80541177cd9dff7bd2e06e48314c884e/data_ecosystem_services-202304.0.9.tar.gz
+[2023-06-15 06:33:36] INFO root fetch - processPackages [typedpy]: Downloading https://files.pythonhosted.org/packages/27/f4/f7ae09b3573eaf9438274f873686c75134c5c6d14d9ecbfe0759ef1a6908/typedpy-2.8.2.tar.gz
+[2023-06-15 06:33:36] INFO root fetch - processPackages [datatypes]: Downloading https://files.pythonhosted.org/packages/8b/22/1e224605fb6d521838285b494a054b1a8d14610057729e770749950764a5/datatypes-0.9.3.tar.gz
+[2023-06-15 06:33:36] INFO root fetch - processPackages [dask-jobqueue]: Downloading https://files.pythonhosted.org/packages/ac/f9/66159564dbe40b63269a12a86d98a3160fb26a27c099167438ed660b33f0/dask-jobqueue-0.8.1.tar.gz
+[2023-06-15 06:33:36] INFO root fetch - processPackages [odoo14-addon-pos-order-to-sale-order]: Downloading https://files.pythonhosted.org/packages/ff/95/7f2dfe2c9e5719fe3d5e424c464773f36c5adb0a960620f9a2400a83f614/odoo14_addon_pos_order_to_sale_order-14.0.1.0.1.dev4-py3-none-any.whl
+[2023-06-15 06:33:36] INFO root fetch - processPackages [ghostpip]: Downloading https://files.pythonhosted.org/packages/95/5e/1257fb900a83f9e6f27ba0dc5783e77aa0ed6f43053b3a9e8c4e091545e4/ghostpip-1.0.1.tar.gz
+[2023-06-15 06:33:36] INFO root fetch - processPackages [psyke]: Downloading https://files.pythonhosted.org/packages/18/ef/0acba8806ab7eefe6644250070d2eb64b551f228c3c46566ba3d2219848e/psyke-0.4.9.dev2.tar.gz
+[2023-06-15 06:33:36] INFO root fetch - processPackages [ghostpip]: executing diffoscope
+[2023-06-15 06:33:36] INFO root fetch - processPackages [ghostpip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ghostpip-1.0.0.tar.gz tmp/ghostpip-1.0.1.tar.gz --markdown 20230615/g/ghostpip/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-15 06:33:36] INFO root fetch - processPackages [datatypes]: Downloading https://files.pythonhosted.org/packages/ce/64/8898870e12c2de1f1443c37064e8578b68ce77a599516d11f74f3e9743a3/datatypes-0.9.4.tar.gz
+[2023-06-15 06:33:36] INFO root fetch - processPackages [psyke]: executing diffoscope
+[2023-06-15 06:33:36] INFO root fetch - processPackages [psyke]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/psyke-0.4.9.dev1.tar.gz tmp/psyke-0.4.9.dev2.tar.gz --markdown 20230615/p/psyke/0.4.9.dev1-0.4.9.dev2/diff.md --exclude *.pyd
+[2023-06-15 06:33:36] INFO root fetch - processPackages [datatypes]: executing diffoscope
+[2023-06-15 06:33:36] INFO root fetch - processPackages [datatypes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datatypes-0.9.3.tar.gz tmp/datatypes-0.9.4.tar.gz --markdown 20230615/d/datatypes/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-06-15 06:33:36] INFO root fetch - processPackages [typedpy]: Downloading https://files.pythonhosted.org/packages/09/0d/3518f7fd28505046b25ea42ab09a2b7ca99222a917f91ffd54ea61a0e007/typedpy-2.9.0.tar.gz
+[2023-06-15 06:33:36] INFO root fetch - processPackages [dask-jobqueue]: Downloading https://files.pythonhosted.org/packages/ff/b2/2367d1ef1e6f1f5dec33b549f8f465780f14d33df5ba6eb11239ea8d4b4b/dask-jobqueue-0.8.2.tar.gz
+[2023-06-15 06:33:36] INFO root fetch - processPackages [odoo14-addon-partner-firstname]: Downloading https://files.pythonhosted.org/packages/82/1b/4365dd580c9d319c799f62af58e7f4f33186c0ab9046d7792c2dc15967a7/odoo14_addon_partner_firstname-14.0.1.1.1.dev5-py3-none-any.whl
+[2023-06-15 06:33:36] INFO root fetch - processPackages [odoo14-addon-pos-order-to-sale-order]: Downloading https://files.pythonhosted.org/packages/be/f1/853c04f246b286df655905abbb788285e3a6814c9349c3a2d9b3cae91eb5/odoo14_addon_pos_order_to_sale_order-14.0.1.0.1.dev5-py3-none-any.whl
+[2023-06-15 06:33:36] INFO root fetch - processPackages [typedpy]: executing diffoscope
+[2023-06-15 06:33:36] INFO root fetch - processPackages [typedpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/typedpy-2.8.2.tar.gz tmp/typedpy-2.9.0.tar.gz --markdown 20230615/t/typedpy/2.8.2-2.9.0/diff.md --exclude *.pyd
+[2023-06-15 06:33:36] INFO root fetch - processPackages [dask-jobqueue]: executing diffoscope
+[2023-06-15 06:33:36] INFO root fetch - processPackages [dask-jobqueue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dask-jobqueue-0.8.1.tar.gz tmp/dask-jobqueue-0.8.2.tar.gz --markdown 20230615/d/dask-jobqueue/0.8.1-0.8.2/diff.md --exclude *.pyd
+[2023-06-15 06:33:36] INFO root fetch - processPackages [odoo14-addon-pos-order-to-sale-order]: executing diffoscope
+[2023-06-15 06:33:36] INFO root fetch - processPackages [odoo14-addon-pos-order-to-sale-order]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_pos_order_to_sale_order-14.0.1.0.1.dev4-py3-none-any.whl.zip tmp/odoo14_addon_pos_order_to_sale_order-14.0.1.0.1.dev5-py3-none-any.whl.zip --markdown 20230615/o/odoo14-addon-pos-order-to-sale-order/14.0.1.0.1.dev4-14.0.1.0.1.dev5/diff.md --exclude *.pyd
+[2023-06-15 06:33:36] INFO root fetch - processPackages [odoo14-addon-partner-firstname]: executing diffoscope
+[2023-06-15 06:33:36] INFO root fetch - processPackages [odoo14-addon-partner-firstname]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_partner_firstname-14.0.1.1.1.dev4-py3-none-any.whl.zip tmp/odoo14_addon_partner_firstname-14.0.1.1.1.dev5-py3-none-any.whl.zip --markdown 20230615/o/odoo14-addon-partner-firstname/14.0.1.1.1.dev4-14.0.1.1.1.dev5/diff.md --exclude *.pyd
+[2023-06-15 06:33:37] INFO root fetch - processPackages [data-ecosystem-services]: Downloading https://files.pythonhosted.org/packages/d0/1b/f987004a684a7ad8a11e92075768250363720bcb4b0b2e17eb5a3557ff67/data_ecosystem_services-202306.0.1.tar.gz
+[2023-06-15 06:33:37] INFO root fetch - processPackages [data-ecosystem-services]: executing diffoscope
+[2023-06-15 06:33:37] INFO root fetch - processPackages [data-ecosystem-services]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data_ecosystem_services-202304.0.9.tar.gz tmp/data_ecosystem_services-202306.0.1.tar.gz --markdown 20230615/d/data-ecosystem-services/202304.0.9-202306.0.1/diff.md --exclude *.pyd
+[2023-06-15 06:33:37] INFO root fetch - processPackages [ghostpip]: Remove: archive file [/home/abi/fetcher/tmp/ghostpip-1.0.0.tar.gz]
+[2023-06-15 06:33:37] INFO root fetch - processPackages [ghostpip]: Remove: archive file [/home/abi/fetcher/tmp/ghostpip-1.0.1.tar.gz]
+[2023-06-15 06:33:37] INFO root fetch - main [MainThread]: End processing [ghostpip]: success
+[2023-06-15 06:33:38] INFO root fetch - processPackages [psyke]: Remove: archive file [/home/abi/fetcher/tmp/psyke-0.4.9.dev1.tar.gz]
+[2023-06-15 06:33:38] INFO root fetch - processPackages [psyke]: Remove: archive file [/home/abi/fetcher/tmp/psyke-0.4.9.dev2.tar.gz]
+[2023-06-15 06:33:38] INFO root fetch - main [MainThread]: End processing [psyke]: success
+[2023-06-15 06:33:38] INFO root fetch - processPackages [datatypes]: Remove: archive file [/home/abi/fetcher/tmp/datatypes-0.9.3.tar.gz]
+[2023-06-15 06:33:38] INFO root fetch - processPackages [datatypes]: Remove: archive file [/home/abi/fetcher/tmp/datatypes-0.9.4.tar.gz]
+[2023-06-15 06:33:38] INFO root fetch - main [MainThread]: End processing [datatypes]: success
+[2023-06-15 06:33:38] INFO root fetch - processPackages [odoo14-addon-pos-order-to-sale-order]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_pos_order_to_sale_order-14.0.1.0.1.dev4-py3-none-any.whl.zip]
+[2023-06-15 06:33:38] INFO root fetch - processPackages [odoo14-addon-pos-order-to-sale-order]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_pos_order_to_sale_order-14.0.1.0.1.dev5-py3-none-any.whl.zip]
+[2023-06-15 06:33:38] INFO root fetch - main [MainThread]: End processing [odoo14-addon-pos-order-to-sale-order]: success
+[2023-06-15 06:33:38] INFO root fetch - processPackages [dask-jobqueue]: Remove: archive file [/home/abi/fetcher/tmp/dask-jobqueue-0.8.1.tar.gz]
+[2023-06-15 06:33:38] INFO root fetch - processPackages [dask-jobqueue]: Remove: archive file [/home/abi/fetcher/tmp/dask-jobqueue-0.8.2.tar.gz]
+[2023-06-15 06:33:38] INFO root fetch - main [MainThread]: End processing [dask-jobqueue]: success
+[2023-06-15 06:33:38] INFO root fetch - processPackages [odoo14-addon-partner-firstname]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_partner_firstname-14.0.1.1.1.dev4-py3-none-any.whl.zip]
+[2023-06-15 06:33:38] INFO root fetch - processPackages [odoo14-addon-partner-firstname]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_partner_firstname-14.0.1.1.1.dev5-py3-none-any.whl.zip]
+[2023-06-15 06:33:38] INFO root fetch - main [MainThread]: End processing [odoo14-addon-partner-firstname]: success
+[2023-06-15 06:33:38] INFO root fetch - processPackages [data-ecosystem-services]: Remove: archive file [/home/abi/fetcher/tmp/data_ecosystem_services-202304.0.9.tar.gz]
+[2023-06-15 06:33:38] INFO root fetch - processPackages [data-ecosystem-services]: Remove: archive file [/home/abi/fetcher/tmp/data_ecosystem_services-202306.0.1.tar.gz]
+[2023-06-15 06:33:38] INFO root fetch - main [MainThread]: End processing [data-ecosystem-services]: success
+[2023-06-15 06:33:38] INFO root fetch - processPackages [typedpy]: Remove: archive file [/home/abi/fetcher/tmp/typedpy-2.8.2.tar.gz]
+[2023-06-15 06:33:38] INFO root fetch - processPackages [typedpy]: Remove: archive file [/home/abi/fetcher/tmp/typedpy-2.9.0.tar.gz]
+[2023-06-15 06:33:38] INFO root fetch - main [MainThread]: End processing [typedpy]: success
+[2023-06-15 06:33:38] INFO root fetch - main [MainThread]: Store serial: [18511082]
