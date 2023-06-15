@@ -9312,3 +9312,69 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-15 05:59:54] INFO root fetch - processPackages [smithed-libraries]: Remove: archive file [/home/abi/fetcher/tmp/smithed_libraries-0.6.1-py3-none-any.whl.zip]
 [2023-06-15 05:59:54] INFO root fetch - main [MainThread]: End processing [smithed-libraries]: success
 [2023-06-15 05:59:54] INFO root fetch - main [MainThread]: Store serial: [18510897]
+[2023-06-15 06:04:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18510897]
+[2023-06-15 06:05:03] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-15 06:05:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: smithed-libraries
+[2023-06-15 06:05:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: evals-nightly
+[2023-06-15 06:05:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: spPersist
+[2023-06-15 06:05:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lib-pybroker
+[2023-06-15 06:05:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bokeh
+[2023-06-15 06:05:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: yandexcloud
+[2023-06-15 06:05:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bs-admin-utils
+[2023-06-15 06:05:03] INFO root fetch - processPackages [spPersist]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-06-15 06:05:03] INFO root fetch - processPackages [yandexcloud]: New version: [0.99.0] Old Version: [0.98.0]
+[2023-06-15 06:05:03] INFO root fetch - processPackages [lib-pybroker]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-06-15 06:05:03] INFO root fetch - processPackages [smithed-libraries]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-06-15 06:05:03] INFO root fetch - processPackages [bokeh]: New version: [3.2.0rc2] Old Version: [3.2.0rc1]
+[2023-06-15 06:05:03] INFO root fetch - processPackages [bs-admin-utils]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-06-15 06:05:03] INFO root fetch - processPackages [evals-nightly]: New version: [1.0.3.dev20230614] Old Version: [1.0.3.dev20230613]
+[2023-06-15 06:05:03] INFO root fetch - processPackages [lib-pybroker]: Downloading https://files.pythonhosted.org/packages/34/3c/7a7a15f5a575198f5681a2eacd112a20ad5dca5783c6e8b758896a6818cf/lib-pybroker-1.1.8.tar.gz
+[2023-06-15 06:05:03] INFO root fetch - processPackages [bokeh]: Downloading https://files.pythonhosted.org/packages/3f/03/eb70dc17c30061d023ae6b8761dff04416aa040cd19a4ccacda89f2ec445/bokeh-3.2.0rc1.tar.gz
+[2023-06-15 06:05:03] INFO root fetch - processPackages [spPersist]: Downloading https://files.pythonhosted.org/packages/f4/28/0e13466d43b621b5ad3aaf03efc8b985cefff6f3d1c78b78c2efed8ec98c/spPersist-1.0.2.tar.gz
+[2023-06-15 06:05:03] INFO root fetch - processPackages [yandexcloud]: Downloading https://files.pythonhosted.org/packages/76/3b/1649bfb2078286e8152c6e1bba2e34340ec1d2135c6ede304fed08ff6f42/yandexcloud-0.98.0.tar.gz
+[2023-06-15 06:05:03] INFO root fetch - processPackages [smithed-libraries]: Downloading https://files.pythonhosted.org/packages/ce/24/6dce9f53b1429a1e45f1c9cc305abf0e404b8607d936aa13f81ed403b0d0/smithed_libraries-0.6.0.tar.gz
+[2023-06-15 06:05:03] INFO root fetch - processPackages [lib-pybroker]: Downloading https://files.pythonhosted.org/packages/92/47/5d3c2f878c1e65d38032b9450a585161c2761a80814b046f502951c65eed/lib-pybroker-1.1.9.tar.gz
+[2023-06-15 06:05:03] INFO root fetch - processPackages [bs-admin-utils]: Downloading https://files.pythonhosted.org/packages/e5/ca/15e93c14eedbedf36dfc8ee99301eb12f5023ede224f03ec83f7a0678d28/bs_admin_utils-1.1.0.tar.gz
+[2023-06-15 06:05:03] INFO root fetch - processPackages [evals-nightly]: Downloading https://files.pythonhosted.org/packages/ec/b5/ddc8cb3ca331634736a6c3e5c198574963bf6fdb1a04306e4d76312b915b/evals-nightly-1.0.3.dev20230613.tar.gz
+[2023-06-15 06:05:04] INFO root fetch - processPackages [lib-pybroker]: executing diffoscope
+[2023-06-15 06:05:04] INFO root fetch - processPackages [lib-pybroker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lib-pybroker-1.1.8.tar.gz tmp/lib-pybroker-1.1.9.tar.gz --markdown 20230615/l/lib-pybroker/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-06-15 06:05:04] INFO root fetch - processPackages [bokeh]: Downloading https://files.pythonhosted.org/packages/57/e5/367d27cf02a58e5c24f7eb6b38b622f0de44530f411e86fd39d6c2a0d573/bokeh-3.2.0rc2.tar.gz
+[2023-06-15 06:05:04] INFO root fetch - processPackages [spPersist]: Downloading https://files.pythonhosted.org/packages/cf/d5/fe4ff4b9acd9a7aca5661b3530d8dddf22edf7b6a01a102efd52628b20b5/spPersist-1.0.3.tar.gz
+[2023-06-15 06:05:04] INFO root fetch - processPackages [evals-nightly]: Downloading https://files.pythonhosted.org/packages/37/cb/5580517a6c3fba4d8b8599800e4af8934b2679105999cdb00c1d9b0af127/evals-nightly-1.0.3.dev20230614.tar.gz
+[2023-06-15 06:05:04] INFO root fetch - processPackages [smithed-libraries]: Downloading https://files.pythonhosted.org/packages/3a/c4/74d4250ea2023e7d5a81070ce5b33e3870f859909d41299ba8a77c21a2df/smithed_libraries-0.6.1.tar.gz
+[2023-06-15 06:05:04] INFO root fetch - processPackages [spPersist]: executing diffoscope
+[2023-06-15 06:05:04] INFO root fetch - processPackages [spPersist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spPersist-1.0.2.tar.gz tmp/spPersist-1.0.3.tar.gz --markdown 20230615/s/spPersist/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-06-15 06:05:04] INFO root fetch - processPackages [yandexcloud]: Downloading https://files.pythonhosted.org/packages/2f/1f/b188f3c823e00c4f3114cbe85a4db73a89c7317f9bbc6634a6021521a9ab/yandexcloud-0.99.0.tar.gz
+[2023-06-15 06:05:04] INFO root fetch - processPackages [evals-nightly]: executing diffoscope
+[2023-06-15 06:05:04] INFO root fetch - processPackages [evals-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/evals-nightly-1.0.3.dev20230613.tar.gz tmp/evals-nightly-1.0.3.dev20230614.tar.gz --markdown 20230615/e/evals-nightly/1.0.3.dev20230613-1.0.3.dev20230614/diff.md --exclude *.pyd
+[2023-06-15 06:05:04] INFO root fetch - processPackages [bs-admin-utils]: Downloading https://files.pythonhosted.org/packages/99/ee/0e4d04a97bc0a5e683556cb661aea8833b6d61fad79df3085f492a53a1d2/bs_admin_utils-1.1.1.tar.gz
+[2023-06-15 06:05:04] INFO root fetch - processPackages [smithed-libraries]: executing diffoscope
+[2023-06-15 06:05:04] INFO root fetch - processPackages [smithed-libraries]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smithed_libraries-0.6.0.tar.gz tmp/smithed_libraries-0.6.1.tar.gz --markdown 20230615/s/smithed-libraries/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2023-06-15 06:05:04] INFO root fetch - processPackages [yandexcloud]: executing diffoscope
+[2023-06-15 06:05:04] INFO root fetch - processPackages [yandexcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yandexcloud-0.98.0.tar.gz tmp/yandexcloud-0.99.0.tar.gz --markdown 20230615/y/yandexcloud/0.98.0-0.99.0/diff.md --exclude *.pyd
+[2023-06-15 06:05:04] INFO root fetch - processPackages [bs-admin-utils]: executing diffoscope
+[2023-06-15 06:05:04] INFO root fetch - processPackages [bs-admin-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bs_admin_utils-1.1.0.tar.gz tmp/bs_admin_utils-1.1.1.tar.gz --markdown 20230615/b/bs-admin-utils/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-06-15 06:05:04] INFO root fetch - processPackages [bokeh]: executing diffoscope
+[2023-06-15 06:05:04] INFO root fetch - processPackages [bokeh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bokeh-3.2.0rc1.tar.gz tmp/bokeh-3.2.0rc2.tar.gz --markdown 20230615/b/bokeh/3.2.0rc1-3.2.0rc2/diff.md --exclude *.pyd
+[2023-06-15 06:05:05] INFO root fetch - processPackages [spPersist]: Remove: archive file [/home/abi/fetcher/tmp/spPersist-1.0.2.tar.gz]
+[2023-06-15 06:05:05] INFO root fetch - processPackages [spPersist]: Remove: archive file [/home/abi/fetcher/tmp/spPersist-1.0.3.tar.gz]
+[2023-06-15 06:05:05] INFO root fetch - main [MainThread]: End processing [spPersist]: success
+[2023-06-15 06:05:05] INFO root fetch - processPackages [lib-pybroker]: Remove: archive file [/home/abi/fetcher/tmp/lib-pybroker-1.1.8.tar.gz]
+[2023-06-15 06:05:05] INFO root fetch - processPackages [lib-pybroker]: Remove: archive file [/home/abi/fetcher/tmp/lib-pybroker-1.1.9.tar.gz]
+[2023-06-15 06:05:05] INFO root fetch - main [MainThread]: End processing [lib-pybroker]: success
+[2023-06-15 06:05:05] INFO root fetch - processPackages [bs-admin-utils]: Remove: archive file [/home/abi/fetcher/tmp/bs_admin_utils-1.1.0.tar.gz]
+[2023-06-15 06:05:05] INFO root fetch - processPackages [bs-admin-utils]: Remove: archive file [/home/abi/fetcher/tmp/bs_admin_utils-1.1.1.tar.gz]
+[2023-06-15 06:05:05] INFO root fetch - main [MainThread]: End processing [bs-admin-utils]: success
+[2023-06-15 06:05:09] INFO root fetch - processPackages [evals-nightly]: Remove: archive file [/home/abi/fetcher/tmp/evals-nightly-1.0.3.dev20230613.tar.gz]
+[2023-06-15 06:05:09] INFO root fetch - processPackages [evals-nightly]: Remove: archive file [/home/abi/fetcher/tmp/evals-nightly-1.0.3.dev20230614.tar.gz]
+[2023-06-15 06:05:09] INFO root fetch - main [MainThread]: End processing [evals-nightly]: success
+[2023-06-15 06:05:11] INFO root fetch - processPackages [yandexcloud]: Remove: archive file [/home/abi/fetcher/tmp/yandexcloud-0.98.0.tar.gz]
+[2023-06-15 06:05:11] INFO root fetch - processPackages [yandexcloud]: Remove: archive file [/home/abi/fetcher/tmp/yandexcloud-0.99.0.tar.gz]
+[2023-06-15 06:05:11] INFO root fetch - main [MainThread]: End processing [yandexcloud]: success
+[2023-06-15 06:05:16] INFO root fetch - processPackages [smithed-libraries]: Remove: archive file [/home/abi/fetcher/tmp/smithed_libraries-0.6.0.tar.gz]
+[2023-06-15 06:05:16] INFO root fetch - processPackages [smithed-libraries]: Remove: archive file [/home/abi/fetcher/tmp/smithed_libraries-0.6.1.tar.gz]
+[2023-06-15 06:05:16] INFO root fetch - main [MainThread]: End processing [smithed-libraries]: success
+[2023-06-15 06:06:09] INFO root fetch - processPackages [bokeh]: Remove: archive file [/home/abi/fetcher/tmp/bokeh-3.2.0rc1.tar.gz]
+[2023-06-15 06:06:09] INFO root fetch - processPackages [bokeh]: Remove: archive file [/home/abi/fetcher/tmp/bokeh-3.2.0rc2.tar.gz]
+[2023-06-15 06:06:09] INFO root fetch - main [MainThread]: End processing [bokeh]: success
+[2023-06-15 06:06:09] INFO root fetch - main [MainThread]: Store serial: [18510922]
