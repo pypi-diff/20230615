@@ -5370,3 +5370,57 @@
 [2023-06-15 02:50:00] INFO root fetch - processPackages [tfds-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfds-nightly-4.9.2.dev202306140044.tar.gz]
 [2023-06-15 02:50:00] INFO root fetch - main [MainThread]: End processing [tfds-nightly]: success
 [2023-06-15 02:50:00] INFO root fetch - main [MainThread]: Store serial: [18509437]
+[2023-06-15 02:55:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18509437]
+[2023-06-15 02:55:08] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-15 02:55:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: proxidize-wrapper
+[2023-06-15 02:55:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ssh2awsec2
+[2023-06-15 02:55:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-slack-chatbot
+[2023-06-15 02:55:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Priority1py
+[2023-06-15 02:55:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: webint-ai
+[2023-06-15 02:55:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tutor-credentials
+[2023-06-15 02:55:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: always-updates
+[2023-06-15 02:55:08] WARNING root fetch - processPackages [proxidize-wrapper]: Skipping, unable to determine old version
+[2023-06-15 02:55:08] INFO root fetch - main [MainThread]: End processing [proxidize-wrapper] error
+[2023-06-15 02:55:08] INFO root fetch - processPackages [Priority1py]: New version: [0.1.2b0] Old Version: [0.1.1b0]
+[2023-06-15 02:55:08] INFO root fetch - processPackages [ssh2awsec2]: New version: [0.1.1] Old Version: [0.0.1]
+[2023-06-15 02:55:08] INFO root fetch - processPackages [cdk-slack-chatbot]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-06-15 02:55:08] INFO root fetch - processPackages [webint-ai]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-15 02:55:08] INFO root fetch - processPackages [always-updates]: New version: [99.9] Old Version: [99.8]
+[2023-06-15 02:55:08] INFO root fetch - processPackages [Priority1py]: Downloading https://files.pythonhosted.org/packages/4c/92/8d4d97db196136e58a19d17b0b79ba8cf59068af5d31c61a47e13a1aa3e8/Priority1py-0.1.1-beta.tar.gz
+[2023-06-15 02:55:08] INFO root fetch - processPackages [cdk-slack-chatbot]: Downloading https://files.pythonhosted.org/packages/18/e1/39c7ef0a63f08b4cdd9206beb69861062b890aa42bf0ead00ce61f92d7e4/cdk-slack-chatbot-1.0.98.tar.gz
+[2023-06-15 02:55:09] INFO root fetch - processPackages [always-updates]: Downloading https://files.pythonhosted.org/packages/5a/dc/f0b9cc3dcafc81b230cec909ee0b7d6229e97b28093d8f6f51c2ace8468b/always_updates-99.8.tar.gz
+[2023-06-15 02:55:09] WARNING root fetch - processPackages [tutor-credentials]: Skipping, unable to determine old version
+[2023-06-15 02:55:09] INFO root fetch - main [MainThread]: End processing [tutor-credentials] error
+[2023-06-15 02:55:09] INFO root fetch - processPackages [webint-ai]: Downloading https://files.pythonhosted.org/packages/8a/d1/fb7a1d1d574893a84236cdd2b0800be0cb9da584578f99277625df43d70f/webint_ai-0.0.3.tar.gz
+[2023-06-15 02:55:09] INFO root fetch - processPackages [ssh2awsec2]: Downloading https://files.pythonhosted.org/packages/28/00/ecba0a3d94f8ee8c0141f0a5aca7dd2e455fdd342cfb84687c8fa8401217/ssh2awsec2-0.0.1.tar.gz
+[2023-06-15 02:55:09] INFO root fetch - processPackages [always-updates]: Downloading https://files.pythonhosted.org/packages/b1/bd/641679b0c9c7b7c15f7084f8215f70f9189c0f4efd5633e45fe0a7f33ba5/always_updates-99.9.tar.gz
+[2023-06-15 02:55:09] INFO root fetch - processPackages [Priority1py]: Downloading https://files.pythonhosted.org/packages/70/47/b36d272f4ec1b27b8cbf41f541bfd41face31bcd067c8373750fa6e8cec4/Priority1py-0.1.2-beta.tar.gz
+[2023-06-15 02:55:09] INFO root fetch - processPackages [cdk-slack-chatbot]: Downloading https://files.pythonhosted.org/packages/12/72/dc851f78a8ed85e11196ca9ee9dd0d9524d10ba5e6a193ae2ce79645cb38/cdk-slack-chatbot-1.0.99.tar.gz
+[2023-06-15 02:55:09] INFO root fetch - processPackages [always-updates]: executing diffoscope
+[2023-06-15 02:55:09] INFO root fetch - processPackages [always-updates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/always_updates-99.8.tar.gz tmp/always_updates-99.9.tar.gz --markdown 20230615/a/always-updates/99.8-99.9/diff.md --exclude *.pyd
+[2023-06-15 02:55:09] INFO root fetch - processPackages [cdk-slack-chatbot]: executing diffoscope
+[2023-06-15 02:55:09] INFO root fetch - processPackages [cdk-slack-chatbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-slack-chatbot-1.0.98.tar.gz tmp/cdk-slack-chatbot-1.0.99.tar.gz --markdown 20230615/c/cdk-slack-chatbot/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-06-15 02:55:09] INFO root fetch - processPackages [ssh2awsec2]: Downloading https://files.pythonhosted.org/packages/b9/05/8022b1dc377d8c3ec41f3b1f2c97f753669f2d7a4bd75dacb3c0ebab7367/ssh2awsec2-0.1.1.tar.gz
+[2023-06-15 02:55:09] INFO root fetch - processPackages [Priority1py]: executing diffoscope
+[2023-06-15 02:55:09] INFO root fetch - processPackages [Priority1py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Priority1py-0.1.1-beta.tar.gz tmp/Priority1py-0.1.2-beta.tar.gz --markdown 20230615/P/Priority1py/0.1.1b0-0.1.2b0/diff.md --exclude *.pyd
+[2023-06-15 02:55:09] INFO root fetch - processPackages [webint-ai]: Downloading https://files.pythonhosted.org/packages/70/4f/1d8bb581d19b1d4e0656534a151f5496e145fcaa0be79901307f6935578c/webint_ai-0.0.4.tar.gz
+[2023-06-15 02:55:09] INFO root fetch - processPackages [webint-ai]: executing diffoscope
+[2023-06-15 02:55:09] INFO root fetch - processPackages [webint-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webint_ai-0.0.3.tar.gz tmp/webint_ai-0.0.4.tar.gz --markdown 20230615/w/webint-ai/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-15 02:55:09] INFO root fetch - processPackages [ssh2awsec2]: executing diffoscope
+[2023-06-15 02:55:09] INFO root fetch - processPackages [ssh2awsec2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ssh2awsec2-0.0.1.tar.gz tmp/ssh2awsec2-0.1.1.tar.gz --markdown 20230615/s/ssh2awsec2/0.0.1-0.1.1/diff.md --exclude *.pyd
+[2023-06-15 02:55:10] INFO root fetch - processPackages [always-updates]: Remove: archive file [/home/abi/fetcher/tmp/always_updates-99.8.tar.gz]
+[2023-06-15 02:55:10] INFO root fetch - processPackages [always-updates]: Remove: archive file [/home/abi/fetcher/tmp/always_updates-99.9.tar.gz]
+[2023-06-15 02:55:10] INFO root fetch - main [MainThread]: End processing [always-updates]: success
+[2023-06-15 02:55:10] INFO root fetch - processPackages [cdk-slack-chatbot]: Remove: archive file [/home/abi/fetcher/tmp/cdk-slack-chatbot-1.0.98.tar.gz]
+[2023-06-15 02:55:10] INFO root fetch - processPackages [cdk-slack-chatbot]: Remove: archive file [/home/abi/fetcher/tmp/cdk-slack-chatbot-1.0.99.tar.gz]
+[2023-06-15 02:55:10] INFO root fetch - main [MainThread]: End processing [cdk-slack-chatbot]: success
+[2023-06-15 02:55:10] INFO root fetch - processPackages [Priority1py]: Remove: archive file [/home/abi/fetcher/tmp/Priority1py-0.1.1-beta.tar.gz]
+[2023-06-15 02:55:10] INFO root fetch - processPackages [Priority1py]: Remove: archive file [/home/abi/fetcher/tmp/Priority1py-0.1.2-beta.tar.gz]
+[2023-06-15 02:55:10] INFO root fetch - main [MainThread]: End processing [Priority1py]: success
+[2023-06-15 02:55:10] INFO root fetch - processPackages [webint-ai]: Remove: archive file [/home/abi/fetcher/tmp/webint_ai-0.0.3.tar.gz]
+[2023-06-15 02:55:10] INFO root fetch - processPackages [webint-ai]: Remove: archive file [/home/abi/fetcher/tmp/webint_ai-0.0.4.tar.gz]
+[2023-06-15 02:55:10] INFO root fetch - main [MainThread]: End processing [webint-ai]: success
+[2023-06-15 02:55:10] INFO root fetch - processPackages [ssh2awsec2]: Remove: archive file [/home/abi/fetcher/tmp/ssh2awsec2-0.0.1.tar.gz]
+[2023-06-15 02:55:10] INFO root fetch - processPackages [ssh2awsec2]: Remove: archive file [/home/abi/fetcher/tmp/ssh2awsec2-0.1.1.tar.gz]
+[2023-06-15 02:55:10] INFO root fetch - main [MainThread]: End processing [ssh2awsec2]: success
+[2023-06-15 02:55:10] INFO root fetch - main [MainThread]: Store serial: [18509462]
