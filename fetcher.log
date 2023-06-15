@@ -22216,3 +22216,128 @@ AssertionError: tmp/stackoverflowapithingy-0.1.5.tar.gz does not exist
 [2023-06-15 14:33:41] INFO root fetch - processPackages [yyxx-game-pkg]: Remove: archive file [/home/abi/fetcher/tmp/yyxx_game_pkg-2023.6.9.1.tar.gz]
 [2023-06-15 14:33:41] INFO root fetch - main [MainThread]: End processing [yyxx-game-pkg]: success
 [2023-06-15 14:33:41] INFO root fetch - main [MainThread]: Store serial: [18515983]
+[2023-06-15 14:38:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18515983]
+[2023-06-15 14:38:51] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-06-15 14:38:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kalm
+[2023-06-15 14:38:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: invenio-accounts
+[2023-06-15 14:38:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: moto
+[2023-06-15 14:38:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: projen
+[2023-06-15 14:38:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ncOrtho
+[2023-06-15 14:38:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: efss-lotrsdk
+[2023-06-15 14:38:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ilcdlib
+[2023-06-15 14:38:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: otpme
+[2023-06-15 14:38:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pxtextmining
+[2023-06-15 14:38:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: betby
+[2023-06-15 14:38:51] INFO root fetch - processPackages [ilcdlib]: New version: [0.7.0] Old Version: [0.6.0]
+[2023-06-15 14:38:51] INFO root fetch - processPackages [kalm]: New version: [0.6.9] Old Version: [0.6.8]
+[2023-06-15 14:38:51] INFO root fetch - processPackages [efss-lotrsdk]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-15 14:38:51] INFO root fetch - processPackages [otpme]: New version: [0.3.0a9] Old Version: [0.3.0a8]
+[2023-06-15 14:38:51] INFO root fetch - processPackages [pxtextmining]: New version: [0.5.4] Old Version: [0.5.3]
+[2023-06-15 14:38:51] INFO root fetch - processPackages [invenio-accounts]: New version: [3.0.3] Old Version: [3.0.2]
+[2023-06-15 14:38:51] INFO root fetch - processPackages [ncOrtho]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-06-15 14:38:51] INFO root fetch - processPackages [betby]: New version: [0.2.7] Old Version: [0.2.6]
+[2023-06-15 14:38:52] INFO root fetch - processPackages [projen]: New version: [0.71.97] Old Version: [0.71.96]
+[2023-06-15 14:38:52] INFO root fetch - processPackages [moto]: New version: [4.1.9.dev9] Old Version: [4.1.9.dev8]
+[2023-06-15 14:38:52] INFO root fetch - processPackages [invenio-accounts]: Downloading https://files.pythonhosted.org/packages/a2/e8/cbe60ea08bf7cb2c64d0378f7fd15590c43cad0b632680eb4170371078c4/invenio-accounts-3.0.2.tar.gz
+[2023-06-15 14:38:52] INFO root fetch - processPackages [ncOrtho]: Downloading https://files.pythonhosted.org/packages/ee/1b/79976366225505d3072a7d4e5009bf4f32f0b637c2902526f523c0e77ec9/ncOrtho-0.4.0.tar.gz
+[2023-06-15 14:38:52] INFO root fetch - processPackages [moto]: Downloading https://files.pythonhosted.org/packages/2c/d4/8e03b33a9179ac2880d9ee7985f188927368b16081e05a142152e556685c/moto-4.1.9.dev8.tar.gz
+[2023-06-15 14:38:52] INFO root fetch - processPackages [efss-lotrsdk]: Downloading https://files.pythonhosted.org/packages/fb/36/102f204e718d3730e156894386e66bebb9061bda3f48791a46b430b89f0b/efss-lotrsdk-0.0.1.tar.gz
+[2023-06-15 14:38:52] INFO root fetch - processPackages [pxtextmining]: Downloading https://files.pythonhosted.org/packages/3e/07/bbe63f887e1c1195b6737a95e59e30a3eb89e9e556d98f1558d3a0b8191b/pxtextmining-0.5.3.tar.gz
+[2023-06-15 14:38:52] INFO root fetch - processPackages [kalm]: Downloading https://files.pythonhosted.org/packages/08/d6/afbd93ab17a860658e3f78d89626ca0ad442f18d7058216f69066b2b251d/kalm-0.6.8.tar.gz
+[2023-06-15 14:38:52] INFO root fetch - processPackages [ilcdlib]: Downloading https://files.pythonhosted.org/packages/77/79/a4a002ad137bf1a193afeb86e159ecec628ec921730e88140713924a9576/ilcdlib-0.6.0.tar.gz
+[2023-06-15 14:38:52] INFO root fetch - processPackages [otpme]: Downloading https://files.pythonhosted.org/packages/98/1d/f05f73ea1e959973ab56f0abb892009528faf4a7f0da031af39371307de8/otpme-0.3.0a8.tar.gz
+[2023-06-15 14:38:52] INFO root fetch - processPackages [betby]: Downloading https://files.pythonhosted.org/packages/7e/a8/bf340ce20dc21ceae17b9940bffc06a2a7b738c89c963ac2117ce28aed17/betby-0.2.6.tar.gz
+[2023-06-15 14:38:52] INFO root fetch - processPackages [moto]: Downloading https://files.pythonhosted.org/packages/4b/79/8731bdd68db60192dd81a418b0552fc817d87bba0726d6c4ff2dbd93f913/moto-4.1.9.dev9.tar.gz
+[2023-06-15 14:38:52] INFO root fetch - processPackages [projen]: Downloading https://files.pythonhosted.org/packages/91/46/1e5a532f71d0a6401ff358489588a511c6fb4400bd82582e561a8f32adfa/projen-0.71.96.tar.gz
+[2023-06-15 14:38:52] INFO root fetch - processPackages [invenio-accounts]: Downloading https://files.pythonhosted.org/packages/73/ed/0492675dccc0169e060ac24bb93dede99f6512de57331b3143f9bf82d65a/invenio-accounts-3.0.3.tar.gz
+[2023-06-15 14:38:52] INFO root fetch - processPackages [ncOrtho]: Downloading https://files.pythonhosted.org/packages/8c/a5/3a6eca332c88708625f5ce783f6dfdbd28737b95e6f4944ad2bdf1656d20/ncOrtho-0.4.1.tar.gz
+[2023-06-15 14:38:52] INFO root fetch - processPackages [invenio-accounts]: executing diffoscope
+[2023-06-15 14:38:52] INFO root fetch - processPackages [invenio-accounts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/invenio-accounts-3.0.2.tar.gz tmp/invenio-accounts-3.0.3.tar.gz --markdown 20230615/i/invenio-accounts/3.0.2-3.0.3/diff.md --exclude *.pyd
+[2023-06-15 14:38:52] INFO root fetch - processPackages [pxtextmining]: Downloading https://files.pythonhosted.org/packages/6c/f1/87eeae0ec2ee9b1978952c8c5f1967a76128c7703c9e783fc8391edd98a0/pxtextmining-0.5.4.tar.gz
+[2023-06-15 14:38:52] INFO root fetch - processPackages [ilcdlib]: Downloading https://files.pythonhosted.org/packages/44/b2/b4080c0832f92c2df12c436c71bec94bd8747b4361a12e59af1b48c77e03/ilcdlib-0.7.0.tar.gz
+[2023-06-15 14:38:52] INFO root fetch - processPackages [moto]: executing diffoscope
+[2023-06-15 14:38:52] INFO root fetch - processPackages [moto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moto-4.1.9.dev8.tar.gz tmp/moto-4.1.9.dev9.tar.gz --markdown 20230615/m/moto/4.1.9.dev8-4.1.9.dev9/diff.md --exclude *.pyd
+[2023-06-15 14:38:52] INFO root fetch - processPackages [kalm]: Downloading https://files.pythonhosted.org/packages/f3/ee/21230318a80577b7a92a016e6f1cf516735d553ff6164c13ff461de986aa/kalm-0.6.9.tar.gz
+[2023-06-15 14:38:52] INFO root fetch - processPackages [efss-lotrsdk]: Downloading https://files.pythonhosted.org/packages/d4/1e/87bfa180e4ac255dd2f718a8153e6c942314781002fdfd388a68bee164df/efss-lotrsdk-0.0.2.tar.gz
+[2023-06-15 14:38:52] INFO root fetch - processPackages [ncOrtho]: executing diffoscope
+[2023-06-15 14:38:52] INFO root fetch - processPackages [ncOrtho]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ncOrtho-0.4.0.tar.gz tmp/ncOrtho-0.4.1.tar.gz --markdown 20230615/n/ncOrtho/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-06-15 14:38:52] INFO root fetch - processPackages [pxtextmining]: executing diffoscope
+[2023-06-15 14:38:52] INFO root fetch - processPackages [pxtextmining]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pxtextmining-0.5.3.tar.gz tmp/pxtextmining-0.5.4.tar.gz --markdown 20230615/p/pxtextmining/0.5.3-0.5.4/diff.md --exclude *.pyd
+[2023-06-15 14:38:52] INFO root fetch - processPackages [kalm]: executing diffoscope
+[2023-06-15 14:38:52] INFO root fetch - processPackages [kalm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kalm-0.6.8.tar.gz tmp/kalm-0.6.9.tar.gz --markdown 20230615/k/kalm/0.6.8-0.6.9/diff.md --exclude *.pyd
+[2023-06-15 14:38:52] INFO root fetch - processPackages [otpme]: Downloading https://files.pythonhosted.org/packages/ec/d4/c2021c5284dad482e118317f65e7a59ea168655179a76dfae7cc25e67961/otpme-0.3.0a9.tar.gz
+[2023-06-15 14:38:52] INFO root fetch - processPackages [ilcdlib]: executing diffoscope
+[2023-06-15 14:38:52] INFO root fetch - processPackages [efss-lotrsdk]: executing diffoscope
+[2023-06-15 14:38:52] INFO root fetch - processPackages [efss-lotrsdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/efss-lotrsdk-0.0.1.tar.gz tmp/efss-lotrsdk-0.0.2.tar.gz --markdown 20230615/e/efss-lotrsdk/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-15 14:38:52] INFO root fetch - processPackages [ilcdlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ilcdlib-0.6.0.tar.gz tmp/ilcdlib-0.7.0.tar.gz --markdown 20230615/i/ilcdlib/0.6.0-0.7.0/diff.md --exclude *.pyd
+[2023-06-15 14:38:52] INFO root fetch - processPackages [betby]: Downloading https://files.pythonhosted.org/packages/e8/80/bf8cca536844fd611697e1aa05ab7b8b6351cef3be545e3d0eb15ab6445f/betby-0.2.7.tar.gz
+[2023-06-15 14:38:52] INFO root fetch - processPackages [otpme]: executing diffoscope
+[2023-06-15 14:38:52] INFO root fetch - processPackages [otpme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/otpme-0.3.0a8.tar.gz tmp/otpme-0.3.0a9.tar.gz --markdown 20230615/o/otpme/0.3.0a8-0.3.0a9/diff.md --exclude *.pyd
+[2023-06-15 14:38:52] INFO root fetch - processPackages [betby]: executing diffoscope
+[2023-06-15 14:38:52] INFO root fetch - processPackages [betby]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/betby-0.2.6.tar.gz tmp/betby-0.2.7.tar.gz --markdown 20230615/b/betby/0.2.6-0.2.7/diff.md --exclude *.pyd
+[2023-06-15 14:38:52] INFO root fetch - processPackages [projen]: Downloading https://files.pythonhosted.org/packages/6c/1b/758d7891cba68c5f22eeb1131f571d86aaa87c824cd77651254120285fee/projen-0.71.97.tar.gz
+[2023-06-15 14:38:52] INFO root fetch - processPackages [projen]: executing diffoscope
+[2023-06-15 14:38:52] INFO root fetch - processPackages [projen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/projen-0.71.96.tar.gz tmp/projen-0.71.97.tar.gz --markdown 20230615/p/projen/0.71.96-0.71.97/diff.md --exclude *.pyd
+[2023-06-15 14:38:53] INFO root fetch - processPackages [kalm]: Remove: archive file [/home/abi/fetcher/tmp/kalm-0.6.8.tar.gz]
+[2023-06-15 14:38:53] INFO root fetch - processPackages [kalm]: Remove: archive file [/home/abi/fetcher/tmp/kalm-0.6.9.tar.gz]
+[2023-06-15 14:38:53] INFO root fetch - processPackages [kalm]: Start processing: gentrace-py
+[2023-06-15 14:38:53] INFO root fetch - main [MainThread]: End processing [kalm]: success
+[2023-06-15 14:38:53] INFO root fetch - processPackages [gentrace-py]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-06-15 14:38:54] INFO root fetch - processPackages [betby]: Remove: archive file [/home/abi/fetcher/tmp/betby-0.2.6.tar.gz]
+[2023-06-15 14:38:54] INFO root fetch - processPackages [betby]: Remove: archive file [/home/abi/fetcher/tmp/betby-0.2.7.tar.gz]
+[2023-06-15 14:38:54] INFO root fetch - processPackages [betby]: Start processing: th2-data-services-lwdp
+[2023-06-15 14:38:54] INFO root fetch - main [MainThread]: End processing [betby]: success
+[2023-06-15 14:38:54] INFO root fetch - processPackages [gentrace-py]: Downloading https://files.pythonhosted.org/packages/28/1d/260a9d1832a0c7e40a19de65e5b9680ece0b1ee669ef7cfa9dd7006b2787/gentrace_py-0.9.0.tar.gz
+[2023-06-15 14:38:54] INFO root fetch - processPackages [th2-data-services-lwdp]: New version: [2.1.0.0.dev5278098580] Old Version: [2.1.0.0.dev5277935888]
+[2023-06-15 14:38:54] INFO root fetch - processPackages [efss-lotrsdk]: Remove: archive file [/home/abi/fetcher/tmp/efss-lotrsdk-0.0.1.tar.gz]
+[2023-06-15 14:38:54] INFO root fetch - processPackages [efss-lotrsdk]: Remove: archive file [/home/abi/fetcher/tmp/efss-lotrsdk-0.0.2.tar.gz]
+[2023-06-15 14:38:54] INFO root fetch - processPackages [efss-lotrsdk]: Start processing: cdktf-cdktf-provider-azurerm
+[2023-06-15 14:38:54] INFO root fetch - main [MainThread]: End processing [efss-lotrsdk]: success
+[2023-06-15 14:38:54] INFO root fetch - processPackages [th2-data-services-lwdp]: Downloading https://files.pythonhosted.org/packages/2f/d1/1de69cccc442d04fc82bb895b68510954146c6d3aa78b95765991776241a/th2_data_services_lwdp-2.1.0.0.dev5277935888.tar.gz
+[2023-06-15 14:38:54] INFO root fetch - processPackages [pxtextmining]: Remove: archive file [/home/abi/fetcher/tmp/pxtextmining-0.5.3.tar.gz]
+[2023-06-15 14:38:54] INFO root fetch - processPackages [pxtextmining]: Remove: archive file [/home/abi/fetcher/tmp/pxtextmining-0.5.4.tar.gz]
+[2023-06-15 14:38:54] INFO root fetch - processPackages [pxtextmining]: Start processing: as-scraper
+[2023-06-15 14:38:54] INFO root fetch - main [MainThread]: End processing [pxtextmining]: success
+[2023-06-15 14:38:54] INFO root fetch - processPackages [as-scraper]: New version: [2.4.0] Old Version: [2.3.5]
+[2023-06-15 14:38:54] INFO root fetch - processPackages [cdktf-cdktf-provider-azurerm]: New version: [8.0.0] Old Version: [7.0.9]
+[2023-06-15 14:38:54] INFO root fetch - processPackages [ilcdlib]: Remove: archive file [/home/abi/fetcher/tmp/ilcdlib-0.6.0.tar.gz]
+[2023-06-15 14:38:54] INFO root fetch - processPackages [ilcdlib]: Remove: archive file [/home/abi/fetcher/tmp/ilcdlib-0.7.0.tar.gz]
+[2023-06-15 14:38:54] INFO root fetch - main [MainThread]: End processing [ilcdlib]: success
+[2023-06-15 14:38:54] INFO root fetch - processPackages [as-scraper]: Downloading https://files.pythonhosted.org/packages/e1/18/b232e3ce84f4a608ef74e4003c902b256d2effa80fbfaa081db7f99edad8/as-scraper-2.3.5.tar.gz
+[2023-06-15 14:38:54] INFO root fetch - processPackages [th2-data-services-lwdp]: Downloading https://files.pythonhosted.org/packages/dc/6e/f87ddc2a99a725e437bfd4e859062fdad667a99dbdde8843d00574cb8e0f/th2_data_services_lwdp-2.1.0.0.dev5278098580.tar.gz
+[2023-06-15 14:38:54] INFO root fetch - processPackages [gentrace-py]: Downloading https://files.pythonhosted.org/packages/e5/c3/d0ce9414bb9b5a3467baa87d578314dae84fe8b66d2b1f2d38cab4e20714/gentrace_py-0.9.1.tar.gz
+[2023-06-15 14:38:54] INFO root fetch - processPackages [cdktf-cdktf-provider-azurerm]: Downloading https://files.pythonhosted.org/packages/e8/ef/e6a3e90954536eb6ca6f80f7588025617842120e6fa20388201eeb373071/cdktf-cdktf-provider-azurerm-7.0.9.tar.gz
+[2023-06-15 14:38:54] INFO root fetch - processPackages [as-scraper]: Downloading https://files.pythonhosted.org/packages/6f/42/a5c06601e59a4b49cd391774b6ad59b24b380b5acf025d8dc4f5feb8def4/as-scraper-2.4.0.tar.gz
+[2023-06-15 14:38:54] INFO root fetch - processPackages [th2-data-services-lwdp]: executing diffoscope
+[2023-06-15 14:38:54] INFO root fetch - processPackages [th2-data-services-lwdp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th2_data_services_lwdp-2.1.0.0.dev5277935888.tar.gz tmp/th2_data_services_lwdp-2.1.0.0.dev5278098580.tar.gz --markdown 20230615/t/th2-data-services-lwdp/2.1.0.0.dev5277935888-2.1.0.0.dev5278098580/diff.md --exclude *.pyd
+[2023-06-15 14:38:54] INFO root fetch - processPackages [gentrace-py]: executing diffoscope
+[2023-06-15 14:38:54] INFO root fetch - processPackages [gentrace-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gentrace_py-0.9.0.tar.gz tmp/gentrace_py-0.9.1.tar.gz --markdown 20230615/g/gentrace-py/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-06-15 14:38:54] INFO root fetch - processPackages [as-scraper]: executing diffoscope
+[2023-06-15 14:38:54] INFO root fetch - processPackages [as-scraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/as-scraper-2.3.5.tar.gz tmp/as-scraper-2.4.0.tar.gz --markdown 20230615/a/as-scraper/2.3.5-2.4.0/diff.md --exclude *.pyd
+[2023-06-15 14:38:54] WARNING root fetch - processPackages [cdktf-cdktf-provider-azurerm]: Skipping package: exceeds size limit 30670305>=10485760
+[2023-06-15 14:38:54] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-azurerm] error
+[2023-06-15 14:38:55] INFO root fetch - processPackages [ncOrtho]: Remove: archive file [/home/abi/fetcher/tmp/ncOrtho-0.4.0.tar.gz]
+[2023-06-15 14:38:55] INFO root fetch - processPackages [ncOrtho]: Remove: archive file [/home/abi/fetcher/tmp/ncOrtho-0.4.1.tar.gz]
+[2023-06-15 14:38:55] INFO root fetch - main [MainThread]: End processing [ncOrtho]: success
+[2023-06-15 14:38:55] INFO root fetch - processPackages [th2-data-services-lwdp]: Remove: archive file [/home/abi/fetcher/tmp/th2_data_services_lwdp-2.1.0.0.dev5277935888.tar.gz]
+[2023-06-15 14:38:55] INFO root fetch - processPackages [th2-data-services-lwdp]: Remove: archive file [/home/abi/fetcher/tmp/th2_data_services_lwdp-2.1.0.0.dev5278098580.tar.gz]
+[2023-06-15 14:38:55] INFO root fetch - main [MainThread]: End processing [th2-data-services-lwdp]: success
+[2023-06-15 14:38:55] INFO root fetch - processPackages [as-scraper]: Remove: archive file [/home/abi/fetcher/tmp/as-scraper-2.3.5.tar.gz]
+[2023-06-15 14:38:55] INFO root fetch - processPackages [as-scraper]: Remove: archive file [/home/abi/fetcher/tmp/as-scraper-2.4.0.tar.gz]
+[2023-06-15 14:38:55] INFO root fetch - main [MainThread]: End processing [as-scraper]: success
+[2023-06-15 14:38:56] INFO root fetch - processPackages [gentrace-py]: Remove: archive file [/home/abi/fetcher/tmp/gentrace_py-0.9.0.tar.gz]
+[2023-06-15 14:38:56] INFO root fetch - processPackages [gentrace-py]: Remove: archive file [/home/abi/fetcher/tmp/gentrace_py-0.9.1.tar.gz]
+[2023-06-15 14:38:56] INFO root fetch - main [MainThread]: End processing [gentrace-py]: success
+[2023-06-15 14:38:56] INFO root fetch - processPackages [invenio-accounts]: Remove: archive file [/home/abi/fetcher/tmp/invenio-accounts-3.0.2.tar.gz]
+[2023-06-15 14:38:56] INFO root fetch - processPackages [invenio-accounts]: Remove: archive file [/home/abi/fetcher/tmp/invenio-accounts-3.0.3.tar.gz]
+[2023-06-15 14:38:56] INFO root fetch - main [MainThread]: End processing [invenio-accounts]: success
+[2023-06-15 14:38:57] INFO root fetch - processPackages [otpme]: Remove: archive file [/home/abi/fetcher/tmp/otpme-0.3.0a8.tar.gz]
+[2023-06-15 14:38:57] INFO root fetch - processPackages [otpme]: Remove: archive file [/home/abi/fetcher/tmp/otpme-0.3.0a9.tar.gz]
+[2023-06-15 14:38:57] INFO root fetch - main [MainThread]: End processing [otpme]: success
+[2023-06-15 14:38:58] INFO root fetch - processPackages [projen]: Remove: archive file [/home/abi/fetcher/tmp/projen-0.71.96.tar.gz]
+[2023-06-15 14:38:58] INFO root fetch - processPackages [projen]: Remove: archive file [/home/abi/fetcher/tmp/projen-0.71.97.tar.gz]
+[2023-06-15 14:38:58] INFO root fetch - main [MainThread]: End processing [projen]: success
+[2023-06-15 14:39:27] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-4.1.9.dev8.tar.gz]
+[2023-06-15 14:39:27] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-4.1.9.dev9.tar.gz]
+[2023-06-15 14:39:27] INFO root fetch - main [MainThread]: End processing [moto]: success
+[2023-06-15 14:39:27] INFO root fetch - main [MainThread]: Store serial: [18516025]
