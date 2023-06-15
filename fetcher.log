@@ -12559,3 +12559,169 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-06-15 09:16:34] INFO root fetch - processPackages [checkov]: Remove: archive file [/home/abi/fetcher/tmp/checkov-2.3.99.tar.gz]
 [2023-06-15 09:16:34] INFO root fetch - main [MainThread]: End processing [checkov]: success
 [2023-06-15 09:16:34] INFO root fetch - main [MainThread]: Store serial: [18512218]
+[2023-06-15 09:21:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18512218]
+[2023-06-15 09:21:50] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-06-15 09:21:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mtmtool
+[2023-06-15 09:21:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pepperize.cdk-terraform-state-backend
+[2023-06-15 09:21:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ory-client
+[2023-06-15 09:21:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyarmor.cli
+[2023-06-15 09:21:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyarmor
+[2023-06-15 09:21:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: wizata-dsapi
+[2023-06-15 09:21:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tfq-nightly
+[2023-06-15 09:21:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: vessl
+[2023-06-15 09:21:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: translate-shell
+[2023-06-15 09:21:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pytorch-pipline
+[2023-06-15 09:21:50] INFO root fetch - processPackages [mtmtool]: New version: [1.2.6] Old Version: [1.2.5]
+[2023-06-15 09:21:50] INFO root fetch - processPackages [tfq-nightly]: New version: [0.7.3.dev20230614] Old Version: [0.7.3.dev20230613]
+[2023-06-15 09:21:50] INFO root fetch - processPackages [pytorch-pipline]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-15 09:21:50] INFO root fetch - processPackages [pyarmor.cli]: New version: [8.2.dev2] Old Version: [8.2.dev1]
+[2023-06-15 09:21:50] INFO root fetch - processPackages [ory-client]: New version: [1.1.7] Old Version: [1.1.5]
+[2023-06-15 09:21:50] INFO root fetch - processPackages [translate-shell]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-15 09:21:50] INFO root fetch - processPackages [vessl]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-06-15 09:21:50] INFO root fetch - processPackages [wizata-dsapi]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-06-15 09:21:50] INFO root fetch - processPackages [pyarmor]: New version: [8.2.dev2] Old Version: [8.2.dev1]
+[2023-06-15 09:21:50] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-06-15 09:21:50] INFO root fetch - processPackages [pytorch-pipline]: Downloading https://files.pythonhosted.org/packages/f8/07/2615378f3394ed46913e333e6f53fbf51b8cf0ee97367521f131c6c1bd8b/pytorch-pipline-0.0.8.tar.gz
+[2023-06-15 09:21:50] INFO root fetch - processPackages [wizata-dsapi]: Downloading https://files.pythonhosted.org/packages/d0/ba/f0bdd16f95ee52fb25901409f31bde594458ef362c86f31c8d307c8987d5/wizata-dsapi-0.1.98.tar.gz
+[2023-06-15 09:21:50] INFO root fetch - processPackages [mtmtool]: Downloading https://files.pythonhosted.org/packages/d8/95/63c81d9831c773e6284a8c8247e22a2848099b54b9b304269577d7d622a4/mtmtool-1.2.5.tar.gz
+[2023-06-15 09:21:50] INFO root fetch - processPackages [pyarmor.cli]: Downloading https://files.pythonhosted.org/packages/16/a5/4072c136091c636b41e19e77997027cd60aa089a9015d15962c9a043e5f8/pyarmor.cli-8.2.dev1-py2.py3-none-any.whl
+[2023-06-15 09:21:50] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Downloading https://files.pythonhosted.org/packages/67/44/1dba32653c7525f0fbd8908ad6d202d1043a5fcb6cf364972a4c23bffeac/pepperize.cdk-terraform-state-backend-0.1.98.tar.gz
+[2023-06-15 09:21:50] INFO root fetch - processPackages [ory-client]: Downloading https://files.pythonhosted.org/packages/44/8b/4799fb838d0092b7ac666a8dae770a02996267998f6731162949bce09317/ory-client-1.1.5.tar.gz
+[2023-06-15 09:21:50] INFO root fetch - processPackages [tfq-nightly]: Downloading https://files.pythonhosted.org/packages/d6/c4/e192423ac384196096442e930a8a60d8d0b37c4a021b70194aa9a6644e07/tfq_nightly-0.7.3.dev20230613-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-15 09:21:50] INFO root fetch - processPackages [pyarmor]: Downloading https://files.pythonhosted.org/packages/96/1b/288b5edb2e942102823ed6f5d76b16985b19fc91a1bcb12b2269e6f87467/pyarmor-8.2.dev1.zip
+[2023-06-15 09:21:50] INFO root fetch - processPackages [translate-shell]: Downloading https://files.pythonhosted.org/packages/aa/ed/e25a7c89f8e66c89b4f998bd2f4280d8a427b319670e155b018f04adf8d8/translate-shell-0.0.8.tar.gz
+[2023-06-15 09:21:50] INFO root fetch - processPackages [wizata-dsapi]: Downloading https://files.pythonhosted.org/packages/3f/a2/8e1949f8e59bf78c31c3953b9c48fc81a94bb23b209d76f41dbd3f8b510f/wizata-dsapi-0.1.99.tar.gz
+[2023-06-15 09:21:50] INFO root fetch - processPackages [vessl]: Downloading https://files.pythonhosted.org/packages/38/7d/1b2b94a1083188f3376a0af9cb2701abb4c084a8e0608a25f97e191ab3e7/vessl-0.1.98.tar.gz
+[2023-06-15 09:21:51] INFO root fetch - processPackages [pytorch-pipline]: Downloading https://files.pythonhosted.org/packages/85/4d/815757112aa4e1097e6c434be31c7558e9aca24e20e0a0eb0778c6074673/pytorch-pipline-0.0.9.tar.gz
+[2023-06-15 09:21:51] INFO root fetch - processPackages [mtmtool]: Downloading https://files.pythonhosted.org/packages/85/f1/620272711711c33956402c1e68aac912ddfd1c0cb41e470a2b9cd0a4ff18/mtmtool-1.2.6.tar.gz
+[2023-06-15 09:21:51] INFO root fetch - processPackages [wizata-dsapi]: executing diffoscope
+[2023-06-15 09:21:51] INFO root fetch - processPackages [wizata-dsapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wizata-dsapi-0.1.98.tar.gz tmp/wizata-dsapi-0.1.99.tar.gz --markdown 20230615/w/wizata-dsapi/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-06-15 09:21:51] INFO root fetch - processPackages [ory-client]: Downloading https://files.pythonhosted.org/packages/a5/c2/168ddaefc28da41c63d772b9db3c39f3033665541e1a4b4ecc510c5eb836/ory-client-1.1.7.tar.gz
+[2023-06-15 09:21:51] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Downloading https://files.pythonhosted.org/packages/49/e5/a2d418e8a59e46c739ecaa72adebcb65d676b8149513d576b8cd05d6324e/pepperize.cdk-terraform-state-backend-0.1.99.tar.gz
+[2023-06-15 09:21:51] INFO root fetch - processPackages [pyarmor.cli]: Downloading https://files.pythonhosted.org/packages/58/d6/ac109f3c3337cabe88f01410b858a2020a8f962d90fff6c3cb4d659dab24/pyarmor.cli-8.2.dev2-py2.py3-none-any.whl
+[2023-06-15 09:21:51] INFO root fetch - processPackages [mtmtool]: executing diffoscope
+[2023-06-15 09:21:51] INFO root fetch - processPackages [mtmtool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mtmtool-1.2.5.tar.gz tmp/mtmtool-1.2.6.tar.gz --markdown 20230615/m/mtmtool/1.2.5-1.2.6/diff.md --exclude *.pyd
+[2023-06-15 09:21:51] INFO root fetch - processPackages [pytorch-pipline]: executing diffoscope
+[2023-06-15 09:21:51] INFO root fetch - processPackages [pytorch-pipline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytorch-pipline-0.0.8.tar.gz tmp/pytorch-pipline-0.0.9.tar.gz --markdown 20230615/p/pytorch-pipline/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-15 09:21:51] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: executing diffoscope
+[2023-06-15 09:21:51] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-terraform-state-backend-0.1.98.tar.gz tmp/pepperize.cdk-terraform-state-backend-0.1.99.tar.gz --markdown 20230615/p/pepperize.cdk-terraform-state-backend/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-06-15 09:21:51] INFO root fetch - processPackages [ory-client]: executing diffoscope
+[2023-06-15 09:21:51] INFO root fetch - processPackages [ory-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ory-client-1.1.5.tar.gz tmp/ory-client-1.1.7.tar.gz --markdown 20230615/o/ory-client/1.1.5-1.1.7/diff.md --exclude *.pyd
+[2023-06-15 09:21:51] INFO root fetch - processPackages [pyarmor.cli]: executing diffoscope
+[2023-06-15 09:21:51] INFO root fetch - processPackages [pyarmor.cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyarmor.cli-8.2.dev1-py2.py3-none-any.whl.zip tmp/pyarmor.cli-8.2.dev2-py2.py3-none-any.whl.zip --markdown 20230615/p/pyarmor.cli/8.2.dev1-8.2.dev2/diff.md --exclude *.pyd
+[2023-06-15 09:21:51] INFO root fetch - processPackages [translate-shell]: Downloading https://files.pythonhosted.org/packages/10/53/d1b2622fd5860f8b6f36dbdd934c30d2e357cd577f74de20d18e020079f4/translate-shell-0.0.9.tar.gz
+[2023-06-15 09:21:51] INFO root fetch - processPackages [vessl]: Downloading https://files.pythonhosted.org/packages/21/b8/cbd9a61ba9f582b647d4ef42d4b54900e40293bc599bde0a7f1fe73974bc/vessl-0.1.99.tar.gz
+[2023-06-15 09:21:51] WARNING root fetch - processPackages [tfq-nightly]: Skipping package: exceeds size limit 10822715>=10485760
+[2023-06-15 09:21:51] INFO root fetch - processPackages [tfq-nightly]: Start processing: django-ipghrms-leave
+[2023-06-15 09:21:51] INFO root fetch - main [MainThread]: End processing [tfq-nightly] error
+[2023-06-15 09:21:51] INFO root fetch - processPackages [vessl]: executing diffoscope
+[2023-06-15 09:21:51] INFO root fetch - processPackages [vessl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vessl-0.1.98.tar.gz tmp/vessl-0.1.99.tar.gz --markdown 20230615/v/vessl/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-06-15 09:21:51] INFO root fetch - processPackages [django-ipghrms-leave]: New version: [1.8] Old Version: [1.7]
+[2023-06-15 09:21:51] INFO root fetch - processPackages [translate-shell]: executing diffoscope
+[2023-06-15 09:21:51] INFO root fetch - processPackages [translate-shell]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/translate-shell-0.0.8.tar.gz tmp/translate-shell-0.0.9.tar.gz --markdown 20230615/t/translate-shell/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-15 09:21:51] INFO root fetch - processPackages [django-ipghrms-leave]: Downloading https://files.pythonhosted.org/packages/27/8a/072d08ea776455e813d8fb1165386e8171fae23396c46596eaaa90f173ea/django-ipghrms-leave-1.7.tar.gz
+[2023-06-15 09:21:52] INFO root fetch - processPackages [django-ipghrms-leave]: Downloading https://files.pythonhosted.org/packages/07/64/fb9dd61ec26bdeb66686e6047d2f2eed129d48e5b31f092d1c2a6ae208a5/django-ipghrms-leave-1.8.tar.gz
+[2023-06-15 09:21:52] INFO root fetch - processPackages [pyarmor]: Downloading https://files.pythonhosted.org/packages/32/cb/ab0b2546de84f234426daaf0c25fc6f42e8534f2b48f2a77db88903e3fd3/pyarmor-8.2.dev2.zip
+[2023-06-15 09:21:52] INFO root fetch - processPackages [django-ipghrms-leave]: executing diffoscope
+[2023-06-15 09:21:52] INFO root fetch - processPackages [django-ipghrms-leave]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-ipghrms-leave-1.7.tar.gz tmp/django-ipghrms-leave-1.8.tar.gz --markdown 20230615/d/django-ipghrms-leave/1.7-1.8/diff.md --exclude *.pyd
+[2023-06-15 09:21:52] INFO root fetch - processPackages [pytorch-pipline]: Remove: archive file [/home/abi/fetcher/tmp/pytorch-pipline-0.0.8.tar.gz]
+[2023-06-15 09:21:52] INFO root fetch - processPackages [pytorch-pipline]: Remove: archive file [/home/abi/fetcher/tmp/pytorch-pipline-0.0.9.tar.gz]
+[2023-06-15 09:21:52] INFO root fetch - processPackages [pytorch-pipline]: Start processing: docarray
+[2023-06-15 09:21:52] INFO root fetch - main [MainThread]: End processing [pytorch-pipline]: success
+[2023-06-15 09:21:52] INFO root fetch - processPackages [docarray]: New version: [0.9.9.dev5] Old Version: [0.9.9.dev4]
+[2023-06-15 09:21:52] INFO root fetch - processPackages [pyarmor.cli]: Remove: archive file [/home/abi/fetcher/tmp/pyarmor.cli-8.2.dev1-py2.py3-none-any.whl.zip]
+[2023-06-15 09:21:52] INFO root fetch - processPackages [pyarmor.cli]: Remove: archive file [/home/abi/fetcher/tmp/pyarmor.cli-8.2.dev2-py2.py3-none-any.whl.zip]
+[2023-06-15 09:21:52] INFO root fetch - processPackages [pyarmor.cli]: Start processing: odoo-addon-partner-pricelist-search
+[2023-06-15 09:21:52] INFO root fetch - main [MainThread]: End processing [pyarmor.cli]: success
+[2023-06-15 09:21:52] INFO root fetch - processPackages [docarray]: Downloading https://files.pythonhosted.org/packages/da/d0/4e039d9e7c4e19f30fbd831f0bd4670ae9aa6b5c8b29e21ed55f7886c9fe/docarray-0.9.9.dev4.tar.gz
+[2023-06-15 09:21:52] INFO root fetch - processPackages [odoo-addon-partner-pricelist-search]: New version: [16.0.1.0.0.2] Old Version: [15.0.1.0.0.2]
+[2023-06-15 09:21:53] INFO root fetch - processPackages [docarray]: Downloading https://files.pythonhosted.org/packages/2b/4f/53a641fcaefc8774128d5f48cb2a7b2e692c8adfce1e2afaf8d9260d8b2a/docarray-0.9.9.dev5.tar.gz
+[2023-06-15 09:21:53] INFO root fetch - processPackages [odoo-addon-partner-pricelist-search]: Downloading https://files.pythonhosted.org/packages/93/28/035460e51371eff42d5871cd35a44fdfea74677970d73a0449b20354d069/odoo_addon_partner_pricelist_search-15.0.1.0.0.2-py3-none-any.whl
+[2023-06-15 09:21:53] INFO root fetch - processPackages [mtmtool]: Remove: archive file [/home/abi/fetcher/tmp/mtmtool-1.2.5.tar.gz]
+[2023-06-15 09:21:53] INFO root fetch - processPackages [mtmtool]: Remove: archive file [/home/abi/fetcher/tmp/mtmtool-1.2.6.tar.gz]
+[2023-06-15 09:21:53] INFO root fetch - processPackages [mtmtool]: Start processing: transformers-supporter
+[2023-06-15 09:21:53] INFO root fetch - main [MainThread]: End processing [mtmtool]: success
+[2023-06-15 09:21:53] INFO root fetch - processPackages [transformers-supporter]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-15 09:21:53] INFO root fetch - processPackages [pyarmor]: executing diffoscope
+[2023-06-15 09:21:53] INFO root fetch - processPackages [pyarmor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyarmor-8.2.dev1.zip tmp/pyarmor-8.2.dev2.zip --markdown 20230615/p/pyarmor/8.2.dev1-8.2.dev2/diff.md --exclude *.pyd
+[2023-06-15 09:21:53] INFO root fetch - processPackages [docarray]: executing diffoscope
+[2023-06-15 09:21:53] INFO root fetch - processPackages [docarray]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docarray-0.9.9.dev4.tar.gz tmp/docarray-0.9.9.dev5.tar.gz --markdown 20230615/d/docarray/0.9.9.dev4-0.9.9.dev5/diff.md --exclude *.pyd
+[2023-06-15 09:21:53] INFO root fetch - processPackages [odoo-addon-partner-pricelist-search]: Downloading https://files.pythonhosted.org/packages/45/d9/c213c7070650387a90dd048fa151ba1f0838533cc330a5d4d43436001a7d/odoo_addon_partner_pricelist_search-16.0.1.0.0.2-py3-none-any.whl
+[2023-06-15 09:21:53] INFO root fetch - processPackages [wizata-dsapi]: Remove: archive file [/home/abi/fetcher/tmp/wizata-dsapi-0.1.98.tar.gz]
+[2023-06-15 09:21:53] INFO root fetch - processPackages [wizata-dsapi]: Remove: archive file [/home/abi/fetcher/tmp/wizata-dsapi-0.1.99.tar.gz]
+[2023-06-15 09:21:53] INFO root fetch - processPackages [wizata-dsapi]: Start processing: myl-discovery
+[2023-06-15 09:21:53] INFO root fetch - main [MainThread]: End processing [wizata-dsapi]: success
+[2023-06-15 09:21:53] INFO root fetch - processPackages [myl-discovery]: New version: [0.5.5] Old Version: [0.5.4]
+[2023-06-15 09:21:53] INFO root fetch - processPackages [odoo-addon-partner-pricelist-search]: executing diffoscope
+[2023-06-15 09:21:53] INFO root fetch - processPackages [odoo-addon-partner-pricelist-search]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_partner_pricelist_search-15.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_partner_pricelist_search-16.0.1.0.0.2-py3-none-any.whl.zip --markdown 20230615/o/odoo-addon-partner-pricelist-search/15.0.1.0.0.2-16.0.1.0.0.2/diff.md --exclude *.pyd
+[2023-06-15 09:21:53] INFO root fetch - processPackages [myl-discovery]: Downloading https://files.pythonhosted.org/packages/91/45/6ea9ed955a7503912b589711d0c18c5a005a47cac6876bcc5c896b9dcef6/myl-discovery-0.5.4.tar.gz
+[2023-06-15 09:21:53] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-terraform-state-backend-0.1.98.tar.gz]
+[2023-06-15 09:21:53] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-terraform-state-backend-0.1.99.tar.gz]
+[2023-06-15 09:21:53] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Start processing: AutoFun
+[2023-06-15 09:21:53] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-terraform-state-backend]: success
+[2023-06-15 09:21:53] INFO root fetch - processPackages [transformers-supporter]: Downloading https://files.pythonhosted.org/packages/2d/b3/0a5ba4230b93d8b0af855a0cb099f7cd12620f36b5763aae64e4280f49ac/transformers-supporter-0.0.8.tar.gz
+[2023-06-15 09:21:53] INFO root fetch - processPackages [AutoFun]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-06-15 09:21:53] INFO root fetch - processPackages [AutoFun]: Downloading https://files.pythonhosted.org/packages/8d/dd/fee8a9a2bcbd7c762bcbf3fca47b006b8c96228053a60d6f81b2acdc627f/AutoFun-0.3.8.tar.gz
+[2023-06-15 09:21:53] INFO root fetch - processPackages [transformers-supporter]: Downloading https://files.pythonhosted.org/packages/e3/57/5ebc8b77d3f7674a08c327be80e75ae6250845796c3e5eada5d7936121dc/transformers-supporter-0.0.9.tar.gz
+[2023-06-15 09:21:53] INFO root fetch - processPackages [translate-shell]: Remove: archive file [/home/abi/fetcher/tmp/translate-shell-0.0.8.tar.gz]
+[2023-06-15 09:21:53] INFO root fetch - processPackages [translate-shell]: Remove: archive file [/home/abi/fetcher/tmp/translate-shell-0.0.9.tar.gz]
+[2023-06-15 09:21:53] INFO root fetch - processPackages [translate-shell]: Start processing: akshare
+[2023-06-15 09:21:53] INFO root fetch - main [MainThread]: End processing [translate-shell]: success
+[2023-06-15 09:21:53] INFO root fetch - processPackages [myl-discovery]: Downloading https://files.pythonhosted.org/packages/d8/84/46aaa55bc69d6141afa48381af3a47f257b00dfd50811380589bba0c5e68/myl-discovery-0.5.5.tar.gz
+[2023-06-15 09:21:53] INFO root fetch - processPackages [akshare]: New version: [1.9.99] Old Version: [1.9.98]
+[2023-06-15 09:21:54] INFO root fetch - processPackages [myl-discovery]: executing diffoscope
+[2023-06-15 09:21:54] INFO root fetch - processPackages [myl-discovery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/myl-discovery-0.5.4.tar.gz tmp/myl-discovery-0.5.5.tar.gz --markdown 20230615/m/myl-discovery/0.5.4-0.5.5/diff.md --exclude *.pyd
+[2023-06-15 09:21:54] INFO root fetch - processPackages [akshare]: Downloading https://files.pythonhosted.org/packages/ec/a4/f1c21d8fbb349e15f0bf76d32a496003bcff9b66215f81b940337a510e36/akshare-1.9.98.tar.gz
+[2023-06-15 09:21:54] INFO root fetch - processPackages [transformers-supporter]: executing diffoscope
+[2023-06-15 09:21:54] INFO root fetch - processPackages [transformers-supporter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/transformers-supporter-0.0.8.tar.gz tmp/transformers-supporter-0.0.9.tar.gz --markdown 20230615/t/transformers-supporter/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-15 09:21:54] INFO root fetch - processPackages [akshare]: Downloading https://files.pythonhosted.org/packages/53/e8/f58e96016752567ca09f3f67abdc7e935d0afa919aded528d50590ed9170/akshare-1.9.99.tar.gz
+[2023-06-15 09:21:54] INFO root fetch - processPackages [akshare]: executing diffoscope
+[2023-06-15 09:21:54] INFO root fetch - processPackages [akshare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/akshare-1.9.98.tar.gz tmp/akshare-1.9.99.tar.gz --markdown 20230615/a/akshare/1.9.98-1.9.99/diff.md --exclude *.pyd
+[2023-06-15 09:21:54] INFO root fetch - processPackages [AutoFun]: Downloading https://files.pythonhosted.org/packages/6d/85/279de912dfd86b7879f37f77c5c39ae00a9494aaaa37c06107212b72ef03/AutoFun-0.3.9.tar.gz
+[2023-06-15 09:21:54] WARNING root fetch - processPackages [AutoFun]: Skipping package: exceeds size limit 61458619>=10485760
+[2023-06-15 09:21:54] INFO root fetch - processPackages [AutoFun]: Start processing: OApackage
+[2023-06-15 09:21:54] INFO root fetch - main [MainThread]: End processing [AutoFun] error
+[2023-06-15 09:21:54] INFO root fetch - processPackages [OApackage]: New version: [2.7.8] Old Version: [2.7.7]
+[2023-06-15 09:21:54] INFO root fetch - processPackages [odoo-addon-partner-pricelist-search]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_partner_pricelist_search-15.0.1.0.0.2-py3-none-any.whl.zip]
+[2023-06-15 09:21:54] INFO root fetch - processPackages [odoo-addon-partner-pricelist-search]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_partner_pricelist_search-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2023-06-15 09:21:54] INFO root fetch - processPackages [odoo-addon-partner-pricelist-search]: Start processing: myl-discovery
+[2023-06-15 09:21:54] INFO root fetch - main [MainThread]: End processing [odoo-addon-partner-pricelist-search]: success
+[2023-06-15 09:21:54] INFO root fetch - processPackages [myl-discovery]: New version: [0.5.6] Old Version: [0.5.5]
+[2023-06-15 09:21:55] INFO root fetch - processPackages [OApackage]: Downloading https://files.pythonhosted.org/packages/2d/8e/23f6734b264aadfe77f6ce11c33788faedbdc333747e1b3f48acf3ad0778/OApackage-2.7.7.tar.gz
+[2023-06-15 09:21:55] INFO root fetch - processPackages [myl-discovery]: Downloading https://files.pythonhosted.org/packages/62/bd/30a095f6c462564c7c912bc5c19cb1a238e2d74c6e168a584a75a4f40e4b/myl-discovery-0.5.6.tar.gz
+[2023-06-15 09:21:55] INFO root fetch - processPackages [OApackage]: Downloading https://files.pythonhosted.org/packages/c2/f2/1b770b8bfbe97be032b5bdc3a1a38419ca01aad9bc361e14e9ed655a6724/OApackage-2.7.8.tar.gz
+[2023-06-15 09:21:55] INFO root fetch - processPackages [myl-discovery]: executing diffoscope
+[2023-06-15 09:21:55] INFO root fetch - processPackages [myl-discovery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/myl-discovery-0.5.5.tar.gz tmp/myl-discovery-0.5.6.tar.gz --markdown 20230615/m/myl-discovery/0.5.5-0.5.6/diff.md --exclude *.pyd
+[2023-06-15 09:21:55] INFO root fetch - processPackages [OApackage]: executing diffoscope
+[2023-06-15 09:21:55] INFO root fetch - processPackages [OApackage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OApackage-2.7.7.tar.gz tmp/OApackage-2.7.8.tar.gz --markdown 20230615/O/OApackage/2.7.7-2.7.8/diff.md --exclude *.pyd
+[2023-06-15 09:21:56] INFO root fetch - processPackages [myl-discovery]: Remove: archive file [/home/abi/fetcher/tmp/myl-discovery-0.5.4.tar.gz]
+[2023-06-15 09:21:56] INFO root fetch - processPackages [myl-discovery]: Remove: archive file [/home/abi/fetcher/tmp/myl-discovery-0.5.5.tar.gz]
+[2023-06-15 09:21:56] INFO root fetch - main [MainThread]: End processing [myl-discovery]: success
+[2023-06-15 09:21:56] INFO root fetch - processPackages [transformers-supporter]: Remove: archive file [/home/abi/fetcher/tmp/transformers-supporter-0.0.8.tar.gz]
+[2023-06-15 09:21:56] INFO root fetch - processPackages [transformers-supporter]: Remove: archive file [/home/abi/fetcher/tmp/transformers-supporter-0.0.9.tar.gz]
+[2023-06-15 09:21:56] INFO root fetch - main [MainThread]: End processing [transformers-supporter]: success
+[2023-06-15 09:21:56] INFO root fetch - processPackages [pyarmor]: Remove: archive file [/home/abi/fetcher/tmp/pyarmor-8.2.dev1.zip]
+[2023-06-15 09:21:56] INFO root fetch - processPackages [pyarmor]: Remove: archive file [/home/abi/fetcher/tmp/pyarmor-8.2.dev2.zip]
+[2023-06-15 09:21:56] INFO root fetch - main [MainThread]: End processing [pyarmor]: success
+[2023-06-15 09:21:56] ERROR root fetch - processPackages [myl-discovery]: Diffoscope failed: /srv/diffoscope/bin/diffoscope: tmp/myl-discovery-0.5.5.tar.gz: No such file or directory
+
+[2023-06-15 09:21:56] INFO root fetch - main [MainThread]: End processing [myl-discovery] error
+[2023-06-15 09:21:57] INFO root fetch - processPackages [django-ipghrms-leave]: Remove: archive file [/home/abi/fetcher/tmp/django-ipghrms-leave-1.7.tar.gz]
+[2023-06-15 09:21:57] INFO root fetch - processPackages [django-ipghrms-leave]: Remove: archive file [/home/abi/fetcher/tmp/django-ipghrms-leave-1.8.tar.gz]
+[2023-06-15 09:21:57] INFO root fetch - main [MainThread]: End processing [django-ipghrms-leave]: success
+[2023-06-15 09:21:57] INFO root fetch - processPackages [docarray]: Remove: archive file [/home/abi/fetcher/tmp/docarray-0.9.9.dev4.tar.gz]
+[2023-06-15 09:21:57] INFO root fetch - processPackages [docarray]: Remove: archive file [/home/abi/fetcher/tmp/docarray-0.9.9.dev5.tar.gz]
+[2023-06-15 09:21:57] INFO root fetch - main [MainThread]: End processing [docarray]: success
+[2023-06-15 09:22:00] INFO root fetch - processPackages [akshare]: Remove: archive file [/home/abi/fetcher/tmp/akshare-1.9.98.tar.gz]
+[2023-06-15 09:22:00] INFO root fetch - processPackages [akshare]: Remove: archive file [/home/abi/fetcher/tmp/akshare-1.9.99.tar.gz]
+[2023-06-15 09:22:00] INFO root fetch - main [MainThread]: End processing [akshare]: success
+[2023-06-15 09:22:01] INFO root fetch - processPackages [OApackage]: Remove: archive file [/home/abi/fetcher/tmp/OApackage-2.7.7.tar.gz]
+[2023-06-15 09:22:01] INFO root fetch - processPackages [OApackage]: Remove: archive file [/home/abi/fetcher/tmp/OApackage-2.7.8.tar.gz]
+[2023-06-15 09:22:01] INFO root fetch - main [MainThread]: End processing [OApackage]: success
+[2023-06-15 09:22:04] INFO root fetch - processPackages [vessl]: Remove: archive file [/home/abi/fetcher/tmp/vessl-0.1.98.tar.gz]
+[2023-06-15 09:22:04] INFO root fetch - processPackages [vessl]: Remove: archive file [/home/abi/fetcher/tmp/vessl-0.1.99.tar.gz]
+[2023-06-15 09:22:04] INFO root fetch - main [MainThread]: End processing [vessl]: success
+[2023-06-15 09:22:06] INFO root fetch - processPackages [ory-client]: Remove: archive file [/home/abi/fetcher/tmp/ory-client-1.1.5.tar.gz]
+[2023-06-15 09:22:06] INFO root fetch - processPackages [ory-client]: Remove: archive file [/home/abi/fetcher/tmp/ory-client-1.1.7.tar.gz]
+[2023-06-15 09:22:06] INFO root fetch - main [MainThread]: End processing [ory-client]: success
+[2023-06-15 09:22:06] INFO root fetch - main [MainThread]: Store serial: [18512277]
