@@ -11153,3 +11153,60 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-15 07:51:35] INFO root fetch - processPackages [projectaria-tools]: Remove: archive file [/home/abi/fetcher/tmp/projectaria_tools-0.17.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2023-06-15 07:51:35] INFO root fetch - main [MainThread]: End processing [projectaria-tools]: success
 [2023-06-15 07:51:35] INFO root fetch - main [MainThread]: Store serial: [18511580]
+[2023-06-15 07:56:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18511580]
+[2023-06-15 07:56:50] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-15 07:56:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: oxalis
+[2023-06-15 07:56:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: je-editor
+[2023-06-15 07:56:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: je-editor-dev
+[2023-06-15 07:56:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: democracy
+[2023-06-15 07:56:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lols0
+[2023-06-15 07:56:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: configzen
+[2023-06-15 07:56:50] INFO root fetch - processPackages [je-editor-dev]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-15 07:56:50] INFO root fetch - processPackages [je-editor]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-15 07:56:50] INFO root fetch - processPackages [democracy]: New version: [1.0.27] Old Version: [1.0.25]
+[2023-06-15 07:56:50] INFO root fetch - processPackages [oxalis]: New version: [0.6.3] Old Version: [0.6.2]
+[2023-06-15 07:56:50] INFO root fetch - processPackages [configzen]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-06-15 07:56:50] INFO root fetch - processPackages [lols0]: New version: [0.5] Old Version: [0.3]
+[2023-06-15 07:56:50] INFO root fetch - processPackages [je-editor-dev]: Downloading https://files.pythonhosted.org/packages/8b/94/1f995c0e4cac9968be920e7907deacd20b4659ac0bd3a88be48da2c05eb3/je_editor_dev-0.0.98.tar.gz
+[2023-06-15 07:56:50] INFO root fetch - processPackages [je-editor]: Downloading https://files.pythonhosted.org/packages/18/5a/9781b5d7b4cbad1f9f9cf0b8dbff0d29d79012bfa040e7a2a512b2370144/je_editor-0.0.98.tar.gz
+[2023-06-15 07:56:50] INFO root fetch - processPackages [democracy]: Downloading https://files.pythonhosted.org/packages/1b/0e/09879cc2ebb55ac09df60de6af219878b9fea5c27ae2e5fcd7576ed94a6a/democracy-1.0.25.tar.gz
+[2023-06-15 07:56:50] INFO root fetch - processPackages [configzen]: Downloading https://files.pythonhosted.org/packages/5c/5f/c34631dd40d9686728e02cbb3460b999b62e6a138721c4cc2569ce017bfc/configzen-0.3.0.tar.gz
+[2023-06-15 07:56:50] INFO root fetch - processPackages [lols0]: Downloading https://files.pythonhosted.org/packages/c2/d7/aea3afeda08fa1a9941e4c56f7e3aeee7ae8a5bc1aa00cb915dea810f3c0/lols0-0.3.tar.gz
+[2023-06-15 07:56:50] INFO root fetch - processPackages [oxalis]: Downloading https://files.pythonhosted.org/packages/41/36/2b832b16075653f20e284d0b8cbf0e07020c2030499cb978930e1ec23414/oxalis-0.6.2.tar.gz
+[2023-06-15 07:56:50] INFO root fetch - processPackages [configzen]: Downloading https://files.pythonhosted.org/packages/b9/8f/f082e3261149e0e707d8498ff91964ccaed647bfa6d7681a177c27dda5cc/configzen-0.3.1.tar.gz
+[2023-06-15 07:56:51] INFO root fetch - processPackages [je-editor]: Downloading https://files.pythonhosted.org/packages/75/ca/4e894555d734ec4dfd99b15542060c6c3c836135f3bc5b9fd7a12b1b9620/je_editor-0.0.99.tar.gz
+[2023-06-15 07:56:51] INFO root fetch - processPackages [je-editor-dev]: Downloading https://files.pythonhosted.org/packages/f5/5e/fafae8fb4029eea9a83a739b4877837148336a0d6d302272145a8519a55e/je_editor_dev-0.0.99.tar.gz
+[2023-06-15 07:56:51] INFO root fetch - processPackages [configzen]: executing diffoscope
+[2023-06-15 07:56:51] INFO root fetch - processPackages [configzen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/configzen-0.3.0.tar.gz tmp/configzen-0.3.1.tar.gz --markdown 20230615/c/configzen/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-06-15 07:56:51] INFO root fetch - processPackages [je-editor]: executing diffoscope
+[2023-06-15 07:56:51] INFO root fetch - processPackages [je-editor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/je_editor-0.0.98.tar.gz tmp/je_editor-0.0.99.tar.gz --markdown 20230615/j/je-editor/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-15 07:56:51] INFO root fetch - processPackages [lols0]: Downloading https://files.pythonhosted.org/packages/05/b3/5b0650698a0c6ad28193db6c998754269ba205b1b9c96e35ac24353f9887/lols0-0.5.tar.gz
+[2023-06-15 07:56:51] INFO root fetch - processPackages [democracy]: Downloading https://files.pythonhosted.org/packages/78/a4/42d898b51d101bc313410d4628eb444014154e884ce7dc5fe09e3103f2f9/democracy-1.0.27.tar.gz
+[2023-06-15 07:56:51] INFO root fetch - processPackages [lols0]: executing diffoscope
+[2023-06-15 07:56:51] INFO root fetch - processPackages [lols0]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lols0-0.3.tar.gz tmp/lols0-0.5.tar.gz --markdown 20230615/l/lols0/0.3-0.5/diff.md --exclude *.pyd
+[2023-06-15 07:56:51] INFO root fetch - processPackages [je-editor-dev]: executing diffoscope
+[2023-06-15 07:56:51] INFO root fetch - processPackages [je-editor-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/je_editor_dev-0.0.98.tar.gz tmp/je_editor_dev-0.0.99.tar.gz --markdown 20230615/j/je-editor-dev/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-15 07:56:51] INFO root fetch - processPackages [democracy]: executing diffoscope
+[2023-06-15 07:56:51] INFO root fetch - processPackages [democracy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/democracy-1.0.25.tar.gz tmp/democracy-1.0.27.tar.gz --markdown 20230615/d/democracy/1.0.25-1.0.27/diff.md --exclude *.pyd
+[2023-06-15 07:56:51] INFO root fetch - processPackages [oxalis]: Downloading https://files.pythonhosted.org/packages/28/77/aabcadeab3b3e45f8144947867046ea36a22b1a9c33c371d49cc035bbc33/oxalis-0.6.3.tar.gz
+[2023-06-15 07:56:51] INFO root fetch - processPackages [oxalis]: executing diffoscope
+[2023-06-15 07:56:51] INFO root fetch - processPackages [oxalis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oxalis-0.6.2.tar.gz tmp/oxalis-0.6.3.tar.gz --markdown 20230615/o/oxalis/0.6.2-0.6.3/diff.md --exclude *.pyd
+[2023-06-15 07:56:52] INFO root fetch - processPackages [configzen]: Remove: archive file [/home/abi/fetcher/tmp/configzen-0.3.0.tar.gz]
+[2023-06-15 07:56:52] INFO root fetch - processPackages [configzen]: Remove: archive file [/home/abi/fetcher/tmp/configzen-0.3.1.tar.gz]
+[2023-06-15 07:56:52] INFO root fetch - main [MainThread]: End processing [configzen]: success
+[2023-06-15 07:56:52] INFO root fetch - processPackages [democracy]: Remove: archive file [/home/abi/fetcher/tmp/democracy-1.0.25.tar.gz]
+[2023-06-15 07:56:52] INFO root fetch - processPackages [democracy]: Remove: archive file [/home/abi/fetcher/tmp/democracy-1.0.27.tar.gz]
+[2023-06-15 07:56:52] INFO root fetch - main [MainThread]: End processing [democracy]: success
+[2023-06-15 07:56:52] INFO root fetch - processPackages [lols0]: Remove: archive file [/home/abi/fetcher/tmp/lols0-0.3.tar.gz]
+[2023-06-15 07:56:52] INFO root fetch - processPackages [lols0]: Remove: archive file [/home/abi/fetcher/tmp/lols0-0.5.tar.gz]
+[2023-06-15 07:56:52] INFO root fetch - main [MainThread]: End processing [lols0]: success
+[2023-06-15 07:56:52] INFO root fetch - processPackages [oxalis]: Remove: archive file [/home/abi/fetcher/tmp/oxalis-0.6.2.tar.gz]
+[2023-06-15 07:56:52] INFO root fetch - processPackages [oxalis]: Remove: archive file [/home/abi/fetcher/tmp/oxalis-0.6.3.tar.gz]
+[2023-06-15 07:56:52] INFO root fetch - main [MainThread]: End processing [oxalis]: success
+[2023-06-15 07:56:53] INFO root fetch - processPackages [je-editor]: Remove: archive file [/home/abi/fetcher/tmp/je_editor-0.0.98.tar.gz]
+[2023-06-15 07:56:53] INFO root fetch - processPackages [je-editor]: Remove: archive file [/home/abi/fetcher/tmp/je_editor-0.0.99.tar.gz]
+[2023-06-15 07:56:53] INFO root fetch - main [MainThread]: End processing [je-editor]: success
+[2023-06-15 07:56:53] INFO root fetch - processPackages [je-editor-dev]: Remove: archive file [/home/abi/fetcher/tmp/je_editor_dev-0.0.98.tar.gz]
+[2023-06-15 07:56:53] INFO root fetch - processPackages [je-editor-dev]: Remove: archive file [/home/abi/fetcher/tmp/je_editor_dev-0.0.99.tar.gz]
+[2023-06-15 07:56:53] INFO root fetch - main [MainThread]: End processing [je-editor-dev]: success
+[2023-06-15 07:56:53] INFO root fetch - main [MainThread]: Store serial: [18511598]
