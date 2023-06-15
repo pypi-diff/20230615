@@ -9114,3 +9114,45 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-15 05:44:03] INFO root fetch - processPackages [esphome]: Remove: archive file [/home/abi/fetcher/tmp/esphome-2023.6.0b1.tar.gz]
 [2023-06-15 05:44:03] INFO root fetch - main [MainThread]: End processing [esphome]: success
 [2023-06-15 05:44:03] INFO root fetch - main [MainThread]: Store serial: [18510827]
+[2023-06-15 05:49:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18510827]
+[2023-06-15 05:49:14] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-15 05:49:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: flict
+[2023-06-15 05:49:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tablarray
+[2023-06-15 05:49:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jscc
+[2023-06-15 05:49:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: zcbot-crawl-sdk
+[2023-06-15 05:49:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sincfold
+[2023-06-15 05:49:14] INFO root fetch - processPackages [tablarray]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-06-15 05:49:14] INFO root fetch - processPackages [zcbot-crawl-sdk]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-15 05:49:14] INFO root fetch - processPackages [flict]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-15 05:49:14] INFO root fetch - processPackages [jscc]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-06-15 05:49:14] ERROR root fetch - processPackages [sincfold]: Unable to get metadata: No such project 'sincfold'
+[2023-06-15 05:49:14] INFO root fetch - main [MainThread]: End processing [sincfold] error
+[2023-06-15 05:49:14] INFO root fetch - processPackages [tablarray]: Downloading https://files.pythonhosted.org/packages/23/e4/5db0e7ae2f98ee1f26833a565eed49c32503928216ff3a8c1b8c717ac04b/tablarray-0.4.0.tar.gz
+[2023-06-15 05:49:14] INFO root fetch - processPackages [zcbot-crawl-sdk]: Downloading https://files.pythonhosted.org/packages/10/a9/faa418ec4733b2c442d1b64205be65d902c36a3898749e4ba4eb38314bce/zcbot-crawl-sdk-0.0.8.tar.gz
+[2023-06-15 05:49:14] INFO root fetch - processPackages [jscc]: Downloading https://files.pythonhosted.org/packages/91/72/35e4600d7570eb38132ad76f0ed03a93b529e4d28d827d6d8e787f952fd6/jscc-0.1.1.tar.gz
+[2023-06-15 05:49:14] INFO root fetch - processPackages [flict]: Downloading https://files.pythonhosted.org/packages/a1/e5/0694ad804351c6689a182224765c48daee4502bf60069903021b481f5099/flict-1.0.8.tar.gz
+[2023-06-15 05:49:15] INFO root fetch - processPackages [tablarray]: Downloading https://files.pythonhosted.org/packages/e1/e7/2ad254deb5e6ad9573ce574f71877103e76245e213039d2757e1e3d3d394/tablarray-0.4.1.tar.gz
+[2023-06-15 05:49:15] INFO root fetch - processPackages [jscc]: Downloading https://files.pythonhosted.org/packages/e5/2e/3c92064a92cb701f6832c7a30977c0fd2fc0d74b761136ee9f5a7beea8ce/jscc-0.2.0.tar.gz
+[2023-06-15 05:49:15] INFO root fetch - processPackages [tablarray]: executing diffoscope
+[2023-06-15 05:49:15] INFO root fetch - processPackages [jscc]: executing diffoscope
+[2023-06-15 05:49:15] INFO root fetch - processPackages [tablarray]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tablarray-0.4.0.tar.gz tmp/tablarray-0.4.1.tar.gz --markdown 20230615/t/tablarray/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-06-15 05:49:15] INFO root fetch - processPackages [jscc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jscc-0.1.1.tar.gz tmp/jscc-0.2.0.tar.gz --markdown 20230615/j/jscc/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-06-15 05:49:15] INFO root fetch - processPackages [zcbot-crawl-sdk]: Downloading https://files.pythonhosted.org/packages/22/2d/b06cacf9353d7d58d8030743294dd9e822227f2beacf10774cbc35850869/zcbot-crawl-sdk-0.0.9.tar.gz
+[2023-06-15 05:49:15] INFO root fetch - processPackages [zcbot-crawl-sdk]: executing diffoscope
+[2023-06-15 05:49:15] INFO root fetch - processPackages [zcbot-crawl-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zcbot-crawl-sdk-0.0.8.tar.gz tmp/zcbot-crawl-sdk-0.0.9.tar.gz --markdown 20230615/z/zcbot-crawl-sdk/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-15 05:49:15] INFO root fetch - processPackages [flict]: Downloading https://files.pythonhosted.org/packages/01/39/1fc15c57009587cd06f784ad2ff308cdbf28f50e6f9875f13f75eafb0f02/flict-1.0.9.tar.gz
+[2023-06-15 05:49:15] INFO root fetch - processPackages [flict]: executing diffoscope
+[2023-06-15 05:49:15] INFO root fetch - processPackages [flict]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flict-1.0.8.tar.gz tmp/flict-1.0.9.tar.gz --markdown 20230615/f/flict/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-15 05:49:16] INFO root fetch - processPackages [zcbot-crawl-sdk]: Remove: archive file [/home/abi/fetcher/tmp/zcbot-crawl-sdk-0.0.8.tar.gz]
+[2023-06-15 05:49:16] INFO root fetch - processPackages [zcbot-crawl-sdk]: Remove: archive file [/home/abi/fetcher/tmp/zcbot-crawl-sdk-0.0.9.tar.gz]
+[2023-06-15 05:49:16] INFO root fetch - main [MainThread]: End processing [zcbot-crawl-sdk]: success
+[2023-06-15 05:49:16] INFO root fetch - processPackages [tablarray]: Remove: archive file [/home/abi/fetcher/tmp/tablarray-0.4.0.tar.gz]
+[2023-06-15 05:49:16] INFO root fetch - processPackages [tablarray]: Remove: archive file [/home/abi/fetcher/tmp/tablarray-0.4.1.tar.gz]
+[2023-06-15 05:49:16] INFO root fetch - main [MainThread]: End processing [tablarray]: success
+[2023-06-15 05:49:16] INFO root fetch - processPackages [jscc]: Remove: archive file [/home/abi/fetcher/tmp/jscc-0.1.1.tar.gz]
+[2023-06-15 05:49:16] INFO root fetch - processPackages [jscc]: Remove: archive file [/home/abi/fetcher/tmp/jscc-0.2.0.tar.gz]
+[2023-06-15 05:49:16] INFO root fetch - main [MainThread]: End processing [jscc]: success
+[2023-06-15 05:49:17] INFO root fetch - processPackages [flict]: Remove: archive file [/home/abi/fetcher/tmp/flict-1.0.8.tar.gz]
+[2023-06-15 05:49:17] INFO root fetch - processPackages [flict]: Remove: archive file [/home/abi/fetcher/tmp/flict-1.0.9.tar.gz]
+[2023-06-15 05:49:17] INFO root fetch - main [MainThread]: End processing [flict]: success
+[2023-06-15 05:49:17] INFO root fetch - main [MainThread]: Store serial: [18510842]
