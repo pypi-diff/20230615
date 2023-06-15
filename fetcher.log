@@ -15121,3 +15121,165 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-06-15 10:43:39] INFO root fetch - processPackages [mapbot-frontend]: Remove: archive file [/home/abi/fetcher/tmp/mapbot_frontend-0.1.9.tar.gz]
 [2023-06-15 10:43:39] INFO root fetch - main [MainThread]: End processing [mapbot-frontend]: success
 [2023-06-15 10:43:39] INFO root fetch - main [MainThread]: Store serial: [18513215]
+[2023-06-15 10:48:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18513215]
+[2023-06-15 10:48:49] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-06-15 10:48:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: logging-utils-cli
+[2023-06-15 10:48:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nkululeko
+[2023-06-15 10:48:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: handpose-x
+[2023-06-15 10:48:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bagbag
+[2023-06-15 10:48:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sanic-restful-api
+[2023-06-15 10:48:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: netbox-cisco-maintenance
+[2023-06-15 10:48:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mongomancy
+[2023-06-15 10:48:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tfp-nightly
+[2023-06-15 10:48:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: PyBIS
+[2023-06-15 10:48:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tinybird-cli
+[2023-06-15 10:48:49] INFO root fetch - processPackages [bagbag]: New version: [0.60.8] Old Version: [0.60.7]
+[2023-06-15 10:48:49] INFO root fetch - processPackages [netbox-cisco-maintenance]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-15 10:48:49] INFO root fetch - processPackages [nkululeko]: New version: [0.48.0] Old Version: [0.47.1]
+[2023-06-15 10:48:49] INFO root fetch - processPackages [tinybird-cli]: New version: [1.0.0b99] Old Version: [1.0.0b98]
+[2023-06-15 10:48:49] INFO root fetch - processPackages [tfp-nightly]: New version: [0.9.0.dev20200114] Old Version: [0.9.0.dev20200113]
+[2023-06-15 10:48:50] INFO root fetch - processPackages [netbox-cisco-maintenance]: Downloading https://files.pythonhosted.org/packages/49/9b/a1c0c74911cdf52ff01e40ea24fa7dd8c615a41dbbdae40f076bf871e18c/netbox-cisco-maintenance-0.0.98.tar.gz
+[2023-06-15 10:48:50] INFO root fetch - processPackages [logging-utils-cli]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-15 10:48:50] WARNING root fetch - processPackages [handpose-x]: Skipping, unable to determine old version
+[2023-06-15 10:48:50] INFO root fetch - processPackages [bagbag]: Downloading https://files.pythonhosted.org/packages/e6/fd/379e4ba0086bb5c531f209413af4de641c638fb2be9952854e1660d33c3e/bagbag-0.60.7.tar.gz
+[2023-06-15 10:48:50] INFO root fetch - processPackages [handpose-x]: Start processing: tutor-jupyter
+[2023-06-15 10:48:50] INFO root fetch - main [MainThread]: End processing [handpose-x] error
+[2023-06-15 10:48:50] INFO root fetch - processPackages [tfp-nightly]: Downloading https://files.pythonhosted.org/packages/be/16/ebf16b1094e104257af6265eee53833e4f737ef6d11426d959009fa9952a/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl
+[2023-06-15 10:48:50] INFO root fetch - processPackages [PyBIS]: New version: [1.9.8] Old Version: [1.9.7]
+[2023-06-15 10:48:50] INFO root fetch - processPackages [sanic-restful-api]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-15 10:48:50] INFO root fetch - processPackages [mongomancy]: New version: [0.1.9] Old Version: [0.1.7]
+[2023-06-15 10:48:50] INFO root fetch - processPackages [nkululeko]: Downloading https://files.pythonhosted.org/packages/25/04/d3fd9b4a9c6716989db4077ea200c9b3f0d3199a14f44c890cdab63a113f/nkululeko-0.47.1.tar.gz
+[2023-06-15 10:48:50] INFO root fetch - processPackages [tinybird-cli]: Downloading https://files.pythonhosted.org/packages/cf/bc/f6fe2aa48ad97fc6f03b105a263497f0cc5d7173fa89703bbc609c18f13a/tinybird-cli-1.0.0b98.tar.gz
+[2023-06-15 10:48:50] INFO root fetch - processPackages [tutor-jupyter]: New version: [16.0.0] Old Version: [15.0.2]
+[2023-06-15 10:48:50] INFO root fetch - processPackages [netbox-cisco-maintenance]: Downloading https://files.pythonhosted.org/packages/36/61/db227025ce63809f803a3fe44062bf026321f24f9aa12a99bf348ae574ca/netbox-cisco-maintenance-0.0.99.tar.gz
+[2023-06-15 10:48:50] INFO root fetch - processPackages [logging-utils-cli]: Downloading https://files.pythonhosted.org/packages/6f/04/28eca187f3a3c139be07f0f6e5ce4d56114a6376a21ddeaefb050807e022/logging_utils_cli-1.0.0.tar.gz
+[2023-06-15 10:48:50] INFO root fetch - processPackages [nkululeko]: Downloading https://files.pythonhosted.org/packages/8a/a5/d13179d39433464ffe9bb38e761ee58b71f59a350ac72a6517fd204b636c/nkululeko-0.48.0.tar.gz
+[2023-06-15 10:48:50] INFO root fetch - processPackages [tinybird-cli]: Downloading https://files.pythonhosted.org/packages/6a/27/a5d411f1a02b44b9f386c7d18397784dcaa5fe1129d9a77e87a5e048edc5/tinybird-cli-1.0.0b99.tar.gz
+[2023-06-15 10:48:50] INFO root fetch - processPackages [PyBIS]: Downloading https://files.pythonhosted.org/packages/0b/44/fe0231003ffc36a7b01dff7dcb46629cccf554473e121900d1388e6c6260/PyBIS-1.9.7.tar.gz
+[2023-06-15 10:48:50] INFO root fetch - processPackages [bagbag]: Downloading https://files.pythonhosted.org/packages/9c/d9/18fcc3667854a152644716d257d55e30c5845485e0c8c0086d1449f5fca5/bagbag-0.60.8.tar.gz
+[2023-06-15 10:48:50] INFO root fetch - processPackages [tfp-nightly]: Downloading https://files.pythonhosted.org/packages/f1/98/c1f5a754a26ea1f08e3558803ffb67dd65482de4f6bfadc5415573cd3cb7/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl
+[2023-06-15 10:48:50] INFO root fetch - processPackages [sanic-restful-api]: Downloading https://files.pythonhosted.org/packages/98/25/7844ddb288392c48eeaa0a6a03dc194c38b295b04dee29c1bd4423c9f17b/sanic-restful-api-0.1.8.tar.gz
+[2023-06-15 10:48:50] INFO root fetch - processPackages [netbox-cisco-maintenance]: executing diffoscope
+[2023-06-15 10:48:50] INFO root fetch - processPackages [netbox-cisco-maintenance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox-cisco-maintenance-0.0.98.tar.gz tmp/netbox-cisco-maintenance-0.0.99.tar.gz --markdown 20230615/n/netbox-cisco-maintenance/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-15 10:48:50] INFO root fetch - processPackages [mongomancy]: Downloading https://files.pythonhosted.org/packages/34/52/238bb3a2afba2bd87bde8d219d2a30a14f123d6be6c28b66a4ed0e5c976b/mongomancy-0.1.7.tar.gz
+[2023-06-15 10:48:50] INFO root fetch - processPackages [nkululeko]: executing diffoscope
+[2023-06-15 10:48:50] INFO root fetch - processPackages [nkululeko]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nkululeko-0.47.1.tar.gz tmp/nkululeko-0.48.0.tar.gz --markdown 20230615/n/nkululeko/0.47.1-0.48.0/diff.md --exclude *.pyd
+[2023-06-15 10:48:50] INFO root fetch - processPackages [tutor-jupyter]: Downloading https://files.pythonhosted.org/packages/6c/19/48e53402958d0024db1c0592e897bed963ad86df998e00ea56c64314aad6/tutor-jupyter-15.0.2.tar.gz
+[2023-06-15 10:48:50] INFO root fetch - processPackages [tinybird-cli]: executing diffoscope
+[2023-06-15 10:48:50] INFO root fetch - processPackages [tinybird-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tinybird-cli-1.0.0b98.tar.gz tmp/tinybird-cli-1.0.0b99.tar.gz --markdown 20230615/t/tinybird-cli/1.0.0b98-1.0.0b99/diff.md --exclude *.pyd
+[2023-06-15 10:48:50] INFO root fetch - processPackages [bagbag]: executing diffoscope
+[2023-06-15 10:48:50] INFO root fetch - processPackages [bagbag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bagbag-0.60.7.tar.gz tmp/bagbag-0.60.8.tar.gz --markdown 20230615/b/bagbag/0.60.7-0.60.8/diff.md --exclude *.pyd
+[2023-06-15 10:48:50] INFO root fetch - processPackages [tfp-nightly]: executing diffoscope
+[2023-06-15 10:48:50] INFO root fetch - processPackages [tfp-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl.zip tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip --markdown 20230615/t/tfp-nightly/0.9.0.dev20200113-0.9.0.dev20200114/diff.md --exclude *.pyd
+[2023-06-15 10:48:50] INFO root fetch - processPackages [logging-utils-cli]: Downloading https://files.pythonhosted.org/packages/3d/48/a77c844968ae7dddcb992398f3660fb70acaf4a87df2f462123d301483c2/logging_utils_cli-1.0.1.tar.gz
+[2023-06-15 10:48:50] INFO root fetch - processPackages [sanic-restful-api]: Downloading https://files.pythonhosted.org/packages/34/e0/75261fd2411b9874f4a30b18dcfffb5294d84139a2b6ca78a7c61199aa09/sanic-restful-api-0.1.9.tar.gz
+[2023-06-15 10:48:50] INFO root fetch - processPackages [tutor-jupyter]: Downloading https://files.pythonhosted.org/packages/e8/4e/3c2caeb9d970be4bdf5e74e44e5f35a9830bd61e18bd47d6896f23abc066/tutor-jupyter-16.0.0.tar.gz
+[2023-06-15 10:48:50] INFO root fetch - processPackages [PyBIS]: Downloading https://files.pythonhosted.org/packages/de/6a/e2fbd779a6f64422fe1720ef3dd721543ce07d5e1ea97c26bc9ff21ac882/PyBIS-1.9.8.tar.gz
+[2023-06-15 10:48:50] INFO root fetch - processPackages [sanic-restful-api]: executing diffoscope
+[2023-06-15 10:48:50] INFO root fetch - processPackages [sanic-restful-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sanic-restful-api-0.1.8.tar.gz tmp/sanic-restful-api-0.1.9.tar.gz --markdown 20230615/s/sanic-restful-api/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-15 10:48:50] INFO root fetch - processPackages [logging-utils-cli]: executing diffoscope
+[2023-06-15 10:48:50] INFO root fetch - processPackages [logging-utils-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/logging_utils_cli-1.0.0.tar.gz tmp/logging_utils_cli-1.0.1.tar.gz --markdown 20230615/l/logging-utils-cli/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-15 10:48:50] INFO root fetch - processPackages [mongomancy]: Downloading https://files.pythonhosted.org/packages/ab/0f/12babca89c147b63e23f137085cdd0bef7a73738044a7ee1474e67e2f63e/mongomancy-0.1.9.tar.gz
+[2023-06-15 10:48:50] INFO root fetch - processPackages [tutor-jupyter]: executing diffoscope
+[2023-06-15 10:48:50] INFO root fetch - processPackages [tutor-jupyter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tutor-jupyter-15.0.2.tar.gz tmp/tutor-jupyter-16.0.0.tar.gz --markdown 20230615/t/tutor-jupyter/15.0.2-16.0.0/diff.md --exclude *.pyd
+[2023-06-15 10:48:50] INFO root fetch - processPackages [PyBIS]: executing diffoscope
+[2023-06-15 10:48:50] INFO root fetch - processPackages [PyBIS]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyBIS-1.9.7.tar.gz tmp/PyBIS-1.9.8.tar.gz --markdown 20230615/P/PyBIS/1.9.7-1.9.8/diff.md --exclude *.pyd
+[2023-06-15 10:48:50] INFO root fetch - processPackages [mongomancy]: executing diffoscope
+[2023-06-15 10:48:50] INFO root fetch - processPackages [mongomancy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mongomancy-0.1.7.tar.gz tmp/mongomancy-0.1.9.tar.gz --markdown 20230615/m/mongomancy/0.1.7-0.1.9/diff.md --exclude *.pyd
+[2023-06-15 10:48:52] INFO root fetch - processPackages [netbox-cisco-maintenance]: Remove: archive file [/home/abi/fetcher/tmp/netbox-cisco-maintenance-0.0.98.tar.gz]
+[2023-06-15 10:48:52] INFO root fetch - processPackages [netbox-cisco-maintenance]: Remove: archive file [/home/abi/fetcher/tmp/netbox-cisco-maintenance-0.0.99.tar.gz]
+[2023-06-15 10:48:52] INFO root fetch - processPackages [netbox-cisco-maintenance]: Start processing: TissUUmaps
+[2023-06-15 10:48:52] INFO root fetch - main [MainThread]: End processing [netbox-cisco-maintenance]: success
+[2023-06-15 10:48:52] INFO root fetch - processPackages [TissUUmaps]: New version: [3.1rc3] Old Version: [3.1rc2]
+[2023-06-15 10:48:52] INFO root fetch - processPackages [logging-utils-cli]: Remove: archive file [/home/abi/fetcher/tmp/logging_utils_cli-1.0.0.tar.gz]
+[2023-06-15 10:48:52] INFO root fetch - processPackages [logging-utils-cli]: Remove: archive file [/home/abi/fetcher/tmp/logging_utils_cli-1.0.1.tar.gz]
+[2023-06-15 10:48:52] INFO root fetch - processPackages [logging-utils-cli]: Start processing: twtr-nuuuwan
+[2023-06-15 10:48:52] INFO root fetch - main [MainThread]: End processing [logging-utils-cli]: success
+[2023-06-15 10:48:52] INFO root fetch - processPackages [twtr-nuuuwan]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-06-15 10:48:52] INFO root fetch - processPackages [twtr-nuuuwan]: Downloading https://files.pythonhosted.org/packages/83/82/15d36d3daa42d4f5e8b7ef60e26918807620fde62dff0aa9fbc87ca7c085/twtr-nuuuwan-1.0.1.tar.gz
+[2023-06-15 10:48:52] INFO root fetch - processPackages [sanic-restful-api]: Remove: archive file [/home/abi/fetcher/tmp/sanic-restful-api-0.1.8.tar.gz]
+[2023-06-15 10:48:52] INFO root fetch - processPackages [sanic-restful-api]: Remove: archive file [/home/abi/fetcher/tmp/sanic-restful-api-0.1.9.tar.gz]
+[2023-06-15 10:48:52] INFO root fetch - processPackages [sanic-restful-api]: Start processing: shaku-database
+[2023-06-15 10:48:52] INFO root fetch - main [MainThread]: End processing [sanic-restful-api]: success
+[2023-06-15 10:48:52] WARNING root fetch - processPackages [shaku-database]: Skipping, unable to determine old version
+[2023-06-15 10:48:52] INFO root fetch - processPackages [shaku-database]: Start processing: spetlr-tools
+[2023-06-15 10:48:52] INFO root fetch - main [MainThread]: End processing [shaku-database] error
+[2023-06-15 10:48:52] INFO root fetch - processPackages [TissUUmaps]: Downloading https://files.pythonhosted.org/packages/2b/c9/df5f819c7f7d975651f7910d397070bdb8ca9a0cc5a8e80e11c7b2977ea2/TissUUmaps-3.1rc2.tar.gz
+[2023-06-15 10:48:52] INFO root fetch - processPackages [twtr-nuuuwan]: Downloading https://files.pythonhosted.org/packages/13/f0/a658e766b28a233b93b248d89306f8ae16bd367085357b3a4c18f6ccdfd7/twtr-nuuuwan-1.0.2.tar.gz
+[2023-06-15 10:48:52] INFO root fetch - processPackages [twtr-nuuuwan]: executing diffoscope
+[2023-06-15 10:48:52] INFO root fetch - processPackages [twtr-nuuuwan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/twtr-nuuuwan-1.0.1.tar.gz tmp/twtr-nuuuwan-1.0.2.tar.gz --markdown 20230615/t/twtr-nuuuwan/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-06-15 10:48:52] INFO root fetch - processPackages [tutor-jupyter]: Remove: archive file [/home/abi/fetcher/tmp/tutor-jupyter-15.0.2.tar.gz]
+[2023-06-15 10:48:52] INFO root fetch - processPackages [tutor-jupyter]: Remove: archive file [/home/abi/fetcher/tmp/tutor-jupyter-16.0.0.tar.gz]
+[2023-06-15 10:48:52] INFO root fetch - processPackages [tutor-jupyter]: Start processing: invenio-records-resources
+[2023-06-15 10:48:52] INFO root fetch - main [MainThread]: End processing [tutor-jupyter]: success
+[2023-06-15 10:48:52] INFO root fetch - processPackages [spetlr-tools]: New version: [0.1.34] Old Version: [0.1.33]
+[2023-06-15 10:48:52] INFO root fetch - processPackages [invenio-records-resources]: New version: [4.3.0] Old Version: [4.2.0]
+[2023-06-15 10:48:52] INFO root fetch - processPackages [mongomancy]: Remove: archive file [/home/abi/fetcher/tmp/mongomancy-0.1.7.tar.gz]
+[2023-06-15 10:48:52] INFO root fetch - processPackages [mongomancy]: Remove: archive file [/home/abi/fetcher/tmp/mongomancy-0.1.9.tar.gz]
+[2023-06-15 10:48:52] INFO root fetch - processPackages [mongomancy]: Start processing: yplib
+[2023-06-15 10:48:52] INFO root fetch - main [MainThread]: End processing [mongomancy]: success
+[2023-06-15 10:48:52] INFO root fetch - processPackages [yplib]: New version: [1.3.8] Old Version: [1.3.7]
+[2023-06-15 10:48:52] INFO root fetch - processPackages [spetlr-tools]: Downloading https://files.pythonhosted.org/packages/9c/32/331f1d8cd470ec04ab4e8d51ed14de8d9ed89b8881eff4182e91ce7130b3/spetlr-tools-0.1.33.tar.gz
+[2023-06-15 10:48:52] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/32/20/44ad645d904306b7a4e82f05349b19a3033a55b94befa082487491cbe932/yplib-1.3.7.tar.gz
+[2023-06-15 10:48:52] INFO root fetch - processPackages [invenio-records-resources]: Downloading https://files.pythonhosted.org/packages/dc/f0/18bb576438e96fd4ea64d3e0ec86175e830c36af21cbebeaced50b2f4bda/invenio-records-resources-4.2.0.tar.gz
+[2023-06-15 10:48:53] INFO root fetch - processPackages [nkululeko]: Remove: archive file [/home/abi/fetcher/tmp/nkululeko-0.47.1.tar.gz]
+[2023-06-15 10:48:53] INFO root fetch - processPackages [nkululeko]: Remove: archive file [/home/abi/fetcher/tmp/nkululeko-0.48.0.tar.gz]
+[2023-06-15 10:48:53] INFO root fetch - processPackages [nkululeko]: Start processing: tablemaster
+[2023-06-15 10:48:53] INFO root fetch - main [MainThread]: End processing [nkululeko]: success
+[2023-06-15 10:48:53] INFO root fetch - processPackages [spetlr-tools]: Downloading https://files.pythonhosted.org/packages/a0/d1/8dd06f3f9f7c833832b8078e5c00138e2006f67b2e923e5901baa417d9f9/spetlr-tools-0.1.34.tar.gz
+[2023-06-15 10:48:53] INFO root fetch - processPackages [tinybird-cli]: Remove: archive file [/home/abi/fetcher/tmp/tinybird-cli-1.0.0b98.tar.gz]
+[2023-06-15 10:48:53] INFO root fetch - processPackages [tinybird-cli]: Remove: archive file [/home/abi/fetcher/tmp/tinybird-cli-1.0.0b99.tar.gz]
+[2023-06-15 10:48:53] INFO root fetch - processPackages [tinybird-cli]: Start processing: mdapackmol-fmt
+[2023-06-15 10:48:53] INFO root fetch - main [MainThread]: End processing [tinybird-cli]: success
+[2023-06-15 10:48:53] INFO root fetch - processPackages [spetlr-tools]: executing diffoscope
+[2023-06-15 10:48:53] INFO root fetch - processPackages [spetlr-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spetlr-tools-0.1.33.tar.gz tmp/spetlr-tools-0.1.34.tar.gz --markdown 20230615/s/spetlr-tools/0.1.33-0.1.34/diff.md --exclude *.pyd
+[2023-06-15 10:48:53] INFO root fetch - processPackages [tablemaster]: New version: [1.1.0] Old Version: [1.0.7]
+[2023-06-15 10:48:53] INFO root fetch - processPackages [mdapackmol-fmt]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-15 10:48:53] INFO root fetch - processPackages [invenio-records-resources]: Downloading https://files.pythonhosted.org/packages/f1/63/89720ef0cd1256133e19152b340454455cbacb1730abc59c539a2450c89d/invenio-records-resources-4.3.0.tar.gz
+[2023-06-15 10:48:53] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/de/34/edd4598c7bfb7bd799d5bd88e429459b7cd634682abd4945bd003736e88b/yplib-1.3.8.tar.gz
+[2023-06-15 10:48:53] INFO root fetch - processPackages [yplib]: executing diffoscope
+[2023-06-15 10:48:53] INFO root fetch - processPackages [yplib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yplib-1.3.7.tar.gz tmp/yplib-1.3.8.tar.gz --markdown 20230615/y/yplib/1.3.7-1.3.8/diff.md --exclude *.pyd
+[2023-06-15 10:48:53] INFO root fetch - processPackages [invenio-records-resources]: executing diffoscope
+[2023-06-15 10:48:53] INFO root fetch - processPackages [invenio-records-resources]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/invenio-records-resources-4.2.0.tar.gz tmp/invenio-records-resources-4.3.0.tar.gz --markdown 20230615/i/invenio-records-resources/4.2.0-4.3.0/diff.md --exclude *.pyd
+[2023-06-15 10:48:53] INFO root fetch - processPackages [mdapackmol-fmt]: Downloading https://files.pythonhosted.org/packages/0f/ec/27864147b095c721b111cd37d0003a1dcfb87080880c75e3ac3089a98122/mdapackmol_fmt-0.1.1-py2.py3-none-any.whl
+[2023-06-15 10:48:53] INFO root fetch - processPackages [tablemaster]: Downloading https://files.pythonhosted.org/packages/5a/e7/0650b7c683fad917cecf538c2cf195040b6fcc53102b2346691886ac9440/tablemaster-1.0.7.tar.gz
+[2023-06-15 10:48:53] INFO root fetch - processPackages [mdapackmol-fmt]: Downloading https://files.pythonhosted.org/packages/e3/d0/39e1c83787326b692f1c1b0706107854e4c659653008dc23e3e5d4076748/mdapackmol_fmt-0.1.2-py2.py3-none-any.whl
+[2023-06-15 10:48:53] INFO root fetch - processPackages [twtr-nuuuwan]: Remove: archive file [/home/abi/fetcher/tmp/twtr-nuuuwan-1.0.1.tar.gz]
+[2023-06-15 10:48:53] INFO root fetch - processPackages [twtr-nuuuwan]: Remove: archive file [/home/abi/fetcher/tmp/twtr-nuuuwan-1.0.2.tar.gz]
+[2023-06-15 10:48:53] INFO root fetch - main [MainThread]: End processing [twtr-nuuuwan]: success
+[2023-06-15 10:48:53] INFO root fetch - processPackages [PyBIS]: Remove: archive file [/home/abi/fetcher/tmp/PyBIS-1.9.7.tar.gz]
+[2023-06-15 10:48:53] INFO root fetch - processPackages [PyBIS]: Remove: archive file [/home/abi/fetcher/tmp/PyBIS-1.9.8.tar.gz]
+[2023-06-15 10:48:53] INFO root fetch - main [MainThread]: End processing [PyBIS]: success
+[2023-06-15 10:48:53] INFO root fetch - processPackages [tablemaster]: Downloading https://files.pythonhosted.org/packages/98/f2/c540be965a0f22629fdcd5a15691ae3a36badf9800a1c3cfc35a9d4382c3/tablemaster-1.1.0.tar.gz
+[2023-06-15 10:48:53] INFO root fetch - processPackages [mdapackmol-fmt]: executing diffoscope
+[2023-06-15 10:48:53] INFO root fetch - processPackages [mdapackmol-fmt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mdapackmol_fmt-0.1.1-py2.py3-none-any.whl.zip tmp/mdapackmol_fmt-0.1.2-py2.py3-none-any.whl.zip --markdown 20230615/m/mdapackmol-fmt/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-15 10:48:54] INFO root fetch - processPackages [tablemaster]: executing diffoscope
+[2023-06-15 10:48:54] INFO root fetch - processPackages [tablemaster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tablemaster-1.0.7.tar.gz tmp/tablemaster-1.1.0.tar.gz --markdown 20230615/t/tablemaster/1.0.7-1.1.0/diff.md --exclude *.pyd
+[2023-06-15 10:48:54] INFO root fetch - processPackages [TissUUmaps]: Downloading https://files.pythonhosted.org/packages/28/8a/b99097644cbf80b0a46efa1b703de3a351778d4e84425509a0c0e8089e7e/TissUUmaps-3.1rc3.tar.gz
+[2023-06-15 10:48:54] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-1.3.7.tar.gz]
+[2023-06-15 10:48:54] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-1.3.8.tar.gz]
+[2023-06-15 10:48:54] INFO root fetch - main [MainThread]: End processing [yplib]: success
+[2023-06-15 10:48:54] INFO root fetch - processPackages [spetlr-tools]: Remove: archive file [/home/abi/fetcher/tmp/spetlr-tools-0.1.33.tar.gz]
+[2023-06-15 10:48:54] INFO root fetch - processPackages [spetlr-tools]: Remove: archive file [/home/abi/fetcher/tmp/spetlr-tools-0.1.34.tar.gz]
+[2023-06-15 10:48:54] INFO root fetch - main [MainThread]: End processing [spetlr-tools]: success
+[2023-06-15 10:48:55] INFO root fetch - processPackages [TissUUmaps]: executing diffoscope
+[2023-06-15 10:48:55] INFO root fetch - processPackages [TissUUmaps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TissUUmaps-3.1rc2.tar.gz tmp/TissUUmaps-3.1rc3.tar.gz --markdown 20230615/T/TissUUmaps/3.1rc2-3.1rc3/diff.md --exclude *.pyd
+[2023-06-15 10:48:55] INFO root fetch - processPackages [mdapackmol-fmt]: Remove: archive file [/home/abi/fetcher/tmp/mdapackmol_fmt-0.1.1-py2.py3-none-any.whl.zip]
+[2023-06-15 10:48:55] INFO root fetch - processPackages [mdapackmol-fmt]: Remove: archive file [/home/abi/fetcher/tmp/mdapackmol_fmt-0.1.2-py2.py3-none-any.whl.zip]
+[2023-06-15 10:48:55] INFO root fetch - main [MainThread]: End processing [mdapackmol-fmt]: success
+[2023-06-15 10:48:55] INFO root fetch - processPackages [tablemaster]: Remove: archive file [/home/abi/fetcher/tmp/tablemaster-1.0.7.tar.gz]
+[2023-06-15 10:48:55] INFO root fetch - processPackages [tablemaster]: Remove: archive file [/home/abi/fetcher/tmp/tablemaster-1.1.0.tar.gz]
+[2023-06-15 10:48:55] INFO root fetch - main [MainThread]: End processing [tablemaster]: success
+[2023-06-15 10:48:56] INFO root fetch - processPackages [invenio-records-resources]: Remove: archive file [/home/abi/fetcher/tmp/invenio-records-resources-4.2.0.tar.gz]
+[2023-06-15 10:48:56] INFO root fetch - processPackages [invenio-records-resources]: Remove: archive file [/home/abi/fetcher/tmp/invenio-records-resources-4.3.0.tar.gz]
+[2023-06-15 10:48:56] INFO root fetch - main [MainThread]: End processing [invenio-records-resources]: success
+[2023-06-15 10:48:56] INFO root fetch - processPackages [bagbag]: Remove: archive file [/home/abi/fetcher/tmp/bagbag-0.60.7.tar.gz]
+[2023-06-15 10:48:56] INFO root fetch - processPackages [bagbag]: Remove: archive file [/home/abi/fetcher/tmp/bagbag-0.60.8.tar.gz]
+[2023-06-15 10:48:56] INFO root fetch - main [MainThread]: End processing [bagbag]: success
+[2023-06-15 10:49:04] INFO root fetch - processPackages [tfp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl.zip]
+[2023-06-15 10:49:04] INFO root fetch - processPackages [tfp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip]
+[2023-06-15 10:49:04] INFO root fetch - main [MainThread]: End processing [tfp-nightly]: success
+[2023-06-15 10:49:24] INFO root fetch - processPackages [TissUUmaps]: Remove: archive file [/home/abi/fetcher/tmp/TissUUmaps-3.1rc2.tar.gz]
+[2023-06-15 10:49:24] INFO root fetch - processPackages [TissUUmaps]: Remove: archive file [/home/abi/fetcher/tmp/TissUUmaps-3.1rc3.tar.gz]
+[2023-06-15 10:49:24] INFO root fetch - main [MainThread]: End processing [TissUUmaps]: success
+[2023-06-15 10:49:24] INFO root fetch - main [MainThread]: Store serial: [18513275]
