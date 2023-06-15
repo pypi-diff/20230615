@@ -17482,3 +17482,249 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-06-15 11:21:06] INFO root fetch - processPackages [mqt.ddsim]: Remove: archive file [/home/abi/fetcher/tmp/mqt.ddsim-1.17.3.tar.gz]
 [2023-06-15 11:21:06] INFO root fetch - main [MainThread]: End processing [mqt.ddsim]: success
 [2023-06-15 11:21:06] INFO root fetch - main [MainThread]: Store serial: [18513909]
+[2023-06-15 11:26:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18513909]
+[2023-06-15 11:26:16] INFO root fetch - main [MainThread]: Found 29 changed packages
+[2023-06-15 11:26:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: finalcif
+[2023-06-15 11:26:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: breeze-strategies
+[2023-06-15 11:26:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: numerical-py
+[2023-06-15 11:26:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: modernmt
+[2023-06-15 11:26:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: xoppylib
+[2023-06-15 11:26:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: spanishconjugator
+[2023-06-15 11:26:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hugegraph-python
+[2023-06-15 11:26:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: Pandora-ChatGPT
+[2023-06-15 11:26:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: smartchart
+[2023-06-15 11:26:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: spanishconjugator
+[2023-06-15 11:26:16] INFO root fetch - processPackages [breeze-strategies]: New version: [4.0] Old Version: [3.0]
+[2023-06-15 11:26:16] INFO root fetch - processPackages [numerical-py]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-15 11:26:16] INFO root fetch - processPackages [xoppylib]: New version: [1.0.19] Old Version: [1.0.17]
+[2023-06-15 11:26:16] INFO root fetch - processPackages [finalcif]: New version: [122] Old Version: [121.post5]
+[2023-06-15 11:26:16] INFO root fetch - processPackages [modernmt]: New version: [1.3.0] Old Version: [1.2.1]
+[2023-06-15 11:26:16] INFO root fetch - processPackages [hugegraph-python]: New version: [1.0.0.9] Old Version: [1.0.0.8]
+[2023-06-15 11:26:16] INFO root fetch - processPackages [Pandora-ChatGPT]: New version: [1.2.3] Old Version: [1.2.2]
+[2023-06-15 11:26:16] INFO root fetch - processPackages [smartchart]: New version: [6.6.6.3] Old Version: [6.6.6.2]
+[2023-06-15 11:26:16] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-06-15 11:26:16] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-06-15 11:26:16] INFO root fetch - processPackages [Pandora-ChatGPT]: Downloading https://files.pythonhosted.org/packages/9e/84/ca791a8e5b9e78a24a229838c1fb5442d6b904ebb7365cb40d2bba5ce5c8/Pandora-ChatGPT-1.2.2.tar.gz
+[2023-06-15 11:26:16] INFO root fetch - processPackages [breeze-strategies]: Downloading https://files.pythonhosted.org/packages/12/24/97578cf570649e91e68a5d98ea9bb9d74397d6a20f74cf43cfaefe390415/breeze_strategies-3.0.tar.gz
+[2023-06-15 11:26:16] INFO root fetch - processPackages [finalcif]: Downloading https://files.pythonhosted.org/packages/15/67/f7297d52a5d2e80d9cdf2bbdc67b8d8a81871075d3250809b28e358fdac5/finalcif-121.post5.tar.gz
+[2023-06-15 11:26:16] INFO root fetch - processPackages [xoppylib]: Downloading https://files.pythonhosted.org/packages/0d/57/379f64d7b5cc32f877e954931fc307c9784618be3f5be64d4dfc83cbab5f/xoppylib-1.0.17.tar.gz
+[2023-06-15 11:26:16] INFO root fetch - processPackages [modernmt]: Downloading https://files.pythonhosted.org/packages/52/d9/cb58abd778641bb213e3b4bf2901026a7a3f763769d47482fc8d0fecba5f/modernmt-1.2.1.tar.gz
+[2023-06-15 11:26:16] INFO root fetch - processPackages [smartchart]: Downloading https://files.pythonhosted.org/packages/c7/ba/c13915f2f9613527b82e8fd43e9c0807299dbd28cb3783b38ccacc10d507/smartchart-6.6.6.2.tar.gz
+[2023-06-15 11:26:16] INFO root fetch - processPackages [numerical-py]: Downloading https://files.pythonhosted.org/packages/ef/6c/d77108b3dbe54482748af0c840a9ecb6fad2e551e459203b5b0e9fd5cbf0/numerical_py-0.0.3.tar.gz
+[2023-06-15 11:26:16] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2023-06-15 11:26:16] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2023-06-15 11:26:16] INFO root fetch - processPackages [hugegraph-python]: Downloading https://files.pythonhosted.org/packages/bf/cd/5e25df4040d9b7e29b20a9540bfa5c7d9f60c0d573d072449aa00a68f787/hugegraph-python-1.0.0.8.tar.gz
+[2023-06-15 11:26:16] WARNING root fetch - processPackages [xoppylib]: Skipping package: exceeds size limit 17302232>=10485760
+[2023-06-15 11:26:16] INFO root fetch - processPackages [xoppylib]: Start processing: overhave
+[2023-06-15 11:26:16] INFO root fetch - main [MainThread]: End processing [xoppylib] error
+[2023-06-15 11:26:17] INFO root fetch - processPackages [overhave]: New version: [3.9.0] Old Version: [3.8.4]
+[2023-06-15 11:26:17] INFO root fetch - processPackages [breeze-strategies]: Downloading https://files.pythonhosted.org/packages/04/2d/17d8c7748a4aaa6f3989e1f4de08b5105fb3dd45dddc2fdac823e59d60c1/breeze_strategies-4.0.tar.gz
+[2023-06-15 11:26:17] INFO root fetch - processPackages [numerical-py]: Downloading https://files.pythonhosted.org/packages/41/40/3a3907a95c55fbc7b5c93ec7803d7cc799307421a61fbb73194b7ecdb019/numerical_py-0.0.4.tar.gz
+[2023-06-15 11:26:17] INFO root fetch - processPackages [finalcif]: Downloading https://files.pythonhosted.org/packages/8e/74/3ef2dccba16b3a224f4af4eb5b6eb5993b4dee3bdad5d4da59a43182783e/finalcif-122.tar.gz
+[2023-06-15 11:26:17] INFO root fetch - processPackages [modernmt]: Downloading https://files.pythonhosted.org/packages/3e/55/4458b601b2fc5d15cc36de732f26ccf64de6e082769b423dc158c5b3d28d/modernmt-1.3.0.tar.gz
+[2023-06-15 11:26:17] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2023-06-15 11:26:17] INFO root fetch - processPackages [hugegraph-python]: Downloading https://files.pythonhosted.org/packages/2d/fc/5634e6c96a86f037806e5c80003d210b9b186c1756a5800dadd0ab1ebe9f/hugegraph-python-1.0.0.9.tar.gz
+[2023-06-15 11:26:17] INFO root fetch - processPackages [Pandora-ChatGPT]: Downloading https://files.pythonhosted.org/packages/48/fa/3e57f12292db490efc5bf6a503793c9dd30bbd252d531c1cf2afd4523d13/Pandora-ChatGPT-1.2.3.tar.gz
+[2023-06-15 11:26:17] INFO root fetch - processPackages [breeze-strategies]: executing diffoscope
+[2023-06-15 11:26:17] INFO root fetch - processPackages [breeze-strategies]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/breeze_strategies-3.0.tar.gz tmp/breeze_strategies-4.0.tar.gz --markdown 20230615/b/breeze-strategies/3.0-4.0/diff.md --exclude *.pyd
+[2023-06-15 11:26:17] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2023-06-15 11:26:17] INFO root fetch - processPackages [overhave]: Downloading https://files.pythonhosted.org/packages/35/d2/ab3a72dd99318a4ecf97364c7c67b8903528d6443e59e69d0e5cb8aa6d76/overhave-3.8.4.tar.gz
+[2023-06-15 11:26:17] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-06-15 11:26:17] INFO root fetch - processPackages [hugegraph-python]: executing diffoscope
+[2023-06-15 11:26:17] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230615/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-06-15 11:26:17] INFO root fetch - processPackages [hugegraph-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hugegraph-python-1.0.0.8.tar.gz tmp/hugegraph-python-1.0.0.9.tar.gz --markdown 20230615/h/hugegraph-python/1.0.0.8-1.0.0.9/diff.md --exclude *.pyd
+[2023-06-15 11:26:17] INFO root fetch - processPackages [modernmt]: executing diffoscope
+[2023-06-15 11:26:17] INFO root fetch - processPackages [modernmt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modernmt-1.2.1.tar.gz tmp/modernmt-1.3.0.tar.gz --markdown 20230615/m/modernmt/1.2.1-1.3.0/diff.md --exclude *.pyd
+[2023-06-15 11:26:17] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-06-15 11:26:17] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230615/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-06-15 11:26:17] INFO root fetch - processPackages [numerical-py]: executing diffoscope
+[2023-06-15 11:26:17] INFO root fetch - processPackages [numerical-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/numerical_py-0.0.3.tar.gz tmp/numerical_py-0.0.4.tar.gz --markdown 20230615/n/numerical-py/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-15 11:26:17] INFO root fetch - processPackages [finalcif]: executing diffoscope
+[2023-06-15 11:26:17] INFO root fetch - processPackages [finalcif]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finalcif-121.post5.tar.gz tmp/finalcif-122.tar.gz --markdown 20230615/f/finalcif/121.post5-122/diff.md --exclude *.pyd
+[2023-06-15 11:26:17] INFO root fetch - processPackages [Pandora-ChatGPT]: executing diffoscope
+[2023-06-15 11:26:17] INFO root fetch - processPackages [Pandora-ChatGPT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Pandora-ChatGPT-1.2.2.tar.gz tmp/Pandora-ChatGPT-1.2.3.tar.gz --markdown 20230615/P/Pandora-ChatGPT/1.2.2-1.2.3/diff.md --exclude *.pyd
+[2023-06-15 11:26:17] INFO root fetch - processPackages [overhave]: Downloading https://files.pythonhosted.org/packages/53/af/c768a33320940cbb4d2e9af53d090268fc9eb0b87bed8e10c081c668f698/overhave-3.9.0.tar.gz
+[2023-06-15 11:26:17] INFO root fetch - processPackages [overhave]: executing diffoscope
+[2023-06-15 11:26:17] INFO root fetch - processPackages [overhave]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/overhave-3.8.4.tar.gz tmp/overhave-3.9.0.tar.gz --markdown 20230615/o/overhave/3.8.4-3.9.0/diff.md --exclude *.pyd
+[2023-06-15 11:26:17] INFO root fetch - processPackages [smartchart]: Downloading https://files.pythonhosted.org/packages/09/57/5697f00eb03070aecf8648da96dcbfca061315cb97b3840842a1c85389ee/smartchart-6.6.6.3.tar.gz
+[2023-06-15 11:26:19] INFO root fetch - processPackages [numerical-py]: Remove: archive file [/home/abi/fetcher/tmp/numerical_py-0.0.3.tar.gz]
+[2023-06-15 11:26:19] INFO root fetch - processPackages [numerical-py]: Remove: archive file [/home/abi/fetcher/tmp/numerical_py-0.0.4.tar.gz]
+[2023-06-15 11:26:19] INFO root fetch - processPackages [numerical-py]: Start processing: ccdt
+[2023-06-15 11:26:19] INFO root fetch - main [MainThread]: End processing [numerical-py]: success
+[2023-06-15 11:26:19] INFO root fetch - processPackages [breeze-strategies]: Remove: archive file [/home/abi/fetcher/tmp/breeze_strategies-3.0.tar.gz]
+[2023-06-15 11:26:19] INFO root fetch - processPackages [breeze-strategies]: Remove: archive file [/home/abi/fetcher/tmp/breeze_strategies-4.0.tar.gz]
+[2023-06-15 11:26:19] INFO root fetch - processPackages [breeze-strategies]: Start processing: ofscraper
+[2023-06-15 11:26:19] INFO root fetch - main [MainThread]: End processing [breeze-strategies]: success
+[2023-06-15 11:26:19] INFO root fetch - processPackages [ccdt]: New version: [2.1.9] Old Version: [2.1.8]
+[2023-06-15 11:26:19] INFO root fetch - processPackages [ofscraper]: New version: [2.4] Old Version: [2.1]
+[2023-06-15 11:26:19] INFO root fetch - processPackages [modernmt]: Remove: archive file [/home/abi/fetcher/tmp/modernmt-1.2.1.tar.gz]
+[2023-06-15 11:26:19] INFO root fetch - processPackages [modernmt]: Remove: archive file [/home/abi/fetcher/tmp/modernmt-1.3.0.tar.gz]
+[2023-06-15 11:26:19] INFO root fetch - processPackages [modernmt]: Start processing: events-manager
+[2023-06-15 11:26:19] INFO root fetch - main [MainThread]: End processing [modernmt]: success
+[2023-06-15 11:26:19] INFO root fetch - processPackages [ccdt]: Downloading https://files.pythonhosted.org/packages/4b/74/4580a005cbe4f6dc4e16ce3a9feb5716c4cf901b4839d048dfff2001ee3d/ccdt-2.1.8.tar.gz
+[2023-06-15 11:26:19] INFO root fetch - processPackages [events-manager]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-06-15 11:26:19] INFO root fetch - processPackages [ofscraper]: Downloading https://files.pythonhosted.org/packages/92/4d/a5e879500d321abe54fe89be72829cf4b7e9a7bf81d9d395dba63c55dfe2/ofscraper-2.1.tar.gz
+[2023-06-15 11:26:19] INFO root fetch - processPackages [ccdt]: Downloading https://files.pythonhosted.org/packages/d5/f2/7926d58fa933cd6e8d4ce55e92df2097043f323dba456534345b8dd248c1/ccdt-2.1.9.tar.gz
+[2023-06-15 11:26:19] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.998.tar.gz]
+[2023-06-15 11:26:19] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.999.tar.gz]
+[2023-06-15 11:26:19] INFO root fetch - processPackages [spanishconjugator]: Start processing: tlgateway
+[2023-06-15 11:26:19] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-06-15 11:26:19] INFO root fetch - processPackages [smartchart]: executing diffoscope
+[2023-06-15 11:26:19] INFO root fetch - processPackages [smartchart]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smartchart-6.6.6.2.tar.gz tmp/smartchart-6.6.6.3.tar.gz --markdown 20230615/s/smartchart/6.6.6.2-6.6.6.3/diff.md --exclude *.pyd
+[2023-06-15 11:26:19] INFO root fetch - processPackages [events-manager]: Downloading https://files.pythonhosted.org/packages/a1/2f/29c5a2af7ddc86b776819848153335dbdaa9a6874a10b1cf6d1ad2a82ef1/events-manager-0.2.1.tar.gz
+[2023-06-15 11:26:19] INFO root fetch - processPackages [tlgateway]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-15 11:26:19] INFO root fetch - processPackages [ccdt]: executing diffoscope
+[2023-06-15 11:26:19] INFO root fetch - processPackages [ccdt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccdt-2.1.8.tar.gz tmp/ccdt-2.1.9.tar.gz --markdown 20230615/c/ccdt/2.1.8-2.1.9/diff.md --exclude *.pyd
+[2023-06-15 11:26:19] INFO root fetch - processPackages [spanishconjugator]: Start processing: pytlgateway
+[2023-06-15 11:26:19] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-06-15 11:26:19] INFO root fetch - processPackages [hugegraph-python]: Remove: archive file [/home/abi/fetcher/tmp/hugegraph-python-1.0.0.8.tar.gz]
+[2023-06-15 11:26:19] INFO root fetch - processPackages [hugegraph-python]: Remove: archive file [/home/abi/fetcher/tmp/hugegraph-python-1.0.0.9.tar.gz]
+[2023-06-15 11:26:19] INFO root fetch - processPackages [hugegraph-python]: Start processing: tbp-nightly
+[2023-06-15 11:26:19] INFO root fetch - main [MainThread]: End processing [hugegraph-python]: success
+[2023-06-15 11:26:19] INFO root fetch - processPackages [pytlgateway]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-15 11:26:19] INFO root fetch - processPackages [tlgateway]: Downloading https://files.pythonhosted.org/packages/35/b5/caf8984bb26f6f0882adefb2fe248f314943e74fc6f5becd2e33c58505a1/tlgateway-0.2.8.tar.gz
+[2023-06-15 11:26:19] INFO root fetch - processPackages [ofscraper]: Downloading https://files.pythonhosted.org/packages/b3/44/e7c9c3a567cf0b9a75589f79e83d63aaa0a57a7a55f9628d7a8de98a6b5d/ofscraper-2.4.tar.gz
+[2023-06-15 11:26:19] INFO root fetch - processPackages [tbp-nightly]: New version: [2.9.0a20221130] Old Version: [2.9.0a20221129]
+[2023-06-15 11:26:19] INFO root fetch - processPackages [pytlgateway]: Downloading https://files.pythonhosted.org/packages/e3/0b/a307305c8607d605d2d5f0ff5730b4e6e0455c02ef1ba9252280a95dc55a/pytlgateway-0.2.8.tar.gz
+[2023-06-15 11:26:19] INFO root fetch - processPackages [events-manager]: Downloading https://files.pythonhosted.org/packages/6f/11/ee3e723ca1e459bf14ca8b2c2033b032b1831884832de1c9c6f4c262ddaa/events-manager-0.2.2.tar.gz
+[2023-06-15 11:26:19] INFO root fetch - processPackages [ofscraper]: executing diffoscope
+[2023-06-15 11:26:19] INFO root fetch - processPackages [ofscraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ofscraper-2.1.tar.gz tmp/ofscraper-2.4.tar.gz --markdown 20230615/o/ofscraper/2.1-2.4/diff.md --exclude *.pyd
+[2023-06-15 11:26:20] INFO root fetch - processPackages [tbp-nightly]: Downloading https://files.pythonhosted.org/packages/b9/6c/43a589e5ab1d1b961e5780e41057576c7abd5bf16d3f871d8ef4ebdaf461/tbp-nightly-2.9.0a20221129.tar.gz
+[2023-06-15 11:26:20] INFO root fetch - processPackages [tlgateway]: Downloading https://files.pythonhosted.org/packages/1b/83/52f36a3a7bf56d581a8138b72788416f2e9432ff0b53ebeecada9a66e70a/tlgateway-0.2.9.tar.gz
+[2023-06-15 11:26:20] INFO root fetch - processPackages [events-manager]: executing diffoscope
+[2023-06-15 11:26:20] INFO root fetch - processPackages [events-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/events-manager-0.2.1.tar.gz tmp/events-manager-0.2.2.tar.gz --markdown 20230615/e/events-manager/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-06-15 11:26:20] INFO root fetch - processPackages [Pandora-ChatGPT]: Remove: archive file [/home/abi/fetcher/tmp/Pandora-ChatGPT-1.2.2.tar.gz]
+[2023-06-15 11:26:20] INFO root fetch - processPackages [Pandora-ChatGPT]: Remove: archive file [/home/abi/fetcher/tmp/Pandora-ChatGPT-1.2.3.tar.gz]
+[2023-06-15 11:26:20] INFO root fetch - processPackages [Pandora-ChatGPT]: Start processing: hcr
+[2023-06-15 11:26:20] INFO root fetch - main [MainThread]: End processing [Pandora-ChatGPT]: success
+[2023-06-15 11:26:20] WARNING root fetch - processPackages [hcr]: Skipping, unable to determine old version
+[2023-06-15 11:26:20] INFO root fetch - processPackages [hcr]: Start processing: strawberry-graphql
+[2023-06-15 11:26:20] INFO root fetch - main [MainThread]: End processing [hcr] error
+[2023-06-15 11:26:20] INFO root fetch - processPackages [strawberry-graphql]: New version: [0.99.3] Old Version: [0.99.2]
+[2023-06-15 11:26:20] INFO root fetch - processPackages [pytlgateway]: Downloading https://files.pythonhosted.org/packages/9f/e6/9b96f04a4f3ec43222c9c9fc99dfdaa689ae9fa03583b57727c461413769/pytlgateway-0.2.9.tar.gz
+[2023-06-15 11:26:20] INFO root fetch - processPackages [tlgateway]: executing diffoscope
+[2023-06-15 11:26:20] INFO root fetch - processPackages [tlgateway]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tlgateway-0.2.8.tar.gz tmp/tlgateway-0.2.9.tar.gz --markdown 20230615/t/tlgateway/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-15 11:26:20] INFO root fetch - processPackages [strawberry-graphql]: Downloading https://files.pythonhosted.org/packages/dd/38/4efb20ccf1f04c0901e6d5de6eb222b8a9e74692ae34f6f4618b0f0cc8b3/strawberry-graphql-0.99.2.tar.gz
+[2023-06-15 11:26:20] INFO root fetch - processPackages [pytlgateway]: executing diffoscope
+[2023-06-15 11:26:20] INFO root fetch - processPackages [pytlgateway]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytlgateway-0.2.8.tar.gz tmp/pytlgateway-0.2.9.tar.gz --markdown 20230615/p/pytlgateway/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-15 11:26:20] INFO root fetch - processPackages [strawberry-graphql]: Downloading https://files.pythonhosted.org/packages/e8/62/3a58fe3751e9dc961f72fbe825e32f12e9cd544dafd44bc5fdddb290b881/strawberry-graphql-0.99.3.tar.gz
+[2023-06-15 11:26:20] INFO root fetch - processPackages [strawberry-graphql]: executing diffoscope
+[2023-06-15 11:26:20] INFO root fetch - processPackages [strawberry-graphql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/strawberry-graphql-0.99.2.tar.gz tmp/strawberry-graphql-0.99.3.tar.gz --markdown 20230615/s/strawberry-graphql/0.99.2-0.99.3/diff.md --exclude *.pyd
+[2023-06-15 11:26:21] INFO root fetch - processPackages [ccdt]: Remove: archive file [/home/abi/fetcher/tmp/ccdt-2.1.8.tar.gz]
+[2023-06-15 11:26:21] INFO root fetch - processPackages [ccdt]: Remove: archive file [/home/abi/fetcher/tmp/ccdt-2.1.9.tar.gz]
+[2023-06-15 11:26:21] INFO root fetch - processPackages [ccdt]: Start processing: FedArtML
+[2023-06-15 11:26:21] INFO root fetch - main [MainThread]: End processing [ccdt]: success
+[2023-06-15 11:26:21] INFO root fetch - processPackages [FedArtML]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-15 11:26:21] INFO root fetch - processPackages [FedArtML]: Downloading https://files.pythonhosted.org/packages/f2/e0/c2df23cf55a2dc762d772ef2cb885e353d6a7a6311f9377fbc3601775946/FedArtML-0.1.8.tar.gz
+[2023-06-15 11:26:21] INFO root fetch - processPackages [tlgateway]: Remove: archive file [/home/abi/fetcher/tmp/tlgateway-0.2.8.tar.gz]
+[2023-06-15 11:26:21] INFO root fetch - processPackages [tlgateway]: Remove: archive file [/home/abi/fetcher/tmp/tlgateway-0.2.9.tar.gz]
+[2023-06-15 11:26:21] INFO root fetch - processPackages [tlgateway]: Start processing: neuromeka-clients
+[2023-06-15 11:26:21] INFO root fetch - main [MainThread]: End processing [tlgateway]: success
+[2023-06-15 11:26:21] INFO root fetch - processPackages [FedArtML]: Downloading https://files.pythonhosted.org/packages/3b/c0/e904e477eb20a05047137d0945a73ab54386b2b74bfc5ca073cbf80c33fb/FedArtML-0.1.9.tar.gz
+[2023-06-15 11:26:21] INFO root fetch - processPackages [neuromeka-clients]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-06-15 11:26:21] INFO root fetch - processPackages [events-manager]: Remove: archive file [/home/abi/fetcher/tmp/events-manager-0.2.1.tar.gz]
+[2023-06-15 11:26:21] INFO root fetch - processPackages [events-manager]: Remove: archive file [/home/abi/fetcher/tmp/events-manager-0.2.2.tar.gz]
+[2023-06-15 11:26:21] INFO root fetch - processPackages [events-manager]: Start processing: lesscode-utils
+[2023-06-15 11:26:21] INFO root fetch - main [MainThread]: End processing [events-manager]: success
+[2023-06-15 11:26:21] INFO root fetch - processPackages [FedArtML]: executing diffoscope
+[2023-06-15 11:26:21] INFO root fetch - processPackages [FedArtML]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FedArtML-0.1.8.tar.gz tmp/FedArtML-0.1.9.tar.gz --markdown 20230615/F/FedArtML/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-15 11:26:21] INFO root fetch - processPackages [tbp-nightly]: Downloading https://files.pythonhosted.org/packages/2e/31/c611af28c0d42c7cbb86781523f94e57796654fd8b7a7049e8a6db2eecf3/tbp-nightly-2.9.0a20221130.tar.gz
+[2023-06-15 11:26:22] WARNING root fetch - processPackages [lesscode-utils]: Skipping, unable to determine old version
+[2023-06-15 11:26:22] INFO root fetch - processPackages [lesscode-utils]: Start processing: numerical-py
+[2023-06-15 11:26:22] INFO root fetch - main [MainThread]: End processing [lesscode-utils] error
+[2023-06-15 11:26:22] INFO root fetch - processPackages [pytlgateway]: Remove: archive file [/home/abi/fetcher/tmp/pytlgateway-0.2.8.tar.gz]
+[2023-06-15 11:26:22] INFO root fetch - processPackages [pytlgateway]: Remove: archive file [/home/abi/fetcher/tmp/pytlgateway-0.2.9.tar.gz]
+[2023-06-15 11:26:22] INFO root fetch - processPackages [pytlgateway]: Start processing: pytest-unused-fixtures
+[2023-06-15 11:26:22] INFO root fetch - main [MainThread]: End processing [pytlgateway]: success
+[2023-06-15 11:26:22] INFO root fetch - processPackages [neuromeka-clients]: Downloading https://files.pythonhosted.org/packages/dc/56/c8dd74b6c6f947a2d32a5decb084d68b7c3c19a9a4e31574a3e9ef28a818/neuromeka-clients-0.1.6.tar.gz
+[2023-06-15 11:26:22] INFO root fetch - processPackages [numerical-py]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-15 11:26:22] INFO root fetch - processPackages [pytest-unused-fixtures]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-15 11:26:22] INFO root fetch - processPackages [pytest-unused-fixtures]: Downloading https://files.pythonhosted.org/packages/2a/4b/cdcac16f9f9e628f9a78c243ca57e7255d265bd2bc39bf53007e0ed23d5a/pytest_unused_fixtures-0.1.0.tar.gz
+[2023-06-15 11:26:22] INFO root fetch - processPackages [numerical-py]: Downloading https://files.pythonhosted.org/packages/41/40/3a3907a95c55fbc7b5c93ec7803d7cc799307421a61fbb73194b7ecdb019/numerical_py-0.0.4.tar.gz
+[2023-06-15 11:26:22] INFO root fetch - processPackages [pytest-unused-fixtures]: Downloading https://files.pythonhosted.org/packages/71/ab/dc46f991db836da1497270d59a7a1a76dc507f3b5cfe1d46cd781e4b74a8/pytest_unused_fixtures-0.1.1.tar.gz
+[2023-06-15 11:26:22] INFO root fetch - processPackages [pytest-unused-fixtures]: executing diffoscope
+[2023-06-15 11:26:22] INFO root fetch - processPackages [pytest-unused-fixtures]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest_unused_fixtures-0.1.0.tar.gz tmp/pytest_unused_fixtures-0.1.1.tar.gz --markdown 20230615/p/pytest-unused-fixtures/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-15 11:26:22] INFO root fetch - processPackages [numerical-py]: Downloading https://files.pythonhosted.org/packages/6e/32/eb8ea3d95f493722ded72bdbe05103c8c000a269c53036edb251fe1e1279/numerical_py-0.0.5.tar.gz
+[2023-06-15 11:26:22] INFO root fetch - processPackages [neuromeka-clients]: Downloading https://files.pythonhosted.org/packages/f3/9e/41d7fcc84949a332a05d90da5ff1a6e7cfcd81303ee50255024b59013226/neuromeka-clients-0.1.7.tar.gz
+[2023-06-15 11:26:22] INFO root fetch - processPackages [numerical-py]: executing diffoscope
+[2023-06-15 11:26:22] INFO root fetch - processPackages [numerical-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/numerical_py-0.0.4.tar.gz tmp/numerical_py-0.0.5.tar.gz --markdown 20230615/n/numerical-py/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-15 11:26:22] INFO root fetch - processPackages [neuromeka-clients]: executing diffoscope
+[2023-06-15 11:26:22] INFO root fetch - processPackages [neuromeka-clients]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neuromeka-clients-0.1.6.tar.gz tmp/neuromeka-clients-0.1.7.tar.gz --markdown 20230615/n/neuromeka-clients/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-06-15 11:26:22] INFO root fetch - processPackages [strawberry-graphql]: Remove: archive file [/home/abi/fetcher/tmp/strawberry-graphql-0.99.2.tar.gz]
+[2023-06-15 11:26:22] INFO root fetch - processPackages [strawberry-graphql]: Remove: archive file [/home/abi/fetcher/tmp/strawberry-graphql-0.99.3.tar.gz]
+[2023-06-15 11:26:22] INFO root fetch - processPackages [strawberry-graphql]: Start processing: jury
+[2023-06-15 11:26:22] INFO root fetch - main [MainThread]: End processing [strawberry-graphql]: success
+[2023-06-15 11:26:22] INFO root fetch - processPackages [jury]: New version: [2.2.4] Old Version: [2.2.3]
+[2023-06-15 11:26:22] INFO root fetch - processPackages [tbp-nightly]: executing diffoscope
+[2023-06-15 11:26:22] INFO root fetch - processPackages [tbp-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tbp-nightly-2.9.0a20221129.tar.gz tmp/tbp-nightly-2.9.0a20221130.tar.gz --markdown 20230615/t/tbp-nightly/2.9.0a20221129-2.9.0a20221130/diff.md --exclude *.pyd
+[2023-06-15 11:26:23] INFO root fetch - processPackages [jury]: Downloading https://files.pythonhosted.org/packages/82/cb/2cc74d1c798d175573becbcf91eebb0e4bc797ea48b6a183360cdf53783f/jury-2.2.3.tar.gz
+[2023-06-15 11:26:23] INFO root fetch - processPackages [jury]: Downloading https://files.pythonhosted.org/packages/bf/be/2ef0c34dc9d549a19c6aec1a5ba6aa6b4353a85f91fbd89a18b61e09596a/jury-2.2.4.tar.gz
+[2023-06-15 11:26:23] INFO root fetch - processPackages [FedArtML]: Remove: archive file [/home/abi/fetcher/tmp/FedArtML-0.1.8.tar.gz]
+[2023-06-15 11:26:23] INFO root fetch - processPackages [FedArtML]: Remove: archive file [/home/abi/fetcher/tmp/FedArtML-0.1.9.tar.gz]
+[2023-06-15 11:26:23] INFO root fetch - processPackages [FedArtML]: Start processing: gitlint-core
+[2023-06-15 11:26:23] INFO root fetch - main [MainThread]: End processing [FedArtML]: success
+[2023-06-15 11:26:23] INFO root fetch - processPackages [jury]: executing diffoscope
+[2023-06-15 11:26:23] INFO root fetch - processPackages [jury]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jury-2.2.3.tar.gz tmp/jury-2.2.4.tar.gz --markdown 20230615/j/jury/2.2.3-2.2.4/diff.md --exclude *.pyd
+[2023-06-15 11:26:23] INFO root fetch - processPackages [ofscraper]: Remove: archive file [/home/abi/fetcher/tmp/ofscraper-2.1.tar.gz]
+[2023-06-15 11:26:23] INFO root fetch - processPackages [ofscraper]: Remove: archive file [/home/abi/fetcher/tmp/ofscraper-2.4.tar.gz]
+[2023-06-15 11:26:23] INFO root fetch - processPackages [ofscraper]: Start processing: gitlint
+[2023-06-15 11:26:23] INFO root fetch - main [MainThread]: End processing [ofscraper]: success
+[2023-06-15 11:26:23] INFO root fetch - processPackages [gitlint-core]: New version: [0.20.0.dev9] Old Version: [0.20.0.dev8]
+[2023-06-15 11:26:23] INFO root fetch - processPackages [gitlint]: New version: [0.9.0] Old Version: [0.8.2]
+[2023-06-15 11:26:23] INFO root fetch - processPackages [gitlint-core]: Downloading https://files.pythonhosted.org/packages/7a/3f/c11be6426880b469fbe1a3c199b57eee705a7cb7966f301cc09f257733a7/gitlint_core-0.20.0.dev8.tar.gz
+[2023-06-15 11:26:23] INFO root fetch - processPackages [gitlint]: Downloading https://files.pythonhosted.org/packages/5b/5a/21a35893dc478dbadf89b2b03261ee5585494ba6e801a8f94c9664f78490/gitlint-0.8.2.tar.gz
+[2023-06-15 11:26:24] INFO root fetch - processPackages [pytest-unused-fixtures]: Remove: archive file [/home/abi/fetcher/tmp/pytest_unused_fixtures-0.1.0.tar.gz]
+[2023-06-15 11:26:24] INFO root fetch - processPackages [pytest-unused-fixtures]: Remove: archive file [/home/abi/fetcher/tmp/pytest_unused_fixtures-0.1.1.tar.gz]
+[2023-06-15 11:26:24] INFO root fetch - processPackages [pytest-unused-fixtures]: Start processing: label-studio-converter
+[2023-06-15 11:26:24] INFO root fetch - main [MainThread]: End processing [pytest-unused-fixtures]: success
+[2023-06-15 11:26:24] INFO root fetch - processPackages [label-studio-converter]: New version: [0.48rc0] Old Version: [0.0.9]
+[2023-06-15 11:26:24] INFO root fetch - processPackages [gitlint-core]: Downloading https://files.pythonhosted.org/packages/bd/76/20021dcb9ac1f8236b853a783b3b68d9f84ad9527e2fd5c583ef08249923/gitlint_core-0.20.0.dev9.tar.gz
+[2023-06-15 11:26:24] INFO root fetch - processPackages [gitlint]: Downloading https://files.pythonhosted.org/packages/d6/f1/3556a8e92846fac5b29b34e3c9c20fb5dcfddbf558227ac15ee4a4e4b06c/gitlint-0.9.0.tar.gz
+[2023-06-15 11:26:24] INFO root fetch - processPackages [numerical-py]: Remove: archive file [/home/abi/fetcher/tmp/numerical_py-0.0.4.tar.gz]
+[2023-06-15 11:26:24] INFO root fetch - processPackages [numerical-py]: Remove: archive file [/home/abi/fetcher/tmp/numerical_py-0.0.5.tar.gz]
+[2023-06-15 11:26:24] INFO root fetch - processPackages [gitlint-core]: executing diffoscope
+[2023-06-15 11:26:24] INFO root fetch - processPackages [gitlint-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gitlint_core-0.20.0.dev8.tar.gz tmp/gitlint_core-0.20.0.dev9.tar.gz --markdown 20230615/g/gitlint-core/0.20.0.dev8-0.20.0.dev9/diff.md --exclude *.pyd
+[2023-06-15 11:26:24] INFO root fetch - processPackages [numerical-py]: Start processing: babelfont
+[2023-06-15 11:26:24] INFO root fetch - main [MainThread]: End processing [numerical-py]: success
+[2023-06-15 11:26:24] INFO root fetch - processPackages [gitlint]: executing diffoscope
+[2023-06-15 11:26:24] INFO root fetch - processPackages [gitlint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gitlint-0.8.2.tar.gz tmp/gitlint-0.9.0.tar.gz --markdown 20230615/g/gitlint/0.8.2-0.9.0/diff.md --exclude *.pyd
+[2023-06-15 11:26:24] INFO root fetch - processPackages [label-studio-converter]: Downloading https://files.pythonhosted.org/packages/32/c3/106931a5b741603e0744f6f76617c5a3826dede8cd93b5de9788d6222273/label-studio-converter-0.0.9.tar.gz
+[2023-06-15 11:26:24] INFO root fetch - processPackages [babelfont]: New version: [3.0.1] Old Version: [3.0.0a9]
+[2023-06-15 11:26:24] INFO root fetch - processPackages [babelfont]: Downloading https://files.pythonhosted.org/packages/86/55/b27ae4da8ea0dfaed007ae4c5a9afb099b0ea4c726366793be1aec298d0a/babelfont-3.0.0a9.tar.gz
+[2023-06-15 11:26:24] INFO root fetch - processPackages [label-studio-converter]: Downloading https://files.pythonhosted.org/packages/17/63/e3e552d9b1ca28d7509c2bb6aaf720050f49cd62e307cbb5ba730deb07e5/label-studio-converter-0.48rc0.tar.gz
+[2023-06-15 11:26:25] INFO root fetch - processPackages [label-studio-converter]: executing diffoscope
+[2023-06-15 11:26:25] INFO root fetch - processPackages [label-studio-converter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/label-studio-converter-0.0.9.tar.gz tmp/label-studio-converter-0.48rc0.tar.gz --markdown 20230615/l/label-studio-converter/0.0.9-0.48rc0/diff.md --exclude *.pyd
+[2023-06-15 11:26:25] INFO root fetch - processPackages [babelfont]: Downloading https://files.pythonhosted.org/packages/74/a0/a5042a9daca0a9a2acc7ec8cb6239617a3a91c7fef313659a8609989dd96/babelfont-3.0.1.tar.gz
+[2023-06-15 11:26:25] INFO root fetch - processPackages [overhave]: Remove: archive file [/home/abi/fetcher/tmp/overhave-3.8.4.tar.gz]
+[2023-06-15 11:26:25] INFO root fetch - processPackages [overhave]: Remove: archive file [/home/abi/fetcher/tmp/overhave-3.9.0.tar.gz]
+[2023-06-15 11:26:25] INFO root fetch - main [MainThread]: End processing [overhave]: success
+[2023-06-15 11:26:25] INFO root fetch - processPackages [babelfont]: executing diffoscope
+[2023-06-15 11:26:25] INFO root fetch - processPackages [babelfont]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/babelfont-3.0.0a9.tar.gz tmp/babelfont-3.0.1.tar.gz --markdown 20230615/b/babelfont/3.0.0a9-3.0.1/diff.md --exclude *.pyd
+[2023-06-15 11:26:25] INFO root fetch - processPackages [finalcif]: Remove: archive file [/home/abi/fetcher/tmp/finalcif-121.post5.tar.gz]
+[2023-06-15 11:26:25] INFO root fetch - processPackages [finalcif]: Remove: archive file [/home/abi/fetcher/tmp/finalcif-122.tar.gz]
+[2023-06-15 11:26:25] INFO root fetch - main [MainThread]: End processing [finalcif]: success
+[2023-06-15 11:26:25] INFO root fetch - processPackages [gitlint]: Remove: archive file [/home/abi/fetcher/tmp/gitlint-0.8.2.tar.gz]
+[2023-06-15 11:26:25] INFO root fetch - processPackages [gitlint]: Remove: archive file [/home/abi/fetcher/tmp/gitlint-0.9.0.tar.gz]
+[2023-06-15 11:26:25] INFO root fetch - main [MainThread]: End processing [gitlint]: success
+[2023-06-15 11:26:26] INFO root fetch - processPackages [label-studio-converter]: Remove: archive file [/home/abi/fetcher/tmp/label-studio-converter-0.0.9.tar.gz]
+[2023-06-15 11:26:26] INFO root fetch - processPackages [label-studio-converter]: Remove: archive file [/home/abi/fetcher/tmp/label-studio-converter-0.48rc0.tar.gz]
+[2023-06-15 11:26:26] INFO root fetch - main [MainThread]: End processing [label-studio-converter]: success
+[2023-06-15 11:26:26] INFO root fetch - processPackages [gitlint-core]: Remove: archive file [/home/abi/fetcher/tmp/gitlint_core-0.20.0.dev8.tar.gz]
+[2023-06-15 11:26:26] INFO root fetch - processPackages [gitlint-core]: Remove: archive file [/home/abi/fetcher/tmp/gitlint_core-0.20.0.dev9.tar.gz]
+[2023-06-15 11:26:26] INFO root fetch - main [MainThread]: End processing [gitlint-core]: success
+[2023-06-15 11:26:26] INFO root fetch - processPackages [babelfont]: Remove: archive file [/home/abi/fetcher/tmp/babelfont-3.0.0a9.tar.gz]
+[2023-06-15 11:26:26] INFO root fetch - processPackages [babelfont]: Remove: archive file [/home/abi/fetcher/tmp/babelfont-3.0.1.tar.gz]
+[2023-06-15 11:26:26] INFO root fetch - main [MainThread]: End processing [babelfont]: success
+[2023-06-15 11:26:26] INFO root fetch - processPackages [smartchart]: Remove: archive file [/home/abi/fetcher/tmp/smartchart-6.6.6.2.tar.gz]
+[2023-06-15 11:26:26] INFO root fetch - processPackages [smartchart]: Remove: archive file [/home/abi/fetcher/tmp/smartchart-6.6.6.3.tar.gz]
+[2023-06-15 11:26:26] INFO root fetch - main [MainThread]: End processing [smartchart]: success
+[2023-06-15 11:26:27] INFO root fetch - processPackages [jury]: Remove: archive file [/home/abi/fetcher/tmp/jury-2.2.3.tar.gz]
+[2023-06-15 11:26:27] INFO root fetch - processPackages [jury]: Remove: archive file [/home/abi/fetcher/tmp/jury-2.2.4.tar.gz]
+[2023-06-15 11:26:27] INFO root fetch - main [MainThread]: End processing [jury]: success
+[2023-06-15 11:26:27] INFO root fetch - processPackages [neuromeka-clients]: Remove: archive file [/home/abi/fetcher/tmp/neuromeka-clients-0.1.6.tar.gz]
+[2023-06-15 11:26:27] INFO root fetch - processPackages [neuromeka-clients]: Remove: archive file [/home/abi/fetcher/tmp/neuromeka-clients-0.1.7.tar.gz]
+[2023-06-15 11:26:27] INFO root fetch - main [MainThread]: End processing [neuromeka-clients]: success
+[2023-06-15 11:26:29] INFO root fetch - processPackages [tbp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tbp-nightly-2.9.0a20221129.tar.gz]
+[2023-06-15 11:26:29] INFO root fetch - processPackages [tbp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tbp-nightly-2.9.0a20221130.tar.gz]
+[2023-06-15 11:26:29] INFO root fetch - main [MainThread]: End processing [tbp-nightly]: success
+[2023-06-15 11:26:29] INFO root fetch - main [MainThread]: Store serial: [18513999]
