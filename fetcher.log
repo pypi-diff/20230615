@@ -6014,3 +6014,106 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-15 03:34:11] INFO root fetch - processPackages [pepperize.cdk-organizations]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-organizations-0.7.99.tar.gz]
 [2023-06-15 03:34:11] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-organizations]: success
 [2023-06-15 03:34:11] INFO root fetch - main [MainThread]: Store serial: [18509704]
+[2023-06-15 03:39:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18509704]
+[2023-06-15 03:39:20] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-06-15 03:39:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: eparse
+[2023-06-15 03:39:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nbdev-stdlib
+[2023-06-15 03:39:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: automation-file
+[2023-06-15 03:39:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: automation-file-dev
+[2023-06-15 03:39:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: GeoSocialPy
+[2023-06-15 03:39:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bs-orm
+[2023-06-15 03:39:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bs-orm
+[2023-06-15 03:39:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nbdev-numpy
+[2023-06-15 03:39:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bioregistry
+[2023-06-15 03:39:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nbdev-pandas
+[2023-06-15 03:39:20] INFO root fetch - processPackages [automation-file]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-15 03:39:20] WARNING root fetch - processPackages [GeoSocialPy]: Skipping, unable to determine old version
+[2023-06-15 03:39:20] INFO root fetch - processPackages [GeoSocialPy]: Start processing: tutor-minio
+[2023-06-15 03:39:20] INFO root fetch - main [MainThread]: End processing [GeoSocialPy] error
+[2023-06-15 03:39:20] INFO root fetch - processPackages [eparse]: New version: [0.6.0] Old Version: [0.5.0]
+[2023-06-15 03:39:20] INFO root fetch - processPackages [automation-file-dev]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-15 03:39:20] INFO root fetch - processPackages [bs-orm]: New version: [0.9.0] Old Version: [0.8.9.post20230615]
+[2023-06-15 03:39:20] INFO root fetch - processPackages [bs-orm]: New version: [0.9.0] Old Version: [0.8.9.post20230615]
+[2023-06-15 03:39:20] INFO root fetch - processPackages [nbdev-stdlib]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-15 03:39:20] INFO root fetch - processPackages [tutor-minio]: New version: [16.0.1] Old Version: [16.0.0]
+[2023-06-15 03:39:20] INFO root fetch - processPackages [nbdev-pandas]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-15 03:39:20] INFO root fetch - processPackages [nbdev-numpy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-15 03:39:20] INFO root fetch - processPackages [bs-orm]: Downloading https://files.pythonhosted.org/packages/ae/85/87747be884fb26963bfd97e825d3e534bd3ed1b91d9ee805309a2e49c831/bs_orm-0.8.9.post20230615.tar.gz
+[2023-06-15 03:39:20] INFO root fetch - processPackages [tutor-minio]: Downloading https://files.pythonhosted.org/packages/6e/8c/3802fea484a41255172c280a7d18cd39b7479d6002311b5c6e3fae2aa4e3/tutor-minio-16.0.0.tar.gz
+[2023-06-15 03:39:20] INFO root fetch - processPackages [bs-orm]: Downloading https://files.pythonhosted.org/packages/ae/85/87747be884fb26963bfd97e825d3e534bd3ed1b91d9ee805309a2e49c831/bs_orm-0.8.9.post20230615.tar.gz
+[2023-06-15 03:39:20] INFO root fetch - processPackages [bioregistry]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-15 03:39:20] INFO root fetch - processPackages [nbdev-numpy]: Downloading https://files.pythonhosted.org/packages/73/28/26429c7dd7dcf4c45025b55facc2688943de2ab2ec4851cc073f81f31e65/nbdev-numpy-0.0.98.tar.gz
+[2023-06-15 03:39:20] INFO root fetch - processPackages [automation-file]: Downloading https://files.pythonhosted.org/packages/5f/4c/2b84f4134629f3fc1f1f99b2cf878073fad61f7fc5f56f406e4197bc3eca/automation_file-0.0.8.tar.gz
+[2023-06-15 03:39:20] INFO root fetch - processPackages [bioregistry]: Downloading https://files.pythonhosted.org/packages/4e/f6/973ccd4316a05888c3eb85264c9bad233e8f486e3bd1d3ed06d5c5e3504c/bioregistry-0.9.8.tar.gz
+[2023-06-15 03:39:20] INFO root fetch - processPackages [eparse]: Downloading https://files.pythonhosted.org/packages/00/fe/8be24cb3b9f41a574931344d6ccdce9b6a3837fe377ed1bbbb7fb4a863ca/eparse-0.5.0.tar.gz
+[2023-06-15 03:39:20] INFO root fetch - processPackages [automation-file-dev]: Downloading https://files.pythonhosted.org/packages/a8/ac/0c7d47373834088c1e51432abf5758c7c09f8c3303b11513d87897381400/automation_file_dev-0.0.8.tar.gz
+[2023-06-15 03:39:20] INFO root fetch - processPackages [nbdev-stdlib]: Downloading https://files.pythonhosted.org/packages/e8/48/ed43dbfa0bd5ca86a6a3f6ae0500b0cffb413b2c3f118e82da24ef3488f1/nbdev-stdlib-0.0.98.tar.gz
+[2023-06-15 03:39:20] INFO root fetch - processPackages [nbdev-numpy]: Downloading https://files.pythonhosted.org/packages/ea/78/0c0ef1d69ad517e7123dd810dda3cf8c0863af031c2cbb78ac3dae878b48/nbdev-numpy-0.0.99.tar.gz
+[2023-06-15 03:39:20] INFO root fetch - processPackages [nbdev-pandas]: Downloading https://files.pythonhosted.org/packages/e4/e4/cd3df65f7d13a8e8dfa1592e08d78574793d38384b1c92993ce920dcd0df/nbdev-pandas-0.0.98.tar.gz
+[2023-06-15 03:39:20] INFO root fetch - processPackages [bs-orm]: Downloading https://files.pythonhosted.org/packages/75/7d/8c5ff9de5943ca8fe9a09237eed47d622969b159b2ef917b8e2c2d4ffc3f/bs_orm-0.9.0.tar.gz
+[2023-06-15 03:39:20] INFO root fetch - processPackages [bs-orm]: Downloading https://files.pythonhosted.org/packages/75/7d/8c5ff9de5943ca8fe9a09237eed47d622969b159b2ef917b8e2c2d4ffc3f/bs_orm-0.9.0.tar.gz
+[2023-06-15 03:39:20] INFO root fetch - processPackages [tutor-minio]: Downloading https://files.pythonhosted.org/packages/46/2d/d86b42ee9c6c05f1a8f7cbe0a34731b69f42b2dc7c054240ec277c80f06a/tutor-minio-16.0.1.tar.gz
+[2023-06-15 03:39:20] INFO root fetch - processPackages [nbdev-numpy]: executing diffoscope
+[2023-06-15 03:39:20] INFO root fetch - processPackages [nbdev-numpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-numpy-0.0.98.tar.gz tmp/nbdev-numpy-0.0.99.tar.gz --markdown 20230615/n/nbdev-numpy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-15 03:39:20] INFO root fetch - processPackages [eparse]: Downloading https://files.pythonhosted.org/packages/54/4b/340784024b89aed6c5996d919896f3a08eecbe497a9376ad49b11546bb9f/eparse-0.6.0.tar.gz
+[2023-06-15 03:39:20] INFO root fetch - processPackages [automation-file]: Downloading https://files.pythonhosted.org/packages/61/d5/25a9248a3f46d8aff54ddc54143797f9b35549506743ec8ed413213e29b1/automation_file-0.0.9.tar.gz
+[2023-06-15 03:39:20] INFO root fetch - processPackages [nbdev-pandas]: Downloading https://files.pythonhosted.org/packages/cf/b5/493c8e89c5cb4fcc7db248f99868f931ca6389f6e411e63c97bb22c6f1b0/nbdev-pandas-0.0.99.tar.gz
+[2023-06-15 03:39:20] INFO root fetch - processPackages [bs-orm]: executing diffoscope
+[2023-06-15 03:39:20] INFO root fetch - processPackages [bs-orm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bs_orm-0.8.9.post20230615.tar.gz tmp/bs_orm-0.9.0.tar.gz --markdown 20230615/b/bs-orm/0.8.9.post20230615-0.9.0/diff.md --exclude *.pyd
+[2023-06-15 03:39:20] INFO root fetch - processPackages [bs-orm]: executing diffoscope
+[2023-06-15 03:39:20] INFO root fetch - processPackages [bs-orm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bs_orm-0.8.9.post20230615.tar.gz tmp/bs_orm-0.9.0.tar.gz --markdown 20230615/b/bs-orm/0.8.9.post20230615-0.9.0/diff.md --exclude *.pyd
+[2023-06-15 03:39:20] INFO root fetch - processPackages [tutor-minio]: executing diffoscope
+[2023-06-15 03:39:20] INFO root fetch - processPackages [tutor-minio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tutor-minio-16.0.0.tar.gz tmp/tutor-minio-16.0.1.tar.gz --markdown 20230615/t/tutor-minio/16.0.0-16.0.1/diff.md --exclude *.pyd
+[2023-06-15 03:39:20] INFO root fetch - processPackages [bioregistry]: Downloading https://files.pythonhosted.org/packages/5b/a2/66d69f3acb3d998356aaa7ccffe5395fb3221c2f99dd12100c6abf1826b4/bioregistry-0.9.9.tar.gz
+[2023-06-15 03:39:20] INFO root fetch - processPackages [automation-file-dev]: Downloading https://files.pythonhosted.org/packages/01/7f/12e7511afb9c1d3533be1bb5782b028b4e743036972a3bed3ce053bb52ac/automation_file_dev-0.0.9.tar.gz
+[2023-06-15 03:39:20] INFO root fetch - processPackages [nbdev-stdlib]: Downloading https://files.pythonhosted.org/packages/9b/0f/42944508859f820e43bf894814c5e9dbc7920a0caceef1828a31a9e5b599/nbdev-stdlib-0.0.99.tar.gz
+[2023-06-15 03:39:20] INFO root fetch - processPackages [nbdev-pandas]: executing diffoscope
+[2023-06-15 03:39:20] INFO root fetch - processPackages [nbdev-pandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-pandas-0.0.98.tar.gz tmp/nbdev-pandas-0.0.99.tar.gz --markdown 20230615/n/nbdev-pandas/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-15 03:39:21] INFO root fetch - processPackages [nbdev-stdlib]: executing diffoscope
+[2023-06-15 03:39:21] INFO root fetch - processPackages [nbdev-stdlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-stdlib-0.0.98.tar.gz tmp/nbdev-stdlib-0.0.99.tar.gz --markdown 20230615/n/nbdev-stdlib/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-15 03:39:21] INFO root fetch - processPackages [eparse]: executing diffoscope
+[2023-06-15 03:39:21] INFO root fetch - processPackages [eparse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eparse-0.5.0.tar.gz tmp/eparse-0.6.0.tar.gz --markdown 20230615/e/eparse/0.5.0-0.6.0/diff.md --exclude *.pyd
+[2023-06-15 03:39:21] INFO root fetch - processPackages [automation-file]: executing diffoscope
+[2023-06-15 03:39:21] INFO root fetch - processPackages [automation-file]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/automation_file-0.0.8.tar.gz tmp/automation_file-0.0.9.tar.gz --markdown 20230615/a/automation-file/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-15 03:39:21] INFO root fetch - processPackages [automation-file-dev]: executing diffoscope
+[2023-06-15 03:39:21] INFO root fetch - processPackages [automation-file-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/automation_file_dev-0.0.8.tar.gz tmp/automation_file_dev-0.0.9.tar.gz --markdown 20230615/a/automation-file-dev/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-15 03:39:21] INFO root fetch - processPackages [bioregistry]: executing diffoscope
+[2023-06-15 03:39:21] INFO root fetch - processPackages [bioregistry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bioregistry-0.9.8.tar.gz tmp/bioregistry-0.9.9.tar.gz --markdown 20230615/b/bioregistry/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-15 03:39:22] INFO root fetch - processPackages [nbdev-numpy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-numpy-0.0.98.tar.gz]
+[2023-06-15 03:39:22] INFO root fetch - processPackages [nbdev-numpy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-numpy-0.0.99.tar.gz]
+[2023-06-15 03:39:22] INFO root fetch - processPackages [nbdev-numpy]: Start processing: nbdev-pytorch
+[2023-06-15 03:39:22] INFO root fetch - main [MainThread]: End processing [nbdev-numpy]: success
+[2023-06-15 03:39:22] INFO root fetch - processPackages [nbdev-pytorch]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-15 03:39:22] INFO root fetch - processPackages [nbdev-pytorch]: Downloading https://files.pythonhosted.org/packages/f8/45/4613a0137d296a1960d76ded45b0af15a8fd578bf48df103c50675b49136/nbdev-pytorch-0.0.98.tar.gz
+[2023-06-15 03:39:22] INFO root fetch - processPackages [bs-orm]: Remove: archive file [/home/abi/fetcher/tmp/bs_orm-0.8.9.post20230615.tar.gz]
+[2023-06-15 03:39:22] INFO root fetch - processPackages [bs-orm]: Remove: archive file [/home/abi/fetcher/tmp/bs_orm-0.9.0.tar.gz]
+[2023-06-15 03:39:22] INFO root fetch - main [MainThread]: End processing [bs-orm]: success
+[2023-06-15 03:39:22] INFO root fetch - main [MainThread]: End processing [bs-orm]: success
+[2023-06-15 03:39:22] INFO root fetch - processPackages [tutor-minio]: Remove: archive file [/home/abi/fetcher/tmp/tutor-minio-16.0.0.tar.gz]
+[2023-06-15 03:39:22] INFO root fetch - processPackages [tutor-minio]: Remove: archive file [/home/abi/fetcher/tmp/tutor-minio-16.0.1.tar.gz]
+[2023-06-15 03:39:22] INFO root fetch - main [MainThread]: End processing [tutor-minio]: success
+[2023-06-15 03:39:22] INFO root fetch - processPackages [nbdev-pytorch]: Downloading https://files.pythonhosted.org/packages/b0/37/5921f26bef4d07ebb5599f7ccb4d57ab1a847950edaa615ebcf9ef228690/nbdev-pytorch-0.0.99.tar.gz
+[2023-06-15 03:39:22] INFO root fetch - processPackages [nbdev-pytorch]: executing diffoscope
+[2023-06-15 03:39:22] INFO root fetch - processPackages [nbdev-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-pytorch-0.0.98.tar.gz tmp/nbdev-pytorch-0.0.99.tar.gz --markdown 20230615/n/nbdev-pytorch/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-15 03:39:22] INFO root fetch - processPackages [nbdev-pandas]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pandas-0.0.98.tar.gz]
+[2023-06-15 03:39:22] INFO root fetch - processPackages [nbdev-pandas]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pandas-0.0.99.tar.gz]
+[2023-06-15 03:39:22] INFO root fetch - main [MainThread]: End processing [nbdev-pandas]: success
+[2023-06-15 03:39:22] INFO root fetch - processPackages [eparse]: Remove: archive file [/home/abi/fetcher/tmp/eparse-0.5.0.tar.gz]
+[2023-06-15 03:39:22] INFO root fetch - processPackages [eparse]: Remove: archive file [/home/abi/fetcher/tmp/eparse-0.6.0.tar.gz]
+[2023-06-15 03:39:22] INFO root fetch - main [MainThread]: End processing [eparse]: success
+[2023-06-15 03:39:22] INFO root fetch - processPackages [automation-file-dev]: Remove: archive file [/home/abi/fetcher/tmp/automation_file_dev-0.0.8.tar.gz]
+[2023-06-15 03:39:22] INFO root fetch - processPackages [automation-file-dev]: Remove: archive file [/home/abi/fetcher/tmp/automation_file_dev-0.0.9.tar.gz]
+[2023-06-15 03:39:22] INFO root fetch - main [MainThread]: End processing [automation-file-dev]: success
+[2023-06-15 03:39:23] INFO root fetch - processPackages [nbdev-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pytorch-0.0.98.tar.gz]
+[2023-06-15 03:39:23] INFO root fetch - processPackages [nbdev-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pytorch-0.0.99.tar.gz]
+[2023-06-15 03:39:23] INFO root fetch - main [MainThread]: End processing [nbdev-pytorch]: success
+[2023-06-15 03:39:24] INFO root fetch - processPackages [nbdev-stdlib]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-stdlib-0.0.98.tar.gz]
+[2023-06-15 03:39:24] INFO root fetch - processPackages [nbdev-stdlib]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-stdlib-0.0.99.tar.gz]
+[2023-06-15 03:39:24] INFO root fetch - main [MainThread]: End processing [nbdev-stdlib]: success
+[2023-06-15 03:40:08] INFO root fetch - processPackages [automation-file]: Remove: archive file [/home/abi/fetcher/tmp/automation_file-0.0.8.tar.gz]
+[2023-06-15 03:40:08] INFO root fetch - processPackages [automation-file]: Remove: archive file [/home/abi/fetcher/tmp/automation_file-0.0.9.tar.gz]
+[2023-06-15 03:40:08] INFO root fetch - main [MainThread]: End processing [automation-file]: success
+[2023-06-15 03:41:23] INFO root fetch - processPackages [bioregistry]: Remove: archive file [/home/abi/fetcher/tmp/bioregistry-0.9.8.tar.gz]
+[2023-06-15 03:41:23] INFO root fetch - processPackages [bioregistry]: Remove: archive file [/home/abi/fetcher/tmp/bioregistry-0.9.9.tar.gz]
+[2023-06-15 03:41:23] INFO root fetch - main [MainThread]: End processing [bioregistry]: success
+[2023-06-15 03:41:23] INFO root fetch - main [MainThread]: Store serial: [18509742]
