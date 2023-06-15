@@ -2090,3 +2090,56 @@
 [2023-06-15 02:00:20] INFO root fetch - processPackages [modal-client]: Remove: archive file [/home/abi/fetcher/tmp/modal_client-0.49.2399-py3-none-any.whl.zip]
 [2023-06-15 02:00:20] INFO root fetch - main [MainThread]: End processing [modal-client]: success
 [2023-06-15 02:00:20] INFO root fetch - main [MainThread]: Store serial: [18508322]
+[2023-06-15 02:05:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18508322]
+[2023-06-15 02:05:29] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-15 02:05:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: access-nri-intake
+[2023-06-15 02:05:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: torchdatasets-nightly
+[2023-06-15 02:05:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mct-nightly
+[2023-06-15 02:05:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jaxkern-nightly
+[2023-06-15 02:05:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: squ
+[2023-06-15 02:05:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: metacountregressor
+[2023-06-15 02:05:29] INFO root fetch - processPackages [metacountregressor]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-15 02:05:29] INFO root fetch - processPackages [torchdatasets-nightly]: New version: [1686701008] Old Version: [1686614640]
+[2023-06-15 02:05:29] INFO root fetch - processPackages [access-nri-intake]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-06-15 02:05:29] INFO root fetch - processPackages [jaxkern-nightly]: New version: [0.dev20221222] Old Version: [0.dev20221221]
+[2023-06-15 02:05:29] INFO root fetch - processPackages [mct-nightly]: New version: [1.8.0.9052023.post348] Old Version: [1.8.0.9042023.post411]
+[2023-06-15 02:05:29] INFO root fetch - processPackages [torchdatasets-nightly]: Downloading https://files.pythonhosted.org/packages/77/82/2f8f1170c91be731bcfc09cf259e08adc5d89cad32d359ec7324416c9c6e/torchdatasets-nightly-1686614640.tar.gz
+[2023-06-15 02:05:29] INFO root fetch - processPackages [squ]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-15 02:05:29] INFO root fetch - processPackages [jaxkern-nightly]: Downloading https://files.pythonhosted.org/packages/76/55/ef13835e3e8e1570e91b3bc7235725e556f183e3222d5e7e66ac8de58ba0/jaxkern-nightly-0.dev20221221.tar.gz
+[2023-06-15 02:05:29] INFO root fetch - processPackages [mct-nightly]: Downloading https://files.pythonhosted.org/packages/15/16/97490c39f95f97f1b8de896b5ed7cb784948f9a52a6891755c41f74302a8/mct-nightly-1.8.0.9042023.post411.tar.gz
+[2023-06-15 02:05:29] INFO root fetch - processPackages [metacountregressor]: Downloading https://files.pythonhosted.org/packages/1c/21/17f6874490c31d7499bd086b94c5c0c4f213a617577d5f498e8d3bc4987f/metacountregressor-0.1.8-py3-none-any.whl
+[2023-06-15 02:05:29] INFO root fetch - processPackages [access-nri-intake]: Downloading https://files.pythonhosted.org/packages/00/6c/f0fddee4d22289114b2c4358f2cb4c085b95235c662f84090184ca569a3d/access_nri_intake-0.0.6.tar.gz
+[2023-06-15 02:05:29] WARNING root fetch - processPackages [metacountregressor]: Skipping package: exceeds size limit 13883266>=10485760
+[2023-06-15 02:05:29] INFO root fetch - main [MainThread]: End processing [metacountregressor] error
+[2023-06-15 02:05:29] INFO root fetch - processPackages [squ]: Downloading https://files.pythonhosted.org/packages/03/77/a4568eae88bc288ec88ea47d82ae5f0b381d9aaf3fd7eea8164e546d114b/squ-0.0.1.tar.gz
+[2023-06-15 02:05:29] INFO root fetch - processPackages [jaxkern-nightly]: Downloading https://files.pythonhosted.org/packages/ea/b1/fbac44f07e48f8800aada2de8e9114775baf3f3d605ee80382db18a1c728/jaxkern-nightly-0.dev20221222.tar.gz
+[2023-06-15 02:05:29] INFO root fetch - processPackages [torchdatasets-nightly]: Downloading https://files.pythonhosted.org/packages/47/7f/637523c7a256385a57930e8b97ef92b0f06fc1e4f36e31d929892744c28d/torchdatasets-nightly-1686701008.tar.gz
+[2023-06-15 02:05:29] INFO root fetch - processPackages [jaxkern-nightly]: executing diffoscope
+[2023-06-15 02:05:29] INFO root fetch - processPackages [jaxkern-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxkern-nightly-0.dev20221221.tar.gz tmp/jaxkern-nightly-0.dev20221222.tar.gz --markdown 20230615/j/jaxkern-nightly/0.dev20221221-0.dev20221222/diff.md --exclude *.pyd
+[2023-06-15 02:05:29] INFO root fetch - processPackages [mct-nightly]: Downloading https://files.pythonhosted.org/packages/39/fa/63c23125514f4ccbde477ead4854e4d29c9cacdb45efe98739c07a78a9a1/mct-nightly-1.8.0.9052023.post348.tar.gz
+[2023-06-15 02:05:29] INFO root fetch - processPackages [torchdatasets-nightly]: executing diffoscope
+[2023-06-15 02:05:29] INFO root fetch - processPackages [torchdatasets-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchdatasets-nightly-1686614640.tar.gz tmp/torchdatasets-nightly-1686701008.tar.gz --markdown 20230615/t/torchdatasets-nightly/1686614640-1686701008/diff.md --exclude *.pyd
+[2023-06-15 02:05:29] INFO root fetch - processPackages [access-nri-intake]: Downloading https://files.pythonhosted.org/packages/86/8c/1b6cf8896249803ff00aba6e2c38ea5d948753383325c19c3d20a2b90b06/access_nri_intake-0.0.7.tar.gz
+[2023-06-15 02:05:29] INFO root fetch - processPackages [squ]: Downloading https://files.pythonhosted.org/packages/8a/51/9a4bb193cea2ea2a3a16414aba3bb706a5fcce5049e995b33f02be5350b5/squ-0.0.2.tar.gz
+[2023-06-15 02:05:29] INFO root fetch - processPackages [mct-nightly]: executing diffoscope
+[2023-06-15 02:05:29] INFO root fetch - processPackages [mct-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mct-nightly-1.8.0.9042023.post411.tar.gz tmp/mct-nightly-1.8.0.9052023.post348.tar.gz --markdown 20230615/m/mct-nightly/1.8.0.9042023.post411-1.8.0.9052023.post348/diff.md --exclude *.pyd
+[2023-06-15 02:05:30] INFO root fetch - processPackages [access-nri-intake]: executing diffoscope
+[2023-06-15 02:05:30] INFO root fetch - processPackages [access-nri-intake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/access_nri_intake-0.0.6.tar.gz tmp/access_nri_intake-0.0.7.tar.gz --markdown 20230615/a/access-nri-intake/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-06-15 02:05:30] INFO root fetch - processPackages [squ]: executing diffoscope
+[2023-06-15 02:05:30] INFO root fetch - processPackages [squ]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/squ-0.0.1.tar.gz tmp/squ-0.0.2.tar.gz --markdown 20230615/s/squ/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-15 02:05:30] INFO root fetch - processPackages [jaxkern-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxkern-nightly-0.dev20221221.tar.gz]
+[2023-06-15 02:05:30] INFO root fetch - processPackages [jaxkern-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxkern-nightly-0.dev20221222.tar.gz]
+[2023-06-15 02:05:30] INFO root fetch - main [MainThread]: End processing [jaxkern-nightly]: success
+[2023-06-15 02:05:30] INFO root fetch - processPackages [torchdatasets-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchdatasets-nightly-1686614640.tar.gz]
+[2023-06-15 02:05:30] INFO root fetch - processPackages [torchdatasets-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchdatasets-nightly-1686701008.tar.gz]
+[2023-06-15 02:05:30] INFO root fetch - main [MainThread]: End processing [torchdatasets-nightly]: success
+[2023-06-15 02:05:31] INFO root fetch - processPackages [squ]: Remove: archive file [/home/abi/fetcher/tmp/squ-0.0.1.tar.gz]
+[2023-06-15 02:05:31] INFO root fetch - processPackages [squ]: Remove: archive file [/home/abi/fetcher/tmp/squ-0.0.2.tar.gz]
+[2023-06-15 02:05:31] INFO root fetch - main [MainThread]: End processing [squ]: success
+[2023-06-15 02:05:31] INFO root fetch - processPackages [access-nri-intake]: Remove: archive file [/home/abi/fetcher/tmp/access_nri_intake-0.0.6.tar.gz]
+[2023-06-15 02:05:31] INFO root fetch - processPackages [access-nri-intake]: Remove: archive file [/home/abi/fetcher/tmp/access_nri_intake-0.0.7.tar.gz]
+[2023-06-15 02:05:31] INFO root fetch - main [MainThread]: End processing [access-nri-intake]: success
+[2023-06-15 02:05:40] INFO root fetch - processPackages [mct-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-nightly-1.8.0.9042023.post411.tar.gz]
+[2023-06-15 02:05:40] INFO root fetch - processPackages [mct-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-nightly-1.8.0.9052023.post348.tar.gz]
+[2023-06-15 02:05:40] INFO root fetch - main [MainThread]: End processing [mct-nightly]: success
+[2023-06-15 02:05:40] INFO root fetch - main [MainThread]: Store serial: [18508339]
