@@ -18715,3 +18715,113 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-06-15 12:15:12] INFO root fetch - processPackages [dm-reverb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/dm_reverb_nightly-0.9.0.dev20221207-cp39-cp39-manylinux2014_x86_64.whl.zip]
 [2023-06-15 12:15:12] INFO root fetch - main [MainThread]: End processing [dm-reverb-nightly]: success
 [2023-06-15 12:15:12] INFO root fetch - main [MainThread]: Store serial: [18514480]
+[2023-06-15 12:20:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18514480]
+[2023-06-15 12:20:22] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-06-15 12:20:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: systemd
+[2023-06-15 12:20:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: inviz
+[2023-06-15 12:20:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sqlalchemy-celery-beat
+[2023-06-15 12:20:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: autoxx
+[2023-06-15 12:20:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: stackoverflowapithingy
+[2023-06-15 12:20:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pydatawork
+[2023-06-15 12:20:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: django-hmac-authentication
+[2023-06-15 12:20:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: numerical-py
+[2023-06-15 12:20:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pe-designer
+[2023-06-15 12:20:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: current-events-magnifier
+[2023-06-15 12:20:22] INFO root fetch - processPackages [autoxx]: New version: [0.0.33] Old Version: [0.0.32]
+[2023-06-15 12:20:22] WARNING root fetch - processPackages [sqlalchemy-celery-beat]: Skipping, unable to determine old version
+[2023-06-15 12:20:22] WARNING root fetch - processPackages [pydatawork]: Skipping, unable to determine old version
+[2023-06-15 12:20:22] INFO root fetch - processPackages [sqlalchemy-celery-beat]: Start processing: rohmu
+[2023-06-15 12:20:22] WARNING root fetch - processPackages [stackoverflowapithingy]: Skipping, unable to determine old version
+[2023-06-15 12:20:22] INFO root fetch - main [MainThread]: End processing [sqlalchemy-celery-beat] error
+[2023-06-15 12:20:22] INFO root fetch - processPackages [pydatawork]: Start processing: cdklabs.cdk-validator-cfnguard
+[2023-06-15 12:20:22] INFO root fetch - processPackages [systemd]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-15 12:20:22] INFO root fetch - processPackages [stackoverflowapithingy]: Start processing: lollms
+[2023-06-15 12:20:22] INFO root fetch - main [MainThread]: End processing [pydatawork] error
+[2023-06-15 12:20:22] INFO root fetch - processPackages [numerical-py]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-15 12:20:22] INFO root fetch - processPackages [django-hmac-authentication]: New version: [1.3.0] Old Version: [1.2.1]
+[2023-06-15 12:20:22] INFO root fetch - main [MainThread]: End processing [stackoverflowapithingy] error
+[2023-06-15 12:20:22] WARNING root fetch - processPackages [pe-designer]: Skipping, unable to determine old version
+[2023-06-15 12:20:22] INFO root fetch - processPackages [current-events-magnifier]: New version: [0.0.3.1] Old Version: [0.0.3]
+[2023-06-15 12:20:22] INFO root fetch - processPackages [pe-designer]: Start processing: palmers-agents-general
+[2023-06-15 12:20:22] INFO root fetch - main [MainThread]: End processing [pe-designer] error
+[2023-06-15 12:20:22] INFO root fetch - processPackages [rohmu]: New version: [1.1.0] Old Version: [1.0.9]
+[2023-06-15 12:20:22] INFO root fetch - processPackages [cdklabs.cdk-validator-cfnguard]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-15 12:20:22] INFO root fetch - processPackages [lollms]: New version: [1.1.9] Old Version: [1.1.82]
+[2023-06-15 12:20:22] INFO root fetch - processPackages [numerical-py]: Downloading https://files.pythonhosted.org/packages/1d/de/1646bfffd31b37c02f76dd709f9c00e9f79df74282ab8379237197ee3794/numerical_py-0.0.8.tar.gz
+[2023-06-15 12:20:22] INFO root fetch - processPackages [palmers-agents-general]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-15 12:20:22] INFO root fetch - processPackages [inviz]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-06-15 12:20:22] INFO root fetch - processPackages [current-events-magnifier]: Downloading https://files.pythonhosted.org/packages/7d/e4/657fe48b6f09f0457176107f0cf6aca99e498fb394ca79f88972ba9fe134/current_events_magnifier-0.0.3.tar.gz
+[2023-06-15 12:20:22] INFO root fetch - processPackages [autoxx]: Downloading https://files.pythonhosted.org/packages/8e/ab/5af72cdbcbd2068a32dcf5874103fb0996325304688e29cc45e717c3d4ca/autoxx-0.0.32.tar.gz
+[2023-06-15 12:20:22] INFO root fetch - processPackages [systemd]: Downloading https://files.pythonhosted.org/packages/b7/a6/6f8c3e16cbbe261fe56e57500992c980a48e94e133a0813465a39f74a1e6/systemd-0.9.8.tar.gz
+[2023-06-15 12:20:22] INFO root fetch - processPackages [django-hmac-authentication]: Downloading https://files.pythonhosted.org/packages/65/b4/42b479f030dd9333c7009818c3ea053bb26ccbd3df8a7277e36b68965d3c/django_hmac_authentication-1.2.1.tar.gz
+[2023-06-15 12:20:22] INFO root fetch - processPackages [lollms]: Downloading https://files.pythonhosted.org/packages/be/ef/30362f10299913a614c9b734af75cff7511a06a3c12e2fff09a4ddba839f/lollms-1.1.82.tar.gz
+[2023-06-15 12:20:22] INFO root fetch - processPackages [cdklabs.cdk-validator-cfnguard]: Downloading https://files.pythonhosted.org/packages/ca/bf/82d7858f5b89f9588b018ab4ea93c6508a4508ce23569695827cdc5c3992/cdklabs.cdk-validator-cfnguard-0.0.8.tar.gz
+[2023-06-15 12:20:22] INFO root fetch - processPackages [numerical-py]: Downloading https://files.pythonhosted.org/packages/95/1d/7677791c6175f40bd4a70e667ae838300671845f99330142d2e9a3d9f7f8/numerical_py-0.0.9.tar.gz
+[2023-06-15 12:20:22] INFO root fetch - processPackages [rohmu]: Downloading https://files.pythonhosted.org/packages/a4/69/6cd5107356a6e049890c758ea6b614f1b80456202e32cac09aab8a53e524/rohmu-1.0.9.tar.gz
+[2023-06-15 12:20:22] INFO root fetch - processPackages [inviz]: Downloading https://files.pythonhosted.org/packages/d6/40/88cb4f15aa101dd9143b3a5bc46300f5654028fe23948e1453ec44c9e2c5/inviz-0.0.7.tar.gz
+[2023-06-15 12:20:22] INFO root fetch - processPackages [palmers-agents-general]: Downloading https://files.pythonhosted.org/packages/a0/ba/bb9972f2c344a2bfc6289bc81301dc0b876b6cc6c50834a9b71e5b5ffdf4/palmers_agents_general-0.0.8.tar.gz
+[2023-06-15 12:20:22] WARNING root fetch - processPackages [lollms]: Skipping package: exceeds size limit 28201669>=10485760
+[2023-06-15 12:20:22] INFO root fetch - processPackages [lollms]: Start processing: merqube-client-lib
+[2023-06-15 12:20:22] INFO root fetch - main [MainThread]: End processing [lollms] error
+[2023-06-15 12:20:22] INFO root fetch - processPackages [numerical-py]: executing diffoscope
+[2023-06-15 12:20:22] INFO root fetch - processPackages [numerical-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/numerical_py-0.0.8.tar.gz tmp/numerical_py-0.0.9.tar.gz --markdown 20230615/n/numerical-py/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-15 12:20:23] INFO root fetch - processPackages [merqube-client-lib]: New version: [0.9.0] Old Version: [0.8.2]
+[2023-06-15 12:20:23] INFO root fetch - processPackages [current-events-magnifier]: Downloading https://files.pythonhosted.org/packages/ea/9a/e58cf200d8933cbbd6989c20d1966dda1723d7398ed9268fae8eafdb75ef/current_events_magnifier-0.0.3.1.tar.gz
+[2023-06-15 12:20:23] INFO root fetch - processPackages [autoxx]: Downloading https://files.pythonhosted.org/packages/9c/8c/bea93ac443f8482458e291d55cc897928f875f3557ae1d71cd9b2a9f8577/autoxx-0.0.33.tar.gz
+[2023-06-15 12:20:23] INFO root fetch - processPackages [rohmu]: Downloading https://files.pythonhosted.org/packages/7a/14/7139a644ea9479a49f0431b8dfef18dd6205a88c7d3dfc00fa9492803ec5/rohmu-1.1.0.tar.gz
+[2023-06-15 12:20:23] INFO root fetch - processPackages [inviz]: Downloading https://files.pythonhosted.org/packages/00/3e/46f1bbc0c98f019b4fcb3afa4d664ecca647e82eb63604f2deeeec8a0682/inviz-0.0.8.tar.gz
+[2023-06-15 12:20:23] INFO root fetch - processPackages [systemd]: Downloading https://files.pythonhosted.org/packages/89/96/2ec26001fa405d03ec36387d9e0f527367f645264806d2c2687a69adf5a5/systemd-0.9.9.tar.gz
+[2023-06-15 12:20:23] INFO root fetch - processPackages [current-events-magnifier]: executing diffoscope
+[2023-06-15 12:20:23] INFO root fetch - processPackages [current-events-magnifier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/current_events_magnifier-0.0.3.tar.gz tmp/current_events_magnifier-0.0.3.1.tar.gz --markdown 20230615/c/current-events-magnifier/0.0.3-0.0.3.1/diff.md --exclude *.pyd
+[2023-06-15 12:20:23] INFO root fetch - processPackages [django-hmac-authentication]: Downloading https://files.pythonhosted.org/packages/16/52/8ec38dfb0022b8e0f4d23efccf336b83631aa6a51dd3e60ddc53973694b9/django_hmac_authentication-1.3.0.tar.gz
+[2023-06-15 12:20:23] INFO root fetch - processPackages [autoxx]: executing diffoscope
+[2023-06-15 12:20:23] INFO root fetch - processPackages [autoxx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autoxx-0.0.32.tar.gz tmp/autoxx-0.0.33.tar.gz --markdown 20230615/a/autoxx/0.0.32-0.0.33/diff.md --exclude *.pyd
+[2023-06-15 12:20:23] INFO root fetch - processPackages [rohmu]: executing diffoscope
+[2023-06-15 12:20:23] INFO root fetch - processPackages [rohmu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rohmu-1.0.9.tar.gz tmp/rohmu-1.1.0.tar.gz --markdown 20230615/r/rohmu/1.0.9-1.1.0/diff.md --exclude *.pyd
+[2023-06-15 12:20:23] INFO root fetch - processPackages [inviz]: executing diffoscope
+[2023-06-15 12:20:23] INFO root fetch - processPackages [inviz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inviz-0.0.7.tar.gz tmp/inviz-0.0.8.tar.gz --markdown 20230615/i/inviz/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-06-15 12:20:23] INFO root fetch - processPackages [palmers-agents-general]: Downloading https://files.pythonhosted.org/packages/61/cd/e3e3e79d25eaa13474a77df36729a9c49c52bf78a9aabee81eb71e0e9622/palmers_agents_general-0.0.9.tar.gz
+[2023-06-15 12:20:23] INFO root fetch - processPackages [merqube-client-lib]: Downloading https://files.pythonhosted.org/packages/e3/8a/87d5de868674de660bac929b7f69b1c1d2e86a4134f32d80f5784805935f/merqube_client_lib-0.8.2.tar.gz
+[2023-06-15 12:20:23] INFO root fetch - processPackages [palmers-agents-general]: executing diffoscope
+[2023-06-15 12:20:23] INFO root fetch - processPackages [palmers-agents-general]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/palmers_agents_general-0.0.8.tar.gz tmp/palmers_agents_general-0.0.9.tar.gz --markdown 20230615/p/palmers-agents-general/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-15 12:20:23] INFO root fetch - processPackages [systemd]: executing diffoscope
+[2023-06-15 12:20:23] INFO root fetch - processPackages [systemd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/systemd-0.9.8.tar.gz tmp/systemd-0.9.9.tar.gz --markdown 20230615/s/systemd/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-15 12:20:23] INFO root fetch - processPackages [django-hmac-authentication]: executing diffoscope
+[2023-06-15 12:20:23] INFO root fetch - processPackages [django-hmac-authentication]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_hmac_authentication-1.2.1.tar.gz tmp/django_hmac_authentication-1.3.0.tar.gz --markdown 20230615/d/django-hmac-authentication/1.2.1-1.3.0/diff.md --exclude *.pyd
+[2023-06-15 12:20:23] INFO root fetch - processPackages [merqube-client-lib]: Downloading https://files.pythonhosted.org/packages/46/e5/e5cabd06e75c7a73c090820e784564bd56b6d650bf657c8af3ddf97f93e0/merqube_client_lib-0.9.0.tar.gz
+[2023-06-15 12:20:23] INFO root fetch - processPackages [merqube-client-lib]: executing diffoscope
+[2023-06-15 12:20:23] INFO root fetch - processPackages [merqube-client-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/merqube_client_lib-0.8.2.tar.gz tmp/merqube_client_lib-0.9.0.tar.gz --markdown 20230615/m/merqube-client-lib/0.8.2-0.9.0/diff.md --exclude *.pyd
+[2023-06-15 12:20:23] INFO root fetch - processPackages [cdklabs.cdk-validator-cfnguard]: Downloading https://files.pythonhosted.org/packages/87/72/a3d8003ada4028ea6518698c5f3ee208044ed9363e979c066104afb06a6a/cdklabs.cdk-validator-cfnguard-0.0.9.tar.gz
+[2023-06-15 12:20:24] INFO root fetch - processPackages [cdklabs.cdk-validator-cfnguard]: executing diffoscope
+[2023-06-15 12:20:24] INFO root fetch - processPackages [cdklabs.cdk-validator-cfnguard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdklabs.cdk-validator-cfnguard-0.0.8.tar.gz tmp/cdklabs.cdk-validator-cfnguard-0.0.9.tar.gz --markdown 20230615/c/cdklabs.cdk-validator-cfnguard/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-15 12:20:24] INFO root fetch - processPackages [numerical-py]: Remove: archive file [/home/abi/fetcher/tmp/numerical_py-0.0.8.tar.gz]
+[2023-06-15 12:20:24] INFO root fetch - processPackages [numerical-py]: Remove: archive file [/home/abi/fetcher/tmp/numerical_py-0.0.9.tar.gz]
+[2023-06-15 12:20:24] INFO root fetch - main [MainThread]: End processing [numerical-py]: success
+[2023-06-15 12:20:25] INFO root fetch - processPackages [autoxx]: Remove: archive file [/home/abi/fetcher/tmp/autoxx-0.0.32.tar.gz]
+[2023-06-15 12:20:25] INFO root fetch - processPackages [autoxx]: Remove: archive file [/home/abi/fetcher/tmp/autoxx-0.0.33.tar.gz]
+[2023-06-15 12:20:25] INFO root fetch - main [MainThread]: End processing [autoxx]: success
+[2023-06-15 12:20:25] INFO root fetch - processPackages [inviz]: Remove: archive file [/home/abi/fetcher/tmp/inviz-0.0.7.tar.gz]
+[2023-06-15 12:20:25] INFO root fetch - processPackages [inviz]: Remove: archive file [/home/abi/fetcher/tmp/inviz-0.0.8.tar.gz]
+[2023-06-15 12:20:25] INFO root fetch - main [MainThread]: End processing [inviz]: success
+[2023-06-15 12:20:25] INFO root fetch - processPackages [palmers-agents-general]: Remove: archive file [/home/abi/fetcher/tmp/palmers_agents_general-0.0.8.tar.gz]
+[2023-06-15 12:20:25] INFO root fetch - processPackages [palmers-agents-general]: Remove: archive file [/home/abi/fetcher/tmp/palmers_agents_general-0.0.9.tar.gz]
+[2023-06-15 12:20:25] INFO root fetch - main [MainThread]: End processing [palmers-agents-general]: success
+[2023-06-15 12:20:25] INFO root fetch - processPackages [current-events-magnifier]: Remove: archive file [/home/abi/fetcher/tmp/current_events_magnifier-0.0.3.tar.gz]
+[2023-06-15 12:20:25] INFO root fetch - processPackages [current-events-magnifier]: Remove: archive file [/home/abi/fetcher/tmp/current_events_magnifier-0.0.3.1.tar.gz]
+[2023-06-15 12:20:25] INFO root fetch - main [MainThread]: End processing [current-events-magnifier]: success
+[2023-06-15 12:20:25] INFO root fetch - processPackages [merqube-client-lib]: Remove: archive file [/home/abi/fetcher/tmp/merqube_client_lib-0.8.2.tar.gz]
+[2023-06-15 12:20:25] INFO root fetch - processPackages [merqube-client-lib]: Remove: archive file [/home/abi/fetcher/tmp/merqube_client_lib-0.9.0.tar.gz]
+[2023-06-15 12:20:25] INFO root fetch - main [MainThread]: End processing [merqube-client-lib]: success
+[2023-06-15 12:20:25] INFO root fetch - processPackages [django-hmac-authentication]: Remove: archive file [/home/abi/fetcher/tmp/django_hmac_authentication-1.2.1.tar.gz]
+[2023-06-15 12:20:25] INFO root fetch - processPackages [django-hmac-authentication]: Remove: archive file [/home/abi/fetcher/tmp/django_hmac_authentication-1.3.0.tar.gz]
+[2023-06-15 12:20:25] INFO root fetch - main [MainThread]: End processing [django-hmac-authentication]: success
+[2023-06-15 12:20:25] INFO root fetch - processPackages [rohmu]: Remove: archive file [/home/abi/fetcher/tmp/rohmu-1.0.9.tar.gz]
+[2023-06-15 12:20:25] INFO root fetch - processPackages [rohmu]: Remove: archive file [/home/abi/fetcher/tmp/rohmu-1.1.0.tar.gz]
+[2023-06-15 12:20:25] INFO root fetch - main [MainThread]: End processing [rohmu]: success
+[2023-06-15 12:20:27] INFO root fetch - processPackages [systemd]: Remove: archive file [/home/abi/fetcher/tmp/systemd-0.9.8.tar.gz]
+[2023-06-15 12:20:27] INFO root fetch - processPackages [systemd]: Remove: archive file [/home/abi/fetcher/tmp/systemd-0.9.9.tar.gz]
+[2023-06-15 12:20:27] INFO root fetch - main [MainThread]: End processing [systemd]: success
+[2023-06-15 12:20:29] INFO root fetch - processPackages [cdklabs.cdk-validator-cfnguard]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-validator-cfnguard-0.0.8.tar.gz]
+[2023-06-15 12:20:29] INFO root fetch - processPackages [cdklabs.cdk-validator-cfnguard]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-validator-cfnguard-0.0.9.tar.gz]
+[2023-06-15 12:20:29] INFO root fetch - main [MainThread]: End processing [cdklabs.cdk-validator-cfnguard]: success
+[2023-06-15 12:20:29] INFO root fetch - main [MainThread]: Store serial: [18514539]
