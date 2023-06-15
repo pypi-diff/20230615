@@ -11386,3 +11386,45 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-15 08:07:21] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.4.0.dev20230614.tar.gz]
 [2023-06-15 08:07:21] INFO root fetch - main [MainThread]: End processing [pyg-nightly]: success
 [2023-06-15 08:07:21] INFO root fetch - main [MainThread]: Store serial: [18511698]
+[2023-06-15 08:12:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18511698]
+[2023-06-15 08:12:30] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-15 08:12:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: yambs
+[2023-06-15 08:12:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lungmask
+[2023-06-15 08:12:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: macrometa-target-collection
+[2023-06-15 08:12:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Cryptode
+[2023-06-15 08:12:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tree-sitter-apertium
+[2023-06-15 08:12:31] INFO root fetch - processPackages [tree-sitter-apertium]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-15 08:12:31] INFO root fetch - processPackages [tree-sitter-apertium]: Downloading https://files.pythonhosted.org/packages/0e/e2/c894cad9a7a1dd7822ec9f08b5b2a5d1bc056717f79b13414191b7109ecb/tree-sitter-apertium-0.1.2.tar.gz
+[2023-06-15 08:12:31] INFO root fetch - processPackages [lungmask]: New version: [0.2.15] Old Version: [0.2.14]
+[2023-06-15 08:12:31] INFO root fetch - processPackages [macrometa-target-collection]: New version: [0.0.65] Old Version: [0.0.64]
+[2023-06-15 08:12:31] WARNING root fetch - processPackages [Cryptode]: Skipping, unable to determine old version
+[2023-06-15 08:12:31] INFO root fetch - main [MainThread]: End processing [Cryptode] error
+[2023-06-15 08:12:31] INFO root fetch - processPackages [yambs]: New version: [1.8.0] Old Version: [1.7.3]
+[2023-06-15 08:12:31] INFO root fetch - processPackages [yambs]: Downloading https://files.pythonhosted.org/packages/02/12/ad1191da85284238c376f90cfe84444f92b96b243e6f69cbb29137aa9c22/yambs-1.7.3.tar.gz
+[2023-06-15 08:12:31] INFO root fetch - processPackages [macrometa-target-collection]: Downloading https://files.pythonhosted.org/packages/dd/48/d7949dc032c21186a30ecb76be956587f5976bfc1e95f64f97e05bc3ff7b/macrometa-target-collection-0.0.64.tar.gz
+[2023-06-15 08:12:31] INFO root fetch - processPackages [lungmask]: Downloading https://files.pythonhosted.org/packages/98/d4/c15929d31b7dba3800a65dd5ba6d4c6dae0d70e4d9c1121aad8f115b8e5c/lungmask-0.2.14.tar.gz
+[2023-06-15 08:12:31] INFO root fetch - processPackages [tree-sitter-apertium]: Downloading https://files.pythonhosted.org/packages/25/72/d33035fce5b4cb04406ea6f4f50cb0e362f3aeca8378ed8899a26007bcf3/tree-sitter-apertium-0.1.3.tar.gz
+[2023-06-15 08:12:31] INFO root fetch - processPackages [tree-sitter-apertium]: executing diffoscope
+[2023-06-15 08:12:31] INFO root fetch - processPackages [tree-sitter-apertium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tree-sitter-apertium-0.1.2.tar.gz tmp/tree-sitter-apertium-0.1.3.tar.gz --markdown 20230615/t/tree-sitter-apertium/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-15 08:12:31] INFO root fetch - processPackages [macrometa-target-collection]: Downloading https://files.pythonhosted.org/packages/7f/51/ee0b3324e047d2f9637cda91935d962a5b819fd62adfd42905224393f168/macrometa-target-collection-0.0.65.tar.gz
+[2023-06-15 08:12:31] INFO root fetch - processPackages [yambs]: Downloading https://files.pythonhosted.org/packages/04/3b/b2d8ae29cc4ba6fb5f15a8c9b900cff79e0f24c11a47ae2b310131b36f62/yambs-1.8.0.tar.gz
+[2023-06-15 08:12:31] INFO root fetch - processPackages [macrometa-target-collection]: executing diffoscope
+[2023-06-15 08:12:31] INFO root fetch - processPackages [macrometa-target-collection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/macrometa-target-collection-0.0.64.tar.gz tmp/macrometa-target-collection-0.0.65.tar.gz --markdown 20230615/m/macrometa-target-collection/0.0.64-0.0.65/diff.md --exclude *.pyd
+[2023-06-15 08:12:31] INFO root fetch - processPackages [lungmask]: Downloading https://files.pythonhosted.org/packages/ff/7b/f56273d7efb89c132cefce2aad4cbbf413d8c49ea5e26a62703f1f34e222/lungmask-0.2.15.tar.gz
+[2023-06-15 08:12:31] INFO root fetch - processPackages [yambs]: executing diffoscope
+[2023-06-15 08:12:31] INFO root fetch - processPackages [yambs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yambs-1.7.3.tar.gz tmp/yambs-1.8.0.tar.gz --markdown 20230615/y/yambs/1.7.3-1.8.0/diff.md --exclude *.pyd
+[2023-06-15 08:12:31] INFO root fetch - processPackages [lungmask]: executing diffoscope
+[2023-06-15 08:12:31] INFO root fetch - processPackages [lungmask]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lungmask-0.2.14.tar.gz tmp/lungmask-0.2.15.tar.gz --markdown 20230615/l/lungmask/0.2.14-0.2.15/diff.md --exclude *.pyd
+[2023-06-15 08:12:32] INFO root fetch - processPackages [macrometa-target-collection]: Remove: archive file [/home/abi/fetcher/tmp/macrometa-target-collection-0.0.64.tar.gz]
+[2023-06-15 08:12:32] INFO root fetch - processPackages [macrometa-target-collection]: Remove: archive file [/home/abi/fetcher/tmp/macrometa-target-collection-0.0.65.tar.gz]
+[2023-06-15 08:12:32] INFO root fetch - main [MainThread]: End processing [macrometa-target-collection]: success
+[2023-06-15 08:12:32] INFO root fetch - processPackages [lungmask]: Remove: archive file [/home/abi/fetcher/tmp/lungmask-0.2.14.tar.gz]
+[2023-06-15 08:12:32] INFO root fetch - processPackages [lungmask]: Remove: archive file [/home/abi/fetcher/tmp/lungmask-0.2.15.tar.gz]
+[2023-06-15 08:12:32] INFO root fetch - main [MainThread]: End processing [lungmask]: success
+[2023-06-15 08:12:33] INFO root fetch - processPackages [yambs]: Remove: archive file [/home/abi/fetcher/tmp/yambs-1.7.3.tar.gz]
+[2023-06-15 08:12:33] INFO root fetch - processPackages [yambs]: Remove: archive file [/home/abi/fetcher/tmp/yambs-1.8.0.tar.gz]
+[2023-06-15 08:12:33] INFO root fetch - main [MainThread]: End processing [yambs]: success
+[2023-06-15 08:12:33] INFO root fetch - processPackages [tree-sitter-apertium]: Remove: archive file [/home/abi/fetcher/tmp/tree-sitter-apertium-0.1.2.tar.gz]
+[2023-06-15 08:12:33] INFO root fetch - processPackages [tree-sitter-apertium]: Remove: archive file [/home/abi/fetcher/tmp/tree-sitter-apertium-0.1.3.tar.gz]
+[2023-06-15 08:12:33] INFO root fetch - main [MainThread]: End processing [tree-sitter-apertium]: success
+[2023-06-15 08:12:33] INFO root fetch - main [MainThread]: Store serial: [18511728]
