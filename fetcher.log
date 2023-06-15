@@ -11814,3 +11814,87 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-15 08:44:04] INFO root fetch - processPackages [dune-iga]: Remove: archive file [/home/abi/fetcher/tmp/dune-iga-0.1.1.dev20230615063915.tar.gz]
 [2023-06-15 08:44:04] INFO root fetch - main [MainThread]: End processing [dune-iga]: success
 [2023-06-15 08:44:04] INFO root fetch - main [MainThread]: Store serial: [18511877]
+[2023-06-15 08:49:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18511877]
+[2023-06-15 08:49:15] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-15 08:49:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cohere
+[2023-06-15 08:49:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gdsfactory
+[2023-06-15 08:49:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: th2-grpc-lw-data-provider
+[2023-06-15 08:49:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: icloudpd
+[2023-06-15 08:49:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: learnMSA
+[2023-06-15 08:49:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: django-sweet-utils
+[2023-06-15 08:49:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: opower
+[2023-06-15 08:49:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: samna
+[2023-06-15 08:49:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: resotodatalink
+[2023-06-15 08:49:15] INFO root fetch - processPackages [django-sweet-utils]: New version: [1.5.0] Old Version: [1.4.0]
+[2023-06-15 08:49:15] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: New version: [2.1.0.dev3871883101] Old Version: [2.0.0.dev5275644455]
+[2023-06-15 08:49:15] INFO root fetch - processPackages [icloudpd]: New version: [1.9.0] Old Version: [1.8.1]
+[2023-06-15 08:49:15] INFO root fetch - processPackages [cohere]: New version: [4.9.1] Old Version: [4.9.0]
+[2023-06-15 08:49:15] INFO root fetch - processPackages [learnMSA]: New version: [1.2.4] Old Version: [1.2.3]
+[2023-06-15 08:49:15] INFO root fetch - processPackages [gdsfactory]: New version: [6.99.0] Old Version: [6.98.2]
+[2023-06-15 08:49:15] INFO root fetch - processPackages [opower]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-15 08:49:15] INFO root fetch - processPackages [cohere]: Downloading https://files.pythonhosted.org/packages/31/b3/a0389f12ee6eb070bc517e9db7a5ad19cc3b7147fc1c53ff8f3547a476b1/cohere-4.9.0.tar.gz
+[2023-06-15 08:49:15] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: Downloading https://files.pythonhosted.org/packages/ed/05/9131aa4e7fafcfa1fa001e228339f04d4a494cd250f78a984edfaecc0be3/th2_grpc_lw_data_provider-2.0.0.dev5275644455.tar.gz
+[2023-06-15 08:49:15] INFO root fetch - processPackages [resotodatalink]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-15 08:49:15] INFO root fetch - processPackages [icloudpd]: Downloading https://files.pythonhosted.org/packages/51/5d/1f1e447501b790f1082e506da57a315aeda5268be4c23f0027804937436a/icloudpd-1.8.1-py2.py3-none-any.whl
+[2023-06-15 08:49:15] INFO root fetch - processPackages [django-sweet-utils]: Downloading https://files.pythonhosted.org/packages/68/9e/d94262c45a9fc6b1899f9b6481f654f6e54271160b0e5f81ba4e0583ecbd/django-sweet-utils-1.4.0.tar.gz
+[2023-06-15 08:49:15] INFO root fetch - processPackages [cohere]: Downloading https://files.pythonhosted.org/packages/31/11/99acc914d420c15b6ac2de9eb04804195bc99b02d194f3c4ae947d19869f/cohere-4.9.1.tar.gz
+[2023-06-15 08:49:15] INFO root fetch - processPackages [gdsfactory]: Downloading https://files.pythonhosted.org/packages/c8/dd/88303eeb3c46484a4a64c2675611a92ea3816ae1ec8181c6eb5e78e85064/gdsfactory-6.98.2.tar.gz
+[2023-06-15 08:49:15] INFO root fetch - processPackages [learnMSA]: Downloading https://files.pythonhosted.org/packages/ec/0a/d34d234ea38f1c3af6aee8b14f561254a2ad14a4ce7f1396d283e8e7c242/learnMSA-1.2.3.tar.gz
+[2023-06-15 08:49:15] INFO root fetch - processPackages [cohere]: executing diffoscope
+[2023-06-15 08:49:15] INFO root fetch - processPackages [cohere]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cohere-4.9.0.tar.gz tmp/cohere-4.9.1.tar.gz --markdown 20230615/c/cohere/4.9.0-4.9.1/diff.md --exclude *.pyd
+[2023-06-15 08:49:15] INFO root fetch - processPackages [opower]: Downloading https://files.pythonhosted.org/packages/de/e7/5d0e2eea618e46b3230cd28958d2cca7ca8ef0ec3acf7d333b499bc466db/opower-0.0.8.tar.gz
+[2023-06-15 08:49:15] INFO root fetch - processPackages [resotodatalink]: Downloading https://files.pythonhosted.org/packages/91/75/34affddf1cf803f8b66cbc7425c72dd3f98c1401d2f6c6f5acad9747c632/resotodatalink-1.0.0.tar.gz
+[2023-06-15 08:49:15] INFO root fetch - processPackages [samna]: New version: [0.9.39.0] Old Version: [0.9.38.0]
+[2023-06-15 08:49:15] INFO root fetch - processPackages [django-sweet-utils]: Downloading https://files.pythonhosted.org/packages/e4/66/6667c1fa156add7c1bb9d49a4175be663469a2060a301490fc5c116b77ab/django-sweet-utils-1.5.0.tar.gz
+[2023-06-15 08:49:15] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: Downloading https://files.pythonhosted.org/packages/b8/71/939eea7287068082732ec066dc1b9af347f7ee06c935058691236acf7459/th2_grpc_lw_data_provider-2.1.0.dev3871883101.tar.gz
+[2023-06-15 08:49:15] INFO root fetch - processPackages [icloudpd]: Downloading https://files.pythonhosted.org/packages/62/71/4d2c70cdcacbafa12d0d59f0a600a1d90223aeb131739c382716470d6320/icloudpd-1.9.0-py2.py3-none-any.whl
+[2023-06-15 08:49:15] INFO root fetch - processPackages [django-sweet-utils]: executing diffoscope
+[2023-06-15 08:49:15] INFO root fetch - processPackages [django-sweet-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-sweet-utils-1.4.0.tar.gz tmp/django-sweet-utils-1.5.0.tar.gz --markdown 20230615/d/django-sweet-utils/1.4.0-1.5.0/diff.md --exclude *.pyd
+[2023-06-15 08:49:15] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: executing diffoscope
+[2023-06-15 08:49:15] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th2_grpc_lw_data_provider-2.0.0.dev5275644455.tar.gz tmp/th2_grpc_lw_data_provider-2.1.0.dev3871883101.tar.gz --markdown 20230615/t/th2-grpc-lw-data-provider/2.0.0.dev5275644455-2.1.0.dev3871883101/diff.md --exclude *.pyd
+[2023-06-15 08:49:15] INFO root fetch - processPackages [learnMSA]: Downloading https://files.pythonhosted.org/packages/b4/09/50b772a26d1eb0c95935fa371efc6c7ae17eb57bbc4d961b7cd6621a264c/learnMSA-1.2.4.tar.gz
+[2023-06-15 08:49:15] INFO root fetch - processPackages [samna]: Downloading https://files.pythonhosted.org/packages/ac/49/8e22575b9ef0f797dd5332cff83b9f2288c02887aeff0cb8048a960a2edb/samna-0.9.38.0-py3-none-any.whl
+[2023-06-15 08:49:15] INFO root fetch - processPackages [opower]: Downloading https://files.pythonhosted.org/packages/86/54/64abf478f9a76b0937adc32bc301690e94e6e745928ac9cfcd0eeb625f56/opower-0.0.9.tar.gz
+[2023-06-15 08:49:15] INFO root fetch - processPackages [gdsfactory]: Downloading https://files.pythonhosted.org/packages/7e/ec/2cd39e2ce278d617eac6988e914b8df36d3496205cac9e991937c8cd1fe3/gdsfactory-6.99.0.tar.gz
+[2023-06-15 08:49:15] INFO root fetch - processPackages [icloudpd]: executing diffoscope
+[2023-06-15 08:49:15] INFO root fetch - processPackages [icloudpd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/icloudpd-1.8.1-py2.py3-none-any.whl.zip tmp/icloudpd-1.9.0-py2.py3-none-any.whl.zip --markdown 20230615/i/icloudpd/1.8.1-1.9.0/diff.md --exclude *.pyd
+[2023-06-15 08:49:15] INFO root fetch - processPackages [opower]: executing diffoscope
+[2023-06-15 08:49:15] INFO root fetch - processPackages [opower]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opower-0.0.8.tar.gz tmp/opower-0.0.9.tar.gz --markdown 20230615/o/opower/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-15 08:49:16] INFO root fetch - processPackages [resotodatalink]: Downloading https://files.pythonhosted.org/packages/3a/2c/32f75da7595e3df1170bbb04d2acb3153c27542e47bc32cd026023436a4f/resotodatalink-1.0.1.tar.gz
+[2023-06-15 08:49:16] INFO root fetch - processPackages [learnMSA]: executing diffoscope
+[2023-06-15 08:49:16] INFO root fetch - processPackages [learnMSA]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/learnMSA-1.2.3.tar.gz tmp/learnMSA-1.2.4.tar.gz --markdown 20230615/l/learnMSA/1.2.3-1.2.4/diff.md --exclude *.pyd
+[2023-06-15 08:49:16] INFO root fetch - processPackages [gdsfactory]: executing diffoscope
+[2023-06-15 08:49:16] INFO root fetch - processPackages [gdsfactory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gdsfactory-6.98.2.tar.gz tmp/gdsfactory-6.99.0.tar.gz --markdown 20230615/g/gdsfactory/6.98.2-6.99.0/diff.md --exclude *.pyd
+[2023-06-15 08:49:16] INFO root fetch - processPackages [resotodatalink]: executing diffoscope
+[2023-06-15 08:49:16] INFO root fetch - processPackages [resotodatalink]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/resotodatalink-1.0.0.tar.gz tmp/resotodatalink-1.0.1.tar.gz --markdown 20230615/r/resotodatalink/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-15 08:49:16] INFO root fetch - processPackages [samna]: Downloading https://files.pythonhosted.org/packages/00/d4/3de54a6c91f47d5c29700e274166c999cadaf0ba26c263d4a4b8a40342e2/samna-0.9.39.0-py3-none-any.whl
+[2023-06-15 08:49:16] INFO root fetch - processPackages [samna]: executing diffoscope
+[2023-06-15 08:49:16] INFO root fetch - processPackages [samna]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/samna-0.9.38.0-py3-none-any.whl.zip tmp/samna-0.9.39.0-py3-none-any.whl.zip --markdown 20230615/s/samna/0.9.38.0-0.9.39.0/diff.md --exclude *.pyd
+[2023-06-15 08:49:18] INFO root fetch - processPackages [django-sweet-utils]: Remove: archive file [/home/abi/fetcher/tmp/django-sweet-utils-1.4.0.tar.gz]
+[2023-06-15 08:49:18] INFO root fetch - processPackages [django-sweet-utils]: Remove: archive file [/home/abi/fetcher/tmp/django-sweet-utils-1.5.0.tar.gz]
+[2023-06-15 08:49:18] INFO root fetch - main [MainThread]: End processing [django-sweet-utils]: success
+[2023-06-15 08:49:18] INFO root fetch - processPackages [samna]: Remove: archive file [/home/abi/fetcher/tmp/samna-0.9.38.0-py3-none-any.whl.zip]
+[2023-06-15 08:49:18] INFO root fetch - processPackages [samna]: Remove: archive file [/home/abi/fetcher/tmp/samna-0.9.39.0-py3-none-any.whl.zip]
+[2023-06-15 08:49:18] INFO root fetch - main [MainThread]: End processing [samna]: success
+[2023-06-15 08:49:18] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: Remove: archive file [/home/abi/fetcher/tmp/th2_grpc_lw_data_provider-2.0.0.dev5275644455.tar.gz]
+[2023-06-15 08:49:18] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: Remove: archive file [/home/abi/fetcher/tmp/th2_grpc_lw_data_provider-2.1.0.dev3871883101.tar.gz]
+[2023-06-15 08:49:18] INFO root fetch - main [MainThread]: End processing [th2-grpc-lw-data-provider]: success
+[2023-06-15 08:49:18] INFO root fetch - processPackages [icloudpd]: Remove: archive file [/home/abi/fetcher/tmp/icloudpd-1.8.1-py2.py3-none-any.whl.zip]
+[2023-06-15 08:49:18] INFO root fetch - processPackages [icloudpd]: Remove: archive file [/home/abi/fetcher/tmp/icloudpd-1.9.0-py2.py3-none-any.whl.zip]
+[2023-06-15 08:49:18] INFO root fetch - main [MainThread]: End processing [icloudpd]: success
+[2023-06-15 08:49:18] INFO root fetch - processPackages [opower]: Remove: archive file [/home/abi/fetcher/tmp/opower-0.0.8.tar.gz]
+[2023-06-15 08:49:18] INFO root fetch - processPackages [opower]: Remove: archive file [/home/abi/fetcher/tmp/opower-0.0.9.tar.gz]
+[2023-06-15 08:49:18] INFO root fetch - main [MainThread]: End processing [opower]: success
+[2023-06-15 08:49:18] INFO root fetch - processPackages [cohere]: Remove: archive file [/home/abi/fetcher/tmp/cohere-4.9.0.tar.gz]
+[2023-06-15 08:49:18] INFO root fetch - processPackages [cohere]: Remove: archive file [/home/abi/fetcher/tmp/cohere-4.9.1.tar.gz]
+[2023-06-15 08:49:18] INFO root fetch - main [MainThread]: End processing [cohere]: success
+[2023-06-15 08:49:19] INFO root fetch - processPackages [resotodatalink]: Remove: archive file [/home/abi/fetcher/tmp/resotodatalink-1.0.0.tar.gz]
+[2023-06-15 08:49:19] INFO root fetch - processPackages [resotodatalink]: Remove: archive file [/home/abi/fetcher/tmp/resotodatalink-1.0.1.tar.gz]
+[2023-06-15 08:49:19] INFO root fetch - main [MainThread]: End processing [resotodatalink]: success
+[2023-06-15 08:49:23] INFO root fetch - processPackages [learnMSA]: Remove: archive file [/home/abi/fetcher/tmp/learnMSA-1.2.3.tar.gz]
+[2023-06-15 08:49:23] INFO root fetch - processPackages [learnMSA]: Remove: archive file [/home/abi/fetcher/tmp/learnMSA-1.2.4.tar.gz]
+[2023-06-15 08:49:23] INFO root fetch - main [MainThread]: End processing [learnMSA]: success
+[2023-06-15 08:49:30] INFO root fetch - processPackages [gdsfactory]: Remove: archive file [/home/abi/fetcher/tmp/gdsfactory-6.98.2.tar.gz]
+[2023-06-15 08:49:30] INFO root fetch - processPackages [gdsfactory]: Remove: archive file [/home/abi/fetcher/tmp/gdsfactory-6.99.0.tar.gz]
+[2023-06-15 08:49:30] INFO root fetch - main [MainThread]: End processing [gdsfactory]: success
+[2023-06-15 08:49:30] INFO root fetch - main [MainThread]: Store serial: [18511900]
