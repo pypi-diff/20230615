@@ -12847,3 +12847,95 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-06-15 09:27:20] INFO root fetch - processPackages [odoo-addon-ddmrp-warning]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_ddmrp_warning-15.0.1.1.0-py3-none-any.whl.zip]
 [2023-06-15 09:27:20] INFO root fetch - main [MainThread]: End processing [odoo-addon-ddmrp-warning]: success
 [2023-06-15 09:27:20] INFO root fetch - main [MainThread]: Store serial: [18512318]
+[2023-06-15 09:32:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18512318]
+[2023-06-15 09:32:30] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-15 09:32:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: netbox-cisco-maintenance
+[2023-06-15 09:32:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pytorch-pipline
+[2023-06-15 09:32:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: homeassistant
+[2023-06-15 09:32:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fudan-utils
+[2023-06-15 09:32:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pepperize.cdk-terraform-state-backend
+[2023-06-15 09:32:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: th2-grpc-lw-data-provider
+[2023-06-15 09:32:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gaohn-common-utils
+[2023-06-15 09:32:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: netbox-cisco-maintenance
+[2023-06-15 09:32:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: absfuyu
+[2023-06-15 09:32:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: yplib
+[2023-06-15 09:32:30] INFO root fetch - processPackages [pytorch-pipline]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-15 09:32:30] INFO root fetch - processPackages [gaohn-common-utils]: New version: [0.0.60] Old Version: [0.0.59]
+[2023-06-15 09:32:30] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: New version: [2.1.0.dev3871883101] Old Version: [2.0.0.dev5276005409]
+[2023-06-15 09:32:30] INFO root fetch - processPackages [absfuyu]: New version: [2.1.0] Old Version: [2.0.0]
+[2023-06-15 09:32:30] INFO root fetch - processPackages [fudan-utils]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-06-15 09:32:30] INFO root fetch - processPackages [yplib]: New version: [1.3.5] Old Version: [1.3.4]
+[2023-06-15 09:32:30] INFO root fetch - processPackages [netbox-cisco-maintenance]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-15 09:32:30] INFO root fetch - processPackages [pytorch-pipline]: Downloading https://files.pythonhosted.org/packages/f8/07/2615378f3394ed46913e333e6f53fbf51b8cf0ee97367521f131c6c1bd8b/pytorch-pipline-0.0.8.tar.gz
+[2023-06-15 09:32:30] INFO root fetch - processPackages [netbox-cisco-maintenance]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-15 09:32:30] INFO root fetch - processPackages [gaohn-common-utils]: Downloading https://files.pythonhosted.org/packages/6a/cb/069091daaac5eefce597127a95f06f547fc55a55fc9d90b6dc7b46736cb9/gaohn-common-utils-0.0.59.tar.gz
+[2023-06-15 09:32:30] INFO root fetch - processPackages [homeassistant]: New version: [2023.6.2] Old Version: [2023.6.1]
+[2023-06-15 09:32:30] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-06-15 09:32:30] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/76/23/d5e9346d54428292d288995705f5c1e46e468048dea479739355f2a7eed8/yplib-1.3.4.tar.gz
+[2023-06-15 09:32:30] INFO root fetch - processPackages [netbox-cisco-maintenance]: Downloading https://files.pythonhosted.org/packages/49/9b/a1c0c74911cdf52ff01e40ea24fa7dd8c615a41dbbdae40f076bf871e18c/netbox-cisco-maintenance-0.0.98.tar.gz
+[2023-06-15 09:32:30] INFO root fetch - processPackages [netbox-cisco-maintenance]: Downloading https://files.pythonhosted.org/packages/49/9b/a1c0c74911cdf52ff01e40ea24fa7dd8c615a41dbbdae40f076bf871e18c/netbox-cisco-maintenance-0.0.98.tar.gz
+[2023-06-15 09:32:30] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: Downloading https://files.pythonhosted.org/packages/d2/0f/80b256d6db4a6c4ef2946fdb12d2663c6f9e2b58a66c4affb9ba24dd7921/th2_grpc_lw_data_provider-2.0.0.dev5276005409.tar.gz
+[2023-06-15 09:32:30] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Downloading https://files.pythonhosted.org/packages/67/44/1dba32653c7525f0fbd8908ad6d202d1043a5fcb6cf364972a4c23bffeac/pepperize.cdk-terraform-state-backend-0.1.98.tar.gz
+[2023-06-15 09:32:30] INFO root fetch - processPackages [fudan-utils]: Downloading https://files.pythonhosted.org/packages/6e/64/a67c509068c9df55bad9829b2678a25bf619127849477f33735c32255119/fudan_utils-0.1.6.tar.gz
+[2023-06-15 09:32:30] INFO root fetch - processPackages [pytorch-pipline]: Downloading https://files.pythonhosted.org/packages/85/4d/815757112aa4e1097e6c434be31c7558e9aca24e20e0a0eb0778c6074673/pytorch-pipline-0.0.9.tar.gz
+[2023-06-15 09:32:30] INFO root fetch - processPackages [absfuyu]: Downloading https://files.pythonhosted.org/packages/9a/b7/1b5570024ed301e0d1bc594b77b2123ee0f6dcc5a5ff937c15530725d53d/absfuyu-2.0.0.tar.gz
+[2023-06-15 09:32:30] INFO root fetch - processPackages [pytorch-pipline]: executing diffoscope
+[2023-06-15 09:32:30] INFO root fetch - processPackages [pytorch-pipline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytorch-pipline-0.0.8.tar.gz tmp/pytorch-pipline-0.0.9.tar.gz --markdown 20230615/p/pytorch-pipline/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-15 09:32:30] INFO root fetch - processPackages [netbox-cisco-maintenance]: Downloading https://files.pythonhosted.org/packages/36/61/db227025ce63809f803a3fe44062bf026321f24f9aa12a99bf348ae574ca/netbox-cisco-maintenance-0.0.99.tar.gz
+[2023-06-15 09:32:30] INFO root fetch - processPackages [gaohn-common-utils]: Downloading https://files.pythonhosted.org/packages/92/24/9f05ca7e247773480ae7fb0fe749ee0ef230e2ebf3dbe245329b0e0224b6/gaohn-common-utils-0.0.60.tar.gz
+[2023-06-15 09:32:30] INFO root fetch - processPackages [netbox-cisco-maintenance]: Downloading https://files.pythonhosted.org/packages/36/61/db227025ce63809f803a3fe44062bf026321f24f9aa12a99bf348ae574ca/netbox-cisco-maintenance-0.0.99.tar.gz
+[2023-06-15 09:32:31] INFO root fetch - processPackages [homeassistant]: Downloading https://files.pythonhosted.org/packages/54/c5/b3af0d37e23fa1dc7d999acbf982cbb98ef3bcaf611d9be7b05eef45823e/homeassistant-2023.6.1.tar.gz
+[2023-06-15 09:32:31] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Downloading https://files.pythonhosted.org/packages/49/e5/a2d418e8a59e46c739ecaa72adebcb65d676b8149513d576b8cd05d6324e/pepperize.cdk-terraform-state-backend-0.1.99.tar.gz
+[2023-06-15 09:32:31] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/d3/7d/8e0323120060d5ea070338159541e34852b26608de3efc502bb11de489ed/yplib-1.3.5.tar.gz
+[2023-06-15 09:32:31] INFO root fetch - processPackages [netbox-cisco-maintenance]: executing diffoscope
+[2023-06-15 09:32:31] INFO root fetch - processPackages [netbox-cisco-maintenance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox-cisco-maintenance-0.0.98.tar.gz tmp/netbox-cisco-maintenance-0.0.99.tar.gz --markdown 20230615/n/netbox-cisco-maintenance/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-15 09:32:31] INFO root fetch - processPackages [netbox-cisco-maintenance]: executing diffoscope
+[2023-06-15 09:32:31] INFO root fetch - processPackages [netbox-cisco-maintenance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox-cisco-maintenance-0.0.98.tar.gz tmp/netbox-cisco-maintenance-0.0.99.tar.gz --markdown 20230615/n/netbox-cisco-maintenance/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-15 09:32:31] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: Downloading https://files.pythonhosted.org/packages/b8/71/939eea7287068082732ec066dc1b9af347f7ee06c935058691236acf7459/th2_grpc_lw_data_provider-2.1.0.dev3871883101.tar.gz
+[2023-06-15 09:32:31] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: executing diffoscope
+[2023-06-15 09:32:31] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-terraform-state-backend-0.1.98.tar.gz tmp/pepperize.cdk-terraform-state-backend-0.1.99.tar.gz --markdown 20230615/p/pepperize.cdk-terraform-state-backend/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-06-15 09:32:31] WARNING root fetch - processPackages [homeassistant]: Skipping package: exceeds size limit 14222797>=10485760
+[2023-06-15 09:32:31] INFO root fetch - processPackages [homeassistant]: Start processing: Weblate
+[2023-06-15 09:32:31] INFO root fetch - main [MainThread]: End processing [homeassistant] error
+[2023-06-15 09:32:31] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: executing diffoscope
+[2023-06-15 09:32:31] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th2_grpc_lw_data_provider-2.0.0.dev5276005409.tar.gz tmp/th2_grpc_lw_data_provider-2.1.0.dev3871883101.tar.gz --markdown 20230615/t/th2-grpc-lw-data-provider/2.0.0.dev5276005409-2.1.0.dev3871883101/diff.md --exclude *.pyd
+[2023-06-15 09:32:31] INFO root fetch - processPackages [fudan-utils]: Downloading https://files.pythonhosted.org/packages/12/76/56cd3a07f3901cad3b4d716e538825d54b14969383be859c550ab6bb038b/fudan_utils-0.1.7.tar.gz
+[2023-06-15 09:32:31] INFO root fetch - processPackages [gaohn-common-utils]: executing diffoscope
+[2023-06-15 09:32:31] INFO root fetch - processPackages [gaohn-common-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gaohn-common-utils-0.0.59.tar.gz tmp/gaohn-common-utils-0.0.60.tar.gz --markdown 20230615/g/gaohn-common-utils/0.0.59-0.0.60/diff.md --exclude *.pyd
+[2023-06-15 09:32:31] INFO root fetch - processPackages [yplib]: executing diffoscope
+[2023-06-15 09:32:31] INFO root fetch - processPackages [yplib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yplib-1.3.4.tar.gz tmp/yplib-1.3.5.tar.gz --markdown 20230615/y/yplib/1.3.4-1.3.5/diff.md --exclude *.pyd
+[2023-06-15 09:32:31] INFO root fetch - processPackages [fudan-utils]: executing diffoscope
+[2023-06-15 09:32:31] INFO root fetch - processPackages [fudan-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fudan_utils-0.1.6.tar.gz tmp/fudan_utils-0.1.7.tar.gz --markdown 20230615/f/fudan-utils/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-06-15 09:32:31] INFO root fetch - processPackages [absfuyu]: Downloading https://files.pythonhosted.org/packages/42/b6/4f93b05973a86773c5c77a1769c86e4c724613735ff0f79ed787f00b7052/absfuyu-2.1.0.tar.gz
+[2023-06-15 09:32:31] INFO root fetch - processPackages [Weblate]: New version: [4.9.1] Old Version: [4.9]
+[2023-06-15 09:32:31] INFO root fetch - processPackages [absfuyu]: executing diffoscope
+[2023-06-15 09:32:31] INFO root fetch - processPackages [absfuyu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/absfuyu-2.0.0.tar.gz tmp/absfuyu-2.1.0.tar.gz --markdown 20230615/a/absfuyu/2.0.0-2.1.0/diff.md --exclude *.pyd
+[2023-06-15 09:32:31] INFO root fetch - processPackages [Weblate]: Downloading https://files.pythonhosted.org/packages/1b/80/53ffb6a7757a493a187be7be0aa67e0606254c4f1eebdaff087cb49f09a2/Weblate-4.9.tar.gz
+[2023-06-15 09:32:31] WARNING root fetch - processPackages [Weblate]: Skipping package: exceeds size limit 25286022>=10485760
+[2023-06-15 09:32:31] INFO root fetch - main [MainThread]: End processing [Weblate] error
+[2023-06-15 09:32:33] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-1.3.4.tar.gz]
+[2023-06-15 09:32:33] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-1.3.5.tar.gz]
+[2023-06-15 09:32:33] INFO root fetch - main [MainThread]: End processing [yplib]: success
+[2023-06-15 09:32:33] INFO root fetch - processPackages [fudan-utils]: Remove: archive file [/home/abi/fetcher/tmp/fudan_utils-0.1.6.tar.gz]
+[2023-06-15 09:32:33] INFO root fetch - processPackages [fudan-utils]: Remove: archive file [/home/abi/fetcher/tmp/fudan_utils-0.1.7.tar.gz]
+[2023-06-15 09:32:33] INFO root fetch - main [MainThread]: End processing [fudan-utils]: success
+[2023-06-15 09:32:33] INFO root fetch - processPackages [pytorch-pipline]: Remove: archive file [/home/abi/fetcher/tmp/pytorch-pipline-0.0.8.tar.gz]
+[2023-06-15 09:32:33] INFO root fetch - processPackages [pytorch-pipline]: Remove: archive file [/home/abi/fetcher/tmp/pytorch-pipline-0.0.9.tar.gz]
+[2023-06-15 09:32:33] INFO root fetch - main [MainThread]: End processing [pytorch-pipline]: success
+[2023-06-15 09:32:33] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: Remove: archive file [/home/abi/fetcher/tmp/th2_grpc_lw_data_provider-2.0.0.dev5276005409.tar.gz]
+[2023-06-15 09:32:33] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: Remove: archive file [/home/abi/fetcher/tmp/th2_grpc_lw_data_provider-2.1.0.dev3871883101.tar.gz]
+[2023-06-15 09:32:33] INFO root fetch - main [MainThread]: End processing [th2-grpc-lw-data-provider]: success
+[2023-06-15 09:32:33] INFO root fetch - processPackages [absfuyu]: Remove: archive file [/home/abi/fetcher/tmp/absfuyu-2.0.0.tar.gz]
+[2023-06-15 09:32:33] INFO root fetch - processPackages [absfuyu]: Remove: archive file [/home/abi/fetcher/tmp/absfuyu-2.1.0.tar.gz]
+[2023-06-15 09:32:33] INFO root fetch - main [MainThread]: End processing [absfuyu]: success
+[2023-06-15 09:32:33] INFO root fetch - processPackages [netbox-cisco-maintenance]: Remove: archive file [/home/abi/fetcher/tmp/netbox-cisco-maintenance-0.0.98.tar.gz]
+[2023-06-15 09:32:33] INFO root fetch - processPackages [netbox-cisco-maintenance]: Remove: archive file [/home/abi/fetcher/tmp/netbox-cisco-maintenance-0.0.99.tar.gz]
+[2023-06-15 09:32:33] INFO root fetch - main [MainThread]: End processing [netbox-cisco-maintenance]: success
+[2023-06-15 09:32:33] INFO root fetch - main [MainThread]: End processing [netbox-cisco-maintenance]: success
+[2023-06-15 09:32:33] INFO root fetch - processPackages [gaohn-common-utils]: Remove: archive file [/home/abi/fetcher/tmp/gaohn-common-utils-0.0.59.tar.gz]
+[2023-06-15 09:32:33] INFO root fetch - processPackages [gaohn-common-utils]: Remove: archive file [/home/abi/fetcher/tmp/gaohn-common-utils-0.0.60.tar.gz]
+[2023-06-15 09:32:33] INFO root fetch - main [MainThread]: End processing [gaohn-common-utils]: success
+[2023-06-15 09:32:34] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-terraform-state-backend-0.1.98.tar.gz]
+[2023-06-15 09:32:34] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-terraform-state-backend-0.1.99.tar.gz]
+[2023-06-15 09:32:34] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-terraform-state-backend]: success
+[2023-06-15 09:32:34] INFO root fetch - main [MainThread]: Store serial: [18512347]
