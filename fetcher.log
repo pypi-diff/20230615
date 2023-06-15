@@ -6117,3 +6117,154 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-15 03:41:23] INFO root fetch - processPackages [bioregistry]: Remove: archive file [/home/abi/fetcher/tmp/bioregistry-0.9.9.tar.gz]
 [2023-06-15 03:41:23] INFO root fetch - main [MainThread]: End processing [bioregistry]: success
 [2023-06-15 03:41:23] INFO root fetch - main [MainThread]: Store serial: [18509742]
+[2023-06-15 03:46:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18509742]
+[2023-06-15 03:46:35] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-06-15 03:46:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: knifes
+[2023-06-15 03:46:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nbdev-scipy
+[2023-06-15 03:46:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nbdev-sphinx
+[2023-06-15 03:46:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ovos-workshop
+[2023-06-15 03:46:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: proactive
+[2023-06-15 03:46:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: xw-utils
+[2023-06-15 03:46:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pepperize.cdk-organizations
+[2023-06-15 03:46:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nbdev-django
+[2023-06-15 03:46:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: proactive-jupyter-kernel
+[2023-06-15 03:46:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pymino
+[2023-06-15 03:46:35] INFO root fetch - processPackages [knifes]: New version: [0.8.9] Old Version: [0.8.8]
+[2023-06-15 03:46:35] INFO root fetch - processPackages [ovos-workshop]: New version: [0.0.9a1] Old Version: [0.0.9]
+[2023-06-15 03:46:35] INFO root fetch - processPackages [pymino]: New version: [1.1.9.5] Old Version: [1.1.9.4]
+[2023-06-15 03:46:35] INFO root fetch - processPackages [nbdev-sphinx]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-15 03:46:35] INFO root fetch - processPackages [xw-utils]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-15 03:46:35] INFO root fetch - processPackages [proactive-jupyter-kernel]: New version: [13.1.1.2212191832.dev0] Old Version: [13.1.1.2212191149.dev0]
+[2023-06-15 03:46:35] INFO root fetch - processPackages [nbdev-scipy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-15 03:46:35] INFO root fetch - processPackages [ovos-workshop]: Downloading https://files.pythonhosted.org/packages/b6/ab/62ae7616b83875d5219bb580c1e6a2ff0fdbdc91c8a9b55495dd60066611/ovos_workshop-0.0.9-py3-none-any.whl
+[2023-06-15 03:46:35] INFO root fetch - processPackages [nbdev-django]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-15 03:46:35] INFO root fetch - processPackages [proactive-jupyter-kernel]: Downloading https://files.pythonhosted.org/packages/2f/bc/886004d2f6edca874f61f16aaba9985e6b38f5c62e3a9638165dad1ae89e/proactive-jupyter-kernel-13.1.1.2212191149.dev0.zip
+[2023-06-15 03:46:35] INFO root fetch - processPackages [proactive]: New version: [8.4.11] Old Version: [8.4.10]
+[2023-06-15 03:46:35] INFO root fetch - processPackages [pepperize.cdk-organizations]: New version: [0.7.99] Old Version: [0.7.98]
+[2023-06-15 03:46:35] INFO root fetch - processPackages [proactive]: Downloading https://files.pythonhosted.org/packages/36/67/8f2441cbc911f3a57a2168b0e419b0751450a04c18791e6ba642af1085d8/proactive-8.4.10.zip
+[2023-06-15 03:46:35] INFO root fetch - processPackages [nbdev-django]: Downloading https://files.pythonhosted.org/packages/2b/95/9e261b8f3e5f931da5a2f9ddc475954265376d1d468b6f3877f38ad482c3/nbdev-django-0.0.98.tar.gz
+[2023-06-15 03:46:35] INFO root fetch - processPackages [pepperize.cdk-organizations]: Downloading https://files.pythonhosted.org/packages/c4/ec/fa2c14031b7b9ce22e4b044c652dd13a1a81769141fcd90e55c9eeb24d66/pepperize.cdk-organizations-0.7.98.tar.gz
+[2023-06-15 03:46:35] INFO root fetch - processPackages [knifes]: Downloading https://files.pythonhosted.org/packages/47/dc/9b70eaa9ada5c17c527442c7f6913d9f419b00084ca98bf313a61f6ebb19/knifes-0.8.8.tar.gz
+[2023-06-15 03:46:35] INFO root fetch - processPackages [nbdev-scipy]: Downloading https://files.pythonhosted.org/packages/94/a7/9596b1506d5fc0b0ceb265f8bbd5e0919fc146eb6df0916b4e546e9f074f/nbdev-scipy-0.0.98.tar.gz
+[2023-06-15 03:46:35] INFO root fetch - processPackages [ovos-workshop]: Downloading https://files.pythonhosted.org/packages/78/03/4b813a66c30f57b7c996eda91cf259cb974ad9186f3ae1762c9384e34fc7/ovos_workshop-0.0.9a1-py3-none-any.whl
+[2023-06-15 03:46:35] INFO root fetch - processPackages [pymino]: Downloading https://files.pythonhosted.org/packages/bf/51/8d9ee34d35f692f023b20dcb286c71dcfb9db2d04d89805167af52224b3b/pymino-1.1.9.4.tar.gz
+[2023-06-15 03:46:35] INFO root fetch - processPackages [nbdev-sphinx]: Downloading https://files.pythonhosted.org/packages/50/26/1673892b3686c404af92c390906ab3bac81806c424381e82dedac6477190/nbdev-sphinx-0.0.98.tar.gz
+[2023-06-15 03:46:35] INFO root fetch - processPackages [proactive-jupyter-kernel]: Downloading https://files.pythonhosted.org/packages/b1/93/020f781eacfc72831423f0159f4e4e5afdb02a21db391853b68ce7631de6/proactive-jupyter-kernel-13.1.1.2212191832.dev0.zip
+[2023-06-15 03:46:35] INFO root fetch - processPackages [xw-utils]: Downloading https://files.pythonhosted.org/packages/dc/1a/2d247adaa50a2a75132b1cd25cb5a1ad15d734a7f0c3861ea12f42bd85d2/xw_utils-1.0.8-cp39-cp39-win_amd64.whl
+[2023-06-15 03:46:35] INFO root fetch - processPackages [ovos-workshop]: executing diffoscope
+[2023-06-15 03:46:35] INFO root fetch - processPackages [ovos-workshop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovos_workshop-0.0.9-py3-none-any.whl.zip tmp/ovos_workshop-0.0.9a1-py3-none-any.whl.zip --markdown 20230615/o/ovos-workshop/0.0.9-0.0.9a1/diff.md --exclude *.pyd
+[2023-06-15 03:46:35] WARNING root fetch - processPackages [proactive]: Skipping package: exceeds size limit 18979361>=10485760
+[2023-06-15 03:46:35] INFO root fetch - processPackages [proactive]: Start processing: pz-rail-hub
+[2023-06-15 03:46:35] INFO root fetch - main [MainThread]: End processing [proactive] error
+[2023-06-15 03:46:35] INFO root fetch - processPackages [proactive-jupyter-kernel]: executing diffoscope
+[2023-06-15 03:46:35] INFO root fetch - processPackages [proactive-jupyter-kernel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proactive-jupyter-kernel-13.1.1.2212191149.dev0.zip tmp/proactive-jupyter-kernel-13.1.1.2212191832.dev0.zip --markdown 20230615/p/proactive-jupyter-kernel/13.1.1.2212191149.dev0-13.1.1.2212191832.dev0/diff.md --exclude *.pyd
+[2023-06-15 03:46:35] INFO root fetch - processPackages [pz-rail-hub]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-15 03:46:35] INFO root fetch - processPackages [nbdev-django]: Downloading https://files.pythonhosted.org/packages/f2/7a/5214014e1426324d1fea2f984c9b5480e467e5eddefe61721e8f4d1c025e/nbdev-django-0.0.99.tar.gz
+[2023-06-15 03:46:35] INFO root fetch - processPackages [pepperize.cdk-organizations]: Downloading https://files.pythonhosted.org/packages/12/45/1106cc30844f7f4d96f7898a6ef3647d24a597c297bab995920a5915750e/pepperize.cdk-organizations-0.7.99.tar.gz
+[2023-06-15 03:46:35] INFO root fetch - processPackages [knifes]: Downloading https://files.pythonhosted.org/packages/e7/be/f84349fc65ba6f31df45d2dfb2d03897b26e1c0962d5927c173699f6b248/knifes-0.8.9.tar.gz
+[2023-06-15 03:46:35] INFO root fetch - processPackages [nbdev-django]: executing diffoscope
+[2023-06-15 03:46:35] INFO root fetch - processPackages [nbdev-django]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-django-0.0.98.tar.gz tmp/nbdev-django-0.0.99.tar.gz --markdown 20230615/n/nbdev-django/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-15 03:46:35] INFO root fetch - processPackages [pepperize.cdk-organizations]: executing diffoscope
+[2023-06-15 03:46:35] INFO root fetch - processPackages [pepperize.cdk-organizations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-organizations-0.7.98.tar.gz tmp/pepperize.cdk-organizations-0.7.99.tar.gz --markdown 20230615/p/pepperize.cdk-organizations/0.7.98-0.7.99/diff.md --exclude *.pyd
+[2023-06-15 03:46:35] INFO root fetch - processPackages [pymino]: Downloading https://files.pythonhosted.org/packages/af/5b/3a62fc02c7c85e202131f88ca029ff97ecc8f7ae2c8d0800f2d25441989e/pymino-1.1.9.5.tar.gz
+[2023-06-15 03:46:35] INFO root fetch - processPackages [knifes]: executing diffoscope
+[2023-06-15 03:46:35] INFO root fetch - processPackages [knifes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/knifes-0.8.8.tar.gz tmp/knifes-0.8.9.tar.gz --markdown 20230615/k/knifes/0.8.8-0.8.9/diff.md --exclude *.pyd
+[2023-06-15 03:46:35] INFO root fetch - processPackages [nbdev-scipy]: Downloading https://files.pythonhosted.org/packages/d4/25/482f9160692bdd2d374401b19f8b4700ae91c179761991cee076e37aae0d/nbdev-scipy-0.0.99.tar.gz
+[2023-06-15 03:46:35] INFO root fetch - processPackages [nbdev-sphinx]: Downloading https://files.pythonhosted.org/packages/55/5e/ba946430b849ba8f51f4047dad2bb2417fbc794da9bb8301308347bb6207/nbdev-sphinx-0.0.99.tar.gz
+[2023-06-15 03:46:35] INFO root fetch - processPackages [pymino]: executing diffoscope
+[2023-06-15 03:46:35] INFO root fetch - processPackages [pymino]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymino-1.1.9.4.tar.gz tmp/pymino-1.1.9.5.tar.gz --markdown 20230615/p/pymino/1.1.9.4-1.1.9.5/diff.md --exclude *.pyd
+[2023-06-15 03:46:36] INFO root fetch - processPackages [nbdev-sphinx]: executing diffoscope
+[2023-06-15 03:46:36] INFO root fetch - processPackages [nbdev-sphinx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-sphinx-0.0.98.tar.gz tmp/nbdev-sphinx-0.0.99.tar.gz --markdown 20230615/n/nbdev-sphinx/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-15 03:46:36] INFO root fetch - processPackages [pz-rail-hub]: Downloading https://files.pythonhosted.org/packages/66/4e/20cbcec37f780ce532eaba2bfbc5da02f3248d438381544c640c5d3765ee/pz-rail-hub-0.1.0.tar.gz
+[2023-06-15 03:46:36] INFO root fetch - processPackages [xw-utils]: Downloading https://files.pythonhosted.org/packages/83/1f/866660569301b9d9d645f2b7de1eb5dfbeb24c1e5a749d7e4b2cd36dcdc6/xw_utils-1.0.9-cp39-cp39-win_amd64.whl
+[2023-06-15 03:46:36] INFO root fetch - processPackages [nbdev-scipy]: executing diffoscope
+[2023-06-15 03:46:36] INFO root fetch - processPackages [nbdev-scipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-scipy-0.0.98.tar.gz tmp/nbdev-scipy-0.0.99.tar.gz --markdown 20230615/n/nbdev-scipy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-15 03:46:36] INFO root fetch - processPackages [xw-utils]: executing diffoscope
+[2023-06-15 03:46:36] INFO root fetch - processPackages [xw-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xw_utils-1.0.8-cp39-cp39-win_amd64.whl.zip tmp/xw_utils-1.0.9-cp39-cp39-win_amd64.whl.zip --markdown 20230615/x/xw-utils/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-15 03:46:36] INFO root fetch - processPackages [pz-rail-hub]: Downloading https://files.pythonhosted.org/packages/d3/af/b1ee93d31755155c9da28d362b4650943f35289bae880e0e23ea07e2805c/pz-rail-hub-0.1.1.tar.gz
+[2023-06-15 03:46:36] INFO root fetch - processPackages [pz-rail-hub]: executing diffoscope
+[2023-06-15 03:46:36] INFO root fetch - processPackages [pz-rail-hub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pz-rail-hub-0.1.0.tar.gz tmp/pz-rail-hub-0.1.1.tar.gz --markdown 20230615/p/pz-rail-hub/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-15 03:46:37] INFO root fetch - processPackages [ovos-workshop]: Remove: archive file [/home/abi/fetcher/tmp/ovos_workshop-0.0.9-py3-none-any.whl.zip]
+[2023-06-15 03:46:37] INFO root fetch - processPackages [ovos-workshop]: Remove: archive file [/home/abi/fetcher/tmp/ovos_workshop-0.0.9a1-py3-none-any.whl.zip]
+[2023-06-15 03:46:37] INFO root fetch - processPackages [ovos-workshop]: Start processing: cdk-wordpress
+[2023-06-15 03:46:37] INFO root fetch - main [MainThread]: End processing [ovos-workshop]: success
+[2023-06-15 03:46:37] INFO root fetch - processPackages [cdk-wordpress]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-15 03:46:37] INFO root fetch - processPackages [cdk-wordpress]: Downloading https://files.pythonhosted.org/packages/95/5a/46730445b7c8db7cad33c0b319cbd75004ba42b6cbe2f00628d2191c5516/cdk-wordpress-0.0.98.tar.gz
+[2023-06-15 03:46:37] INFO root fetch - processPackages [proactive-jupyter-kernel]: Remove: archive file [/home/abi/fetcher/tmp/proactive-jupyter-kernel-13.1.1.2212191149.dev0.zip]
+[2023-06-15 03:46:37] INFO root fetch - processPackages [proactive-jupyter-kernel]: Remove: archive file [/home/abi/fetcher/tmp/proactive-jupyter-kernel-13.1.1.2212191832.dev0.zip]
+[2023-06-15 03:46:37] INFO root fetch - processPackages [proactive-jupyter-kernel]: Start processing: nbdev-apl
+[2023-06-15 03:46:37] INFO root fetch - main [MainThread]: End processing [proactive-jupyter-kernel]: success
+[2023-06-15 03:46:37] INFO root fetch - processPackages [nbdev-apl]: New version: [0.0.835] Old Version: [0.0.834]
+[2023-06-15 03:46:37] INFO root fetch - processPackages [xw-utils]: Remove: archive file [/home/abi/fetcher/tmp/xw_utils-1.0.8-cp39-cp39-win_amd64.whl.zip]
+[2023-06-15 03:46:37] INFO root fetch - processPackages [xw-utils]: Remove: archive file [/home/abi/fetcher/tmp/xw_utils-1.0.9-cp39-cp39-win_amd64.whl.zip]
+[2023-06-15 03:46:37] INFO root fetch - processPackages [xw-utils]: Start processing: je-mail-thunder-dev
+[2023-06-15 03:46:37] INFO root fetch - main [MainThread]: End processing [xw-utils]: success
+[2023-06-15 03:46:37] INFO root fetch - processPackages [knifes]: Remove: archive file [/home/abi/fetcher/tmp/knifes-0.8.8.tar.gz]
+[2023-06-15 03:46:37] INFO root fetch - processPackages [knifes]: Remove: archive file [/home/abi/fetcher/tmp/knifes-0.8.9.tar.gz]
+[2023-06-15 03:46:37] INFO root fetch - processPackages [knifes]: Start processing: marvin
+[2023-06-15 03:46:37] INFO root fetch - main [MainThread]: End processing [knifes]: success
+[2023-06-15 03:46:37] INFO root fetch - processPackages [je-mail-thunder-dev]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-15 03:46:37] INFO root fetch - processPackages [cdk-wordpress]: Downloading https://files.pythonhosted.org/packages/f5/33/8bc435266e926cea52eb7df452e54c2c0657beef07580a86eae44236d88b/cdk-wordpress-0.0.99.tar.gz
+[2023-06-15 03:46:37] INFO root fetch - processPackages [nbdev-sphinx]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-sphinx-0.0.98.tar.gz]
+[2023-06-15 03:46:37] INFO root fetch - processPackages [nbdev-sphinx]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-sphinx-0.0.99.tar.gz]
+[2023-06-15 03:46:37] INFO root fetch - processPackages [nbdev-sphinx]: Start processing: bk-YOLOV5
+[2023-06-15 03:46:37] INFO root fetch - main [MainThread]: End processing [nbdev-sphinx]: success
+[2023-06-15 03:46:37] INFO root fetch - processPackages [cdk-wordpress]: executing diffoscope
+[2023-06-15 03:46:37] INFO root fetch - processPackages [cdk-wordpress]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-wordpress-0.0.98.tar.gz tmp/cdk-wordpress-0.0.99.tar.gz --markdown 20230615/c/cdk-wordpress/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-15 03:46:37] INFO root fetch - processPackages [je-mail-thunder-dev]: Downloading https://files.pythonhosted.org/packages/d9/2d/666cfbe7457d16fd8f9c298e28fd54c3ff6c7a5cb10d6ebd6397b2764c96/je_mail_thunder_dev-0.0.8.tar.gz
+[2023-06-15 03:46:37] INFO root fetch - processPackages [nbdev-scipy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-scipy-0.0.98.tar.gz]
+[2023-06-15 03:46:37] INFO root fetch - processPackages [nbdev-scipy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-scipy-0.0.99.tar.gz]
+[2023-06-15 03:46:37] INFO root fetch - processPackages [nbdev-scipy]: Start processing: pyBibX
+[2023-06-15 03:46:37] INFO root fetch - main [MainThread]: End processing [nbdev-scipy]: success
+[2023-06-15 03:46:37] INFO root fetch - processPackages [marvin]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-06-15 03:46:37] INFO root fetch - processPackages [nbdev-apl]: Downloading https://files.pythonhosted.org/packages/78/92/a2d138ab329008aa08a34260c7e0a5fc4174c11ed55f80a9bf4f16787ed9/nbdev-apl-0.0.834.tar.gz
+[2023-06-15 03:46:37] INFO root fetch - processPackages [pymino]: Remove: archive file [/home/abi/fetcher/tmp/pymino-1.1.9.4.tar.gz]
+[2023-06-15 03:46:37] INFO root fetch - processPackages [pymino]: Remove: archive file [/home/abi/fetcher/tmp/pymino-1.1.9.5.tar.gz]
+[2023-06-15 03:46:37] INFO root fetch - processPackages [pymino]: Start processing: Priority1py
+[2023-06-15 03:46:37] INFO root fetch - main [MainThread]: End processing [pymino]: success
+[2023-06-15 03:46:37] WARNING root fetch - processPackages [bk-YOLOV5]: Skipping, unable to determine old version
+[2023-06-15 03:46:37] INFO root fetch - main [MainThread]: End processing [bk-YOLOV5] error
+[2023-06-15 03:46:37] INFO root fetch - processPackages [pyBibX]: New version: [3.0.2] Old Version: [2.9.9]
+[2023-06-15 03:46:37] INFO root fetch - processPackages [Priority1py]: New version: [0.1.5b0] Old Version: [0.1.4b0]
+[2023-06-15 03:46:37] INFO root fetch - processPackages [Priority1py]: Downloading https://files.pythonhosted.org/packages/f5/7e/6b11e9a54c01643f91cf2ab7463001757bd60fa60fa38e893b0a7e484cc8/Priority1py-0.1.4-beta.tar.gz
+[2023-06-15 03:46:37] INFO root fetch - processPackages [je-mail-thunder-dev]: Downloading https://files.pythonhosted.org/packages/50/83/96de4dcb88c3fe1000dbe2a57639ee261684eff5193860f20204d5850501/je_mail_thunder_dev-0.0.9.tar.gz
+[2023-06-15 03:46:37] INFO root fetch - processPackages [marvin]: Downloading https://files.pythonhosted.org/packages/02/03/7df3ab9fc3112efb2e7d762c173d8321d0094dad0ad150ce83000bc16ca5/marvin-0.9.1.tar.gz
+[2023-06-15 03:46:37] INFO root fetch - processPackages [Priority1py]: Downloading https://files.pythonhosted.org/packages/e2/89/525567c6902784da473d50ca8d7d32888c74a1738c8bde9878c88824c43e/Priority1py-0.1.5-beta.tar.gz
+[2023-06-15 03:46:37] INFO root fetch - processPackages [nbdev-django]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-django-0.0.98.tar.gz]
+[2023-06-15 03:46:37] INFO root fetch - processPackages [nbdev-django]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-django-0.0.99.tar.gz]
+[2023-06-15 03:46:37] INFO root fetch - main [MainThread]: End processing [nbdev-django]: success
+[2023-06-15 03:46:37] INFO root fetch - processPackages [nbdev-apl]: Downloading https://files.pythonhosted.org/packages/bb/0c/d867c724e42cbc8a5c4faf38619f1c0ea66d2e18b14e92ebe8227ae0a5f0/nbdev-apl-0.0.835.tar.gz
+[2023-06-15 03:46:37] WARNING root fetch - processPackages [marvin]: Skipping package: exceeds size limit 16870914>=10485760
+[2023-06-15 03:46:37] INFO root fetch - main [MainThread]: End processing [marvin] error
+[2023-06-15 03:46:38] INFO root fetch - processPackages [Priority1py]: executing diffoscope
+[2023-06-15 03:46:38] INFO root fetch - processPackages [Priority1py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Priority1py-0.1.4-beta.tar.gz tmp/Priority1py-0.1.5-beta.tar.gz --markdown 20230615/P/Priority1py/0.1.4b0-0.1.5b0/diff.md --exclude *.pyd
+[2023-06-15 03:46:38] INFO root fetch - processPackages [pyBibX]: Downloading https://files.pythonhosted.org/packages/50/5d/62a060901743721cc3f48f5602ecd3d43d856532eeaa9d5655e4abdacd55/pyBibX-2.9.9.tar.gz
+[2023-06-15 03:46:38] INFO root fetch - processPackages [pz-rail-hub]: Remove: archive file [/home/abi/fetcher/tmp/pz-rail-hub-0.1.0.tar.gz]
+[2023-06-15 03:46:38] INFO root fetch - processPackages [je-mail-thunder-dev]: executing diffoscope
+[2023-06-15 03:46:38] INFO root fetch - processPackages [je-mail-thunder-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/je_mail_thunder_dev-0.0.8.tar.gz tmp/je_mail_thunder_dev-0.0.9.tar.gz --markdown 20230615/j/je-mail-thunder-dev/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-15 03:46:38] INFO root fetch - processPackages [pz-rail-hub]: Remove: archive file [/home/abi/fetcher/tmp/pz-rail-hub-0.1.1.tar.gz]
+[2023-06-15 03:46:38] INFO root fetch - main [MainThread]: End processing [pz-rail-hub]: success
+[2023-06-15 03:46:38] INFO root fetch - processPackages [nbdev-apl]: executing diffoscope
+[2023-06-15 03:46:38] INFO root fetch - processPackages [nbdev-apl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-apl-0.0.834.tar.gz tmp/nbdev-apl-0.0.835.tar.gz --markdown 20230615/n/nbdev-apl/0.0.834-0.0.835/diff.md --exclude *.pyd
+[2023-06-15 03:46:38] INFO root fetch - processPackages [pyBibX]: Downloading https://files.pythonhosted.org/packages/b4/5b/923ad6c1644f0c9e76a1e4a8793d4c996f9d504c96127b977e8b3c957c5d/pyBibX-3.0.2.tar.gz
+[2023-06-15 03:46:38] INFO root fetch - processPackages [pyBibX]: executing diffoscope
+[2023-06-15 03:46:38] INFO root fetch - processPackages [pyBibX]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyBibX-2.9.9.tar.gz tmp/pyBibX-3.0.2.tar.gz --markdown 20230615/p/pyBibX/2.9.9-3.0.2/diff.md --exclude *.pyd
+[2023-06-15 03:46:38] INFO root fetch - processPackages [cdk-wordpress]: Remove: archive file [/home/abi/fetcher/tmp/cdk-wordpress-0.0.98.tar.gz]
+[2023-06-15 03:46:38] INFO root fetch - processPackages [cdk-wordpress]: Remove: archive file [/home/abi/fetcher/tmp/cdk-wordpress-0.0.99.tar.gz]
+[2023-06-15 03:46:38] INFO root fetch - main [MainThread]: End processing [cdk-wordpress]: success
+[2023-06-15 03:46:38] INFO root fetch - processPackages [pepperize.cdk-organizations]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-organizations-0.7.98.tar.gz]
+[2023-06-15 03:46:38] INFO root fetch - processPackages [pepperize.cdk-organizations]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-organizations-0.7.99.tar.gz]
+[2023-06-15 03:46:38] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-organizations]: success
+[2023-06-15 03:46:38] INFO root fetch - processPackages [Priority1py]: Remove: archive file [/home/abi/fetcher/tmp/Priority1py-0.1.4-beta.tar.gz]
+[2023-06-15 03:46:38] INFO root fetch - processPackages [Priority1py]: Remove: archive file [/home/abi/fetcher/tmp/Priority1py-0.1.5-beta.tar.gz]
+[2023-06-15 03:46:38] INFO root fetch - main [MainThread]: End processing [Priority1py]: success
+[2023-06-15 03:46:39] INFO root fetch - processPackages [je-mail-thunder-dev]: Remove: archive file [/home/abi/fetcher/tmp/je_mail_thunder_dev-0.0.8.tar.gz]
+[2023-06-15 03:46:39] INFO root fetch - processPackages [je-mail-thunder-dev]: Remove: archive file [/home/abi/fetcher/tmp/je_mail_thunder_dev-0.0.9.tar.gz]
+[2023-06-15 03:46:39] INFO root fetch - main [MainThread]: End processing [je-mail-thunder-dev]: success
+[2023-06-15 03:46:39] INFO root fetch - processPackages [nbdev-apl]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-apl-0.0.834.tar.gz]
+[2023-06-15 03:46:39] INFO root fetch - processPackages [nbdev-apl]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-apl-0.0.835.tar.gz]
+[2023-06-15 03:46:39] INFO root fetch - main [MainThread]: End processing [nbdev-apl]: success
+[2023-06-15 03:46:39] INFO root fetch - processPackages [pyBibX]: Remove: archive file [/home/abi/fetcher/tmp/pyBibX-2.9.9.tar.gz]
+[2023-06-15 03:46:39] INFO root fetch - processPackages [pyBibX]: Remove: archive file [/home/abi/fetcher/tmp/pyBibX-3.0.2.tar.gz]
+[2023-06-15 03:46:39] INFO root fetch - main [MainThread]: End processing [pyBibX]: success
+[2023-06-15 03:46:39] INFO root fetch - main [MainThread]: Store serial: [18509840]
