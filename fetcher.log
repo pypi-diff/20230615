@@ -6381,3 +6381,27 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-15 03:57:01] INFO root fetch - processPackages [enderchest]: Remove: archive file [/home/abi/fetcher/tmp/enderchest-0.1.2.tar.gz]
 [2023-06-15 03:57:01] INFO root fetch - main [MainThread]: End processing [enderchest]: success
 [2023-06-15 03:57:01] INFO root fetch - main [MainThread]: Store serial: [18509889]
+[2023-06-15 04:02:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18509889]
+[2023-06-15 04:02:10] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-06-15 04:02:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: draggan
+[2023-06-15 04:02:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fovus
+[2023-06-15 04:02:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gitmopy
+[2023-06-15 04:02:10] INFO root fetch - processPackages [fovus]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-06-15 04:02:10] WARNING root fetch - processPackages [gitmopy]: Skipping, unable to determine old version
+[2023-06-15 04:02:10] INFO root fetch - processPackages [draggan]: New version: [1.1.0b2] Old Version: [1.1.0b1]
+[2023-06-15 04:02:10] INFO root fetch - main [MainThread]: End processing [gitmopy] error
+[2023-06-15 04:02:10] INFO root fetch - processPackages [fovus]: Downloading https://files.pythonhosted.org/packages/01/12/915d3cb0574fb308e2e13baadb388e39532edd983b5769b466e521d6aec0/fovus-1.0.5-py3-none-any.whl
+[2023-06-15 04:02:10] INFO root fetch - processPackages [draggan]: Downloading https://files.pythonhosted.org/packages/43/3c/1ba0b6e2b19bbc8a0f8d620dc6ee5e107afabfbb98a37ed01a1b066cdbf9/draggan-1.1.0b1.tar.gz
+[2023-06-15 04:02:10] INFO root fetch - processPackages [fovus]: Downloading https://files.pythonhosted.org/packages/4f/ea/d09f88586007903cec70f5ea761fc1c47d7acf42571ecb5b1ca57e0ae0f2/fovus-1.0.6-py3-none-any.whl
+[2023-06-15 04:02:10] INFO root fetch - processPackages [draggan]: Downloading https://files.pythonhosted.org/packages/1f/96/e761bf136401e808d96734731474757f3e53f72133b041e00a36a4c7a56c/draggan-1.1.0b2.tar.gz
+[2023-06-15 04:02:10] INFO root fetch - processPackages [fovus]: executing diffoscope
+[2023-06-15 04:02:10] INFO root fetch - processPackages [fovus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fovus-1.0.5-py3-none-any.whl.zip tmp/fovus-1.0.6-py3-none-any.whl.zip --markdown 20230615/f/fovus/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-06-15 04:02:11] INFO root fetch - processPackages [draggan]: executing diffoscope
+[2023-06-15 04:02:11] INFO root fetch - processPackages [draggan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/draggan-1.1.0b1.tar.gz tmp/draggan-1.1.0b2.tar.gz --markdown 20230615/d/draggan/1.1.0b1-1.1.0b2/diff.md --exclude *.pyd
+[2023-06-15 04:02:12] INFO root fetch - processPackages [draggan]: Remove: archive file [/home/abi/fetcher/tmp/draggan-1.1.0b1.tar.gz]
+[2023-06-15 04:02:12] INFO root fetch - processPackages [draggan]: Remove: archive file [/home/abi/fetcher/tmp/draggan-1.1.0b2.tar.gz]
+[2023-06-15 04:02:12] INFO root fetch - main [MainThread]: End processing [draggan]: success
+[2023-06-15 04:02:12] INFO root fetch - processPackages [fovus]: Remove: archive file [/home/abi/fetcher/tmp/fovus-1.0.5-py3-none-any.whl.zip]
+[2023-06-15 04:02:12] INFO root fetch - processPackages [fovus]: Remove: archive file [/home/abi/fetcher/tmp/fovus-1.0.6-py3-none-any.whl.zip]
+[2023-06-15 04:02:12] INFO root fetch - main [MainThread]: End processing [fovus]: success
+[2023-06-15 04:02:12] INFO root fetch - main [MainThread]: Store serial: [18509898]
