@@ -14158,3 +14158,224 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-06-15 10:05:56] INFO root fetch - processPackages [EzGM]: Remove: archive file [/home/abi/fetcher/tmp/EzGM-1.6.6.3.tar.gz]
 [2023-06-15 10:05:56] INFO root fetch - main [MainThread]: End processing [EzGM]: success
 [2023-06-15 10:05:56] INFO root fetch - main [MainThread]: Store serial: [18512769]
+[2023-06-15 10:11:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18512769]
+[2023-06-15 10:11:05] INFO root fetch - main [MainThread]: Found 26 changed packages
+[2023-06-15 10:11:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-backoffice-dashboard
+[2023-06-15 10:11:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hello2
+[2023-06-15 10:11:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: genomenotebook
+[2023-06-15 10:11:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyglove
+[2023-06-15 10:11:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mage-ai
+[2023-06-15 10:11:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: checkov
+[2023-06-15 10:11:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: filesystem-dict
+[2023-06-15 10:11:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: django-backoffice-dashboard-aplha
+[2023-06-15 10:11:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bmsdna-lakeapi
+[2023-06-15 10:11:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: hugegraph-python
+[2023-06-15 10:11:05] WARNING root fetch - processPackages [django-backoffice-dashboard]: Skipping, unable to determine old version
+[2023-06-15 10:11:05] INFO root fetch - processPackages [django-backoffice-dashboard]: Start processing: balanna
+[2023-06-15 10:11:05] INFO root fetch - main [MainThread]: End processing [django-backoffice-dashboard] error
+[2023-06-15 10:11:05] WARNING root fetch - processPackages [django-backoffice-dashboard-aplha]: Skipping, unable to determine old version
+[2023-06-15 10:11:05] INFO root fetch - processPackages [django-backoffice-dashboard-aplha]: Start processing: lucidtech-las
+[2023-06-15 10:11:05] INFO root fetch - main [MainThread]: End processing [django-backoffice-dashboard-aplha] error
+[2023-06-15 10:11:05] INFO root fetch - processPackages [filesystem-dict]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-15 10:11:05] INFO root fetch - processPackages [hugegraph-python]: New version: [1.0.0.6] Old Version: [1.0.0.5]
+[2023-06-15 10:11:05] INFO root fetch - processPackages [genomenotebook]: New version: [0.8.8] Old Version: [0.8.7]
+[2023-06-15 10:11:05] INFO root fetch - processPackages [bmsdna-lakeapi]: New version: [0.8.4] Old Version: [0.8.3]
+[2023-06-15 10:11:05] INFO root fetch - processPackages [hello2]: New version: [1.9.7] Old Version: [1.9.6]
+[2023-06-15 10:11:05] INFO root fetch - processPackages [balanna]: New version: [1.3.0] Old Version: [1.2.1]
+[2023-06-15 10:11:05] INFO root fetch - processPackages [mage-ai]: New version: [0.8.95] Old Version: [0.8.94]
+[2023-06-15 10:11:05] INFO root fetch - processPackages [pyglove]: New version: [0.3.1.dev20230615] Old Version: [0.3.1.dev20230614]
+[2023-06-15 10:11:05] INFO root fetch - processPackages [lucidtech-las]: New version: [9.0.0] Old Version: [8.9.0]
+[2023-06-15 10:11:05] INFO root fetch - processPackages [checkov]: New version: [2.3.99] Old Version: [2.3.98]
+[2023-06-15 10:11:05] INFO root fetch - processPackages [mage-ai]: Downloading https://files.pythonhosted.org/packages/e3/2d/3cc5c4918a7bde3e4ebd37720b8b72aed5e70f871f8f4804424ba17a8a32/mage-ai-0.8.94.tar.gz
+[2023-06-15 10:11:05] INFO root fetch - processPackages [pyglove]: Downloading https://files.pythonhosted.org/packages/6b/b9/66696bafd2313fafb789c60271344261ac3c033271643b61d3e30a7ff223/pyglove-0.3.1.dev20230614.tar.gz
+[2023-06-15 10:11:05] INFO root fetch - processPackages [checkov]: Downloading https://files.pythonhosted.org/packages/8f/c0/b3713d4cbc03ff63d42af6bc96060bf07ac510f578af21d0beb23a58ebd5/checkov-2.3.98.tar.gz
+[2023-06-15 10:11:05] INFO root fetch - processPackages [filesystem-dict]: Downloading https://files.pythonhosted.org/packages/53/ed/172d50632e41fafbbc12e2e62416bc38b307155bb006d26e7b9c8be68dfc/filesystem-dict-0.1.8.tar.gz
+[2023-06-15 10:11:05] INFO root fetch - processPackages [genomenotebook]: Downloading https://files.pythonhosted.org/packages/26/15/aa884ad3022386201c899b632fe877a14fa5cb9657b22bc88bbea82f96fb/genomenotebook-0.8.7.tar.gz
+[2023-06-15 10:11:05] INFO root fetch - processPackages [hello2]: Downloading https://files.pythonhosted.org/packages/b0/a2/79ecdca91faf8035e2b15cfb8f5507656fb565fc2b0b9f3904c60446513f/hello2-1.9.6.tar.gz
+[2023-06-15 10:11:05] INFO root fetch - processPackages [bmsdna-lakeapi]: Downloading https://files.pythonhosted.org/packages/62/da/dff39dbee7ffe605f2c6dfdec726938533810a365631db1d56a9bdfa75ae/bmsdna_lakeapi-0.8.3.tar.gz
+[2023-06-15 10:11:05] INFO root fetch - processPackages [balanna]: Downloading https://files.pythonhosted.org/packages/2a/ef/64faeb97e617545615426caf2e12a5611c29d7fbebe1a86b4baa97a226ef/balanna-1.2.1.tar.gz
+[2023-06-15 10:11:05] INFO root fetch - processPackages [hugegraph-python]: Downloading https://files.pythonhosted.org/packages/8e/db/02edada9241ba24c53e3aa93be32a50a20ee4dae8adbcbd31bcbcde2f609/hugegraph-python-1.0.0.5.tar.gz
+[2023-06-15 10:11:05] INFO root fetch - processPackages [lucidtech-las]: Downloading https://files.pythonhosted.org/packages/bd/ae/dc38a4fd635e0fdf47a95d0e5073030b87783caae159231c268d7145886d/lucidtech-las-8.9.0.tar.gz
+[2023-06-15 10:11:05] INFO root fetch - processPackages [checkov]: Downloading https://files.pythonhosted.org/packages/36/b2/faea7cf4d04d72880327d7e73a0327922cb8cd1c61a51e8fd38f344e9f2f/checkov-2.3.99.tar.gz
+[2023-06-15 10:11:05] INFO root fetch - processPackages [checkov]: executing diffoscope
+[2023-06-15 10:11:05] INFO root fetch - processPackages [checkov]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/checkov-2.3.98.tar.gz tmp/checkov-2.3.99.tar.gz --markdown 20230615/c/checkov/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2023-06-15 10:11:05] INFO root fetch - processPackages [mage-ai]: Downloading https://files.pythonhosted.org/packages/18/83/08cec2d442cdd360e40fa24b8c84da0a46ff635105e4866b20298d518e07/mage-ai-0.8.95.tar.gz
+[2023-06-15 10:11:05] INFO root fetch - processPackages [bmsdna-lakeapi]: Downloading https://files.pythonhosted.org/packages/80/4e/72d92d1d8a5b9b6ee6f02b65e60a46afaacd4f099178013a89582db1bc5d/bmsdna_lakeapi-0.8.4.tar.gz
+[2023-06-15 10:11:06] INFO root fetch - processPackages [balanna]: Downloading https://files.pythonhosted.org/packages/b0/e0/c43503c9c44f021a392d3f2968976ea566489833626aed048bed54f6dd09/balanna-1.3.0.tar.gz
+[2023-06-15 10:11:06] INFO root fetch - processPackages [pyglove]: Downloading https://files.pythonhosted.org/packages/de/b3/2d27b880d9efcc237971c459eff969086101c4d5742e5f5120d914aa3e25/pyglove-0.3.1.dev20230615.tar.gz
+[2023-06-15 10:11:06] INFO root fetch - processPackages [bmsdna-lakeapi]: executing diffoscope
+[2023-06-15 10:11:06] INFO root fetch - processPackages [hugegraph-python]: Downloading https://files.pythonhosted.org/packages/57/43/01c24e42f2a09e79538ecaa1369280a903d60989b224af355868772a8b1b/hugegraph-python-1.0.0.6.tar.gz
+[2023-06-15 10:11:06] INFO root fetch - processPackages [bmsdna-lakeapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bmsdna_lakeapi-0.8.3.tar.gz tmp/bmsdna_lakeapi-0.8.4.tar.gz --markdown 20230615/b/bmsdna-lakeapi/0.8.3-0.8.4/diff.md --exclude *.pyd
+[2023-06-15 10:11:06] INFO root fetch - processPackages [balanna]: executing diffoscope
+[2023-06-15 10:11:06] INFO root fetch - processPackages [balanna]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/balanna-1.2.1.tar.gz tmp/balanna-1.3.0.tar.gz --markdown 20230615/b/balanna/1.2.1-1.3.0/diff.md --exclude *.pyd
+[2023-06-15 10:11:06] INFO root fetch - processPackages [lucidtech-las]: Downloading https://files.pythonhosted.org/packages/4f/a2/822d0ad4b1eb284c83f2655f51a195933dee0835ec5593a946000aa52e1c/lucidtech-las-9.0.0.tar.gz
+[2023-06-15 10:11:06] INFO root fetch - processPackages [mage-ai]: executing diffoscope
+[2023-06-15 10:11:06] INFO root fetch - processPackages [mage-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mage-ai-0.8.94.tar.gz tmp/mage-ai-0.8.95.tar.gz --markdown 20230615/m/mage-ai/0.8.94-0.8.95/diff.md --exclude *.pyd
+[2023-06-15 10:11:06] INFO root fetch - processPackages [hugegraph-python]: executing diffoscope
+[2023-06-15 10:11:06] INFO root fetch - processPackages [hugegraph-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hugegraph-python-1.0.0.5.tar.gz tmp/hugegraph-python-1.0.0.6.tar.gz --markdown 20230615/h/hugegraph-python/1.0.0.5-1.0.0.6/diff.md --exclude *.pyd
+[2023-06-15 10:11:06] INFO root fetch - processPackages [hello2]: Downloading https://files.pythonhosted.org/packages/a0/da/ea8de0846b3f6b830477f9e807bff18614fd5b21c7898936b0dbc0525167/hello2-1.9.7.tar.gz
+[2023-06-15 10:11:06] WARNING root fetch - processPackages [genomenotebook]: Skipping package: exceeds size limit 21361104>=10485760
+[2023-06-15 10:11:06] INFO root fetch - processPackages [genomenotebook]: Start processing: braincube-aws-core-alpha
+[2023-06-15 10:11:06] INFO root fetch - main [MainThread]: End processing [genomenotebook] error
+[2023-06-15 10:11:06] INFO root fetch - processPackages [lucidtech-las]: executing diffoscope
+[2023-06-15 10:11:06] INFO root fetch - processPackages [lucidtech-las]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lucidtech-las-8.9.0.tar.gz tmp/lucidtech-las-9.0.0.tar.gz --markdown 20230615/l/lucidtech-las/8.9.0-9.0.0/diff.md --exclude *.pyd
+[2023-06-15 10:11:06] INFO root fetch - processPackages [filesystem-dict]: Downloading https://files.pythonhosted.org/packages/54/3b/f5738c21977e061dc6aba5deb29c0303f56d99377a41d9360db593926d0d/filesystem-dict-0.1.9.tar.gz
+[2023-06-15 10:11:06] INFO root fetch - processPackages [braincube-aws-core-alpha]: New version: [0.0.31] Old Version: [0.0.30]
+[2023-06-15 10:11:06] INFO root fetch - processPackages [pyglove]: executing diffoscope
+[2023-06-15 10:11:06] INFO root fetch - processPackages [pyglove]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyglove-0.3.1.dev20230614.tar.gz tmp/pyglove-0.3.1.dev20230615.tar.gz --markdown 20230615/p/pyglove/0.3.1.dev20230614-0.3.1.dev20230615/diff.md --exclude *.pyd
+[2023-06-15 10:11:06] INFO root fetch - processPackages [hello2]: executing diffoscope
+[2023-06-15 10:11:06] INFO root fetch - processPackages [hello2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hello2-1.9.6.tar.gz tmp/hello2-1.9.7.tar.gz --markdown 20230615/h/hello2/1.9.6-1.9.7/diff.md --exclude *.pyd
+[2023-06-15 10:11:06] INFO root fetch - processPackages [filesystem-dict]: executing diffoscope
+[2023-06-15 10:11:06] INFO root fetch - processPackages [filesystem-dict]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/filesystem-dict-0.1.8.tar.gz tmp/filesystem-dict-0.1.9.tar.gz --markdown 20230615/f/filesystem-dict/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-15 10:11:06] INFO root fetch - processPackages [braincube-aws-core-alpha]: Downloading https://files.pythonhosted.org/packages/e5/48/2d2c4b694d5e64e364c5cada55fafab93d8de1fba7df21545c57c0694684/braincube-aws-core-alpha-0.0.30.tar.gz
+[2023-06-15 10:11:06] INFO root fetch - processPackages [braincube-aws-core-alpha]: Downloading https://files.pythonhosted.org/packages/d0/e0/b71a74d720370dd9bc7ee9b96a3b97c9cc13c5ea2b618f05d98365d74d99/braincube-aws-core-alpha-0.0.31.tar.gz
+[2023-06-15 10:11:06] INFO root fetch - processPackages [braincube-aws-core-alpha]: executing diffoscope
+[2023-06-15 10:11:06] INFO root fetch - processPackages [braincube-aws-core-alpha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/braincube-aws-core-alpha-0.0.30.tar.gz tmp/braincube-aws-core-alpha-0.0.31.tar.gz --markdown 20230615/b/braincube-aws-core-alpha/0.0.30-0.0.31/diff.md --exclude *.pyd
+[2023-06-15 10:11:07] INFO root fetch - processPackages [hugegraph-python]: Remove: archive file [/home/abi/fetcher/tmp/hugegraph-python-1.0.0.5.tar.gz]
+[2023-06-15 10:11:07] INFO root fetch - processPackages [hugegraph-python]: Remove: archive file [/home/abi/fetcher/tmp/hugegraph-python-1.0.0.6.tar.gz]
+[2023-06-15 10:11:07] INFO root fetch - processPackages [hugegraph-python]: Start processing: django-cqrs
+[2023-06-15 10:11:07] INFO root fetch - main [MainThread]: End processing [hugegraph-python]: success
+[2023-06-15 10:11:07] INFO root fetch - processPackages [django-cqrs]: New version: [2.7.0] Old Version: [2.6.0]
+[2023-06-15 10:11:07] INFO root fetch - processPackages [lucidtech-las]: Remove: archive file [/home/abi/fetcher/tmp/lucidtech-las-8.9.0.tar.gz]
+[2023-06-15 10:11:07] INFO root fetch - processPackages [lucidtech-las]: Remove: archive file [/home/abi/fetcher/tmp/lucidtech-las-9.0.0.tar.gz]
+[2023-06-15 10:11:07] INFO root fetch - processPackages [lucidtech-las]: Start processing: bagbag
+[2023-06-15 10:11:07] INFO root fetch - main [MainThread]: End processing [lucidtech-las]: success
+[2023-06-15 10:11:07] INFO root fetch - processPackages [bagbag]: New version: [0.60.8] Old Version: [0.60.7]
+[2023-06-15 10:11:07] INFO root fetch - processPackages [balanna]: Remove: archive file [/home/abi/fetcher/tmp/balanna-1.2.1.tar.gz]
+[2023-06-15 10:11:07] INFO root fetch - processPackages [balanna]: Remove: archive file [/home/abi/fetcher/tmp/balanna-1.3.0.tar.gz]
+[2023-06-15 10:11:07] INFO root fetch - processPackages [balanna]: Start processing: nucliadb
+[2023-06-15 10:11:07] INFO root fetch - main [MainThread]: End processing [balanna]: success
+[2023-06-15 10:11:07] INFO root fetch - processPackages [nucliadb]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-06-15 10:11:07] INFO root fetch - processPackages [django-cqrs]: Downloading https://files.pythonhosted.org/packages/e9/ae/7d43fd03fa445c2cc313736700dc5e4d5770db94aacab0e8bc87991eaeb1/django_cqrs-2.6.0.tar.gz
+[2023-06-15 10:11:07] INFO root fetch - processPackages [filesystem-dict]: Remove: archive file [/home/abi/fetcher/tmp/filesystem-dict-0.1.8.tar.gz]
+[2023-06-15 10:11:07] INFO root fetch - processPackages [filesystem-dict]: Remove: archive file [/home/abi/fetcher/tmp/filesystem-dict-0.1.9.tar.gz]
+[2023-06-15 10:11:07] INFO root fetch - processPackages [filesystem-dict]: Start processing: nucliadb-client
+[2023-06-15 10:11:07] INFO root fetch - main [MainThread]: End processing [filesystem-dict]: success
+[2023-06-15 10:11:07] INFO root fetch - processPackages [nucliadb]: Downloading https://files.pythonhosted.org/packages/7c/ff/0a879c94d307d6130c47fa95a8a217386c5cbb1838101d660244b068cd95/nucliadb-2.9.0.post266-py3-none-any.whl
+[2023-06-15 10:11:07] INFO root fetch - processPackages [nucliadb-client]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-06-15 10:11:07] INFO root fetch - processPackages [bagbag]: Downloading https://files.pythonhosted.org/packages/e6/fd/379e4ba0086bb5c531f209413af4de641c638fb2be9952854e1660d33c3e/bagbag-0.60.7.tar.gz
+[2023-06-15 10:11:08] INFO root fetch - processPackages [nucliadb-client]: Downloading https://files.pythonhosted.org/packages/e9/f9/e883083a5a0915d9eef487a6fa094cee59f24bf25f983e64b02d3dd71a9f/nucliadb_client-2.9.0.post266-py3-none-any.whl
+[2023-06-15 10:11:08] INFO root fetch - processPackages [bmsdna-lakeapi]: Remove: archive file [/home/abi/fetcher/tmp/bmsdna_lakeapi-0.8.3.tar.gz]
+[2023-06-15 10:11:08] INFO root fetch - processPackages [bmsdna-lakeapi]: Remove: archive file [/home/abi/fetcher/tmp/bmsdna_lakeapi-0.8.4.tar.gz]
+[2023-06-15 10:11:08] INFO root fetch - processPackages [bmsdna-lakeapi]: Start processing: nucliadb-dataset
+[2023-06-15 10:11:08] INFO root fetch - main [MainThread]: End processing [bmsdna-lakeapi]: success
+[2023-06-15 10:11:08] INFO root fetch - processPackages [nucliadb-dataset]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-06-15 10:11:08] INFO root fetch - processPackages [nucliadb]: Downloading https://files.pythonhosted.org/packages/d0/e8/3c39cb6a2ed6ad97a3e0dec5110ec85934306f7a7d052b0cb4fe4762aa0f/nucliadb-2.9.0.post267-py3-none-any.whl
+[2023-06-15 10:11:08] INFO root fetch - processPackages [nucliadb-dataset]: Downloading https://files.pythonhosted.org/packages/56/4b/fc2d9cfebab3c585f1cb9965c827bf2aca2a655f2fec6b1fffcac6eef1c1/nucliadb_dataset-2.9.0.post266-py3-none-any.whl
+[2023-06-15 10:11:08] INFO root fetch - processPackages [nucliadb-client]: Downloading https://files.pythonhosted.org/packages/24/40/81827f509054d15496de510289a599e8f6d34f706b2371d86d048fbc0db0/nucliadb_client-2.9.0.post267-py3-none-any.whl
+[2023-06-15 10:11:08] INFO root fetch - processPackages [nucliadb]: executing diffoscope
+[2023-06-15 10:11:08] INFO root fetch - processPackages [nucliadb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb-2.9.0.post267-py3-none-any.whl.zip --markdown 20230615/n/nucliadb/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-06-15 10:11:08] INFO root fetch - processPackages [nucliadb-client]: executing diffoscope
+[2023-06-15 10:11:08] INFO root fetch - processPackages [nucliadb-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_client-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_client-2.9.0.post267-py3-none-any.whl.zip --markdown 20230615/n/nucliadb-client/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-06-15 10:11:08] INFO root fetch - processPackages [django-cqrs]: Downloading https://files.pythonhosted.org/packages/8a/9f/77c0c7bdb00a2b0cf6358af12d72d8406ec0c51e2b3f5cccaf5fc3f503c4/django_cqrs-2.7.0.tar.gz
+[2023-06-15 10:11:08] INFO root fetch - processPackages [nucliadb-dataset]: Downloading https://files.pythonhosted.org/packages/80/9f/9ffeb0e3d1b4da8f1178595f75fb1c1ffe183913036ae2a60f569c8c7dc7/nucliadb_dataset-2.9.0.post267-py3-none-any.whl
+[2023-06-15 10:11:08] INFO root fetch - processPackages [bagbag]: Downloading https://files.pythonhosted.org/packages/9c/d9/18fcc3667854a152644716d257d55e30c5845485e0c8c0086d1449f5fca5/bagbag-0.60.8.tar.gz
+[2023-06-15 10:11:08] INFO root fetch - processPackages [django-cqrs]: executing diffoscope
+[2023-06-15 10:11:08] INFO root fetch - processPackages [django-cqrs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_cqrs-2.6.0.tar.gz tmp/django_cqrs-2.7.0.tar.gz --markdown 20230615/d/django-cqrs/2.6.0-2.7.0/diff.md --exclude *.pyd
+[2023-06-15 10:11:08] INFO root fetch - processPackages [nucliadb-dataset]: executing diffoscope
+[2023-06-15 10:11:08] INFO root fetch - processPackages [nucliadb-dataset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_dataset-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_dataset-2.9.0.post267-py3-none-any.whl.zip --markdown 20230615/n/nucliadb-dataset/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-06-15 10:11:08] INFO root fetch - processPackages [bagbag]: executing diffoscope
+[2023-06-15 10:11:08] INFO root fetch - processPackages [bagbag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bagbag-0.60.7.tar.gz tmp/bagbag-0.60.8.tar.gz --markdown 20230615/b/bagbag/0.60.7-0.60.8/diff.md --exclude *.pyd
+[2023-06-15 10:11:08] INFO root fetch - processPackages [braincube-aws-core-alpha]: Remove: archive file [/home/abi/fetcher/tmp/braincube-aws-core-alpha-0.0.30.tar.gz]
+[2023-06-15 10:11:08] INFO root fetch - processPackages [braincube-aws-core-alpha]: Remove: archive file [/home/abi/fetcher/tmp/braincube-aws-core-alpha-0.0.31.tar.gz]
+[2023-06-15 10:11:08] INFO root fetch - processPackages [braincube-aws-core-alpha]: Start processing: nucliadb-models
+[2023-06-15 10:11:08] INFO root fetch - main [MainThread]: End processing [braincube-aws-core-alpha]: success
+[2023-06-15 10:11:08] INFO root fetch - processPackages [nucliadb-models]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-06-15 10:11:08] INFO root fetch - processPackages [nucliadb-models]: Downloading https://files.pythonhosted.org/packages/3b/2d/e4d68391765b0e9f57ca1023e2aec3cf60968a9418e00f24c1554bb0041e/nucliadb_models-2.9.0.post266-py3-none-any.whl
+[2023-06-15 10:11:08] INFO root fetch - processPackages [nucliadb-models]: Downloading https://files.pythonhosted.org/packages/33/34/554de7935ae3aecd4129d1f85d83822f97fd284da917d6aced4c09802f1a/nucliadb_models-2.9.0.post267-py3-none-any.whl
+[2023-06-15 10:11:08] INFO root fetch - processPackages [nucliadb-models]: executing diffoscope
+[2023-06-15 10:11:08] INFO root fetch - processPackages [nucliadb-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_models-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_models-2.9.0.post267-py3-none-any.whl.zip --markdown 20230615/n/nucliadb-models/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-06-15 10:11:08] INFO root fetch - processPackages [hello2]: Remove: archive file [/home/abi/fetcher/tmp/hello2-1.9.6.tar.gz]
+[2023-06-15 10:11:08] INFO root fetch - processPackages [hello2]: Remove: archive file [/home/abi/fetcher/tmp/hello2-1.9.7.tar.gz]
+[2023-06-15 10:11:08] INFO root fetch - processPackages [hello2]: Start processing: nucliadb-protos
+[2023-06-15 10:11:08] INFO root fetch - main [MainThread]: End processing [hello2]: success
+[2023-06-15 10:11:08] INFO root fetch - processPackages [nucliadb-protos]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-06-15 10:11:08] INFO root fetch - processPackages [nucliadb-protos]: Downloading https://files.pythonhosted.org/packages/16/50/6ab2e4f9cca425d97ef0824c338fea58b8e3a0bfb590231f3196942875c0/nucliadb_protos-2.9.0.post266-py3-none-any.whl
+[2023-06-15 10:11:09] INFO root fetch - processPackages [nucliadb-protos]: Downloading https://files.pythonhosted.org/packages/21/bd/4fffaf241f826293c98c1317bdaff65a5d202f9ec94d08322b2fd017f3b0/nucliadb_protos-2.9.0.post267-py3-none-any.whl
+[2023-06-15 10:11:09] INFO root fetch - processPackages [pyglove]: Remove: archive file [/home/abi/fetcher/tmp/pyglove-0.3.1.dev20230614.tar.gz]
+[2023-06-15 10:11:09] INFO root fetch - processPackages [pyglove]: Remove: archive file [/home/abi/fetcher/tmp/pyglove-0.3.1.dev20230615.tar.gz]
+[2023-06-15 10:11:09] INFO root fetch - processPackages [pyglove]: Start processing: nucliadb-sdk
+[2023-06-15 10:11:09] INFO root fetch - main [MainThread]: End processing [pyglove]: success
+[2023-06-15 10:11:09] INFO root fetch - processPackages [nucliadb-protos]: executing diffoscope
+[2023-06-15 10:11:09] INFO root fetch - processPackages [nucliadb-protos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_protos-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_protos-2.9.0.post267-py3-none-any.whl.zip --markdown 20230615/n/nucliadb-protos/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-06-15 10:11:09] INFO root fetch - processPackages [nucliadb-sdk]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-06-15 10:11:09] INFO root fetch - processPackages [nucliadb-sdk]: Downloading https://files.pythonhosted.org/packages/a1/64/be41afa3acf3d90a5d9575ac0e1c151ff6e91fb473f9724dac60fea85414/nucliadb_sdk-2.9.0.post266-py3-none-any.whl
+[2023-06-15 10:11:09] INFO root fetch - processPackages [nucliadb-sdk]: Downloading https://files.pythonhosted.org/packages/35/7b/660db604a69a01811bfa1b2ce906d520705e186b4f8a91c3972cb4446303/nucliadb_sdk-2.9.0.post267-py3-none-any.whl
+[2023-06-15 10:11:09] INFO root fetch - processPackages [nucliadb-sdk]: executing diffoscope
+[2023-06-15 10:11:09] INFO root fetch - processPackages [nucliadb-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_sdk-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_sdk-2.9.0.post267-py3-none-any.whl.zip --markdown 20230615/n/nucliadb-sdk/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-06-15 10:11:09] INFO root fetch - processPackages [nucliadb-client]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_client-2.9.0.post266-py3-none-any.whl.zip]
+[2023-06-15 10:11:09] INFO root fetch - processPackages [nucliadb-client]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_client-2.9.0.post267-py3-none-any.whl.zip]
+[2023-06-15 10:11:09] INFO root fetch - processPackages [nucliadb-client]: Start processing: nucliadb-utils
+[2023-06-15 10:11:09] INFO root fetch - main [MainThread]: End processing [nucliadb-client]: success
+[2023-06-15 10:11:09] INFO root fetch - processPackages [nucliadb-utils]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-06-15 10:11:09] INFO root fetch - processPackages [nucliadb-utils]: Downloading https://files.pythonhosted.org/packages/9c/a6/d6dd21ed1948bdcc0b560698e72d117f3fdad522e2ac0894dd980e184631/nucliadb_utils-2.9.0.post266-py3-none-any.whl
+[2023-06-15 10:11:09] INFO root fetch - processPackages [nucliadb-dataset]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_dataset-2.9.0.post266-py3-none-any.whl.zip]
+[2023-06-15 10:11:09] INFO root fetch - processPackages [nucliadb-dataset]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_dataset-2.9.0.post267-py3-none-any.whl.zip]
+[2023-06-15 10:11:09] INFO root fetch - processPackages [nucliadb-dataset]: Start processing: oc-ldap-user-locker
+[2023-06-15 10:11:09] INFO root fetch - main [MainThread]: End processing [nucliadb-dataset]: success
+[2023-06-15 10:11:09] INFO root fetch - processPackages [oc-ldap-user-locker]: New version: [1.2.1] Old Version: [1.1.0]
+[2023-06-15 10:11:09] INFO root fetch - processPackages [nucliadb-utils]: Downloading https://files.pythonhosted.org/packages/a2/ce/8ce8a66a2ef214d8ae9f81cb70eb5d8d5396c8bd94794cf92d145fdccd31/nucliadb_utils-2.9.0.post267-py3-none-any.whl
+[2023-06-15 10:11:09] INFO root fetch - processPackages [nucliadb-utils]: executing diffoscope
+[2023-06-15 10:11:09] INFO root fetch - processPackages [nucliadb-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_utils-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_utils-2.9.0.post267-py3-none-any.whl.zip --markdown 20230615/n/nucliadb-utils/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-06-15 10:11:09] INFO root fetch - processPackages [oc-ldap-user-locker]: Downloading https://files.pythonhosted.org/packages/ec/26/121e2cd38c85f4264a06ec3475938f5c51462261d63f8e97c980d0dc0385/oc_ldap_user_locker-1.1.0-py3-none-any.whl
+[2023-06-15 10:11:10] INFO root fetch - processPackages [nucliadb-models]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_models-2.9.0.post266-py3-none-any.whl.zip]
+[2023-06-15 10:11:10] INFO root fetch - processPackages [nucliadb-models]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_models-2.9.0.post267-py3-none-any.whl.zip]
+[2023-06-15 10:11:10] INFO root fetch - processPackages [nucliadb-models]: Start processing: intellect-core
+[2023-06-15 10:11:10] INFO root fetch - main [MainThread]: End processing [nucliadb-models]: success
+[2023-06-15 10:11:10] INFO root fetch - processPackages [intellect-core]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-06-15 10:11:10] INFO root fetch - processPackages [oc-ldap-user-locker]: Downloading https://files.pythonhosted.org/packages/12/a5/312f1c2dc8c53791f1fe2b518a7ad86ef788244b8c39b4313401f2b6b884/oc_ldap_user_locker-1.2.1-py3-none-any.whl
+[2023-06-15 10:11:10] INFO root fetch - processPackages [oc-ldap-user-locker]: executing diffoscope
+[2023-06-15 10:11:10] INFO root fetch - processPackages [oc-ldap-user-locker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oc_ldap_user_locker-1.1.0-py3-none-any.whl.zip tmp/oc_ldap_user_locker-1.2.1-py3-none-any.whl.zip --markdown 20230615/o/oc-ldap-user-locker/1.1.0-1.2.1/diff.md --exclude *.pyd
+[2023-06-15 10:11:10] INFO root fetch - processPackages [intellect-core]: Downloading https://files.pythonhosted.org/packages/2b/84/da89884b7369a07e9c6e93c70e46b919b073d73a10cb8ee8338ce9adb95e/intellect_core-0.1.4.tar.gz
+[2023-06-15 10:11:10] INFO root fetch - processPackages [django-cqrs]: Remove: archive file [/home/abi/fetcher/tmp/django_cqrs-2.6.0.tar.gz]
+[2023-06-15 10:11:10] INFO root fetch - processPackages [django-cqrs]: Remove: archive file [/home/abi/fetcher/tmp/django_cqrs-2.7.0.tar.gz]
+[2023-06-15 10:11:10] INFO root fetch - processPackages [django-cqrs]: Start processing: reddit-experiments
+[2023-06-15 10:11:10] INFO root fetch - main [MainThread]: End processing [django-cqrs]: success
+[2023-06-15 10:11:10] INFO root fetch - processPackages [intellect-core]: Downloading https://files.pythonhosted.org/packages/20/8f/b0e2219b0111b7fea4cee1e008d50e80f98bc2879a2c1e42cca159808a67/intellect_core-0.1.5.tar.gz
+[2023-06-15 10:11:10] INFO root fetch - processPackages [reddit-experiments]: New version: [1.5.1] Old Version: [1.5.0]
+[2023-06-15 10:11:10] INFO root fetch - processPackages [intellect-core]: executing diffoscope
+[2023-06-15 10:11:10] INFO root fetch - processPackages [intellect-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/intellect_core-0.1.4.tar.gz tmp/intellect_core-0.1.5.tar.gz --markdown 20230615/i/intellect-core/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-06-15 10:11:10] INFO root fetch - processPackages [reddit-experiments]: Downloading https://files.pythonhosted.org/packages/2e/96/b38005214c703726263e460a7476b6fb42c453341ea7d51858a33942de33/reddit_experiments-1.5.0.tar.gz
+[2023-06-15 10:11:10] INFO root fetch - processPackages [nucliadb-protos]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_protos-2.9.0.post266-py3-none-any.whl.zip]
+[2023-06-15 10:11:10] INFO root fetch - processPackages [nucliadb-protos]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_protos-2.9.0.post267-py3-none-any.whl.zip]
+[2023-06-15 10:11:10] INFO root fetch - processPackages [nucliadb-protos]: Start processing: ign-gpao-client
+[2023-06-15 10:11:10] INFO root fetch - main [MainThread]: End processing [nucliadb-protos]: success
+[2023-06-15 10:11:10] INFO root fetch - processPackages [ign-gpao-client]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-15 10:11:10] INFO root fetch - processPackages [nucliadb-sdk]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_sdk-2.9.0.post266-py3-none-any.whl.zip]
+[2023-06-15 10:11:10] INFO root fetch - processPackages [nucliadb-sdk]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_sdk-2.9.0.post267-py3-none-any.whl.zip]
+[2023-06-15 10:11:10] INFO root fetch - main [MainThread]: End processing [nucliadb-sdk]: success
+[2023-06-15 10:11:10] INFO root fetch - processPackages [ign-gpao-client]: Downloading https://files.pythonhosted.org/packages/19/58/da8ddd14bb8b2e0efed18be809457239829a9d383bffd429e15ee586341d/ign-gpao-client-0.8.0.tar.gz
+[2023-06-15 10:11:11] INFO root fetch - processPackages [reddit-experiments]: Downloading https://files.pythonhosted.org/packages/b5/8c/7c44563774934d87c300ff674971e7225645e79a4b09ebc054af41a2d65e/reddit_experiments-1.5.1.tar.gz
+[2023-06-15 10:11:11] INFO root fetch - processPackages [reddit-experiments]: executing diffoscope
+[2023-06-15 10:11:11] INFO root fetch - processPackages [reddit-experiments]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reddit_experiments-1.5.0.tar.gz tmp/reddit_experiments-1.5.1.tar.gz --markdown 20230615/r/reddit-experiments/1.5.0-1.5.1/diff.md --exclude *.pyd
+[2023-06-15 10:11:11] INFO root fetch - processPackages [ign-gpao-client]: Downloading https://files.pythonhosted.org/packages/c0/f1/95b90e8ebd5ab62512fa3f4007cdca8cc81c685e691c2326fde428d948e2/ign-gpao-client-0.9.0.tar.gz
+[2023-06-15 10:11:11] INFO root fetch - processPackages [ign-gpao-client]: executing diffoscope
+[2023-06-15 10:11:11] INFO root fetch - processPackages [ign-gpao-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ign-gpao-client-0.8.0.tar.gz tmp/ign-gpao-client-0.9.0.tar.gz --markdown 20230615/i/ign-gpao-client/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-15 10:11:11] INFO root fetch - processPackages [nucliadb-utils]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_utils-2.9.0.post266-py3-none-any.whl.zip]
+[2023-06-15 10:11:11] INFO root fetch - processPackages [nucliadb-utils]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_utils-2.9.0.post267-py3-none-any.whl.zip]
+[2023-06-15 10:11:11] INFO root fetch - main [MainThread]: End processing [nucliadb-utils]: success
+[2023-06-15 10:11:11] INFO root fetch - processPackages [oc-ldap-user-locker]: Remove: archive file [/home/abi/fetcher/tmp/oc_ldap_user_locker-1.1.0-py3-none-any.whl.zip]
+[2023-06-15 10:11:11] INFO root fetch - processPackages [oc-ldap-user-locker]: Remove: archive file [/home/abi/fetcher/tmp/oc_ldap_user_locker-1.2.1-py3-none-any.whl.zip]
+[2023-06-15 10:11:11] INFO root fetch - main [MainThread]: End processing [oc-ldap-user-locker]: success
+[2023-06-15 10:11:12] INFO root fetch - processPackages [intellect-core]: Remove: archive file [/home/abi/fetcher/tmp/intellect_core-0.1.4.tar.gz]
+[2023-06-15 10:11:12] INFO root fetch - processPackages [intellect-core]: Remove: archive file [/home/abi/fetcher/tmp/intellect_core-0.1.5.tar.gz]
+[2023-06-15 10:11:12] INFO root fetch - main [MainThread]: End processing [intellect-core]: success
+[2023-06-15 10:11:12] INFO root fetch - processPackages [nucliadb]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb-2.9.0.post266-py3-none-any.whl.zip]
+[2023-06-15 10:11:12] INFO root fetch - processPackages [nucliadb]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb-2.9.0.post267-py3-none-any.whl.zip]
+[2023-06-15 10:11:12] INFO root fetch - main [MainThread]: End processing [nucliadb]: success
+[2023-06-15 10:11:12] INFO root fetch - processPackages [ign-gpao-client]: Remove: archive file [/home/abi/fetcher/tmp/ign-gpao-client-0.8.0.tar.gz]
+[2023-06-15 10:11:12] INFO root fetch - processPackages [ign-gpao-client]: Remove: archive file [/home/abi/fetcher/tmp/ign-gpao-client-0.9.0.tar.gz]
+[2023-06-15 10:11:12] INFO root fetch - main [MainThread]: End processing [ign-gpao-client]: success
+[2023-06-15 10:11:14] INFO root fetch - processPackages [bagbag]: Remove: archive file [/home/abi/fetcher/tmp/bagbag-0.60.7.tar.gz]
+[2023-06-15 10:11:14] INFO root fetch - processPackages [bagbag]: Remove: archive file [/home/abi/fetcher/tmp/bagbag-0.60.8.tar.gz]
+[2023-06-15 10:11:14] INFO root fetch - main [MainThread]: End processing [bagbag]: success
+[2023-06-15 10:11:17] INFO root fetch - processPackages [reddit-experiments]: Remove: archive file [/home/abi/fetcher/tmp/reddit_experiments-1.5.0.tar.gz]
+[2023-06-15 10:11:17] INFO root fetch - processPackages [reddit-experiments]: Remove: archive file [/home/abi/fetcher/tmp/reddit_experiments-1.5.1.tar.gz]
+[2023-06-15 10:11:17] INFO root fetch - main [MainThread]: End processing [reddit-experiments]: success
+[2023-06-15 10:11:23] INFO root fetch - processPackages [mage-ai]: Remove: archive file [/home/abi/fetcher/tmp/mage-ai-0.8.94.tar.gz]
+[2023-06-15 10:11:23] INFO root fetch - processPackages [mage-ai]: Remove: archive file [/home/abi/fetcher/tmp/mage-ai-0.8.95.tar.gz]
+[2023-06-15 10:11:23] INFO root fetch - main [MainThread]: End processing [mage-ai]: success
+[2023-06-15 10:11:54] INFO root fetch - processPackages [checkov]: Remove: archive file [/home/abi/fetcher/tmp/checkov-2.3.98.tar.gz]
+[2023-06-15 10:11:54] INFO root fetch - processPackages [checkov]: Remove: archive file [/home/abi/fetcher/tmp/checkov-2.3.99.tar.gz]
+[2023-06-15 10:11:54] INFO root fetch - main [MainThread]: End processing [checkov]: success
+[2023-06-15 10:11:54] INFO root fetch - main [MainThread]: Store serial: [18512839]
