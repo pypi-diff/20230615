@@ -19189,3 +19189,119 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-06-15 12:37:26] INFO root fetch - processPackages [capellambse]: Remove: archive file [/home/abi/fetcher/tmp/capellambse-0.5.9.dev5.tar.gz]
 [2023-06-15 12:37:26] INFO root fetch - main [MainThread]: End processing [capellambse]: success
 [2023-06-15 12:37:26] INFO root fetch - main [MainThread]: Store serial: [18514680]
+[2023-06-15 12:42:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18514680]
+[2023-06-15 12:42:37] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-06-15 12:42:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wedeliver-core-plus
+[2023-06-15 12:42:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pywfa
+[2023-06-15 12:42:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: shell-interface
+[2023-06-15 12:42:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: servicefoundry
+[2023-06-15 12:42:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pysmart365
+[2023-06-15 12:42:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: TheSilent
+[2023-06-15 12:42:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pydatawork
+[2023-06-15 12:42:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: AutoFun
+[2023-06-15 12:42:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: configuraptor
+[2023-06-15 12:42:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: sync-pack-sdk
+[2023-06-15 12:42:37] INFO root fetch - processPackages [AutoFun]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-06-15 12:42:37] INFO root fetch - processPackages [wedeliver-core-plus]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-15 12:42:37] INFO root fetch - processPackages [shell-interface]: New version: [0.9.0] Old Version: [0.10.0]
+[2023-06-15 12:42:37] INFO root fetch - processPackages [pywfa]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-06-15 12:42:37] INFO root fetch - processPackages [sync-pack-sdk]: New version: [7.7.7] Old Version: [7.3.8]
+[2023-06-15 12:42:37] INFO root fetch - processPackages [pysmart365]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-06-15 12:42:37] INFO root fetch - processPackages [configuraptor]: New version: [1.4.0] Old Version: [1.3.2]
+[2023-06-15 12:42:37] INFO root fetch - processPackages [pydatawork]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-15 12:42:37] INFO root fetch - processPackages [servicefoundry]: New version: [0.9.8] Old Version: [0.9.7]
+[2023-06-15 12:42:37] INFO root fetch - processPackages [TheSilent]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-15 12:42:37] INFO root fetch - processPackages [pydatawork]: Downloading https://files.pythonhosted.org/packages/66/f6/040e96809fad79644d2b886370807a6c0ee9899a82246451d882b1260b6d/pydatawork-0.0.2.tar.gz
+[2023-06-15 12:42:37] INFO root fetch - processPackages [configuraptor]: Downloading https://files.pythonhosted.org/packages/a2/91/58474f872701e1c05f5ec26f99b9d6adf147e2812d9d4cc7b401d1c8c98f/configuraptor-1.3.2.tar.gz
+[2023-06-15 12:42:37] INFO root fetch - processPackages [sync-pack-sdk]: Downloading https://files.pythonhosted.org/packages/8f/3a/f27e2e9ba6da36088418ee3ec235ebaec12da45bc776ff2cf369e4b6e982/sync-pack-sdk-7.3.8.tar.gz
+[2023-06-15 12:42:37] INFO root fetch - processPackages [TheSilent]: Downloading https://files.pythonhosted.org/packages/ad/09/2a1f42483bf3fbc17417489cf4f3d6ec17c5c763e219aa02ad1827f29dc1/TheSilent-0.0.98.tar.gz
+[2023-06-15 12:42:37] INFO root fetch - processPackages [AutoFun]: Downloading https://files.pythonhosted.org/packages/6d/85/279de912dfd86b7879f37f77c5c39ae00a9494aaaa37c06107212b72ef03/AutoFun-0.3.9.tar.gz
+[2023-06-15 12:42:37] INFO root fetch - processPackages [pywfa]: Downloading https://files.pythonhosted.org/packages/5a/90/b584ff58075d2949636d8afeee7af9c68169a8b15916d0eaab64e823b2f5/pywfa-0.5.0.tar.gz
+[2023-06-15 12:42:37] INFO root fetch - processPackages [shell-interface]: Downloading https://files.pythonhosted.org/packages/d9/55/b2d76fd634258280f29d144f6e740fdb614ba4c3828a938c42ce37946e7c/shell_interface-0.10.0.tar.gz
+[2023-06-15 12:42:37] INFO root fetch - processPackages [servicefoundry]: Downloading https://files.pythonhosted.org/packages/96/ed/4d10d0b1b04f191c4aa86ed7eef053f442dc1e80c539907e0ac027005927/servicefoundry-0.9.7.tar.gz
+[2023-06-15 12:42:37] INFO root fetch - processPackages [pysmart365]: Downloading https://files.pythonhosted.org/packages/6f/51/f5951332c16e8a4bf57e77d72a9fddc038be8cdb14c91a4b5fc286a332e8/pysmart365-0.0.7.tar.gz
+[2023-06-15 12:42:37] INFO root fetch - processPackages [wedeliver-core-plus]: Downloading https://files.pythonhosted.org/packages/9b/56/c8f7360cc03554c9cc68ccdf404612fcb147ef523b8693fbcd9994cea2df/wedeliver_core_plus-0.0.3.tar.gz
+[2023-06-15 12:42:37] WARNING root fetch - processPackages [AutoFun]: Skipping package: exceeds size limit 61458619>=10485760
+[2023-06-15 12:42:37] INFO root fetch - processPackages [AutoFun]: Start processing: perun.proxygui
+[2023-06-15 12:42:37] INFO root fetch - main [MainThread]: End processing [AutoFun] error
+[2023-06-15 12:42:37] INFO root fetch - processPackages [perun.proxygui]: New version: [1.8.2] Old Version: [1.8.1]
+[2023-06-15 12:42:37] INFO root fetch - processPackages [sync-pack-sdk]: Downloading https://files.pythonhosted.org/packages/1b/2e/ed6409d504756b1e839d094b2ada088008c02b1aac1c5af6e4ec25dc7a2b/sync-pack-sdk-7.7.7.tar.gz
+[2023-06-15 12:42:37] INFO root fetch - processPackages [TheSilent]: Downloading https://files.pythonhosted.org/packages/38/21/9b42cfa55edd85cfd4fefba7fb94aab0891af2b6c90ef59e687a42228a0b/TheSilent-0.0.99.tar.gz
+[2023-06-15 12:42:37] INFO root fetch - processPackages [perun.proxygui]: Downloading https://files.pythonhosted.org/packages/b3/71/6f7a54fa5503d7efd142628d77ac6962885bf21709a129dec57ab548bbcf/perun.proxygui-1.8.1.tar.gz
+[2023-06-15 12:42:37] INFO root fetch - processPackages [pydatawork]: Downloading https://files.pythonhosted.org/packages/28/88/952f2cfad9268258a2f6506ac2211425de9a8ac042947f2bce351c3cccb6/pydatawork-0.0.3.tar.gz
+[2023-06-15 12:42:37] INFO root fetch - processPackages [sync-pack-sdk]: executing diffoscope
+[2023-06-15 12:42:37] INFO root fetch - processPackages [sync-pack-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sync-pack-sdk-7.3.8.tar.gz tmp/sync-pack-sdk-7.7.7.tar.gz --markdown 20230615/s/sync-pack-sdk/7.3.8-7.7.7/diff.md --exclude *.pyd
+[2023-06-15 12:42:37] INFO root fetch - processPackages [TheSilent]: executing diffoscope
+[2023-06-15 12:42:37] INFO root fetch - processPackages [TheSilent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TheSilent-0.0.98.tar.gz tmp/TheSilent-0.0.99.tar.gz --markdown 20230615/T/TheSilent/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-15 12:42:37] INFO root fetch - processPackages [configuraptor]: Downloading https://files.pythonhosted.org/packages/68/38/c054500e11ce9b786d3e7045c16cb8c44cac199989f48fdaf8a178da51a8/configuraptor-1.4.0.tar.gz
+[2023-06-15 12:42:37] INFO root fetch - processPackages [pydatawork]: executing diffoscope
+[2023-06-15 12:42:37] INFO root fetch - processPackages [pydatawork]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydatawork-0.0.2.tar.gz tmp/pydatawork-0.0.3.tar.gz --markdown 20230615/p/pydatawork/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-15 12:42:37] INFO root fetch - processPackages [wedeliver-core-plus]: Downloading https://files.pythonhosted.org/packages/76/a5/eaf1a0dde9d29dfd138b60c12f73a82511cf91a435e6055dbbf2f2ccc138/wedeliver_core_plus-0.0.4.tar.gz
+[2023-06-15 12:42:37] INFO root fetch - processPackages [servicefoundry]: Downloading https://files.pythonhosted.org/packages/d1/85/04bcbb902938bffb35438f301b464843d1c35b436cd2620d7da5790bcb6f/servicefoundry-0.9.8.tar.gz
+[2023-06-15 12:42:37] INFO root fetch - processPackages [pysmart365]: Downloading https://files.pythonhosted.org/packages/ab/fc/8dc2a87d9cdf726ef291f24664286c81ff4373a30d010eb6ecfba71d5773/pysmart365-0.0.8.tar.gz
+[2023-06-15 12:42:37] INFO root fetch - processPackages [pywfa]: Downloading https://files.pythonhosted.org/packages/93/40/ec1c77237515eb618ba7407d4ac954b9dd127808a303cd85b0928f8dc12a/pywfa-0.5.1.tar.gz
+[2023-06-15 12:42:37] INFO root fetch - processPackages [shell-interface]: Downloading https://files.pythonhosted.org/packages/0f/8d/ea60b5fb203db6a005b1d7c9f2d8e48840ebb3717c757a47f3166e3b14db/shell_interface-0.9.0.tar.gz
+[2023-06-15 12:42:38] INFO root fetch - processPackages [wedeliver-core-plus]: executing diffoscope
+[2023-06-15 12:42:38] INFO root fetch - processPackages [wedeliver-core-plus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wedeliver_core_plus-0.0.3.tar.gz tmp/wedeliver_core_plus-0.0.4.tar.gz --markdown 20230615/w/wedeliver-core-plus/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-15 12:42:38] INFO root fetch - processPackages [perun.proxygui]: Downloading https://files.pythonhosted.org/packages/31/6e/4bac7b662e051071a1cc1bc7982f07958f78f7bc1bac7f9f468dbe5caa31/perun.proxygui-1.8.2.tar.gz
+[2023-06-15 12:42:38] INFO root fetch - processPackages [servicefoundry]: executing diffoscope
+[2023-06-15 12:42:38] INFO root fetch - processPackages [servicefoundry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/servicefoundry-0.9.7.tar.gz tmp/servicefoundry-0.9.8.tar.gz --markdown 20230615/s/servicefoundry/0.9.7-0.9.8/diff.md --exclude *.pyd
+[2023-06-15 12:42:38] INFO root fetch - processPackages [pysmart365]: executing diffoscope
+[2023-06-15 12:42:38] INFO root fetch - processPackages [pysmart365]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysmart365-0.0.7.tar.gz tmp/pysmart365-0.0.8.tar.gz --markdown 20230615/p/pysmart365/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-06-15 12:42:38] INFO root fetch - processPackages [shell-interface]: executing diffoscope
+[2023-06-15 12:42:38] INFO root fetch - processPackages [shell-interface]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shell_interface-0.10.0.tar.gz tmp/shell_interface-0.9.0.tar.gz --markdown 20230615/s/shell-interface/0.10.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-15 12:42:38] INFO root fetch - processPackages [pywfa]: executing diffoscope
+[2023-06-15 12:42:38] INFO root fetch - processPackages [pywfa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pywfa-0.5.0.tar.gz tmp/pywfa-0.5.1.tar.gz --markdown 20230615/p/pywfa/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-06-15 12:42:38] INFO root fetch - processPackages [configuraptor]: executing diffoscope
+[2023-06-15 12:42:38] INFO root fetch - processPackages [configuraptor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/configuraptor-1.3.2.tar.gz tmp/configuraptor-1.4.0.tar.gz --markdown 20230615/c/configuraptor/1.3.2-1.4.0/diff.md --exclude *.pyd
+[2023-06-15 12:42:39] INFO root fetch - processPackages [perun.proxygui]: executing diffoscope
+[2023-06-15 12:42:39] INFO root fetch - processPackages [perun.proxygui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/perun.proxygui-1.8.1.tar.gz tmp/perun.proxygui-1.8.2.tar.gz --markdown 20230615/p/perun.proxygui/1.8.1-1.8.2/diff.md --exclude *.pyd
+[2023-06-15 12:42:39] INFO root fetch - processPackages [pydatawork]: Remove: archive file [/home/abi/fetcher/tmp/pydatawork-0.0.2.tar.gz]
+[2023-06-15 12:42:39] INFO root fetch - processPackages [pydatawork]: Remove: archive file [/home/abi/fetcher/tmp/pydatawork-0.0.3.tar.gz]
+[2023-06-15 12:42:39] INFO root fetch - processPackages [pydatawork]: Start processing: openai-dbd
+[2023-06-15 12:42:39] INFO root fetch - main [MainThread]: End processing [pydatawork]: success
+[2023-06-15 12:42:39] INFO root fetch - processPackages [openai-dbd]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-15 12:42:39] INFO root fetch - processPackages [pysmart365]: Remove: archive file [/home/abi/fetcher/tmp/pysmart365-0.0.7.tar.gz]
+[2023-06-15 12:42:39] INFO root fetch - processPackages [pysmart365]: Remove: archive file [/home/abi/fetcher/tmp/pysmart365-0.0.8.tar.gz]
+[2023-06-15 12:42:39] INFO root fetch - processPackages [pysmart365]: Start processing: cdktf
+[2023-06-15 12:42:39] INFO root fetch - main [MainThread]: End processing [pysmart365]: success
+[2023-06-15 12:42:39] INFO root fetch - processPackages [cdktf]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-06-15 12:42:39] INFO root fetch - processPackages [openai-dbd]: Downloading https://files.pythonhosted.org/packages/d9/31/d86f0f50993f5e8dc618557dd9b665b20eb455d40c850a6f35aed5bd146b/openai_dbd-0.0.8-py3-none-any.whl
+[2023-06-15 12:42:39] INFO root fetch - processPackages [shell-interface]: Remove: archive file [/home/abi/fetcher/tmp/shell_interface-0.10.0.tar.gz]
+[2023-06-15 12:42:39] INFO root fetch - processPackages [shell-interface]: Remove: archive file [/home/abi/fetcher/tmp/shell_interface-0.9.0.tar.gz]
+[2023-06-15 12:42:39] INFO root fetch - main [MainThread]: End processing [shell-interface]: success
+[2023-06-15 12:42:39] INFO root fetch - processPackages [cdktf]: Downloading https://files.pythonhosted.org/packages/87/b3/c146d54086d890741cc9d05c63504e1386b268ef8cbc52d9aa78c1080aa3/cdktf-0.9.3.tar.gz
+[2023-06-15 12:42:39] INFO root fetch - processPackages [wedeliver-core-plus]: Remove: archive file [/home/abi/fetcher/tmp/wedeliver_core_plus-0.0.3.tar.gz]
+[2023-06-15 12:42:39] INFO root fetch - processPackages [wedeliver-core-plus]: Remove: archive file [/home/abi/fetcher/tmp/wedeliver_core_plus-0.0.4.tar.gz]
+[2023-06-15 12:42:39] INFO root fetch - main [MainThread]: End processing [wedeliver-core-plus]: success
+[2023-06-15 12:42:39] INFO root fetch - processPackages [openai-dbd]: Downloading https://files.pythonhosted.org/packages/fc/89/8191aebb736ee888c76204cd3dffedad5abfb27acc27bc9ccabd4a30f62b/openai_dbd-0.0.9-py3-none-any.whl
+[2023-06-15 12:42:40] INFO root fetch - processPackages [sync-pack-sdk]: Remove: archive file [/home/abi/fetcher/tmp/sync-pack-sdk-7.3.8.tar.gz]
+[2023-06-15 12:42:40] INFO root fetch - processPackages [sync-pack-sdk]: Remove: archive file [/home/abi/fetcher/tmp/sync-pack-sdk-7.7.7.tar.gz]
+[2023-06-15 12:42:40] INFO root fetch - main [MainThread]: End processing [sync-pack-sdk]: success
+[2023-06-15 12:42:40] INFO root fetch - processPackages [openai-dbd]: executing diffoscope
+[2023-06-15 12:42:40] INFO root fetch - processPackages [openai-dbd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openai_dbd-0.0.8-py3-none-any.whl.zip tmp/openai_dbd-0.0.9-py3-none-any.whl.zip --markdown 20230615/o/openai-dbd/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-15 12:42:40] INFO root fetch - processPackages [TheSilent]: Remove: archive file [/home/abi/fetcher/tmp/TheSilent-0.0.98.tar.gz]
+[2023-06-15 12:42:40] INFO root fetch - processPackages [TheSilent]: Remove: archive file [/home/abi/fetcher/tmp/TheSilent-0.0.99.tar.gz]
+[2023-06-15 12:42:40] INFO root fetch - main [MainThread]: End processing [TheSilent]: success
+[2023-06-15 12:42:40] INFO root fetch - processPackages [configuraptor]: Remove: archive file [/home/abi/fetcher/tmp/configuraptor-1.3.2.tar.gz]
+[2023-06-15 12:42:40] INFO root fetch - processPackages [configuraptor]: Remove: archive file [/home/abi/fetcher/tmp/configuraptor-1.4.0.tar.gz]
+[2023-06-15 12:42:40] INFO root fetch - main [MainThread]: End processing [configuraptor]: success
+[2023-06-15 12:42:40] INFO root fetch - processPackages [cdktf]: Downloading https://files.pythonhosted.org/packages/80/8d/cbc9ef418f046a8c17f614889aba72b6e668540a2966498bef6f1dbb3a10/cdktf-0.9.4.tar.gz
+[2023-06-15 12:42:40] INFO root fetch - processPackages [cdktf]: executing diffoscope
+[2023-06-15 12:42:40] INFO root fetch - processPackages [cdktf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-0.9.3.tar.gz tmp/cdktf-0.9.4.tar.gz --markdown 20230615/c/cdktf/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-06-15 12:42:41] INFO root fetch - processPackages [openai-dbd]: Remove: archive file [/home/abi/fetcher/tmp/openai_dbd-0.0.8-py3-none-any.whl.zip]
+[2023-06-15 12:42:41] INFO root fetch - processPackages [openai-dbd]: Remove: archive file [/home/abi/fetcher/tmp/openai_dbd-0.0.9-py3-none-any.whl.zip]
+[2023-06-15 12:42:41] INFO root fetch - main [MainThread]: End processing [openai-dbd]: success
+[2023-06-15 12:42:41] INFO root fetch - processPackages [cdktf]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-0.9.3.tar.gz]
+[2023-06-15 12:42:41] INFO root fetch - processPackages [cdktf]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-0.9.4.tar.gz]
+[2023-06-15 12:42:41] INFO root fetch - main [MainThread]: End processing [cdktf]: success
+[2023-06-15 12:42:42] INFO root fetch - processPackages [servicefoundry]: Remove: archive file [/home/abi/fetcher/tmp/servicefoundry-0.9.7.tar.gz]
+[2023-06-15 12:42:42] INFO root fetch - processPackages [servicefoundry]: Remove: archive file [/home/abi/fetcher/tmp/servicefoundry-0.9.8.tar.gz]
+[2023-06-15 12:42:42] INFO root fetch - main [MainThread]: End processing [servicefoundry]: success
+[2023-06-15 12:42:43] INFO root fetch - processPackages [perun.proxygui]: Remove: archive file [/home/abi/fetcher/tmp/perun.proxygui-1.8.1.tar.gz]
+[2023-06-15 12:42:43] INFO root fetch - processPackages [perun.proxygui]: Remove: archive file [/home/abi/fetcher/tmp/perun.proxygui-1.8.2.tar.gz]
+[2023-06-15 12:42:43] INFO root fetch - main [MainThread]: End processing [perun.proxygui]: success
+[2023-06-15 12:42:49] INFO root fetch - processPackages [pywfa]: Remove: archive file [/home/abi/fetcher/tmp/pywfa-0.5.0.tar.gz]
+[2023-06-15 12:42:49] INFO root fetch - processPackages [pywfa]: Remove: archive file [/home/abi/fetcher/tmp/pywfa-0.5.1.tar.gz]
+[2023-06-15 12:42:49] INFO root fetch - main [MainThread]: End processing [pywfa]: success
+[2023-06-15 12:42:49] INFO root fetch - main [MainThread]: Store serial: [18514716]
