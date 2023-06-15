@@ -21596,3 +21596,162 @@ AssertionError: tmp/stackoverflowapithingy-0.1.5.tar.gz does not exist
 [2023-06-15 14:04:25] INFO root fetch - processPackages [emass-client-api]: Remove: archive file [/home/abi/fetcher/tmp/emass_client_api-3.9.1.tar.gz]
 [2023-06-15 14:04:25] INFO root fetch - main [MainThread]: End processing [emass-client-api]: success
 [2023-06-15 14:04:25] INFO root fetch - main [MainThread]: Store serial: [18515703]
+[2023-06-15 14:09:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18515703]
+[2023-06-15 14:09:37] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-06-15 14:09:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: c2isample
+[2023-06-15 14:09:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cybrid-api-id-python
+[2023-06-15 14:09:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: automation-common-test
+[2023-06-15 14:09:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cybrid-api-bank-python
+[2023-06-15 14:09:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cybrid-api-organization-python
+[2023-06-15 14:09:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: containers-sugar
+[2023-06-15 14:09:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dataclasses-avroschema
+[2023-06-15 14:09:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tiledb-cloud
+[2023-06-15 14:09:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sparkpipelineframework
+[2023-06-15 14:09:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: numerical-py
+[2023-06-15 14:09:37] INFO root fetch - processPackages [containers-sugar]: New version: [1.7.1] Old Version: [1.7.0]
+[2023-06-15 14:09:37] WARNING root fetch - processPackages [c2isample]: Skipping, unable to determine old version
+[2023-06-15 14:09:37] INFO root fetch - processPackages [c2isample]: Start processing: django-business-metrics
+[2023-06-15 14:09:37] INFO root fetch - main [MainThread]: End processing [c2isample] error
+[2023-06-15 14:09:37] INFO root fetch - processPackages [automation-common-test]: New version: [2.0.3] Old Version: [2.0.2]
+[2023-06-15 14:09:37] INFO root fetch - processPackages [tiledb-cloud]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-06-15 14:09:37] INFO root fetch - processPackages [numerical-py]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-15 14:09:37] INFO root fetch - processPackages [django-business-metrics]: New version: [1.0.0] Old Version: [0.1.0a5]
+[2023-06-15 14:09:37] INFO root fetch - processPackages [sparkpipelineframework]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-06-15 14:09:37] INFO root fetch - processPackages [cybrid-api-id-python]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-15 14:09:37] INFO root fetch - processPackages [dataclasses-avroschema]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-15 14:09:37] INFO root fetch - processPackages [cybrid-api-bank-python]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-15 14:09:37] INFO root fetch - processPackages [cybrid-api-organization-python]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-15 14:09:37] INFO root fetch - processPackages [automation-common-test]: Downloading https://files.pythonhosted.org/packages/08/be/bb424b4fc68148017402a24a0b1dcc1da745a42975af5ba93e3038397e2b/automation-common-test-2.0.2.tar.gz
+[2023-06-15 14:09:37] INFO root fetch - processPackages [tiledb-cloud]: Downloading https://files.pythonhosted.org/packages/4d/e2/38ce15b3fcb2200474c3f28f12ab07f8fedb6d754ec30860278cc1b550fd/tiledb_cloud-0.9.4-py3-none-any.whl
+[2023-06-15 14:09:37] INFO root fetch - processPackages [cybrid-api-organization-python]: Downloading https://files.pythonhosted.org/packages/8c/f9/11b3397de980d7217c6b56728b693a302080844e78e135a12319c23d1e09/cybrid-api-organization-python-0.9.8.tar.gz
+[2023-06-15 14:09:37] INFO root fetch - processPackages [numerical-py]: Downloading https://files.pythonhosted.org/packages/1d/de/1646bfffd31b37c02f76dd709f9c00e9f79df74282ab8379237197ee3794/numerical_py-0.0.8.tar.gz
+[2023-06-15 14:09:37] INFO root fetch - processPackages [cybrid-api-id-python]: Downloading https://files.pythonhosted.org/packages/50/b7/b977148f4fc829a75a0b07e5a1a330568bf4060c71cf5e0e0a6449ffed87/cybrid-api-id-python-0.9.8.tar.gz
+[2023-06-15 14:09:37] INFO root fetch - processPackages [cybrid-api-bank-python]: Downloading https://files.pythonhosted.org/packages/20/58/83595c25956605935aa08227f1f01b1c02743825aca19e267bc95d1b4928/cybrid-api-bank-python-0.9.8.tar.gz
+[2023-06-15 14:09:37] INFO root fetch - processPackages [containers-sugar]: Downloading https://files.pythonhosted.org/packages/b7/7e/e20807dd255743e39c9fd17ad10968478f4ba963bd3630ee88e9a90dce36/containers_sugar-1.7.0.tar.gz
+[2023-06-15 14:09:37] INFO root fetch - processPackages [dataclasses-avroschema]: Downloading https://files.pythonhosted.org/packages/a5/fb/8ce4dad6fb68b86160ad36f9005f6f7f73f9fb007b588515fbe5a9d73588/dataclasses-avroschema-0.8.0.tar.gz
+[2023-06-15 14:09:37] INFO root fetch - processPackages [cybrid-api-organization-python]: Downloading https://files.pythonhosted.org/packages/6e/9a/cba8516138af9b31af978d1cb5ac08501052b56ac24c59f876cc7432e4cd/cybrid-api-organization-python-0.9.9.tar.gz
+[2023-06-15 14:09:37] INFO root fetch - processPackages [django-business-metrics]: Downloading https://files.pythonhosted.org/packages/94/cb/7f9c04f10f3ae2d796746d42c82acfd6112bcf9f563cb6f807a6dd498515/django-business-metrics-0.1.0a5.tar.gz
+[2023-06-15 14:09:37] INFO root fetch - processPackages [numerical-py]: Downloading https://files.pythonhosted.org/packages/95/1d/7677791c6175f40bd4a70e667ae838300671845f99330142d2e9a3d9f7f8/numerical_py-0.0.9.tar.gz
+[2023-06-15 14:09:37] INFO root fetch - processPackages [tiledb-cloud]: Downloading https://files.pythonhosted.org/packages/aa/55/f0fcd5db15793f389dfd3c37e59718e290812cc782a170f0e8e71ed01c95/tiledb_cloud-0.9.5-py3-none-any.whl
+[2023-06-15 14:09:37] INFO root fetch - processPackages [cybrid-api-id-python]: Downloading https://files.pythonhosted.org/packages/df/0b/f41ef37cacb50f16ff72d759b9fe9a5fd7fe8bde214833a5c722ba07e136/cybrid-api-id-python-0.9.9.tar.gz
+[2023-06-15 14:09:37] INFO root fetch - processPackages [sparkpipelineframework]: Downloading https://files.pythonhosted.org/packages/3d/fa/3e08b2f10d000fdf155b4cd13d8eff184aebe669f7c3ae2d74a9de28c473/sparkpipelineframework-1.0.98.tar.gz
+[2023-06-15 14:09:37] INFO root fetch - processPackages [cybrid-api-organization-python]: executing diffoscope
+[2023-06-15 14:09:37] INFO root fetch - processPackages [cybrid-api-organization-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-organization-python-0.9.8.tar.gz tmp/cybrid-api-organization-python-0.9.9.tar.gz --markdown 20230615/c/cybrid-api-organization-python/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-15 14:09:37] INFO root fetch - processPackages [numerical-py]: executing diffoscope
+[2023-06-15 14:09:37] INFO root fetch - processPackages [numerical-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/numerical_py-0.0.8.tar.gz tmp/numerical_py-0.0.9.tar.gz --markdown 20230615/n/numerical-py/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-15 14:09:37] INFO root fetch - processPackages [cybrid-api-id-python]: executing diffoscope
+[2023-06-15 14:09:37] INFO root fetch - processPackages [cybrid-api-id-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-id-python-0.9.8.tar.gz tmp/cybrid-api-id-python-0.9.9.tar.gz --markdown 20230615/c/cybrid-api-id-python/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-15 14:09:37] INFO root fetch - processPackages [cybrid-api-bank-python]: Downloading https://files.pythonhosted.org/packages/89/0b/5831e52f1895b5ffe4c5b8862788216f9cf6c8554dfffa92e8805799baaf/cybrid-api-bank-python-0.9.9.tar.gz
+[2023-06-15 14:09:37] INFO root fetch - processPackages [automation-common-test]: Downloading https://files.pythonhosted.org/packages/0e/13/4ee0175ce60e076cd42eed3fa2d187dae02e181347a1e50ee049a659bd41/automation-common-test-2.0.3.tar.gz
+[2023-06-15 14:09:37] INFO root fetch - processPackages [tiledb-cloud]: executing diffoscope
+[2023-06-15 14:09:37] INFO root fetch - processPackages [tiledb-cloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tiledb_cloud-0.9.4-py3-none-any.whl.zip tmp/tiledb_cloud-0.9.5-py3-none-any.whl.zip --markdown 20230615/t/tiledb-cloud/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-06-15 14:09:37] INFO root fetch - processPackages [cybrid-api-bank-python]: executing diffoscope
+[2023-06-15 14:09:37] INFO root fetch - processPackages [cybrid-api-bank-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-bank-python-0.9.8.tar.gz tmp/cybrid-api-bank-python-0.9.9.tar.gz --markdown 20230615/c/cybrid-api-bank-python/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-15 14:09:37] INFO root fetch - processPackages [automation-common-test]: executing diffoscope
+[2023-06-15 14:09:37] INFO root fetch - processPackages [automation-common-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/automation-common-test-2.0.2.tar.gz tmp/automation-common-test-2.0.3.tar.gz --markdown 20230615/a/automation-common-test/2.0.2-2.0.3/diff.md --exclude *.pyd
+[2023-06-15 14:09:38] INFO root fetch - processPackages [containers-sugar]: Downloading https://files.pythonhosted.org/packages/cd/3c/bba0ba658aee7129d91a591d2d2bb30c95d44a877e88e94b4e0c19b776ac/containers_sugar-1.7.1.tar.gz
+[2023-06-15 14:09:38] INFO root fetch - processPackages [dataclasses-avroschema]: Downloading https://files.pythonhosted.org/packages/d7/da/865deccd18dc91b8b341a76779391cca2ea3b77382020e10d3c3f44e53d3/dataclasses-avroschema-0.9.0.tar.gz
+[2023-06-15 14:09:38] INFO root fetch - processPackages [django-business-metrics]: Downloading https://files.pythonhosted.org/packages/f2/fb/c55673a56fb3cf6e39656964d436f3a9dc941a0e0fa477cb085ced9c7652/django-business-metrics-1.0.0.tar.gz
+[2023-06-15 14:09:38] INFO root fetch - processPackages [containers-sugar]: executing diffoscope
+[2023-06-15 14:09:38] INFO root fetch - processPackages [containers-sugar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/containers_sugar-1.7.0.tar.gz tmp/containers_sugar-1.7.1.tar.gz --markdown 20230615/c/containers-sugar/1.7.0-1.7.1/diff.md --exclude *.pyd
+[2023-06-15 14:09:38] INFO root fetch - processPackages [django-business-metrics]: executing diffoscope
+[2023-06-15 14:09:38] INFO root fetch - processPackages [django-business-metrics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-business-metrics-0.1.0a5.tar.gz tmp/django-business-metrics-1.0.0.tar.gz --markdown 20230615/d/django-business-metrics/0.1.0a5-1.0.0/diff.md --exclude *.pyd
+[2023-06-15 14:09:38] INFO root fetch - processPackages [sparkpipelineframework]: Downloading https://files.pythonhosted.org/packages/ed/e9/5708be80e63dcc98716549cd991b88c536e6028a551e0fea36d6fbb67d3e/sparkpipelineframework-1.0.99.tar.gz
+[2023-06-15 14:09:38] INFO root fetch - processPackages [dataclasses-avroschema]: executing diffoscope
+[2023-06-15 14:09:38] INFO root fetch - processPackages [dataclasses-avroschema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataclasses-avroschema-0.8.0.tar.gz tmp/dataclasses-avroschema-0.9.0.tar.gz --markdown 20230615/d/dataclasses-avroschema/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-15 14:09:38] INFO root fetch - processPackages [sparkpipelineframework]: executing diffoscope
+[2023-06-15 14:09:38] INFO root fetch - processPackages [sparkpipelineframework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sparkpipelineframework-1.0.98.tar.gz tmp/sparkpipelineframework-1.0.99.tar.gz --markdown 20230615/s/sparkpipelineframework/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-06-15 14:09:39] INFO root fetch - processPackages [numerical-py]: Remove: archive file [/home/abi/fetcher/tmp/numerical_py-0.0.8.tar.gz]
+[2023-06-15 14:09:39] INFO root fetch - processPackages [numerical-py]: Remove: archive file [/home/abi/fetcher/tmp/numerical_py-0.0.9.tar.gz]
+[2023-06-15 14:09:39] INFO root fetch - processPackages [numerical-py]: Start processing: tf-agents-nightly
+[2023-06-15 14:09:39] INFO root fetch - main [MainThread]: End processing [numerical-py]: success
+[2023-06-15 14:09:39] INFO root fetch - processPackages [tf-agents-nightly]: New version: [0.9.0.dev20210812] Old Version: [0.9.0.dev20210811]
+[2023-06-15 14:09:39] INFO root fetch - processPackages [tf-agents-nightly]: Downloading https://files.pythonhosted.org/packages/2f/8e/5b1259fdcefcc564c90842a0c1206b58d6abfbb7914bcbd38710ba780d40/tf_agents_nightly-0.9.0.dev20210811-py3-none-any.whl
+[2023-06-15 14:09:39] INFO root fetch - processPackages [tf-agents-nightly]: Downloading https://files.pythonhosted.org/packages/ae/8c/d1e1b7b8f7b6ceee69bbf569ab3bd6f79ffd9963ff66079303942550d03d/tf_agents_nightly-0.9.0.dev20210812-py3-none-any.whl
+[2023-06-15 14:09:39] INFO root fetch - processPackages [automation-common-test]: Remove: archive file [/home/abi/fetcher/tmp/automation-common-test-2.0.2.tar.gz]
+[2023-06-15 14:09:39] INFO root fetch - processPackages [automation-common-test]: Remove: archive file [/home/abi/fetcher/tmp/automation-common-test-2.0.3.tar.gz]
+[2023-06-15 14:09:39] INFO root fetch - processPackages [automation-common-test]: Start processing: cca-zoo
+[2023-06-15 14:09:39] INFO root fetch - main [MainThread]: End processing [automation-common-test]: success
+[2023-06-15 14:09:39] INFO root fetch - processPackages [cybrid-api-organization-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-organization-python-0.9.8.tar.gz]
+[2023-06-15 14:09:39] INFO root fetch - processPackages [cybrid-api-organization-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-organization-python-0.9.9.tar.gz]
+[2023-06-15 14:09:39] INFO root fetch - processPackages [cybrid-api-organization-python]: Start processing: libcoveofds
+[2023-06-15 14:09:39] INFO root fetch - main [MainThread]: End processing [cybrid-api-organization-python]: success
+[2023-06-15 14:09:39] INFO root fetch - processPackages [cca-zoo]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-06-15 14:09:39] INFO root fetch - processPackages [libcoveofds]: New version: [0.8.0] Old Version: [0.7.0]
+[2023-06-15 14:09:39] INFO root fetch - processPackages [django-business-metrics]: Remove: archive file [/home/abi/fetcher/tmp/django-business-metrics-0.1.0a5.tar.gz]
+[2023-06-15 14:09:39] INFO root fetch - processPackages [django-business-metrics]: Remove: archive file [/home/abi/fetcher/tmp/django-business-metrics-1.0.0.tar.gz]
+[2023-06-15 14:09:39] INFO root fetch - processPackages [django-business-metrics]: Start processing: resimpyx
+[2023-06-15 14:09:39] INFO root fetch - main [MainThread]: End processing [django-business-metrics]: success
+[2023-06-15 14:09:39] INFO root fetch - processPackages [resimpyx]: New version: [0.0.1] Old Version: [0.0.0.3]
+[2023-06-15 14:09:39] INFO root fetch - processPackages [cca-zoo]: Downloading https://files.pythonhosted.org/packages/32/fd/2603a4d281577b5801a67a74b4bd9cc37b7e80ab4816688870b2be571835/cca_zoo-2.0.0.tar.gz
+[2023-06-15 14:09:39] INFO root fetch - processPackages [resimpyx]: Downloading https://files.pythonhosted.org/packages/be/96/1c092e388f9dd8121e747031eb0dd83a9d0c558f2c9f46635daa6513fcbb/resimpyx-0.0.0.3.tar.gz
+[2023-06-15 14:09:39] INFO root fetch - processPackages [libcoveofds]: Downloading https://files.pythonhosted.org/packages/b0/e9/14409f7b7a16fc271690cda0200bb3d4bf75312a2ce533561dec8fa60a11/libcoveofds-0.7.0.tar.gz
+[2023-06-15 14:09:39] INFO root fetch - processPackages [resimpyx]: Downloading https://files.pythonhosted.org/packages/11/1f/0d107e5f7664f93f5f2b8b83c1c7647eba44cba3e0834a1f690bdcaab7ef/resimpyx-0.0.1.tar.gz
+[2023-06-15 14:09:39] INFO root fetch - processPackages [cybrid-api-id-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-id-python-0.9.8.tar.gz]
+[2023-06-15 14:09:39] INFO root fetch - processPackages [cybrid-api-id-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-id-python-0.9.9.tar.gz]
+[2023-06-15 14:09:39] INFO root fetch - processPackages [cybrid-api-id-python]: Start processing: grad-cam
+[2023-06-15 14:09:39] INFO root fetch - main [MainThread]: End processing [cybrid-api-id-python]: success
+[2023-06-15 14:09:39] INFO root fetch - processPackages [resimpyx]: executing diffoscope
+[2023-06-15 14:09:39] INFO root fetch - processPackages [resimpyx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/resimpyx-0.0.0.3.tar.gz tmp/resimpyx-0.0.1.tar.gz --markdown 20230615/r/resimpyx/0.0.0.3-0.0.1/diff.md --exclude *.pyd
+[2023-06-15 14:09:39] INFO root fetch - processPackages [grad-cam]: New version: [1.4.6] Old Version: [1.4.5]
+[2023-06-15 14:09:39] INFO root fetch - processPackages [cca-zoo]: Downloading https://files.pythonhosted.org/packages/9d/55/45f15dc273538e08f45feef678516359dc66ef502def92e44bbf45f093c5/cca_zoo-2.0.1.tar.gz
+[2023-06-15 14:09:39] INFO root fetch - processPackages [libcoveofds]: Downloading https://files.pythonhosted.org/packages/f4/aa/2968045e69203c92772b3974cc1d9c07ab4d195e31ab91a94a37aedb9c73/libcoveofds-0.8.0.tar.gz
+[2023-06-15 14:09:40] INFO root fetch - processPackages [grad-cam]: Downloading https://files.pythonhosted.org/packages/42/4d/f3b45824fa23f3e17ddc16f54a1dd966ce1f0722177f56fbf8d689b98752/grad-cam-1.4.5.tar.gz
+[2023-06-15 14:09:40] INFO root fetch - processPackages [cca-zoo]: executing diffoscope
+[2023-06-15 14:09:40] INFO root fetch - processPackages [cca-zoo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cca_zoo-2.0.0.tar.gz tmp/cca_zoo-2.0.1.tar.gz --markdown 20230615/c/cca-zoo/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-06-15 14:09:40] INFO root fetch - processPackages [tf-agents-nightly]: executing diffoscope
+[2023-06-15 14:09:40] INFO root fetch - processPackages [tf-agents-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_agents_nightly-0.9.0.dev20210811-py3-none-any.whl.zip tmp/tf_agents_nightly-0.9.0.dev20210812-py3-none-any.whl.zip --markdown 20230615/t/tf-agents-nightly/0.9.0.dev20210811-0.9.0.dev20210812/diff.md --exclude *.pyd
+[2023-06-15 14:09:40] INFO root fetch - processPackages [libcoveofds]: executing diffoscope
+[2023-06-15 14:09:40] INFO root fetch - processPackages [libcoveofds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libcoveofds-0.7.0.tar.gz tmp/libcoveofds-0.8.0.tar.gz --markdown 20230615/l/libcoveofds/0.7.0-0.8.0/diff.md --exclude *.pyd
+[2023-06-15 14:09:40] INFO root fetch - processPackages [dataclasses-avroschema]: Remove: archive file [/home/abi/fetcher/tmp/dataclasses-avroschema-0.8.0.tar.gz]
+[2023-06-15 14:09:40] INFO root fetch - processPackages [dataclasses-avroschema]: Remove: archive file [/home/abi/fetcher/tmp/dataclasses-avroschema-0.9.0.tar.gz]
+[2023-06-15 14:09:40] INFO root fetch - processPackages [dataclasses-avroschema]: Start processing: m3-gar-client
+[2023-06-15 14:09:40] INFO root fetch - main [MainThread]: End processing [dataclasses-avroschema]: success
+[2023-06-15 14:09:40] INFO root fetch - processPackages [m3-gar-client]: New version: [1.0.0] Old Version: [0.1.7]
+[2023-06-15 14:09:40] INFO root fetch - processPackages [containers-sugar]: Remove: archive file [/home/abi/fetcher/tmp/containers_sugar-1.7.0.tar.gz]
+[2023-06-15 14:09:40] INFO root fetch - processPackages [containers-sugar]: Remove: archive file [/home/abi/fetcher/tmp/containers_sugar-1.7.1.tar.gz]
+[2023-06-15 14:09:40] INFO root fetch - processPackages [containers-sugar]: Start processing: slapos.toolbox
+[2023-06-15 14:09:40] INFO root fetch - main [MainThread]: End processing [containers-sugar]: success
+[2023-06-15 14:09:40] INFO root fetch - processPackages [slapos.toolbox]: New version: [0.99] Old Version: [0.98]
+[2023-06-15 14:09:40] INFO root fetch - processPackages [m3-gar-client]: Downloading https://files.pythonhosted.org/packages/65/17/ce6922e9a2f052b28aa9d89ab0b91337985f6658f7ba46efd0e4aca98540/m3-gar-client-0.1.7.tar.gz
+[2023-06-15 14:09:40] INFO root fetch - processPackages [slapos.toolbox]: Downloading https://files.pythonhosted.org/packages/48/51/64d4a2d4140d818d0f4880455b738582832413a9e5492425172d57f4efab/slapos.toolbox-0.98.tar.gz
+[2023-06-15 14:09:41] INFO root fetch - processPackages [m3-gar-client]: Downloading https://files.pythonhosted.org/packages/59/a4/857ecd77364df9e224bff2d9c2139c751643bf85c9d6c1146d0e0dd7c9ad/m3-gar-client-1.0.0.tar.gz
+[2023-06-15 14:09:41] INFO root fetch - processPackages [cybrid-api-bank-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-bank-python-0.9.8.tar.gz]
+[2023-06-15 14:09:41] INFO root fetch - processPackages [cybrid-api-bank-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-bank-python-0.9.9.tar.gz]
+[2023-06-15 14:09:41] INFO root fetch - main [MainThread]: End processing [cybrid-api-bank-python]: success
+[2023-06-15 14:09:41] INFO root fetch - processPackages [grad-cam]: Downloading https://files.pythonhosted.org/packages/d8/6b/f3b4e6e2c869f4757dc627993f22d48400a5c5247fa44a590ecd847c6bb4/grad-cam-1.4.6.tar.gz
+[2023-06-15 14:09:41] INFO root fetch - processPackages [m3-gar-client]: executing diffoscope
+[2023-06-15 14:09:41] INFO root fetch - processPackages [m3-gar-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/m3-gar-client-0.1.7.tar.gz tmp/m3-gar-client-1.0.0.tar.gz --markdown 20230615/m/m3-gar-client/0.1.7-1.0.0/diff.md --exclude *.pyd
+[2023-06-15 14:09:41] INFO root fetch - processPackages [grad-cam]: executing diffoscope
+[2023-06-15 14:09:41] INFO root fetch - processPackages [grad-cam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grad-cam-1.4.5.tar.gz tmp/grad-cam-1.4.6.tar.gz --markdown 20230615/g/grad-cam/1.4.5-1.4.6/diff.md --exclude *.pyd
+[2023-06-15 14:09:41] INFO root fetch - processPackages [resimpyx]: Remove: archive file [/home/abi/fetcher/tmp/resimpyx-0.0.0.3.tar.gz]
+[2023-06-15 14:09:41] INFO root fetch - processPackages [resimpyx]: Remove: archive file [/home/abi/fetcher/tmp/resimpyx-0.0.1.tar.gz]
+[2023-06-15 14:09:41] INFO root fetch - main [MainThread]: End processing [resimpyx]: success
+[2023-06-15 14:09:42] INFO root fetch - processPackages [slapos.toolbox]: Downloading https://files.pythonhosted.org/packages/b8/ed/b5607d2d84aa4ef9c3d583f2d2b296ae5837ab5ee5a01caf01d599275444/slapos.toolbox-0.99.tar.gz
+[2023-06-15 14:09:42] INFO root fetch - processPackages [cca-zoo]: Remove: archive file [/home/abi/fetcher/tmp/cca_zoo-2.0.0.tar.gz]
+[2023-06-15 14:09:42] INFO root fetch - processPackages [cca-zoo]: Remove: archive file [/home/abi/fetcher/tmp/cca_zoo-2.0.1.tar.gz]
+[2023-06-15 14:09:42] INFO root fetch - main [MainThread]: End processing [cca-zoo]: success
+[2023-06-15 14:09:42] INFO root fetch - processPackages [libcoveofds]: Remove: archive file [/home/abi/fetcher/tmp/libcoveofds-0.7.0.tar.gz]
+[2023-06-15 14:09:42] INFO root fetch - processPackages [libcoveofds]: Remove: archive file [/home/abi/fetcher/tmp/libcoveofds-0.8.0.tar.gz]
+[2023-06-15 14:09:42] INFO root fetch - main [MainThread]: End processing [libcoveofds]: success
+[2023-06-15 14:09:42] INFO root fetch - processPackages [slapos.toolbox]: executing diffoscope
+[2023-06-15 14:09:42] INFO root fetch - processPackages [slapos.toolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slapos.toolbox-0.98.tar.gz tmp/slapos.toolbox-0.99.tar.gz --markdown 20230615/s/slapos.toolbox/0.98-0.99/diff.md --exclude *.pyd
+[2023-06-15 14:09:43] INFO root fetch - processPackages [m3-gar-client]: Remove: archive file [/home/abi/fetcher/tmp/m3-gar-client-0.1.7.tar.gz]
+[2023-06-15 14:09:43] INFO root fetch - processPackages [m3-gar-client]: Remove: archive file [/home/abi/fetcher/tmp/m3-gar-client-1.0.0.tar.gz]
+[2023-06-15 14:09:43] INFO root fetch - main [MainThread]: End processing [m3-gar-client]: success
+[2023-06-15 14:09:43] INFO root fetch - processPackages [grad-cam]: Remove: archive file [/home/abi/fetcher/tmp/grad-cam-1.4.5.tar.gz]
+[2023-06-15 14:09:43] INFO root fetch - processPackages [grad-cam]: Remove: archive file [/home/abi/fetcher/tmp/grad-cam-1.4.6.tar.gz]
+[2023-06-15 14:09:43] INFO root fetch - main [MainThread]: End processing [grad-cam]: success
+[2023-06-15 14:09:44] INFO root fetch - processPackages [tiledb-cloud]: Remove: archive file [/home/abi/fetcher/tmp/tiledb_cloud-0.9.4-py3-none-any.whl.zip]
+[2023-06-15 14:09:44] INFO root fetch - processPackages [tiledb-cloud]: Remove: archive file [/home/abi/fetcher/tmp/tiledb_cloud-0.9.5-py3-none-any.whl.zip]
+[2023-06-15 14:09:44] INFO root fetch - main [MainThread]: End processing [tiledb-cloud]: success
+[2023-06-15 14:09:45] INFO root fetch - processPackages [sparkpipelineframework]: Remove: archive file [/home/abi/fetcher/tmp/sparkpipelineframework-1.0.98.tar.gz]
+[2023-06-15 14:09:45] INFO root fetch - processPackages [sparkpipelineframework]: Remove: archive file [/home/abi/fetcher/tmp/sparkpipelineframework-1.0.99.tar.gz]
+[2023-06-15 14:09:45] INFO root fetch - main [MainThread]: End processing [sparkpipelineframework]: success
+[2023-06-15 14:09:45] INFO root fetch - processPackages [tf-agents-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_agents_nightly-0.9.0.dev20210811-py3-none-any.whl.zip]
+[2023-06-15 14:09:45] INFO root fetch - processPackages [tf-agents-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_agents_nightly-0.9.0.dev20210812-py3-none-any.whl.zip]
+[2023-06-15 14:09:45] INFO root fetch - main [MainThread]: End processing [tf-agents-nightly]: success
+[2023-06-15 14:09:48] INFO root fetch - processPackages [slapos.toolbox]: Remove: archive file [/home/abi/fetcher/tmp/slapos.toolbox-0.98.tar.gz]
+[2023-06-15 14:09:48] INFO root fetch - processPackages [slapos.toolbox]: Remove: archive file [/home/abi/fetcher/tmp/slapos.toolbox-0.99.tar.gz]
+[2023-06-15 14:09:48] INFO root fetch - main [MainThread]: End processing [slapos.toolbox]: success
+[2023-06-15 14:09:48] INFO root fetch - main [MainThread]: Store serial: [18515754]
