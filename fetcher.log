@@ -12360,3 +12360,202 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-06-15 09:10:33] INFO root fetch - processPackages [UComp]: Remove: archive file [/home/abi/fetcher/tmp/UComp-1.0.61.tar.gz]
 [2023-06-15 09:10:33] INFO root fetch - main [MainThread]: End processing [UComp]: success
 [2023-06-15 09:10:33] INFO root fetch - main [MainThread]: Store serial: [18512113]
+[2023-06-15 09:15:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18512113]
+[2023-06-15 09:15:42] INFO root fetch - main [MainThread]: Found 24 changed packages
+[2023-06-15 09:15:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: myl-discovery
+[2023-06-15 09:15:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pytorch-pipline
+[2023-06-15 09:15:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bitalign
+[2023-06-15 09:15:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyarmor.cli.core.alpine
+[2023-06-15 09:15:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: django-data-browser
+[2023-06-15 09:15:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: streamlit-nightly
+[2023-06-15 09:15:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: simplegeomap
+[2023-06-15 09:15:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pymycobot
+[2023-06-15 09:15:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: yplib
+[2023-06-15 09:15:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pyarmor.cli.core.android
+[2023-06-15 09:15:42] INFO root fetch - processPackages [pyarmor.cli.core.alpine]: New version: [3.2.6] Old Version: [3.2.5]
+[2023-06-15 09:15:42] WARNING root fetch - processPackages [bitalign]: Skipping, unable to determine old version
+[2023-06-15 09:15:42] INFO root fetch - processPackages [bitalign]: Start processing: checkov
+[2023-06-15 09:15:42] INFO root fetch - main [MainThread]: End processing [bitalign] error
+[2023-06-15 09:15:42] INFO root fetch - processPackages [pytorch-pipline]: New version: [0.0.8] Old Version: [0.0.5]
+[2023-06-15 09:15:42] INFO root fetch - processPackages [pyarmor.cli.core.android]: New version: [3.2.6] Old Version: [3.2.5]
+[2023-06-15 09:15:42] INFO root fetch - processPackages [myl-discovery]: New version: [0.5.4] Old Version: [0.5.3]
+[2023-06-15 09:15:42] WARNING root fetch - processPackages [simplegeomap]: Skipping, unable to determine old version
+[2023-06-15 09:15:42] INFO root fetch - processPackages [simplegeomap]: Start processing: pyarmor.cli.core.darwin
+[2023-06-15 09:15:42] INFO root fetch - main [MainThread]: End processing [simplegeomap] error
+[2023-06-15 09:15:42] INFO root fetch - processPackages [pymycobot]: New version: [3.1.2] Old Version: [3.1.1]
+[2023-06-15 09:15:42] INFO root fetch - processPackages [yplib]: New version: [1.3.4] Old Version: [1.3.3]
+[2023-06-15 09:15:42] INFO root fetch - processPackages [django-data-browser]: New version: [4.2.3] Old Version: [4.2.2]
+[2023-06-15 09:15:42] INFO root fetch - processPackages [checkov]: New version: [2.3.99] Old Version: [2.3.98]
+[2023-06-15 09:15:42] INFO root fetch - processPackages [pyarmor.cli.core.darwin]: New version: [3.2.6] Old Version: [3.2.5]
+[2023-06-15 09:15:42] INFO root fetch - processPackages [streamlit-nightly]: New version: [1.9.3.dev20220601] Old Version: [1.9.3.dev20220531]
+[2023-06-15 09:15:42] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/46/ed/8083c416ac7f6e267eee33b1b281413d6cf4549db10425d2137a7e2a385a/yplib-1.3.3.tar.gz
+[2023-06-15 09:15:42] INFO root fetch - processPackages [pymycobot]: Downloading https://files.pythonhosted.org/packages/72/37/1eaeeb7927ceee80b2d40b898a01205a4e79773a36a9e7f733d0b3545ad8/pymycobot-3.1.1.tar.gz
+[2023-06-15 09:15:42] INFO root fetch - processPackages [pyarmor.cli.core.alpine]: Downloading https://files.pythonhosted.org/packages/01/88/7efbda431664573711aa92931898409ccaf85091fe06397552c2485777c1/pyarmor.cli.core.alpine-3.2.5-cp39-none-any.whl
+[2023-06-15 09:15:42] INFO root fetch - processPackages [pytorch-pipline]: Downloading https://files.pythonhosted.org/packages/71/e6/33494c8c3a296103b87034c2721396a9dd7c45e34e81fa8d488e3010032d/pytorch-pipline-0.0.5.tar.gz
+[2023-06-15 09:15:42] INFO root fetch - processPackages [checkov]: Downloading https://files.pythonhosted.org/packages/8f/c0/b3713d4cbc03ff63d42af6bc96060bf07ac510f578af21d0beb23a58ebd5/checkov-2.3.98.tar.gz
+[2023-06-15 09:15:42] INFO root fetch - processPackages [myl-discovery]: Downloading https://files.pythonhosted.org/packages/f2/1c/00d3382f9ef6847b4a1337f56f4754e1dcd494a9aa7383cdf5363f33fa4a/myl-discovery-0.5.3.tar.gz
+[2023-06-15 09:15:42] INFO root fetch - processPackages [pyarmor.cli.core.android]: Downloading https://files.pythonhosted.org/packages/65/aa/543b4fdf951a07d671d9b4aa63bc48964f334af85c4288a063bf09da8eb4/pyarmor.cli.core.android-3.2.5-cp39-none-any.whl
+[2023-06-15 09:15:42] WARNING root fetch - processPackages [pyarmor.cli.core.android]: Skipping package: exceeds size limit 12503683>=10485760
+[2023-06-15 09:15:42] INFO root fetch - processPackages [pyarmor.cli.core.android]: Start processing: xj-user
+[2023-06-15 09:15:42] INFO root fetch - main [MainThread]: End processing [pyarmor.cli.core.android] error
+[2023-06-15 09:15:42] INFO root fetch - processPackages [streamlit-nightly]: Downloading https://files.pythonhosted.org/packages/bb/77/73ca36b159a0852f16710c30eca243772d04e8d37c1497e26e837ebad465/streamlit-nightly-1.9.3.dev20220531.tar.gz
+[2023-06-15 09:15:42] INFO root fetch - processPackages [pyarmor.cli.core.darwin]: Downloading https://files.pythonhosted.org/packages/1f/e2/94a5769d36e9ecd8f07f26cb01bd5a2071eba0d9a2476ee587cf7dd0e387/pyarmor.cli.core.darwin-3.2.5-cp39-none-any.whl
+[2023-06-15 09:15:42] INFO root fetch - processPackages [django-data-browser]: Downloading https://files.pythonhosted.org/packages/ae/5a/941a87d31d53593d065d4040d4c4cafdc0f085409283ea6671f240e7c968/django-data-browser-4.2.2.tar.gz
+[2023-06-15 09:15:42] INFO root fetch - processPackages [xj-user]: New version: [1.2.99] Old Version: [1.2.98]
+[2023-06-15 09:15:42] INFO root fetch - processPackages [pymycobot]: Downloading https://files.pythonhosted.org/packages/0d/3b/4b9aecc22dcad85b121e7cea8e69abd8dd4c787a399b7eb5a5e87a22b0ed/pymycobot-3.1.2.tar.gz
+[2023-06-15 09:15:42] INFO root fetch - processPackages [checkov]: Downloading https://files.pythonhosted.org/packages/36/b2/faea7cf4d04d72880327d7e73a0327922cb8cd1c61a51e8fd38f344e9f2f/checkov-2.3.99.tar.gz
+[2023-06-15 09:15:42] INFO root fetch - processPackages [xj-user]: Downloading https://files.pythonhosted.org/packages/26/be/e0d28eecf05fff47ab8dc5bf0e46eff90f3cee3ae03596f052698e5df93d/xj_user-1.2.98.tar.gz
+[2023-06-15 09:15:42] INFO root fetch - processPackages [myl-discovery]: Downloading https://files.pythonhosted.org/packages/91/45/6ea9ed955a7503912b589711d0c18c5a005a47cac6876bcc5c896b9dcef6/myl-discovery-0.5.4.tar.gz
+[2023-06-15 09:15:43] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/76/23/d5e9346d54428292d288995705f5c1e46e468048dea479739355f2a7eed8/yplib-1.3.4.tar.gz
+[2023-06-15 09:15:43] INFO root fetch - processPackages [pymycobot]: executing diffoscope
+[2023-06-15 09:15:43] INFO root fetch - processPackages [pymycobot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymycobot-3.1.1.tar.gz tmp/pymycobot-3.1.2.tar.gz --markdown 20230615/p/pymycobot/3.1.1-3.1.2/diff.md --exclude *.pyd
+[2023-06-15 09:15:43] INFO root fetch - processPackages [pytorch-pipline]: Downloading https://files.pythonhosted.org/packages/f8/07/2615378f3394ed46913e333e6f53fbf51b8cf0ee97367521f131c6c1bd8b/pytorch-pipline-0.0.8.tar.gz
+[2023-06-15 09:15:43] INFO root fetch - processPackages [checkov]: executing diffoscope
+[2023-06-15 09:15:43] INFO root fetch - processPackages [checkov]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/checkov-2.3.98.tar.gz tmp/checkov-2.3.99.tar.gz --markdown 20230615/c/checkov/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2023-06-15 09:15:43] INFO root fetch - processPackages [xj-user]: Downloading https://files.pythonhosted.org/packages/f9/79/9b7536f52cd2a21b092678ce5bc888a17a7c527cef9ae891d864354f2e5c/xj_user-1.2.99.tar.gz
+[2023-06-15 09:15:43] INFO root fetch - processPackages [pyarmor.cli.core.darwin]: Downloading https://files.pythonhosted.org/packages/45/f1/4aeed1d51aaf3a0bebb0ee823de8e900acbc5291cb14c26027a2cb95d09c/pyarmor.cli.core.darwin-3.2.6-cp39-none-any.whl
+[2023-06-15 09:15:43] INFO root fetch - processPackages [django-data-browser]: Downloading https://files.pythonhosted.org/packages/d8/4d/d9d92182cb6c2feb8d423ccd51ccfaaff4ca99112187339c90e07b3e7450/django-data-browser-4.2.3.tar.gz
+[2023-06-15 09:15:43] INFO root fetch - processPackages [myl-discovery]: executing diffoscope
+[2023-06-15 09:15:43] INFO root fetch - processPackages [myl-discovery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/myl-discovery-0.5.3.tar.gz tmp/myl-discovery-0.5.4.tar.gz --markdown 20230615/m/myl-discovery/0.5.3-0.5.4/diff.md --exclude *.pyd
+[2023-06-15 09:15:43] INFO root fetch - processPackages [pyarmor.cli.core.alpine]: Downloading https://files.pythonhosted.org/packages/96/6c/b8915057541b1b643f97964c15328626d8a9fcebd4947bf10176feaebac1/pyarmor.cli.core.alpine-3.2.6-cp39-none-any.whl
+[2023-06-15 09:15:43] INFO root fetch - processPackages [xj-user]: executing diffoscope
+[2023-06-15 09:15:43] INFO root fetch - processPackages [xj-user]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xj_user-1.2.98.tar.gz tmp/xj_user-1.2.99.tar.gz --markdown 20230615/x/xj-user/1.2.98-1.2.99/diff.md --exclude *.pyd
+[2023-06-15 09:15:43] INFO root fetch - processPackages [yplib]: executing diffoscope
+[2023-06-15 09:15:43] INFO root fetch - processPackages [yplib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yplib-1.3.3.tar.gz tmp/yplib-1.3.4.tar.gz --markdown 20230615/y/yplib/1.3.3-1.3.4/diff.md --exclude *.pyd
+[2023-06-15 09:15:43] INFO root fetch - processPackages [pytorch-pipline]: executing diffoscope
+[2023-06-15 09:15:43] INFO root fetch - processPackages [pytorch-pipline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytorch-pipline-0.0.5.tar.gz tmp/pytorch-pipline-0.0.8.tar.gz --markdown 20230615/p/pytorch-pipline/0.0.5-0.0.8/diff.md --exclude *.pyd
+[2023-06-15 09:15:43] INFO root fetch - processPackages [pyarmor.cli.core.darwin]: executing diffoscope
+[2023-06-15 09:15:43] INFO root fetch - processPackages [pyarmor.cli.core.darwin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyarmor.cli.core.darwin-3.2.5-cp39-none-any.whl.zip tmp/pyarmor.cli.core.darwin-3.2.6-cp39-none-any.whl.zip --markdown 20230615/p/pyarmor.cli.core.darwin/3.2.5-3.2.6/diff.md --exclude *.pyd
+[2023-06-15 09:15:43] INFO root fetch - processPackages [django-data-browser]: executing diffoscope
+[2023-06-15 09:15:43] INFO root fetch - processPackages [django-data-browser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-data-browser-4.2.2.tar.gz tmp/django-data-browser-4.2.3.tar.gz --markdown 20230615/d/django-data-browser/4.2.2-4.2.3/diff.md --exclude *.pyd
+[2023-06-15 09:15:43] INFO root fetch - processPackages [pyarmor.cli.core.alpine]: executing diffoscope
+[2023-06-15 09:15:43] INFO root fetch - processPackages [pyarmor.cli.core.alpine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyarmor.cli.core.alpine-3.2.5-cp39-none-any.whl.zip tmp/pyarmor.cli.core.alpine-3.2.6-cp39-none-any.whl.zip --markdown 20230615/p/pyarmor.cli.core.alpine/3.2.5-3.2.6/diff.md --exclude *.pyd
+[2023-06-15 09:15:44] INFO root fetch - processPackages [streamlit-nightly]: Downloading https://files.pythonhosted.org/packages/3f/2a/57340e81e1d94e80229a3f8d9acc663cdad9ffd0ead21e2c20c76b879c18/streamlit-nightly-1.9.3.dev20220601.tar.gz
+[2023-06-15 09:15:45] INFO root fetch - processPackages [pytorch-pipline]: Remove: archive file [/home/abi/fetcher/tmp/pytorch-pipline-0.0.5.tar.gz]
+[2023-06-15 09:15:45] INFO root fetch - processPackages [pytorch-pipline]: Remove: archive file [/home/abi/fetcher/tmp/pytorch-pipline-0.0.8.tar.gz]
+[2023-06-15 09:15:45] INFO root fetch - processPackages [pytorch-pipline]: Start processing: pyarmor.cli.core.freebsd
+[2023-06-15 09:15:45] INFO root fetch - main [MainThread]: End processing [pytorch-pipline]: success
+[2023-06-15 09:15:45] INFO root fetch - processPackages [pyarmor.cli.core.freebsd]: New version: [3.2.6] Old Version: [3.2.5]
+[2023-06-15 09:15:45] INFO root fetch - processPackages [streamlit-nightly]: executing diffoscope
+[2023-06-15 09:15:45] INFO root fetch - processPackages [streamlit-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit-nightly-1.9.3.dev20220531.tar.gz tmp/streamlit-nightly-1.9.3.dev20220601.tar.gz --markdown 20230615/s/streamlit-nightly/1.9.3.dev20220531-1.9.3.dev20220601/diff.md --exclude *.pyd
+[2023-06-15 09:15:45] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-1.3.3.tar.gz]
+[2023-06-15 09:15:45] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-1.3.4.tar.gz]
+[2023-06-15 09:15:45] INFO root fetch - processPackages [yplib]: Start processing: RobertCommonBasic
+[2023-06-15 09:15:45] INFO root fetch - main [MainThread]: End processing [yplib]: success
+[2023-06-15 09:15:45] INFO root fetch - processPackages [RobertCommonBasic]: New version: [0.1.42] Old Version: [0.1.41]
+[2023-06-15 09:15:45] INFO root fetch - processPackages [xj-user]: Remove: archive file [/home/abi/fetcher/tmp/xj_user-1.2.98.tar.gz]
+[2023-06-15 09:15:45] INFO root fetch - processPackages [xj-user]: Remove: archive file [/home/abi/fetcher/tmp/xj_user-1.2.99.tar.gz]
+[2023-06-15 09:15:45] INFO root fetch - processPackages [xj-user]: Start processing: netbox-cisco-maintenance
+[2023-06-15 09:15:45] INFO root fetch - main [MainThread]: End processing [xj-user]: success
+[2023-06-15 09:15:45] INFO root fetch - processPackages [netbox-cisco-maintenance]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-15 09:15:45] INFO root fetch - processPackages [pyarmor.cli.core.freebsd]: Downloading https://files.pythonhosted.org/packages/1d/ae/6cba2327410d49f5387af50e0bfe3e24d7408dbf84a243d80554c23c9376/pyarmor.cli.core.freebsd-3.2.5-cp39-none-any.whl
+[2023-06-15 09:15:45] INFO root fetch - processPackages [netbox-cisco-maintenance]: Downloading https://files.pythonhosted.org/packages/49/9b/a1c0c74911cdf52ff01e40ea24fa7dd8c615a41dbbdae40f076bf871e18c/netbox-cisco-maintenance-0.0.98.tar.gz
+[2023-06-15 09:15:45] INFO root fetch - processPackages [RobertCommonBasic]: Downloading https://files.pythonhosted.org/packages/aa/38/20f4824b35b2478c3935e508a30aed03f421d356a8fda076242f297dbe71/RobertCommonBasic-0.1.41.tar.gz
+[2023-06-15 09:15:45] INFO root fetch - processPackages [netbox-cisco-maintenance]: Downloading https://files.pythonhosted.org/packages/36/61/db227025ce63809f803a3fe44062bf026321f24f9aa12a99bf348ae574ca/netbox-cisco-maintenance-0.0.99.tar.gz
+[2023-06-15 09:15:45] INFO root fetch - processPackages [netbox-cisco-maintenance]: executing diffoscope
+[2023-06-15 09:15:45] INFO root fetch - processPackages [netbox-cisco-maintenance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox-cisco-maintenance-0.0.98.tar.gz tmp/netbox-cisco-maintenance-0.0.99.tar.gz --markdown 20230615/n/netbox-cisco-maintenance/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-15 09:15:45] INFO root fetch - processPackages [pyarmor.cli.core.freebsd]: Downloading https://files.pythonhosted.org/packages/fd/f9/5f782364076d9dc53bca5c9c04c631a4d19d3d191d7f697b0b981b36bffd/pyarmor.cli.core.freebsd-3.2.6-cp39-none-any.whl
+[2023-06-15 09:15:45] INFO root fetch - processPackages [pyarmor.cli.core.freebsd]: executing diffoscope
+[2023-06-15 09:15:45] INFO root fetch - processPackages [pyarmor.cli.core.freebsd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyarmor.cli.core.freebsd-3.2.5-cp39-none-any.whl.zip tmp/pyarmor.cli.core.freebsd-3.2.6-cp39-none-any.whl.zip --markdown 20230615/p/pyarmor.cli.core.freebsd/3.2.5-3.2.6/diff.md --exclude *.pyd
+[2023-06-15 09:15:45] INFO root fetch - processPackages [RobertCommonBasic]: Downloading https://files.pythonhosted.org/packages/6c/61/eed63a663cebc7335d2c043b1d2209314a6d6263e97e9a385a65b4176c9a/RobertCommonBasic-0.1.42.tar.gz
+[2023-06-15 09:15:45] INFO root fetch - processPackages [myl-discovery]: Remove: archive file [/home/abi/fetcher/tmp/myl-discovery-0.5.3.tar.gz]
+[2023-06-15 09:15:45] INFO root fetch - processPackages [myl-discovery]: Remove: archive file [/home/abi/fetcher/tmp/myl-discovery-0.5.4.tar.gz]
+[2023-06-15 09:15:45] INFO root fetch - processPackages [myl-discovery]: Start processing: pyarmor.cli.core.linux
+[2023-06-15 09:15:45] INFO root fetch - main [MainThread]: End processing [myl-discovery]: success
+[2023-06-15 09:15:45] INFO root fetch - processPackages [pyarmor.cli.core.linux]: New version: [3.2.6] Old Version: [3.2.5]
+[2023-06-15 09:15:45] INFO root fetch - processPackages [RobertCommonBasic]: executing diffoscope
+[2023-06-15 09:15:45] INFO root fetch - processPackages [RobertCommonBasic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RobertCommonBasic-0.1.41.tar.gz tmp/RobertCommonBasic-0.1.42.tar.gz --markdown 20230615/R/RobertCommonBasic/0.1.41-0.1.42/diff.md --exclude *.pyd
+[2023-06-15 09:15:46] INFO root fetch - processPackages [pyarmor.cli.core.linux]: Downloading https://files.pythonhosted.org/packages/9f/31/fba929331f51f1f3d5a9aa2e639349b373c858380f14fe54637a9a549e29/pyarmor.cli.core.linux-3.2.5-cp39-none-any.whl
+[2023-06-15 09:15:46] INFO root fetch - processPackages [pyarmor.cli.core.linux]: Downloading https://files.pythonhosted.org/packages/04/b2/46c16fe5964606e83bff8f1128db1c8e985cae82e42f01d70fb3f01b9646/pyarmor.cli.core.linux-3.2.6-cp39-none-any.whl
+[2023-06-15 09:15:46] INFO root fetch - processPackages [pymycobot]: Remove: archive file [/home/abi/fetcher/tmp/pymycobot-3.1.1.tar.gz]
+[2023-06-15 09:15:46] INFO root fetch - processPackages [pymycobot]: Remove: archive file [/home/abi/fetcher/tmp/pymycobot-3.1.2.tar.gz]
+[2023-06-15 09:15:46] INFO root fetch - processPackages [pymycobot]: Start processing: tf-hub-nightly
+[2023-06-15 09:15:46] INFO root fetch - main [MainThread]: End processing [pymycobot]: success
+[2023-06-15 09:15:46] INFO root fetch - processPackages [tf-hub-nightly]: New version: [0.9.0.dev202008190006] Old Version: [0.9.0.dev202008180006]
+[2023-06-15 09:15:46] INFO root fetch - processPackages [tf-hub-nightly]: Downloading https://files.pythonhosted.org/packages/e8/6b/02811fcd79aec590e7355647130c822f1bd53092a205ce986e6df7364f52/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl
+[2023-06-15 09:15:46] INFO root fetch - processPackages [pyarmor.cli.core.linux]: executing diffoscope
+[2023-06-15 09:15:46] INFO root fetch - processPackages [pyarmor.cli.core.linux]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyarmor.cli.core.linux-3.2.5-cp39-none-any.whl.zip tmp/pyarmor.cli.core.linux-3.2.6-cp39-none-any.whl.zip --markdown 20230615/p/pyarmor.cli.core.linux/3.2.5-3.2.6/diff.md --exclude *.pyd
+[2023-06-15 09:15:46] INFO root fetch - processPackages [tf-hub-nightly]: Downloading https://files.pythonhosted.org/packages/d1/9a/6b02d0906847e11386093420119d147f7306d7a9cad79e8e575a9d29ae76/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl
+[2023-06-15 09:15:47] INFO root fetch - processPackages [tf-hub-nightly]: executing diffoscope
+[2023-06-15 09:15:47] INFO root fetch - processPackages [tf-hub-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl.zip tmp/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl.zip --markdown 20230615/t/tf-hub-nightly/0.9.0.dev202008180006-0.9.0.dev202008190006/diff.md --exclude *.pyd
+[2023-06-15 09:15:47] INFO root fetch - processPackages [netbox-cisco-maintenance]: Remove: archive file [/home/abi/fetcher/tmp/netbox-cisco-maintenance-0.0.98.tar.gz]
+[2023-06-15 09:15:47] INFO root fetch - processPackages [netbox-cisco-maintenance]: Remove: archive file [/home/abi/fetcher/tmp/netbox-cisco-maintenance-0.0.99.tar.gz]
+[2023-06-15 09:15:47] INFO root fetch - processPackages [netbox-cisco-maintenance]: Start processing: pepperize.cdk-apigateway-swagger-ui
+[2023-06-15 09:15:47] INFO root fetch - main [MainThread]: End processing [netbox-cisco-maintenance]: success
+[2023-06-15 09:15:47] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: New version: [0.0.99] Old Version: [0.0.97]
+[2023-06-15 09:15:47] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Downloading https://files.pythonhosted.org/packages/b5/4b/0742a4ab14bdc0e7e1a1efa5e089f45c05c18e939582e562ff5095837d67/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz
+[2023-06-15 09:15:47] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Downloading https://files.pythonhosted.org/packages/c7/46/0f42bc025c61bcf7528be4662164372850647ddcc00ec2a211a0b9e071cc/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz
+[2023-06-15 09:15:47] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: executing diffoscope
+[2023-06-15 09:15:47] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz --markdown 20230615/p/pepperize.cdk-apigateway-swagger-ui/0.0.97-0.0.99/diff.md --exclude *.pyd
+[2023-06-15 09:15:48] INFO root fetch - processPackages [RobertCommonBasic]: Remove: archive file [/home/abi/fetcher/tmp/RobertCommonBasic-0.1.41.tar.gz]
+[2023-06-15 09:15:48] INFO root fetch - processPackages [RobertCommonBasic]: Remove: archive file [/home/abi/fetcher/tmp/RobertCommonBasic-0.1.42.tar.gz]
+[2023-06-15 09:15:48] INFO root fetch - processPackages [RobertCommonBasic]: Start processing: pyarmor.cli.core.themida
+[2023-06-15 09:15:48] INFO root fetch - main [MainThread]: End processing [RobertCommonBasic]: success
+[2023-06-15 09:15:48] INFO root fetch - processPackages [pyarmor.cli.core.themida]: New version: [3.2.6] Old Version: [3.2.5]
+[2023-06-15 09:15:48] INFO root fetch - processPackages [pyarmor.cli.core.themida]: Downloading https://files.pythonhosted.org/packages/5d/8b/a51c836a54374a620b4d7e1423b2afebff36285afa82f4f1292a48e10c80/pyarmor.cli.core.themida-3.2.5-cp39-none-any.whl
+[2023-06-15 09:15:49] INFO root fetch - processPackages [tf-hub-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl.zip]
+[2023-06-15 09:15:49] INFO root fetch - processPackages [tf-hub-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl.zip]
+[2023-06-15 09:15:49] INFO root fetch - processPackages [tf-hub-nightly]: Start processing: AutoWSGR
+[2023-06-15 09:15:49] INFO root fetch - main [MainThread]: End processing [tf-hub-nightly]: success
+[2023-06-15 09:15:49] INFO root fetch - processPackages [AutoWSGR]: New version: [0.2.1.2] Old Version: [0.2.1.1]
+[2023-06-15 09:15:49] INFO root fetch - processPackages [AutoWSGR]: Downloading https://files.pythonhosted.org/packages/f8/31/ef75206b4c3b23c941f348f8449c3d64c870b8c9dd5555298bb4ef92053b/AutoWSGR-0.2.1.1.tar.gz
+[2023-06-15 09:15:49] INFO root fetch - processPackages [pyarmor.cli.core.themida]: Downloading https://files.pythonhosted.org/packages/e1/4a/b3784a3438bf4b8a77760da835ffbc0c3984ae05b2f475f179311c710c1d/pyarmor.cli.core.themida-3.2.6-cp39-none-any.whl
+[2023-06-15 09:15:49] WARNING root fetch - processPackages [AutoWSGR]: Skipping package: exceeds size limit 36407651>=10485760
+[2023-06-15 09:15:49] INFO root fetch - processPackages [AutoWSGR]: Start processing: control-lab-ly
+[2023-06-15 09:15:49] INFO root fetch - main [MainThread]: End processing [AutoWSGR] error
+[2023-06-15 09:15:49] INFO root fetch - processPackages [control-lab-ly]: New version: [1.1.0b1] Old Version: [1.1.0b0]
+[2023-06-15 09:15:49] INFO root fetch - processPackages [control-lab-ly]: Downloading https://files.pythonhosted.org/packages/84/14/f24043b0d5e244780c12662b67f775d95a3dff52d9e42a8e16992f187281/control-lab-ly-1.1.0b0.tar.gz
+[2023-06-15 09:15:49] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz]
+[2023-06-15 09:15:49] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz]
+[2023-06-15 09:15:49] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Start processing: pyarmor.cli.core.windows
+[2023-06-15 09:15:49] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-apigateway-swagger-ui]: success
+[2023-06-15 09:15:49] INFO root fetch - processPackages [control-lab-ly]: Downloading https://files.pythonhosted.org/packages/22/2c/771f7291cdfefe9a76f732c703921df87c16522891e498f10cd6c6afdae8/control-lab-ly-1.1.0b1.tar.gz
+[2023-06-15 09:15:49] INFO root fetch - processPackages [pyarmor.cli.core.windows]: New version: [3.2.5] Old Version: [3.2.4]
+[2023-06-15 09:15:49] INFO root fetch - processPackages [pyarmor.cli.core.windows]: Downloading https://files.pythonhosted.org/packages/ec/5b/fe7673b74e5289923735fb82ef13dc1e2d827d247b20b12ab574878ba54a/pyarmor.cli.core.windows-3.2.4-cp39-none-any.whl
+[2023-06-15 09:15:50] INFO root fetch - processPackages [control-lab-ly]: executing diffoscope
+[2023-06-15 09:15:50] INFO root fetch - processPackages [control-lab-ly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/control-lab-ly-1.1.0b0.tar.gz tmp/control-lab-ly-1.1.0b1.tar.gz --markdown 20230615/c/control-lab-ly/1.1.0b0-1.1.0b1/diff.md --exclude *.pyd
+[2023-06-15 09:15:50] INFO root fetch - processPackages [pyarmor.cli.core.windows]: Downloading https://files.pythonhosted.org/packages/1c/75/de4ce122418341579cf1a8d2efe5a2f6c95729663ad6386b4918d7d4a9d0/pyarmor.cli.core.windows-3.2.5-cp39-none-any.whl
+[2023-06-15 09:15:50] INFO root fetch - processPackages [pyarmor.cli.core.themida]: executing diffoscope
+[2023-06-15 09:15:50] INFO root fetch - processPackages [pyarmor.cli.core.themida]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyarmor.cli.core.themida-3.2.5-cp39-none-any.whl.zip tmp/pyarmor.cli.core.themida-3.2.6-cp39-none-any.whl.zip --markdown 20230615/p/pyarmor.cli.core.themida/3.2.5-3.2.6/diff.md --exclude *.pyd
+[2023-06-15 09:15:50] INFO root fetch - processPackages [pyarmor.cli.core.windows]: executing diffoscope
+[2023-06-15 09:15:50] INFO root fetch - processPackages [pyarmor.cli.core.windows]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyarmor.cli.core.windows-3.2.4-cp39-none-any.whl.zip tmp/pyarmor.cli.core.windows-3.2.5-cp39-none-any.whl.zip --markdown 20230615/p/pyarmor.cli.core.windows/3.2.4-3.2.5/diff.md --exclude *.pyd
+[2023-06-15 09:15:50] INFO root fetch - processPackages [django-data-browser]: Remove: archive file [/home/abi/fetcher/tmp/django-data-browser-4.2.2.tar.gz]
+[2023-06-15 09:15:50] INFO root fetch - processPackages [django-data-browser]: Remove: archive file [/home/abi/fetcher/tmp/django-data-browser-4.2.3.tar.gz]
+[2023-06-15 09:15:50] INFO root fetch - processPackages [django-data-browser]: Start processing: substra
+[2023-06-15 09:15:50] INFO root fetch - main [MainThread]: End processing [django-data-browser]: success
+[2023-06-15 09:15:51] INFO root fetch - processPackages [substra]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-15 09:15:51] INFO root fetch - processPackages [pyarmor.cli.core.freebsd]: Remove: archive file [/home/abi/fetcher/tmp/pyarmor.cli.core.freebsd-3.2.5-cp39-none-any.whl.zip]
+[2023-06-15 09:15:51] INFO root fetch - processPackages [pyarmor.cli.core.freebsd]: Remove: archive file [/home/abi/fetcher/tmp/pyarmor.cli.core.freebsd-3.2.6-cp39-none-any.whl.zip]
+[2023-06-15 09:15:51] INFO root fetch - main [MainThread]: End processing [pyarmor.cli.core.freebsd]: success
+[2023-06-15 09:15:51] INFO root fetch - processPackages [substra]: Downloading https://files.pythonhosted.org/packages/c1/2d/62d507b5e63bb0e3cd624dc4bb5883f9df9428cae7cd0cba68722367b89e/substra-0.8.0.tar.gz
+[2023-06-15 09:15:51] INFO root fetch - processPackages [substra]: Downloading https://files.pythonhosted.org/packages/77/94/7ac07b92e6d0a9e079501fd00e84ccda59ae39ff73ac88360496f72aef29/substra-0.9.0.tar.gz
+[2023-06-15 09:15:51] INFO root fetch - processPackages [pyarmor.cli.core.themida]: Remove: archive file [/home/abi/fetcher/tmp/pyarmor.cli.core.themida-3.2.5-cp39-none-any.whl.zip]
+[2023-06-15 09:15:51] INFO root fetch - processPackages [pyarmor.cli.core.themida]: Remove: archive file [/home/abi/fetcher/tmp/pyarmor.cli.core.themida-3.2.6-cp39-none-any.whl.zip]
+[2023-06-15 09:15:51] INFO root fetch - main [MainThread]: End processing [pyarmor.cli.core.themida]: success
+[2023-06-15 09:15:51] INFO root fetch - processPackages [substra]: executing diffoscope
+[2023-06-15 09:15:51] INFO root fetch - processPackages [substra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/substra-0.8.0.tar.gz tmp/substra-0.9.0.tar.gz --markdown 20230615/s/substra/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-15 09:15:52] INFO root fetch - processPackages [pyarmor.cli.core.windows]: Remove: archive file [/home/abi/fetcher/tmp/pyarmor.cli.core.windows-3.2.4-cp39-none-any.whl.zip]
+[2023-06-15 09:15:52] INFO root fetch - processPackages [pyarmor.cli.core.windows]: Remove: archive file [/home/abi/fetcher/tmp/pyarmor.cli.core.windows-3.2.5-cp39-none-any.whl.zip]
+[2023-06-15 09:15:52] INFO root fetch - main [MainThread]: End processing [pyarmor.cli.core.windows]: success
+[2023-06-15 09:15:52] INFO root fetch - processPackages [control-lab-ly]: Remove: archive file [/home/abi/fetcher/tmp/control-lab-ly-1.1.0b0.tar.gz]
+[2023-06-15 09:15:52] INFO root fetch - processPackages [control-lab-ly]: Remove: archive file [/home/abi/fetcher/tmp/control-lab-ly-1.1.0b1.tar.gz]
+[2023-06-15 09:15:52] INFO root fetch - main [MainThread]: End processing [control-lab-ly]: success
+[2023-06-15 09:15:53] INFO root fetch - processPackages [substra]: Remove: archive file [/home/abi/fetcher/tmp/substra-0.8.0.tar.gz]
+[2023-06-15 09:15:53] INFO root fetch - processPackages [substra]: Remove: archive file [/home/abi/fetcher/tmp/substra-0.9.0.tar.gz]
+[2023-06-15 09:15:53] INFO root fetch - main [MainThread]: End processing [substra]: success
+[2023-06-15 09:15:53] INFO root fetch - processPackages [pyarmor.cli.core.alpine]: Remove: archive file [/home/abi/fetcher/tmp/pyarmor.cli.core.alpine-3.2.5-cp39-none-any.whl.zip]
+[2023-06-15 09:15:53] INFO root fetch - processPackages [pyarmor.cli.core.alpine]: Remove: archive file [/home/abi/fetcher/tmp/pyarmor.cli.core.alpine-3.2.6-cp39-none-any.whl.zip]
+[2023-06-15 09:15:53] INFO root fetch - main [MainThread]: End processing [pyarmor.cli.core.alpine]: success
+[2023-06-15 09:15:56] INFO root fetch - processPackages [pyarmor.cli.core.darwin]: Remove: archive file [/home/abi/fetcher/tmp/pyarmor.cli.core.darwin-3.2.5-cp39-none-any.whl.zip]
+[2023-06-15 09:15:56] INFO root fetch - processPackages [pyarmor.cli.core.darwin]: Remove: archive file [/home/abi/fetcher/tmp/pyarmor.cli.core.darwin-3.2.6-cp39-none-any.whl.zip]
+[2023-06-15 09:15:56] INFO root fetch - main [MainThread]: End processing [pyarmor.cli.core.darwin]: success
+[2023-06-15 09:15:57] INFO root fetch - processPackages [streamlit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-nightly-1.9.3.dev20220531.tar.gz]
+[2023-06-15 09:15:57] INFO root fetch - processPackages [streamlit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-nightly-1.9.3.dev20220601.tar.gz]
+[2023-06-15 09:15:57] INFO root fetch - main [MainThread]: End processing [streamlit-nightly]: success
+[2023-06-15 09:16:24] INFO root fetch - processPackages [pyarmor.cli.core.linux]: Remove: archive file [/home/abi/fetcher/tmp/pyarmor.cli.core.linux-3.2.5-cp39-none-any.whl.zip]
+[2023-06-15 09:16:24] INFO root fetch - processPackages [pyarmor.cli.core.linux]: Remove: archive file [/home/abi/fetcher/tmp/pyarmor.cli.core.linux-3.2.6-cp39-none-any.whl.zip]
+[2023-06-15 09:16:24] INFO root fetch - main [MainThread]: End processing [pyarmor.cli.core.linux]: success
+[2023-06-15 09:16:34] INFO root fetch - processPackages [checkov]: Remove: archive file [/home/abi/fetcher/tmp/checkov-2.3.98.tar.gz]
+[2023-06-15 09:16:34] INFO root fetch - processPackages [checkov]: Remove: archive file [/home/abi/fetcher/tmp/checkov-2.3.99.tar.gz]
+[2023-06-15 09:16:34] INFO root fetch - main [MainThread]: End processing [checkov]: success
+[2023-06-15 09:16:34] INFO root fetch - main [MainThread]: Store serial: [18512218]
