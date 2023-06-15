@@ -21755,3 +21755,146 @@ AssertionError: tmp/stackoverflowapithingy-0.1.5.tar.gz does not exist
 [2023-06-15 14:09:48] INFO root fetch - processPackages [slapos.toolbox]: Remove: archive file [/home/abi/fetcher/tmp/slapos.toolbox-0.99.tar.gz]
 [2023-06-15 14:09:48] INFO root fetch - main [MainThread]: End processing [slapos.toolbox]: success
 [2023-06-15 14:09:48] INFO root fetch - main [MainThread]: Store serial: [18515754]
+[2023-06-15 14:14:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18515754]
+[2023-06-15 14:14:57] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-06-15 14:14:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kalm
+[2023-06-15 14:14:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: composabl-dev
+[2023-06-15 14:14:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: savant-rs
+[2023-06-15 14:14:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: open-gpt-torch
+[2023-06-15 14:14:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: twtr-nuuuwan
+[2023-06-15 14:14:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: code-loader
+[2023-06-15 14:14:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: vantage6-common
+[2023-06-15 14:14:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: vantage6-client
+[2023-06-15 14:14:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: vantage6
+[2023-06-15 14:14:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: vantage6-node
+[2023-06-15 14:14:58] INFO root fetch - processPackages [composabl-dev]: New version: [0.2.1.dev95] Old Version: [0.2.1.dev9]
+[2023-06-15 14:14:58] INFO root fetch - processPackages [code-loader]: New version: [0.2.9] Old Version: [0.2.82]
+[2023-06-15 14:14:58] INFO root fetch - processPackages [savant-rs]: New version: [0.1.9] Old Version: [0.1.7]
+[2023-06-15 14:14:58] INFO root fetch - processPackages [vantage6]: New version: [3.9.0rc4] Old Version: [3.9.0rc2]
+[2023-06-15 14:14:58] INFO root fetch - processPackages [twtr-nuuuwan]: New version: [1.0.6] Old Version: [1.0.3]
+[2023-06-15 14:14:58] INFO root fetch - processPackages [open-gpt-torch]: New version: [0.0.7.dev3] Old Version: [0.0.7.dev2]
+[2023-06-15 14:14:58] INFO root fetch - processPackages [kalm]: New version: [0.6.9] Old Version: [0.6.8]
+[2023-06-15 14:14:58] INFO root fetch - processPackages [vantage6-common]: New version: [3.9.0rc4] Old Version: [3.9.0rc2]
+[2023-06-15 14:14:58] INFO root fetch - processPackages [vantage6-client]: New version: [3.9.0rc4] Old Version: [3.9.0rc2]
+[2023-06-15 14:14:58] INFO root fetch - processPackages [vantage6-node]: New version: [3.9.0rc4] Old Version: [3.9.0rc2]
+[2023-06-15 14:14:58] INFO root fetch - processPackages [savant-rs]: Downloading https://files.pythonhosted.org/packages/c4/00/2644997dc31784c2debfbda253c475ca3463024586165f400ebc3871aaba/savant_rs-0.1.7.tar.gz
+[2023-06-15 14:14:58] INFO root fetch - processPackages [kalm]: Downloading https://files.pythonhosted.org/packages/08/d6/afbd93ab17a860658e3f78d89626ca0ad442f18d7058216f69066b2b251d/kalm-0.6.8.tar.gz
+[2023-06-15 14:14:58] INFO root fetch - processPackages [code-loader]: Downloading https://files.pythonhosted.org/packages/e2/49/a45696257f96e3912be091a72e71f0f04bce39da1ef3185609b7cfdeba2d/code_loader-0.2.82.tar.gz
+[2023-06-15 14:14:58] INFO root fetch - processPackages [composabl-dev]: Downloading https://files.pythonhosted.org/packages/49/2c/0032ba964864c280a5efb940191b8d75049cfa8bad1c193b88e1e5fb9828/composabl_dev-0.2.1.dev9-cp38-cp38-musllinux_1_1_x86_64.whl
+[2023-06-15 14:14:58] INFO root fetch - processPackages [vantage6-common]: Downloading https://files.pythonhosted.org/packages/04/98/abda7369242fa6c3acba2926ec79b399130654bee32e327caf5a0dadd8c3/vantage6-common-3.9.0rc2.tar.gz
+[2023-06-15 14:14:58] INFO root fetch - processPackages [vantage6]: Downloading https://files.pythonhosted.org/packages/79/28/e84e0e783a03637496f2b5fd1c5d7b203696fd490d45d44eebad6876491d/vantage6-3.9.0rc2.tar.gz
+[2023-06-15 14:14:58] INFO root fetch - processPackages [vantage6-client]: Downloading https://files.pythonhosted.org/packages/cc/8a/7abb292e0070d775645f93a42c4c2021a36654aa36658a826b16e872bac6/vantage6-client-3.9.0rc2.tar.gz
+[2023-06-15 14:14:58] INFO root fetch - processPackages [kalm]: Downloading https://files.pythonhosted.org/packages/f3/ee/21230318a80577b7a92a016e6f1cf516735d553ff6164c13ff461de986aa/kalm-0.6.9.tar.gz
+[2023-06-15 14:14:58] INFO root fetch - processPackages [vantage6-node]: Downloading https://files.pythonhosted.org/packages/90/d2/2f29a2ff10348e0426f2c1ddfdf2bd721cdf127d749f7854c12f28ba1a15/vantage6-node-3.9.0rc2.tar.gz
+[2023-06-15 14:14:58] INFO root fetch - processPackages [twtr-nuuuwan]: Downloading https://files.pythonhosted.org/packages/67/6e/5a61557ea3fa225110b9fbae932a70e4289b25b0f1a841bbaa60026e2927/twtr-nuuuwan-1.0.3.tar.gz
+[2023-06-15 14:14:58] INFO root fetch - processPackages [open-gpt-torch]: Downloading https://files.pythonhosted.org/packages/ac/d0/2bc7398d15806d464341496174c2541f88b0e7c623e90e5f411ddb843a1d/open_gpt_torch-0.0.7.dev2.tar.gz
+[2023-06-15 14:14:58] INFO root fetch - processPackages [savant-rs]: Downloading https://files.pythonhosted.org/packages/14/6f/20424ad55aaad55bea7d3a27e5a0cc5fe726f0b4507b2b6f406d79e8015a/savant_rs-0.1.9.tar.gz
+[2023-06-15 14:14:58] INFO root fetch - processPackages [kalm]: executing diffoscope
+[2023-06-15 14:14:58] INFO root fetch - processPackages [kalm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kalm-0.6.8.tar.gz tmp/kalm-0.6.9.tar.gz --markdown 20230615/k/kalm/0.6.8-0.6.9/diff.md --exclude *.pyd
+[2023-06-15 14:14:58] INFO root fetch - processPackages [savant-rs]: executing diffoscope
+[2023-06-15 14:14:58] INFO root fetch - processPackages [savant-rs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/savant_rs-0.1.7.tar.gz tmp/savant_rs-0.1.9.tar.gz --markdown 20230615/s/savant-rs/0.1.7-0.1.9/diff.md --exclude *.pyd
+[2023-06-15 14:14:58] INFO root fetch - processPackages [code-loader]: Downloading https://files.pythonhosted.org/packages/23/3d/c50351675c5df1eec25c494b3e7b9f9b516c43bd5d3db8cc4447604a8f74/code-loader-0.2.9.tar.gz
+[2023-06-15 14:14:58] INFO root fetch - processPackages [vantage6]: Downloading https://files.pythonhosted.org/packages/03/fa/166d5752a0abe58f0390806f65013f110f78bbde0405ad929520e326893b/vantage6-3.9.0rc4.tar.gz
+[2023-06-15 14:14:58] INFO root fetch - processPackages [twtr-nuuuwan]: Downloading https://files.pythonhosted.org/packages/fb/39/6cead35314a69c015cab09da2e327935c08bd7dc73e0b7ec3ccdfdd2aa95/twtr-nuuuwan-1.0.6.tar.gz
+[2023-06-15 14:14:58] INFO root fetch - processPackages [vantage6-common]: Downloading https://files.pythonhosted.org/packages/de/cb/1239e1a102d86e002b1436632871ff11e42cf788874d124ddb97ab106a25/vantage6-common-3.9.0rc4.tar.gz
+[2023-06-15 14:14:58] INFO root fetch - processPackages [vantage6-client]: Downloading https://files.pythonhosted.org/packages/83/b1/52552994d80009402a91a34427a0306326f0781eaaefc933c31d687d9ae4/vantage6-client-3.9.0rc4.tar.gz
+[2023-06-15 14:14:58] INFO root fetch - processPackages [vantage6-node]: Downloading https://files.pythonhosted.org/packages/b4/71/a610fd6c37265434474f5572b44b27ff8f5f39318b8c77af5c69bc70b067/vantage6-node-3.9.0rc4.tar.gz
+[2023-06-15 14:14:58] INFO root fetch - processPackages [twtr-nuuuwan]: executing diffoscope
+[2023-06-15 14:14:58] INFO root fetch - processPackages [twtr-nuuuwan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/twtr-nuuuwan-1.0.3.tar.gz tmp/twtr-nuuuwan-1.0.6.tar.gz --markdown 20230615/t/twtr-nuuuwan/1.0.3-1.0.6/diff.md --exclude *.pyd
+[2023-06-15 14:14:58] INFO root fetch - processPackages [vantage6]: executing diffoscope
+[2023-06-15 14:14:58] INFO root fetch - processPackages [vantage6]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vantage6-3.9.0rc2.tar.gz tmp/vantage6-3.9.0rc4.tar.gz --markdown 20230615/v/vantage6/3.9.0rc2-3.9.0rc4/diff.md --exclude *.pyd
+[2023-06-15 14:14:58] INFO root fetch - processPackages [vantage6-common]: executing diffoscope
+[2023-06-15 14:14:58] INFO root fetch - processPackages [vantage6-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vantage6-common-3.9.0rc2.tar.gz tmp/vantage6-common-3.9.0rc4.tar.gz --markdown 20230615/v/vantage6-common/3.9.0rc2-3.9.0rc4/diff.md --exclude *.pyd
+[2023-06-15 14:14:58] INFO root fetch - processPackages [vantage6-client]: executing diffoscope
+[2023-06-15 14:14:58] INFO root fetch - processPackages [vantage6-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vantage6-client-3.9.0rc2.tar.gz tmp/vantage6-client-3.9.0rc4.tar.gz --markdown 20230615/v/vantage6-client/3.9.0rc2-3.9.0rc4/diff.md --exclude *.pyd
+[2023-06-15 14:14:58] INFO root fetch - processPackages [open-gpt-torch]: Downloading https://files.pythonhosted.org/packages/a0/9d/fad147a311793c2fd3734c96cb300a980cab68e9bb4ee1f18f29d02047d9/open_gpt_torch-0.0.7.dev3.tar.gz
+[2023-06-15 14:14:58] INFO root fetch - processPackages [vantage6-node]: executing diffoscope
+[2023-06-15 14:14:58] INFO root fetch - processPackages [vantage6-node]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vantage6-node-3.9.0rc2.tar.gz tmp/vantage6-node-3.9.0rc4.tar.gz --markdown 20230615/v/vantage6-node/3.9.0rc2-3.9.0rc4/diff.md --exclude *.pyd
+[2023-06-15 14:14:58] INFO root fetch - processPackages [open-gpt-torch]: executing diffoscope
+[2023-06-15 14:14:58] INFO root fetch - processPackages [open-gpt-torch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/open_gpt_torch-0.0.7.dev2.tar.gz tmp/open_gpt_torch-0.0.7.dev3.tar.gz --markdown 20230615/o/open-gpt-torch/0.0.7.dev2-0.0.7.dev3/diff.md --exclude *.pyd
+[2023-06-15 14:14:59] INFO root fetch - processPackages [code-loader]: executing diffoscope
+[2023-06-15 14:14:59] INFO root fetch - processPackages [code-loader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/code_loader-0.2.82.tar.gz tmp/code-loader-0.2.9.tar.gz --markdown 20230615/c/code-loader/0.2.82-0.2.9/diff.md --exclude *.pyd
+[2023-06-15 14:14:59] INFO root fetch - processPackages [kalm]: Remove: archive file [/home/abi/fetcher/tmp/kalm-0.6.8.tar.gz]
+[2023-06-15 14:14:59] INFO root fetch - processPackages [kalm]: Remove: archive file [/home/abi/fetcher/tmp/kalm-0.6.9.tar.gz]
+[2023-06-15 14:14:59] INFO root fetch - processPackages [kalm]: Start processing: vantage6-server
+[2023-06-15 14:14:59] INFO root fetch - main [MainThread]: End processing [kalm]: success
+[2023-06-15 14:14:59] INFO root fetch - processPackages [composabl-dev]: Downloading https://files.pythonhosted.org/packages/db/9b/de0b45a91034b3ecde242f71f4fb45e4a5fbc2062cd7c8e62abf925ef8dd/composabl_dev-0.2.1.dev95-cp38-cp38-musllinux_1_1_x86_64.whl
+[2023-06-15 14:14:59] INFO root fetch - processPackages [vantage6-server]: New version: [3.9.0rc4] Old Version: [3.9.0rc2]
+[2023-06-15 14:14:59] INFO root fetch - processPackages [composabl-dev]: executing diffoscope
+[2023-06-15 14:14:59] INFO root fetch - processPackages [composabl-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composabl_dev-0.2.1.dev9-cp38-cp38-musllinux_1_1_x86_64.whl.zip tmp/composabl_dev-0.2.1.dev95-cp38-cp38-musllinux_1_1_x86_64.whl.zip --markdown 20230615/c/composabl-dev/0.2.1.dev9-0.2.1.dev95/diff.md --exclude *.pyd
+[2023-06-15 14:14:59] INFO root fetch - processPackages [vantage6-server]: Downloading https://files.pythonhosted.org/packages/93/a4/4faa09e9d314fa4e9ae0ddfc4677720ec30f7b78ec12b20c1174cb4e9e1a/vantage6-server-3.9.0rc2.tar.gz
+[2023-06-15 14:15:00] INFO root fetch - processPackages [twtr-nuuuwan]: Remove: archive file [/home/abi/fetcher/tmp/twtr-nuuuwan-1.0.3.tar.gz]
+[2023-06-15 14:15:00] INFO root fetch - processPackages [twtr-nuuuwan]: Remove: archive file [/home/abi/fetcher/tmp/twtr-nuuuwan-1.0.6.tar.gz]
+[2023-06-15 14:15:00] INFO root fetch - processPackages [twtr-nuuuwan]: Start processing: openai-dbd
+[2023-06-15 14:15:00] INFO root fetch - main [MainThread]: End processing [twtr-nuuuwan]: success
+[2023-06-15 14:15:00] INFO root fetch - processPackages [openai-dbd]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-15 14:15:00] INFO root fetch - processPackages [openai-dbd]: Downloading https://files.pythonhosted.org/packages/d9/31/d86f0f50993f5e8dc618557dd9b665b20eb455d40c850a6f35aed5bd146b/openai_dbd-0.0.8-py3-none-any.whl
+[2023-06-15 14:15:00] INFO root fetch - processPackages [vantage6]: Remove: archive file [/home/abi/fetcher/tmp/vantage6-3.9.0rc2.tar.gz]
+[2023-06-15 14:15:00] INFO root fetch - processPackages [vantage6]: Remove: archive file [/home/abi/fetcher/tmp/vantage6-3.9.0rc4.tar.gz]
+[2023-06-15 14:15:00] INFO root fetch - processPackages [vantage6]: Start processing: savant-rs-etcd-dynamic-state
+[2023-06-15 14:15:00] INFO root fetch - main [MainThread]: End processing [vantage6]: success
+[2023-06-15 14:15:00] INFO root fetch - processPackages [savant-rs-etcd-dynamic-state]: New version: [0.1.28] Old Version: [0.1.27]
+[2023-06-15 14:15:00] INFO root fetch - processPackages [savant-rs-etcd-dynamic-state]: Downloading https://files.pythonhosted.org/packages/a4/f8/747a5829990e326c180e0c6c53a87a5f6292806828edef53847d2a425689/savant_rs_etcd_dynamic_state-0.1.27-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-15 14:15:00] INFO root fetch - processPackages [vantage6-client]: Remove: archive file [/home/abi/fetcher/tmp/vantage6-client-3.9.0rc2.tar.gz]
+[2023-06-15 14:15:00] INFO root fetch - processPackages [vantage6-client]: Remove: archive file [/home/abi/fetcher/tmp/vantage6-client-3.9.0rc4.tar.gz]
+[2023-06-15 14:15:00] INFO root fetch - processPackages [vantage6-client]: Start processing: skga
+[2023-06-15 14:15:00] INFO root fetch - main [MainThread]: End processing [vantage6-client]: success
+[2023-06-15 14:15:00] INFO root fetch - processPackages [openai-dbd]: Downloading https://files.pythonhosted.org/packages/fc/89/8191aebb736ee888c76204cd3dffedad5abfb27acc27bc9ccabd4a30f62b/openai_dbd-0.0.9-py3-none-any.whl
+[2023-06-15 14:15:00] INFO root fetch - processPackages [vantage6-server]: Downloading https://files.pythonhosted.org/packages/b6/05/772b7c5cd3ce82d8fdf717f8697d700fae68bbe7fd79eafb5692d1a39613/vantage6-server-3.9.0rc4.tar.gz
+[2023-06-15 14:15:00] INFO root fetch - processPackages [skga]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-15 14:15:00] INFO root fetch - processPackages [savant-rs]: Remove: archive file [/home/abi/fetcher/tmp/savant_rs-0.1.7.tar.gz]
+[2023-06-15 14:15:00] INFO root fetch - processPackages [savant-rs]: Remove: archive file [/home/abi/fetcher/tmp/savant_rs-0.1.9.tar.gz]
+[2023-06-15 14:15:00] INFO root fetch - processPackages [savant-rs]: Start processing: thermosteam
+[2023-06-15 14:15:00] INFO root fetch - main [MainThread]: End processing [savant-rs]: success
+[2023-06-15 14:15:00] INFO root fetch - processPackages [vantage6-node]: Remove: archive file [/home/abi/fetcher/tmp/vantage6-node-3.9.0rc2.tar.gz]
+[2023-06-15 14:15:00] INFO root fetch - processPackages [vantage6-node]: Remove: archive file [/home/abi/fetcher/tmp/vantage6-node-3.9.0rc4.tar.gz]
+[2023-06-15 14:15:00] INFO root fetch - processPackages [vantage6-node]: Start processing: biosteam
+[2023-06-15 14:15:00] INFO root fetch - main [MainThread]: End processing [vantage6-node]: success
+[2023-06-15 14:15:00] INFO root fetch - processPackages [thermosteam]: New version: [0.9.0] Old Version: [0.8.3]
+[2023-06-15 14:15:00] INFO root fetch - processPackages [skga]: Downloading https://files.pythonhosted.org/packages/55/ae/b6c0dd63aea16dc9c08dfd5ec226c5fad64faaf4144caa3b6a34dbc3de2d/skga-0.0.3.tar.gz
+[2023-06-15 14:15:00] INFO root fetch - processPackages [openai-dbd]: executing diffoscope
+[2023-06-15 14:15:00] INFO root fetch - processPackages [openai-dbd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openai_dbd-0.0.8-py3-none-any.whl.zip tmp/openai_dbd-0.0.9-py3-none-any.whl.zip --markdown 20230615/o/openai-dbd/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-15 14:15:00] INFO root fetch - processPackages [open-gpt-torch]: Remove: archive file [/home/abi/fetcher/tmp/open_gpt_torch-0.0.7.dev2.tar.gz]
+[2023-06-15 14:15:00] INFO root fetch - processPackages [open-gpt-torch]: Remove: archive file [/home/abi/fetcher/tmp/open_gpt_torch-0.0.7.dev3.tar.gz]
+[2023-06-15 14:15:00] INFO root fetch - main [MainThread]: End processing [open-gpt-torch]: success
+[2023-06-15 14:15:00] INFO root fetch - processPackages [vantage6-server]: executing diffoscope
+[2023-06-15 14:15:00] INFO root fetch - processPackages [vantage6-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vantage6-server-3.9.0rc2.tar.gz tmp/vantage6-server-3.9.0rc4.tar.gz --markdown 20230615/v/vantage6-server/3.9.0rc2-3.9.0rc4/diff.md --exclude *.pyd
+[2023-06-15 14:15:00] INFO root fetch - processPackages [biosteam]: New version: [2.9.9] Old Version: [2.9.8]
+[2023-06-15 14:15:00] INFO root fetch - processPackages [vantage6-common]: Remove: archive file [/home/abi/fetcher/tmp/vantage6-common-3.9.0rc2.tar.gz]
+[2023-06-15 14:15:00] INFO root fetch - processPackages [vantage6-common]: Remove: archive file [/home/abi/fetcher/tmp/vantage6-common-3.9.0rc4.tar.gz]
+[2023-06-15 14:15:00] INFO root fetch - main [MainThread]: End processing [vantage6-common]: success
+[2023-06-15 14:15:00] INFO root fetch - processPackages [thermosteam]: Downloading https://files.pythonhosted.org/packages/56/8f/c12015817ab835a11a1faf668a607d94a2240ccca4e4723fa84593ed1a29/thermosteam-0.8.3.tar.gz
+[2023-06-15 14:15:00] INFO root fetch - processPackages [savant-rs-etcd-dynamic-state]: Downloading https://files.pythonhosted.org/packages/ab/66/5c1f1e96f7fcea148a4295b6c63591c1b7215f113370e67f9815607c4f9e/savant_rs_etcd_dynamic_state-0.1.28-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-15 14:15:00] INFO root fetch - processPackages [skga]: Downloading https://files.pythonhosted.org/packages/d6/a7/da86d53dddc7e5d8a511dd97364aec57f99b2be67189f19b5ec38cc0639c/skga-0.0.4.tar.gz
+[2023-06-15 14:15:00] INFO root fetch - processPackages [biosteam]: Downloading https://files.pythonhosted.org/packages/9c/00/313204e69841aef03bab6e9e10a271b265d5baee12b666cb0f7eee0e9ab2/biosteam-2.9.8.tar.gz
+[2023-06-15 14:15:00] INFO root fetch - processPackages [skga]: executing diffoscope
+[2023-06-15 14:15:00] INFO root fetch - processPackages [skga]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skga-0.0.3.tar.gz tmp/skga-0.0.4.tar.gz --markdown 20230615/s/skga/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-15 14:15:01] INFO root fetch - processPackages [code-loader]: Remove: archive file [/home/abi/fetcher/tmp/code_loader-0.2.82.tar.gz]
+[2023-06-15 14:15:01] INFO root fetch - processPackages [code-loader]: Remove: archive file [/home/abi/fetcher/tmp/code-loader-0.2.9.tar.gz]
+[2023-06-15 14:15:01] INFO root fetch - main [MainThread]: End processing [code-loader]: success
+[2023-06-15 14:15:01] INFO root fetch - processPackages [biosteam]: Downloading https://files.pythonhosted.org/packages/e8/20/f344b75b639fc3d827c69ecf18e63ab753349283dab6a010e8e2b8860aaa/biosteam-2.9.9.tar.gz
+[2023-06-15 14:15:01] WARNING root fetch - processPackages [thermosteam]: Skipping package: exceeds size limit 16942699>=10485760
+[2023-06-15 14:15:01] INFO root fetch - main [MainThread]: End processing [thermosteam] error
+[2023-06-15 14:15:01] INFO root fetch - processPackages [biosteam]: executing diffoscope
+[2023-06-15 14:15:01] INFO root fetch - processPackages [biosteam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/biosteam-2.9.8.tar.gz tmp/biosteam-2.9.9.tar.gz --markdown 20230615/b/biosteam/2.9.8-2.9.9/diff.md --exclude *.pyd
+[2023-06-15 14:15:01] INFO root fetch - processPackages [openai-dbd]: Remove: archive file [/home/abi/fetcher/tmp/openai_dbd-0.0.8-py3-none-any.whl.zip]
+[2023-06-15 14:15:01] INFO root fetch - processPackages [openai-dbd]: Remove: archive file [/home/abi/fetcher/tmp/openai_dbd-0.0.9-py3-none-any.whl.zip]
+[2023-06-15 14:15:01] INFO root fetch - main [MainThread]: End processing [openai-dbd]: success
+[2023-06-15 14:15:01] INFO root fetch - processPackages [savant-rs-etcd-dynamic-state]: executing diffoscope
+[2023-06-15 14:15:01] INFO root fetch - processPackages [savant-rs-etcd-dynamic-state]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/savant_rs_etcd_dynamic_state-0.1.27-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/savant_rs_etcd_dynamic_state-0.1.28-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230615/s/savant-rs-etcd-dynamic-state/0.1.27-0.1.28/diff.md --exclude *.pyd
+[2023-06-15 14:15:02] INFO root fetch - processPackages [vantage6-server]: Remove: archive file [/home/abi/fetcher/tmp/vantage6-server-3.9.0rc2.tar.gz]
+[2023-06-15 14:15:02] INFO root fetch - processPackages [vantage6-server]: Remove: archive file [/home/abi/fetcher/tmp/vantage6-server-3.9.0rc4.tar.gz]
+[2023-06-15 14:15:02] INFO root fetch - main [MainThread]: End processing [vantage6-server]: success
+[2023-06-15 14:15:02] INFO root fetch - processPackages [skga]: Remove: archive file [/home/abi/fetcher/tmp/skga-0.0.3.tar.gz]
+[2023-06-15 14:15:02] INFO root fetch - processPackages [skga]: Remove: archive file [/home/abi/fetcher/tmp/skga-0.0.4.tar.gz]
+[2023-06-15 14:15:02] INFO root fetch - main [MainThread]: End processing [skga]: success
+[2023-06-15 14:15:03] INFO root fetch - processPackages [biosteam]: Remove: archive file [/home/abi/fetcher/tmp/biosteam-2.9.8.tar.gz]
+[2023-06-15 14:15:03] INFO root fetch - processPackages [biosteam]: Remove: archive file [/home/abi/fetcher/tmp/biosteam-2.9.9.tar.gz]
+[2023-06-15 14:15:03] INFO root fetch - main [MainThread]: End processing [biosteam]: success
+[2023-06-15 14:16:03] INFO root fetch - processPackages [savant-rs-etcd-dynamic-state]: Remove: archive file [/home/abi/fetcher/tmp/savant_rs_etcd_dynamic_state-0.1.27-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-15 14:16:03] INFO root fetch - processPackages [savant-rs-etcd-dynamic-state]: Remove: archive file [/home/abi/fetcher/tmp/savant_rs_etcd_dynamic_state-0.1.28-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-15 14:16:03] INFO root fetch - main [MainThread]: End processing [savant-rs-etcd-dynamic-state]: success
+[2023-06-15 14:16:48] INFO root fetch - processPackages [composabl-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_dev-0.2.1.dev9-cp38-cp38-musllinux_1_1_x86_64.whl.zip]
+[2023-06-15 14:16:48] INFO root fetch - processPackages [composabl-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_dev-0.2.1.dev95-cp38-cp38-musllinux_1_1_x86_64.whl.zip]
+[2023-06-15 14:16:48] INFO root fetch - main [MainThread]: End processing [composabl-dev]: success
+[2023-06-15 14:16:48] INFO root fetch - main [MainThread]: Store serial: [18515832]
