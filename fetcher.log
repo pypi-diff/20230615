@@ -18078,3 +18078,102 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-06-15 11:42:34] INFO root fetch - processPackages [piperider]: Remove: archive file [/home/abi/fetcher/tmp/piperider-0.9.0rc1.tar.gz]
 [2023-06-15 11:42:34] INFO root fetch - main [MainThread]: End processing [piperider]: success
 [2023-06-15 11:42:34] INFO root fetch - main [MainThread]: Store serial: [18514198]
+[2023-06-15 11:47:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18514198]
+[2023-06-15 11:47:43] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-06-15 11:47:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qontract-reconcile
+[2023-06-15 11:47:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cythonconst
+[2023-06-15 11:47:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kcli
+[2023-06-15 11:47:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tipg
+[2023-06-15 11:47:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: xsarslc
+[2023-06-15 11:47:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: synthesized
+[2023-06-15 11:47:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hestia-earth-aggregation
+[2023-06-15 11:47:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: fastmodels
+[2023-06-15 11:47:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: kfish
+[2023-06-15 11:47:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: shaku-database
+[2023-06-15 11:47:43] INFO root fetch - processPackages [shaku-database]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-06-15 11:47:43] WARNING root fetch - processPackages [tipg]: Skipping, unable to determine old version
+[2023-06-15 11:47:43] INFO root fetch - processPackages [tipg]: Start processing: yyxx-game-pkg
+[2023-06-15 11:47:43] INFO root fetch - main [MainThread]: End processing [tipg] error
+[2023-06-15 11:47:43] INFO root fetch - processPackages [cythonconst]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-06-15 11:47:43] INFO root fetch - processPackages [xsarslc]: New version: [2023.6.2] Old Version: [2023.6.15]
+[2023-06-15 11:47:43] INFO root fetch - processPackages [hestia-earth-aggregation]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-06-15 11:47:43] WARNING root fetch - processPackages [fastmodels]: Skipping, unable to determine old version
+[2023-06-15 11:47:43] INFO root fetch - processPackages [fastmodels]: Start processing: numerical-py
+[2023-06-15 11:47:43] INFO root fetch - main [MainThread]: End processing [fastmodels] error
+[2023-06-15 11:47:43] INFO root fetch - processPackages [kfish]: New version: [99.0.202306150945] Old Version: [99.0.202306150832]
+[2023-06-15 11:47:43] INFO root fetch - processPackages [synthesized]: New version: [2.7rc2] Old Version: [2.7rc1]
+[2023-06-15 11:47:43] INFO root fetch - processPackages [numerical-py]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-15 11:47:43] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2023-06-15 11:47:43] INFO root fetch - processPackages [shaku-database]: Downloading https://files.pythonhosted.org/packages/17/b8/2532c316d72c63731bca18df1b5b664cd8609c91144880425005fac23a33/shaku-database-1.0.4.tar.gz
+[2023-06-15 11:47:43] INFO root fetch - processPackages [kcli]: New version: [99.0.202306150943] Old Version: [99.0.202306150830]
+[2023-06-15 11:47:43] INFO root fetch - processPackages [yyxx-game-pkg]: New version: [2023.6.9.1] Old Version: [2023.6.6.2]
+[2023-06-15 11:47:43] INFO root fetch - processPackages [numerical-py]: Downloading https://files.pythonhosted.org/packages/1d/de/1646bfffd31b37c02f76dd709f9c00e9f79df74282ab8379237197ee3794/numerical_py-0.0.8.tar.gz
+[2023-06-15 11:47:43] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/16/39/ab92616cea366dabb86520e0169620b628cafb87b6ac9bc34493782ac45d/kcli-99.0.202306150830-py3-none-any.whl
+[2023-06-15 11:47:43] INFO root fetch - processPackages [xsarslc]: Downloading https://files.pythonhosted.org/packages/67/24/08a8646d503bdabc6be7f7404e4f5e24c912ea2d9eb52c1864302389b76d/xsarslc-2023.6.15.tar.gz
+[2023-06-15 11:47:43] INFO root fetch - processPackages [cythonconst]: Downloading https://files.pythonhosted.org/packages/f1/d4/e0d9290c6d1f25f300eb360da05ad6466051f770e187202520309e9ca5e4/cythonconst-1.0.0.tar.gz
+[2023-06-15 11:47:43] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/3b/bd/50496ab581b537c0550911bf173c9fe0564d211ba5a207cb38d4d19cfb69/kfish-99.0.202306150832-py3-none-any.whl
+[2023-06-15 11:47:43] INFO root fetch - processPackages [hestia-earth-aggregation]: Downloading https://files.pythonhosted.org/packages/5e/f8/c3f0d3c77a022f0e348386703237222ce289387213d21d03f63c34dfb2e3/hestia-earth-aggregation-0.9.2.tar.gz
+[2023-06-15 11:47:43] INFO root fetch - processPackages [synthesized]: Downloading https://files.pythonhosted.org/packages/70/40/83fdd05d96c551469300a8a1ff1840680d2948af0f893d404620fc07f28c/synthesized-2.7rc1-cp39-cp39-win_amd64.whl
+[2023-06-15 11:47:43] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/ee/0e/ac8ef8d8ff9114b5366efefac8ac0a94430168107cf051385aa73efdd7ef/qontract_reconcile-0.9.1rc98-py3-none-any.whl
+[2023-06-15 11:47:43] INFO root fetch - processPackages [yyxx-game-pkg]: Downloading https://files.pythonhosted.org/packages/73/f8/4b4d35bd7bb4c8f3fae1755149d17255c1a22dac93555dc3f25d2bd62df9/yyxx_game_pkg-2023.6.6.2.tar.gz
+[2023-06-15 11:47:43] INFO root fetch - processPackages [numerical-py]: Downloading https://files.pythonhosted.org/packages/95/1d/7677791c6175f40bd4a70e667ae838300671845f99330142d2e9a3d9f7f8/numerical_py-0.0.9.tar.gz
+[2023-06-15 11:47:43] INFO root fetch - processPackages [shaku-database]: Downloading https://files.pythonhosted.org/packages/67/82/a347f263cb396b056c0da90eed9f73d17b7a0a5881757cafa4443636b089/shaku-database-1.0.5.tar.gz
+[2023-06-15 11:47:43] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/d4/d7/01605c50fff59ba5529e5893b5c117d9bc91b24c154273b452aeebf89f1c/kfish-99.0.202306150945-py3-none-any.whl
+[2023-06-15 11:47:43] INFO root fetch - processPackages [cythonconst]: Downloading https://files.pythonhosted.org/packages/27/8e/cdf89d930d3523a57d26490f0d82f03c91bd3c9ee042d4a81677c8c90f34/cythonconst-1.1.0.tar.gz
+[2023-06-15 11:47:43] INFO root fetch - processPackages [shaku-database]: executing diffoscope
+[2023-06-15 11:47:43] INFO root fetch - processPackages [shaku-database]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shaku-database-1.0.4.tar.gz tmp/shaku-database-1.0.5.tar.gz --markdown 20230615/s/shaku-database/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-06-15 11:47:43] INFO root fetch - processPackages [numerical-py]: executing diffoscope
+[2023-06-15 11:47:43] INFO root fetch - processPackages [numerical-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/numerical_py-0.0.8.tar.gz tmp/numerical_py-0.0.9.tar.gz --markdown 20230615/n/numerical-py/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-15 11:47:43] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/96/14/233489b337e1aca0cbd4ef1e5017871047e24f3c735e5e2ef5de6bbd1c20/kcli-99.0.202306150943-py3-none-any.whl
+[2023-06-15 11:47:43] INFO root fetch - processPackages [xsarslc]: Downloading https://files.pythonhosted.org/packages/f4/15/dd940c67365a6a550189d6ec5bce0a75dd120eb404fa447c248eaf930088/xsarslc-2023.6.2.tar.gz
+[2023-06-15 11:47:43] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2023-06-15 11:47:43] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202306150832-py3-none-any.whl.zip tmp/kfish-99.0.202306150945-py3-none-any.whl.zip --markdown 20230615/k/kfish/99.0.202306150832-99.0.202306150945/diff.md --exclude *.pyd
+[2023-06-15 11:47:43] INFO root fetch - processPackages [cythonconst]: executing diffoscope
+[2023-06-15 11:47:43] INFO root fetch - processPackages [cythonconst]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cythonconst-1.0.0.tar.gz tmp/cythonconst-1.1.0.tar.gz --markdown 20230615/c/cythonconst/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-06-15 11:47:44] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/dd/8b/9de8b95ca80c898ecaafa95edc3438d306b82ab0d29d3895dd6e8f152129/qontract_reconcile-0.9.1rc99-py3-none-any.whl
+[2023-06-15 11:47:44] INFO root fetch - processPackages [hestia-earth-aggregation]: Downloading https://files.pythonhosted.org/packages/65/c9/38d65314c17e531d4bf2af618fccff360f8867a19ac63232d815ca4b6187/hestia-earth-aggregation-0.9.3.tar.gz
+[2023-06-15 11:47:44] INFO root fetch - processPackages [yyxx-game-pkg]: Downloading https://files.pythonhosted.org/packages/e5/82/79da6672e322e316d7b077a31d056141061d0271696087e26fd350612628/yyxx_game_pkg-2023.6.9.1.tar.gz
+[2023-06-15 11:47:44] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2023-06-15 11:47:44] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20230615/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/diff.md --exclude *.pyd
+[2023-06-15 11:47:44] INFO root fetch - processPackages [xsarslc]: executing diffoscope
+[2023-06-15 11:47:44] INFO root fetch - processPackages [xsarslc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xsarslc-2023.6.15.tar.gz tmp/xsarslc-2023.6.2.tar.gz --markdown 20230615/x/xsarslc/2023.6.15-2023.6.2/diff.md --exclude *.pyd
+[2023-06-15 11:47:44] INFO root fetch - processPackages [hestia-earth-aggregation]: executing diffoscope
+[2023-06-15 11:47:44] INFO root fetch - processPackages [hestia-earth-aggregation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hestia-earth-aggregation-0.9.2.tar.gz tmp/hestia-earth-aggregation-0.9.3.tar.gz --markdown 20230615/h/hestia-earth-aggregation/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-06-15 11:47:44] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-06-15 11:47:44] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202306150830-py3-none-any.whl.zip tmp/kcli-99.0.202306150943-py3-none-any.whl.zip --markdown 20230615/k/kcli/99.0.202306150830-99.0.202306150943/diff.md --exclude *.pyd
+[2023-06-15 11:47:44] INFO root fetch - processPackages [yyxx-game-pkg]: executing diffoscope
+[2023-06-15 11:47:44] INFO root fetch - processPackages [yyxx-game-pkg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yyxx_game_pkg-2023.6.6.2.tar.gz tmp/yyxx_game_pkg-2023.6.9.1.tar.gz --markdown 20230615/y/yyxx-game-pkg/2023.6.6.2-2023.6.9.1/diff.md --exclude *.pyd
+[2023-06-15 11:47:44] INFO root fetch - processPackages [synthesized]: Downloading https://files.pythonhosted.org/packages/c2/dc/742f6ed875e70a2d90eeb0de2ed669b2ef0ce869a6f2901b2ff6688a9795/synthesized-2.7rc2-cp39-cp39-win_amd64.whl
+[2023-06-15 11:47:45] INFO root fetch - processPackages [synthesized]: executing diffoscope
+[2023-06-15 11:47:45] INFO root fetch - processPackages [synthesized]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/synthesized-2.7rc1-cp39-cp39-win_amd64.whl.zip tmp/synthesized-2.7rc2-cp39-cp39-win_amd64.whl.zip --markdown 20230615/s/synthesized/2.7rc1-2.7rc2/diff.md --exclude *.pyd
+[2023-06-15 11:47:45] INFO root fetch - processPackages [numerical-py]: Remove: archive file [/home/abi/fetcher/tmp/numerical_py-0.0.8.tar.gz]
+[2023-06-15 11:47:45] INFO root fetch - processPackages [numerical-py]: Remove: archive file [/home/abi/fetcher/tmp/numerical_py-0.0.9.tar.gz]
+[2023-06-15 11:47:45] INFO root fetch - main [MainThread]: End processing [numerical-py]: success
+[2023-06-15 11:47:45] INFO root fetch - processPackages [shaku-database]: Remove: archive file [/home/abi/fetcher/tmp/shaku-database-1.0.4.tar.gz]
+[2023-06-15 11:47:45] INFO root fetch - processPackages [shaku-database]: Remove: archive file [/home/abi/fetcher/tmp/shaku-database-1.0.5.tar.gz]
+[2023-06-15 11:47:45] INFO root fetch - main [MainThread]: End processing [shaku-database]: success
+[2023-06-15 11:47:46] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202306150832-py3-none-any.whl.zip]
+[2023-06-15 11:47:46] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202306150945-py3-none-any.whl.zip]
+[2023-06-15 11:47:46] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2023-06-15 11:47:46] INFO root fetch - processPackages [cythonconst]: Remove: archive file [/home/abi/fetcher/tmp/cythonconst-1.0.0.tar.gz]
+[2023-06-15 11:47:46] INFO root fetch - processPackages [cythonconst]: Remove: archive file [/home/abi/fetcher/tmp/cythonconst-1.1.0.tar.gz]
+[2023-06-15 11:47:46] INFO root fetch - main [MainThread]: End processing [cythonconst]: success
+[2023-06-15 11:47:46] INFO root fetch - processPackages [hestia-earth-aggregation]: Remove: archive file [/home/abi/fetcher/tmp/hestia-earth-aggregation-0.9.2.tar.gz]
+[2023-06-15 11:47:46] INFO root fetch - processPackages [hestia-earth-aggregation]: Remove: archive file [/home/abi/fetcher/tmp/hestia-earth-aggregation-0.9.3.tar.gz]
+[2023-06-15 11:47:46] INFO root fetch - main [MainThread]: End processing [hestia-earth-aggregation]: success
+[2023-06-15 11:47:47] INFO root fetch - processPackages [synthesized]: Remove: archive file [/home/abi/fetcher/tmp/synthesized-2.7rc1-cp39-cp39-win_amd64.whl.zip]
+[2023-06-15 11:47:47] INFO root fetch - processPackages [synthesized]: Remove: archive file [/home/abi/fetcher/tmp/synthesized-2.7rc2-cp39-cp39-win_amd64.whl.zip]
+[2023-06-15 11:47:47] INFO root fetch - main [MainThread]: End processing [synthesized]: success
+[2023-06-15 11:47:47] INFO root fetch - processPackages [yyxx-game-pkg]: Remove: archive file [/home/abi/fetcher/tmp/yyxx_game_pkg-2023.6.6.2.tar.gz]
+[2023-06-15 11:47:47] INFO root fetch - processPackages [yyxx-game-pkg]: Remove: archive file [/home/abi/fetcher/tmp/yyxx_game_pkg-2023.6.9.1.tar.gz]
+[2023-06-15 11:47:47] INFO root fetch - main [MainThread]: End processing [yyxx-game-pkg]: success
+[2023-06-15 11:47:48] INFO root fetch - processPackages [xsarslc]: Remove: archive file [/home/abi/fetcher/tmp/xsarslc-2023.6.15.tar.gz]
+[2023-06-15 11:47:48] INFO root fetch - processPackages [xsarslc]: Remove: archive file [/home/abi/fetcher/tmp/xsarslc-2023.6.2.tar.gz]
+[2023-06-15 11:47:48] INFO root fetch - main [MainThread]: End processing [xsarslc]: success
+[2023-06-15 11:47:51] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip]
+[2023-06-15 11:47:51] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
+[2023-06-15 11:47:51] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2023-06-15 11:47:53] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202306150830-py3-none-any.whl.zip]
+[2023-06-15 11:47:53] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202306150943-py3-none-any.whl.zip]
+[2023-06-15 11:47:53] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-06-15 11:47:53] INFO root fetch - main [MainThread]: Store serial: [18514252]
