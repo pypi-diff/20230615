@@ -22341,3 +22341,131 @@ AssertionError: tmp/stackoverflowapithingy-0.1.5.tar.gz does not exist
 [2023-06-15 14:39:27] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-4.1.9.dev9.tar.gz]
 [2023-06-15 14:39:27] INFO root fetch - main [MainThread]: End processing [moto]: success
 [2023-06-15 14:39:27] INFO root fetch - main [MainThread]: Store serial: [18516025]
+[2023-06-15 14:44:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18516025]
+[2023-06-15 14:44:36] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-06-15 14:44:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: panml
+[2023-06-15 14:44:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: xformers
+[2023-06-15 14:44:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: xtn
+[2023-06-15 14:44:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aipha-geo-solutions
+[2023-06-15 14:44:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cg
+[2023-06-15 14:44:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: getmodelspec
+[2023-06-15 14:44:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pepver
+[2023-06-15 14:44:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: snapviz
+[2023-06-15 14:44:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: riotee-gateway
+[2023-06-15 14:44:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nomspectra
+[2023-06-15 14:44:36] INFO root fetch - processPackages [aipha-geo-solutions]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-15 14:44:36] INFO root fetch - processPackages [panml]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-06-15 14:44:36] INFO root fetch - processPackages [riotee-gateway]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-15 14:44:36] WARNING root fetch - processPackages [snapviz]: Skipping, unable to determine old version
+[2023-06-15 14:44:36] INFO root fetch - processPackages [snapviz]: Start processing: tensorcircuit-nightly
+[2023-06-15 14:44:36] INFO root fetch - main [MainThread]: End processing [snapviz] error
+[2023-06-15 14:44:36] INFO root fetch - processPackages [xtn]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-06-15 14:44:36] INFO root fetch - processPackages [getmodelspec]: New version: [1.0.381] Old Version: [1.0.38]
+[2023-06-15 14:44:36] INFO root fetch - processPackages [cg]: New version: [36.2.1] Old Version: [36.1.0]
+[2023-06-15 14:44:36] INFO root fetch - processPackages [pepver]: New version: [1.1.post1] Old Version: [1.1.0]
+[2023-06-15 14:44:36] INFO root fetch - processPackages [xformers]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-15 14:44:36] INFO root fetch - processPackages [tensorcircuit-nightly]: New version: [0.9.1.dev20230608] Old Version: [0.9.1.dev20230607]
+[2023-06-15 14:44:36] INFO root fetch - processPackages [aipha-geo-solutions]: Downloading https://files.pythonhosted.org/packages/e8/b3/ff5c38a51a91e7901ab1e1e09b2c9312b42a11cfea230db8efbe7b01b9b6/aipha_geo_solutions-0.1.8.tar.gz
+[2023-06-15 14:44:36] INFO root fetch - processPackages [getmodelspec]: Downloading https://files.pythonhosted.org/packages/5f/e0/4cbfa76e73beba98c3f736c5262b497a5b627bbfa9d6f59880a24ae2876d/getmodelspec-1.0.38.tar.gz
+[2023-06-15 14:44:36] INFO root fetch - processPackages [tensorcircuit-nightly]: Downloading https://files.pythonhosted.org/packages/79/2a/50740b6f8b7e1d0c4223c72c789f41baca7a4e77f32e8f52bd91e7ebff20/tensorcircuit-nightly-0.9.1.dev20230607.tar.gz
+[2023-06-15 14:44:36] INFO root fetch - processPackages [nomspectra]: New version: [1.0.0] Old Version: [0.3.12]
+[2023-06-15 14:44:36] INFO root fetch - processPackages [panml]: Downloading https://files.pythonhosted.org/packages/10/cf/ce523c1dd928202099ae4327fe6832cf2bbfef20e811c7f9a40455002b57/panml-1.0.5.tar.gz
+[2023-06-15 14:44:36] INFO root fetch - processPackages [pepver]: Downloading https://files.pythonhosted.org/packages/91/11/3f0babbd88bc48188974a83f2dc079b080a62d1bbd6662aaace9d487c093/pepver-1.1.0.tar.gz
+[2023-06-15 14:44:37] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/81/42/5802bc7ba29802a3dc9faa38ecefdc775a70329fead9ccfa54ff30a3e5a0/cg-36.1.0.tar.gz
+[2023-06-15 14:44:37] INFO root fetch - processPackages [riotee-gateway]: Downloading https://files.pythonhosted.org/packages/be/a1/de12d3b5d4680b14ed62834699cc24b29acd598cc98d51344d564c18131f/riotee_gateway-0.0.4.tar.gz
+[2023-06-15 14:44:37] INFO root fetch - processPackages [xtn]: Downloading https://files.pythonhosted.org/packages/24/a9/8cc81f2568614767831f947654f29a558c0a88de49a739d9a46fa1957278/xtn-0.3.0.tar.gz
+[2023-06-15 14:44:37] INFO root fetch - processPackages [xformers]: Downloading https://files.pythonhosted.org/packages/81/d6/709a1f765f8ecb6217ecd010e71f23c871a6cacdf837e1186c057eb0372f/xformers-0.0.8.tar.gz
+[2023-06-15 14:44:37] INFO root fetch - processPackages [tensorcircuit-nightly]: Downloading https://files.pythonhosted.org/packages/2f/cc/671276320457670987d1eb503de15ee19924e63c7ec9c99b14c240d5aa18/tensorcircuit-nightly-0.9.1.dev20230608.tar.gz
+[2023-06-15 14:44:37] INFO root fetch - processPackages [getmodelspec]: Downloading https://files.pythonhosted.org/packages/ee/ea/0b794c5adec7d43191e0501c51c6479d0852e042d77ab72864fdd86d4085/getmodelspec-1.0.381.tar.gz
+[2023-06-15 14:44:37] INFO root fetch - processPackages [aipha-geo-solutions]: Downloading https://files.pythonhosted.org/packages/cb/c8/937f481bdc98284eb81f7b271cae9b4629af7a97a0b5e7f3610a365f78d2/aipha_geo_solutions-0.1.9.tar.gz
+[2023-06-15 14:44:37] INFO root fetch - processPackages [nomspectra]: Downloading https://files.pythonhosted.org/packages/f4/10/8e4fa5d6f79fdaafd317bbd99860d88081b0ae78ce35100a7ba6d9797908/nomspectra-0.3.12.tar.gz
+[2023-06-15 14:44:37] INFO root fetch - processPackages [getmodelspec]: executing diffoscope
+[2023-06-15 14:44:37] INFO root fetch - processPackages [getmodelspec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/getmodelspec-1.0.38.tar.gz tmp/getmodelspec-1.0.381.tar.gz --markdown 20230615/g/getmodelspec/1.0.38-1.0.381/diff.md --exclude *.pyd
+[2023-06-15 14:44:37] INFO root fetch - processPackages [panml]: Downloading https://files.pythonhosted.org/packages/be/ff/d61ea245aed494024d143295847b42eb2f25d9592ff469129accff342070/panml-1.0.6.tar.gz
+[2023-06-15 14:44:37] INFO root fetch - processPackages [riotee-gateway]: Downloading https://files.pythonhosted.org/packages/7d/eb/a0223ac5705a02fea084b8f428352bbb35c05eb80a95a71aaa0f52e7ac3a/riotee_gateway-0.0.5.tar.gz
+[2023-06-15 14:44:37] INFO root fetch - processPackages [aipha-geo-solutions]: executing diffoscope
+[2023-06-15 14:44:37] INFO root fetch - processPackages [aipha-geo-solutions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aipha_geo_solutions-0.1.8.tar.gz tmp/aipha_geo_solutions-0.1.9.tar.gz --markdown 20230615/a/aipha-geo-solutions/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-15 14:44:37] INFO root fetch - processPackages [tensorcircuit-nightly]: executing diffoscope
+[2023-06-15 14:44:37] INFO root fetch - processPackages [tensorcircuit-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensorcircuit-nightly-0.9.1.dev20230607.tar.gz tmp/tensorcircuit-nightly-0.9.1.dev20230608.tar.gz --markdown 20230615/t/tensorcircuit-nightly/0.9.1.dev20230607-0.9.1.dev20230608/diff.md --exclude *.pyd
+[2023-06-15 14:44:37] INFO root fetch - processPackages [xtn]: Downloading https://files.pythonhosted.org/packages/4a/90/364588bbf96e4ea32289171e9be69c2ca1ac83303787287fa6652243ac54/xtn-0.4.0.tar.gz
+[2023-06-15 14:44:37] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/a4/9e/dbbba0e5216f655e19f12b3632fd593164f5c72af78acbb79c26402099c5/cg-36.2.1.tar.gz
+[2023-06-15 14:44:37] INFO root fetch - processPackages [riotee-gateway]: executing diffoscope
+[2023-06-15 14:44:37] INFO root fetch - processPackages [riotee-gateway]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/riotee_gateway-0.0.4.tar.gz tmp/riotee_gateway-0.0.5.tar.gz --markdown 20230615/r/riotee-gateway/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-15 14:44:37] INFO root fetch - processPackages [pepver]: Downloading https://files.pythonhosted.org/packages/cc/7c/14c8d76bae35b215d04a8017017953aa4a2e568ed85b2777a969e7676dfb/pepver-1.1.post1.tar.gz
+[2023-06-15 14:44:37] INFO root fetch - processPackages [panml]: executing diffoscope
+[2023-06-15 14:44:37] INFO root fetch - processPackages [panml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/panml-1.0.5.tar.gz tmp/panml-1.0.6.tar.gz --markdown 20230615/p/panml/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-06-15 14:44:37] INFO root fetch - processPackages [xformers]: Downloading https://files.pythonhosted.org/packages/8f/c2/9cfed3bb83e46be252b4a2e9a75ebb4c8a0f9df6cbb228b3646048a7d3c4/xformers-0.0.9.tar.gz
+[2023-06-15 14:44:37] INFO root fetch - processPackages [xtn]: executing diffoscope
+[2023-06-15 14:44:37] INFO root fetch - processPackages [xtn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xtn-0.3.0.tar.gz tmp/xtn-0.4.0.tar.gz --markdown 20230615/x/xtn/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-06-15 14:44:37] INFO root fetch - processPackages [pepver]: executing diffoscope
+[2023-06-15 14:44:37] INFO root fetch - processPackages [pepver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepver-1.1.0.tar.gz tmp/pepver-1.1.post1.tar.gz --markdown 20230615/p/pepver/1.1.0-1.1.post1/diff.md --exclude *.pyd
+[2023-06-15 14:44:37] INFO root fetch - processPackages [cg]: executing diffoscope
+[2023-06-15 14:44:37] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-36.1.0.tar.gz tmp/cg-36.2.1.tar.gz --markdown 20230615/c/cg/36.1.0-36.2.1/diff.md --exclude *.pyd
+[2023-06-15 14:44:37] INFO root fetch - processPackages [xformers]: executing diffoscope
+[2023-06-15 14:44:37] INFO root fetch - processPackages [xformers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xformers-0.0.8.tar.gz tmp/xformers-0.0.9.tar.gz --markdown 20230615/x/xformers/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-15 14:44:37] INFO root fetch - processPackages [nomspectra]: Downloading https://files.pythonhosted.org/packages/8d/2f/9acadf1a908383173c850ecfd1ea8254f11189a437e6f5c636754bfebb46/nomspectra-1.0.0.tar.gz
+[2023-06-15 14:44:37] INFO root fetch - processPackages [nomspectra]: executing diffoscope
+[2023-06-15 14:44:37] INFO root fetch - processPackages [nomspectra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nomspectra-0.3.12.tar.gz tmp/nomspectra-1.0.0.tar.gz --markdown 20230615/n/nomspectra/0.3.12-1.0.0/diff.md --exclude *.pyd
+[2023-06-15 14:44:38] INFO root fetch - processPackages [aipha-geo-solutions]: Remove: archive file [/home/abi/fetcher/tmp/aipha_geo_solutions-0.1.8.tar.gz]
+[2023-06-15 14:44:38] INFO root fetch - processPackages [aipha-geo-solutions]: Remove: archive file [/home/abi/fetcher/tmp/aipha_geo_solutions-0.1.9.tar.gz]
+[2023-06-15 14:44:38] INFO root fetch - processPackages [aipha-geo-solutions]: Start processing: EMMOntoPy
+[2023-06-15 14:44:38] INFO root fetch - main [MainThread]: End processing [aipha-geo-solutions]: success
+[2023-06-15 14:44:38] INFO root fetch - processPackages [getmodelspec]: Remove: archive file [/home/abi/fetcher/tmp/getmodelspec-1.0.38.tar.gz]
+[2023-06-15 14:44:38] INFO root fetch - processPackages [getmodelspec]: Remove: archive file [/home/abi/fetcher/tmp/getmodelspec-1.0.381.tar.gz]
+[2023-06-15 14:44:38] INFO root fetch - processPackages [getmodelspec]: Start processing: resimpyx
+[2023-06-15 14:44:38] INFO root fetch - main [MainThread]: End processing [getmodelspec]: success
+[2023-06-15 14:44:38] INFO root fetch - processPackages [EMMOntoPy]: New version: [0.5.4] Old Version: [0.5.2]
+[2023-06-15 14:44:38] INFO root fetch - processPackages [resimpyx]: New version: [0.0.1] Old Version: [0.0.0.4]
+[2023-06-15 14:44:38] INFO root fetch - processPackages [riotee-gateway]: Remove: archive file [/home/abi/fetcher/tmp/riotee_gateway-0.0.4.tar.gz]
+[2023-06-15 14:44:38] INFO root fetch - processPackages [riotee-gateway]: Remove: archive file [/home/abi/fetcher/tmp/riotee_gateway-0.0.5.tar.gz]
+[2023-06-15 14:44:38] INFO root fetch - processPackages [riotee-gateway]: Start processing: click-repl
+[2023-06-15 14:44:38] INFO root fetch - main [MainThread]: End processing [riotee-gateway]: success
+[2023-06-15 14:44:38] INFO root fetch - processPackages [click-repl]: New version: [0.2.0] Old Version: [0.1.6]
+[2023-06-15 14:44:38] INFO root fetch - processPackages [panml]: Remove: archive file [/home/abi/fetcher/tmp/panml-1.0.5.tar.gz]
+[2023-06-15 14:44:38] INFO root fetch - processPackages [panml]: Remove: archive file [/home/abi/fetcher/tmp/panml-1.0.6.tar.gz]
+[2023-06-15 14:44:38] INFO root fetch - processPackages [panml]: Start processing: huge
+[2023-06-15 14:44:38] INFO root fetch - main [MainThread]: End processing [panml]: success
+[2023-06-15 14:44:38] INFO root fetch - processPackages [resimpyx]: Downloading https://files.pythonhosted.org/packages/17/c8/902fecfc20f4ffd1eb48c0d57fc1502fd6d47d0daac29fae2e1c5bffe1db/resimpyx-0.0.0.4.tar.gz
+[2023-06-15 14:44:38] INFO root fetch - processPackages [EMMOntoPy]: Downloading https://files.pythonhosted.org/packages/1d/97/c364fc42171a438294fc17ca4ff0bd66a81defed20bde86ce45caab73f18/EMMOntoPy-0.5.2.tar.gz
+[2023-06-15 14:44:38] INFO root fetch - processPackages [xtn]: Remove: archive file [/home/abi/fetcher/tmp/xtn-0.3.0.tar.gz]
+[2023-06-15 14:44:38] INFO root fetch - processPackages [xtn]: Remove: archive file [/home/abi/fetcher/tmp/xtn-0.4.0.tar.gz]
+[2023-06-15 14:44:38] INFO root fetch - main [MainThread]: End processing [xtn]: success
+[2023-06-15 14:44:39] INFO root fetch - processPackages [click-repl]: Downloading https://files.pythonhosted.org/packages/51/99/6a722e232f92fdc21c46fd042fea63e7c2fcda3086ff5db62edd595d3f49/click-repl-0.1.6.tar.gz
+[2023-06-15 14:44:39] INFO root fetch - processPackages [pepver]: Remove: archive file [/home/abi/fetcher/tmp/pepver-1.1.0.tar.gz]
+[2023-06-15 14:44:39] INFO root fetch - processPackages [pepver]: Remove: archive file [/home/abi/fetcher/tmp/pepver-1.1.post1.tar.gz]
+[2023-06-15 14:44:39] INFO root fetch - main [MainThread]: End processing [pepver]: success
+[2023-06-15 14:44:39] INFO root fetch - processPackages [huge]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-15 14:44:39] WARNING root fetch - processPackages [EMMOntoPy]: Skipping package: exceeds size limit 20720996>=10485760
+[2023-06-15 14:44:39] INFO root fetch - main [MainThread]: End processing [EMMOntoPy] error
+[2023-06-15 14:44:39] INFO root fetch - processPackages [nomspectra]: Remove: archive file [/home/abi/fetcher/tmp/nomspectra-0.3.12.tar.gz]
+[2023-06-15 14:44:39] INFO root fetch - processPackages [nomspectra]: Remove: archive file [/home/abi/fetcher/tmp/nomspectra-1.0.0.tar.gz]
+[2023-06-15 14:44:39] INFO root fetch - main [MainThread]: End processing [nomspectra]: success
+[2023-06-15 14:44:39] INFO root fetch - processPackages [click-repl]: Downloading https://files.pythonhosted.org/packages/60/30/11d3f09eff5ae3627bca79563855035e8d241444520500a3c7914eae6a74/click-repl-0.2.0.tar.gz
+[2023-06-15 14:44:39] INFO root fetch - processPackages [huge]: Downloading https://files.pythonhosted.org/packages/93/20/f00c1fad13c64bb1ade7f762a48b9b3d2b25764d25ba453ccd0e16d68c22/huge-0.1.2.tar.gz
+[2023-06-15 14:44:39] INFO root fetch - processPackages [resimpyx]: Downloading https://files.pythonhosted.org/packages/11/1f/0d107e5f7664f93f5f2b8b83c1c7647eba44cba3e0834a1f690bdcaab7ef/resimpyx-0.0.1.tar.gz
+[2023-06-15 14:44:39] INFO root fetch - processPackages [click-repl]: executing diffoscope
+[2023-06-15 14:44:39] INFO root fetch - processPackages [click-repl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/click-repl-0.1.6.tar.gz tmp/click-repl-0.2.0.tar.gz --markdown 20230615/c/click-repl/0.1.6-0.2.0/diff.md --exclude *.pyd
+[2023-06-15 14:44:39] INFO root fetch - processPackages [resimpyx]: executing diffoscope
+[2023-06-15 14:44:39] INFO root fetch - processPackages [resimpyx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/resimpyx-0.0.0.4.tar.gz tmp/resimpyx-0.0.1.tar.gz --markdown 20230615/r/resimpyx/0.0.0.4-0.0.1/diff.md --exclude *.pyd
+[2023-06-15 14:44:39] INFO root fetch - processPackages [huge]: Downloading https://files.pythonhosted.org/packages/93/ba/0ebf3ea4aa0434a361878df63c54055194ed3ef2581b1c43587bcf8cde3f/huge-0.1.3.tar.gz
+[2023-06-15 14:44:39] INFO root fetch - processPackages [huge]: executing diffoscope
+[2023-06-15 14:44:39] INFO root fetch - processPackages [huge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huge-0.1.2.tar.gz tmp/huge-0.1.3.tar.gz --markdown 20230615/h/huge/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-15 14:44:40] INFO root fetch - processPackages [click-repl]: Remove: archive file [/home/abi/fetcher/tmp/click-repl-0.1.6.tar.gz]
+[2023-06-15 14:44:40] INFO root fetch - processPackages [click-repl]: Remove: archive file [/home/abi/fetcher/tmp/click-repl-0.2.0.tar.gz]
+[2023-06-15 14:44:40] INFO root fetch - main [MainThread]: End processing [click-repl]: success
+[2023-06-15 14:44:40] INFO root fetch - processPackages [huge]: Remove: archive file [/home/abi/fetcher/tmp/huge-0.1.2.tar.gz]
+[2023-06-15 14:44:40] INFO root fetch - processPackages [huge]: Remove: archive file [/home/abi/fetcher/tmp/huge-0.1.3.tar.gz]
+[2023-06-15 14:44:40] INFO root fetch - main [MainThread]: End processing [huge]: success
+[2023-06-15 14:44:40] INFO root fetch - processPackages [xformers]: Remove: archive file [/home/abi/fetcher/tmp/xformers-0.0.8.tar.gz]
+[2023-06-15 14:44:40] INFO root fetch - processPackages [xformers]: Remove: archive file [/home/abi/fetcher/tmp/xformers-0.0.9.tar.gz]
+[2023-06-15 14:44:40] INFO root fetch - main [MainThread]: End processing [xformers]: success
+[2023-06-15 14:44:41] INFO root fetch - processPackages [resimpyx]: Remove: archive file [/home/abi/fetcher/tmp/resimpyx-0.0.0.4.tar.gz]
+[2023-06-15 14:44:41] INFO root fetch - processPackages [resimpyx]: Remove: archive file [/home/abi/fetcher/tmp/resimpyx-0.0.1.tar.gz]
+[2023-06-15 14:44:41] INFO root fetch - main [MainThread]: End processing [resimpyx]: success
+[2023-06-15 14:44:42] INFO root fetch - processPackages [tensorcircuit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensorcircuit-nightly-0.9.1.dev20230607.tar.gz]
+[2023-06-15 14:44:42] INFO root fetch - processPackages [tensorcircuit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensorcircuit-nightly-0.9.1.dev20230608.tar.gz]
+[2023-06-15 14:44:42] INFO root fetch - main [MainThread]: End processing [tensorcircuit-nightly]: success
+[2023-06-15 14:44:48] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-36.1.0.tar.gz]
+[2023-06-15 14:44:48] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-36.2.1.tar.gz]
+[2023-06-15 14:44:48] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2023-06-15 14:44:48] INFO root fetch - main [MainThread]: Store serial: [18516071]
