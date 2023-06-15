@@ -5803,3 +5803,78 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-15 03:18:28] INFO root fetch - processPackages [tccli-intl-en]: Remove: archive file [/home/abi/fetcher/tmp/tccli-intl-en-3.0.99.1.tar.gz]
 [2023-06-15 03:18:28] INFO root fetch - main [MainThread]: End processing [tccli-intl-en]: success
 [2023-06-15 03:18:28] INFO root fetch - main [MainThread]: Store serial: [18509601]
+[2023-06-15 03:23:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18509601]
+[2023-06-15 03:23:37] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-15 03:23:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pepperize.cdk-organizations
+[2023-06-15 03:23:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-sops-secrets
+[2023-06-15 03:23:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: psapy
+[2023-06-15 03:23:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ms-deisotope
+[2023-06-15 03:23:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tutor-license
+[2023-06-15 03:23:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lyra-graphtool-test
+[2023-06-15 03:23:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cdk-lambda-subminute
+[2023-06-15 03:23:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: yplib
+[2023-06-15 03:23:37] INFO root fetch - processPackages [tutor-license]: New version: [16.0.0] Old Version: [15.0.0]
+[2023-06-15 03:23:37] INFO root fetch - processPackages [cdk-sops-secrets]: New version: [1.2.99] Old Version: [1.2.98]
+[2023-06-15 03:23:37] INFO root fetch - processPackages [lyra-graphtool-test]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-15 03:23:37] INFO root fetch - processPackages [cdk-lambda-subminute]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-06-15 03:23:37] INFO root fetch - processPackages [ms-deisotope]: New version: [0.0.9] Old Version: [0.0.49]
+[2023-06-15 03:23:37] INFO root fetch - processPackages [yplib]: New version: [1.2.7] Old Version: [1.2.6]
+[2023-06-15 03:23:37] INFO root fetch - processPackages [psapy]: New version: [0.5] Old Version: [0.4]
+[2023-06-15 03:23:37] INFO root fetch - processPackages [pepperize.cdk-organizations]: New version: [0.7.99] Old Version: [0.7.98]
+[2023-06-15 03:23:37] INFO root fetch - processPackages [cdk-lambda-subminute]: Downloading https://files.pythonhosted.org/packages/e5/12/963a9c9137cb30feaf66b7d9cb7a08a6ea591ebef038343c3b132f84bba7/cdk_lambda_subminute-2.0.98.tar.gz
+[2023-06-15 03:23:37] INFO root fetch - processPackages [ms-deisotope]: Downloading https://files.pythonhosted.org/packages/f5/44/0275a69b254a6abd9a07108d0787739bff3fa843d67b965b62d985c1cdca/ms_deisotope-0.0.49.tar.gz
+[2023-06-15 03:23:37] INFO root fetch - processPackages [lyra-graphtool-test]: Downloading https://files.pythonhosted.org/packages/b7/73/d631ab91435e9a87161d9ff405dafc97fe181af5f8949a34a230e06fb6a9/lyra_graphtool_test-0.0.1.tar.gz
+[2023-06-15 03:23:37] INFO root fetch - processPackages [tutor-license]: Downloading https://files.pythonhosted.org/packages/ab/43/a9e93024cbee9afcbf90a4c6dcacc18d936228abe9f3dbcf750065a176e9/tutor-license-15.0.0.tar.gz
+[2023-06-15 03:23:37] INFO root fetch - processPackages [psapy]: Downloading https://files.pythonhosted.org/packages/3a/0b/4f8c2f10564f6e103aa7d27ca3d5e74d423debf26c7cdc690d16a808fc99/psapy-0.4.tar.gz
+[2023-06-15 03:23:37] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/f7/cb/fc68fe0164aead50feb7789d6ba983a0badaf4920278b2fe421796eff18b/yplib-1.2.6.tar.gz
+[2023-06-15 03:23:37] INFO root fetch - processPackages [cdk-sops-secrets]: Downloading https://files.pythonhosted.org/packages/e2/8d/e29915f1e26b1a9d52bb33bc0abeaa259422cbc8e7fb8d8031fb9d7855e5/cdk-sops-secrets-1.2.98.tar.gz
+[2023-06-15 03:23:37] INFO root fetch - processPackages [cdk-lambda-subminute]: Downloading https://files.pythonhosted.org/packages/72/85/0d48595efd9bc93c2b767982602157ef78a97896735d1d14075242ba3a9f/cdk_lambda_subminute-2.0.99.tar.gz
+[2023-06-15 03:23:37] INFO root fetch - processPackages [pepperize.cdk-organizations]: Downloading https://files.pythonhosted.org/packages/c4/ec/fa2c14031b7b9ce22e4b044c652dd13a1a81769141fcd90e55c9eeb24d66/pepperize.cdk-organizations-0.7.98.tar.gz
+[2023-06-15 03:23:37] INFO root fetch - processPackages [cdk-lambda-subminute]: executing diffoscope
+[2023-06-15 03:23:37] INFO root fetch - processPackages [cdk-lambda-subminute]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk_lambda_subminute-2.0.98.tar.gz tmp/cdk_lambda_subminute-2.0.99.tar.gz --markdown 20230615/c/cdk-lambda-subminute/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-06-15 03:23:37] INFO root fetch - processPackages [lyra-graphtool-test]: Downloading https://files.pythonhosted.org/packages/a4/99/68445fa71f66db426b8d4a0730145346e3c62d1ea29d981e500a120d1a83/lyra_graphtool_test-0.0.2.tar.gz
+[2023-06-15 03:23:37] INFO root fetch - processPackages [tutor-license]: Downloading https://files.pythonhosted.org/packages/33/5f/b8d8a2766a728d19f6836195fb12e07680875752cb01645aec8a81602c9c/tutor-license-16.0.0.tar.gz
+[2023-06-15 03:23:38] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/a8/05/158ffb9388ac8df6e81df79e88ccfb22743824b26768cf14f1e66d87dcaa/yplib-1.2.7.tar.gz
+[2023-06-15 03:23:38] INFO root fetch - processPackages [tutor-license]: executing diffoscope
+[2023-06-15 03:23:38] INFO root fetch - processPackages [tutor-license]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tutor-license-15.0.0.tar.gz tmp/tutor-license-16.0.0.tar.gz --markdown 20230615/t/tutor-license/15.0.0-16.0.0/diff.md --exclude *.pyd
+[2023-06-15 03:23:38] INFO root fetch - processPackages [lyra-graphtool-test]: executing diffoscope
+[2023-06-15 03:23:38] INFO root fetch - processPackages [lyra-graphtool-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lyra_graphtool_test-0.0.1.tar.gz tmp/lyra_graphtool_test-0.0.2.tar.gz --markdown 20230615/l/lyra-graphtool-test/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-15 03:23:38] INFO root fetch - processPackages [ms-deisotope]: Downloading https://files.pythonhosted.org/packages/d0/ab/1e1aed9c2f0d137be5ed884f3fdcff9744df1b613aeb56108104c28d4b36/ms_deisotope-0.0.9.tar.gz
+[2023-06-15 03:23:38] INFO root fetch - processPackages [pepperize.cdk-organizations]: Downloading https://files.pythonhosted.org/packages/12/45/1106cc30844f7f4d96f7898a6ef3647d24a597c297bab995920a5915750e/pepperize.cdk-organizations-0.7.99.tar.gz
+[2023-06-15 03:23:38] INFO root fetch - processPackages [yplib]: executing diffoscope
+[2023-06-15 03:23:38] INFO root fetch - processPackages [yplib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yplib-1.2.6.tar.gz tmp/yplib-1.2.7.tar.gz --markdown 20230615/y/yplib/1.2.6-1.2.7/diff.md --exclude *.pyd
+[2023-06-15 03:23:38] INFO root fetch - processPackages [pepperize.cdk-organizations]: executing diffoscope
+[2023-06-15 03:23:38] INFO root fetch - processPackages [pepperize.cdk-organizations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-organizations-0.7.98.tar.gz tmp/pepperize.cdk-organizations-0.7.99.tar.gz --markdown 20230615/p/pepperize.cdk-organizations/0.7.98-0.7.99/diff.md --exclude *.pyd
+[2023-06-15 03:23:38] INFO root fetch - processPackages [psapy]: Downloading https://files.pythonhosted.org/packages/69/1b/a40c614c4ffd06884bfc3a949cacd467cfa59ca90efed6042fa270c8b5da/psapy-0.5.tar.gz
+[2023-06-15 03:23:38] INFO root fetch - processPackages [psapy]: executing diffoscope
+[2023-06-15 03:23:38] INFO root fetch - processPackages [psapy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/psapy-0.4.tar.gz tmp/psapy-0.5.tar.gz --markdown 20230615/p/psapy/0.4-0.5/diff.md --exclude *.pyd
+[2023-06-15 03:23:39] INFO root fetch - processPackages [cdk-lambda-subminute]: Remove: archive file [/home/abi/fetcher/tmp/cdk_lambda_subminute-2.0.98.tar.gz]
+[2023-06-15 03:23:39] INFO root fetch - processPackages [cdk-lambda-subminute]: Remove: archive file [/home/abi/fetcher/tmp/cdk_lambda_subminute-2.0.99.tar.gz]
+[2023-06-15 03:23:39] INFO root fetch - main [MainThread]: End processing [cdk-lambda-subminute]: success
+[2023-06-15 03:23:39] INFO root fetch - processPackages [lyra-graphtool-test]: Remove: archive file [/home/abi/fetcher/tmp/lyra_graphtool_test-0.0.1.tar.gz]
+[2023-06-15 03:23:39] INFO root fetch - processPackages [lyra-graphtool-test]: Remove: archive file [/home/abi/fetcher/tmp/lyra_graphtool_test-0.0.2.tar.gz]
+[2023-06-15 03:23:39] INFO root fetch - main [MainThread]: End processing [lyra-graphtool-test]: success
+[2023-06-15 03:23:39] INFO root fetch - processPackages [ms-deisotope]: executing diffoscope
+[2023-06-15 03:23:39] INFO root fetch - processPackages [ms-deisotope]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ms_deisotope-0.0.49.tar.gz tmp/ms_deisotope-0.0.9.tar.gz --markdown 20230615/m/ms-deisotope/0.0.49-0.0.9/diff.md --exclude *.pyd
+[2023-06-15 03:23:39] INFO root fetch - processPackages [pepperize.cdk-organizations]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-organizations-0.7.98.tar.gz]
+[2023-06-15 03:23:39] INFO root fetch - processPackages [pepperize.cdk-organizations]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-organizations-0.7.99.tar.gz]
+[2023-06-15 03:23:39] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-organizations]: success
+[2023-06-15 03:23:39] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-1.2.6.tar.gz]
+[2023-06-15 03:23:39] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-1.2.7.tar.gz]
+[2023-06-15 03:23:39] INFO root fetch - main [MainThread]: End processing [yplib]: success
+[2023-06-15 03:23:39] INFO root fetch - processPackages [tutor-license]: Remove: archive file [/home/abi/fetcher/tmp/tutor-license-15.0.0.tar.gz]
+[2023-06-15 03:23:39] INFO root fetch - processPackages [tutor-license]: Remove: archive file [/home/abi/fetcher/tmp/tutor-license-16.0.0.tar.gz]
+[2023-06-15 03:23:39] INFO root fetch - main [MainThread]: End processing [tutor-license]: success
+[2023-06-15 03:23:39] INFO root fetch - processPackages [cdk-sops-secrets]: Downloading https://files.pythonhosted.org/packages/10/33/e08c5e7bb6d5b198c75b53cba42224da6ac877f65fd4a4343fecdad9a93e/cdk-sops-secrets-1.2.99.tar.gz
+[2023-06-15 03:23:39] INFO root fetch - processPackages [psapy]: Remove: archive file [/home/abi/fetcher/tmp/psapy-0.4.tar.gz]
+[2023-06-15 03:23:39] INFO root fetch - processPackages [psapy]: Remove: archive file [/home/abi/fetcher/tmp/psapy-0.5.tar.gz]
+[2023-06-15 03:23:39] INFO root fetch - main [MainThread]: End processing [psapy]: success
+[2023-06-15 03:23:42] INFO root fetch - processPackages [cdk-sops-secrets]: executing diffoscope
+[2023-06-15 03:23:42] INFO root fetch - processPackages [cdk-sops-secrets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-sops-secrets-1.2.98.tar.gz tmp/cdk-sops-secrets-1.2.99.tar.gz --markdown 20230615/c/cdk-sops-secrets/1.2.98-1.2.99/diff.md --exclude *.pyd
+[2023-06-15 03:23:44] INFO root fetch - processPackages [cdk-sops-secrets]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sops-secrets-1.2.98.tar.gz]
+[2023-06-15 03:23:44] INFO root fetch - processPackages [cdk-sops-secrets]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sops-secrets-1.2.99.tar.gz]
+[2023-06-15 03:23:44] INFO root fetch - main [MainThread]: End processing [cdk-sops-secrets]: success
+[2023-06-15 03:23:45] INFO root fetch - processPackages [ms-deisotope]: Remove: archive file [/home/abi/fetcher/tmp/ms_deisotope-0.0.49.tar.gz]
+[2023-06-15 03:23:45] INFO root fetch - processPackages [ms-deisotope]: Remove: archive file [/home/abi/fetcher/tmp/ms_deisotope-0.0.9.tar.gz]
+[2023-06-15 03:23:45] INFO root fetch - main [MainThread]: End processing [ms-deisotope]: success
+[2023-06-15 03:23:45] INFO root fetch - main [MainThread]: Store serial: [18509640]
