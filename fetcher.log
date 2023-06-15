@@ -19818,3 +19818,127 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-06-15 13:06:42] INFO root fetch - processPackages [django-ipghrms-leave]: Remove: archive file [/home/abi/fetcher/tmp/django-ipghrms-leave-1.8.tar.gz]
 [2023-06-15 13:06:42] INFO root fetch - main [MainThread]: End processing [django-ipghrms-leave]: success
 [2023-06-15 13:06:42] INFO root fetch - main [MainThread]: Store serial: [18514972]
+[2023-06-15 13:11:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18514972]
+[2023-06-15 13:11:51] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-06-15 13:11:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: beetl
+[2023-06-15 13:11:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-ipghrms-employee
+[2023-06-15 13:11:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mqt.predictor
+[2023-06-15 13:11:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: oidc-client
+[2023-06-15 13:11:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: chainmapping
+[2023-06-15 13:11:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: AutoFun
+[2023-06-15 13:11:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addon-openupgrade-scripts
+[2023-06-15 13:11:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ozgursozluk
+[2023-06-15 13:11:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: numerical-py
+[2023-06-15 13:11:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: mqt.qmap
+[2023-06-15 13:11:51] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: New version: [16.0.1.0.1] Old Version: [16.0.1.0.0.7]
+[2023-06-15 13:11:51] INFO root fetch - processPackages [beetl]: New version: [0.2.1] Old Version: [0.1.1]
+[2023-06-15 13:11:51] INFO root fetch - processPackages [django-ipghrms-employee]: New version: [1.9] Old Version: [1.8]
+[2023-06-15 13:11:51] INFO root fetch - processPackages [mqt.predictor]: New version: [1.3.0] Old Version: [1.2.2]
+[2023-06-15 13:11:51] INFO root fetch - processPackages [AutoFun]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-06-15 13:11:51] WARNING root fetch - processPackages [ozgursozluk]: Skipping, unable to determine old version
+[2023-06-15 13:11:51] INFO root fetch - processPackages [numerical-py]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-15 13:11:51] INFO root fetch - processPackages [chainmapping]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-15 13:11:51] INFO root fetch - processPackages [oidc-client]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-06-15 13:11:51] INFO root fetch - processPackages [ozgursozluk]: Start processing: antchain-nftx
+[2023-06-15 13:11:51] INFO root fetch - main [MainThread]: End processing [ozgursozluk] error
+[2023-06-15 13:11:51] INFO root fetch - processPackages [mqt.qmap]: New version: [2.2.1] Old Version: [2.2.0]
+[2023-06-15 13:11:51] INFO root fetch - processPackages [antchain-nftx]: New version: [1.8.5] Old Version: [1.8.4]
+[2023-06-15 13:11:51] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: Downloading https://files.pythonhosted.org/packages/5c/a8/85ee714599c3fab831e0904acba84ae7b5c49175973d58d479f00a8d6d5b/odoo_addon_openupgrade_scripts-16.0.1.0.0.7-py3-none-any.whl
+[2023-06-15 13:11:51] INFO root fetch - processPackages [antchain-nftx]: Downloading https://files.pythonhosted.org/packages/5b/3c/e6c4c01602a46854a95313f36d02a6b8a82a3acf0328327edb1f071aa8f1/antchain_nftx-1.8.4.tar.gz
+[2023-06-15 13:11:51] INFO root fetch - processPackages [numerical-py]: Downloading https://files.pythonhosted.org/packages/1d/de/1646bfffd31b37c02f76dd709f9c00e9f79df74282ab8379237197ee3794/numerical_py-0.0.8.tar.gz
+[2023-06-15 13:11:51] INFO root fetch - processPackages [AutoFun]: Downloading https://files.pythonhosted.org/packages/6d/85/279de912dfd86b7879f37f77c5c39ae00a9494aaaa37c06107212b72ef03/AutoFun-0.3.9.tar.gz
+[2023-06-15 13:11:51] INFO root fetch - processPackages [beetl]: Downloading https://files.pythonhosted.org/packages/06/66/5fd4a9b2db492d43b1d31451aca61fac02478ea2b9bdef900b88b45ae5b3/beetl-0.1.1.tar.gz
+[2023-06-15 13:11:51] INFO root fetch - processPackages [django-ipghrms-employee]: Downloading https://files.pythonhosted.org/packages/1c/e5/9a6fb04055451e40b69d37d8787f853843a3cf2e7d6794f99f8ca7880c98/django-ipghrms-employee-1.8.tar.gz
+[2023-06-15 13:11:51] WARNING root fetch - processPackages [AutoFun]: Skipping package: exceeds size limit 61458619>=10485760
+[2023-06-15 13:11:51] INFO root fetch - processPackages [AutoFun]: Start processing: johnsnowlabs-tmp
+[2023-06-15 13:11:51] INFO root fetch - main [MainThread]: End processing [AutoFun] error
+[2023-06-15 13:11:51] INFO root fetch - processPackages [mqt.predictor]: Downloading https://files.pythonhosted.org/packages/4f/3e/5e7f9f89b46d742d58879080c509dd514c9ed7dcd3899e14c15b11ca3fec/mqt.predictor-1.2.2.tar.gz
+[2023-06-15 13:11:51] INFO root fetch - processPackages [oidc-client]: Downloading https://files.pythonhosted.org/packages/a3/5f/ed819ca089d442123eead88b490d8ba08aade7931111648fabf08808b3a6/oidc_client-0.2.5.tar.gz
+[2023-06-15 13:11:51] INFO root fetch - processPackages [chainmapping]: Downloading https://files.pythonhosted.org/packages/9b/1c/bb070aa4e6a867227152c8c54f45fd99b6bdd2efb802b290620e0eff4614/chainmapping-0.1.1.tar.gz
+[2023-06-15 13:11:52] INFO root fetch - processPackages [johnsnowlabs-tmp]: New version: [4.4.9] Old Version: [4.4.8]
+[2023-06-15 13:11:52] INFO root fetch - processPackages [mqt.qmap]: Downloading https://files.pythonhosted.org/packages/b9/ca/db67f394c440d00f0e150d19c49526d769c38aa2f29891c7805fbcb94c9e/mqt.qmap-2.2.0.tar.gz
+[2023-06-15 13:11:52] INFO root fetch - processPackages [numerical-py]: Downloading https://files.pythonhosted.org/packages/95/1d/7677791c6175f40bd4a70e667ae838300671845f99330142d2e9a3d9f7f8/numerical_py-0.0.9.tar.gz
+[2023-06-15 13:11:52] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: Downloading https://files.pythonhosted.org/packages/78/aa/7cf9e6def9944f5dcc69df49bbc3da902e7562c70135790deee2e0189cbc/odoo_addon_openupgrade_scripts-16.0.1.0.1-py3-none-any.whl
+[2023-06-15 13:11:52] WARNING root fetch - processPackages [mqt.predictor]: Skipping package: exceeds size limit 20949219>=10485760
+[2023-06-15 13:11:52] INFO root fetch - processPackages [mqt.predictor]: Start processing: django-ipghrms-main
+[2023-06-15 13:11:52] INFO root fetch - main [MainThread]: End processing [mqt.predictor] error
+[2023-06-15 13:11:52] INFO root fetch - processPackages [antchain-nftx]: Downloading https://files.pythonhosted.org/packages/16/0d/ca37646d86a183dffa686dfd6e2d8899223928da71f93012d162526001da/antchain_nftx-1.8.5.tar.gz
+[2023-06-15 13:11:52] INFO root fetch - processPackages [django-ipghrms-main]: New version: [1.3] Old Version: [1.2]
+[2023-06-15 13:11:52] INFO root fetch - processPackages [numerical-py]: executing diffoscope
+[2023-06-15 13:11:52] INFO root fetch - processPackages [numerical-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/numerical_py-0.0.8.tar.gz tmp/numerical_py-0.0.9.tar.gz --markdown 20230615/n/numerical-py/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-15 13:11:52] INFO root fetch - processPackages [johnsnowlabs-tmp]: Downloading https://files.pythonhosted.org/packages/93/c7/36389a32db55acab691a0cae8d7d2f9b6f192c65a1a14d04e86504da1f42/johnsnowlabs_tmp-4.4.8.tar.gz
+[2023-06-15 13:11:52] INFO root fetch - processPackages [django-ipghrms-employee]: Downloading https://files.pythonhosted.org/packages/d6/b8/46e1013d04ed020b8340e6530e41ecaf8531f796a68610ca25730ab57b9f/django-ipghrms-employee-1.9.tar.gz
+[2023-06-15 13:11:52] INFO root fetch - processPackages [chainmapping]: Downloading https://files.pythonhosted.org/packages/a2/a0/6ccf83e0d51e3edff30de8a5beedc71001735182e48928d6b09dd6026460/chainmapping-0.1.2.tar.gz
+[2023-06-15 13:11:52] INFO root fetch - processPackages [beetl]: Downloading https://files.pythonhosted.org/packages/93/27/137ab77d5dd9ca2b8321c8c44999244d442f8cf9a5c0183c01274049f7f3/beetl-0.2.1.tar.gz
+[2023-06-15 13:11:52] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: executing diffoscope
+[2023-06-15 13:11:52] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_openupgrade_scripts-16.0.1.0.0.7-py3-none-any.whl.zip tmp/odoo_addon_openupgrade_scripts-16.0.1.0.1-py3-none-any.whl.zip --markdown 20230615/o/odoo-addon-openupgrade-scripts/16.0.1.0.0.7-16.0.1.0.1/diff.md --exclude *.pyd
+[2023-06-15 13:11:52] INFO root fetch - processPackages [chainmapping]: executing diffoscope
+[2023-06-15 13:11:52] INFO root fetch - processPackages [chainmapping]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chainmapping-0.1.1.tar.gz tmp/chainmapping-0.1.2.tar.gz --markdown 20230615/c/chainmapping/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-15 13:11:52] INFO root fetch - processPackages [oidc-client]: Downloading https://files.pythonhosted.org/packages/7f/74/59af8c79282765997d172b47f3ee19cb34131aff1e76186d6853178667a0/oidc_client-0.2.6.tar.gz
+[2023-06-15 13:11:52] INFO root fetch - processPackages [antchain-nftx]: executing diffoscope
+[2023-06-15 13:11:52] INFO root fetch - processPackages [django-ipghrms-employee]: executing diffoscope
+[2023-06-15 13:11:52] INFO root fetch - processPackages [antchain-nftx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antchain_nftx-1.8.4.tar.gz tmp/antchain_nftx-1.8.5.tar.gz --markdown 20230615/a/antchain-nftx/1.8.4-1.8.5/diff.md --exclude *.pyd
+[2023-06-15 13:11:52] INFO root fetch - processPackages [django-ipghrms-employee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-ipghrms-employee-1.8.tar.gz tmp/django-ipghrms-employee-1.9.tar.gz --markdown 20230615/d/django-ipghrms-employee/1.8-1.9/diff.md --exclude *.pyd
+[2023-06-15 13:11:52] INFO root fetch - processPackages [django-ipghrms-main]: Downloading https://files.pythonhosted.org/packages/e7/45/54343a8c50e7625abe76155892a1d8163c0119919ff5546a3267de2c9f43/django-ipghrms-main-1.2.tar.gz
+[2023-06-15 13:11:52] INFO root fetch - processPackages [oidc-client]: executing diffoscope
+[2023-06-15 13:11:52] INFO root fetch - processPackages [oidc-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oidc_client-0.2.5.tar.gz tmp/oidc_client-0.2.6.tar.gz --markdown 20230615/o/oidc-client/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-06-15 13:11:52] INFO root fetch - processPackages [beetl]: executing diffoscope
+[2023-06-15 13:11:52] INFO root fetch - processPackages [beetl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/beetl-0.1.1.tar.gz tmp/beetl-0.2.1.tar.gz --markdown 20230615/b/beetl/0.1.1-0.2.1/diff.md --exclude *.pyd
+[2023-06-15 13:11:52] INFO root fetch - processPackages [johnsnowlabs-tmp]: Downloading https://files.pythonhosted.org/packages/ac/cf/b40dfd39385b18d5172c5c5d3738d9442d5fd8c796b8b95393725d24b4e6/johnsnowlabs_tmp-4.4.9.tar.gz
+[2023-06-15 13:11:52] INFO root fetch - processPackages [mqt.qmap]: Downloading https://files.pythonhosted.org/packages/f0/6c/dece771df2b643a244304bbab48afcd36cb887bbefdef93f5030861b0ed9/mqt.qmap-2.2.1.tar.gz
+[2023-06-15 13:11:52] INFO root fetch - processPackages [johnsnowlabs-tmp]: executing diffoscope
+[2023-06-15 13:11:52] INFO root fetch - processPackages [johnsnowlabs-tmp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/johnsnowlabs_tmp-4.4.8.tar.gz tmp/johnsnowlabs_tmp-4.4.9.tar.gz --markdown 20230615/j/johnsnowlabs-tmp/4.4.8-4.4.9/diff.md --exclude *.pyd
+[2023-06-15 13:11:52] INFO root fetch - processPackages [django-ipghrms-main]: Downloading https://files.pythonhosted.org/packages/cc/31/f778f5d3a2dd0192f230af5f933aec0c75b22b61494fc63540557b518ca2/django_ipghrms_main-1.3-py3-none-any.whl
+[2023-06-15 13:11:53] INFO root fetch - processPackages [django-ipghrms-main]: executing diffoscope
+[2023-06-15 13:11:53] INFO root fetch - processPackages [django-ipghrms-main]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-ipghrms-main-1.2.tar.gz tmp/django_ipghrms_main-1.3-py3-none-any.whl.zip --markdown 20230615/d/django-ipghrms-main/1.2-1.3/diff.md --exclude *.pyd
+[2023-06-15 13:11:53] INFO root fetch - processPackages [mqt.qmap]: executing diffoscope
+[2023-06-15 13:11:53] INFO root fetch - processPackages [mqt.qmap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mqt.qmap-2.2.0.tar.gz tmp/mqt.qmap-2.2.1.tar.gz --markdown 20230615/m/mqt.qmap/2.2.0-2.2.1/diff.md --exclude *.pyd
+[2023-06-15 13:11:54] INFO root fetch - processPackages [chainmapping]: Remove: archive file [/home/abi/fetcher/tmp/chainmapping-0.1.1.tar.gz]
+[2023-06-15 13:11:54] INFO root fetch - processPackages [chainmapping]: Remove: archive file [/home/abi/fetcher/tmp/chainmapping-0.1.2.tar.gz]
+[2023-06-15 13:11:54] INFO root fetch - processPackages [chainmapping]: Start processing: signal-ocean
+[2023-06-15 13:11:54] INFO root fetch - main [MainThread]: End processing [chainmapping]: success
+[2023-06-15 13:11:54] INFO root fetch - processPackages [numerical-py]: Remove: archive file [/home/abi/fetcher/tmp/numerical_py-0.0.8.tar.gz]
+[2023-06-15 13:11:54] INFO root fetch - processPackages [numerical-py]: Remove: archive file [/home/abi/fetcher/tmp/numerical_py-0.0.9.tar.gz]
+[2023-06-15 13:11:54] INFO root fetch - processPackages [numerical-py]: Start processing: nismod-snail
+[2023-06-15 13:11:54] INFO root fetch - main [MainThread]: End processing [numerical-py]: success
+[2023-06-15 13:11:54] INFO root fetch - processPackages [signal-ocean]: New version: [6.2.0] Old Version: [6.1.0]
+[2023-06-15 13:11:54] INFO root fetch - processPackages [nismod-snail]: New version: [0.3.0] Old Version: [0.2.1]
+[2023-06-15 13:11:54] INFO root fetch - processPackages [nismod-snail]: Downloading https://files.pythonhosted.org/packages/1a/ce/1b8c4d3750ed8e3a30766196b7a6b2b81a0ea020fde5bedbfa9ce329113a/nismod-snail-0.2.1.tar.gz
+[2023-06-15 13:11:54] INFO root fetch - processPackages [signal-ocean]: Downloading https://files.pythonhosted.org/packages/d9/de/420feae4361f6d26c5de125795ffe03acde577440ba996284cb579e9e71e/signal-ocean-6.1.0.tar.gz
+[2023-06-15 13:11:54] INFO root fetch - processPackages [oidc-client]: Remove: archive file [/home/abi/fetcher/tmp/oidc_client-0.2.5.tar.gz]
+[2023-06-15 13:11:54] INFO root fetch - processPackages [oidc-client]: Remove: archive file [/home/abi/fetcher/tmp/oidc_client-0.2.6.tar.gz]
+[2023-06-15 13:11:54] INFO root fetch - main [MainThread]: End processing [oidc-client]: success
+[2023-06-15 13:11:55] INFO root fetch - processPackages [antchain-nftx]: Remove: archive file [/home/abi/fetcher/tmp/antchain_nftx-1.8.4.tar.gz]
+[2023-06-15 13:11:55] INFO root fetch - processPackages [antchain-nftx]: Remove: archive file [/home/abi/fetcher/tmp/antchain_nftx-1.8.5.tar.gz]
+[2023-06-15 13:11:55] INFO root fetch - main [MainThread]: End processing [antchain-nftx]: success
+[2023-06-15 13:11:55] INFO root fetch - processPackages [beetl]: Remove: archive file [/home/abi/fetcher/tmp/beetl-0.1.1.tar.gz]
+[2023-06-15 13:11:55] INFO root fetch - processPackages [beetl]: Remove: archive file [/home/abi/fetcher/tmp/beetl-0.2.1.tar.gz]
+[2023-06-15 13:11:55] INFO root fetch - main [MainThread]: End processing [beetl]: success
+[2023-06-15 13:11:55] INFO root fetch - processPackages [nismod-snail]: Downloading https://files.pythonhosted.org/packages/f3/ab/e3251f834c308d68cbd59c0ca18e4591cab4769624b2e6e92b2efe4230bb/nismod-snail-0.3.0.tar.gz
+[2023-06-15 13:11:55] INFO root fetch - processPackages [signal-ocean]: Downloading https://files.pythonhosted.org/packages/b0/c3/1b25662396d4468f590a8b9545b1500a36b9085ea8251d96be2a6917fa91/signal-ocean-6.2.0.tar.gz
+[2023-06-15 13:11:55] INFO root fetch - processPackages [johnsnowlabs-tmp]: Remove: archive file [/home/abi/fetcher/tmp/johnsnowlabs_tmp-4.4.8.tar.gz]
+[2023-06-15 13:11:55] INFO root fetch - processPackages [johnsnowlabs-tmp]: Remove: archive file [/home/abi/fetcher/tmp/johnsnowlabs_tmp-4.4.9.tar.gz]
+[2023-06-15 13:11:55] INFO root fetch - main [MainThread]: End processing [johnsnowlabs-tmp]: success
+[2023-06-15 13:11:55] INFO root fetch - processPackages [signal-ocean]: executing diffoscope
+[2023-06-15 13:11:55] INFO root fetch - processPackages [signal-ocean]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/signal-ocean-6.1.0.tar.gz tmp/signal-ocean-6.2.0.tar.gz --markdown 20230615/s/signal-ocean/6.1.0-6.2.0/diff.md --exclude *.pyd
+[2023-06-15 13:11:55] INFO root fetch - processPackages [nismod-snail]: executing diffoscope
+[2023-06-15 13:11:55] INFO root fetch - processPackages [nismod-snail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nismod-snail-0.2.1.tar.gz tmp/nismod-snail-0.3.0.tar.gz --markdown 20230615/n/nismod-snail/0.2.1-0.3.0/diff.md --exclude *.pyd
+[2023-06-15 13:11:57] INFO root fetch - processPackages [django-ipghrms-main]: Remove: archive file [/home/abi/fetcher/tmp/django-ipghrms-main-1.2.tar.gz]
+[2023-06-15 13:11:57] INFO root fetch - processPackages [django-ipghrms-main]: Remove: archive file [/home/abi/fetcher/tmp/django_ipghrms_main-1.3-py3-none-any.whl.zip]
+[2023-06-15 13:11:57] INFO root fetch - main [MainThread]: End processing [django-ipghrms-main]: success
+[2023-06-15 13:11:57] INFO root fetch - processPackages [nismod-snail]: Remove: archive file [/home/abi/fetcher/tmp/nismod-snail-0.2.1.tar.gz]
+[2023-06-15 13:11:57] INFO root fetch - processPackages [nismod-snail]: Remove: archive file [/home/abi/fetcher/tmp/nismod-snail-0.3.0.tar.gz]
+[2023-06-15 13:11:57] INFO root fetch - main [MainThread]: End processing [nismod-snail]: success
+[2023-06-15 13:11:58] INFO root fetch - processPackages [signal-ocean]: Remove: archive file [/home/abi/fetcher/tmp/signal-ocean-6.1.0.tar.gz]
+[2023-06-15 13:11:58] INFO root fetch - processPackages [signal-ocean]: Remove: archive file [/home/abi/fetcher/tmp/signal-ocean-6.2.0.tar.gz]
+[2023-06-15 13:11:58] INFO root fetch - main [MainThread]: End processing [signal-ocean]: success
+[2023-06-15 13:11:59] INFO root fetch - processPackages [django-ipghrms-employee]: Remove: archive file [/home/abi/fetcher/tmp/django-ipghrms-employee-1.8.tar.gz]
+[2023-06-15 13:11:59] INFO root fetch - processPackages [django-ipghrms-employee]: Remove: archive file [/home/abi/fetcher/tmp/django-ipghrms-employee-1.9.tar.gz]
+[2023-06-15 13:11:59] INFO root fetch - main [MainThread]: End processing [django-ipghrms-employee]: success
+[2023-06-15 13:12:00] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_openupgrade_scripts-16.0.1.0.0.7-py3-none-any.whl.zip]
+[2023-06-15 13:12:00] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_openupgrade_scripts-16.0.1.0.1-py3-none-any.whl.zip]
+[2023-06-15 13:12:00] INFO root fetch - main [MainThread]: End processing [odoo-addon-openupgrade-scripts]: success
+[2023-06-15 13:12:22] INFO root fetch - processPackages [mqt.qmap]: Remove: archive file [/home/abi/fetcher/tmp/mqt.qmap-2.2.0.tar.gz]
+[2023-06-15 13:12:22] INFO root fetch - processPackages [mqt.qmap]: Remove: archive file [/home/abi/fetcher/tmp/mqt.qmap-2.2.1.tar.gz]
+[2023-06-15 13:12:22] INFO root fetch - main [MainThread]: End processing [mqt.qmap]: success
+[2023-06-15 13:12:22] INFO root fetch - main [MainThread]: Store serial: [18515060]
