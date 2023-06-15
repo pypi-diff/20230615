@@ -13885,3 +13885,276 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-06-15 09:59:57] INFO root fetch - processPackages [insights-core]: Remove: archive file [/home/abi/fetcher/tmp/insights-core-3.2.2.tar.gz]
 [2023-06-15 09:59:57] INFO root fetch - main [MainThread]: End processing [insights-core]: success
 [2023-06-15 09:59:57] INFO root fetch - main [MainThread]: Store serial: [18512719]
+[2023-06-15 10:05:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18512719]
+[2023-06-15 10:05:06] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-06-15 10:05:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dongwha-datalab
+[2023-06-15 10:05:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lightdash-client-python
+[2023-06-15 10:05:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: djbackoffice
+[2023-06-15 10:05:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nv2a-debug
+[2023-06-15 10:05:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: multiversx-sdk-cli
+[2023-06-15 10:05:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: EzGM
+[2023-06-15 10:05:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: m-scheduler-partitioning
+[2023-06-15 10:05:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dongwha-datalab
+[2023-06-15 10:05:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: python-semantic-release
+[2023-06-15 10:05:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tf-nightly-cpu
+[2023-06-15 10:05:07] INFO root fetch - processPackages [EzGM]: New version: [1.6.6.3] Old Version: [1.6.6.2]
+[2023-06-15 10:05:07] INFO root fetch - processPackages [m-scheduler-partitioning]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-15 10:05:07] INFO root fetch - processPackages [lightdash-client-python]: New version: [0.613.2] Old Version: [0.611.0]
+[2023-06-15 10:05:07] INFO root fetch - processPackages [nv2a-debug]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-15 10:05:07] INFO root fetch - processPackages [multiversx-sdk-cli]: New version: [7.0.0b1] Old Version: [7.0.0b0]
+[2023-06-15 10:05:07] INFO root fetch - processPackages [dongwha-datalab]: New version: [0.0.0.21] Old Version: [0.0.0.20]
+[2023-06-15 10:05:07] INFO root fetch - processPackages [dongwha-datalab]: New version: [0.0.0.21] Old Version: [0.0.0.20]
+[2023-06-15 10:05:07] WARNING root fetch - processPackages [djbackoffice]: Skipping, unable to determine old version
+[2023-06-15 10:05:07] INFO root fetch - processPackages [djbackoffice]: Start processing: pytorch-pipline
+[2023-06-15 10:05:07] INFO root fetch - main [MainThread]: End processing [djbackoffice] error
+[2023-06-15 10:05:07] INFO root fetch - processPackages [python-semantic-release]: New version: [8.0.0a8] Old Version: [8.0.0a7]
+[2023-06-15 10:05:07] INFO root fetch - processPackages [pytorch-pipline]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-15 10:05:07] INFO root fetch - processPackages [multiversx-sdk-cli]: Downloading https://files.pythonhosted.org/packages/21/2d/e149e4e2aedde7d5f0985bbe90cdb78d3eb03175c45dcf5cf0b6d8c282ed/multiversx_sdk_cli-7.0.0b0.tar.gz
+[2023-06-15 10:05:07] INFO root fetch - processPackages [pytorch-pipline]: Downloading https://files.pythonhosted.org/packages/9a/c3/4cdf76aad753700d362e1f201b0b295a1328b0fef67d746e0c495eb837ad/pytorch-pipline-0.1.0.tar.gz
+[2023-06-15 10:05:07] INFO root fetch - processPackages [tf-nightly-cpu]: New version: [2.14.0.dev20230615] Old Version: [2.14.0.dev20230614]
+[2023-06-15 10:05:07] INFO root fetch - processPackages [dongwha-datalab]: Downloading https://files.pythonhosted.org/packages/8e/e5/c2c36d554e17690edbb3c4334ec14bcf7a243908b2cf24a75df8e0730516/dongwha_datalab-0.0.0.20-py3-none-any.whl
+[2023-06-15 10:05:07] INFO root fetch - processPackages [dongwha-datalab]: Downloading https://files.pythonhosted.org/packages/8e/e5/c2c36d554e17690edbb3c4334ec14bcf7a243908b2cf24a75df8e0730516/dongwha_datalab-0.0.0.20-py3-none-any.whl
+[2023-06-15 10:05:07] INFO root fetch - processPackages [m-scheduler-partitioning]: Downloading https://files.pythonhosted.org/packages/76/40/741ba6bdff39920818185045f088a131f520fd4033f492a031376417478d/m_scheduler_partitioning-0.1.8.tar.gz
+[2023-06-15 10:05:07] INFO root fetch - processPackages [multiversx-sdk-cli]: Downloading https://files.pythonhosted.org/packages/43/78/7ad6e22b25337eda3b958c77dd0266124f096853064767f49b046d173b05/multiversx_sdk_cli-7.0.0b1.tar.gz
+[2023-06-15 10:05:07] INFO root fetch - processPackages [EzGM]: Downloading https://files.pythonhosted.org/packages/96/da/c37ed66b31bfe416046d63f12fd0232e0bd1f347f0ce469fe4876869897e/EzGM-1.6.6.2.tar.gz
+[2023-06-15 10:05:07] INFO root fetch - processPackages [lightdash-client-python]: Downloading https://files.pythonhosted.org/packages/c9/0f/0d8bd7acc9e9a6958b93932170ae7245c9461e514ea38c92fc6d22b4855e/lightdash_client_python-0.611.0.tar.gz
+[2023-06-15 10:05:07] INFO root fetch - processPackages [nv2a-debug]: Downloading https://files.pythonhosted.org/packages/f2/b1/397493f70176a98f75968f6b08c6cf2aa72b82c9a1976c6f84fa2e5c0f69/nv2a_debug-0.1.0.tar.gz
+[2023-06-15 10:05:07] INFO root fetch - processPackages [python-semantic-release]: Downloading https://files.pythonhosted.org/packages/ae/6a/f859cc834d8bde8716431a9da867ed29de802d11a899f51d94932f40e339/python-semantic-release-8.0.0a7.tar.gz
+[2023-06-15 10:05:07] INFO root fetch - processPackages [pytorch-pipline]: Downloading https://files.pythonhosted.org/packages/63/cf/0e30b0ecbc238abd11c03d176f1da97a9380f62888de176a442bff62a3fe/pytorch-pipline-0.1.1.tar.gz
+[2023-06-15 10:05:07] INFO root fetch - processPackages [multiversx-sdk-cli]: executing diffoscope
+[2023-06-15 10:05:07] INFO root fetch - processPackages [multiversx-sdk-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multiversx_sdk_cli-7.0.0b0.tar.gz tmp/multiversx_sdk_cli-7.0.0b1.tar.gz --markdown 20230615/m/multiversx-sdk-cli/7.0.0b0-7.0.0b1/diff.md --exclude *.pyd
+[2023-06-15 10:05:07] INFO root fetch - processPackages [tf-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/fe/e2/bf14a5637de6d53e1a6dd472d52331b4722e8477b5d38918dc3af367847e/tf_nightly_cpu-2.14.0.dev20230614-cp39-cp39-win_amd64.whl
+[2023-06-15 10:05:07] INFO root fetch - processPackages [pytorch-pipline]: executing diffoscope
+[2023-06-15 10:05:07] INFO root fetch - processPackages [pytorch-pipline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytorch-pipline-0.1.0.tar.gz tmp/pytorch-pipline-0.1.1.tar.gz --markdown 20230615/p/pytorch-pipline/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-15 10:05:07] INFO root fetch - processPackages [EzGM]: Downloading https://files.pythonhosted.org/packages/7e/b2/7521d6c33f0f8581e933a08ae4db2b43b0b54e8f2ed9a2097cc15850d788/EzGM-1.6.6.3.tar.gz
+[2023-06-15 10:05:07] INFO root fetch - processPackages [lightdash-client-python]: Downloading https://files.pythonhosted.org/packages/58/17/f034100160415f66c94c03df428dd4ae4ee4b3e83c560373e36242bdeff0/lightdash_client_python-0.613.2.tar.gz
+[2023-06-15 10:05:07] INFO root fetch - processPackages [nv2a-debug]: Downloading https://files.pythonhosted.org/packages/2e/88/6fa4ed0571f6ee0f5374b0ca6e64094ae1dbcb153e96ffb0ceae72ec89d1/nv2a_debug-0.1.1.tar.gz
+[2023-06-15 10:05:07] INFO root fetch - processPackages [dongwha-datalab]: Downloading https://files.pythonhosted.org/packages/c8/61/b196054c4e4498eec7bf6f90ef5b7a3e2062bab62ee9c11114e291f9dbf1/dongwha_datalab-0.0.0.21-py3-none-any.whl
+[2023-06-15 10:05:07] INFO root fetch - processPackages [dongwha-datalab]: Downloading https://files.pythonhosted.org/packages/c8/61/b196054c4e4498eec7bf6f90ef5b7a3e2062bab62ee9c11114e291f9dbf1/dongwha_datalab-0.0.0.21-py3-none-any.whl
+[2023-06-15 10:05:07] INFO root fetch - processPackages [EzGM]: executing diffoscope
+[2023-06-15 10:05:07] INFO root fetch - processPackages [EzGM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/EzGM-1.6.6.2.tar.gz tmp/EzGM-1.6.6.3.tar.gz --markdown 20230615/E/EzGM/1.6.6.2-1.6.6.3/diff.md --exclude *.pyd
+[2023-06-15 10:05:07] INFO root fetch - processPackages [m-scheduler-partitioning]: Downloading https://files.pythonhosted.org/packages/2e/19/a5dd6830711dfd3522cce383414bde5dfa1023bfee8dfe72320d6d15e1ae/m_scheduler_partitioning-0.1.9.tar.gz
+[2023-06-15 10:05:07] INFO root fetch - processPackages [lightdash-client-python]: executing diffoscope
+[2023-06-15 10:05:07] INFO root fetch - processPackages [lightdash-client-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lightdash_client_python-0.611.0.tar.gz tmp/lightdash_client_python-0.613.2.tar.gz --markdown 20230615/l/lightdash-client-python/0.611.0-0.613.2/diff.md --exclude *.pyd
+[2023-06-15 10:05:07] INFO root fetch - processPackages [dongwha-datalab]: executing diffoscope
+[2023-06-15 10:05:07] INFO root fetch - processPackages [dongwha-datalab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dongwha_datalab-0.0.0.20-py3-none-any.whl.zip tmp/dongwha_datalab-0.0.0.21-py3-none-any.whl.zip --markdown 20230615/d/dongwha-datalab/0.0.0.20-0.0.0.21/diff.md --exclude *.pyd
+[2023-06-15 10:05:07] INFO root fetch - processPackages [nv2a-debug]: executing diffoscope
+[2023-06-15 10:05:07] INFO root fetch - processPackages [nv2a-debug]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nv2a_debug-0.1.0.tar.gz tmp/nv2a_debug-0.1.1.tar.gz --markdown 20230615/n/nv2a-debug/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-15 10:05:07] INFO root fetch - processPackages [dongwha-datalab]: executing diffoscope
+[2023-06-15 10:05:07] INFO root fetch - processPackages [dongwha-datalab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dongwha_datalab-0.0.0.20-py3-none-any.whl.zip tmp/dongwha_datalab-0.0.0.21-py3-none-any.whl.zip --markdown 20230615/d/dongwha-datalab/0.0.0.20-0.0.0.21/diff.md --exclude *.pyd
+[2023-06-15 10:05:07] INFO root fetch - processPackages [m-scheduler-partitioning]: executing diffoscope
+[2023-06-15 10:05:07] INFO root fetch - processPackages [m-scheduler-partitioning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/m_scheduler_partitioning-0.1.8.tar.gz tmp/m_scheduler_partitioning-0.1.9.tar.gz --markdown 20230615/m/m-scheduler-partitioning/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-15 10:05:07] INFO root fetch - processPackages [python-semantic-release]: Downloading https://files.pythonhosted.org/packages/0e/80/0faa8b96467a50e1269c33948071713b96c275af90d02903fc023e4e3e5c/python-semantic-release-8.0.0a8.tar.gz
+[2023-06-15 10:05:07] INFO root fetch - processPackages [tf-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/5d/82/f70524091ef33a59c71b4c0fdce5e51cc893cc484c5bb0a04168f2d76e23/tf_nightly_cpu-2.14.0.dev20230615-cp39-cp39-win_amd64.whl
+[2023-06-15 10:05:07] INFO root fetch - processPackages [tf-nightly-cpu]: executing diffoscope
+[2023-06-15 10:05:07] INFO root fetch - processPackages [tf-nightly-cpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_nightly_cpu-2.14.0.dev20230614-cp39-cp39-win_amd64.whl.zip tmp/tf_nightly_cpu-2.14.0.dev20230615-cp39-cp39-win_amd64.whl.zip --markdown 20230615/t/tf-nightly-cpu/2.14.0.dev20230614-2.14.0.dev20230615/diff.md --exclude *.pyd
+[2023-06-15 10:05:07] INFO root fetch - processPackages [python-semantic-release]: executing diffoscope
+[2023-06-15 10:05:07] INFO root fetch - processPackages [python-semantic-release]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-semantic-release-8.0.0a7.tar.gz tmp/python-semantic-release-8.0.0a8.tar.gz --markdown 20230615/p/python-semantic-release/8.0.0a7-8.0.0a8/diff.md --exclude *.pyd
+[2023-06-15 10:05:09] INFO root fetch - processPackages [pytorch-pipline]: Remove: archive file [/home/abi/fetcher/tmp/pytorch-pipline-0.1.0.tar.gz]
+[2023-06-15 10:05:09] INFO root fetch - processPackages [pytorch-pipline]: Remove: archive file [/home/abi/fetcher/tmp/pytorch-pipline-0.1.1.tar.gz]
+[2023-06-15 10:05:09] INFO root fetch - processPackages [pytorch-pipline]: Start processing: pdf-language-detector
+[2023-06-15 10:05:09] INFO root fetch - main [MainThread]: End processing [pytorch-pipline]: success
+[2023-06-15 10:05:09] INFO root fetch - processPackages [pdf-language-detector]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-15 10:05:09] ERROR root fetch - processPackages [dongwha-datalab]: Diffoscope failed: Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 126, in feeder
+    end_nl = feeder(out_file)
+             ^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 81, in feeder
+    out = filter_reader(buf, filter)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 47, in filter_reader
+    buf = additional_filter(buf)
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 57, in filter
+    m = self.re_strip_path.match(line.decode("utf-8"))
+                                 ^^^^^^^^^^^^^^^^^^^^
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid start byte
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 217, in compare
+    x = super().compare(other, source)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 416, in _compare_using_details
+    details.extend(self.compare_details(other, source))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 252, in compare_details
+    differences.extend(zipinfo_differences(self, other))
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 127, in zipinfo_differences
+    zipinfo = Difference.from_operation(Zipinfo, file.path, other.path)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 267, in from_operation
+    return Difference.from_operation_exc(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 316, in from_operation_exc
+    difference = Difference.from_feeder(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 214, in from_feeder
+    unified_diff = diff(feeder1, feeder2)
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 126, in feeder
+    end_nl = feeder(out_file)
+             ^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 81, in feeder
+    out = filter_reader(buf, filter)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 47, in filter_reader
+    buf = additional_filter(buf)
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 57, in filter
+    m = self.re_strip_path.match(line.decode("utf-8"))
+                                 ^^^^^^^^^^^^^^^^^^^^
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid start byte
+
+[2023-06-15 10:05:09] INFO root fetch - main [MainThread]: End processing [dongwha-datalab] error
+[2023-06-15 10:05:09] INFO root fetch - processPackages [pdf-language-detector]: Downloading https://files.pythonhosted.org/packages/f8/ed/4d4b4e6c01ac2359cd4462b1f64d898b0407afebc817c65d38dad62fc1fa/pdf_language_detector-0.0.1.tar.gz
+[2023-06-15 10:05:09] ERROR root fetch - processPackages [dongwha-datalab]: Diffoscope failed: Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 126, in feeder
+    end_nl = feeder(out_file)
+             ^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 81, in feeder
+    out = filter_reader(buf, filter)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 47, in filter_reader
+    buf = additional_filter(buf)
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 57, in filter
+    m = self.re_strip_path.match(line.decode("utf-8"))
+                                 ^^^^^^^^^^^^^^^^^^^^
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid start byte
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 217, in compare
+    x = super().compare(other, source)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 416, in _compare_using_details
+    details.extend(self.compare_details(other, source))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 252, in compare_details
+    differences.extend(zipinfo_differences(self, other))
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 127, in zipinfo_differences
+    zipinfo = Difference.from_operation(Zipinfo, file.path, other.path)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 267, in from_operation
+    return Difference.from_operation_exc(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 316, in from_operation_exc
+    difference = Difference.from_feeder(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 214, in from_feeder
+    unified_diff = diff(feeder1, feeder2)
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 126, in feeder
+    end_nl = feeder(out_file)
+             ^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 81, in feeder
+    out = filter_reader(buf, filter)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 47, in filter_reader
+    buf = additional_filter(buf)
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 57, in filter
+    m = self.re_strip_path.match(line.decode("utf-8"))
+                                 ^^^^^^^^^^^^^^^^^^^^
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid start byte
+
+[2023-06-15 10:05:09] INFO root fetch - main [MainThread]: End processing [dongwha-datalab] error
+[2023-06-15 10:05:09] INFO root fetch - processPackages [pdf-language-detector]: Downloading https://files.pythonhosted.org/packages/66/dc/921180ac786936e24f2efb5be5b6ba09b7f5aebb7bde0bb663b533c3f649/pdf_language_detector-0.0.2.tar.gz
+[2023-06-15 10:05:09] INFO root fetch - processPackages [tf-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly_cpu-2.14.0.dev20230614-cp39-cp39-win_amd64.whl.zip]
+[2023-06-15 10:05:09] INFO root fetch - processPackages [tf-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly_cpu-2.14.0.dev20230615-cp39-cp39-win_amd64.whl.zip]
+[2023-06-15 10:05:09] INFO root fetch - main [MainThread]: End processing [tf-nightly-cpu]: success
+[2023-06-15 10:05:09] INFO root fetch - processPackages [m-scheduler-partitioning]: Remove: archive file [/home/abi/fetcher/tmp/m_scheduler_partitioning-0.1.8.tar.gz]
+[2023-06-15 10:05:09] INFO root fetch - processPackages [m-scheduler-partitioning]: Remove: archive file [/home/abi/fetcher/tmp/m_scheduler_partitioning-0.1.9.tar.gz]
+[2023-06-15 10:05:09] INFO root fetch - main [MainThread]: End processing [m-scheduler-partitioning]: success
+[2023-06-15 10:05:09] INFO root fetch - processPackages [pdf-language-detector]: executing diffoscope
+[2023-06-15 10:05:09] INFO root fetch - processPackages [pdf-language-detector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdf_language_detector-0.0.1.tar.gz tmp/pdf_language_detector-0.0.2.tar.gz --markdown 20230615/p/pdf-language-detector/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-15 10:05:09] INFO root fetch - processPackages [multiversx-sdk-cli]: Remove: archive file [/home/abi/fetcher/tmp/multiversx_sdk_cli-7.0.0b0.tar.gz]
+[2023-06-15 10:05:09] INFO root fetch - processPackages [multiversx-sdk-cli]: Remove: archive file [/home/abi/fetcher/tmp/multiversx_sdk_cli-7.0.0b1.tar.gz]
+[2023-06-15 10:05:09] INFO root fetch - main [MainThread]: End processing [multiversx-sdk-cli]: success
+[2023-06-15 10:05:10] INFO root fetch - processPackages [pdf-language-detector]: Remove: archive file [/home/abi/fetcher/tmp/pdf_language_detector-0.0.1.tar.gz]
+[2023-06-15 10:05:10] INFO root fetch - processPackages [pdf-language-detector]: Remove: archive file [/home/abi/fetcher/tmp/pdf_language_detector-0.0.2.tar.gz]
+[2023-06-15 10:05:10] INFO root fetch - main [MainThread]: End processing [pdf-language-detector]: success
+[2023-06-15 10:05:10] INFO root fetch - processPackages [nv2a-debug]: Remove: archive file [/home/abi/fetcher/tmp/nv2a_debug-0.1.0.tar.gz]
+[2023-06-15 10:05:10] INFO root fetch - processPackages [nv2a-debug]: Remove: archive file [/home/abi/fetcher/tmp/nv2a_debug-0.1.1.tar.gz]
+[2023-06-15 10:05:10] INFO root fetch - main [MainThread]: End processing [nv2a-debug]: success
+[2023-06-15 10:05:11] INFO root fetch - processPackages [python-semantic-release]: Remove: archive file [/home/abi/fetcher/tmp/python-semantic-release-8.0.0a7.tar.gz]
+[2023-06-15 10:05:11] INFO root fetch - processPackages [python-semantic-release]: Remove: archive file [/home/abi/fetcher/tmp/python-semantic-release-8.0.0a8.tar.gz]
+[2023-06-15 10:05:11] INFO root fetch - main [MainThread]: End processing [python-semantic-release]: success
+[2023-06-15 10:05:12] INFO root fetch - processPackages [lightdash-client-python]: Remove: archive file [/home/abi/fetcher/tmp/lightdash_client_python-0.611.0.tar.gz]
+[2023-06-15 10:05:12] INFO root fetch - processPackages [lightdash-client-python]: Remove: archive file [/home/abi/fetcher/tmp/lightdash_client_python-0.613.2.tar.gz]
+[2023-06-15 10:05:12] INFO root fetch - main [MainThread]: End processing [lightdash-client-python]: success
+[2023-06-15 10:05:56] INFO root fetch - processPackages [EzGM]: Remove: archive file [/home/abi/fetcher/tmp/EzGM-1.6.6.2.tar.gz]
+[2023-06-15 10:05:56] INFO root fetch - processPackages [EzGM]: Remove: archive file [/home/abi/fetcher/tmp/EzGM-1.6.6.3.tar.gz]
+[2023-06-15 10:05:56] INFO root fetch - main [MainThread]: End processing [EzGM]: success
+[2023-06-15 10:05:56] INFO root fetch - main [MainThread]: Store serial: [18512769]
