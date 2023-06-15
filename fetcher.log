@@ -14954,3 +14954,170 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-06-15 10:38:22] INFO root fetch - processPackages [mimeograph]: Remove: archive file [/home/abi/fetcher/tmp/mimeograph-0.7.0.tar.gz]
 [2023-06-15 10:38:22] INFO root fetch - main [MainThread]: End processing [mimeograph]: success
 [2023-06-15 10:38:22] INFO root fetch - main [MainThread]: Store serial: [18513157]
+[2023-06-15 10:43:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18513157]
+[2023-06-15 10:43:32] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-06-15 10:43:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: datawork000
+[2023-06-15 10:43:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: configuraptor
+[2023-06-15 10:43:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: steam-sdk
+[2023-06-15 10:43:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: thipstercli
+[2023-06-15 10:43:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: custolint
+[2023-06-15 10:43:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: embykeeper
+[2023-06-15 10:43:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: yplib
+[2023-06-15 10:43:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: srxraylib
+[2023-06-15 10:43:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: FluidPyPLC
+[2023-06-15 10:43:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pandatask
+[2023-06-15 10:43:32] INFO root fetch - processPackages [srxraylib]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-15 10:43:32] INFO root fetch - processPackages [FluidPyPLC]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-06-15 10:43:32] INFO root fetch - processPackages [thipstercli]: New version: [0.2.0] Old Version: [0.1.3]
+[2023-06-15 10:43:32] INFO root fetch - processPackages [datawork000]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-06-15 10:43:32] INFO root fetch - processPackages [custolint]: New version: [0.2.1] Old Version: [0.1.14]
+[2023-06-15 10:43:32] WARNING root fetch - processPackages [pandatask]: Skipping, unable to determine old version
+[2023-06-15 10:43:32] INFO root fetch - processPackages [pandatask]: Start processing: thundra
+[2023-06-15 10:43:32] INFO root fetch - main [MainThread]: End processing [pandatask] error
+[2023-06-15 10:43:32] INFO root fetch - processPackages [configuraptor]: New version: [1.3.1] Old Version: [1.3.0]
+[2023-06-15 10:43:32] INFO root fetch - processPackages [yplib]: New version: [1.3.8] Old Version: [1.3.7]
+[2023-06-15 10:43:32] INFO root fetch - processPackages [embykeeper]: New version: [2.2.0] Old Version: [2.1.1]
+[2023-06-15 10:43:32] INFO root fetch - processPackages [steam-sdk]: New version: [2023.6.9] Old Version: [2023.6.8]
+[2023-06-15 10:43:32] INFO root fetch - processPackages [thundra]: New version: [3.0.7] Old Version: [3.0.6a20230615084053]
+[2023-06-15 10:43:32] INFO root fetch - processPackages [configuraptor]: Downloading https://files.pythonhosted.org/packages/77/f3/5be798b1f9bf5cca113ed494b9c933875b112c6a93e6dce83b714878d12e/configuraptor-1.3.0.tar.gz
+[2023-06-15 10:43:32] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/32/20/44ad645d904306b7a4e82f05349b19a3033a55b94befa082487491cbe932/yplib-1.3.7.tar.gz
+[2023-06-15 10:43:32] INFO root fetch - processPackages [steam-sdk]: Downloading https://files.pythonhosted.org/packages/60/2c/3c21c0815edf029e79c95d2f5fccd2a2f589a21e648b6c3ea6a2a61d7c1e/steam-sdk-2023.6.8.tar.gz
+[2023-06-15 10:43:32] INFO root fetch - processPackages [datawork000]: Downloading https://files.pythonhosted.org/packages/3b/fd/6cb3de6b37179da2fb1fb7d404dca0892831c18ecc658b1be670b0ed7817/datawork000-0.2.0.tar.gz
+[2023-06-15 10:43:32] INFO root fetch - processPackages [FluidPyPLC]: Downloading https://files.pythonhosted.org/packages/19/be/75e457d9040306820dfeea1b91ed0438f15b0066870b96a9c5345c2e5590/FluidPyPLC-0.1.7.tar.gz
+[2023-06-15 10:43:32] INFO root fetch - processPackages [srxraylib]: Downloading https://files.pythonhosted.org/packages/bd/3b/62846e4f44e8ea32f36b28ca395ceea65da9d416deea42c54a98930ad6c1/srxraylib-1.0.8.tar.gz
+[2023-06-15 10:43:32] INFO root fetch - processPackages [thipstercli]: Downloading https://files.pythonhosted.org/packages/f9/15/152970cacd8f60395d3c169c0d536e98c709ef6b8440ec968ab8b6266860/thipstercli-0.1.3.tar.gz
+[2023-06-15 10:43:32] INFO root fetch - processPackages [custolint]: Downloading https://files.pythonhosted.org/packages/f8/22/79961b82b0b1f036daaa4f6b9bf035557b02a6ef27335f778de06dab6c44/custolint-0.1.14-py3-none-any.whl
+[2023-06-15 10:43:32] INFO root fetch - processPackages [embykeeper]: Downloading https://files.pythonhosted.org/packages/93/8b/acd99d88464be8bfedb3179885dbb3926f5b03dbdd23c57816d6c79189be/embykeeper-2.1.1.tar.gz
+[2023-06-15 10:43:32] INFO root fetch - processPackages [thundra]: Downloading https://files.pythonhosted.org/packages/21/0d/5495c77730b6fe09ca6d2a05cb44dd7052e06f20adefbcf7f18eff05abff/thundra-3.0.6a20230615084053-py3-none-any.whl
+[2023-06-15 10:43:32] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/de/34/edd4598c7bfb7bd799d5bd88e429459b7cd634682abd4945bd003736e88b/yplib-1.3.8.tar.gz
+[2023-06-15 10:43:32] INFO root fetch - processPackages [steam-sdk]: Downloading https://files.pythonhosted.org/packages/cf/10/2b634f09e25cfaaa5b5c4ea8889e69240ff6c0ad61d248fcbfd14e6aa988/steam-sdk-2023.6.9.tar.gz
+[2023-06-15 10:43:32] INFO root fetch - processPackages [configuraptor]: Downloading https://files.pythonhosted.org/packages/ff/c5/4424d9190cfdcef538c2cd04f1504da4240cdf911c1bef3bcf38b7a0e158/configuraptor-1.3.1.tar.gz
+[2023-06-15 10:43:32] INFO root fetch - processPackages [yplib]: executing diffoscope
+[2023-06-15 10:43:32] INFO root fetch - processPackages [yplib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yplib-1.3.7.tar.gz tmp/yplib-1.3.8.tar.gz --markdown 20230615/y/yplib/1.3.7-1.3.8/diff.md --exclude *.pyd
+[2023-06-15 10:43:32] INFO root fetch - processPackages [datawork000]: Downloading https://files.pythonhosted.org/packages/10/6a/f2b53b8d901281e0e435e94ea8736c0e3421afcac2bb09cf63e0cb5e351a/datawork000-0.2.1.tar.gz
+[2023-06-15 10:43:32] INFO root fetch - processPackages [steam-sdk]: executing diffoscope
+[2023-06-15 10:43:32] INFO root fetch - processPackages [steam-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/steam-sdk-2023.6.8.tar.gz tmp/steam-sdk-2023.6.9.tar.gz --markdown 20230615/s/steam-sdk/2023.6.8-2023.6.9/diff.md --exclude *.pyd
+[2023-06-15 10:43:32] INFO root fetch - processPackages [configuraptor]: executing diffoscope
+[2023-06-15 10:43:32] INFO root fetch - processPackages [configuraptor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/configuraptor-1.3.0.tar.gz tmp/configuraptor-1.3.1.tar.gz --markdown 20230615/c/configuraptor/1.3.0-1.3.1/diff.md --exclude *.pyd
+[2023-06-15 10:43:32] INFO root fetch - processPackages [datawork000]: executing diffoscope
+[2023-06-15 10:43:32] INFO root fetch - processPackages [datawork000]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datawork000-0.2.0.tar.gz tmp/datawork000-0.2.1.tar.gz --markdown 20230615/d/datawork000/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-06-15 10:43:32] INFO root fetch - processPackages [FluidPyPLC]: Downloading https://files.pythonhosted.org/packages/5b/ff/668b9ee04f4974ada8018b3236d0655549acc0a3d149f334e36711212c0d/FluidPyPLC-0.1.8.tar.gz
+[2023-06-15 10:43:32] INFO root fetch - processPackages [thundra]: Downloading https://files.pythonhosted.org/packages/49/22/72eb2e1707e176ac202335a2e2ae29f7f4ee014e5232bd1989c6761ca8a1/thundra-3.0.7.tar.gz
+[2023-06-15 10:43:32] INFO root fetch - processPackages [embykeeper]: Downloading https://files.pythonhosted.org/packages/aa/c3/f4051cf52a1875ab1c8a59820edddbe4a7253908822a5bcac52a044184c7/embykeeper-2.2.0.tar.gz
+[2023-06-15 10:43:33] INFO root fetch - processPackages [thipstercli]: Downloading https://files.pythonhosted.org/packages/ec/72/7d66febb07b8655e1a717fb26a1c19de6da8b329f9551b2de117e5b2062f/thipstercli-0.2.0.tar.gz
+[2023-06-15 10:43:33] INFO root fetch - processPackages [FluidPyPLC]: executing diffoscope
+[2023-06-15 10:43:33] INFO root fetch - processPackages [FluidPyPLC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FluidPyPLC-0.1.7.tar.gz tmp/FluidPyPLC-0.1.8.tar.gz --markdown 20230615/F/FluidPyPLC/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-06-15 10:43:33] INFO root fetch - processPackages [thundra]: executing diffoscope
+[2023-06-15 10:43:33] INFO root fetch - processPackages [thundra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thundra-3.0.6a20230615084053-py3-none-any.whl.zip tmp/thundra-3.0.7.tar.gz --markdown 20230615/t/thundra/3.0.6a20230615084053-3.0.7/diff.md --exclude *.pyd
+[2023-06-15 10:43:33] INFO root fetch - processPackages [embykeeper]: executing diffoscope
+[2023-06-15 10:43:33] INFO root fetch - processPackages [embykeeper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/embykeeper-2.1.1.tar.gz tmp/embykeeper-2.2.0.tar.gz --markdown 20230615/e/embykeeper/2.1.1-2.2.0/diff.md --exclude *.pyd
+[2023-06-15 10:43:33] INFO root fetch - processPackages [srxraylib]: Downloading https://files.pythonhosted.org/packages/ca/b0/4954ea595d4b42f4f93aa9929bcca5ccdd90e68312d0469da175b640b5ca/srxraylib-1.0.9.tar.gz
+[2023-06-15 10:43:33] INFO root fetch - processPackages [thipstercli]: executing diffoscope
+[2023-06-15 10:43:33] INFO root fetch - processPackages [thipstercli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thipstercli-0.1.3.tar.gz tmp/thipstercli-0.2.0.tar.gz --markdown 20230615/t/thipstercli/0.1.3-0.2.0/diff.md --exclude *.pyd
+[2023-06-15 10:43:33] INFO root fetch - processPackages [custolint]: Downloading https://files.pythonhosted.org/packages/ba/54/94e24457fbbed4e69941e5ad8558e823fea08c1ee64752fdd25e8b3b02ee/custolint-0.2.1-py3-none-any.whl
+[2023-06-15 10:43:33] INFO root fetch - processPackages [custolint]: executing diffoscope
+[2023-06-15 10:43:33] INFO root fetch - processPackages [custolint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/custolint-0.1.14-py3-none-any.whl.zip tmp/custolint-0.2.1-py3-none-any.whl.zip --markdown 20230615/c/custolint/0.1.14-0.2.1/diff.md --exclude *.pyd
+[2023-06-15 10:43:33] INFO root fetch - processPackages [srxraylib]: executing diffoscope
+[2023-06-15 10:43:33] INFO root fetch - processPackages [srxraylib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/srxraylib-1.0.8.tar.gz tmp/srxraylib-1.0.9.tar.gz --markdown 20230615/s/srxraylib/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-15 10:43:34] INFO root fetch - processPackages [datawork000]: Remove: archive file [/home/abi/fetcher/tmp/datawork000-0.2.0.tar.gz]
+[2023-06-15 10:43:34] INFO root fetch - processPackages [datawork000]: Remove: archive file [/home/abi/fetcher/tmp/datawork000-0.2.1.tar.gz]
+[2023-06-15 10:43:34] INFO root fetch - processPackages [datawork000]: Start processing: thundra
+[2023-06-15 10:43:34] INFO root fetch - main [MainThread]: End processing [datawork000]: success
+[2023-06-15 10:43:34] INFO root fetch - processPackages [thundra]: New version: [3.0.7] Old Version: [3.0.6a20230615084053]
+[2023-06-15 10:43:34] INFO root fetch - processPackages [thundra]: executing diffoscope
+[2023-06-15 10:43:34] INFO root fetch - processPackages [thundra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thundra-3.0.6a20230615084053-py3-none-any.whl.zip tmp/thundra-3.0.7.tar.gz --markdown 20230615/t/thundra/3.0.6a20230615084053-3.0.7/diff.md --exclude *.pyd
+[2023-06-15 10:43:34] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-1.3.7.tar.gz]
+[2023-06-15 10:43:34] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-1.3.8.tar.gz]
+[2023-06-15 10:43:34] INFO root fetch - processPackages [yplib]: Start processing: tff-nightly
+[2023-06-15 10:43:34] INFO root fetch - main [MainThread]: End processing [yplib]: success
+[2023-06-15 10:43:34] INFO root fetch - processPackages [tff-nightly]: New version: [0.0.1.dev20230614] Old Version: [0.0.1.dev20230613]
+[2023-06-15 10:43:34] INFO root fetch - processPackages [tff-nightly]: Downloading https://files.pythonhosted.org/packages/ac/76/755d59067e601a33698b94d62000ddc9b5e86fe7642c9e2bc9771be38b1e/tff_nightly-0.0.1.dev20230613-py2.py3-none-any.whl
+[2023-06-15 10:43:34] INFO root fetch - processPackages [thipstercli]: Remove: archive file [/home/abi/fetcher/tmp/thipstercli-0.1.3.tar.gz]
+[2023-06-15 10:43:34] INFO root fetch - processPackages [thipstercli]: Remove: archive file [/home/abi/fetcher/tmp/thipstercli-0.2.0.tar.gz]
+[2023-06-15 10:43:34] INFO root fetch - processPackages [thipstercli]: Start processing: mapbot-frontend
+[2023-06-15 10:43:34] INFO root fetch - main [MainThread]: End processing [thipstercli]: success
+[2023-06-15 10:43:34] INFO root fetch - processPackages [mapbot-frontend]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-15 10:43:34] INFO root fetch - processPackages [thundra]: Remove: archive file [/home/abi/fetcher/tmp/thundra-3.0.6a20230615084053-py3-none-any.whl.zip]
+[2023-06-15 10:43:34] INFO root fetch - processPackages [thundra]: Remove: archive file [/home/abi/fetcher/tmp/thundra-3.0.7.tar.gz]
+[2023-06-15 10:43:34] INFO root fetch - processPackages [thundra]: Start processing: aioinject
+[2023-06-15 10:43:34] INFO root fetch - main [MainThread]: End processing [thundra]: success
+[2023-06-15 10:43:34] INFO root fetch - processPackages [mapbot-frontend]: Downloading https://files.pythonhosted.org/packages/c3/15/a76b10735e815f29e69252cfdf5844d8267526ca51d4be0ae611898cf761/mapbot_frontend-0.1.8.tar.gz
+[2023-06-15 10:43:35] INFO root fetch - processPackages [custolint]: Remove: archive file [/home/abi/fetcher/tmp/custolint-0.1.14-py3-none-any.whl.zip]
+[2023-06-15 10:43:35] INFO root fetch - processPackages [custolint]: Remove: archive file [/home/abi/fetcher/tmp/custolint-0.2.1-py3-none-any.whl.zip]
+[2023-06-15 10:43:35] INFO root fetch - processPackages [custolint]: Start processing: pyBibX
+[2023-06-15 10:43:35] INFO root fetch - main [MainThread]: End processing [custolint]: success
+[2023-06-15 10:43:35] INFO root fetch - processPackages [aioinject]: New version: [0.7.0] Old Version: [0.6.0]
+[2023-06-15 10:43:35] INFO root fetch - processPackages [pyBibX]: New version: [3.0.2] Old Version: [2.9.9]
+[2023-06-15 10:43:35] INFO root fetch - processPackages [mapbot-frontend]: Downloading https://files.pythonhosted.org/packages/2c/2b/65497a0d97cff1920b70e98b8c0780cb445ac34e1ebb2d6cf5ddf99b0ffc/mapbot_frontend-0.1.9.tar.gz
+[2023-06-15 10:43:35] INFO root fetch - processPackages [pyBibX]: Downloading https://files.pythonhosted.org/packages/50/5d/62a060901743721cc3f48f5602ecd3d43d856532eeaa9d5655e4abdacd55/pyBibX-2.9.9.tar.gz
+[2023-06-15 10:43:35] INFO root fetch - processPackages [configuraptor]: Remove: archive file [/home/abi/fetcher/tmp/configuraptor-1.3.0.tar.gz]
+[2023-06-15 10:43:35] INFO root fetch - processPackages [configuraptor]: Remove: archive file [/home/abi/fetcher/tmp/configuraptor-1.3.1.tar.gz]
+[2023-06-15 10:43:35] INFO root fetch - processPackages [configuraptor]: Start processing: streamlit-base-extras
+[2023-06-15 10:43:35] INFO root fetch - main [MainThread]: End processing [configuraptor]: success
+[2023-06-15 10:43:35] INFO root fetch - processPackages [FluidPyPLC]: Remove: archive file [/home/abi/fetcher/tmp/FluidPyPLC-0.1.7.tar.gz]
+[2023-06-15 10:43:35] INFO root fetch - processPackages [FluidPyPLC]: Remove: archive file [/home/abi/fetcher/tmp/FluidPyPLC-0.1.8.tar.gz]
+[2023-06-15 10:43:35] INFO root fetch - processPackages [FluidPyPLC]: Start processing: ai-voice-sdk
+[2023-06-15 10:43:35] INFO root fetch - main [MainThread]: End processing [FluidPyPLC]: success
+[2023-06-15 10:43:35] INFO root fetch - processPackages [mapbot-frontend]: executing diffoscope
+[2023-06-15 10:43:35] INFO root fetch - processPackages [mapbot-frontend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mapbot_frontend-0.1.8.tar.gz tmp/mapbot_frontend-0.1.9.tar.gz --markdown 20230615/m/mapbot-frontend/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-15 10:43:35] INFO root fetch - processPackages [streamlit-base-extras]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-15 10:43:35] INFO root fetch - processPackages [pyBibX]: Downloading https://files.pythonhosted.org/packages/b4/5b/923ad6c1644f0c9e76a1e4a8793d4c996f9d504c96127b977e8b3c957c5d/pyBibX-3.0.2.tar.gz
+[2023-06-15 10:43:35] INFO root fetch - processPackages [ai-voice-sdk]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-15 10:43:35] INFO root fetch - processPackages [aioinject]: Downloading https://files.pythonhosted.org/packages/69/86/e28d15ce43e1ed6b8231365c8c6d1de4f5d10ab9a6118a8e3603638c2547/aioinject-0.6.0.tar.gz
+[2023-06-15 10:43:35] INFO root fetch - processPackages [pyBibX]: executing diffoscope
+[2023-06-15 10:43:35] INFO root fetch - processPackages [pyBibX]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyBibX-2.9.9.tar.gz tmp/pyBibX-3.0.2.tar.gz --markdown 20230615/p/pyBibX/2.9.9-3.0.2/diff.md --exclude *.pyd
+[2023-06-15 10:43:35] INFO root fetch - processPackages [embykeeper]: Remove: archive file [/home/abi/fetcher/tmp/embykeeper-2.1.1.tar.gz]
+[2023-06-15 10:43:35] INFO root fetch - processPackages [embykeeper]: Remove: archive file [/home/abi/fetcher/tmp/embykeeper-2.2.0.tar.gz]
+[2023-06-15 10:43:35] INFO root fetch - processPackages [embykeeper]: Start processing: intezer-sdk
+[2023-06-15 10:43:35] INFO root fetch - main [MainThread]: End processing [embykeeper]: success
+[2023-06-15 10:43:35] INFO root fetch - processPackages [streamlit-base-extras]: Downloading https://files.pythonhosted.org/packages/ba/f8/48c123c3f22d0ae525a7b4edbb61e0ea4be958779baf1093da7e2e92ca66/streamlit-base-extras-0.2.8.tar.gz
+[2023-06-15 10:43:35] ERROR root fetch - processPackages [thundra]: Diffoscope failed: /srv/diffoscope/bin/diffoscope: tmp/thundra-3.0.6a20230615084053-py3-none-any.whl.zip: No such file or directory
+/srv/diffoscope/bin/diffoscope: tmp/thundra-3.0.7.tar.gz: No such file or directory
+
+[2023-06-15 10:43:35] INFO root fetch - main [MainThread]: End processing [thundra] error
+[2023-06-15 10:43:35] INFO root fetch - processPackages [intezer-sdk]: New version: [1.9.4] Old Version: [1.9.3]
+[2023-06-15 10:43:35] INFO root fetch - processPackages [ai-voice-sdk]: Downloading https://files.pythonhosted.org/packages/c2/ec/23f3503cd6dfb3cd875d165b2350a95c08e920c43207c56e82f12844d1c7/ai-voice-sdk-0.0.1.tar.gz
+[2023-06-15 10:43:35] INFO root fetch - processPackages [tff-nightly]: Downloading https://files.pythonhosted.org/packages/d8/8c/5fbd76c8e2f138e4c1c4c69ef4fbd05f502300b9a2507526c7b0ab3f92b7/tff_nightly-0.0.1.dev20230614-py2.py3-none-any.whl
+[2023-06-15 10:43:35] INFO root fetch - processPackages [aioinject]: Downloading https://files.pythonhosted.org/packages/77/65/d116b94157c3ef9294ef180ee9abf323cf0e185502758e99fe07803d02cd/aioinject-0.7.0.tar.gz
+[2023-06-15 10:43:35] INFO root fetch - processPackages [intezer-sdk]: Downloading https://files.pythonhosted.org/packages/54/07/b1b49e1d9407879a59c376b8799d8e3abe495ec3380638b2f1fbc61dd234/intezer_sdk-1.9.3-py3-none-any.whl
+[2023-06-15 10:43:35] INFO root fetch - processPackages [srxraylib]: Remove: archive file [/home/abi/fetcher/tmp/srxraylib-1.0.8.tar.gz]
+[2023-06-15 10:43:35] INFO root fetch - processPackages [srxraylib]: Remove: archive file [/home/abi/fetcher/tmp/srxraylib-1.0.9.tar.gz]
+[2023-06-15 10:43:35] INFO root fetch - main [MainThread]: End processing [srxraylib]: success
+[2023-06-15 10:43:35] INFO root fetch - processPackages [ai-voice-sdk]: Downloading https://files.pythonhosted.org/packages/23/bf/ff659107dd53f5c8ee7b6e49e5b76edda845013d8551a0cc22a021c99b3b/ai-voice-sdk-0.0.2.tar.gz
+[2023-06-15 10:43:35] INFO root fetch - processPackages [aioinject]: executing diffoscope
+[2023-06-15 10:43:35] INFO root fetch - processPackages [aioinject]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aioinject-0.6.0.tar.gz tmp/aioinject-0.7.0.tar.gz --markdown 20230615/a/aioinject/0.6.0-0.7.0/diff.md --exclude *.pyd
+[2023-06-15 10:43:35] INFO root fetch - processPackages [streamlit-base-extras]: Downloading https://files.pythonhosted.org/packages/57/6d/6c62cfb0160329d0de8745332c248a56f7813a2d7e0df64d54d326ce0773/streamlit-base-extras-0.2.9.tar.gz
+[2023-06-15 10:43:35] INFO root fetch - processPackages [steam-sdk]: Remove: archive file [/home/abi/fetcher/tmp/steam-sdk-2023.6.8.tar.gz]
+[2023-06-15 10:43:35] INFO root fetch - processPackages [steam-sdk]: Remove: archive file [/home/abi/fetcher/tmp/steam-sdk-2023.6.9.tar.gz]
+[2023-06-15 10:43:35] INFO root fetch - main [MainThread]: End processing [steam-sdk]: success
+[2023-06-15 10:43:35] INFO root fetch - processPackages [ai-voice-sdk]: executing diffoscope
+[2023-06-15 10:43:35] INFO root fetch - processPackages [ai-voice-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ai-voice-sdk-0.0.1.tar.gz tmp/ai-voice-sdk-0.0.2.tar.gz --markdown 20230615/a/ai-voice-sdk/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-15 10:43:36] INFO root fetch - processPackages [tff-nightly]: executing diffoscope
+[2023-06-15 10:43:36] INFO root fetch - processPackages [intezer-sdk]: Downloading https://files.pythonhosted.org/packages/1c/aa/b1c8d382cd3e6aeabd68aef67900e65831956e5715f6a86367c94bf60cd4/intezer_sdk-1.9.4-py3-none-any.whl
+[2023-06-15 10:43:36] INFO root fetch - processPackages [tff-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tff_nightly-0.0.1.dev20230613-py2.py3-none-any.whl.zip tmp/tff_nightly-0.0.1.dev20230614-py2.py3-none-any.whl.zip --markdown 20230615/t/tff-nightly/0.0.1.dev20230613-0.0.1.dev20230614/diff.md --exclude *.pyd
+[2023-06-15 10:43:36] INFO root fetch - processPackages [streamlit-base-extras]: executing diffoscope
+[2023-06-15 10:43:36] INFO root fetch - processPackages [streamlit-base-extras]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit-base-extras-0.2.8.tar.gz tmp/streamlit-base-extras-0.2.9.tar.gz --markdown 20230615/s/streamlit-base-extras/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-15 10:43:36] INFO root fetch - processPackages [intezer-sdk]: executing diffoscope
+[2023-06-15 10:43:36] INFO root fetch - processPackages [intezer-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/intezer_sdk-1.9.3-py3-none-any.whl.zip tmp/intezer_sdk-1.9.4-py3-none-any.whl.zip --markdown 20230615/i/intezer-sdk/1.9.3-1.9.4/diff.md --exclude *.pyd
+[2023-06-15 10:43:36] INFO root fetch - processPackages [aioinject]: Remove: archive file [/home/abi/fetcher/tmp/aioinject-0.6.0.tar.gz]
+[2023-06-15 10:43:36] INFO root fetch - processPackages [aioinject]: Remove: archive file [/home/abi/fetcher/tmp/aioinject-0.7.0.tar.gz]
+[2023-06-15 10:43:36] INFO root fetch - main [MainThread]: End processing [aioinject]: success
+[2023-06-15 10:43:37] INFO root fetch - processPackages [ai-voice-sdk]: Remove: archive file [/home/abi/fetcher/tmp/ai-voice-sdk-0.0.1.tar.gz]
+[2023-06-15 10:43:37] INFO root fetch - processPackages [ai-voice-sdk]: Remove: archive file [/home/abi/fetcher/tmp/ai-voice-sdk-0.0.2.tar.gz]
+[2023-06-15 10:43:37] INFO root fetch - main [MainThread]: End processing [ai-voice-sdk]: success
+[2023-06-15 10:43:37] INFO root fetch - processPackages [intezer-sdk]: Remove: archive file [/home/abi/fetcher/tmp/intezer_sdk-1.9.3-py3-none-any.whl.zip]
+[2023-06-15 10:43:37] INFO root fetch - processPackages [intezer-sdk]: Remove: archive file [/home/abi/fetcher/tmp/intezer_sdk-1.9.4-py3-none-any.whl.zip]
+[2023-06-15 10:43:37] INFO root fetch - main [MainThread]: End processing [intezer-sdk]: success
+[2023-06-15 10:43:37] INFO root fetch - processPackages [pyBibX]: Remove: archive file [/home/abi/fetcher/tmp/pyBibX-2.9.9.tar.gz]
+[2023-06-15 10:43:37] INFO root fetch - processPackages [pyBibX]: Remove: archive file [/home/abi/fetcher/tmp/pyBibX-3.0.2.tar.gz]
+[2023-06-15 10:43:37] INFO root fetch - main [MainThread]: End processing [pyBibX]: success
+[2023-06-15 10:43:37] INFO root fetch - processPackages [streamlit-base-extras]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-base-extras-0.2.8.tar.gz]
+[2023-06-15 10:43:37] INFO root fetch - processPackages [streamlit-base-extras]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-base-extras-0.2.9.tar.gz]
+[2023-06-15 10:43:37] INFO root fetch - main [MainThread]: End processing [streamlit-base-extras]: success
+[2023-06-15 10:43:39] INFO root fetch - processPackages [tff-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tff_nightly-0.0.1.dev20230613-py2.py3-none-any.whl.zip]
+[2023-06-15 10:43:39] INFO root fetch - processPackages [tff-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tff_nightly-0.0.1.dev20230614-py2.py3-none-any.whl.zip]
+[2023-06-15 10:43:39] INFO root fetch - main [MainThread]: End processing [tff-nightly]: success
+[2023-06-15 10:43:39] INFO root fetch - processPackages [mapbot-frontend]: Remove: archive file [/home/abi/fetcher/tmp/mapbot_frontend-0.1.8.tar.gz]
+[2023-06-15 10:43:39] INFO root fetch - processPackages [mapbot-frontend]: Remove: archive file [/home/abi/fetcher/tmp/mapbot_frontend-0.1.9.tar.gz]
+[2023-06-15 10:43:39] INFO root fetch - main [MainThread]: End processing [mapbot-frontend]: success
+[2023-06-15 10:43:39] INFO root fetch - main [MainThread]: Store serial: [18513215]
