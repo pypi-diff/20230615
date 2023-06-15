@@ -5303,3 +5303,70 @@
 [2023-06-15 02:44:36] INFO root fetch - processPackages [mapyde]: Remove: archive file [/home/abi/fetcher/tmp/mapyde-0.5.0.tar.gz]
 [2023-06-15 02:44:36] INFO root fetch - main [MainThread]: End processing [mapyde]: success
 [2023-06-15 02:44:36] INFO root fetch - main [MainThread]: Store serial: [18509408]
+[2023-06-15 02:49:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18509408]
+[2023-06-15 02:49:45] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-15 02:49:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mapyde
+[2023-06-15 02:49:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tfds-nightly
+[2023-06-15 02:49:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: market-engine
+[2023-06-15 02:49:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: arches
+[2023-06-15 02:49:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kubric-nightly
+[2023-06-15 02:49:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: omnata-plugin-devkit
+[2023-06-15 02:49:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cdk-comprehend-s3olap
+[2023-06-15 02:49:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dorado
+[2023-06-15 02:49:45] INFO root fetch - processPackages [omnata-plugin-devkit]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-15 02:49:45] INFO root fetch - processPackages [mapyde]: New version: [0.5.0] Old Version: [0.4.9]
+[2023-06-15 02:49:45] INFO root fetch - processPackages [dorado]: New version: [2.0.6.dev99] Old Version: [2.0.6.dev97]
+[2023-06-15 02:49:45] INFO root fetch - processPackages [market-engine]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-15 02:49:45] INFO root fetch - processPackages [arches]: New version: [7.4.0] Old Version: [7.3.0]
+[2023-06-15 02:49:45] INFO root fetch - processPackages [cdk-comprehend-s3olap]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-06-15 02:49:45] INFO root fetch - processPackages [omnata-plugin-devkit]: Downloading https://files.pythonhosted.org/packages/a6/03/037aa46c1c15ce197872a42c2494fcfb0dd6fd4c14cebaeaf6f9495b5cbf/omnata_plugin_devkit-0.1.8.tar.gz
+[2023-06-15 02:49:45] INFO root fetch - processPackages [kubric-nightly]: New version: [2023.6.9] Old Version: [2023.6.8]
+[2023-06-15 02:49:45] INFO root fetch - processPackages [tfds-nightly]: New version: [4.9.2.dev202306140044] Old Version: [4.9.2.dev202306130044]
+[2023-06-15 02:49:45] INFO root fetch - processPackages [dorado]: Downloading https://files.pythonhosted.org/packages/28/c3/25ec9324622ba0dd720edcd3809a1c623c162133d247d2e22790624c723b/dorado-2.0.6.dev97.tar.gz
+[2023-06-15 02:49:45] INFO root fetch - processPackages [cdk-comprehend-s3olap]: Downloading https://files.pythonhosted.org/packages/d2/64/ec00fce58a2563fe9a768f5ee5a77ecba74bfccf89b1ec489306be4a20a8/cdk_comprehend_s3olap-2.0.98.tar.gz
+[2023-06-15 02:49:45] INFO root fetch - processPackages [kubric-nightly]: Downloading https://files.pythonhosted.org/packages/b1/a3/47d225d361d3b5502ac46fb5dff4827f9e1ed416243c22d685d14d8b7b94/kubric-nightly-2023.6.8.tar.gz
+[2023-06-15 02:49:45] INFO root fetch - processPackages [omnata-plugin-devkit]: Downloading https://files.pythonhosted.org/packages/94/e1/5b8aa743f4bbe600dde3989489613981c39b2dfcd44174b9931cf0c42452/omnata_plugin_devkit-0.1.9.tar.gz
+[2023-06-15 02:49:45] INFO root fetch - processPackages [tfds-nightly]: Downloading https://files.pythonhosted.org/packages/aa/e2/5917e11b1dbdcc27c412d02e119b22351e7b14785a1b7d04f89f304c3458/tfds-nightly-4.9.2.dev202306130044.tar.gz
+[2023-06-15 02:49:46] INFO root fetch - processPackages [omnata-plugin-devkit]: executing diffoscope
+[2023-06-15 02:49:46] INFO root fetch - processPackages [omnata-plugin-devkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omnata_plugin_devkit-0.1.8.tar.gz tmp/omnata_plugin_devkit-0.1.9.tar.gz --markdown 20230615/o/omnata-plugin-devkit/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-15 02:49:46] INFO root fetch - processPackages [mapyde]: Downloading https://files.pythonhosted.org/packages/ec/78/23e60dfc8f5fa6e0855dad4aa4555ca67dd78238be65744ec7fa77ab0eb3/mapyde-0.4.9.tar.gz
+[2023-06-15 02:49:46] INFO root fetch - processPackages [arches]: Downloading https://files.pythonhosted.org/packages/62/60/444a552adb6942ef53c5d573fc69578a50513ba5dade065cbcff4b0d92dc/arches-7.3.0.tar.gz
+[2023-06-15 02:49:46] INFO root fetch - processPackages [kubric-nightly]: Downloading https://files.pythonhosted.org/packages/9c/d2/b15b52c4e9ef297c630d83b0ec5cf46fbcbef019d26045f5d4613c1491d7/kubric-nightly-2023.6.9.tar.gz
+[2023-06-15 02:49:46] WARNING root fetch - processPackages [cdk-comprehend-s3olap]: Skipping package: exceeds size limit 14179128>=10485760
+[2023-06-15 02:49:46] INFO root fetch - main [MainThread]: End processing [cdk-comprehend-s3olap] error
+[2023-06-15 02:49:46] INFO root fetch - processPackages [dorado]: Downloading https://files.pythonhosted.org/packages/b9/2e/854512bc2085bd5738d74bd4b50e4a958e43ee3e802999c5402e429e6030/dorado-2.0.6.dev99.tar.gz
+[2023-06-15 02:49:46] INFO root fetch - processPackages [kubric-nightly]: executing diffoscope
+[2023-06-15 02:49:46] INFO root fetch - processPackages [kubric-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kubric-nightly-2023.6.8.tar.gz tmp/kubric-nightly-2023.6.9.tar.gz --markdown 20230615/k/kubric-nightly/2023.6.8-2023.6.9/diff.md --exclude *.pyd
+[2023-06-15 02:49:46] INFO root fetch - processPackages [dorado]: executing diffoscope
+[2023-06-15 02:49:46] INFO root fetch - processPackages [dorado]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dorado-2.0.6.dev97.tar.gz tmp/dorado-2.0.6.dev99.tar.gz --markdown 20230615/d/dorado/2.0.6.dev97-2.0.6.dev99/diff.md --exclude *.pyd
+[2023-06-15 02:49:46] WARNING root fetch - processPackages [arches]: Skipping package: exceeds size limit 27892254>=10485760
+[2023-06-15 02:49:46] INFO root fetch - main [MainThread]: End processing [arches] error
+[2023-06-15 02:49:46] INFO root fetch - processPackages [tfds-nightly]: Downloading https://files.pythonhosted.org/packages/77/bf/a7a616ca00e67f4477391187a375a8b1f5bf5740f086fb5e4877c6c2c739/tfds-nightly-4.9.2.dev202306140044.tar.gz
+[2023-06-15 02:49:46] INFO root fetch - processPackages [mapyde]: Downloading https://files.pythonhosted.org/packages/b6/a3/bfcb5ac3c0c18e7ec98b114f9c36325a8af52a50be2a7759d0fb075dd764/mapyde-0.5.0.tar.gz
+[2023-06-15 02:49:46] INFO root fetch - processPackages [market-engine]: Downloading https://files.pythonhosted.org/packages/65/b8/cc0815b769875bbc57b0c5f199b0a3987be090f1fafab07531252b2972a2/market-engine-0.0.8.tar.gz
+[2023-06-15 02:49:46] INFO root fetch - processPackages [mapyde]: executing diffoscope
+[2023-06-15 02:49:46] INFO root fetch - processPackages [mapyde]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mapyde-0.4.9.tar.gz tmp/mapyde-0.5.0.tar.gz --markdown 20230615/m/mapyde/0.4.9-0.5.0/diff.md --exclude *.pyd
+[2023-06-15 02:49:46] INFO root fetch - processPackages [tfds-nightly]: executing diffoscope
+[2023-06-15 02:49:46] INFO root fetch - processPackages [tfds-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfds-nightly-4.9.2.dev202306130044.tar.gz tmp/tfds-nightly-4.9.2.dev202306140044.tar.gz --markdown 20230615/t/tfds-nightly/4.9.2.dev202306130044-4.9.2.dev202306140044/diff.md --exclude *.pyd
+[2023-06-15 02:49:46] INFO root fetch - processPackages [market-engine]: Downloading https://files.pythonhosted.org/packages/0b/88/47639a851c5081b1dbc460316d90eb0716fb29e775062a14575a98e3ef54/market-engine-0.0.9.tar.gz
+[2023-06-15 02:49:46] INFO root fetch - processPackages [market-engine]: executing diffoscope
+[2023-06-15 02:49:46] INFO root fetch - processPackages [market-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/market-engine-0.0.8.tar.gz tmp/market-engine-0.0.9.tar.gz --markdown 20230615/m/market-engine/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-15 02:49:47] INFO root fetch - processPackages [omnata-plugin-devkit]: Remove: archive file [/home/abi/fetcher/tmp/omnata_plugin_devkit-0.1.8.tar.gz]
+[2023-06-15 02:49:47] INFO root fetch - processPackages [omnata-plugin-devkit]: Remove: archive file [/home/abi/fetcher/tmp/omnata_plugin_devkit-0.1.9.tar.gz]
+[2023-06-15 02:49:47] INFO root fetch - main [MainThread]: End processing [omnata-plugin-devkit]: success
+[2023-06-15 02:49:47] INFO root fetch - processPackages [kubric-nightly]: Remove: archive file [/home/abi/fetcher/tmp/kubric-nightly-2023.6.8.tar.gz]
+[2023-06-15 02:49:47] INFO root fetch - processPackages [kubric-nightly]: Remove: archive file [/home/abi/fetcher/tmp/kubric-nightly-2023.6.9.tar.gz]
+[2023-06-15 02:49:47] INFO root fetch - main [MainThread]: End processing [kubric-nightly]: success
+[2023-06-15 02:49:47] INFO root fetch - processPackages [dorado]: Remove: archive file [/home/abi/fetcher/tmp/dorado-2.0.6.dev97.tar.gz]
+[2023-06-15 02:49:47] INFO root fetch - processPackages [dorado]: Remove: archive file [/home/abi/fetcher/tmp/dorado-2.0.6.dev99.tar.gz]
+[2023-06-15 02:49:47] INFO root fetch - main [MainThread]: End processing [dorado]: success
+[2023-06-15 02:49:47] INFO root fetch - processPackages [market-engine]: Remove: archive file [/home/abi/fetcher/tmp/market-engine-0.0.8.tar.gz]
+[2023-06-15 02:49:47] INFO root fetch - processPackages [market-engine]: Remove: archive file [/home/abi/fetcher/tmp/market-engine-0.0.9.tar.gz]
+[2023-06-15 02:49:47] INFO root fetch - main [MainThread]: End processing [market-engine]: success
+[2023-06-15 02:49:48] INFO root fetch - processPackages [mapyde]: Remove: archive file [/home/abi/fetcher/tmp/mapyde-0.4.9.tar.gz]
+[2023-06-15 02:49:48] INFO root fetch - processPackages [mapyde]: Remove: archive file [/home/abi/fetcher/tmp/mapyde-0.5.0.tar.gz]
+[2023-06-15 02:49:48] INFO root fetch - main [MainThread]: End processing [mapyde]: success
+[2023-06-15 02:50:00] INFO root fetch - processPackages [tfds-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfds-nightly-4.9.2.dev202306130044.tar.gz]
+[2023-06-15 02:50:00] INFO root fetch - processPackages [tfds-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfds-nightly-4.9.2.dev202306140044.tar.gz]
+[2023-06-15 02:50:00] INFO root fetch - main [MainThread]: End processing [tfds-nightly]: success
+[2023-06-15 02:50:00] INFO root fetch - main [MainThread]: Store serial: [18509437]
