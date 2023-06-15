@@ -2006,3 +2006,87 @@
 [2023-06-15 01:55:08] INFO root fetch - processPackages [oloren]: Remove: archive file [/home/abi/fetcher/tmp/oloren-0.0.9.tar.gz]
 [2023-06-15 01:55:08] INFO root fetch - main [MainThread]: End processing [oloren]: success
 [2023-06-15 01:55:08] INFO root fetch - main [MainThread]: Store serial: [18508298]
+[2023-06-15 02:00:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18508298]
+[2023-06-15 02:00:17] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-15 02:00:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-pam
+[2023-06-15 02:00:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bs-orm
+[2023-06-15 02:00:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: omnata-plugin-devkit
+[2023-06-15 02:00:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: DexRoParser
+[2023-06-15 02:00:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: esentity
+[2023-06-15 02:00:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: latch
+[2023-06-15 02:00:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: botterino
+[2023-06-15 02:00:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: modal-client
+[2023-06-15 02:00:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: modal
+[2023-06-15 02:00:18] INFO root fetch - processPackages [bs-orm]: New version: [0.8.6.post20230615] Old Version: [0.8.5.post20230615]
+[2023-06-15 02:00:18] INFO root fetch - processPackages [django-pam]: New version: [2.1.1] Old Version: [2.1.0]
+[2023-06-15 02:00:18] INFO root fetch - processPackages [latch]: New version: [2.9.6] Old Version: [2.9.5]
+[2023-06-15 02:00:18] INFO root fetch - processPackages [esentity]: New version: [0.2.99] Old Version: [0.2.98]
+[2023-06-15 02:00:18] INFO root fetch - processPackages [DexRoParser]: New version: [1.0.2] Old Version: [1.0.0]
+[2023-06-15 02:00:18] INFO root fetch - processPackages [omnata-plugin-devkit]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-15 02:00:18] INFO root fetch - processPackages [modal]: New version: [0.49.2399] Old Version: [0.49.2389]
+[2023-06-15 02:00:18] INFO root fetch - processPackages [botterino]: New version: [0.5.0] Old Version: [0.4.9]
+[2023-06-15 02:00:18] INFO root fetch - processPackages [modal-client]: New version: [0.49.2399] Old Version: [0.49.2389]
+[2023-06-15 02:00:18] INFO root fetch - processPackages [latch]: Downloading https://files.pythonhosted.org/packages/79/f7/1912dae713dbd539910745289141bab27e2ec23827c1f7112accaf98bdda/latch-2.9.5.tar.gz
+[2023-06-15 02:00:18] INFO root fetch - processPackages [esentity]: Downloading https://files.pythonhosted.org/packages/1e/9f/e0a6280d40e9cb6e3dfaa2e923b81a0d650931aa948d73ca9a8a3fbf219d/esentity-0.2.98.tar.gz
+[2023-06-15 02:00:18] INFO root fetch - processPackages [bs-orm]: Downloading https://files.pythonhosted.org/packages/5e/2b/b59289f195724076e0593dc3bd2d18c7ecd8911c0153984e0bfe6cd6193f/bs_orm-0.8.5.post20230615.tar.gz
+[2023-06-15 02:00:18] INFO root fetch - processPackages [modal]: Downloading https://files.pythonhosted.org/packages/b7/a9/dc43ed4ebae4dc72c441fde0c7609ac5fa992af13ae3a16a93c90802f75d/modal-0.49.2389-py3-none-any.whl
+[2023-06-15 02:00:18] INFO root fetch - processPackages [modal-client]: Downloading https://files.pythonhosted.org/packages/fd/e4/9ea296e1cf8e79bfa7107c4e652caf4daea335a1ece56926c12cb74316c4/modal_client-0.49.2389-py3-none-any.whl
+[2023-06-15 02:00:18] INFO root fetch - processPackages [esentity]: Downloading https://files.pythonhosted.org/packages/c8/5b/c12322aa6c71e3e0da12b137cf7fef6f67acbd686b0adeaffba5426fd63b/esentity-0.2.99.tar.gz
+[2023-06-15 02:00:18] INFO root fetch - processPackages [modal]: Downloading https://files.pythonhosted.org/packages/ef/ae/fe5f266495da4528341d051fb49e25b9d3fe7b5a020b22f2ce09111199ea/modal-0.49.2399-py3-none-any.whl
+[2023-06-15 02:00:18] INFO root fetch - processPackages [django-pam]: Downloading https://files.pythonhosted.org/packages/84/de/bc9c73dc49946ca28ad6057e89efac269a3cd854c3ca1a4a848b93cdab66/django-pam-2.1.0.tar.gz
+[2023-06-15 02:00:18] INFO root fetch - processPackages [DexRoParser]: Downloading https://files.pythonhosted.org/packages/03/2f/a6f1cce34aef332000d3fc9aa0e1fbd8974c8838467abee0be5a623b1869/DexRoParser-1.0.0.tar.gz
+[2023-06-15 02:00:18] INFO root fetch - processPackages [omnata-plugin-devkit]: Downloading https://files.pythonhosted.org/packages/a6/03/037aa46c1c15ce197872a42c2494fcfb0dd6fd4c14cebaeaf6f9495b5cbf/omnata_plugin_devkit-0.1.8.tar.gz
+[2023-06-15 02:00:18] INFO root fetch - processPackages [modal-client]: Downloading https://files.pythonhosted.org/packages/bd/fc/b32fd039e16d7109b112df635d0e2a66ba8d4081eeb3529d41085c8ebdcc/modal_client-0.49.2399-py3-none-any.whl
+[2023-06-15 02:00:18] INFO root fetch - processPackages [botterino]: Downloading https://files.pythonhosted.org/packages/74/f5/98301efb2aa675f0f9007ba07630e44210a82e44c954b72281940d9a6706/botterino-0.4.9.tar.gz
+[2023-06-15 02:00:18] INFO root fetch - processPackages [esentity]: executing diffoscope
+[2023-06-15 02:00:18] INFO root fetch - processPackages [esentity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/esentity-0.2.98.tar.gz tmp/esentity-0.2.99.tar.gz --markdown 20230615/e/esentity/0.2.98-0.2.99/diff.md --exclude *.pyd
+[2023-06-15 02:00:18] INFO root fetch - processPackages [modal]: executing diffoscope
+[2023-06-15 02:00:18] INFO root fetch - processPackages [modal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modal-0.49.2389-py3-none-any.whl.zip tmp/modal-0.49.2399-py3-none-any.whl.zip --markdown 20230615/m/modal/0.49.2389-0.49.2399/diff.md --exclude *.pyd
+[2023-06-15 02:00:18] INFO root fetch - processPackages [bs-orm]: Downloading https://files.pythonhosted.org/packages/6b/d2/db60fe532206c2468b191ebaf00b393a8b3cfcb66334cc44a68bbdfddb7c/bs_orm-0.8.6.post20230615.tar.gz
+[2023-06-15 02:00:18] INFO root fetch - processPackages [modal-client]: executing diffoscope
+[2023-06-15 02:00:18] INFO root fetch - processPackages [modal-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modal_client-0.49.2389-py3-none-any.whl.zip tmp/modal_client-0.49.2399-py3-none-any.whl.zip --markdown 20230615/m/modal-client/0.49.2389-0.49.2399/diff.md --exclude *.pyd
+[2023-06-15 02:00:18] INFO root fetch - processPackages [bs-orm]: executing diffoscope
+[2023-06-15 02:00:18] INFO root fetch - processPackages [bs-orm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bs_orm-0.8.5.post20230615.tar.gz tmp/bs_orm-0.8.6.post20230615.tar.gz --markdown 20230615/b/bs-orm/0.8.5.post20230615-0.8.6.post20230615/diff.md --exclude *.pyd
+[2023-06-15 02:00:18] INFO root fetch - processPackages [DexRoParser]: Downloading https://files.pythonhosted.org/packages/cc/d6/ac14908bef46b0f6a59311aee696ce70a9bbf40134dc6b2d5639810a8991/DexRoParser-1.0.2.tar.gz
+[2023-06-15 02:00:18] INFO root fetch - processPackages [django-pam]: Downloading https://files.pythonhosted.org/packages/4f/e1/c28645cc0ee92448dc0cef0a9cfd4bdde2c4ba17475aaffdcb08b727f934/django-pam-2.1.1.tar.gz
+[2023-06-15 02:00:18] INFO root fetch - processPackages [DexRoParser]: executing diffoscope
+[2023-06-15 02:00:18] INFO root fetch - processPackages [DexRoParser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DexRoParser-1.0.0.tar.gz tmp/DexRoParser-1.0.2.tar.gz --markdown 20230615/D/DexRoParser/1.0.0-1.0.2/diff.md --exclude *.pyd
+[2023-06-15 02:00:18] INFO root fetch - processPackages [omnata-plugin-devkit]: Downloading https://files.pythonhosted.org/packages/94/e1/5b8aa743f4bbe600dde3989489613981c39b2dfcd44174b9931cf0c42452/omnata_plugin_devkit-0.1.9.tar.gz
+[2023-06-15 02:00:18] INFO root fetch - processPackages [django-pam]: executing diffoscope
+[2023-06-15 02:00:18] INFO root fetch - processPackages [django-pam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-pam-2.1.0.tar.gz tmp/django-pam-2.1.1.tar.gz --markdown 20230615/d/django-pam/2.1.0-2.1.1/diff.md --exclude *.pyd
+[2023-06-15 02:00:18] INFO root fetch - processPackages [botterino]: Downloading https://files.pythonhosted.org/packages/24/0d/cbe5767abf5abf1e8f3d3d2bdadb688a3fe1c481102f4b585b5815e9b5f3/botterino-0.5.0.tar.gz
+[2023-06-15 02:00:18] INFO root fetch - processPackages [omnata-plugin-devkit]: executing diffoscope
+[2023-06-15 02:00:18] INFO root fetch - processPackages [omnata-plugin-devkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omnata_plugin_devkit-0.1.8.tar.gz tmp/omnata_plugin_devkit-0.1.9.tar.gz --markdown 20230615/o/omnata-plugin-devkit/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-15 02:00:18] INFO root fetch - processPackages [botterino]: executing diffoscope
+[2023-06-15 02:00:18] INFO root fetch - processPackages [botterino]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botterino-0.4.9.tar.gz tmp/botterino-0.5.0.tar.gz --markdown 20230615/b/botterino/0.4.9-0.5.0/diff.md --exclude *.pyd
+[2023-06-15 02:00:18] INFO root fetch - processPackages [latch]: Downloading https://files.pythonhosted.org/packages/5e/5a/e91171b6eca0ba929f7259719a3d389fd86242408d94dbf266925a9f4d21/latch-2.9.6.tar.gz
+[2023-06-15 02:00:18] INFO root fetch - processPackages [latch]: executing diffoscope
+[2023-06-15 02:00:18] INFO root fetch - processPackages [latch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/latch-2.9.5.tar.gz tmp/latch-2.9.6.tar.gz --markdown 20230615/l/latch/2.9.5-2.9.6/diff.md --exclude *.pyd
+[2023-06-15 02:00:19] INFO root fetch - processPackages [modal]: Remove: archive file [/home/abi/fetcher/tmp/modal-0.49.2389-py3-none-any.whl.zip]
+[2023-06-15 02:00:19] INFO root fetch - processPackages [modal]: Remove: archive file [/home/abi/fetcher/tmp/modal-0.49.2399-py3-none-any.whl.zip]
+[2023-06-15 02:00:19] INFO root fetch - main [MainThread]: End processing [modal]: success
+[2023-06-15 02:00:19] INFO root fetch - processPackages [esentity]: Remove: archive file [/home/abi/fetcher/tmp/esentity-0.2.98.tar.gz]
+[2023-06-15 02:00:19] INFO root fetch - processPackages [esentity]: Remove: archive file [/home/abi/fetcher/tmp/esentity-0.2.99.tar.gz]
+[2023-06-15 02:00:19] INFO root fetch - main [MainThread]: End processing [esentity]: success
+[2023-06-15 02:00:19] INFO root fetch - processPackages [bs-orm]: Remove: archive file [/home/abi/fetcher/tmp/bs_orm-0.8.5.post20230615.tar.gz]
+[2023-06-15 02:00:19] INFO root fetch - processPackages [bs-orm]: Remove: archive file [/home/abi/fetcher/tmp/bs_orm-0.8.6.post20230615.tar.gz]
+[2023-06-15 02:00:19] INFO root fetch - main [MainThread]: End processing [bs-orm]: success
+[2023-06-15 02:00:19] INFO root fetch - processPackages [DexRoParser]: Remove: archive file [/home/abi/fetcher/tmp/DexRoParser-1.0.0.tar.gz]
+[2023-06-15 02:00:19] INFO root fetch - processPackages [DexRoParser]: Remove: archive file [/home/abi/fetcher/tmp/DexRoParser-1.0.2.tar.gz]
+[2023-06-15 02:00:19] INFO root fetch - main [MainThread]: End processing [DexRoParser]: success
+[2023-06-15 02:00:19] INFO root fetch - processPackages [django-pam]: Remove: archive file [/home/abi/fetcher/tmp/django-pam-2.1.0.tar.gz]
+[2023-06-15 02:00:19] INFO root fetch - processPackages [django-pam]: Remove: archive file [/home/abi/fetcher/tmp/django-pam-2.1.1.tar.gz]
+[2023-06-15 02:00:19] INFO root fetch - main [MainThread]: End processing [django-pam]: success
+[2023-06-15 02:00:20] INFO root fetch - processPackages [omnata-plugin-devkit]: Remove: archive file [/home/abi/fetcher/tmp/omnata_plugin_devkit-0.1.8.tar.gz]
+[2023-06-15 02:00:20] INFO root fetch - processPackages [omnata-plugin-devkit]: Remove: archive file [/home/abi/fetcher/tmp/omnata_plugin_devkit-0.1.9.tar.gz]
+[2023-06-15 02:00:20] INFO root fetch - main [MainThread]: End processing [omnata-plugin-devkit]: success
+[2023-06-15 02:00:20] INFO root fetch - processPackages [latch]: Remove: archive file [/home/abi/fetcher/tmp/latch-2.9.5.tar.gz]
+[2023-06-15 02:00:20] INFO root fetch - processPackages [latch]: Remove: archive file [/home/abi/fetcher/tmp/latch-2.9.6.tar.gz]
+[2023-06-15 02:00:20] INFO root fetch - main [MainThread]: End processing [latch]: success
+[2023-06-15 02:00:20] INFO root fetch - processPackages [botterino]: Remove: archive file [/home/abi/fetcher/tmp/botterino-0.4.9.tar.gz]
+[2023-06-15 02:00:20] INFO root fetch - processPackages [botterino]: Remove: archive file [/home/abi/fetcher/tmp/botterino-0.5.0.tar.gz]
+[2023-06-15 02:00:20] INFO root fetch - main [MainThread]: End processing [botterino]: success
+[2023-06-15 02:00:20] INFO root fetch - processPackages [modal-client]: Remove: archive file [/home/abi/fetcher/tmp/modal_client-0.49.2389-py3-none-any.whl.zip]
+[2023-06-15 02:00:20] INFO root fetch - processPackages [modal-client]: Remove: archive file [/home/abi/fetcher/tmp/modal_client-0.49.2399-py3-none-any.whl.zip]
+[2023-06-15 02:00:20] INFO root fetch - main [MainThread]: End processing [modal-client]: success
+[2023-06-15 02:00:20] INFO root fetch - main [MainThread]: Store serial: [18508322]
