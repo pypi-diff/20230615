@@ -17901,3 +17901,96 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-06-15 11:31:59] INFO root fetch - processPackages [spider-st]: Remove: archive file [/home/abi/fetcher/tmp/spider-st-0.1.9.tar.gz]
 [2023-06-15 11:31:59] INFO root fetch - main [MainThread]: End processing [spider-st]: success
 [2023-06-15 11:31:59] INFO root fetch - main [MainThread]: Store serial: [18514070]
+[2023-06-15 11:37:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18514070]
+[2023-06-15 11:37:09] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-06-15 11:37:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: me-setups
+[2023-06-15 11:37:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: oc-ocdm
+[2023-06-15 11:37:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ceramic-py
+[2023-06-15 11:37:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: multisesh
+[2023-06-15 11:37:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: openai-utils
+[2023-06-15 11:37:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mnzipcode
+[2023-06-15 11:37:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: smartchart
+[2023-06-15 11:37:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: kalm
+[2023-06-15 11:37:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tfra-nightly
+[2023-06-15 11:37:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: bimdata-api-client
+[2023-06-15 11:37:09] ERROR root fetch - processPackages [openai-utils]: Unable to get metadata: No such project 'openai-utils'
+[2023-06-15 11:37:09] INFO root fetch - processPackages [openai-utils]: Start processing: numerical-py
+[2023-06-15 11:37:09] INFO root fetch - main [MainThread]: End processing [openai-utils] error
+[2023-06-15 11:37:09] WARNING root fetch - processPackages [ceramic-py]: Skipping, unable to determine old version
+[2023-06-15 11:37:09] INFO root fetch - processPackages [ceramic-py]: Start processing: django-mass-migration
+[2023-06-15 11:37:09] INFO root fetch - main [MainThread]: End processing [ceramic-py] error
+[2023-06-15 11:37:09] INFO root fetch - processPackages [oc-ocdm]: New version: [7.2.0] Old Version: [7.1.9]
+[2023-06-15 11:37:09] INFO root fetch - processPackages [smartchart]: New version: [6.6.6.4] Old Version: [6.6.6.3]
+[2023-06-15 11:37:09] INFO root fetch - processPackages [multisesh]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-15 11:37:09] INFO root fetch - processPackages [me-setups]: New version: [1.8.5] Old Version: [1.8.4]
+[2023-06-15 11:37:09] INFO root fetch - processPackages [mnzipcode]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-06-15 11:37:09] INFO root fetch - processPackages [kalm]: New version: [0.6.9] Old Version: [0.6.8]
+[2023-06-15 11:37:09] INFO root fetch - processPackages [numerical-py]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-06-15 11:37:09] INFO root fetch - processPackages [smartchart]: Downloading https://files.pythonhosted.org/packages/09/57/5697f00eb03070aecf8648da96dcbfca061315cb97b3840842a1c85389ee/smartchart-6.6.6.3.tar.gz
+[2023-06-15 11:37:09] INFO root fetch - processPackages [me-setups]: Downloading https://files.pythonhosted.org/packages/1a/64/ea817ea8639c86dd3aaf35e816b53cfc795f4668cfd4482b5ea0abf4a2f5/me_setups-1.8.4.tar.gz
+[2023-06-15 11:37:09] INFO root fetch - processPackages [kalm]: Downloading https://files.pythonhosted.org/packages/08/d6/afbd93ab17a860658e3f78d89626ca0ad442f18d7058216f69066b2b251d/kalm-0.6.8.tar.gz
+[2023-06-15 11:37:09] INFO root fetch - processPackages [bimdata-api-client]: New version: [9.9.0] Old Version: [9.8.1]
+[2023-06-15 11:37:09] INFO root fetch - processPackages [numerical-py]: Downloading https://files.pythonhosted.org/packages/3c/68/5947324216163d665478cadc3f786e3d9f29004018d36c96bd0b161ada4b/numerical_py-0.0.6.tar.gz
+[2023-06-15 11:37:09] INFO root fetch - processPackages [tfra-nightly]: New version: [0.6.0.dev20230614132209] Old Version: [0.6.0.dev20230519093933]
+[2023-06-15 11:37:09] WARNING root fetch - processPackages [django-mass-migration]: Skipping, unable to determine old version
+[2023-06-15 11:37:09] INFO root fetch - main [MainThread]: End processing [django-mass-migration] error
+[2023-06-15 11:37:09] INFO root fetch - processPackages [multisesh]: Downloading https://files.pythonhosted.org/packages/6e/cd/691dd03e7cf38979b053399a8811a10f45c2056fd6367ca81e28291a11f2/multisesh-0.0.8.tar.gz
+[2023-06-15 11:37:09] INFO root fetch - processPackages [mnzipcode]: Downloading https://files.pythonhosted.org/packages/6d/a1/bfcaff5c6f4ded783eb949d6c18dbfcad07ca3bd994ccab83927aad36051/mnzipcode-0.0.6.tar.gz
+[2023-06-15 11:37:09] INFO root fetch - processPackages [oc-ocdm]: Downloading https://files.pythonhosted.org/packages/bd/cb/2ff41e8d4621489f46a10c0d4087273899da894461046a72a0f6839f1e8b/oc_ocdm-7.1.9.tar.gz
+[2023-06-15 11:37:09] INFO root fetch - processPackages [kalm]: Downloading https://files.pythonhosted.org/packages/f3/ee/21230318a80577b7a92a016e6f1cf516735d553ff6164c13ff461de986aa/kalm-0.6.9.tar.gz
+[2023-06-15 11:37:09] INFO root fetch - processPackages [me-setups]: Downloading https://files.pythonhosted.org/packages/9c/e3/65e437c499fbef3e6c7abb96ee30f8a6e40d2786d94347d71dd7c5205e23/me_setups-1.8.5.tar.gz
+[2023-06-15 11:37:09] INFO root fetch - processPackages [tfra-nightly]: Downloading https://files.pythonhosted.org/packages/30/70/255f66b0d7fcc8fbe2732878095c47ab45a50d69ba4e2afc59834ce9db8c/tfra_nightly-0.6.0.dev20230519093933-cp39-cp39-manylinux_2_12_x86_64.manylinux2010_x86_64.whl
+[2023-06-15 11:37:09] INFO root fetch - processPackages [bimdata-api-client]: Downloading https://files.pythonhosted.org/packages/2f/7a/025bd38858b44925fac4abf2105445c93da1a5221e526c5a3f6388951530/bimdata-api-client-9.8.1.tar.gz
+[2023-06-15 11:37:09] INFO root fetch - processPackages [numerical-py]: Downloading https://files.pythonhosted.org/packages/9a/01/39a8549c566e982a8468263a0cb23f023992821c1c4a327d37b7eeb6772c/numerical_py-0.0.7.tar.gz
+[2023-06-15 11:37:09] INFO root fetch - processPackages [me-setups]: executing diffoscope
+[2023-06-15 11:37:09] INFO root fetch - processPackages [me-setups]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/me_setups-1.8.4.tar.gz tmp/me_setups-1.8.5.tar.gz --markdown 20230615/m/me-setups/1.8.4-1.8.5/diff.md --exclude *.pyd
+[2023-06-15 11:37:09] INFO root fetch - processPackages [kalm]: executing diffoscope
+[2023-06-15 11:37:09] INFO root fetch - processPackages [kalm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kalm-0.6.8.tar.gz tmp/kalm-0.6.9.tar.gz --markdown 20230615/k/kalm/0.6.8-0.6.9/diff.md --exclude *.pyd
+[2023-06-15 11:37:09] INFO root fetch - processPackages [mnzipcode]: Downloading https://files.pythonhosted.org/packages/f7/60/3337e6dec61f893c711bf11dc3c1e592a5ba49e6b7ac2891a7f3e3f55b31/mnzipcode-0.0.7.tar.gz
+[2023-06-15 11:37:09] INFO root fetch - processPackages [smartchart]: Downloading https://files.pythonhosted.org/packages/e6/f3/31b4b2b1bfa397c591b57ed50c010711901c60aa9befd5c770b36efacba8/smartchart-6.6.6.4.tar.gz
+[2023-06-15 11:37:09] INFO root fetch - processPackages [multisesh]: Downloading https://files.pythonhosted.org/packages/5a/1c/948892eb28d271e94154d23aea3c2649b1d1c24d0e879cf3d3170586cd27/multisesh-0.0.9.tar.gz
+[2023-06-15 11:37:10] INFO root fetch - processPackages [numerical-py]: executing diffoscope
+[2023-06-15 11:37:10] INFO root fetch - processPackages [mnzipcode]: executing diffoscope
+[2023-06-15 11:37:10] INFO root fetch - processPackages [numerical-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/numerical_py-0.0.6.tar.gz tmp/numerical_py-0.0.7.tar.gz --markdown 20230615/n/numerical-py/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-06-15 11:37:10] INFO root fetch - processPackages [mnzipcode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mnzipcode-0.0.6.tar.gz tmp/mnzipcode-0.0.7.tar.gz --markdown 20230615/m/mnzipcode/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-06-15 11:37:10] INFO root fetch - processPackages [multisesh]: executing diffoscope
+[2023-06-15 11:37:10] INFO root fetch - processPackages [multisesh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multisesh-0.0.8.tar.gz tmp/multisesh-0.0.9.tar.gz --markdown 20230615/m/multisesh/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-15 11:37:10] INFO root fetch - processPackages [oc-ocdm]: Downloading https://files.pythonhosted.org/packages/40/ce/7c7abd06785646a00bea849e4f3c152e644e3b1f1a1ba1e5228be49fc53d/oc_ocdm-7.2.0.tar.gz
+[2023-06-15 11:37:10] INFO root fetch - processPackages [oc-ocdm]: executing diffoscope
+[2023-06-15 11:37:10] INFO root fetch - processPackages [oc-ocdm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oc_ocdm-7.1.9.tar.gz tmp/oc_ocdm-7.2.0.tar.gz --markdown 20230615/o/oc-ocdm/7.1.9-7.2.0/diff.md --exclude *.pyd
+[2023-06-15 11:37:10] INFO root fetch - processPackages [bimdata-api-client]: Downloading https://files.pythonhosted.org/packages/04/d6/f16eeffb47cb62e83c3459330ab4b2f40e6502e16df942ccd8185cf05998/bimdata-api-client-9.9.0.tar.gz
+[2023-06-15 11:37:10] INFO root fetch - processPackages [bimdata-api-client]: executing diffoscope
+[2023-06-15 11:37:10] INFO root fetch - processPackages [bimdata-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bimdata-api-client-9.8.1.tar.gz tmp/bimdata-api-client-9.9.0.tar.gz --markdown 20230615/b/bimdata-api-client/9.8.1-9.9.0/diff.md --exclude *.pyd
+[2023-06-15 11:37:10] INFO root fetch - processPackages [tfra-nightly]: Downloading https://files.pythonhosted.org/packages/90/81/40d677e36db58b5a66b4d3ffacc0b50c3231be7a64059fa615cbb97c9acf/tfra_nightly-0.6.0.dev20230614132209-cp39-cp39-manylinux_2_12_x86_64.manylinux2010_x86_64.whl
+[2023-06-15 11:37:11] INFO root fetch - processPackages [smartchart]: executing diffoscope
+[2023-06-15 11:37:11] INFO root fetch - processPackages [smartchart]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smartchart-6.6.6.3.tar.gz tmp/smartchart-6.6.6.4.tar.gz --markdown 20230615/s/smartchart/6.6.6.3-6.6.6.4/diff.md --exclude *.pyd
+[2023-06-15 11:37:11] INFO root fetch - processPackages [kalm]: Remove: archive file [/home/abi/fetcher/tmp/kalm-0.6.8.tar.gz]
+[2023-06-15 11:37:11] INFO root fetch - processPackages [kalm]: Remove: archive file [/home/abi/fetcher/tmp/kalm-0.6.9.tar.gz]
+[2023-06-15 11:37:11] INFO root fetch - main [MainThread]: End processing [kalm]: success
+[2023-06-15 11:37:11] INFO root fetch - processPackages [numerical-py]: Remove: archive file [/home/abi/fetcher/tmp/numerical_py-0.0.6.tar.gz]
+[2023-06-15 11:37:11] INFO root fetch - processPackages [numerical-py]: Remove: archive file [/home/abi/fetcher/tmp/numerical_py-0.0.7.tar.gz]
+[2023-06-15 11:37:11] INFO root fetch - main [MainThread]: End processing [numerical-py]: success
+[2023-06-15 11:37:11] INFO root fetch - processPackages [multisesh]: Remove: archive file [/home/abi/fetcher/tmp/multisesh-0.0.8.tar.gz]
+[2023-06-15 11:37:11] INFO root fetch - processPackages [multisesh]: Remove: archive file [/home/abi/fetcher/tmp/multisesh-0.0.9.tar.gz]
+[2023-06-15 11:37:11] INFO root fetch - main [MainThread]: End processing [multisesh]: success
+[2023-06-15 11:37:11] INFO root fetch - processPackages [me-setups]: Remove: archive file [/home/abi/fetcher/tmp/me_setups-1.8.4.tar.gz]
+[2023-06-15 11:37:11] INFO root fetch - processPackages [me-setups]: Remove: archive file [/home/abi/fetcher/tmp/me_setups-1.8.5.tar.gz]
+[2023-06-15 11:37:11] INFO root fetch - main [MainThread]: End processing [me-setups]: success
+[2023-06-15 11:37:11] INFO root fetch - processPackages [tfra-nightly]: executing diffoscope
+[2023-06-15 11:37:11] INFO root fetch - processPackages [tfra-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfra_nightly-0.6.0.dev20230519093933-cp39-cp39-manylinux_2_12_x86_64.manylinux2010_x86_64.whl.zip tmp/tfra_nightly-0.6.0.dev20230614132209-cp39-cp39-manylinux_2_12_x86_64.manylinux2010_x86_64.whl.zip --markdown 20230615/t/tfra-nightly/0.6.0.dev20230519093933-0.6.0.dev20230614132209/diff.md --exclude *.pyd
+[2023-06-15 11:37:12] INFO root fetch - processPackages [mnzipcode]: Remove: archive file [/home/abi/fetcher/tmp/mnzipcode-0.0.6.tar.gz]
+[2023-06-15 11:37:12] INFO root fetch - processPackages [mnzipcode]: Remove: archive file [/home/abi/fetcher/tmp/mnzipcode-0.0.7.tar.gz]
+[2023-06-15 11:37:12] INFO root fetch - main [MainThread]: End processing [mnzipcode]: success
+[2023-06-15 11:37:12] INFO root fetch - processPackages [oc-ocdm]: Remove: archive file [/home/abi/fetcher/tmp/oc_ocdm-7.1.9.tar.gz]
+[2023-06-15 11:37:12] INFO root fetch - processPackages [oc-ocdm]: Remove: archive file [/home/abi/fetcher/tmp/oc_ocdm-7.2.0.tar.gz]
+[2023-06-15 11:37:12] INFO root fetch - main [MainThread]: End processing [oc-ocdm]: success
+[2023-06-15 11:37:14] INFO root fetch - processPackages [tfra-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfra_nightly-0.6.0.dev20230519093933-cp39-cp39-manylinux_2_12_x86_64.manylinux2010_x86_64.whl.zip]
+[2023-06-15 11:37:14] INFO root fetch - processPackages [tfra-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfra_nightly-0.6.0.dev20230614132209-cp39-cp39-manylinux_2_12_x86_64.manylinux2010_x86_64.whl.zip]
+[2023-06-15 11:37:14] INFO root fetch - main [MainThread]: End processing [tfra-nightly]: success
+[2023-06-15 11:37:16] INFO root fetch - processPackages [smartchart]: Remove: archive file [/home/abi/fetcher/tmp/smartchart-6.6.6.3.tar.gz]
+[2023-06-15 11:37:16] INFO root fetch - processPackages [smartchart]: Remove: archive file [/home/abi/fetcher/tmp/smartchart-6.6.6.4.tar.gz]
+[2023-06-15 11:37:16] INFO root fetch - main [MainThread]: End processing [smartchart]: success
+[2023-06-15 11:37:17] INFO root fetch - processPackages [bimdata-api-client]: Remove: archive file [/home/abi/fetcher/tmp/bimdata-api-client-9.8.1.tar.gz]
+[2023-06-15 11:37:17] INFO root fetch - processPackages [bimdata-api-client]: Remove: archive file [/home/abi/fetcher/tmp/bimdata-api-client-9.9.0.tar.gz]
+[2023-06-15 11:37:17] INFO root fetch - main [MainThread]: End processing [bimdata-api-client]: success
+[2023-06-15 11:37:17] INFO root fetch - main [MainThread]: Store serial: [18514128]
