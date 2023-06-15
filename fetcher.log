@@ -22550,3 +22550,166 @@ AssertionError: tmp/stackoverflowapithingy-0.1.5.tar.gz does not exist
 [2023-06-15 14:50:50] INFO root fetch - processPackages [homeassistant-stubs]: Remove: archive file [/home/abi/fetcher/tmp/homeassistant_stubs-2023.6.2.tar.gz]
 [2023-06-15 14:50:50] INFO root fetch - main [MainThread]: End processing [homeassistant-stubs]: success
 [2023-06-15 14:50:50] INFO root fetch - main [MainThread]: Store serial: [18516111]
+[2023-06-15 14:55:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18516111]
+[2023-06-15 14:56:00] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-06-15 14:56:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: python-iso639
+[2023-06-15 14:56:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: repo-test-sdk
+[2023-06-15 14:56:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nonebot-plugin-spark-gpt
+[2023-06-15 14:56:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: enum-tools
+[2023-06-15 14:56:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lollms
+[2023-06-15 14:56:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: django-heartbeat
+[2023-06-15 14:56:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ncOrtho
+[2023-06-15 14:56:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: deepmreye
+[2023-06-15 14:56:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: openwillis
+[2023-06-15 14:56:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: webhooklib
+[2023-06-15 14:56:00] INFO root fetch - processPackages [lollms]: New version: [1.1.9] Old Version: [1.1.82]
+[2023-06-15 14:56:00] INFO root fetch - processPackages [ncOrtho]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-06-15 14:56:00] INFO root fetch - processPackages [repo-test-sdk]: New version: [7.7.7] Old Version: [2.0.0]
+[2023-06-15 14:56:00] INFO root fetch - processPackages [ncOrtho]: Downloading https://files.pythonhosted.org/packages/ee/1b/79976366225505d3072a7d4e5009bf4f32f0b637c2902526f523c0e77ec9/ncOrtho-0.4.0.tar.gz
+[2023-06-15 14:56:00] INFO root fetch - processPackages [lollms]: Downloading https://files.pythonhosted.org/packages/be/ef/30362f10299913a614c9b734af75cff7511a06a3c12e2fff09a4ddba839f/lollms-1.1.82.tar.gz
+[2023-06-15 14:56:00] INFO root fetch - processPackages [repo-test-sdk]: Downloading https://files.pythonhosted.org/packages/74/4a/ddb9f19ea3c90523f5f4284be76e64e3086e616db7869758fbddace9aefd/repo-test-sdk-2.0.0.tar.gz
+[2023-06-15 14:56:00] INFO root fetch - processPackages [django-heartbeat]: New version: [2.2.0] Old Version: [2.1.0]
+[2023-06-15 14:56:00] INFO root fetch - processPackages [deepmreye]: New version: [0.2] Old Version: [0.1.1]
+[2023-06-15 14:56:00] INFO root fetch - processPackages [python-iso639]: New version: [2023.6.15] Old Version: [2023.4.13]
+[2023-06-15 14:56:00] INFO root fetch - processPackages [enum-tools]: New version: [0.9.0.post1] Old Version: [0.9.0]
+[2023-06-15 14:56:00] WARNING root fetch - processPackages [webhooklib]: Skipping, unable to determine old version
+[2023-06-15 14:56:00] INFO root fetch - processPackages [webhooklib]: Start processing: omero-weberror
+[2023-06-15 14:56:01] INFO root fetch - main [MainThread]: End processing [webhooklib] error
+[2023-06-15 14:56:01] INFO root fetch - processPackages [openwillis]: New version: [1.2] Old Version: [1.1]
+[2023-06-15 14:56:01] INFO root fetch - processPackages [nonebot-plugin-spark-gpt]: New version: [0.3.6] Old Version: [0.3.5]
+[2023-06-15 14:56:01] INFO root fetch - processPackages [ncOrtho]: Downloading https://files.pythonhosted.org/packages/8c/a5/3a6eca332c88708625f5ce783f6dfdbd28737b95e6f4944ad2bdf1656d20/ncOrtho-0.4.1.tar.gz
+[2023-06-15 14:56:01] WARNING root fetch - processPackages [lollms]: Skipping package: exceeds size limit 28201669>=10485760
+[2023-06-15 14:56:01] INFO root fetch - processPackages [lollms]: Start processing: py-concodese
+[2023-06-15 14:56:01] INFO root fetch - main [MainThread]: End processing [lollms] error
+[2023-06-15 14:56:01] INFO root fetch - processPackages [repo-test-sdk]: Downloading https://files.pythonhosted.org/packages/e4/36/ed542bb196cb040c5009f865e2e7b9e647bb49a7147f695b91489c706a4b/repo-test-sdk-7.7.7.tar.gz
+[2023-06-15 14:56:01] INFO root fetch - processPackages [omero-weberror]: New version: [0.4.dev1] Old Version: [0.4.1]
+[2023-06-15 14:56:01] INFO root fetch - processPackages [ncOrtho]: executing diffoscope
+[2023-06-15 14:56:01] INFO root fetch - processPackages [ncOrtho]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ncOrtho-0.4.0.tar.gz tmp/ncOrtho-0.4.1.tar.gz --markdown 20230615/n/ncOrtho/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-06-15 14:56:01] INFO root fetch - processPackages [openwillis]: Downloading https://files.pythonhosted.org/packages/6a/c7/d7c2ced219ade4f6aef9d84783f6d105915d4b6b39adcd97f1baf55faf9c/openwillis-1.1.tar.gz
+[2023-06-15 14:56:01] INFO root fetch - processPackages [repo-test-sdk]: executing diffoscope
+[2023-06-15 14:56:01] INFO root fetch - processPackages [repo-test-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/repo-test-sdk-2.0.0.tar.gz tmp/repo-test-sdk-7.7.7.tar.gz --markdown 20230615/r/repo-test-sdk/2.0.0-7.7.7/diff.md --exclude *.pyd
+[2023-06-15 14:56:01] WARNING root fetch - processPackages [py-concodese]: Skipping, unable to determine old version
+[2023-06-15 14:56:01] INFO root fetch - processPackages [py-concodese]: Start processing: anaml-client
+[2023-06-15 14:56:01] INFO root fetch - main [MainThread]: End processing [py-concodese] error
+[2023-06-15 14:56:01] INFO root fetch - processPackages [deepmreye]: Downloading https://files.pythonhosted.org/packages/8d/3e/7cba224510e535c31942de7690e93c0eec636739cb5dd8e9f5b2f7cdd85f/deepmreye-0.1.1-py3-none-any.whl
+[2023-06-15 14:56:01] INFO root fetch - processPackages [nonebot-plugin-spark-gpt]: Downloading https://files.pythonhosted.org/packages/88/27/118825ce8a25317ce45626d213956d13d8ce20f7336c50e53b5b86cf0a2b/nonebot_plugin_spark_gpt-0.3.5.tar.gz
+[2023-06-15 14:56:01] INFO root fetch - processPackages [enum-tools]: Downloading https://files.pythonhosted.org/packages/f0/ed/10a709343b2e7f597654196ecc1c36b717ac0ce3090df0f82e88b19f61e4/enum_tools-0.9.0.tar.gz
+[2023-06-15 14:56:01] INFO root fetch - processPackages [django-heartbeat]: Downloading https://files.pythonhosted.org/packages/ae/c3/341e6612e09b87976f84e4721512edc52a3acb3bbd3f85e8d56dad0a4f53/django-heartbeat-2.1.0.tar.gz
+[2023-06-15 14:56:01] INFO root fetch - processPackages [python-iso639]: Downloading https://files.pythonhosted.org/packages/dc/7d/541ac58ab5176938d5d9f958dc3a512662d3e4395ea8b8d61ce32e8dc5cc/python-iso639-2023.4.13.tar.gz
+[2023-06-15 14:56:01] INFO root fetch - processPackages [omero-weberror]: Downloading https://files.pythonhosted.org/packages/44/20/1bac0b37f418f912ba8cbc8be253fbb677cf8b3ac8ee85d166aaf9b5f921/omero-weberror-0.4.1.tar.gz
+[2023-06-15 14:56:01] INFO root fetch - processPackages [anaml-client]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-15 14:56:01] INFO root fetch - processPackages [openwillis]: Downloading https://files.pythonhosted.org/packages/fd/3e/4b694d101e7e9d644c22b984ceb8a56643395202ce69a8b954a8dc2eaf9c/openwillis-1.2.tar.gz
+[2023-06-15 14:56:01] INFO root fetch - processPackages [django-heartbeat]: Downloading https://files.pythonhosted.org/packages/ae/ea/ca669f5fc87bda594e278bb2c2cb711617af3267aa309a90a2b29ab1ec24/django-heartbeat-2.2.0.tar.gz
+[2023-06-15 14:56:01] INFO root fetch - processPackages [anaml-client]: Downloading https://files.pythonhosted.org/packages/c8/bc/0faf2a5869f209c6630bcbdcb14b1eae1e100c06b5b4570aaaeeb7b7d775/anaml-client-0.8.0.tar.gz
+[2023-06-15 14:56:01] INFO root fetch - processPackages [python-iso639]: Downloading https://files.pythonhosted.org/packages/fc/7f/dee6f3cd303f173be5b950a79ec2031a0b587438b2a120e175cca74d5d6e/python-iso639-2023.6.15.tar.gz
+[2023-06-15 14:56:01] INFO root fetch - processPackages [enum-tools]: Downloading https://files.pythonhosted.org/packages/77/93/a9243f5ce62906d86eacce0fd1adb015fc565c054e47b58ff781d89818cb/enum_tools-0.9.0.post1.tar.gz
+[2023-06-15 14:56:01] WARNING root fetch - processPackages [nonebot-plugin-spark-gpt]: Skipping package: exceeds size limit 11188790>=10485760
+[2023-06-15 14:56:01] INFO root fetch - processPackages [nonebot-plugin-spark-gpt]: Start processing: emmanuelsdk
+[2023-06-15 14:56:01] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-spark-gpt] error
+[2023-06-15 14:56:01] INFO root fetch - processPackages [openwillis]: executing diffoscope
+[2023-06-15 14:56:01] INFO root fetch - processPackages [openwillis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openwillis-1.1.tar.gz tmp/openwillis-1.2.tar.gz --markdown 20230615/o/openwillis/1.1-1.2/diff.md --exclude *.pyd
+[2023-06-15 14:56:01] INFO root fetch - processPackages [omero-weberror]: Downloading https://files.pythonhosted.org/packages/9a/1c/05869aec84bf2a573e191767422c507a19da9e75e3502e60413ef4c4317d/omero-weberror-0.4.dev1.tar.gz
+[2023-06-15 14:56:01] INFO root fetch - processPackages [emmanuelsdk]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-15 14:56:01] INFO root fetch - processPackages [django-heartbeat]: executing diffoscope
+[2023-06-15 14:56:01] INFO root fetch - processPackages [django-heartbeat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-heartbeat-2.1.0.tar.gz tmp/django-heartbeat-2.2.0.tar.gz --markdown 20230615/d/django-heartbeat/2.1.0-2.2.0/diff.md --exclude *.pyd
+[2023-06-15 14:56:01] INFO root fetch - processPackages [enum-tools]: executing diffoscope
+[2023-06-15 14:56:01] INFO root fetch - processPackages [enum-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/enum_tools-0.9.0.tar.gz tmp/enum_tools-0.9.0.post1.tar.gz --markdown 20230615/e/enum-tools/0.9.0-0.9.0.post1/diff.md --exclude *.pyd
+[2023-06-15 14:56:01] INFO root fetch - processPackages [emmanuelsdk]: Downloading https://files.pythonhosted.org/packages/bd/2c/8d77978335cdfe20db072157205d7c99a03436c6b0ae709913b301601c0b/emmanuelsdk-0.0.2.tar.gz
+[2023-06-15 14:56:01] INFO root fetch - processPackages [python-iso639]: executing diffoscope
+[2023-06-15 14:56:01] INFO root fetch - processPackages [python-iso639]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-iso639-2023.4.13.tar.gz tmp/python-iso639-2023.6.15.tar.gz --markdown 20230615/p/python-iso639/2023.4.13-2023.6.15/diff.md --exclude *.pyd
+[2023-06-15 14:56:01] INFO root fetch - processPackages [omero-weberror]: executing diffoscope
+[2023-06-15 14:56:01] INFO root fetch - processPackages [omero-weberror]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omero-weberror-0.4.1.tar.gz tmp/omero-weberror-0.4.dev1.tar.gz --markdown 20230615/o/omero-weberror/0.4.1-0.4.dev1/diff.md --exclude *.pyd
+[2023-06-15 14:56:01] INFO root fetch - processPackages [deepmreye]: Downloading https://files.pythonhosted.org/packages/30/da/bc470384a8a4f0463e637ad6cf649fd9c2d619199fa1ba4069203dbf39a2/deepmreye-0.2.tar.gz
+[2023-06-15 14:56:01] INFO root fetch - processPackages [emmanuelsdk]: Downloading https://files.pythonhosted.org/packages/57/1d/03d5126d0b99b7a0c6fc6b2b36441e848154e1a7c9d9b62dd8cb9760bd6e/emmanuelsdk-0.0.3.tar.gz
+[2023-06-15 14:56:01] INFO root fetch - processPackages [anaml-client]: Downloading https://files.pythonhosted.org/packages/c1/b7/cf707126b04a65b169ecd4d213f0d66a00d8d3749a868c43ba56fec8d0ee/anaml-client-0.9.0.tar.gz
+[2023-06-15 14:56:01] INFO root fetch - processPackages [emmanuelsdk]: executing diffoscope
+[2023-06-15 14:56:01] INFO root fetch - processPackages [emmanuelsdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/emmanuelsdk-0.0.2.tar.gz tmp/emmanuelsdk-0.0.3.tar.gz --markdown 20230615/e/emmanuelsdk/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-15 14:56:02] INFO root fetch - processPackages [anaml-client]: executing diffoscope
+[2023-06-15 14:56:02] INFO root fetch - processPackages [anaml-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anaml-client-0.8.0.tar.gz tmp/anaml-client-0.9.0.tar.gz --markdown 20230615/a/anaml-client/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-15 14:56:02] INFO root fetch - processPackages [ncOrtho]: Remove: archive file [/home/abi/fetcher/tmp/ncOrtho-0.4.0.tar.gz]
+[2023-06-15 14:56:02] INFO root fetch - processPackages [ncOrtho]: Remove: archive file [/home/abi/fetcher/tmp/ncOrtho-0.4.1.tar.gz]
+[2023-06-15 14:56:02] INFO root fetch - processPackages [ncOrtho]: Start processing: slapos.cookbook
+[2023-06-15 14:56:02] INFO root fetch - main [MainThread]: End processing [ncOrtho]: success
+[2023-06-15 14:56:02] INFO root fetch - processPackages [slapos.cookbook]: New version: [1.0.92] Old Version: [1.0.9]
+[2023-06-15 14:56:02] INFO root fetch - processPackages [repo-test-sdk]: Remove: archive file [/home/abi/fetcher/tmp/repo-test-sdk-2.0.0.tar.gz]
+[2023-06-15 14:56:02] INFO root fetch - processPackages [repo-test-sdk]: Remove: archive file [/home/abi/fetcher/tmp/repo-test-sdk-7.7.7.tar.gz]
+[2023-06-15 14:56:02] INFO root fetch - processPackages [repo-test-sdk]: Start processing: sssom-schema
+[2023-06-15 14:56:02] INFO root fetch - main [MainThread]: End processing [repo-test-sdk]: success
+[2023-06-15 14:56:02] INFO root fetch - processPackages [deepmreye]: executing diffoscope
+[2023-06-15 14:56:02] INFO root fetch - processPackages [deepmreye]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepmreye-0.1.1-py3-none-any.whl.zip tmp/deepmreye-0.2.tar.gz --markdown 20230615/d/deepmreye/0.1.1-0.2/diff.md --exclude *.pyd
+[2023-06-15 14:56:02] INFO root fetch - processPackages [sssom-schema]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-06-15 14:56:02] INFO root fetch - processPackages [slapos.cookbook]: Downloading https://files.pythonhosted.org/packages/72/2f/0cb2168fa27043f29e5e127aeac94bc3dad2677ef89035334bdd60753a56/slapos.cookbook-1.0.9.tar.gz
+[2023-06-15 14:56:02] INFO root fetch - processPackages [sssom-schema]: Downloading https://files.pythonhosted.org/packages/4e/60/b9bc3ab1e39262a84e256a2624aec92394d08acb2a518fb5477d9fe7c80f/sssom-schema-0.9.3.tar.gz
+[2023-06-15 14:56:03] INFO root fetch - processPackages [openwillis]: Remove: archive file [/home/abi/fetcher/tmp/openwillis-1.1.tar.gz]
+[2023-06-15 14:56:03] INFO root fetch - processPackages [openwillis]: Remove: archive file [/home/abi/fetcher/tmp/openwillis-1.2.tar.gz]
+[2023-06-15 14:56:03] INFO root fetch - processPackages [openwillis]: Start processing: dynbps
+[2023-06-15 14:56:03] INFO root fetch - main [MainThread]: End processing [openwillis]: success
+[2023-06-15 14:56:03] INFO root fetch - processPackages [dynbps]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-15 14:56:03] INFO root fetch - processPackages [sssom-schema]: Downloading https://files.pythonhosted.org/packages/96/e0/5a7382d3263dc0b0dbfa0deae0e3d854eb9ab9f9deed9e2fe63be6bf5938/sssom-schema-0.9.4.tar.gz
+[2023-06-15 14:56:03] INFO root fetch - processPackages [dynbps]: Downloading https://files.pythonhosted.org/packages/df/7b/f58a1f70e52ed8b936d562f434b4d005322708be43347f0d4d623073631b/dynbps-0.0.8.tar.gz
+[2023-06-15 14:56:03] INFO root fetch - processPackages [python-iso639]: Remove: archive file [/home/abi/fetcher/tmp/python-iso639-2023.4.13.tar.gz]
+[2023-06-15 14:56:03] INFO root fetch - processPackages [python-iso639]: Remove: archive file [/home/abi/fetcher/tmp/python-iso639-2023.6.15.tar.gz]
+[2023-06-15 14:56:03] INFO root fetch - processPackages [python-iso639]: Start processing: cohere
+[2023-06-15 14:56:03] INFO root fetch - main [MainThread]: End processing [python-iso639]: success
+[2023-06-15 14:56:03] INFO root fetch - processPackages [sssom-schema]: executing diffoscope
+[2023-06-15 14:56:03] INFO root fetch - processPackages [sssom-schema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sssom-schema-0.9.3.tar.gz tmp/sssom-schema-0.9.4.tar.gz --markdown 20230615/s/sssom-schema/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-06-15 14:56:03] INFO root fetch - processPackages [cohere]: New version: [4.9.1] Old Version: [4.9.0]
+[2023-06-15 14:56:03] INFO root fetch - processPackages [emmanuelsdk]: Remove: archive file [/home/abi/fetcher/tmp/emmanuelsdk-0.0.2.tar.gz]
+[2023-06-15 14:56:03] INFO root fetch - processPackages [emmanuelsdk]: Remove: archive file [/home/abi/fetcher/tmp/emmanuelsdk-0.0.3.tar.gz]
+[2023-06-15 14:56:03] INFO root fetch - processPackages [emmanuelsdk]: Start processing: moto
+[2023-06-15 14:56:03] INFO root fetch - main [MainThread]: End processing [emmanuelsdk]: success
+[2023-06-15 14:56:03] INFO root fetch - processPackages [cohere]: Downloading https://files.pythonhosted.org/packages/31/b3/a0389f12ee6eb070bc517e9db7a5ad19cc3b7147fc1c53ff8f3547a476b1/cohere-4.9.0.tar.gz
+[2023-06-15 14:56:03] INFO root fetch - processPackages [dynbps]: Downloading https://files.pythonhosted.org/packages/68/24/1ebda3992ba3fca69361dc71a1002d2a7f0587e88491f1cc7ebebac1823a/dynbps-0.0.9.tar.gz
+[2023-06-15 14:56:03] INFO root fetch - processPackages [moto]: New version: [4.1.9.dev9] Old Version: [4.1.9.dev8]
+[2023-06-15 14:56:03] INFO root fetch - processPackages [django-heartbeat]: Remove: archive file [/home/abi/fetcher/tmp/django-heartbeat-2.1.0.tar.gz]
+[2023-06-15 14:56:03] INFO root fetch - processPackages [django-heartbeat]: Remove: archive file [/home/abi/fetcher/tmp/django-heartbeat-2.2.0.tar.gz]
+[2023-06-15 14:56:03] INFO root fetch - processPackages [django-heartbeat]: Start processing: labeltransform2
+[2023-06-15 14:56:03] INFO root fetch - main [MainThread]: End processing [django-heartbeat]: success
+[2023-06-15 14:56:03] INFO root fetch - processPackages [dynbps]: executing diffoscope
+[2023-06-15 14:56:03] INFO root fetch - processPackages [dynbps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dynbps-0.0.8.tar.gz tmp/dynbps-0.0.9.tar.gz --markdown 20230615/d/dynbps/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-15 14:56:03] INFO root fetch - processPackages [labeltransform2]: New version: [2.0] Old Version: [1.9]
+[2023-06-15 14:56:03] INFO root fetch - processPackages [omero-weberror]: Remove: archive file [/home/abi/fetcher/tmp/omero-weberror-0.4.1.tar.gz]
+[2023-06-15 14:56:03] INFO root fetch - processPackages [omero-weberror]: Remove: archive file [/home/abi/fetcher/tmp/omero-weberror-0.4.dev1.tar.gz]
+[2023-06-15 14:56:03] INFO root fetch - main [MainThread]: End processing [omero-weberror]: success
+[2023-06-15 14:56:03] INFO root fetch - processPackages [moto]: Downloading https://files.pythonhosted.org/packages/2c/d4/8e03b33a9179ac2880d9ee7985f188927368b16081e05a142152e556685c/moto-4.1.9.dev8.tar.gz
+[2023-06-15 14:56:03] INFO root fetch - processPackages [cohere]: Downloading https://files.pythonhosted.org/packages/31/11/99acc914d420c15b6ac2de9eb04804195bc99b02d194f3c4ae947d19869f/cohere-4.9.1.tar.gz
+[2023-06-15 14:56:03] INFO root fetch - processPackages [labeltransform2]: Downloading https://files.pythonhosted.org/packages/d7/99/79309881719b26d4d1f9492fe6451bb0b1b6fbc44bd551b204d252a62e76/labeltransform2-1.9.tar.gz
+[2023-06-15 14:56:03] INFO root fetch - processPackages [cohere]: executing diffoscope
+[2023-06-15 14:56:03] INFO root fetch - processPackages [cohere]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cohere-4.9.0.tar.gz tmp/cohere-4.9.1.tar.gz --markdown 20230615/c/cohere/4.9.0-4.9.1/diff.md --exclude *.pyd
+[2023-06-15 14:56:03] INFO root fetch - processPackages [enum-tools]: Remove: archive file [/home/abi/fetcher/tmp/enum_tools-0.9.0.tar.gz]
+[2023-06-15 14:56:03] INFO root fetch - processPackages [enum-tools]: Remove: archive file [/home/abi/fetcher/tmp/enum_tools-0.9.0.post1.tar.gz]
+[2023-06-15 14:56:03] INFO root fetch - main [MainThread]: End processing [enum-tools]: success
+[2023-06-15 14:56:03] INFO root fetch - processPackages [moto]: Downloading https://files.pythonhosted.org/packages/4b/79/8731bdd68db60192dd81a418b0552fc817d87bba0726d6c4ff2dbd93f913/moto-4.1.9.dev9.tar.gz
+[2023-06-15 14:56:03] INFO root fetch - processPackages [labeltransform2]: Downloading https://files.pythonhosted.org/packages/4b/9a/2bb65ca8d335a1264bec8fb86fdb9aee903e050387d8d1c6e53ed03e6b1a/labeltransform2-2.0.tar.gz
+[2023-06-15 14:56:03] INFO root fetch - processPackages [slapos.cookbook]: Downloading https://files.pythonhosted.org/packages/e3/1a/d7277d9413b9f20974bbf3a8dfd7125e4bd0fa62dc0fe98533d582b13e4f/slapos.cookbook-1.0.92.tar.gz
+[2023-06-15 14:56:03] INFO root fetch - processPackages [labeltransform2]: executing diffoscope
+[2023-06-15 14:56:03] INFO root fetch - processPackages [labeltransform2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/labeltransform2-1.9.tar.gz tmp/labeltransform2-2.0.tar.gz --markdown 20230615/l/labeltransform2/1.9-2.0/diff.md --exclude *.pyd
+[2023-06-15 14:56:03] INFO root fetch - processPackages [moto]: executing diffoscope
+[2023-06-15 14:56:03] INFO root fetch - processPackages [moto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moto-4.1.9.dev8.tar.gz tmp/moto-4.1.9.dev9.tar.gz --markdown 20230615/m/moto/4.1.9.dev8-4.1.9.dev9/diff.md --exclude *.pyd
+[2023-06-15 14:56:04] INFO root fetch - processPackages [slapos.cookbook]: executing diffoscope
+[2023-06-15 14:56:04] INFO root fetch - processPackages [slapos.cookbook]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slapos.cookbook-1.0.9.tar.gz tmp/slapos.cookbook-1.0.92.tar.gz --markdown 20230615/s/slapos.cookbook/1.0.9-1.0.92/diff.md --exclude *.pyd
+[2023-06-15 14:56:04] INFO root fetch - processPackages [anaml-client]: Remove: archive file [/home/abi/fetcher/tmp/anaml-client-0.8.0.tar.gz]
+[2023-06-15 14:56:04] INFO root fetch - processPackages [anaml-client]: Remove: archive file [/home/abi/fetcher/tmp/anaml-client-0.9.0.tar.gz]
+[2023-06-15 14:56:04] INFO root fetch - main [MainThread]: End processing [anaml-client]: success
+[2023-06-15 14:56:04] INFO root fetch - processPackages [sssom-schema]: Remove: archive file [/home/abi/fetcher/tmp/sssom-schema-0.9.3.tar.gz]
+[2023-06-15 14:56:04] INFO root fetch - processPackages [sssom-schema]: Remove: archive file [/home/abi/fetcher/tmp/sssom-schema-0.9.4.tar.gz]
+[2023-06-15 14:56:04] INFO root fetch - main [MainThread]: End processing [sssom-schema]: success
+[2023-06-15 14:56:04] INFO root fetch - processPackages [dynbps]: Remove: archive file [/home/abi/fetcher/tmp/dynbps-0.0.8.tar.gz]
+[2023-06-15 14:56:04] INFO root fetch - processPackages [dynbps]: Remove: archive file [/home/abi/fetcher/tmp/dynbps-0.0.9.tar.gz]
+[2023-06-15 14:56:04] INFO root fetch - main [MainThread]: End processing [dynbps]: success
+[2023-06-15 14:56:04] INFO root fetch - processPackages [cohere]: Remove: archive file [/home/abi/fetcher/tmp/cohere-4.9.0.tar.gz]
+[2023-06-15 14:56:04] INFO root fetch - processPackages [cohere]: Remove: archive file [/home/abi/fetcher/tmp/cohere-4.9.1.tar.gz]
+[2023-06-15 14:56:04] INFO root fetch - main [MainThread]: End processing [cohere]: success
+[2023-06-15 14:56:05] INFO root fetch - processPackages [labeltransform2]: Remove: archive file [/home/abi/fetcher/tmp/labeltransform2-1.9.tar.gz]
+[2023-06-15 14:56:05] INFO root fetch - processPackages [labeltransform2]: Remove: archive file [/home/abi/fetcher/tmp/labeltransform2-2.0.tar.gz]
+[2023-06-15 14:56:05] INFO root fetch - main [MainThread]: End processing [labeltransform2]: success
+[2023-06-15 14:56:07] INFO root fetch - processPackages [deepmreye]: Remove: archive file [/home/abi/fetcher/tmp/deepmreye-0.1.1-py3-none-any.whl.zip]
+[2023-06-15 14:56:07] INFO root fetch - processPackages [deepmreye]: Remove: archive file [/home/abi/fetcher/tmp/deepmreye-0.2.tar.gz]
+[2023-06-15 14:56:07] INFO root fetch - main [MainThread]: End processing [deepmreye]: success
+[2023-06-15 14:56:07] INFO root fetch - processPackages [slapos.cookbook]: Remove: archive file [/home/abi/fetcher/tmp/slapos.cookbook-1.0.9.tar.gz]
+[2023-06-15 14:56:07] INFO root fetch - processPackages [slapos.cookbook]: Remove: archive file [/home/abi/fetcher/tmp/slapos.cookbook-1.0.92.tar.gz]
+[2023-06-15 14:56:07] INFO root fetch - main [MainThread]: End processing [slapos.cookbook]: success
+[2023-06-15 14:56:34] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-4.1.9.dev8.tar.gz]
+[2023-06-15 14:56:34] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-4.1.9.dev9.tar.gz]
+[2023-06-15 14:56:34] INFO root fetch - main [MainThread]: End processing [moto]: success
+[2023-06-15 14:56:34] INFO root fetch - main [MainThread]: Store serial: [18516212]
