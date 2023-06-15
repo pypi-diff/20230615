@@ -19305,3 +19305,86 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-06-15 12:42:49] INFO root fetch - processPackages [pywfa]: Remove: archive file [/home/abi/fetcher/tmp/pywfa-0.5.1.tar.gz]
 [2023-06-15 12:42:49] INFO root fetch - main [MainThread]: End processing [pywfa]: success
 [2023-06-15 12:42:49] INFO root fetch - main [MainThread]: Store serial: [18514716]
+[2023-06-15 12:47:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18514716]
+[2023-06-15 12:47:59] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-15 12:47:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qurix-data-catalog
+[2023-06-15 12:47:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lusid-configuration-sdk-preview
+[2023-06-15 12:47:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: CodeChat-Server
+[2023-06-15 12:47:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pandasai
+[2023-06-15 12:47:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: FastWAPI
+[2023-06-15 12:47:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dans-datastation-tools
+[2023-06-15 12:47:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: eoshep
+[2023-06-15 12:47:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: v-quantum-annealing
+[2023-06-15 12:47:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: current-events-magnifier
+[2023-06-15 12:47:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: utbot-executor
+[2023-06-15 12:47:59] INFO root fetch - processPackages [qurix-data-catalog]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-15 12:47:59] INFO root fetch - processPackages [pandasai]: New version: [0.5.3] Old Version: [0.5.2]
+[2023-06-15 12:47:59] INFO root fetch - processPackages [dans-datastation-tools]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-15 12:47:59] INFO root fetch - processPackages [CodeChat-Server]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-15 12:47:59] INFO root fetch - processPackages [lusid-configuration-sdk-preview]: New version: [0.1.434] Old Version: [0.1.433]
+[2023-06-15 12:47:59] INFO root fetch - processPackages [current-events-magnifier]: New version: [0.0.3.4] Old Version: [0.0.3.3]
+[2023-06-15 12:47:59] INFO root fetch - processPackages [v-quantum-annealing]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-15 12:47:59] WARNING root fetch - processPackages [FastWAPI]: Skipping, unable to determine old version
+[2023-06-15 12:47:59] INFO root fetch - main [MainThread]: End processing [FastWAPI] error
+[2023-06-15 12:47:59] INFO root fetch - processPackages [eoshep]: New version: [1.0.9.dev1290] Old Version: [1.0.9.dev1284]
+[2023-06-15 12:47:59] INFO root fetch - processPackages [current-events-magnifier]: Downloading https://files.pythonhosted.org/packages/ef/21/822eece4b5b0621aab61c330a99039841d68b55e87a0d793de7e4ec92311/current_events_magnifier-0.0.3.3.tar.gz
+[2023-06-15 12:47:59] INFO root fetch - processPackages [CodeChat-Server]: Downloading https://files.pythonhosted.org/packages/e8/dc/798a7f20ee21120a405cdac61af471c81b0847a1d67336b334c60e7aeab7/CodeChat_Server-0.2.8.tar.gz
+[2023-06-15 12:47:59] INFO root fetch - processPackages [utbot-executor]: New version: [1.6.3] Old Version: [1.6.2]
+[2023-06-15 12:47:59] INFO root fetch - processPackages [qurix-data-catalog]: Downloading https://files.pythonhosted.org/packages/5f/34/7c03b952f0f0fedc7d923c396776dff69c3662423fbc67c90ac5cb64de92/qurix-data-catalog-0.1.0.tar.gz
+[2023-06-15 12:47:59] INFO root fetch - processPackages [lusid-configuration-sdk-preview]: Downloading https://files.pythonhosted.org/packages/80/8d/272fd6ede6334aaf94010c9084f6ed924c07e0700cda356ac27f10dbc736/lusid-configuration-sdk-preview-0.1.433.tar.gz
+[2023-06-15 12:47:59] INFO root fetch - processPackages [CodeChat-Server]: Downloading https://files.pythonhosted.org/packages/4e/37/2ec355690a21bc91dc40d4b16417c4a295e2b9917d1a3853d24d71d29b91/CodeChat_Server-0.2.9.tar.gz
+[2023-06-15 12:47:59] INFO root fetch - processPackages [dans-datastation-tools]: Downloading https://files.pythonhosted.org/packages/08/62/4cba38c948e0fa33a69c9beca81c47287fee27036ce8c320827363d60325/dans-datastation-tools-0.8.0.tar.gz
+[2023-06-15 12:47:59] INFO root fetch - processPackages [pandasai]: Downloading https://files.pythonhosted.org/packages/7c/dc/9f4c4dbc2f58b86cdb23e177d1e8edf1e7f27806900bd32a0931c44f38b3/pandasai-0.5.2.tar.gz
+[2023-06-15 12:47:59] INFO root fetch - processPackages [v-quantum-annealing]: Downloading https://files.pythonhosted.org/packages/a3/22/b01e7bb04835215ae01270e487b97dab9b252137f1801d1115400ea8d90a/v_quantum_annealing-0.0.8.tar.gz
+[2023-06-15 12:47:59] INFO root fetch - processPackages [eoshep]: Downloading https://files.pythonhosted.org/packages/6a/84/2246c985d57a61811a2c91046f3c1f071dc496fb10ef3bafa8d0773db8a3/eoshep-1.0.9.dev1284-cp39-cp39-manylinux2014_x86_64.whl
+[2023-06-15 12:47:59] INFO root fetch - processPackages [CodeChat-Server]: executing diffoscope
+[2023-06-15 12:47:59] INFO root fetch - processPackages [CodeChat-Server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CodeChat_Server-0.2.8.tar.gz tmp/CodeChat_Server-0.2.9.tar.gz --markdown 20230615/C/CodeChat-Server/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-15 12:47:59] INFO root fetch - processPackages [utbot-executor]: Downloading https://files.pythonhosted.org/packages/43/d1/3498b21e6332df747db757ec82d2ef4eaf0ae568632fc3ba770918a4917e/utbot_executor-1.6.2.tar.gz
+[2023-06-15 12:47:59] INFO root fetch - processPackages [current-events-magnifier]: Downloading https://files.pythonhosted.org/packages/33/bf/a22d698dc1ff9446b124b7ced9b46c9f7c7445eb57fcf0afaa0512e48a93/current_events_magnifier-0.0.3.4.tar.gz
+[2023-06-15 12:47:59] WARNING root fetch - processPackages [eoshep]: Skipping package: exceeds size limit 79030915>=10485760
+[2023-06-15 12:47:59] INFO root fetch - main [MainThread]: End processing [eoshep] error
+[2023-06-15 12:47:59] INFO root fetch - processPackages [qurix-data-catalog]: Downloading https://files.pythonhosted.org/packages/a0/d0/7da3054db0944ce051a707e440bafe6b4324eee7ed7ca6f7464370dd3078/qurix-data-catalog-0.1.1.tar.gz
+[2023-06-15 12:47:59] INFO root fetch - processPackages [qurix-data-catalog]: executing diffoscope
+[2023-06-15 12:47:59] INFO root fetch - processPackages [pandasai]: Downloading https://files.pythonhosted.org/packages/47/09/fc48383ba858f7a0e791bcaed2457235339d28382b8fc629b10e435ca0ff/pandasai-0.5.3.tar.gz
+[2023-06-15 12:47:59] INFO root fetch - processPackages [qurix-data-catalog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qurix-data-catalog-0.1.0.tar.gz tmp/qurix-data-catalog-0.1.1.tar.gz --markdown 20230615/q/qurix-data-catalog/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-15 12:48:00] INFO root fetch - processPackages [current-events-magnifier]: executing diffoscope
+[2023-06-15 12:48:00] INFO root fetch - processPackages [current-events-magnifier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/current_events_magnifier-0.0.3.3.tar.gz tmp/current_events_magnifier-0.0.3.4.tar.gz --markdown 20230615/c/current-events-magnifier/0.0.3.3-0.0.3.4/diff.md --exclude *.pyd
+[2023-06-15 12:48:00] INFO root fetch - processPackages [v-quantum-annealing]: Downloading https://files.pythonhosted.org/packages/9d/8f/5bc22a08352bc6e11eb0dee3d5cc0e9511595befb00f71e0c4b8fcb5f07b/v_quantum_annealing-0.0.9.tar.gz
+[2023-06-15 12:48:00] INFO root fetch - processPackages [lusid-configuration-sdk-preview]: Downloading https://files.pythonhosted.org/packages/1c/d0/39b9e48b24b5b140cf14853a919341bd6efa7d73ac4b00e65436f43769c8/lusid-configuration-sdk-preview-0.1.434.tar.gz
+[2023-06-15 12:48:00] INFO root fetch - processPackages [v-quantum-annealing]: executing diffoscope
+[2023-06-15 12:48:00] INFO root fetch - processPackages [v-quantum-annealing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/v_quantum_annealing-0.0.8.tar.gz tmp/v_quantum_annealing-0.0.9.tar.gz --markdown 20230615/v/v-quantum-annealing/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-15 12:48:00] INFO root fetch - processPackages [lusid-configuration-sdk-preview]: executing diffoscope
+[2023-06-15 12:48:00] INFO root fetch - processPackages [lusid-configuration-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-configuration-sdk-preview-0.1.433.tar.gz tmp/lusid-configuration-sdk-preview-0.1.434.tar.gz --markdown 20230615/l/lusid-configuration-sdk-preview/0.1.433-0.1.434/diff.md --exclude *.pyd
+[2023-06-15 12:48:00] INFO root fetch - processPackages [pandasai]: executing diffoscope
+[2023-06-15 12:48:00] INFO root fetch - processPackages [pandasai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pandasai-0.5.2.tar.gz tmp/pandasai-0.5.3.tar.gz --markdown 20230615/p/pandasai/0.5.2-0.5.3/diff.md --exclude *.pyd
+[2023-06-15 12:48:00] INFO root fetch - processPackages [utbot-executor]: Downloading https://files.pythonhosted.org/packages/d3/d5/eedae354add65867448b3062ce5d9971a93da9e8272a05276ecd1a9bdb13/utbot_executor-1.6.3.tar.gz
+[2023-06-15 12:48:00] INFO root fetch - processPackages [utbot-executor]: executing diffoscope
+[2023-06-15 12:48:00] INFO root fetch - processPackages [utbot-executor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/utbot_executor-1.6.2.tar.gz tmp/utbot_executor-1.6.3.tar.gz --markdown 20230615/u/utbot-executor/1.6.2-1.6.3/diff.md --exclude *.pyd
+[2023-06-15 12:48:00] INFO root fetch - processPackages [dans-datastation-tools]: Downloading https://files.pythonhosted.org/packages/33/96/44cd919e59f5edb30e2236c9f4259f8c9e7483d1219012cbaf403482dd4d/dans-datastation-tools-0.9.0.tar.gz
+[2023-06-15 12:48:00] INFO root fetch - processPackages [dans-datastation-tools]: executing diffoscope
+[2023-06-15 12:48:00] INFO root fetch - processPackages [dans-datastation-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dans-datastation-tools-0.8.0.tar.gz tmp/dans-datastation-tools-0.9.0.tar.gz --markdown 20230615/d/dans-datastation-tools/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-15 12:48:01] INFO root fetch - processPackages [qurix-data-catalog]: Remove: archive file [/home/abi/fetcher/tmp/qurix-data-catalog-0.1.0.tar.gz]
+[2023-06-15 12:48:01] INFO root fetch - processPackages [qurix-data-catalog]: Remove: archive file [/home/abi/fetcher/tmp/qurix-data-catalog-0.1.1.tar.gz]
+[2023-06-15 12:48:01] INFO root fetch - main [MainThread]: End processing [qurix-data-catalog]: success
+[2023-06-15 12:48:01] INFO root fetch - processPackages [current-events-magnifier]: Remove: archive file [/home/abi/fetcher/tmp/current_events_magnifier-0.0.3.3.tar.gz]
+[2023-06-15 12:48:01] INFO root fetch - processPackages [current-events-magnifier]: Remove: archive file [/home/abi/fetcher/tmp/current_events_magnifier-0.0.3.4.tar.gz]
+[2023-06-15 12:48:01] INFO root fetch - main [MainThread]: End processing [current-events-magnifier]: success
+[2023-06-15 12:48:01] INFO root fetch - processPackages [utbot-executor]: Remove: archive file [/home/abi/fetcher/tmp/utbot_executor-1.6.2.tar.gz]
+[2023-06-15 12:48:01] INFO root fetch - processPackages [utbot-executor]: Remove: archive file [/home/abi/fetcher/tmp/utbot_executor-1.6.3.tar.gz]
+[2023-06-15 12:48:01] INFO root fetch - main [MainThread]: End processing [utbot-executor]: success
+[2023-06-15 12:48:02] INFO root fetch - processPackages [pandasai]: Remove: archive file [/home/abi/fetcher/tmp/pandasai-0.5.2.tar.gz]
+[2023-06-15 12:48:02] INFO root fetch - processPackages [pandasai]: Remove: archive file [/home/abi/fetcher/tmp/pandasai-0.5.3.tar.gz]
+[2023-06-15 12:48:02] INFO root fetch - main [MainThread]: End processing [pandasai]: success
+[2023-06-15 12:48:02] INFO root fetch - processPackages [dans-datastation-tools]: Remove: archive file [/home/abi/fetcher/tmp/dans-datastation-tools-0.8.0.tar.gz]
+[2023-06-15 12:48:02] INFO root fetch - processPackages [dans-datastation-tools]: Remove: archive file [/home/abi/fetcher/tmp/dans-datastation-tools-0.9.0.tar.gz]
+[2023-06-15 12:48:02] INFO root fetch - main [MainThread]: End processing [dans-datastation-tools]: success
+[2023-06-15 12:48:02] INFO root fetch - processPackages [CodeChat-Server]: Remove: archive file [/home/abi/fetcher/tmp/CodeChat_Server-0.2.8.tar.gz]
+[2023-06-15 12:48:02] INFO root fetch - processPackages [CodeChat-Server]: Remove: archive file [/home/abi/fetcher/tmp/CodeChat_Server-0.2.9.tar.gz]
+[2023-06-15 12:48:02] INFO root fetch - main [MainThread]: End processing [CodeChat-Server]: success
+[2023-06-15 12:48:04] INFO root fetch - processPackages [lusid-configuration-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-configuration-sdk-preview-0.1.433.tar.gz]
+[2023-06-15 12:48:04] INFO root fetch - processPackages [lusid-configuration-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-configuration-sdk-preview-0.1.434.tar.gz]
+[2023-06-15 12:48:04] INFO root fetch - main [MainThread]: End processing [lusid-configuration-sdk-preview]: success
+[2023-06-15 12:48:04] INFO root fetch - processPackages [v-quantum-annealing]: Remove: archive file [/home/abi/fetcher/tmp/v_quantum_annealing-0.0.8.tar.gz]
+[2023-06-15 12:48:04] INFO root fetch - processPackages [v-quantum-annealing]: Remove: archive file [/home/abi/fetcher/tmp/v_quantum_annealing-0.0.9.tar.gz]
+[2023-06-15 12:48:04] INFO root fetch - main [MainThread]: End processing [v-quantum-annealing]: success
+[2023-06-15 12:48:04] INFO root fetch - main [MainThread]: Store serial: [18514753]
