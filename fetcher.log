@@ -14379,3 +14379,111 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-06-15 10:11:54] INFO root fetch - processPackages [checkov]: Remove: archive file [/home/abi/fetcher/tmp/checkov-2.3.99.tar.gz]
 [2023-06-15 10:11:54] INFO root fetch - main [MainThread]: End processing [checkov]: success
 [2023-06-15 10:11:54] INFO root fetch - main [MainThread]: Store serial: [18512839]
+[2023-06-15 10:16:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18512839]
+[2023-06-15 10:17:03] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-06-15 10:17:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ign-gpao-client
+[2023-06-15 10:17:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: netbox-cisco-maintenance
+[2023-06-15 10:17:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dcentralab-qa-infra-automation
+[2023-06-15 10:17:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: absfuyu
+[2023-06-15 10:17:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dup-fmt
+[2023-06-15 10:17:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addon-base-import-security-group
+[2023-06-15 10:17:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: port-for
+[2023-06-15 10:17:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: yplib
+[2023-06-15 10:17:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: breeze-strategies
+[2023-06-15 10:17:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ragbooster
+[2023-06-15 10:17:04] INFO root fetch - processPackages [ign-gpao-client]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-15 10:17:04] INFO root fetch - processPackages [absfuyu]: New version: [2.1.1] Old Version: [2.1.0]
+[2023-06-15 10:17:04] WARNING root fetch - processPackages [dup-fmt]: Skipping, unable to determine old version
+[2023-06-15 10:17:04] INFO root fetch - processPackages [dup-fmt]: Start processing: cvpysdk
+[2023-06-15 10:17:04] INFO root fetch - processPackages [breeze-strategies]: New version: [2.0] Old Version: [1.0]
+[2023-06-15 10:17:04] INFO root fetch - main [MainThread]: End processing [dup-fmt] error
+[2023-06-15 10:17:04] INFO root fetch - processPackages [netbox-cisco-maintenance]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-15 10:17:04] INFO root fetch - processPackages [yplib]: New version: [1.3.6] Old Version: [1.3.5]
+[2023-06-15 10:17:04] INFO root fetch - processPackages [odoo-addon-base-import-security-group]: New version: [15.0.1.0.1] Old Version: [15.0.1.0.0.3]
+[2023-06-15 10:17:04] INFO root fetch - processPackages [dcentralab-qa-infra-automation]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-15 10:17:04] INFO root fetch - processPackages [cvpysdk]: New version: [11.32] Old Version: [11.30.1]
+[2023-06-15 10:17:04] WARNING root fetch - processPackages [ragbooster]: Skipping, unable to determine old version
+[2023-06-15 10:17:04] INFO root fetch - processPackages [ragbooster]: Start processing: django-backoffice-dashboard-alpha
+[2023-06-15 10:17:04] INFO root fetch - main [MainThread]: End processing [ragbooster] error
+[2023-06-15 10:17:04] INFO root fetch - processPackages [port-for]: New version: [0.7.0] Old Version: [0.6.3]
+[2023-06-15 10:17:04] INFO root fetch - processPackages [ign-gpao-client]: Downloading https://files.pythonhosted.org/packages/19/58/da8ddd14bb8b2e0efed18be809457239829a9d383bffd429e15ee586341d/ign-gpao-client-0.8.0.tar.gz
+[2023-06-15 10:17:04] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/d3/7d/8e0323120060d5ea070338159541e34852b26608de3efc502bb11de489ed/yplib-1.3.5.tar.gz
+[2023-06-15 10:17:04] INFO root fetch - processPackages [absfuyu]: Downloading https://files.pythonhosted.org/packages/42/b6/4f93b05973a86773c5c77a1769c86e4c724613735ff0f79ed787f00b7052/absfuyu-2.1.0.tar.gz
+[2023-06-15 10:17:04] ERROR root fetch - processPackages [django-backoffice-dashboard-alpha]: Unable to get metadata: No such project 'django-backoffice-dashboard-alpha'
+[2023-06-15 10:17:04] INFO root fetch - processPackages [django-backoffice-dashboard-alpha]: Start processing: pentestgpt
+[2023-06-15 10:17:04] INFO root fetch - main [MainThread]: End processing [django-backoffice-dashboard-alpha] error
+[2023-06-15 10:17:04] INFO root fetch - processPackages [ign-gpao-client]: Downloading https://files.pythonhosted.org/packages/c0/f1/95b90e8ebd5ab62512fa3f4007cdca8cc81c685e691c2326fde428d948e2/ign-gpao-client-0.9.0.tar.gz
+[2023-06-15 10:17:04] INFO root fetch - processPackages [dcentralab-qa-infra-automation]: Downloading https://files.pythonhosted.org/packages/a8/03/5f89b6e62c95f01e22f7f0c515cc63cb433c6e073b57995204bbc84753c8/dcentralab_qa_infra_automation-0.1.8.tar.gz
+[2023-06-15 10:17:04] INFO root fetch - processPackages [breeze-strategies]: Downloading https://files.pythonhosted.org/packages/c3/12/7e9370eef1db446c1f0c5b54dcea9a7d8e9f68b769752202e2e71bf172da/breeze_strategies-1.0.tar.gz
+[2023-06-15 10:17:04] WARNING root fetch - processPackages [pentestgpt]: Skipping, unable to determine old version
+[2023-06-15 10:17:04] INFO root fetch - processPackages [pentestgpt]: Start processing: bridgecrew
+[2023-06-15 10:17:04] INFO root fetch - main [MainThread]: End processing [pentestgpt] error
+[2023-06-15 10:17:04] INFO root fetch - processPackages [odoo-addon-base-import-security-group]: Downloading https://files.pythonhosted.org/packages/58/fa/27dac28fbcaf11c58f83afee834864e77c3d9deb9884bcb5b68af97f0fcd/odoo_addon_base_import_security_group-15.0.1.0.0.3-py3-none-any.whl
+[2023-06-15 10:17:04] INFO root fetch - processPackages [netbox-cisco-maintenance]: Downloading https://files.pythonhosted.org/packages/49/9b/a1c0c74911cdf52ff01e40ea24fa7dd8c615a41dbbdae40f076bf871e18c/netbox-cisco-maintenance-0.0.98.tar.gz
+[2023-06-15 10:17:04] INFO root fetch - processPackages [ign-gpao-client]: executing diffoscope
+[2023-06-15 10:17:04] INFO root fetch - processPackages [ign-gpao-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ign-gpao-client-0.8.0.tar.gz tmp/ign-gpao-client-0.9.0.tar.gz --markdown 20230615/i/ign-gpao-client/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-15 10:17:04] INFO root fetch - processPackages [port-for]: Downloading https://files.pythonhosted.org/packages/13/83/4afa8435dbd55cf00d7f02c9aef77ef6696cbcb6d3f09de3501e169eea45/port-for-0.6.3.tar.gz
+[2023-06-15 10:17:04] INFO root fetch - processPackages [cvpysdk]: Downloading https://files.pythonhosted.org/packages/49/d9/c93c92366d7e9a2e838e3dbc411a5e3a3452293c1daf80f7e65db6bbcc17/cvpysdk-11.30.1.tar.gz
+[2023-06-15 10:17:04] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/d2/37/34ee128c2a1b6e6cf4440a53e53fd9735ec817a641af81c0f69492ff69ea/yplib-1.3.6.tar.gz
+[2023-06-15 10:17:04] INFO root fetch - processPackages [bridgecrew]: New version: [2.3.99] Old Version: [2.3.98]
+[2023-06-15 10:17:04] INFO root fetch - processPackages [yplib]: executing diffoscope
+[2023-06-15 10:17:04] INFO root fetch - processPackages [yplib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yplib-1.3.5.tar.gz tmp/yplib-1.3.6.tar.gz --markdown 20230615/y/yplib/1.3.5-1.3.6/diff.md --exclude *.pyd
+[2023-06-15 10:17:04] INFO root fetch - processPackages [absfuyu]: Downloading https://files.pythonhosted.org/packages/08/96/6c2baf5d71e3e77436dfed30414b2f9d8612bc77cd3b57e87677004c1c05/absfuyu-2.1.1.tar.gz
+[2023-06-15 10:17:04] INFO root fetch - processPackages [netbox-cisco-maintenance]: Downloading https://files.pythonhosted.org/packages/36/61/db227025ce63809f803a3fe44062bf026321f24f9aa12a99bf348ae574ca/netbox-cisco-maintenance-0.0.99.tar.gz
+[2023-06-15 10:17:04] INFO root fetch - processPackages [breeze-strategies]: Downloading https://files.pythonhosted.org/packages/44/05/de83998554058497c828eea808013713cf763f08824ca49913c11478b51e/breeze_strategies-2.0.tar.gz
+[2023-06-15 10:17:04] INFO root fetch - processPackages [bridgecrew]: Downloading https://files.pythonhosted.org/packages/c1/70/3267f94d196f9213b2b44a429d64b71cb1f9f3d812687dd74ff8a983a588/bridgecrew-2.3.98.tar.gz
+[2023-06-15 10:17:04] INFO root fetch - processPackages [netbox-cisco-maintenance]: executing diffoscope
+[2023-06-15 10:17:04] INFO root fetch - processPackages [netbox-cisco-maintenance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox-cisco-maintenance-0.0.98.tar.gz tmp/netbox-cisco-maintenance-0.0.99.tar.gz --markdown 20230615/n/netbox-cisco-maintenance/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-15 10:17:04] INFO root fetch - processPackages [breeze-strategies]: executing diffoscope
+[2023-06-15 10:17:04] INFO root fetch - processPackages [breeze-strategies]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/breeze_strategies-1.0.tar.gz tmp/breeze_strategies-2.0.tar.gz --markdown 20230615/b/breeze-strategies/1.0-2.0/diff.md --exclude *.pyd
+[2023-06-15 10:17:04] INFO root fetch - processPackages [port-for]: Downloading https://files.pythonhosted.org/packages/53/b7/f68d77c8400a2d29d8fc062f0e40b28c3867730cc074807a3cc80a267f8c/port-for-0.7.0.tar.gz
+[2023-06-15 10:17:04] INFO root fetch - processPackages [dcentralab-qa-infra-automation]: Downloading https://files.pythonhosted.org/packages/7f/2c/e2968e236a0a5301bc67674c93ed148f490e1b3629abd92028d4bb54ca41/dcentralab_qa_infra_automation-0.1.9.tar.gz
+[2023-06-15 10:17:04] INFO root fetch - processPackages [bridgecrew]: Downloading https://files.pythonhosted.org/packages/9e/6b/ea9cdf20d73a8621ab1f56b3ee95c8fe6b3e23cb8cd7a0f75ec041c3f16f/bridgecrew-2.3.99.tar.gz
+[2023-06-15 10:17:04] INFO root fetch - processPackages [absfuyu]: executing diffoscope
+[2023-06-15 10:17:04] INFO root fetch - processPackages [absfuyu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/absfuyu-2.1.0.tar.gz tmp/absfuyu-2.1.1.tar.gz --markdown 20230615/a/absfuyu/2.1.0-2.1.1/diff.md --exclude *.pyd
+[2023-06-15 10:17:04] INFO root fetch - processPackages [odoo-addon-base-import-security-group]: Downloading https://files.pythonhosted.org/packages/33/15/22dfc92a14f53b4f963cf0f3d543c7bf3a78a00bba427de4d1bae8cb6927/odoo_addon_base_import_security_group-15.0.1.0.1-py3-none-any.whl
+[2023-06-15 10:17:04] INFO root fetch - processPackages [port-for]: executing diffoscope
+[2023-06-15 10:17:04] INFO root fetch - processPackages [port-for]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/port-for-0.6.3.tar.gz tmp/port-for-0.7.0.tar.gz --markdown 20230615/p/port-for/0.6.3-0.7.0/diff.md --exclude *.pyd
+[2023-06-15 10:17:04] INFO root fetch - processPackages [cvpysdk]: Downloading https://files.pythonhosted.org/packages/46/de/8b609aed20eac9bdaf4ccc27ce450a6b3cf4a54e3da6e3179288129b4828/cvpysdk-11.32.tar.gz
+[2023-06-15 10:17:04] INFO root fetch - processPackages [bridgecrew]: executing diffoscope
+[2023-06-15 10:17:04] INFO root fetch - processPackages [bridgecrew]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bridgecrew-2.3.98.tar.gz tmp/bridgecrew-2.3.99.tar.gz --markdown 20230615/b/bridgecrew/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2023-06-15 10:17:04] INFO root fetch - processPackages [cvpysdk]: executing diffoscope
+[2023-06-15 10:17:04] INFO root fetch - processPackages [cvpysdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cvpysdk-11.30.1.tar.gz tmp/cvpysdk-11.32.tar.gz --markdown 20230615/c/cvpysdk/11.30.1-11.32/diff.md --exclude *.pyd
+[2023-06-15 10:17:04] INFO root fetch - processPackages [dcentralab-qa-infra-automation]: executing diffoscope
+[2023-06-15 10:17:04] INFO root fetch - processPackages [dcentralab-qa-infra-automation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dcentralab_qa_infra_automation-0.1.8.tar.gz tmp/dcentralab_qa_infra_automation-0.1.9.tar.gz --markdown 20230615/d/dcentralab-qa-infra-automation/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-15 10:17:04] INFO root fetch - processPackages [odoo-addon-base-import-security-group]: executing diffoscope
+[2023-06-15 10:17:04] INFO root fetch - processPackages [odoo-addon-base-import-security-group]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_base_import_security_group-15.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_base_import_security_group-15.0.1.0.1-py3-none-any.whl.zip --markdown 20230615/o/odoo-addon-base-import-security-group/15.0.1.0.0.3-15.0.1.0.1/diff.md --exclude *.pyd
+[2023-06-15 10:17:05] INFO root fetch - processPackages [ign-gpao-client]: Remove: archive file [/home/abi/fetcher/tmp/ign-gpao-client-0.8.0.tar.gz]
+[2023-06-15 10:17:05] INFO root fetch - processPackages [ign-gpao-client]: Remove: archive file [/home/abi/fetcher/tmp/ign-gpao-client-0.9.0.tar.gz]
+[2023-06-15 10:17:05] INFO root fetch - processPackages [ign-gpao-client]: Start processing: bi-tiktok-business-api-master
+[2023-06-15 10:17:05] INFO root fetch - main [MainThread]: End processing [ign-gpao-client]: success
+[2023-06-15 10:17:05] ERROR root fetch - processPackages [bi-tiktok-business-api-master]: Unable to get metadata: No such project 'bi-tiktok-business-api-master'
+[2023-06-15 10:17:05] INFO root fetch - main [MainThread]: End processing [bi-tiktok-business-api-master] error
+[2023-06-15 10:17:05] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-1.3.5.tar.gz]
+[2023-06-15 10:17:05] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-1.3.6.tar.gz]
+[2023-06-15 10:17:05] INFO root fetch - main [MainThread]: End processing [yplib]: success
+[2023-06-15 10:17:06] INFO root fetch - processPackages [breeze-strategies]: Remove: archive file [/home/abi/fetcher/tmp/breeze_strategies-1.0.tar.gz]
+[2023-06-15 10:17:06] INFO root fetch - processPackages [breeze-strategies]: Remove: archive file [/home/abi/fetcher/tmp/breeze_strategies-2.0.tar.gz]
+[2023-06-15 10:17:06] INFO root fetch - main [MainThread]: End processing [breeze-strategies]: success
+[2023-06-15 10:17:06] INFO root fetch - processPackages [bridgecrew]: Remove: archive file [/home/abi/fetcher/tmp/bridgecrew-2.3.98.tar.gz]
+[2023-06-15 10:17:06] INFO root fetch - processPackages [bridgecrew]: Remove: archive file [/home/abi/fetcher/tmp/bridgecrew-2.3.99.tar.gz]
+[2023-06-15 10:17:06] INFO root fetch - main [MainThread]: End processing [bridgecrew]: success
+[2023-06-15 10:17:06] INFO root fetch - processPackages [dcentralab-qa-infra-automation]: Remove: archive file [/home/abi/fetcher/tmp/dcentralab_qa_infra_automation-0.1.8.tar.gz]
+[2023-06-15 10:17:06] INFO root fetch - processPackages [dcentralab-qa-infra-automation]: Remove: archive file [/home/abi/fetcher/tmp/dcentralab_qa_infra_automation-0.1.9.tar.gz]
+[2023-06-15 10:17:06] INFO root fetch - main [MainThread]: End processing [dcentralab-qa-infra-automation]: success
+[2023-06-15 10:17:06] INFO root fetch - processPackages [netbox-cisco-maintenance]: Remove: archive file [/home/abi/fetcher/tmp/netbox-cisco-maintenance-0.0.98.tar.gz]
+[2023-06-15 10:17:06] INFO root fetch - processPackages [netbox-cisco-maintenance]: Remove: archive file [/home/abi/fetcher/tmp/netbox-cisco-maintenance-0.0.99.tar.gz]
+[2023-06-15 10:17:06] INFO root fetch - main [MainThread]: End processing [netbox-cisco-maintenance]: success
+[2023-06-15 10:17:06] INFO root fetch - processPackages [odoo-addon-base-import-security-group]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_import_security_group-15.0.1.0.0.3-py3-none-any.whl.zip]
+[2023-06-15 10:17:06] INFO root fetch - processPackages [odoo-addon-base-import-security-group]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_import_security_group-15.0.1.0.1-py3-none-any.whl.zip]
+[2023-06-15 10:17:06] INFO root fetch - main [MainThread]: End processing [odoo-addon-base-import-security-group]: success
+[2023-06-15 10:17:06] INFO root fetch - processPackages [port-for]: Remove: archive file [/home/abi/fetcher/tmp/port-for-0.6.3.tar.gz]
+[2023-06-15 10:17:06] INFO root fetch - processPackages [port-for]: Remove: archive file [/home/abi/fetcher/tmp/port-for-0.7.0.tar.gz]
+[2023-06-15 10:17:06] INFO root fetch - main [MainThread]: End processing [port-for]: success
+[2023-06-15 10:17:07] INFO root fetch - processPackages [absfuyu]: Remove: archive file [/home/abi/fetcher/tmp/absfuyu-2.1.0.tar.gz]
+[2023-06-15 10:17:07] INFO root fetch - processPackages [absfuyu]: Remove: archive file [/home/abi/fetcher/tmp/absfuyu-2.1.1.tar.gz]
+[2023-06-15 10:17:07] INFO root fetch - main [MainThread]: End processing [absfuyu]: success
+[2023-06-15 10:17:13] INFO root fetch - processPackages [cvpysdk]: Remove: archive file [/home/abi/fetcher/tmp/cvpysdk-11.30.1.tar.gz]
+[2023-06-15 10:17:13] INFO root fetch - processPackages [cvpysdk]: Remove: archive file [/home/abi/fetcher/tmp/cvpysdk-11.32.tar.gz]
+[2023-06-15 10:17:13] INFO root fetch - main [MainThread]: End processing [cvpysdk]: success
+[2023-06-15 10:17:13] INFO root fetch - main [MainThread]: Store serial: [18512942]
