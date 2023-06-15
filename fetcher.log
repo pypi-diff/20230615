@@ -9953,3 +9953,84 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-15 06:44:02] INFO root fetch - processPackages [odoo9-addon-project-stage-state]: Remove: archive file [/home/abi/fetcher/tmp/odoo9_addon_project_stage_state-9.0.1.0.0.99.dev7-py2-none-any.whl.zip]
 [2023-06-15 06:44:02] INFO root fetch - main [MainThread]: End processing [odoo9-addon-project-stage-state]: success
 [2023-06-15 06:44:02] INFO root fetch - main [MainThread]: Store serial: [18511141]
+[2023-06-15 06:49:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18511141]
+[2023-06-15 06:49:12] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-15 06:49:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: reddit-experiments
+[2023-06-15 06:49:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo12-addon-purchase-order-line-price-history
+[2023-06-15 06:49:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ghostpip
+[2023-06-15 06:49:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hip-data-ml-utils
+[2023-06-15 06:49:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: whatsapp-chatbot-python
+[2023-06-15 06:49:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addon-purchase-order-approved
+[2023-06-15 06:49:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: crawlab-demo
+[2023-06-15 06:49:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lols0
+[2023-06-15 06:49:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: terminal-plus
+[2023-06-15 06:49:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: vector-quantize-pytorch
+[2023-06-15 06:49:12] INFO root fetch - processPackages [lols0]: New version: [0.2] Old Version: [0.1]
+[2023-06-15 06:49:12] INFO root fetch - processPackages [reddit-experiments]: New version: [1.5.0] Old Version: [1.4.1]
+[2023-06-15 06:49:12] WARNING root fetch - processPackages [ghostpip]: Skipping, unable to determine old version
+[2023-06-15 06:49:12] INFO root fetch - main [MainThread]: End processing [ghostpip] error
+[2023-06-15 06:49:12] INFO root fetch - processPackages [odoo12-addon-purchase-order-line-price-history]: New version: [12.0.1.0.4.99.dev2] Old Version: [12.0.1.0.4.99.dev1]
+[2023-06-15 06:49:12] INFO root fetch - processPackages [whatsapp-chatbot-python]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-06-15 06:49:12] INFO root fetch - processPackages [vector-quantize-pytorch]: New version: [1.6.9] Old Version: [1.6.7]
+[2023-06-15 06:49:12] WARNING root fetch - processPackages [terminal-plus]: Skipping, unable to determine old version
+[2023-06-15 06:49:12] INFO root fetch - main [MainThread]: End processing [terminal-plus] error
+[2023-06-15 06:49:12] INFO root fetch - processPackages [hip-data-ml-utils]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-06-15 06:49:12] INFO root fetch - processPackages [crawlab-demo]: New version: [0.0.6.post9] Old Version: [0.0.6.post7]
+[2023-06-15 06:49:12] INFO root fetch - processPackages [odoo-addon-purchase-order-approved]: New version: [16.0.1.0.0.6] Old Version: [16.0.1.0.0.5]
+[2023-06-15 06:49:12] INFO root fetch - processPackages [vector-quantize-pytorch]: Downloading https://files.pythonhosted.org/packages/f9/64/771c9abd337a81ba6dfe0e6a0132b5a43e24b2640538385a01dc17b972f5/vector_quantize_pytorch-1.6.7.tar.gz
+[2023-06-15 06:49:12] INFO root fetch - processPackages [reddit-experiments]: Downloading https://files.pythonhosted.org/packages/89/8c/c562c1efea83fede8be7eb8dd0b29111b052ad979335560cb45797621a9a/reddit_experiments-1.4.1.tar.gz
+[2023-06-15 06:49:12] INFO root fetch - processPackages [lols0]: Downloading https://files.pythonhosted.org/packages/94/c0/675cf0dacbc7f5491e8d82600a7c5d1b5ba4837a1ad558f60367687d3152/lols0-0.1.tar.gz
+[2023-06-15 06:49:12] INFO root fetch - processPackages [hip-data-ml-utils]: Downloading https://files.pythonhosted.org/packages/d0/14/ce6ee1ac95cc54ccf38488816d55a3fd28b070f35ffa0f3b2868345b466a/hip_data_ml_utils-1.0.2.tar.gz
+[2023-06-15 06:49:12] INFO root fetch - processPackages [odoo12-addon-purchase-order-line-price-history]: Downloading https://files.pythonhosted.org/packages/dc/f3/2bb0eaada94b4c5f7ed823c4386f287ae9ca7e64371e3e9603bad3665efb/odoo12_addon_purchase_order_line_price_history-12.0.1.0.4.99.dev1-py3-none-any.whl
+[2023-06-15 06:49:12] INFO root fetch - processPackages [whatsapp-chatbot-python]: Downloading https://files.pythonhosted.org/packages/aa/fc/b70e18a752674e2ec21bf3ee56d9450df235a577f52d7f12d3d90e7b2dba/whatsapp-chatbot-python-0.2.2.tar.gz
+[2023-06-15 06:49:12] INFO root fetch - processPackages [vector-quantize-pytorch]: Downloading https://files.pythonhosted.org/packages/59/2f/a0f5b7e39fdec57501b5b479d9b4fac9c2c81adc65b2ed6f30dd4dbfd3ab/vector_quantize_pytorch-1.6.9.tar.gz
+[2023-06-15 06:49:12] INFO root fetch - processPackages [crawlab-demo]: Downloading https://files.pythonhosted.org/packages/49/3d/b21dece3a80417d014e8f6da5ff2555b95bc8db3b7b5a04c670b93b154fe/crawlab-demo-0.0.6.post7.tar.gz
+[2023-06-15 06:49:12] INFO root fetch - processPackages [vector-quantize-pytorch]: executing diffoscope
+[2023-06-15 06:49:12] INFO root fetch - processPackages [vector-quantize-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vector_quantize_pytorch-1.6.7.tar.gz tmp/vector_quantize_pytorch-1.6.9.tar.gz --markdown 20230615/v/vector-quantize-pytorch/1.6.7-1.6.9/diff.md --exclude *.pyd
+[2023-06-15 06:49:13] INFO root fetch - processPackages [lols0]: Downloading https://files.pythonhosted.org/packages/ff/77/0cfc2d8f6ee7c498b99f4c715dd05ad4a8a142542ec84c65a40c7b9925a7/lols0-0.2.tar.gz
+[2023-06-15 06:49:13] INFO root fetch - processPackages [odoo-addon-purchase-order-approved]: Downloading https://files.pythonhosted.org/packages/40/9b/3f2ad22f2f5cf41f943779ef9f1543c5480ebcb537b8385f253b484708d5/odoo_addon_purchase_order_approved-16.0.1.0.0.5-py3-none-any.whl
+[2023-06-15 06:49:13] INFO root fetch - processPackages [whatsapp-chatbot-python]: Downloading https://files.pythonhosted.org/packages/f9/df/8e07f11e88b15e50f3f28a5dc2e276795ab5bc4b7a7935241f0ff89654cb/whatsapp-chatbot-python-0.2.3.tar.gz
+[2023-06-15 06:49:13] INFO root fetch - processPackages [odoo12-addon-purchase-order-line-price-history]: Downloading https://files.pythonhosted.org/packages/95/73/7e39b8775390f77dc25bf3d5d3b5ad0593a6afa8b606448cfec81ec72771/odoo12_addon_purchase_order_line_price_history-12.0.1.0.4.99.dev2-py3-none-any.whl
+[2023-06-15 06:49:13] INFO root fetch - processPackages [whatsapp-chatbot-python]: executing diffoscope
+[2023-06-15 06:49:13] INFO root fetch - processPackages [whatsapp-chatbot-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/whatsapp-chatbot-python-0.2.2.tar.gz tmp/whatsapp-chatbot-python-0.2.3.tar.gz --markdown 20230615/w/whatsapp-chatbot-python/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-06-15 06:49:13] INFO root fetch - processPackages [lols0]: executing diffoscope
+[2023-06-15 06:49:13] INFO root fetch - processPackages [lols0]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lols0-0.1.tar.gz tmp/lols0-0.2.tar.gz --markdown 20230615/l/lols0/0.1-0.2/diff.md --exclude *.pyd
+[2023-06-15 06:49:13] INFO root fetch - processPackages [hip-data-ml-utils]: Downloading https://files.pythonhosted.org/packages/7f/14/0a963258a670f9071f9890bb7206b02ecbfc51b4274b8bc7a6dac227d1f1/hip_data_ml_utils-1.0.3.tar.gz
+[2023-06-15 06:49:13] INFO root fetch - processPackages [reddit-experiments]: Downloading https://files.pythonhosted.org/packages/2e/96/b38005214c703726263e460a7476b6fb42c453341ea7d51858a33942de33/reddit_experiments-1.5.0.tar.gz
+[2023-06-15 06:49:13] INFO root fetch - processPackages [hip-data-ml-utils]: executing diffoscope
+[2023-06-15 06:49:13] INFO root fetch - processPackages [hip-data-ml-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hip_data_ml_utils-1.0.2.tar.gz tmp/hip_data_ml_utils-1.0.3.tar.gz --markdown 20230615/h/hip-data-ml-utils/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-06-15 06:49:13] INFO root fetch - processPackages [odoo-addon-purchase-order-approved]: Downloading https://files.pythonhosted.org/packages/7f/5d/ff11f2a237a6b2a631ea743840d88b8b69178d24a51fcca79e5e5841aafd/odoo_addon_purchase_order_approved-16.0.1.0.0.6-py3-none-any.whl
+[2023-06-15 06:49:13] INFO root fetch - processPackages [odoo12-addon-purchase-order-line-price-history]: executing diffoscope
+[2023-06-15 06:49:13] INFO root fetch - processPackages [odoo12-addon-purchase-order-line-price-history]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_purchase_order_line_price_history-12.0.1.0.4.99.dev1-py3-none-any.whl.zip tmp/odoo12_addon_purchase_order_line_price_history-12.0.1.0.4.99.dev2-py3-none-any.whl.zip --markdown 20230615/o/odoo12-addon-purchase-order-line-price-history/12.0.1.0.4.99.dev1-12.0.1.0.4.99.dev2/diff.md --exclude *.pyd
+[2023-06-15 06:49:13] INFO root fetch - processPackages [reddit-experiments]: executing diffoscope
+[2023-06-15 06:49:13] INFO root fetch - processPackages [reddit-experiments]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reddit_experiments-1.4.1.tar.gz tmp/reddit_experiments-1.5.0.tar.gz --markdown 20230615/r/reddit-experiments/1.4.1-1.5.0/diff.md --exclude *.pyd
+[2023-06-15 06:49:13] INFO root fetch - processPackages [odoo-addon-purchase-order-approved]: executing diffoscope
+[2023-06-15 06:49:13] INFO root fetch - processPackages [odoo-addon-purchase-order-approved]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_purchase_order_approved-16.0.1.0.0.5-py3-none-any.whl.zip tmp/odoo_addon_purchase_order_approved-16.0.1.0.0.6-py3-none-any.whl.zip --markdown 20230615/o/odoo-addon-purchase-order-approved/16.0.1.0.0.5-16.0.1.0.0.6/diff.md --exclude *.pyd
+[2023-06-15 06:49:13] INFO root fetch - processPackages [crawlab-demo]: Downloading https://files.pythonhosted.org/packages/2e/29/c95a08e3b4cea400893492ca1e0fdb5862ad65a930717e2956f6a48747b5/crawlab-demo-0.0.6.post9.tar.gz
+[2023-06-15 06:49:13] INFO root fetch - processPackages [crawlab-demo]: executing diffoscope
+[2023-06-15 06:49:13] INFO root fetch - processPackages [crawlab-demo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crawlab-demo-0.0.6.post7.tar.gz tmp/crawlab-demo-0.0.6.post9.tar.gz --markdown 20230615/c/crawlab-demo/0.0.6.post7-0.0.6.post9/diff.md --exclude *.pyd
+[2023-06-15 06:49:14] INFO root fetch - processPackages [vector-quantize-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/vector_quantize_pytorch-1.6.7.tar.gz]
+[2023-06-15 06:49:14] INFO root fetch - processPackages [vector-quantize-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/vector_quantize_pytorch-1.6.9.tar.gz]
+[2023-06-15 06:49:14] INFO root fetch - main [MainThread]: End processing [vector-quantize-pytorch]: success
+[2023-06-15 06:49:14] INFO root fetch - processPackages [whatsapp-chatbot-python]: Remove: archive file [/home/abi/fetcher/tmp/whatsapp-chatbot-python-0.2.2.tar.gz]
+[2023-06-15 06:49:14] INFO root fetch - processPackages [whatsapp-chatbot-python]: Remove: archive file [/home/abi/fetcher/tmp/whatsapp-chatbot-python-0.2.3.tar.gz]
+[2023-06-15 06:49:14] INFO root fetch - main [MainThread]: End processing [whatsapp-chatbot-python]: success
+[2023-06-15 06:49:14] INFO root fetch - processPackages [lols0]: Remove: archive file [/home/abi/fetcher/tmp/lols0-0.1.tar.gz]
+[2023-06-15 06:49:14] INFO root fetch - processPackages [lols0]: Remove: archive file [/home/abi/fetcher/tmp/lols0-0.2.tar.gz]
+[2023-06-15 06:49:14] INFO root fetch - main [MainThread]: End processing [lols0]: success
+[2023-06-15 06:49:14] INFO root fetch - processPackages [hip-data-ml-utils]: Remove: archive file [/home/abi/fetcher/tmp/hip_data_ml_utils-1.0.2.tar.gz]
+[2023-06-15 06:49:14] INFO root fetch - processPackages [hip-data-ml-utils]: Remove: archive file [/home/abi/fetcher/tmp/hip_data_ml_utils-1.0.3.tar.gz]
+[2023-06-15 06:49:14] INFO root fetch - main [MainThread]: End processing [hip-data-ml-utils]: success
+[2023-06-15 06:49:14] INFO root fetch - processPackages [odoo12-addon-purchase-order-line-price-history]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_purchase_order_line_price_history-12.0.1.0.4.99.dev1-py3-none-any.whl.zip]
+[2023-06-15 06:49:14] INFO root fetch - processPackages [odoo12-addon-purchase-order-line-price-history]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_purchase_order_line_price_history-12.0.1.0.4.99.dev2-py3-none-any.whl.zip]
+[2023-06-15 06:49:14] INFO root fetch - main [MainThread]: End processing [odoo12-addon-purchase-order-line-price-history]: success
+[2023-06-15 06:49:14] INFO root fetch - processPackages [odoo-addon-purchase-order-approved]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_purchase_order_approved-16.0.1.0.0.5-py3-none-any.whl.zip]
+[2023-06-15 06:49:14] INFO root fetch - processPackages [odoo-addon-purchase-order-approved]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_purchase_order_approved-16.0.1.0.0.6-py3-none-any.whl.zip]
+[2023-06-15 06:49:14] INFO root fetch - main [MainThread]: End processing [odoo-addon-purchase-order-approved]: success
+[2023-06-15 06:49:15] INFO root fetch - processPackages [crawlab-demo]: Remove: archive file [/home/abi/fetcher/tmp/crawlab-demo-0.0.6.post7.tar.gz]
+[2023-06-15 06:49:15] INFO root fetch - processPackages [crawlab-demo]: Remove: archive file [/home/abi/fetcher/tmp/crawlab-demo-0.0.6.post9.tar.gz]
+[2023-06-15 06:49:15] INFO root fetch - main [MainThread]: End processing [crawlab-demo]: success
+[2023-06-15 06:49:17] INFO root fetch - processPackages [reddit-experiments]: Remove: archive file [/home/abi/fetcher/tmp/reddit_experiments-1.4.1.tar.gz]
+[2023-06-15 06:49:17] INFO root fetch - processPackages [reddit-experiments]: Remove: archive file [/home/abi/fetcher/tmp/reddit_experiments-1.5.0.tar.gz]
+[2023-06-15 06:49:17] INFO root fetch - main [MainThread]: End processing [reddit-experiments]: success
+[2023-06-15 06:49:17] INFO root fetch - main [MainThread]: Store serial: [18511174]
