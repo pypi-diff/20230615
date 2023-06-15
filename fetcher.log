@@ -22021,3 +22021,131 @@ AssertionError: tmp/stackoverflowapithingy-0.1.5.tar.gz does not exist
 [2023-06-15 14:22:55] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-4.1.9.dev9.tar.gz]
 [2023-06-15 14:22:55] INFO root fetch - main [MainThread]: End processing [moto]: success
 [2023-06-15 14:22:55] INFO root fetch - main [MainThread]: Store serial: [18515889]
+[2023-06-15 14:28:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18515889]
+[2023-06-15 14:28:05] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-06-15 14:28:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: buckaroo
+[2023-06-15 14:28:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: connect-eaas-core
+[2023-06-15 14:28:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: q2db
+[2023-06-15 14:28:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: efss-lotrsdk
+[2023-06-15 14:28:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ibllib
+[2023-06-15 14:28:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: evilHunter
+[2023-06-15 14:28:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: getmodelspec
+[2023-06-15 14:28:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: selenium-2captcha-solver
+[2023-06-15 14:28:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: lanarky
+[2023-06-15 14:28:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: validator-schema
+[2023-06-15 14:28:05] INFO root fetch - processPackages [buckaroo]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-06-15 14:28:05] INFO root fetch - processPackages [connect-eaas-core]: New version: [4.1.0] Old Version: [4.0.0]
+[2023-06-15 14:28:05] INFO root fetch - processPackages [q2db]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-15 14:28:05] INFO root fetch - processPackages [evilHunter]: New version: [0.1.9] Old Version: [0.1.85]
+[2023-06-15 14:28:05] WARNING root fetch - processPackages [validator-schema]: Skipping, unable to determine old version
+[2023-06-15 14:28:05] INFO root fetch - processPackages [validator-schema]: Start processing: geomapviz
+[2023-06-15 14:28:05] INFO root fetch - main [MainThread]: End processing [validator-schema] error
+[2023-06-15 14:28:05] INFO root fetch - processPackages [ibllib]: New version: [2.9.1] Old Version: [2.9.0]
+[2023-06-15 14:28:05] WARNING root fetch - processPackages [efss-lotrsdk]: Skipping, unable to determine old version
+[2023-06-15 14:28:05] ERROR root fetch - processPackages [selenium-2captcha-solver]: Unable to get metadata: No such project 'selenium-2captcha-solver'
+[2023-06-15 14:28:05] INFO root fetch - processPackages [getmodelspec]: New version: [1.0.38] Old Version: [1.0.379]
+[2023-06-15 14:28:05] INFO root fetch - processPackages [lanarky]: New version: [0.7.9] Old Version: [0.7.8]
+[2023-06-15 14:28:05] INFO root fetch - processPackages [efss-lotrsdk]: Start processing: su6
+[2023-06-15 14:28:05] INFO root fetch - processPackages [selenium-2captcha-solver]: Start processing: repo-test-sdk
+[2023-06-15 14:28:05] INFO root fetch - processPackages [geomapviz]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-15 14:28:05] INFO root fetch - main [MainThread]: End processing [efss-lotrsdk] error
+[2023-06-15 14:28:05] INFO root fetch - main [MainThread]: End processing [selenium-2captcha-solver] error
+[2023-06-15 14:28:05] INFO root fetch - processPackages [su6]: New version: [1.4.0] Old Version: [1.3.1]
+[2023-06-15 14:28:05] INFO root fetch - processPackages [repo-test-sdk]: New version: [7.7.7] Old Version: [2.0.0]
+[2023-06-15 14:28:05] INFO root fetch - processPackages [su6]: Downloading https://files.pythonhosted.org/packages/4b/c1/41b3a5e4bebb1350408e981c37456e13ccb78ee448f7c37cdd09779753db/su6-1.3.1.tar.gz
+[2023-06-15 14:28:05] INFO root fetch - processPackages [repo-test-sdk]: Downloading https://files.pythonhosted.org/packages/74/4a/ddb9f19ea3c90523f5f4284be76e64e3086e616db7869758fbddace9aefd/repo-test-sdk-2.0.0.tar.gz
+[2023-06-15 14:28:06] INFO root fetch - processPackages [buckaroo]: Downloading https://files.pythonhosted.org/packages/3e/67/e43231ecf8930a6299360b540f44cc607c495b6f212586d991076746a90d/buckaroo-0.3.3.tar.gz
+[2023-06-15 14:28:06] INFO root fetch - processPackages [evilHunter]: Downloading https://files.pythonhosted.org/packages/26/9a/cc266c8f3a396956562c9d25747c4840d935764af51eee26277ede7f97fd/evilHunter-0.1.85.tar.gz
+[2023-06-15 14:28:06] INFO root fetch - processPackages [q2db]: Downloading https://files.pythonhosted.org/packages/17/38/79b233e045a339bde6d7f5231ab1078cdf7c948755cd92294ac52862b3f8/q2db-0.1.8.tar.gz
+[2023-06-15 14:28:06] INFO root fetch - processPackages [ibllib]: Downloading https://files.pythonhosted.org/packages/ab/89/44c95a037d76b6889d7b1fff4e582da5f6dd09e65a3587c657816840b22a/ibllib-2.9.0.tar.gz
+[2023-06-15 14:28:06] INFO root fetch - processPackages [geomapviz]: Downloading https://files.pythonhosted.org/packages/44/c7/58c2ebd6134b1a30212d26d101bd0e63081687762173b2a1070577829eb3/geomapviz-1.0.0.tar.gz
+[2023-06-15 14:28:06] INFO root fetch - processPackages [repo-test-sdk]: Downloading https://files.pythonhosted.org/packages/e4/36/ed542bb196cb040c5009f865e2e7b9e647bb49a7147f695b91489c706a4b/repo-test-sdk-7.7.7.tar.gz
+[2023-06-15 14:28:06] INFO root fetch - processPackages [lanarky]: Downloading https://files.pythonhosted.org/packages/e3/d0/25718133c4af1001b02549187ff8695d89f5c95564ffa6c0d575964115c1/lanarky-0.7.8.tar.gz
+[2023-06-15 14:28:06] INFO root fetch - processPackages [getmodelspec]: Downloading https://files.pythonhosted.org/packages/0f/48/93320bcacc56e5c32d8c0e89266de15322395e07ba0b713f5bbfd041ee6f/getmodelspec-1.0.379.tar.gz
+[2023-06-15 14:28:06] INFO root fetch - processPackages [repo-test-sdk]: executing diffoscope
+[2023-06-15 14:28:06] INFO root fetch - processPackages [repo-test-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/repo-test-sdk-2.0.0.tar.gz tmp/repo-test-sdk-7.7.7.tar.gz --markdown 20230615/r/repo-test-sdk/2.0.0-7.7.7/diff.md --exclude *.pyd
+[2023-06-15 14:28:06] INFO root fetch - processPackages [connect-eaas-core]: Downloading https://files.pythonhosted.org/packages/cc/2b/dea815280942b1c045ca9eecfafffe56712d2b8c5e293241f99caf0d825c/connect-eaas-core-4.0.0.tar.gz
+[2023-06-15 14:28:06] WARNING root fetch - processPackages [geomapviz]: Skipping package: exceeds size limit 17983183>=10485760
+[2023-06-15 14:28:06] INFO root fetch - processPackages [geomapviz]: Start processing: beetl
+[2023-06-15 14:28:06] INFO root fetch - main [MainThread]: End processing [geomapviz] error
+[2023-06-15 14:28:06] INFO root fetch - processPackages [evilHunter]: Downloading https://files.pythonhosted.org/packages/7f/0f/7eedf6a77e45971b6af2ee4b47dd0ab387b70cf9409f947fa528c628ae48/evilHunter-0.1.9.tar.gz
+[2023-06-15 14:28:06] INFO root fetch - processPackages [su6]: Downloading https://files.pythonhosted.org/packages/f2/e8/8047387d6154ba1d39161cc09b615c0be908055a1abe906fb6f1726c7f8e/su6-1.4.0.tar.gz
+[2023-06-15 14:28:06] INFO root fetch - processPackages [beetl]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-06-15 14:28:06] INFO root fetch - processPackages [evilHunter]: executing diffoscope
+[2023-06-15 14:28:06] INFO root fetch - processPackages [evilHunter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/evilHunter-0.1.85.tar.gz tmp/evilHunter-0.1.9.tar.gz --markdown 20230615/e/evilHunter/0.1.85-0.1.9/diff.md --exclude *.pyd
+[2023-06-15 14:28:06] INFO root fetch - processPackages [beetl]: Downloading https://files.pythonhosted.org/packages/93/27/137ab77d5dd9ca2b8321c8c44999244d442f8cf9a5c0183c01274049f7f3/beetl-0.2.1.tar.gz
+[2023-06-15 14:28:06] INFO root fetch - processPackages [q2db]: Downloading https://files.pythonhosted.org/packages/5f/ad/9e4d5db2bcb37b0ac45071edbac7a5449963193849b9df003b9586649cf9/q2db-0.1.9.tar.gz
+[2023-06-15 14:28:06] INFO root fetch - processPackages [buckaroo]: Downloading https://files.pythonhosted.org/packages/3e/de/7ec5526f5cdfe3cc0d710a3957eb9fbc4b6ad429c7d08c57c727d1fc689a/buckaroo-0.3.4.tar.gz
+[2023-06-15 14:28:06] INFO root fetch - processPackages [lanarky]: Downloading https://files.pythonhosted.org/packages/3f/43/1d53c93aa25b84b05fa3ae62ccc998a35d771464e67ada2c200759fdb773/lanarky-0.7.9.tar.gz
+[2023-06-15 14:28:06] INFO root fetch - processPackages [getmodelspec]: Downloading https://files.pythonhosted.org/packages/5f/e0/4cbfa76e73beba98c3f736c5262b497a5b627bbfa9d6f59880a24ae2876d/getmodelspec-1.0.38.tar.gz
+[2023-06-15 14:28:06] INFO root fetch - processPackages [buckaroo]: executing diffoscope
+[2023-06-15 14:28:06] INFO root fetch - processPackages [buckaroo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/buckaroo-0.3.3.tar.gz tmp/buckaroo-0.3.4.tar.gz --markdown 20230615/b/buckaroo/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-06-15 14:28:06] INFO root fetch - processPackages [lanarky]: executing diffoscope
+[2023-06-15 14:28:06] INFO root fetch - processPackages [lanarky]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lanarky-0.7.8.tar.gz tmp/lanarky-0.7.9.tar.gz --markdown 20230615/l/lanarky/0.7.8-0.7.9/diff.md --exclude *.pyd
+[2023-06-15 14:28:06] INFO root fetch - processPackages [q2db]: executing diffoscope
+[2023-06-15 14:28:06] INFO root fetch - processPackages [q2db]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/q2db-0.1.8.tar.gz tmp/q2db-0.1.9.tar.gz --markdown 20230615/q/q2db/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-15 14:28:06] INFO root fetch - processPackages [beetl]: Downloading https://files.pythonhosted.org/packages/d5/2e/03f84095437eeb67420178d20d88cc9ead2a81d02deef69e60855f0906be/beetl-0.2.2.tar.gz
+[2023-06-15 14:28:06] INFO root fetch - processPackages [su6]: executing diffoscope
+[2023-06-15 14:28:06] INFO root fetch - processPackages [su6]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/su6-1.3.1.tar.gz tmp/su6-1.4.0.tar.gz --markdown 20230615/s/su6/1.3.1-1.4.0/diff.md --exclude *.pyd
+[2023-06-15 14:28:06] INFO root fetch - processPackages [beetl]: executing diffoscope
+[2023-06-15 14:28:06] INFO root fetch - processPackages [beetl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/beetl-0.2.1.tar.gz tmp/beetl-0.2.2.tar.gz --markdown 20230615/b/beetl/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-06-15 14:28:06] INFO root fetch - processPackages [getmodelspec]: executing diffoscope
+[2023-06-15 14:28:06] INFO root fetch - processPackages [getmodelspec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/getmodelspec-1.0.379.tar.gz tmp/getmodelspec-1.0.38.tar.gz --markdown 20230615/g/getmodelspec/1.0.379-1.0.38/diff.md --exclude *.pyd
+[2023-06-15 14:28:07] INFO root fetch - processPackages [connect-eaas-core]: Downloading https://files.pythonhosted.org/packages/b8/0e/223cf7857305fa1f3a5dd5f98ef3ffefc0eabf78b1d8512dc021aac41705/connect-eaas-core-4.1.0.tar.gz
+[2023-06-15 14:28:07] INFO root fetch - processPackages [connect-eaas-core]: executing diffoscope
+[2023-06-15 14:28:07] INFO root fetch - processPackages [connect-eaas-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/connect-eaas-core-4.0.0.tar.gz tmp/connect-eaas-core-4.1.0.tar.gz --markdown 20230615/c/connect-eaas-core/4.0.0-4.1.0/diff.md --exclude *.pyd
+[2023-06-15 14:28:07] INFO root fetch - processPackages [repo-test-sdk]: Remove: archive file [/home/abi/fetcher/tmp/repo-test-sdk-2.0.0.tar.gz]
+[2023-06-15 14:28:07] INFO root fetch - processPackages [repo-test-sdk]: Remove: archive file [/home/abi/fetcher/tmp/repo-test-sdk-7.7.7.tar.gz]
+[2023-06-15 14:28:07] INFO root fetch - processPackages [repo-test-sdk]: Start processing: selenium-2captcha-solver
+[2023-06-15 14:28:07] INFO root fetch - main [MainThread]: End processing [repo-test-sdk]: success
+[2023-06-15 14:28:07] ERROR root fetch - processPackages [selenium-2captcha-solver]: Unable to get metadata: No such project 'selenium-2captcha-solver'
+[2023-06-15 14:28:07] INFO root fetch - processPackages [selenium-2captcha-solver]: Start processing: pulumi-fastly
+[2023-06-15 14:28:07] INFO root fetch - main [MainThread]: End processing [selenium-2captcha-solver] error
+[2023-06-15 14:28:07] INFO root fetch - processPackages [pulumi-fastly]: New version: [8.1.0a1686825094] Old Version: [8.1.0a1686634705]
+[2023-06-15 14:28:07] INFO root fetch - processPackages [pulumi-fastly]: Downloading https://files.pythonhosted.org/packages/e4/a8/c619e08894b00696392e1e6fa34e6a2b67005bda865582ba85c8e910c175/pulumi_fastly-8.1.0a1686634705.tar.gz
+[2023-06-15 14:28:07] INFO root fetch - processPackages [evilHunter]: Remove: archive file [/home/abi/fetcher/tmp/evilHunter-0.1.85.tar.gz]
+[2023-06-15 14:28:07] INFO root fetch - processPackages [evilHunter]: Remove: archive file [/home/abi/fetcher/tmp/evilHunter-0.1.9.tar.gz]
+[2023-06-15 14:28:07] INFO root fetch - processPackages [evilHunter]: Start processing: troubadix
+[2023-06-15 14:28:07] INFO root fetch - main [MainThread]: End processing [evilHunter]: success
+[2023-06-15 14:28:07] INFO root fetch - processPackages [troubadix]: New version: [23.6.0] Old Version: [23.5.4]
+[2023-06-15 14:28:07] INFO root fetch - processPackages [pulumi-fastly]: Downloading https://files.pythonhosted.org/packages/11/4e/2705a2dde34da0e27f53d6f8cbc3e559b5db035912c91a834c4365426669/pulumi_fastly-8.1.0a1686825094.tar.gz
+[2023-06-15 14:28:07] INFO root fetch - processPackages [pulumi-fastly]: executing diffoscope
+[2023-06-15 14:28:07] INFO root fetch - processPackages [pulumi-fastly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_fastly-8.1.0a1686634705.tar.gz tmp/pulumi_fastly-8.1.0a1686825094.tar.gz --markdown 20230615/p/pulumi-fastly/8.1.0a1686634705-8.1.0a1686825094/diff.md --exclude *.pyd
+[2023-06-15 14:28:07] INFO root fetch - processPackages [troubadix]: Downloading https://files.pythonhosted.org/packages/7f/36/9446dc62a874907a6a6102aebd45ecb5c7389d4f1c3ff227e625ae56ecab/troubadix-23.5.4.tar.gz
+[2023-06-15 14:28:08] INFO root fetch - processPackages [beetl]: Remove: archive file [/home/abi/fetcher/tmp/beetl-0.2.1.tar.gz]
+[2023-06-15 14:28:08] INFO root fetch - processPackages [beetl]: Remove: archive file [/home/abi/fetcher/tmp/beetl-0.2.2.tar.gz]
+[2023-06-15 14:28:08] INFO root fetch - main [MainThread]: End processing [beetl]: success
+[2023-06-15 14:28:08] INFO root fetch - processPackages [lanarky]: Remove: archive file [/home/abi/fetcher/tmp/lanarky-0.7.8.tar.gz]
+[2023-06-15 14:28:08] INFO root fetch - processPackages [lanarky]: Remove: archive file [/home/abi/fetcher/tmp/lanarky-0.7.9.tar.gz]
+[2023-06-15 14:28:08] INFO root fetch - main [MainThread]: End processing [lanarky]: success
+[2023-06-15 14:28:08] INFO root fetch - processPackages [troubadix]: Downloading https://files.pythonhosted.org/packages/58/08/6bd66402224a471c454adc10633f09131eac241ee17fbd16cac60786503f/troubadix-23.6.0.tar.gz
+[2023-06-15 14:28:08] INFO root fetch - processPackages [q2db]: Remove: archive file [/home/abi/fetcher/tmp/q2db-0.1.8.tar.gz]
+[2023-06-15 14:28:08] INFO root fetch - processPackages [q2db]: Remove: archive file [/home/abi/fetcher/tmp/q2db-0.1.9.tar.gz]
+[2023-06-15 14:28:08] INFO root fetch - main [MainThread]: End processing [q2db]: success
+[2023-06-15 14:28:08] INFO root fetch - processPackages [troubadix]: executing diffoscope
+[2023-06-15 14:28:08] INFO root fetch - processPackages [troubadix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/troubadix-23.5.4.tar.gz tmp/troubadix-23.6.0.tar.gz --markdown 20230615/t/troubadix/23.5.4-23.6.0/diff.md --exclude *.pyd
+[2023-06-15 14:28:08] INFO root fetch - processPackages [getmodelspec]: Remove: archive file [/home/abi/fetcher/tmp/getmodelspec-1.0.379.tar.gz]
+[2023-06-15 14:28:08] INFO root fetch - processPackages [getmodelspec]: Remove: archive file [/home/abi/fetcher/tmp/getmodelspec-1.0.38.tar.gz]
+[2023-06-15 14:28:08] INFO root fetch - main [MainThread]: End processing [getmodelspec]: success
+[2023-06-15 14:28:08] INFO root fetch - processPackages [connect-eaas-core]: Remove: archive file [/home/abi/fetcher/tmp/connect-eaas-core-4.0.0.tar.gz]
+[2023-06-15 14:28:08] INFO root fetch - processPackages [connect-eaas-core]: Remove: archive file [/home/abi/fetcher/tmp/connect-eaas-core-4.1.0.tar.gz]
+[2023-06-15 14:28:08] INFO root fetch - main [MainThread]: End processing [connect-eaas-core]: success
+[2023-06-15 14:28:08] INFO root fetch - processPackages [ibllib]: Downloading https://files.pythonhosted.org/packages/c5/45/5d61840e022b5979571f2e5f0e06601d558f19541bda74d82e3389bf7968/ibllib-2.9.1.tar.gz
+[2023-06-15 14:28:09] INFO root fetch - processPackages [pulumi-fastly]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_fastly-8.1.0a1686634705.tar.gz]
+[2023-06-15 14:28:09] INFO root fetch - processPackages [pulumi-fastly]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_fastly-8.1.0a1686825094.tar.gz]
+[2023-06-15 14:28:09] INFO root fetch - main [MainThread]: End processing [pulumi-fastly]: success
+[2023-06-15 14:28:09] INFO root fetch - processPackages [buckaroo]: Remove: archive file [/home/abi/fetcher/tmp/buckaroo-0.3.3.tar.gz]
+[2023-06-15 14:28:09] INFO root fetch - processPackages [buckaroo]: Remove: archive file [/home/abi/fetcher/tmp/buckaroo-0.3.4.tar.gz]
+[2023-06-15 14:28:09] INFO root fetch - main [MainThread]: End processing [buckaroo]: success
+[2023-06-15 14:28:10] INFO root fetch - processPackages [troubadix]: Remove: archive file [/home/abi/fetcher/tmp/troubadix-23.5.4.tar.gz]
+[2023-06-15 14:28:10] INFO root fetch - processPackages [troubadix]: Remove: archive file [/home/abi/fetcher/tmp/troubadix-23.6.0.tar.gz]
+[2023-06-15 14:28:10] INFO root fetch - main [MainThread]: End processing [troubadix]: success
+[2023-06-15 14:28:12] INFO root fetch - processPackages [ibllib]: executing diffoscope
+[2023-06-15 14:28:12] INFO root fetch - processPackages [ibllib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ibllib-2.9.0.tar.gz tmp/ibllib-2.9.1.tar.gz --markdown 20230615/i/ibllib/2.9.0-2.9.1/diff.md --exclude *.pyd
+[2023-06-15 14:28:17] INFO root fetch - processPackages [ibllib]: Remove: archive file [/home/abi/fetcher/tmp/ibllib-2.9.0.tar.gz]
+[2023-06-15 14:28:17] INFO root fetch - processPackages [ibllib]: Remove: archive file [/home/abi/fetcher/tmp/ibllib-2.9.1.tar.gz]
+[2023-06-15 14:28:17] INFO root fetch - main [MainThread]: End processing [ibllib]: success
+[2023-06-15 14:28:29] INFO root fetch - processPackages [su6]: Remove: archive file [/home/abi/fetcher/tmp/su6-1.3.1.tar.gz]
+[2023-06-15 14:28:29] INFO root fetch - processPackages [su6]: Remove: archive file [/home/abi/fetcher/tmp/su6-1.4.0.tar.gz]
+[2023-06-15 14:28:29] INFO root fetch - main [MainThread]: End processing [su6]: success
+[2023-06-15 14:28:29] INFO root fetch - main [MainThread]: Store serial: [18515954]
