@@ -21898,3 +21898,126 @@ AssertionError: tmp/stackoverflowapithingy-0.1.5.tar.gz does not exist
 [2023-06-15 14:16:48] INFO root fetch - processPackages [composabl-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_dev-0.2.1.dev95-cp38-cp38-musllinux_1_1_x86_64.whl.zip]
 [2023-06-15 14:16:48] INFO root fetch - main [MainThread]: End processing [composabl-dev]: success
 [2023-06-15 14:16:48] INFO root fetch - main [MainThread]: Store serial: [18515832]
+[2023-06-15 14:22:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18515832]
+[2023-06-15 14:22:20] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-06-15 14:22:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: biorefineries
+[2023-06-15 14:22:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: viadot
+[2023-06-15 14:22:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: PySupercell
+[2023-06-15 14:22:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: open-dread-rando
+[2023-06-15 14:22:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: eaglectl
+[2023-06-15 14:22:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: numerical-py
+[2023-06-15 14:22:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: xmlrecords
+[2023-06-15 14:22:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: picard
+[2023-06-15 14:22:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo-addon-partner-contact-age-range
+[2023-06-15 14:22:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pdf2txt
+[2023-06-15 14:22:20] INFO root fetch - processPackages [xmlrecords]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-06-15 14:22:20] INFO root fetch - processPackages [biorefineries]: New version: [2.9.4] Old Version: [2.9.3]
+[2023-06-15 14:22:20] INFO root fetch - processPackages [open-dread-rando]: New version: [2.3.2] Old Version: [2.3.1]
+[2023-06-15 14:22:20] INFO root fetch - processPackages [viadot]: New version: [2.0a9] Old Version: [2.0a8]
+[2023-06-15 14:22:20] INFO root fetch - processPackages [PySupercell]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-15 14:22:20] INFO root fetch - processPackages [numerical-py]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-15 14:22:20] INFO root fetch - processPackages [picard]: New version: [2.9.0b2] Old Version: [2.9.0b1]
+[2023-06-15 14:22:20] INFO root fetch - processPackages [odoo-addon-partner-contact-age-range]: New version: [16.0.1.0.0.2] Old Version: [15.0.1.0.0.7]
+[2023-06-15 14:22:20] INFO root fetch - processPackages [pdf2txt]: New version: [0.7.4] Old Version: [0.7.3]
+[2023-06-15 14:22:20] INFO root fetch - processPackages [xmlrecords]: Downloading https://files.pythonhosted.org/packages/a2/a2/d34e8de021b5623b7623ee07924e1d3056422f1b5f20f59b766744b6f8c6/xmlrecords-0.3.0.tar.gz
+[2023-06-15 14:22:20] INFO root fetch - processPackages [numerical-py]: Downloading https://files.pythonhosted.org/packages/1d/de/1646bfffd31b37c02f76dd709f9c00e9f79df74282ab8379237197ee3794/numerical_py-0.0.8.tar.gz
+[2023-06-15 14:22:20] WARNING root fetch - processPackages [eaglectl]: Skipping, unable to determine old version
+[2023-06-15 14:22:20] INFO root fetch - processPackages [eaglectl]: Start processing: openai-dbd
+[2023-06-15 14:22:20] INFO root fetch - main [MainThread]: End processing [eaglectl] error
+[2023-06-15 14:22:20] INFO root fetch - processPackages [openai-dbd]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-15 14:22:20] INFO root fetch - processPackages [numerical-py]: Downloading https://files.pythonhosted.org/packages/95/1d/7677791c6175f40bd4a70e667ae838300671845f99330142d2e9a3d9f7f8/numerical_py-0.0.9.tar.gz
+[2023-06-15 14:22:20] INFO root fetch - processPackages [biorefineries]: Downloading https://files.pythonhosted.org/packages/3e/d9/8d9d1fd176a8d3985f895fee346a389f6c40a8d2849893955385aa3062e5/biorefineries-2.9.3.tar.gz
+[2023-06-15 14:22:20] INFO root fetch - processPackages [picard]: Downloading https://files.pythonhosted.org/packages/45/90/720ce1e76e150b6efec668a9e9d6b93dea4cb3b9e1319fda6d4b86f2bbcc/picard-2.9.0b1.tar.gz
+[2023-06-15 14:22:20] INFO root fetch - processPackages [pdf2txt]: Downloading https://files.pythonhosted.org/packages/17/a8/d2521868eccd3512c4b980ef9692ab040d1ff5a764650132b0c3fc747c05/pdf2txt-0.7.3-py3-none-any.whl
+[2023-06-15 14:22:21] INFO root fetch - processPackages [PySupercell]: Downloading https://files.pythonhosted.org/packages/73/4e/a80df8b529fe378bfa915eadf594310c1cb8a7b17a048daa10a89dd78108/PySupercell-0.0.8.tar.gz
+[2023-06-15 14:22:21] INFO root fetch - processPackages [open-dread-rando]: Downloading https://files.pythonhosted.org/packages/6a/13/29e62a15e8dc1125817609bcf5b2d50d97793de9ebcee9de54ef53c64549/open-dread-rando-2.3.1.tar.gz
+[2023-06-15 14:22:21] INFO root fetch - processPackages [openai-dbd]: Downloading https://files.pythonhosted.org/packages/d9/31/d86f0f50993f5e8dc618557dd9b665b20eb455d40c850a6f35aed5bd146b/openai_dbd-0.0.8-py3-none-any.whl
+[2023-06-15 14:22:21] INFO root fetch - processPackages [numerical-py]: executing diffoscope
+[2023-06-15 14:22:21] INFO root fetch - processPackages [numerical-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/numerical_py-0.0.8.tar.gz tmp/numerical_py-0.0.9.tar.gz --markdown 20230615/n/numerical-py/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-15 14:22:21] INFO root fetch - processPackages [odoo-addon-partner-contact-age-range]: Downloading https://files.pythonhosted.org/packages/8a/4f/8f22628feb9225a8bf0d8c1de303c6f0a27be62fd08a6d5feec197f07791/odoo_addon_partner_contact_age_range-15.0.1.0.0.7-py3-none-any.whl
+[2023-06-15 14:22:21] INFO root fetch - processPackages [viadot]: Downloading https://files.pythonhosted.org/packages/bc/4f/a8885f208b9c60774953fea5affa0c87ab49bd1a080c74f834ef35e2c906/viadot-2.0a8.tar.gz
+[2023-06-15 14:22:21] INFO root fetch - processPackages [xmlrecords]: Downloading https://files.pythonhosted.org/packages/a8/3b/a4c758b0f3e10e358989223bdb14b84b83b99f242c8de93c802dbccead3e/xmlrecords-0.3.1.tar.gz
+[2023-06-15 14:22:21] INFO root fetch - processPackages [openai-dbd]: Downloading https://files.pythonhosted.org/packages/fc/89/8191aebb736ee888c76204cd3dffedad5abfb27acc27bc9ccabd4a30f62b/openai_dbd-0.0.9-py3-none-any.whl
+[2023-06-15 14:22:21] INFO root fetch - processPackages [xmlrecords]: executing diffoscope
+[2023-06-15 14:22:21] INFO root fetch - processPackages [xmlrecords]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xmlrecords-0.3.0.tar.gz tmp/xmlrecords-0.3.1.tar.gz --markdown 20230615/x/xmlrecords/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-06-15 14:22:21] INFO root fetch - processPackages [openai-dbd]: executing diffoscope
+[2023-06-15 14:22:21] INFO root fetch - processPackages [openai-dbd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openai_dbd-0.0.8-py3-none-any.whl.zip tmp/openai_dbd-0.0.9-py3-none-any.whl.zip --markdown 20230615/o/openai-dbd/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-15 14:22:21] INFO root fetch - processPackages [pdf2txt]: Downloading https://files.pythonhosted.org/packages/aa/76/30c917a143bc2ac09b0058c685bca2225463ebec8e92989fb181b40ba062/pdf2txt-0.7.4-py3-none-any.whl
+[2023-06-15 14:22:21] INFO root fetch - processPackages [PySupercell]: Downloading https://files.pythonhosted.org/packages/05/fc/bbd7e619a558fdf0bd7212a442d3b95393f161f9be0183eb9c2dad9cc8e5/PySupercell-0.0.9.tar.gz
+[2023-06-15 14:22:21] INFO root fetch - processPackages [pdf2txt]: executing diffoscope
+[2023-06-15 14:22:21] INFO root fetch - processPackages [pdf2txt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdf2txt-0.7.3-py3-none-any.whl.zip tmp/pdf2txt-0.7.4-py3-none-any.whl.zip --markdown 20230615/p/pdf2txt/0.7.3-0.7.4/diff.md --exclude *.pyd
+[2023-06-15 14:22:21] INFO root fetch - processPackages [PySupercell]: executing diffoscope
+[2023-06-15 14:22:21] INFO root fetch - processPackages [PySupercell]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PySupercell-0.0.8.tar.gz tmp/PySupercell-0.0.9.tar.gz --markdown 20230615/P/PySupercell/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-15 14:22:21] INFO root fetch - processPackages [odoo-addon-partner-contact-age-range]: Downloading https://files.pythonhosted.org/packages/c1/8e/cde037313dfc106dbd3ef7ce2d8bc2b58ef85bd9691941fd19202b49f869/odoo_addon_partner_contact_age_range-16.0.1.0.0.2-py3-none-any.whl
+[2023-06-15 14:22:21] INFO root fetch - processPackages [odoo-addon-partner-contact-age-range]: executing diffoscope
+[2023-06-15 14:22:21] INFO root fetch - processPackages [odoo-addon-partner-contact-age-range]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_partner_contact_age_range-15.0.1.0.0.7-py3-none-any.whl.zip tmp/odoo_addon_partner_contact_age_range-16.0.1.0.0.2-py3-none-any.whl.zip --markdown 20230615/o/odoo-addon-partner-contact-age-range/15.0.1.0.0.7-16.0.1.0.0.2/diff.md --exclude *.pyd
+[2023-06-15 14:22:21] INFO root fetch - processPackages [viadot]: Downloading https://files.pythonhosted.org/packages/6d/83/4a908a5a459caedd1bd262ecdf2ba395364a60dfa7814528cb5a74d45481/viadot-2.0a9.tar.gz
+[2023-06-15 14:22:21] INFO root fetch - processPackages [open-dread-rando]: Downloading https://files.pythonhosted.org/packages/5f/d1/01c7257aa8bd724104d00966e8c919bab5da948c0d3c7dfc195de6e9a046/open-dread-rando-2.3.2.tar.gz
+[2023-06-15 14:22:21] INFO root fetch - processPackages [viadot]: executing diffoscope
+[2023-06-15 14:22:21] INFO root fetch - processPackages [viadot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/viadot-2.0a8.tar.gz tmp/viadot-2.0a9.tar.gz --markdown 20230615/v/viadot/2.0a8-2.0a9/diff.md --exclude *.pyd
+[2023-06-15 14:22:22] INFO root fetch - processPackages [numerical-py]: Remove: archive file [/home/abi/fetcher/tmp/numerical_py-0.0.8.tar.gz]
+[2023-06-15 14:22:22] INFO root fetch - processPackages [numerical-py]: Remove: archive file [/home/abi/fetcher/tmp/numerical_py-0.0.9.tar.gz]
+[2023-06-15 14:22:22] INFO root fetch - processPackages [numerical-py]: Start processing: moto
+[2023-06-15 14:22:22] INFO root fetch - main [MainThread]: End processing [numerical-py]: success
+[2023-06-15 14:22:22] INFO root fetch - processPackages [moto]: New version: [4.1.9.dev9] Old Version: [4.1.9.dev8]
+[2023-06-15 14:22:22] INFO root fetch - processPackages [picard]: Downloading https://files.pythonhosted.org/packages/8a/fc/459ee5fecac8e5b8dcbba7ff164cb0c51acca6a9165d945e074f2dfba9a0/picard-2.9.0b2.tar.gz
+[2023-06-15 14:22:22] INFO root fetch - processPackages [moto]: Downloading https://files.pythonhosted.org/packages/2c/d4/8e03b33a9179ac2880d9ee7985f188927368b16081e05a142152e556685c/moto-4.1.9.dev8.tar.gz
+[2023-06-15 14:22:22] INFO root fetch - processPackages [open-dread-rando]: executing diffoscope
+[2023-06-15 14:22:22] INFO root fetch - processPackages [open-dread-rando]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/open-dread-rando-2.3.1.tar.gz tmp/open-dread-rando-2.3.2.tar.gz --markdown 20230615/o/open-dread-rando/2.3.1-2.3.2/diff.md --exclude *.pyd
+[2023-06-15 14:22:22] INFO root fetch - processPackages [moto]: Downloading https://files.pythonhosted.org/packages/4b/79/8731bdd68db60192dd81a418b0552fc817d87bba0726d6c4ff2dbd93f913/moto-4.1.9.dev9.tar.gz
+[2023-06-15 14:22:22] INFO root fetch - processPackages [openai-dbd]: Remove: archive file [/home/abi/fetcher/tmp/openai_dbd-0.0.8-py3-none-any.whl.zip]
+[2023-06-15 14:22:22] INFO root fetch - processPackages [openai-dbd]: Remove: archive file [/home/abi/fetcher/tmp/openai_dbd-0.0.9-py3-none-any.whl.zip]
+[2023-06-15 14:22:22] INFO root fetch - processPackages [openai-dbd]: Start processing: personal-knowledge-library
+[2023-06-15 14:22:22] INFO root fetch - main [MainThread]: End processing [openai-dbd]: success
+[2023-06-15 14:22:22] INFO root fetch - processPackages [xmlrecords]: Remove: archive file [/home/abi/fetcher/tmp/xmlrecords-0.3.0.tar.gz]
+[2023-06-15 14:22:22] INFO root fetch - processPackages [xmlrecords]: Remove: archive file [/home/abi/fetcher/tmp/xmlrecords-0.3.1.tar.gz]
+[2023-06-15 14:22:22] INFO root fetch - processPackages [xmlrecords]: Start processing: qiskit-iqm
+[2023-06-15 14:22:22] INFO root fetch - main [MainThread]: End processing [xmlrecords]: success
+[2023-06-15 14:22:22] INFO root fetch - processPackages [moto]: executing diffoscope
+[2023-06-15 14:22:22] INFO root fetch - processPackages [moto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moto-4.1.9.dev8.tar.gz tmp/moto-4.1.9.dev9.tar.gz --markdown 20230615/m/moto/4.1.9.dev8-4.1.9.dev9/diff.md --exclude *.pyd
+[2023-06-15 14:22:22] INFO root fetch - processPackages [qiskit-iqm]: New version: [9.0] Old Version: [8.3]
+[2023-06-15 14:22:22] INFO root fetch - processPackages [biorefineries]: Downloading https://files.pythonhosted.org/packages/9d/9f/89fdd7cfd12cc7ca26cd2c8d386ef9e22821072a402384cbc6b0ede30a8b/biorefineries-2.9.4.tar.gz
+[2023-06-15 14:22:22] INFO root fetch - processPackages [personal-knowledge-library]: New version: [1.0.0] Old Version: [0.9.6]
+[2023-06-15 14:22:22] INFO root fetch - processPackages [qiskit-iqm]: Downloading https://files.pythonhosted.org/packages/6f/9f/9f7666c7e61e4ba8b3f959e0c5eef07e997c7500f0d051b41a202380e0fc/qiskit-iqm-8.3.tar.gz
+[2023-06-15 14:22:22] INFO root fetch - processPackages [qiskit-iqm]: Downloading https://files.pythonhosted.org/packages/21/fa/19188be4ca367f4ebaec7bd7ee3b5daab94d4a3a20da3ac629796190e76b/qiskit-iqm-9.0.tar.gz
+[2023-06-15 14:22:22] INFO root fetch - processPackages [personal-knowledge-library]: Downloading https://files.pythonhosted.org/packages/a8/52/e2f6a61e9913ba5753d1b3c3f112e42499ad2fb1976c8274b17aa0671c7d/personal_knowledge_library-0.9.6.tar.gz
+[2023-06-15 14:22:22] INFO root fetch - processPackages [PySupercell]: Remove: archive file [/home/abi/fetcher/tmp/PySupercell-0.0.8.tar.gz]
+[2023-06-15 14:22:22] INFO root fetch - processPackages [PySupercell]: Remove: archive file [/home/abi/fetcher/tmp/PySupercell-0.0.9.tar.gz]
+[2023-06-15 14:22:22] INFO root fetch - main [MainThread]: End processing [PySupercell]: success
+[2023-06-15 14:22:22] INFO root fetch - processPackages [odoo-addon-partner-contact-age-range]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_partner_contact_age_range-15.0.1.0.0.7-py3-none-any.whl.zip]
+[2023-06-15 14:22:22] INFO root fetch - processPackages [odoo-addon-partner-contact-age-range]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_partner_contact_age_range-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2023-06-15 14:22:22] INFO root fetch - main [MainThread]: End processing [odoo-addon-partner-contact-age-range]: success
+[2023-06-15 14:22:22] INFO root fetch - processPackages [pdf2txt]: Remove: archive file [/home/abi/fetcher/tmp/pdf2txt-0.7.3-py3-none-any.whl.zip]
+[2023-06-15 14:22:22] INFO root fetch - processPackages [pdf2txt]: Remove: archive file [/home/abi/fetcher/tmp/pdf2txt-0.7.4-py3-none-any.whl.zip]
+[2023-06-15 14:22:22] INFO root fetch - main [MainThread]: End processing [pdf2txt]: success
+[2023-06-15 14:22:22] INFO root fetch - processPackages [qiskit-iqm]: executing diffoscope
+[2023-06-15 14:22:22] INFO root fetch - processPackages [qiskit-iqm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qiskit-iqm-8.3.tar.gz tmp/qiskit-iqm-9.0.tar.gz --markdown 20230615/q/qiskit-iqm/8.3-9.0/diff.md --exclude *.pyd
+[2023-06-15 14:22:23] INFO root fetch - processPackages [personal-knowledge-library]: Downloading https://files.pythonhosted.org/packages/76/bd/fb1279de3455603c839e965b79d27e60783f9461ee39467d502dc70a7196/personal_knowledge_library-1.0.0.tar.gz
+[2023-06-15 14:22:23] INFO root fetch - processPackages [viadot]: Remove: archive file [/home/abi/fetcher/tmp/viadot-2.0a8.tar.gz]
+[2023-06-15 14:22:23] INFO root fetch - processPackages [viadot]: Remove: archive file [/home/abi/fetcher/tmp/viadot-2.0a9.tar.gz]
+[2023-06-15 14:22:23] INFO root fetch - main [MainThread]: End processing [viadot]: success
+[2023-06-15 14:22:23] INFO root fetch - processPackages [personal-knowledge-library]: executing diffoscope
+[2023-06-15 14:22:23] INFO root fetch - processPackages [personal-knowledge-library]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/personal_knowledge_library-0.9.6.tar.gz tmp/personal_knowledge_library-1.0.0.tar.gz --markdown 20230615/p/personal-knowledge-library/0.9.6-1.0.0/diff.md --exclude *.pyd
+[2023-06-15 14:22:23] INFO root fetch - processPackages [biorefineries]: executing diffoscope
+[2023-06-15 14:22:23] INFO root fetch - processPackages [biorefineries]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/biorefineries-2.9.3.tar.gz tmp/biorefineries-2.9.4.tar.gz --markdown 20230615/b/biorefineries/2.9.3-2.9.4/diff.md --exclude *.pyd
+[2023-06-15 14:22:24] INFO root fetch - processPackages [picard]: executing diffoscope
+[2023-06-15 14:22:24] INFO root fetch - processPackages [picard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/picard-2.9.0b1.tar.gz tmp/picard-2.9.0b2.tar.gz --markdown 20230615/p/picard/2.9.0b1-2.9.0b2/diff.md --exclude *.pyd
+[2023-06-15 14:22:24] INFO root fetch - processPackages [qiskit-iqm]: Remove: archive file [/home/abi/fetcher/tmp/qiskit-iqm-8.3.tar.gz]
+[2023-06-15 14:22:24] INFO root fetch - processPackages [qiskit-iqm]: Remove: archive file [/home/abi/fetcher/tmp/qiskit-iqm-9.0.tar.gz]
+[2023-06-15 14:22:24] INFO root fetch - main [MainThread]: End processing [qiskit-iqm]: success
+[2023-06-15 14:22:24] INFO root fetch - processPackages [biorefineries]: Remove: archive file [/home/abi/fetcher/tmp/biorefineries-2.9.3.tar.gz]
+[2023-06-15 14:22:24] INFO root fetch - processPackages [biorefineries]: Remove: archive file [/home/abi/fetcher/tmp/biorefineries-2.9.4.tar.gz]
+[2023-06-15 14:22:24] INFO root fetch - main [MainThread]: End processing [biorefineries]: success
+[2023-06-15 14:22:24] INFO root fetch - processPackages [personal-knowledge-library]: Remove: archive file [/home/abi/fetcher/tmp/personal_knowledge_library-0.9.6.tar.gz]
+[2023-06-15 14:22:24] INFO root fetch - processPackages [personal-knowledge-library]: Remove: archive file [/home/abi/fetcher/tmp/personal_knowledge_library-1.0.0.tar.gz]
+[2023-06-15 14:22:24] INFO root fetch - main [MainThread]: End processing [personal-knowledge-library]: success
+[2023-06-15 14:22:25] INFO root fetch - processPackages [open-dread-rando]: Remove: archive file [/home/abi/fetcher/tmp/open-dread-rando-2.3.1.tar.gz]
+[2023-06-15 14:22:25] INFO root fetch - processPackages [open-dread-rando]: Remove: archive file [/home/abi/fetcher/tmp/open-dread-rando-2.3.2.tar.gz]
+[2023-06-15 14:22:25] INFO root fetch - main [MainThread]: End processing [open-dread-rando]: success
+[2023-06-15 14:22:36] INFO root fetch - processPackages [picard]: Remove: archive file [/home/abi/fetcher/tmp/picard-2.9.0b1.tar.gz]
+[2023-06-15 14:22:36] INFO root fetch - processPackages [picard]: Remove: archive file [/home/abi/fetcher/tmp/picard-2.9.0b2.tar.gz]
+[2023-06-15 14:22:36] INFO root fetch - main [MainThread]: End processing [picard]: success
+[2023-06-15 14:22:55] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-4.1.9.dev8.tar.gz]
+[2023-06-15 14:22:55] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-4.1.9.dev9.tar.gz]
+[2023-06-15 14:22:55] INFO root fetch - main [MainThread]: End processing [moto]: success
+[2023-06-15 14:22:55] INFO root fetch - main [MainThread]: Store serial: [18515889]
