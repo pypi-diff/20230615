@@ -6717,3 +6717,186 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-15 04:17:55] INFO root fetch - processPackages [llama-cpp-python]: Remove: archive file [/home/abi/fetcher/tmp/llama_cpp_python-0.1.9.tar.gz]
 [2023-06-15 04:17:55] INFO root fetch - main [MainThread]: End processing [llama-cpp-python]: success
 [2023-06-15 04:17:55] INFO root fetch - main [MainThread]: Store serial: [18510047]
+[2023-06-15 04:22:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18510047]
+[2023-06-15 04:23:04] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-06-15 04:23:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: watchmen-pipeline-kernel
+[2023-06-15 04:23:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: watchmen-collector-kernel
+[2023-06-15 04:23:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: watchmen-collector-surface
+[2023-06-15 04:23:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: watchmen-pipeline-surface
+[2023-06-15 04:23:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: watchmen-inquiry-trino
+[2023-06-15 04:23:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: watchmen-inquiry-kernel
+[2023-06-15 04:23:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: watchmen-inquiry-surface
+[2023-06-15 04:23:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: watchmen-dqc
+[2023-06-15 04:23:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: watchmen-rest-dqc
+[2023-06-15 04:23:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: watchmen-indicator-kernel
+[2023-06-15 04:23:04] INFO root fetch - processPackages [watchmen-pipeline-kernel]: New version: [16.5.9] Old Version: [16.5.8]
+[2023-06-15 04:23:04] INFO root fetch - processPackages [watchmen-collector-surface]: New version: [16.5.9] Old Version: [16.5.8]
+[2023-06-15 04:23:04] INFO root fetch - processPackages [watchmen-pipeline-surface]: New version: [16.5.9] Old Version: [16.5.8]
+[2023-06-15 04:23:04] INFO root fetch - processPackages [watchmen-collector-kernel]: New version: [16.5.9] Old Version: [16.5.8]
+[2023-06-15 04:23:04] INFO root fetch - processPackages [watchmen-indicator-kernel]: New version: [16.5.9] Old Version: [16.5.8]
+[2023-06-15 04:23:04] INFO root fetch - processPackages [watchmen-dqc]: New version: [16.5.9] Old Version: [16.5.8]
+[2023-06-15 04:23:04] INFO root fetch - processPackages [watchmen-inquiry-kernel]: New version: [16.5.9] Old Version: [16.5.8]
+[2023-06-15 04:23:04] INFO root fetch - processPackages [watchmen-inquiry-trino]: New version: [16.5.9] Old Version: [16.5.8]
+[2023-06-15 04:23:04] INFO root fetch - processPackages [watchmen-rest-dqc]: New version: [16.5.9] Old Version: [16.5.8]
+[2023-06-15 04:23:04] INFO root fetch - processPackages [watchmen-inquiry-surface]: New version: [16.5.9] Old Version: [16.5.8]
+[2023-06-15 04:23:04] INFO root fetch - processPackages [watchmen-collector-kernel]: Downloading https://files.pythonhosted.org/packages/ca/5e/7de78082777288e9114ca52c7c2000afc3896ed5bba54f06e1f048830e16/watchmen_collector_kernel-16.5.8.tar.gz
+[2023-06-15 04:23:04] INFO root fetch - processPackages [watchmen-collector-surface]: Downloading https://files.pythonhosted.org/packages/6d/98/6f314b8e5868017a91bc4583070a0f0d9944505a09ff3f0c26e98e48ba10/watchmen_collector_surface-16.5.8.tar.gz
+[2023-06-15 04:23:04] INFO root fetch - processPackages [watchmen-pipeline-surface]: Downloading https://files.pythonhosted.org/packages/f6/53/cc54470ac0b5a37c01b0bb3a6051a3b2fc87a6f47487975b2a7e584897f3/watchmen_pipeline_surface-16.5.8.tar.gz
+[2023-06-15 04:23:04] INFO root fetch - processPackages [watchmen-indicator-kernel]: Downloading https://files.pythonhosted.org/packages/26/9a/897f733b6816ef77f67ddda2380a4644f63479cf9bd7c61e481ca021d0ab/watchmen_indicator_kernel-16.5.8.tar.gz
+[2023-06-15 04:23:04] INFO root fetch - processPackages [watchmen-inquiry-kernel]: Downloading https://files.pythonhosted.org/packages/00/e7/617efbca41e6c4ba9d3280d95fbf9fba4216f2f4304b9b0d4ec564fd2c48/watchmen_inquiry_kernel-16.5.8.tar.gz
+[2023-06-15 04:23:04] INFO root fetch - processPackages [watchmen-pipeline-kernel]: Downloading https://files.pythonhosted.org/packages/3c/92/7249505f14e206bd65f8e24e2d113cd120e2c6b96f18af0aa6d430b6ccb4/watchmen_pipeline_kernel-16.5.8.tar.gz
+[2023-06-15 04:23:04] INFO root fetch - processPackages [watchmen-dqc]: Downloading https://files.pythonhosted.org/packages/ef/36/6a6deae9edf8a4b2fdd838f36277f7541bb1a1c7218eaa396547536006a8/watchmen_dqc-16.5.8.tar.gz
+[2023-06-15 04:23:04] INFO root fetch - processPackages [watchmen-inquiry-trino]: Downloading https://files.pythonhosted.org/packages/b9/1b/a4d30129c9e064f6454b2392726d5cceca7fa3b37cd1e197292764335b4d/watchmen_inquiry_trino-16.5.8.tar.gz
+[2023-06-15 04:23:04] INFO root fetch - processPackages [watchmen-rest-dqc]: Downloading https://files.pythonhosted.org/packages/02/01/e512baaf2c34d1cf0466d5a2da05219683eb39cdc54668fe82ff3fbb063d/watchmen_rest_dqc-16.5.8.tar.gz
+[2023-06-15 04:23:04] INFO root fetch - processPackages [watchmen-inquiry-surface]: Downloading https://files.pythonhosted.org/packages/41/0f/931ae434af6a923e84e33d4331d44f3d8a067c0c63c2b21c374c7854ead2/watchmen_inquiry_surface-16.5.8.tar.gz
+[2023-06-15 04:23:04] INFO root fetch - processPackages [watchmen-pipeline-surface]: Downloading https://files.pythonhosted.org/packages/28/02/12f9bae1e539410609e1ad97a85385cef5ec5ad77412227299b57e6825f2/watchmen_pipeline_surface-16.5.9.tar.gz
+[2023-06-15 04:23:04] INFO root fetch - processPackages [watchmen-dqc]: Downloading https://files.pythonhosted.org/packages/45/9c/3bb2f1658a88301602790cb3975ab25d17b7282ab1cd3cbceb3b3808a60b/watchmen_dqc-16.5.9.tar.gz
+[2023-06-15 04:23:04] INFO root fetch - processPackages [watchmen-collector-kernel]: Downloading https://files.pythonhosted.org/packages/52/22/1a4743451cea1dd4b0462eaa6691508bbcdcc0be7d79bdb288062c43ead6/watchmen_collector_kernel-16.5.9.tar.gz
+[2023-06-15 04:23:04] INFO root fetch - processPackages [watchmen-inquiry-kernel]: Downloading https://files.pythonhosted.org/packages/8c/68/7cd316de52b67b6958c42ea6bb6660bb128030df2d25f156303631236f38/watchmen_inquiry_kernel-16.5.9.tar.gz
+[2023-06-15 04:23:04] INFO root fetch - processPackages [watchmen-pipeline-kernel]: Downloading https://files.pythonhosted.org/packages/04/db/ba587f3e44ad95578aee010ce507daf01275ceca50c39553b76b5ef663b8/watchmen_pipeline_kernel-16.5.9.tar.gz
+[2023-06-15 04:23:04] INFO root fetch - processPackages [watchmen-indicator-kernel]: Downloading https://files.pythonhosted.org/packages/89/f4/3ce731e64de2dc2940e8d50df4ef5fdad23775b95fc007af46f1237ad33f/watchmen_indicator_kernel-16.5.9.tar.gz
+[2023-06-15 04:23:04] INFO root fetch - processPackages [watchmen-pipeline-surface]: executing diffoscope
+[2023-06-15 04:23:04] INFO root fetch - processPackages [watchmen-pipeline-surface]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/watchmen_pipeline_surface-16.5.8.tar.gz tmp/watchmen_pipeline_surface-16.5.9.tar.gz --markdown 20230615/w/watchmen-pipeline-surface/16.5.8-16.5.9/diff.md --exclude *.pyd
+[2023-06-15 04:23:04] INFO root fetch - processPackages [watchmen-inquiry-trino]: Downloading https://files.pythonhosted.org/packages/4a/d3/e86985aeac954b5cc5bf65672b8ade236acbcffb10a99a3822cdec2f0fb6/watchmen_inquiry_trino-16.5.9.tar.gz
+[2023-06-15 04:23:04] INFO root fetch - processPackages [watchmen-inquiry-kernel]: executing diffoscope
+[2023-06-15 04:23:04] INFO root fetch - processPackages [watchmen-inquiry-kernel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/watchmen_inquiry_kernel-16.5.8.tar.gz tmp/watchmen_inquiry_kernel-16.5.9.tar.gz --markdown 20230615/w/watchmen-inquiry-kernel/16.5.8-16.5.9/diff.md --exclude *.pyd
+[2023-06-15 04:23:04] INFO root fetch - processPackages [watchmen-rest-dqc]: Downloading https://files.pythonhosted.org/packages/e8/47/9294b429f311149df3595dacb808a3e91d3a47bcfcfa56c9e4b296bedf9c/watchmen_rest_dqc-16.5.9.tar.gz
+[2023-06-15 04:23:04] INFO root fetch - processPackages [watchmen-dqc]: executing diffoscope
+[2023-06-15 04:23:04] INFO root fetch - processPackages [watchmen-collector-surface]: Downloading https://files.pythonhosted.org/packages/0b/7e/d7e96797a4248db50ef3feb6b290042bf20976bf27d66fad6668fcd7d6d8/watchmen_collector_surface-16.5.9.tar.gz
+[2023-06-15 04:23:04] INFO root fetch - processPackages [watchmen-collector-kernel]: executing diffoscope
+[2023-06-15 04:23:04] INFO root fetch - processPackages [watchmen-dqc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/watchmen_dqc-16.5.8.tar.gz tmp/watchmen_dqc-16.5.9.tar.gz --markdown 20230615/w/watchmen-dqc/16.5.8-16.5.9/diff.md --exclude *.pyd
+[2023-06-15 04:23:04] INFO root fetch - processPackages [watchmen-collector-kernel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/watchmen_collector_kernel-16.5.8.tar.gz tmp/watchmen_collector_kernel-16.5.9.tar.gz --markdown 20230615/w/watchmen-collector-kernel/16.5.8-16.5.9/diff.md --exclude *.pyd
+[2023-06-15 04:23:04] INFO root fetch - processPackages [watchmen-indicator-kernel]: executing diffoscope
+[2023-06-15 04:23:04] INFO root fetch - processPackages [watchmen-indicator-kernel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/watchmen_indicator_kernel-16.5.8.tar.gz tmp/watchmen_indicator_kernel-16.5.9.tar.gz --markdown 20230615/w/watchmen-indicator-kernel/16.5.8-16.5.9/diff.md --exclude *.pyd
+[2023-06-15 04:23:04] INFO root fetch - processPackages [watchmen-rest-dqc]: executing diffoscope
+[2023-06-15 04:23:04] INFO root fetch - processPackages [watchmen-rest-dqc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/watchmen_rest_dqc-16.5.8.tar.gz tmp/watchmen_rest_dqc-16.5.9.tar.gz --markdown 20230615/w/watchmen-rest-dqc/16.5.8-16.5.9/diff.md --exclude *.pyd
+[2023-06-15 04:23:04] INFO root fetch - processPackages [watchmen-inquiry-trino]: executing diffoscope
+[2023-06-15 04:23:04] INFO root fetch - processPackages [watchmen-inquiry-surface]: Downloading https://files.pythonhosted.org/packages/60/92/0c42f3e2236b3848b2162acf095974677bb935673b554b6f3345c4c259ed/watchmen_inquiry_surface-16.5.9.tar.gz
+[2023-06-15 04:23:04] INFO root fetch - processPackages [watchmen-inquiry-trino]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/watchmen_inquiry_trino-16.5.8.tar.gz tmp/watchmen_inquiry_trino-16.5.9.tar.gz --markdown 20230615/w/watchmen-inquiry-trino/16.5.8-16.5.9/diff.md --exclude *.pyd
+[2023-06-15 04:23:04] INFO root fetch - processPackages [watchmen-collector-surface]: executing diffoscope
+[2023-06-15 04:23:04] INFO root fetch - processPackages [watchmen-collector-surface]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/watchmen_collector_surface-16.5.8.tar.gz tmp/watchmen_collector_surface-16.5.9.tar.gz --markdown 20230615/w/watchmen-collector-surface/16.5.8-16.5.9/diff.md --exclude *.pyd
+[2023-06-15 04:23:04] INFO root fetch - processPackages [watchmen-pipeline-kernel]: executing diffoscope
+[2023-06-15 04:23:04] INFO root fetch - processPackages [watchmen-pipeline-kernel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/watchmen_pipeline_kernel-16.5.8.tar.gz tmp/watchmen_pipeline_kernel-16.5.9.tar.gz --markdown 20230615/w/watchmen-pipeline-kernel/16.5.8-16.5.9/diff.md --exclude *.pyd
+[2023-06-15 04:23:05] INFO root fetch - processPackages [watchmen-inquiry-surface]: executing diffoscope
+[2023-06-15 04:23:05] INFO root fetch - processPackages [watchmen-inquiry-surface]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/watchmen_inquiry_surface-16.5.8.tar.gz tmp/watchmen_inquiry_surface-16.5.9.tar.gz --markdown 20230615/w/watchmen-inquiry-surface/16.5.8-16.5.9/diff.md --exclude *.pyd
+[2023-06-15 04:23:06] INFO root fetch - processPackages [watchmen-pipeline-surface]: Remove: archive file [/home/abi/fetcher/tmp/watchmen_pipeline_surface-16.5.8.tar.gz]
+[2023-06-15 04:23:06] INFO root fetch - processPackages [watchmen-pipeline-surface]: Remove: archive file [/home/abi/fetcher/tmp/watchmen_pipeline_surface-16.5.9.tar.gz]
+[2023-06-15 04:23:06] INFO root fetch - processPackages [watchmen-pipeline-surface]: Start processing: watchmen-indicator-surface
+[2023-06-15 04:23:06] INFO root fetch - main [MainThread]: End processing [watchmen-pipeline-surface]: success
+[2023-06-15 04:23:06] INFO root fetch - processPackages [watchmen-indicator-surface]: New version: [16.5.9] Old Version: [16.5.8]
+[2023-06-15 04:23:06] INFO root fetch - processPackages [watchmen-rest-dqc]: Remove: archive file [/home/abi/fetcher/tmp/watchmen_rest_dqc-16.5.8.tar.gz]
+[2023-06-15 04:23:06] INFO root fetch - processPackages [watchmen-rest-dqc]: Remove: archive file [/home/abi/fetcher/tmp/watchmen_rest_dqc-16.5.9.tar.gz]
+[2023-06-15 04:23:06] INFO root fetch - processPackages [watchmen-rest-dqc]: Start processing: watchmen-rest-doll
+[2023-06-15 04:23:06] INFO root fetch - main [MainThread]: End processing [watchmen-rest-dqc]: success
+[2023-06-15 04:23:06] INFO root fetch - processPackages [watchmen-rest-doll]: New version: [16.5.9] Old Version: [16.5.8]
+[2023-06-15 04:23:06] INFO root fetch - processPackages [watchmen-inquiry-surface]: Remove: archive file [/home/abi/fetcher/tmp/watchmen_inquiry_surface-16.5.8.tar.gz]
+[2023-06-15 04:23:06] INFO root fetch - processPackages [watchmen-inquiry-surface]: Remove: archive file [/home/abi/fetcher/tmp/watchmen_inquiry_surface-16.5.9.tar.gz]
+[2023-06-15 04:23:06] INFO root fetch - processPackages [watchmen-inquiry-surface]: Start processing: watchmen-cli
+[2023-06-15 04:23:06] INFO root fetch - main [MainThread]: End processing [watchmen-inquiry-surface]: success
+[2023-06-15 04:23:06] INFO root fetch - processPackages [watchmen-cli]: New version: [16.5.9] Old Version: [16.5.8]
+[2023-06-15 04:23:06] INFO root fetch - processPackages [watchmen-pipeline-kernel]: Remove: archive file [/home/abi/fetcher/tmp/watchmen_pipeline_kernel-16.5.8.tar.gz]
+[2023-06-15 04:23:06] INFO root fetch - processPackages [watchmen-pipeline-kernel]: Remove: archive file [/home/abi/fetcher/tmp/watchmen_pipeline_kernel-16.5.9.tar.gz]
+[2023-06-15 04:23:06] INFO root fetch - processPackages [watchmen-pipeline-kernel]: Start processing: mystring
+[2023-06-15 04:23:06] INFO root fetch - main [MainThread]: End processing [watchmen-pipeline-kernel]: success
+[2023-06-15 04:23:06] INFO root fetch - processPackages [mystring]: New version: [0.0.91] Old Version: [0.0.90]
+[2023-06-15 04:23:06] INFO root fetch - processPackages [watchmen-collector-kernel]: Remove: archive file [/home/abi/fetcher/tmp/watchmen_collector_kernel-16.5.8.tar.gz]
+[2023-06-15 04:23:06] INFO root fetch - processPackages [watchmen-collector-kernel]: Remove: archive file [/home/abi/fetcher/tmp/watchmen_collector_kernel-16.5.9.tar.gz]
+[2023-06-15 04:23:06] INFO root fetch - processPackages [watchmen-collector-kernel]: Start processing: dorado
+[2023-06-15 04:23:06] INFO root fetch - main [MainThread]: End processing [watchmen-collector-kernel]: success
+[2023-06-15 04:23:06] INFO root fetch - processPackages [watchmen-indicator-surface]: Downloading https://files.pythonhosted.org/packages/b4/aa/0fbf4127368309b40bc2aa5089dcf3643176344d41650598cd5607a9986e/watchmen_indicator_surface-16.5.8.tar.gz
+[2023-06-15 04:23:06] INFO root fetch - processPackages [dorado]: New version: [2.0.6.dev99] Old Version: [2.0.6.dev97]
+[2023-06-15 04:23:06] INFO root fetch - processPackages [watchmen-rest-doll]: Downloading https://files.pythonhosted.org/packages/ee/ad/529ebbd43ca0ccbedbb09d452ae55e4bdefc04863f91ec6ab3a727224eae/watchmen_rest_doll-16.5.8.tar.gz
+[2023-06-15 04:23:06] INFO root fetch - processPackages [watchmen-inquiry-trino]: Remove: archive file [/home/abi/fetcher/tmp/watchmen_inquiry_trino-16.5.8.tar.gz]
+[2023-06-15 04:23:06] INFO root fetch - processPackages [watchmen-inquiry-trino]: Remove: archive file [/home/abi/fetcher/tmp/watchmen_inquiry_trino-16.5.9.tar.gz]
+[2023-06-15 04:23:06] INFO root fetch - processPackages [watchmen-inquiry-trino]: Start processing: quantecon-book-theme
+[2023-06-15 04:23:06] INFO root fetch - main [MainThread]: End processing [watchmen-inquiry-trino]: success
+[2023-06-15 04:23:06] INFO root fetch - processPackages [watchmen-collector-surface]: Remove: archive file [/home/abi/fetcher/tmp/watchmen_collector_surface-16.5.8.tar.gz]
+[2023-06-15 04:23:06] INFO root fetch - processPackages [watchmen-inquiry-kernel]: Remove: archive file [/home/abi/fetcher/tmp/watchmen_inquiry_kernel-16.5.8.tar.gz]
+[2023-06-15 04:23:06] INFO root fetch - processPackages [watchmen-collector-surface]: Remove: archive file [/home/abi/fetcher/tmp/watchmen_collector_surface-16.5.9.tar.gz]
+[2023-06-15 04:23:06] INFO root fetch - processPackages [watchmen-inquiry-kernel]: Remove: archive file [/home/abi/fetcher/tmp/watchmen_inquiry_kernel-16.5.9.tar.gz]
+[2023-06-15 04:23:06] INFO root fetch - processPackages [watchmen-collector-surface]: Start processing: SamIdea
+[2023-06-15 04:23:06] INFO root fetch - main [MainThread]: End processing [watchmen-collector-surface]: success
+[2023-06-15 04:23:06] INFO root fetch - processPackages [watchmen-inquiry-kernel]: Start processing: pyportable-crypto
+[2023-06-15 04:23:06] INFO root fetch - main [MainThread]: End processing [watchmen-inquiry-kernel]: success
+[2023-06-15 04:23:06] INFO root fetch - processPackages [dorado]: Downloading https://files.pythonhosted.org/packages/28/c3/25ec9324622ba0dd720edcd3809a1c623c162133d247d2e22790624c723b/dorado-2.0.6.dev97.tar.gz
+[2023-06-15 04:23:06] INFO root fetch - processPackages [SamIdea]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-15 04:23:06] INFO root fetch - processPackages [pyportable-crypto]: New version: [1.1.0] Old Version: [1.0.3]
+[2023-06-15 04:23:06] INFO root fetch - processPackages [quantecon-book-theme]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-06-15 04:23:06] INFO root fetch - processPackages [watchmen-cli]: Downloading https://files.pythonhosted.org/packages/22/22/16efc1595b55b0bdc2c77f09aee835c9fc3858979267abb12220f3e4ad06/watchmen_cli-16.5.8.tar.gz
+[2023-06-15 04:23:06] INFO root fetch - processPackages [mystring]: Downloading https://files.pythonhosted.org/packages/df/5f/80226313d11c816dc52d2430f3307cd75015e24b13dc962e3e86e13703d3/mystring-0.0.90.tar.gz
+[2023-06-15 04:23:06] INFO root fetch - processPackages [dorado]: Downloading https://files.pythonhosted.org/packages/b9/2e/854512bc2085bd5738d74bd4b50e4a958e43ee3e802999c5402e429e6030/dorado-2.0.6.dev99.tar.gz
+[2023-06-15 04:23:06] INFO root fetch - processPackages [pyportable-crypto]: Downloading https://files.pythonhosted.org/packages/92/b0/f5b6b5867412331ba672d1d0c5708defc790e6335993e47599fcb21e69fa/pyportable-crypto-1.0.3.tar.gz
+[2023-06-15 04:23:06] INFO root fetch - processPackages [SamIdea]: Downloading https://files.pythonhosted.org/packages/df/b7/978ee8093da447b91366cd1c00ace5534c13bdb8759aa475f9532e30d9b8/samidea-0.0.3.tar.gz
+[2023-06-15 04:23:06] INFO root fetch - processPackages [quantecon-book-theme]: Downloading https://files.pythonhosted.org/packages/ba/de/92d7944481b80988d2130f38bc6b5c4c4a055e94fded0756e20c4235eb92/quantecon-book-theme-0.5.0.tar.gz
+[2023-06-15 04:23:06] INFO root fetch - processPackages [watchmen-dqc]: Remove: archive file [/home/abi/fetcher/tmp/watchmen_dqc-16.5.8.tar.gz]
+[2023-06-15 04:23:06] INFO root fetch - processPackages [watchmen-dqc]: Remove: archive file [/home/abi/fetcher/tmp/watchmen_dqc-16.5.9.tar.gz]
+[2023-06-15 04:23:06] INFO root fetch - processPackages [watchmen-indicator-surface]: Downloading https://files.pythonhosted.org/packages/cd/25/83a89f9bd0b86f37aa60ee791629d25d96216ca195e8db03416d8589d50a/watchmen_indicator_surface-16.5.9.tar.gz
+[2023-06-15 04:23:06] INFO root fetch - processPackages [watchmen-dqc]: Start processing: sqlglot
+[2023-06-15 04:23:06] INFO root fetch - main [MainThread]: End processing [watchmen-dqc]: success
+[2023-06-15 04:23:06] INFO root fetch - processPackages [dorado]: executing diffoscope
+[2023-06-15 04:23:06] INFO root fetch - processPackages [dorado]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dorado-2.0.6.dev97.tar.gz tmp/dorado-2.0.6.dev99.tar.gz --markdown 20230615/d/dorado/2.0.6.dev97-2.0.6.dev99/diff.md --exclude *.pyd
+[2023-06-15 04:23:07] INFO root fetch - processPackages [sqlglot]: New version: [9.0.6] Old Version: [9.0.5]
+[2023-06-15 04:23:07] INFO root fetch - processPackages [watchmen-rest-doll]: Downloading https://files.pythonhosted.org/packages/7e/18/ee0b6d49131dc37d6221578e37fa1415a47b9db43f1a2e73f13041a4d0f0/watchmen_rest_doll-16.5.9.tar.gz
+[2023-06-15 04:23:07] INFO root fetch - processPackages [mystring]: Downloading https://files.pythonhosted.org/packages/58/28/4d2b8b47f8ba454d7175bf37deffe460f4a317125018de641cbac01e97b2/mystring-0.0.91.tar.gz
+[2023-06-15 04:23:07] INFO root fetch - processPackages [watchmen-rest-doll]: executing diffoscope
+[2023-06-15 04:23:07] INFO root fetch - processPackages [watchmen-indicator-surface]: executing diffoscope
+[2023-06-15 04:23:07] INFO root fetch - processPackages [watchmen-indicator-surface]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/watchmen_indicator_surface-16.5.8.tar.gz tmp/watchmen_indicator_surface-16.5.9.tar.gz --markdown 20230615/w/watchmen-indicator-surface/16.5.8-16.5.9/diff.md --exclude *.pyd
+[2023-06-15 04:23:07] INFO root fetch - processPackages [watchmen-rest-doll]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/watchmen_rest_doll-16.5.8.tar.gz tmp/watchmen_rest_doll-16.5.9.tar.gz --markdown 20230615/w/watchmen-rest-doll/16.5.8-16.5.9/diff.md --exclude *.pyd
+[2023-06-15 04:23:07] INFO root fetch - processPackages [mystring]: executing diffoscope
+[2023-06-15 04:23:07] INFO root fetch - processPackages [mystring]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mystring-0.0.90.tar.gz tmp/mystring-0.0.91.tar.gz --markdown 20230615/m/mystring/0.0.90-0.0.91/diff.md --exclude *.pyd
+[2023-06-15 04:23:07] INFO root fetch - processPackages [SamIdea]: Downloading https://files.pythonhosted.org/packages/92/3d/ebb03c948e9e705737d248e3a21889f9e8db575ca40a2a60ac52403d31a2/samidea-0.0.4.tar.gz
+[2023-06-15 04:23:07] INFO root fetch - processPackages [pyportable-crypto]: Downloading https://files.pythonhosted.org/packages/57/61/1bf43f821979d8c7f0b2424152b3fb24713a1f8e78019d6b9f6583bac027/pyportable_crypto-1.1.0-py3-none-any.whl
+[2023-06-15 04:23:07] INFO root fetch - processPackages [watchmen-cli]: Downloading https://files.pythonhosted.org/packages/7d/61/da8bfe1be628c6b1b9d3b3e54930cf4f5888e178a50adbc460ad0cbe38a1/watchmen_cli-16.5.9.tar.gz
+[2023-06-15 04:23:07] INFO root fetch - processPackages [sqlglot]: Downloading https://files.pythonhosted.org/packages/20/6b/5034324cd2ac42831b5103037f6a14e518172128c4196b8d01b93dcc76c8/sqlglot-9.0.5.tar.gz
+[2023-06-15 04:23:07] INFO root fetch - processPackages [watchmen-indicator-kernel]: Remove: archive file [/home/abi/fetcher/tmp/watchmen_indicator_kernel-16.5.8.tar.gz]
+[2023-06-15 04:23:07] INFO root fetch - processPackages [watchmen-indicator-kernel]: Remove: archive file [/home/abi/fetcher/tmp/watchmen_indicator_kernel-16.5.9.tar.gz]
+[2023-06-15 04:23:07] INFO root fetch - processPackages [watchmen-indicator-kernel]: Start processing: zensvi
+[2023-06-15 04:23:07] INFO root fetch - main [MainThread]: End processing [watchmen-indicator-kernel]: success
+[2023-06-15 04:23:07] INFO root fetch - processPackages [zensvi]: New version: [0.6.2] Old Version: [0.6.1]
+[2023-06-15 04:23:07] INFO root fetch - processPackages [watchmen-cli]: executing diffoscope
+[2023-06-15 04:23:07] INFO root fetch - processPackages [watchmen-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/watchmen_cli-16.5.8.tar.gz tmp/watchmen_cli-16.5.9.tar.gz --markdown 20230615/w/watchmen-cli/16.5.8-16.5.9/diff.md --exclude *.pyd
+[2023-06-15 04:23:07] INFO root fetch - processPackages [pyportable-crypto]: executing diffoscope
+[2023-06-15 04:23:07] INFO root fetch - processPackages [pyportable-crypto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyportable-crypto-1.0.3.tar.gz tmp/pyportable_crypto-1.1.0-py3-none-any.whl.zip --markdown 20230615/p/pyportable-crypto/1.0.3-1.1.0/diff.md --exclude *.pyd
+[2023-06-15 04:23:07] INFO root fetch - processPackages [zensvi]: Downloading https://files.pythonhosted.org/packages/b8/cf/77dc9b4a09862933245d214918e3cfdce0f2bbb77c22075570f212d5269d/zensvi-0.6.1.tar.gz
+[2023-06-15 04:23:07] INFO root fetch - processPackages [quantecon-book-theme]: Downloading https://files.pythonhosted.org/packages/97/74/4469d91cfe38dd6c2777587080c63759029b87f00cc342b9fdb008634239/quantecon-book-theme-0.5.1.tar.gz
+[2023-06-15 04:23:07] INFO root fetch - processPackages [SamIdea]: executing diffoscope
+[2023-06-15 04:23:07] INFO root fetch - processPackages [SamIdea]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/samidea-0.0.3.tar.gz tmp/samidea-0.0.4.tar.gz --markdown 20230615/S/SamIdea/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-15 04:23:07] INFO root fetch - processPackages [quantecon-book-theme]: executing diffoscope
+[2023-06-15 04:23:07] INFO root fetch - processPackages [quantecon-book-theme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantecon-book-theme-0.5.0.tar.gz tmp/quantecon-book-theme-0.5.1.tar.gz --markdown 20230615/q/quantecon-book-theme/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-06-15 04:23:07] INFO root fetch - processPackages [sqlglot]: Downloading https://files.pythonhosted.org/packages/36/2a/e7389a112e1a7cfd1fcc7c7209a0f8f5ffe905ce8aad03f447367dc9b209/sqlglot-9.0.6.tar.gz
+[2023-06-15 04:23:07] INFO root fetch - processPackages [zensvi]: Downloading https://files.pythonhosted.org/packages/2a/9c/2101d5e5bc023b216482c065bed114ce4010d4147ab1091e9b6548bcfd62/zensvi-0.6.2.tar.gz
+[2023-06-15 04:23:07] INFO root fetch - processPackages [sqlglot]: executing diffoscope
+[2023-06-15 04:23:07] INFO root fetch - processPackages [sqlglot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlglot-9.0.5.tar.gz tmp/sqlglot-9.0.6.tar.gz --markdown 20230615/s/sqlglot/9.0.5-9.0.6/diff.md --exclude *.pyd
+[2023-06-15 04:23:08] INFO root fetch - processPackages [zensvi]: executing diffoscope
+[2023-06-15 04:23:08] INFO root fetch - processPackages [zensvi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zensvi-0.6.1.tar.gz tmp/zensvi-0.6.2.tar.gz --markdown 20230615/z/zensvi/0.6.1-0.6.2/diff.md --exclude *.pyd
+[2023-06-15 04:23:08] INFO root fetch - processPackages [mystring]: Remove: archive file [/home/abi/fetcher/tmp/mystring-0.0.90.tar.gz]
+[2023-06-15 04:23:08] INFO root fetch - processPackages [mystring]: Remove: archive file [/home/abi/fetcher/tmp/mystring-0.0.91.tar.gz]
+[2023-06-15 04:23:08] INFO root fetch - main [MainThread]: End processing [mystring]: success
+[2023-06-15 04:23:08] INFO root fetch - processPackages [watchmen-indicator-surface]: Remove: archive file [/home/abi/fetcher/tmp/watchmen_indicator_surface-16.5.8.tar.gz]
+[2023-06-15 04:23:08] INFO root fetch - processPackages [watchmen-indicator-surface]: Remove: archive file [/home/abi/fetcher/tmp/watchmen_indicator_surface-16.5.9.tar.gz]
+[2023-06-15 04:23:08] INFO root fetch - main [MainThread]: End processing [watchmen-indicator-surface]: success
+[2023-06-15 04:23:08] INFO root fetch - processPackages [SamIdea]: Remove: archive file [/home/abi/fetcher/tmp/samidea-0.0.3.tar.gz]
+[2023-06-15 04:23:08] INFO root fetch - processPackages [SamIdea]: Remove: archive file [/home/abi/fetcher/tmp/samidea-0.0.4.tar.gz]
+[2023-06-15 04:23:08] INFO root fetch - main [MainThread]: End processing [SamIdea]: success
+[2023-06-15 04:23:08] INFO root fetch - processPackages [dorado]: Remove: archive file [/home/abi/fetcher/tmp/dorado-2.0.6.dev97.tar.gz]
+[2023-06-15 04:23:08] INFO root fetch - processPackages [dorado]: Remove: archive file [/home/abi/fetcher/tmp/dorado-2.0.6.dev99.tar.gz]
+[2023-06-15 04:23:08] INFO root fetch - main [MainThread]: End processing [dorado]: success
+[2023-06-15 04:23:08] INFO root fetch - processPackages [watchmen-cli]: Remove: archive file [/home/abi/fetcher/tmp/watchmen_cli-16.5.8.tar.gz]
+[2023-06-15 04:23:08] INFO root fetch - processPackages [watchmen-cli]: Remove: archive file [/home/abi/fetcher/tmp/watchmen_cli-16.5.9.tar.gz]
+[2023-06-15 04:23:09] INFO root fetch - main [MainThread]: End processing [watchmen-cli]: success
+[2023-06-15 04:23:09] INFO root fetch - processPackages [watchmen-rest-doll]: Remove: archive file [/home/abi/fetcher/tmp/watchmen_rest_doll-16.5.8.tar.gz]
+[2023-06-15 04:23:09] INFO root fetch - processPackages [watchmen-rest-doll]: Remove: archive file [/home/abi/fetcher/tmp/watchmen_rest_doll-16.5.9.tar.gz]
+[2023-06-15 04:23:09] INFO root fetch - main [MainThread]: End processing [watchmen-rest-doll]: success
+[2023-06-15 04:23:09] INFO root fetch - processPackages [quantecon-book-theme]: Remove: archive file [/home/abi/fetcher/tmp/quantecon-book-theme-0.5.0.tar.gz]
+[2023-06-15 04:23:09] INFO root fetch - processPackages [quantecon-book-theme]: Remove: archive file [/home/abi/fetcher/tmp/quantecon-book-theme-0.5.1.tar.gz]
+[2023-06-15 04:23:09] INFO root fetch - main [MainThread]: End processing [quantecon-book-theme]: success
+[2023-06-15 04:23:09] INFO root fetch - processPackages [pyportable-crypto]: Remove: archive file [/home/abi/fetcher/tmp/pyportable-crypto-1.0.3.tar.gz]
+[2023-06-15 04:23:09] INFO root fetch - processPackages [pyportable-crypto]: Remove: archive file [/home/abi/fetcher/tmp/pyportable_crypto-1.1.0-py3-none-any.whl.zip]
+[2023-06-15 04:23:09] INFO root fetch - main [MainThread]: End processing [pyportable-crypto]: success
+[2023-06-15 04:23:10] INFO root fetch - processPackages [zensvi]: Remove: archive file [/home/abi/fetcher/tmp/zensvi-0.6.1.tar.gz]
+[2023-06-15 04:23:10] INFO root fetch - processPackages [zensvi]: Remove: archive file [/home/abi/fetcher/tmp/zensvi-0.6.2.tar.gz]
+[2023-06-15 04:23:10] INFO root fetch - main [MainThread]: End processing [zensvi]: success
+[2023-06-15 04:23:11] INFO root fetch - processPackages [sqlglot]: Remove: archive file [/home/abi/fetcher/tmp/sqlglot-9.0.5.tar.gz]
+[2023-06-15 04:23:11] INFO root fetch - processPackages [sqlglot]: Remove: archive file [/home/abi/fetcher/tmp/sqlglot-9.0.6.tar.gz]
+[2023-06-15 04:23:11] INFO root fetch - main [MainThread]: End processing [sqlglot]: success
+[2023-06-15 04:23:11] INFO root fetch - main [MainThread]: Store serial: [18510105]
