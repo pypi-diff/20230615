@@ -7080,3 +7080,317 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-15 04:36:00] INFO root fetch - processPackages [starwhale]: Remove: archive file [/home/abi/fetcher/tmp/starwhale-0.4.9.tar.gz]
 [2023-06-15 04:36:00] INFO root fetch - main [MainThread]: End processing [starwhale]: success
 [2023-06-15 04:36:00] INFO root fetch - main [MainThread]: Store serial: [18510201]
+[2023-06-15 04:41:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18510201]
+[2023-06-15 04:41:17] INFO root fetch - main [MainThread]: Found 26 changed packages
+[2023-06-15 04:41:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: harlequin
+[2023-06-15 04:41:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo14-addon-account-fiscal-year-closing
+[2023-06-15 04:41:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo14-addon-account-cutoff-base
+[2023-06-15 04:41:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: naif-eop-high-prec
+[2023-06-15 04:41:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: xklb
+[2023-06-15 04:41:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdk8s-plus-24
+[2023-06-15 04:41:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cubestat
+[2023-06-15 04:41:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo14-addon-mis-builder-cash-flow
+[2023-06-15 04:41:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cdk8s-plus-26
+[2023-06-15 04:41:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo-addon-mis-builder-cash-flow
+[2023-06-15 04:41:17] INFO root fetch - processPackages [naif-eop-high-prec]: New version: [2023.6.9] Old Version: [2023.6.8]
+[2023-06-15 04:41:17] INFO root fetch - processPackages [odoo14-addon-account-cutoff-base]: New version: [14.0.2.0.1.dev3] Old Version: [14.0.2.0.1.dev2]
+[2023-06-15 04:41:17] INFO root fetch - processPackages [odoo14-addon-account-fiscal-year-closing]: New version: [14.0.1.0.2.dev2] Old Version: [14.0.1.0.2.dev1]
+[2023-06-15 04:41:17] INFO root fetch - processPackages [cubestat]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-15 04:41:17] INFO root fetch - processPackages [cdk8s-plus-26]: New version: [2.4.9] Old Version: [2.4.8]
+[2023-06-15 04:41:17] INFO root fetch - processPackages [harlequin]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-15 04:41:17] INFO root fetch - processPackages [odoo14-addon-mis-builder-cash-flow]: New version: [14.0.1.0.3.dev2] Old Version: [14.0.1.0.3.dev1]
+[2023-06-15 04:41:17] INFO root fetch - processPackages [xklb]: New version: [1.31.6] Old Version: [1.31.5]
+[2023-06-15 04:41:17] INFO root fetch - processPackages [cdk8s-plus-24]: New version: [2.8.9] Old Version: [2.8.8]
+[2023-06-15 04:41:17] INFO root fetch - processPackages [odoo-addon-mis-builder-cash-flow]: New version: [15.0.1.0.0.4] Old Version: [15.0.1.0.0.3]
+[2023-06-15 04:41:17] INFO root fetch - processPackages [cdk8s-plus-26]: Downloading https://files.pythonhosted.org/packages/6b/c4/ca78f2534fcd6fa938f5b5afdce2bc5d4b2e4aca2bd70a7a76993d55cb1a/cdk8s-plus-26-2.4.8.tar.gz
+[2023-06-15 04:41:17] INFO root fetch - processPackages [cubestat]: Downloading https://files.pythonhosted.org/packages/75/a4/b76e26024a6d2540ab064cb7a10c7ebd90a83b74caea8b576c8bc9bb8e6f/cubestat-0.0.2.tar.gz
+[2023-06-15 04:41:17] INFO root fetch - processPackages [xklb]: Downloading https://files.pythonhosted.org/packages/c7/24/97ad36c3a4ec2605a53c48e4457414e102334e02879e4ad70a831aac4042/xklb-1.31.5.tar.gz
+[2023-06-15 04:41:17] INFO root fetch - processPackages [odoo14-addon-account-fiscal-year-closing]: Downloading https://files.pythonhosted.org/packages/00/85/1939f6b92b9274dc67dd9a4ccfdb6158bfa8d05ce84c0aba182c6f46ba8e/odoo14_addon_account_fiscal_year_closing-14.0.1.0.2.dev1-py3-none-any.whl
+[2023-06-15 04:41:17] INFO root fetch - processPackages [harlequin]: Downloading https://files.pythonhosted.org/packages/9a/84/d4433542b532cc2cf84b7c6f9c0fc8a4dacf46f0869451b85488cd9c70f9/harlequin-0.0.8.tar.gz
+[2023-06-15 04:41:18] INFO root fetch - processPackages [odoo14-addon-mis-builder-cash-flow]: Downloading https://files.pythonhosted.org/packages/1a/88/8601642e778b764533abc1f006e63c70fcd57c3fceee466232cca7fad8b3/odoo14_addon_mis_builder_cash_flow-14.0.1.0.3.dev1-py3-none-any.whl
+[2023-06-15 04:41:18] INFO root fetch - processPackages [odoo14-addon-account-cutoff-base]: Downloading https://files.pythonhosted.org/packages/d8/5b/9cff500969c13176245c645c528fde895c342ddd7b4f7a7ff180bfacfa0a/odoo14_addon_account_cutoff_base-14.0.2.0.1.dev2-py3-none-any.whl
+[2023-06-15 04:41:18] INFO root fetch - processPackages [cdk8s-plus-24]: Downloading https://files.pythonhosted.org/packages/73/d5/49a8dc44e72e5db18c0f19520eb82a0010e697d0f43ab159152c33791aa7/cdk8s-plus-24-2.8.8.tar.gz
+[2023-06-15 04:41:18] INFO root fetch - processPackages [odoo-addon-mis-builder-cash-flow]: Downloading https://files.pythonhosted.org/packages/71/57/94e287d337cdc544a06fda1f1beb15280ada51bf261ed66008ed80bce760/odoo_addon_mis_builder_cash_flow-15.0.1.0.0.3-py3-none-any.whl
+[2023-06-15 04:41:18] INFO root fetch - processPackages [cubestat]: Downloading https://files.pythonhosted.org/packages/87/fb/eee770e53a0a1fce28550ad070ebc4ef05108a3c229fc83804a03a3afbba/cubestat-0.0.3.tar.gz
+[2023-06-15 04:41:18] INFO root fetch - processPackages [xklb]: Downloading https://files.pythonhosted.org/packages/87/8a/dc068a1a73958a8d46839e5af9de6c187d8b8689ac5434906628c98461b8/xklb-1.31.6.tar.gz
+[2023-06-15 04:41:18] INFO root fetch - processPackages [cubestat]: executing diffoscope
+[2023-06-15 04:41:18] INFO root fetch - processPackages [cubestat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cubestat-0.0.2.tar.gz tmp/cubestat-0.0.3.tar.gz --markdown 20230615/c/cubestat/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-15 04:41:18] INFO root fetch - processPackages [odoo14-addon-account-cutoff-base]: Downloading https://files.pythonhosted.org/packages/0e/39/97aaf0c93fef9c178cd8cd1ab71c355967aa4c6a0101003a29628b0c94ea/odoo14_addon_account_cutoff_base-14.0.2.0.1.dev3-py3-none-any.whl
+[2023-06-15 04:41:18] INFO root fetch - processPackages [odoo14-addon-account-fiscal-year-closing]: Downloading https://files.pythonhosted.org/packages/ba/e6/435e199997543b0bd21a0584736743133783fa5eecb0fdee5437fa9d9474/odoo14_addon_account_fiscal_year_closing-14.0.1.0.2.dev2-py3-none-any.whl
+[2023-06-15 04:41:18] INFO root fetch - processPackages [xklb]: executing diffoscope
+[2023-06-15 04:41:18] INFO root fetch - processPackages [xklb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xklb-1.31.5.tar.gz tmp/xklb-1.31.6.tar.gz --markdown 20230615/x/xklb/1.31.5-1.31.6/diff.md --exclude *.pyd
+[2023-06-15 04:41:18] INFO root fetch - processPackages [naif-eop-high-prec]: Downloading https://files.pythonhosted.org/packages/ea/0f/9044bbdb2efd71c50d870fc6fcaa6c3fd51bb323c9c484bdca69334e5a1e/naif_eop_high_prec-2023.6.8.tar.gz
+[2023-06-15 04:41:18] INFO root fetch - processPackages [cdk8s-plus-24]: Downloading https://files.pythonhosted.org/packages/a4/eb/7fc3f17d6eb6750041a6b336906ad566e6b538954d0cd6fe7880f54bf206/cdk8s-plus-24-2.8.9.tar.gz
+[2023-06-15 04:41:18] INFO root fetch - processPackages [harlequin]: Downloading https://files.pythonhosted.org/packages/e2/a0/ca3c337e06ecbd039bbccab3d2d55ab9c4a87f51afd28c19e804aca66fd5/harlequin-0.0.9.tar.gz
+[2023-06-15 04:41:18] INFO root fetch - processPackages [odoo-addon-mis-builder-cash-flow]: Downloading https://files.pythonhosted.org/packages/22/4b/ca6861d7534a8328e5ad86f4abee9c2af921254d001227cca2e07f07efee/odoo_addon_mis_builder_cash_flow-15.0.1.0.0.4-py3-none-any.whl
+[2023-06-15 04:41:18] INFO root fetch - processPackages [cdk8s-plus-24]: executing diffoscope
+[2023-06-15 04:41:18] INFO root fetch - processPackages [cdk8s-plus-24]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-24-2.8.8.tar.gz tmp/cdk8s-plus-24-2.8.9.tar.gz --markdown 20230615/c/cdk8s-plus-24/2.8.8-2.8.9/diff.md --exclude *.pyd
+[2023-06-15 04:41:18] INFO root fetch - processPackages [odoo14-addon-account-cutoff-base]: executing diffoscope
+[2023-06-15 04:41:18] INFO root fetch - processPackages [odoo14-addon-account-cutoff-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_account_cutoff_base-14.0.2.0.1.dev2-py3-none-any.whl.zip tmp/odoo14_addon_account_cutoff_base-14.0.2.0.1.dev3-py3-none-any.whl.zip --markdown 20230615/o/odoo14-addon-account-cutoff-base/14.0.2.0.1.dev2-14.0.2.0.1.dev3/diff.md --exclude *.pyd
+[2023-06-15 04:41:18] INFO root fetch - processPackages [odoo14-addon-account-fiscal-year-closing]: executing diffoscope
+[2023-06-15 04:41:18] INFO root fetch - processPackages [odoo14-addon-account-fiscal-year-closing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_account_fiscal_year_closing-14.0.1.0.2.dev1-py3-none-any.whl.zip tmp/odoo14_addon_account_fiscal_year_closing-14.0.1.0.2.dev2-py3-none-any.whl.zip --markdown 20230615/o/odoo14-addon-account-fiscal-year-closing/14.0.1.0.2.dev1-14.0.1.0.2.dev2/diff.md --exclude *.pyd
+[2023-06-15 04:41:18] INFO root fetch - processPackages [odoo14-addon-mis-builder-cash-flow]: Downloading https://files.pythonhosted.org/packages/4a/f1/900dc7ef58378321050a8a1b564b16ced8a0c3ef5b6b09d99329dbc99989/odoo14_addon_mis_builder_cash_flow-14.0.1.0.3.dev2-py3-none-any.whl
+[2023-06-15 04:41:18] INFO root fetch - processPackages [odoo-addon-mis-builder-cash-flow]: executing diffoscope
+[2023-06-15 04:41:18] INFO root fetch - processPackages [odoo-addon-mis-builder-cash-flow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_mis_builder_cash_flow-15.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_mis_builder_cash_flow-15.0.1.0.0.4-py3-none-any.whl.zip --markdown 20230615/o/odoo-addon-mis-builder-cash-flow/15.0.1.0.0.3-15.0.1.0.0.4/diff.md --exclude *.pyd
+[2023-06-15 04:41:18] INFO root fetch - processPackages [harlequin]: executing diffoscope
+[2023-06-15 04:41:18] INFO root fetch - processPackages [harlequin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/harlequin-0.0.8.tar.gz tmp/harlequin-0.0.9.tar.gz --markdown 20230615/h/harlequin/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-15 04:41:18] INFO root fetch - processPackages [cdk8s-plus-26]: Downloading https://files.pythonhosted.org/packages/20/3d/a3b8eeb4f101c4c0e5eec995ea1c102412a861b81c18eee0d10bad4570fb/cdk8s-plus-26-2.4.9.tar.gz
+[2023-06-15 04:41:18] INFO root fetch - processPackages [cdk8s-plus-26]: executing diffoscope
+[2023-06-15 04:41:18] INFO root fetch - processPackages [cdk8s-plus-26]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-26-2.4.8.tar.gz tmp/cdk8s-plus-26-2.4.9.tar.gz --markdown 20230615/c/cdk8s-plus-26/2.4.8-2.4.9/diff.md --exclude *.pyd
+[2023-06-15 04:41:19] INFO root fetch - processPackages [odoo14-addon-mis-builder-cash-flow]: executing diffoscope
+[2023-06-15 04:41:19] INFO root fetch - processPackages [odoo14-addon-mis-builder-cash-flow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_mis_builder_cash_flow-14.0.1.0.3.dev1-py3-none-any.whl.zip tmp/odoo14_addon_mis_builder_cash_flow-14.0.1.0.3.dev2-py3-none-any.whl.zip --markdown 20230615/o/odoo14-addon-mis-builder-cash-flow/14.0.1.0.3.dev1-14.0.1.0.3.dev2/diff.md --exclude *.pyd
+[2023-06-15 04:41:19] INFO root fetch - processPackages [cubestat]: Remove: archive file [/home/abi/fetcher/tmp/cubestat-0.0.2.tar.gz]
+[2023-06-15 04:41:19] INFO root fetch - processPackages [cubestat]: Remove: archive file [/home/abi/fetcher/tmp/cubestat-0.0.3.tar.gz]
+[2023-06-15 04:41:19] INFO root fetch - processPackages [cubestat]: Start processing: Wavelink
+[2023-06-15 04:41:19] INFO root fetch - main [MainThread]: End processing [cubestat]: success
+[2023-06-15 04:41:19] INFO root fetch - processPackages [Wavelink]: New version: [2.5.0] Old Version: [2.4.0]
+[2023-06-15 04:41:19] INFO root fetch - processPackages [Wavelink]: Downloading https://files.pythonhosted.org/packages/c1/2e/4339c8fb19858607926fabb3a3411e41306e5aa1bb44cba8307c3dc947fe/Wavelink-2.4.0.tar.gz
+[2023-06-15 04:41:19] INFO root fetch - processPackages [Wavelink]: Downloading https://files.pythonhosted.org/packages/a5/a1/3da78c40f13fc2f39eb604f7d21a394bbcedf35042d58133364c8709474b/Wavelink-2.5.0.tar.gz
+[2023-06-15 04:41:19] INFO root fetch - processPackages [odoo-addon-mis-builder-cash-flow]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mis_builder_cash_flow-15.0.1.0.0.3-py3-none-any.whl.zip]
+[2023-06-15 04:41:19] INFO root fetch - processPackages [odoo-addon-mis-builder-cash-flow]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mis_builder_cash_flow-15.0.1.0.0.4-py3-none-any.whl.zip]
+[2023-06-15 04:41:19] INFO root fetch - processPackages [odoo-addon-mis-builder-cash-flow]: Start processing: xklb
+[2023-06-15 04:41:19] INFO root fetch - main [MainThread]: End processing [odoo-addon-mis-builder-cash-flow]: success
+[2023-06-15 04:41:19] INFO root fetch - processPackages [Wavelink]: executing diffoscope
+[2023-06-15 04:41:19] INFO root fetch - processPackages [Wavelink]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Wavelink-2.4.0.tar.gz tmp/Wavelink-2.5.0.tar.gz --markdown 20230615/W/Wavelink/2.4.0-2.5.0/diff.md --exclude *.pyd
+[2023-06-15 04:41:20] INFO root fetch - processPackages [naif-eop-high-prec]: Downloading https://files.pythonhosted.org/packages/86/df/7e6a8b8768d3fb282891cae7859ab48b4ff949a7ed50e8d31090c561c199/naif_eop_high_prec-2023.6.9.tar.gz
+[2023-06-15 04:41:20] INFO root fetch - processPackages [xklb]: New version: [1.31.6] Old Version: [1.31.5]
+[2023-06-15 04:41:20] INFO root fetch - processPackages [odoo14-addon-account-fiscal-year-closing]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_account_fiscal_year_closing-14.0.1.0.2.dev1-py3-none-any.whl.zip]
+[2023-06-15 04:41:20] INFO root fetch - processPackages [odoo14-addon-account-fiscal-year-closing]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_account_fiscal_year_closing-14.0.1.0.2.dev2-py3-none-any.whl.zip]
+[2023-06-15 04:41:20] INFO root fetch - processPackages [odoo14-addon-account-fiscal-year-closing]: Start processing: iam-actions
+[2023-06-15 04:41:20] INFO root fetch - main [MainThread]: End processing [odoo14-addon-account-fiscal-year-closing]: success
+[2023-06-15 04:41:20] INFO root fetch - processPackages [iam-actions]: New version: [1.2.20230615] Old Version: [1.2.20230614]
+[2023-06-15 04:41:20] INFO root fetch - processPackages [xklb]: executing diffoscope
+[2023-06-15 04:41:20] INFO root fetch - processPackages [xklb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xklb-1.31.5.tar.gz tmp/xklb-1.31.6.tar.gz --markdown 20230615/x/xklb/1.31.5-1.31.6/diff.md --exclude *.pyd
+[2023-06-15 04:41:20] INFO root fetch - processPackages [iam-actions]: Downloading https://files.pythonhosted.org/packages/32/8e/22c44b76cbcbbe41869728800741b3642e59a4700404245ca53a223af7a5/iam_actions-1.2.20230614.tar.gz
+[2023-06-15 04:41:20] INFO root fetch - processPackages [naif-eop-high-prec]: executing diffoscope
+[2023-06-15 04:41:20] INFO root fetch - processPackages [naif-eop-high-prec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/naif_eop_high_prec-2023.6.8.tar.gz tmp/naif_eop_high_prec-2023.6.9.tar.gz --markdown 20230615/n/naif-eop-high-prec/2023.6.8-2023.6.9/diff.md --exclude *.pyd
+[2023-06-15 04:41:20] INFO root fetch - processPackages [cdk8s-plus-24]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-24-2.8.8.tar.gz]
+[2023-06-15 04:41:20] INFO root fetch - processPackages [cdk8s-plus-24]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-24-2.8.9.tar.gz]
+[2023-06-15 04:41:20] INFO root fetch - processPackages [cdk8s-plus-24]: Start processing: embarrassing
+[2023-06-15 04:41:20] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-24]: success
+[2023-06-15 04:41:20] INFO root fetch - processPackages [embarrassing]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-06-15 04:41:20] INFO root fetch - processPackages [iam-actions]: Downloading https://files.pythonhosted.org/packages/dd/0b/fe5938bd8218df07749741e46eff698caaed042654d212316e8c08ba8904/iam_actions-1.2.20230615.tar.gz
+[2023-06-15 04:41:20] INFO root fetch - processPackages [odoo14-addon-account-cutoff-base]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_account_cutoff_base-14.0.2.0.1.dev2-py3-none-any.whl.zip]
+[2023-06-15 04:41:20] INFO root fetch - processPackages [odoo14-addon-account-cutoff-base]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_account_cutoff_base-14.0.2.0.1.dev3-py3-none-any.whl.zip]
+[2023-06-15 04:41:20] INFO root fetch - processPackages [odoo14-addon-account-cutoff-base]: Start processing: cdk8s-plus-25
+[2023-06-15 04:41:20] INFO root fetch - main [MainThread]: End processing [odoo14-addon-account-cutoff-base]: success
+[2023-06-15 04:41:20] INFO root fetch - processPackages [harlequin]: Remove: archive file [/home/abi/fetcher/tmp/harlequin-0.0.8.tar.gz]
+[2023-06-15 04:41:20] INFO root fetch - processPackages [harlequin]: Remove: archive file [/home/abi/fetcher/tmp/harlequin-0.0.9.tar.gz]
+[2023-06-15 04:41:20] INFO root fetch - processPackages [harlequin]: Start processing: odoo14-addons-shopinvader-odoo-shopinvader
+[2023-06-15 04:41:20] INFO root fetch - main [MainThread]: End processing [harlequin]: success
+[2023-06-15 04:41:20] INFO root fetch - processPackages [cdk8s-plus-25]: New version: [2.8.9] Old Version: [2.8.8]
+[2023-06-15 04:41:20] INFO root fetch - processPackages [odoo14-addons-shopinvader-odoo-shopinvader]: New version: [14.0.20230614.9] Old Version: [14.0.20230515.0]
+[2023-06-15 04:41:20] INFO root fetch - processPackages [odoo14-addon-mis-builder-cash-flow]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_mis_builder_cash_flow-14.0.1.0.3.dev1-py3-none-any.whl.zip]
+[2023-06-15 04:41:20] INFO root fetch - processPackages [odoo14-addon-mis-builder-cash-flow]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_mis_builder_cash_flow-14.0.1.0.3.dev2-py3-none-any.whl.zip]
+[2023-06-15 04:41:20] INFO root fetch - processPackages [odoo14-addon-mis-builder-cash-flow]: Start processing: sj-tool
+[2023-06-15 04:41:20] INFO root fetch - main [MainThread]: End processing [odoo14-addon-mis-builder-cash-flow]: success
+[2023-06-15 04:41:20] INFO root fetch - processPackages [iam-actions]: executing diffoscope
+[2023-06-15 04:41:20] INFO root fetch - processPackages [iam-actions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iam_actions-1.2.20230614.tar.gz tmp/iam_actions-1.2.20230615.tar.gz --markdown 20230615/i/iam-actions/1.2.20230614-1.2.20230615/diff.md --exclude *.pyd
+[2023-06-15 04:41:20] INFO root fetch - processPackages [sj-tool]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-15 04:41:20] INFO root fetch - processPackages [embarrassing]: Downloading https://files.pythonhosted.org/packages/0f/42/097879bc91229c655621cf66d1315a489f564cd0e1783cd63f3033c4e604/embarrassing-0.0.6.tar.gz
+[2023-06-15 04:41:20] INFO root fetch - processPackages [cdk8s-plus-25]: Downloading https://files.pythonhosted.org/packages/19/05/30d98744c3813d678438d1f164dc4db8972da2ff34d40fc7d3a6492d5cc8/cdk8s-plus-25-2.8.8.tar.gz
+[2023-06-15 04:41:20] INFO root fetch - processPackages [embarrassing]: Downloading https://files.pythonhosted.org/packages/f5/8a/03c10db23c108963eeb508d4813a780463b48902ef4a55d9acb3addcd5b8/embarrassing-0.0.7.tar.gz
+[2023-06-15 04:41:20] INFO root fetch - processPackages [odoo14-addons-shopinvader-odoo-shopinvader]: Downloading https://files.pythonhosted.org/packages/a2/c6/4ec5df89d7da44b5d53b0b2f8369dfe49759e2fa8ee345f6417b5790a818/odoo14_addons_shopinvader_odoo_shopinvader-14.0.20230515.0-py3-none-any.whl
+[2023-06-15 04:41:20] INFO root fetch - processPackages [sj-tool]: Downloading https://files.pythonhosted.org/packages/8b/f9/2af667f18b77632259bbdac6a0db7f33f9cbea38a7a1baa7d9979d9060d3/sj_tool-1.0.8-py3-none-any.whl
+[2023-06-15 04:41:20] INFO root fetch - processPackages [embarrassing]: executing diffoscope
+[2023-06-15 04:41:20] INFO root fetch - processPackages [embarrassing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/embarrassing-0.0.6.tar.gz tmp/embarrassing-0.0.7.tar.gz --markdown 20230615/e/embarrassing/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-06-15 04:41:21] INFO root fetch - processPackages [cdk8s-plus-25]: Downloading https://files.pythonhosted.org/packages/79/f6/d6bb21b3e8c3f61cefbc6cfb377c23ba65b57440ab1bd217fa176e0b9df7/cdk8s-plus-25-2.8.9.tar.gz
+[2023-06-15 04:41:21] INFO root fetch - processPackages [sj-tool]: Downloading https://files.pythonhosted.org/packages/2e/c6/ed941d25e472426116ea2e75bd85fead4f6fad46d6238c6a7bc0c10801f1/sj_tool-1.0.9-py3-none-any.whl
+[2023-06-15 04:41:21] INFO root fetch - processPackages [sj-tool]: executing diffoscope
+[2023-06-15 04:41:21] INFO root fetch - processPackages [sj-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sj_tool-1.0.8-py3-none-any.whl.zip tmp/sj_tool-1.0.9-py3-none-any.whl.zip --markdown 20230615/s/sj-tool/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-15 04:41:21] INFO root fetch - processPackages [odoo14-addons-shopinvader-odoo-shopinvader]: Downloading https://files.pythonhosted.org/packages/9e/66/42d767182ddd5ccb4eaa926fa2b8cce00a6dc4833073105d065c43f84d79/odoo14_addons_shopinvader_odoo_shopinvader-14.0.20230614.9-py3-none-any.whl
+[2023-06-15 04:41:21] INFO root fetch - processPackages [odoo14-addons-shopinvader-odoo-shopinvader]: executing diffoscope
+[2023-06-15 04:41:21] INFO root fetch - processPackages [odoo14-addons-shopinvader-odoo-shopinvader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addons_shopinvader_odoo_shopinvader-14.0.20230515.0-py3-none-any.whl.zip tmp/odoo14_addons_shopinvader_odoo_shopinvader-14.0.20230614.9-py3-none-any.whl.zip --markdown 20230615/o/odoo14-addons-shopinvader-odoo-shopinvader/14.0.20230515.0-14.0.20230614.9/diff.md --exclude *.pyd
+[2023-06-15 04:41:21] INFO root fetch - processPackages [Wavelink]: Remove: archive file [/home/abi/fetcher/tmp/Wavelink-2.4.0.tar.gz]
+[2023-06-15 04:41:21] INFO root fetch - processPackages [Wavelink]: Remove: archive file [/home/abi/fetcher/tmp/Wavelink-2.5.0.tar.gz]
+[2023-06-15 04:41:21] INFO root fetch - processPackages [Wavelink]: Start processing: django-pam
+[2023-06-15 04:41:21] INFO root fetch - main [MainThread]: End processing [Wavelink]: success
+[2023-06-15 04:41:21] INFO root fetch - processPackages [django-pam]: New version: [2.1.2] Old Version: [2.1.1]
+[2023-06-15 04:41:21] INFO root fetch - processPackages [embarrassing]: Remove: archive file [/home/abi/fetcher/tmp/embarrassing-0.0.6.tar.gz]
+[2023-06-15 04:41:21] INFO root fetch - processPackages [embarrassing]: Remove: archive file [/home/abi/fetcher/tmp/embarrassing-0.0.7.tar.gz]
+[2023-06-15 04:41:21] INFO root fetch - processPackages [embarrassing]: Start processing: omnata-plugin-devkit
+[2023-06-15 04:41:21] INFO root fetch - main [MainThread]: End processing [embarrassing]: success
+[2023-06-15 04:41:21] INFO root fetch - processPackages [omnata-plugin-devkit]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-15 04:41:21] INFO root fetch - processPackages [django-pam]: Downloading https://files.pythonhosted.org/packages/4f/e1/c28645cc0ee92448dc0cef0a9cfd4bdde2c4ba17475aaffdcb08b727f934/django-pam-2.1.1.tar.gz
+[2023-06-15 04:41:21] INFO root fetch - processPackages [omnata-plugin-devkit]: Downloading https://files.pythonhosted.org/packages/a6/03/037aa46c1c15ce197872a42c2494fcfb0dd6fd4c14cebaeaf6f9495b5cbf/omnata_plugin_devkit-0.1.8.tar.gz
+[2023-06-15 04:41:21] INFO root fetch - processPackages [omnata-plugin-devkit]: Downloading https://files.pythonhosted.org/packages/94/e1/5b8aa743f4bbe600dde3989489613981c39b2dfcd44174b9931cf0c42452/omnata_plugin_devkit-0.1.9.tar.gz
+[2023-06-15 04:41:22] INFO root fetch - processPackages [django-pam]: Downloading https://files.pythonhosted.org/packages/55/1a/1de47d508a2aad7b197d425e93c754bf0819ebe14a79334f4288221fdfbe/django-pam-2.1.2.tar.gz
+[2023-06-15 04:41:22] INFO root fetch - processPackages [omnata-plugin-devkit]: executing diffoscope
+[2023-06-15 04:41:22] INFO root fetch - processPackages [omnata-plugin-devkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omnata_plugin_devkit-0.1.8.tar.gz tmp/omnata_plugin_devkit-0.1.9.tar.gz --markdown 20230615/o/omnata-plugin-devkit/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-15 04:41:22] INFO root fetch - processPackages [sj-tool]: Remove: archive file [/home/abi/fetcher/tmp/sj_tool-1.0.8-py3-none-any.whl.zip]
+[2023-06-15 04:41:22] INFO root fetch - processPackages [sj-tool]: Remove: archive file [/home/abi/fetcher/tmp/sj_tool-1.0.9-py3-none-any.whl.zip]
+[2023-06-15 04:41:22] INFO root fetch - processPackages [sj-tool]: Start processing: odoo14-addon-account-check-deposit
+[2023-06-15 04:41:22] INFO root fetch - main [MainThread]: End processing [sj-tool]: success
+[2023-06-15 04:41:22] INFO root fetch - processPackages [django-pam]: executing diffoscope
+[2023-06-15 04:41:22] INFO root fetch - processPackages [django-pam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-pam-2.1.1.tar.gz tmp/django-pam-2.1.2.tar.gz --markdown 20230615/d/django-pam/2.1.1-2.1.2/diff.md --exclude *.pyd
+[2023-06-15 04:41:22] INFO root fetch - processPackages [odoo14-addon-account-check-deposit]: New version: [14.0.1.2.1.dev8] Old Version: [14.0.1.2.1.dev7]
+[2023-06-15 04:41:22] INFO root fetch - processPackages [odoo14-addons-shopinvader-odoo-shopinvader]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addons_shopinvader_odoo_shopinvader-14.0.20230515.0-py3-none-any.whl.zip]
+[2023-06-15 04:41:22] INFO root fetch - processPackages [odoo14-addons-shopinvader-odoo-shopinvader]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addons_shopinvader_odoo_shopinvader-14.0.20230614.9-py3-none-any.whl.zip]
+[2023-06-15 04:41:22] INFO root fetch - processPackages [odoo14-addons-shopinvader-odoo-shopinvader]: Start processing: odoo-addon-account-asset-management
+[2023-06-15 04:41:22] INFO root fetch - main [MainThread]: End processing [odoo14-addons-shopinvader-odoo-shopinvader]: success
+[2023-06-15 04:41:22] INFO root fetch - processPackages [odoo-addon-account-asset-management]: New version: [16.0.1.0.0.9] Old Version: [16.0.1.0.0.8]
+[2023-06-15 04:41:22] INFO root fetch - processPackages [odoo14-addon-account-check-deposit]: Downloading https://files.pythonhosted.org/packages/09/02/1fe17a8508cc57f695b9d2f7cc89b235076a02c029ac8718c225d0ecb8a4/odoo14_addon_account_check_deposit-14.0.1.2.1.dev7-py3-none-any.whl
+[2023-06-15 04:41:22] INFO root fetch - processPackages [odoo-addon-account-asset-management]: Downloading https://files.pythonhosted.org/packages/ea/65/7f70651203e5f793f860949735cd6d4e009466486b9ed331ef3e634725fd/odoo_addon_account_asset_management-16.0.1.0.0.8-py3-none-any.whl
+[2023-06-15 04:41:22] INFO root fetch - processPackages [odoo-addon-account-asset-management]: Downloading https://files.pythonhosted.org/packages/b7/8d/331f5f2f4de92e704ed6acb8a742d7d4706095ff2946d5386ab60993c394/odoo_addon_account_asset_management-16.0.1.0.0.9-py3-none-any.whl
+[2023-06-15 04:41:22] INFO root fetch - processPackages [odoo14-addon-account-check-deposit]: Downloading https://files.pythonhosted.org/packages/61/dc/2b1de55c1511acca736477e66d257eaed3055a92767c542e00dd2f23b78f/odoo14_addon_account_check_deposit-14.0.1.2.1.dev8-py3-none-any.whl
+[2023-06-15 04:41:22] INFO root fetch - processPackages [xklb]: Remove: archive file [/home/abi/fetcher/tmp/xklb-1.31.5.tar.gz]
+[2023-06-15 04:41:22] INFO root fetch - processPackages [xklb]: Remove: archive file [/home/abi/fetcher/tmp/xklb-1.31.6.tar.gz]
+[2023-06-15 04:41:22] INFO root fetch - processPackages [xklb]: Start processing: git-office
+[2023-06-15 04:41:22] INFO root fetch - main [MainThread]: End processing [xklb]: success
+[2023-06-15 04:41:22] WARNING root fetch - processPackages [git-office]: Skipping, unable to determine old version
+[2023-06-15 04:41:22] INFO root fetch - processPackages [git-office]: Start processing: pybuc
+[2023-06-15 04:41:22] INFO root fetch - main [MainThread]: End processing [git-office] error
+[2023-06-15 04:41:22] INFO root fetch - processPackages [odoo-addon-account-asset-management]: executing diffoscope
+[2023-06-15 04:41:22] INFO root fetch - processPackages [odoo-addon-account-asset-management]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_asset_management-16.0.1.0.0.8-py3-none-any.whl.zip tmp/odoo_addon_account_asset_management-16.0.1.0.0.9-py3-none-any.whl.zip --markdown 20230615/o/odoo-addon-account-asset-management/16.0.1.0.0.8-16.0.1.0.0.9/diff.md --exclude *.pyd
+[2023-06-15 04:41:22] INFO root fetch - processPackages [pybuc]: New version: [0.9.10] Old Version: [0.8.10]
+[2023-06-15 04:41:22] INFO root fetch - processPackages [pybuc]: Downloading https://files.pythonhosted.org/packages/ff/a6/647d6e38a6519bf2966722e1789589d0e50eea7a6376967ab7afbc093f70/pybuc-0.8.10.tar.gz
+[2023-06-15 04:41:22] INFO root fetch - processPackages [odoo14-addon-account-check-deposit]: executing diffoscope
+[2023-06-15 04:41:22] INFO root fetch - processPackages [odoo14-addon-account-check-deposit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_account_check_deposit-14.0.1.2.1.dev7-py3-none-any.whl.zip tmp/odoo14_addon_account_check_deposit-14.0.1.2.1.dev8-py3-none-any.whl.zip --markdown 20230615/o/odoo14-addon-account-check-deposit/14.0.1.2.1.dev7-14.0.1.2.1.dev8/diff.md --exclude *.pyd
+[2023-06-15 04:41:23] INFO root fetch - processPackages [omnata-plugin-devkit]: Remove: archive file [/home/abi/fetcher/tmp/omnata_plugin_devkit-0.1.8.tar.gz]
+[2023-06-15 04:41:23] INFO root fetch - processPackages [omnata-plugin-devkit]: Remove: archive file [/home/abi/fetcher/tmp/omnata_plugin_devkit-0.1.9.tar.gz]
+[2023-06-15 04:41:23] INFO root fetch - processPackages [omnata-plugin-devkit]: Start processing: embarrassing
+[2023-06-15 04:41:23] INFO root fetch - main [MainThread]: End processing [omnata-plugin-devkit]: success
+[2023-06-15 04:41:23] INFO root fetch - processPackages [embarrassing]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-06-15 04:41:23] INFO root fetch - processPackages [embarrassing]: Downloading https://files.pythonhosted.org/packages/0f/42/097879bc91229c655621cf66d1315a489f564cd0e1783cd63f3033c4e604/embarrassing-0.0.6.tar.gz
+[2023-06-15 04:41:23] INFO root fetch - processPackages [django-pam]: Remove: archive file [/home/abi/fetcher/tmp/django-pam-2.1.1.tar.gz]
+[2023-06-15 04:41:23] INFO root fetch - processPackages [django-pam]: Remove: archive file [/home/abi/fetcher/tmp/django-pam-2.1.2.tar.gz]
+[2023-06-15 04:41:23] INFO root fetch - processPackages [django-pam]: Start processing: lyra-graphtool-test
+[2023-06-15 04:41:23] INFO root fetch - main [MainThread]: End processing [django-pam]: success
+[2023-06-15 04:41:23] INFO root fetch - processPackages [lyra-graphtool-test]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-15 04:41:23] INFO root fetch - processPackages [embarrassing]: Downloading https://files.pythonhosted.org/packages/f5/8a/03c10db23c108963eeb508d4813a780463b48902ef4a55d9acb3addcd5b8/embarrassing-0.0.7.tar.gz
+[2023-06-15 04:41:23] INFO root fetch - processPackages [embarrassing]: executing diffoscope
+[2023-06-15 04:41:23] INFO root fetch - processPackages [embarrassing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/embarrassing-0.0.6.tar.gz tmp/embarrassing-0.0.7.tar.gz --markdown 20230615/e/embarrassing/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-06-15 04:41:23] INFO root fetch - processPackages [lyra-graphtool-test]: Downloading https://files.pythonhosted.org/packages/43/cb/023c905e6f983f3b2f8d7337713bad89e41456a5258cd24331197e0d4398/lyra_graphtool_test-0.0.3.tar.gz
+[2023-06-15 04:41:23] INFO root fetch - processPackages [lyra-graphtool-test]: Downloading https://files.pythonhosted.org/packages/ae/8b/c45ae621f27d80eef6efa081eee0ba0f2e2dd52989796755df5106834cdd/lyra_graphtool_test-0.0.4.tar.gz
+[2023-06-15 04:41:23] INFO root fetch - processPackages [lyra-graphtool-test]: executing diffoscope
+[2023-06-15 04:41:23] INFO root fetch - processPackages [lyra-graphtool-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lyra_graphtool_test-0.0.3.tar.gz tmp/lyra_graphtool_test-0.0.4.tar.gz --markdown 20230615/l/lyra-graphtool-test/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-15 04:41:23] INFO root fetch - processPackages [cdk8s-plus-26]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-26-2.4.8.tar.gz]
+[2023-06-15 04:41:23] INFO root fetch - processPackages [cdk8s-plus-26]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-26-2.4.9.tar.gz]
+[2023-06-15 04:41:23] INFO root fetch - processPackages [cdk8s-plus-26]: Start processing: sqlglot
+[2023-06-15 04:41:23] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-26]: success
+[2023-06-15 04:41:23] INFO root fetch - processPackages [pybuc]: Downloading https://files.pythonhosted.org/packages/36/ff/435775953f489894dbc63700890c9984ecc56774ee84cef35a35acadf8b2/pybuc-0.9.10.tar.gz
+[2023-06-15 04:41:23] INFO root fetch - processPackages [sqlglot]: New version: [9.0.6] Old Version: [9.0.5]
+[2023-06-15 04:41:24] INFO root fetch - processPackages [sqlglot]: Downloading https://files.pythonhosted.org/packages/20/6b/5034324cd2ac42831b5103037f6a14e518172128c4196b8d01b93dcc76c8/sqlglot-9.0.5.tar.gz
+[2023-06-15 04:41:24] ERROR root fetch - processPackages [xklb]: Diffoscope failed: gzip: tmp/xklb-1.31.6.tar.gz: No such file or directory
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 450, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 131, in comparisons
+    other_members = OrderedDict(other.get_adjusted_members_sizes())
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 126, in get_adjusted_members_sizes
+    size = path_apparent_size(member.path)
+                              ^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/archive.py", line 114, in path
+    self._path = self.container.extract(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/tools.py", line 141, in tool_check
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/gzip.py", line 51, in extract
+    subprocess.check_call(
+  File "/usr/lib/python3.11/subprocess.py", line 413, in check_call
+    raise CalledProcessError(retcode, cmd)
+subprocess.CalledProcessError: Command '['gzip', '-d', '-c', 'tmp/xklb-1.31.6.tar.gz']' returned non-zero exit status 1.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 138, in feeder
+    raise subprocess.CalledProcessError(
+subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit status 2.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 536, in compare
+    difference = self.compare_bytes(other, source=source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 395, in compare_bytes
+    return compare_binary_files(self, other, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 176, in compare_binary_files
+    return Difference.from_operation(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 267, in from_operation
+    return Difference.from_operation_exc(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 316, in from_operation_exc
+    difference = Difference.from_feeder(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 214, in from_feeder
+    unified_diff = diff(feeder1, feeder2)
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 138, in feeder
+    raise subprocess.CalledProcessError(
+subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit status 2.
+
+[2023-06-15 04:41:24] INFO root fetch - main [MainThread]: End processing [xklb] error
+[2023-06-15 04:41:24] INFO root fetch - processPackages [sqlglot]: Downloading https://files.pythonhosted.org/packages/36/2a/e7389a112e1a7cfd1fcc7c7209a0f8f5ffe905ce8aad03f447367dc9b209/sqlglot-9.0.6.tar.gz
+[2023-06-15 04:41:24] INFO root fetch - processPackages [sqlglot]: executing diffoscope
+[2023-06-15 04:41:24] INFO root fetch - processPackages [sqlglot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlglot-9.0.5.tar.gz tmp/sqlglot-9.0.6.tar.gz --markdown 20230615/s/sqlglot/9.0.5-9.0.6/diff.md --exclude *.pyd
+[2023-06-15 04:41:24] INFO root fetch - processPackages [embarrassing]: Remove: archive file [/home/abi/fetcher/tmp/embarrassing-0.0.6.tar.gz]
+[2023-06-15 04:41:24] INFO root fetch - processPackages [embarrassing]: Remove: archive file [/home/abi/fetcher/tmp/embarrassing-0.0.7.tar.gz]
+[2023-06-15 04:41:24] INFO root fetch - main [MainThread]: End processing [embarrassing]: success
+[2023-06-15 04:41:24] INFO root fetch - processPackages [lyra-graphtool-test]: Remove: archive file [/home/abi/fetcher/tmp/lyra_graphtool_test-0.0.3.tar.gz]
+[2023-06-15 04:41:24] INFO root fetch - processPackages [lyra-graphtool-test]: Remove: archive file [/home/abi/fetcher/tmp/lyra_graphtool_test-0.0.4.tar.gz]
+[2023-06-15 04:41:24] INFO root fetch - main [MainThread]: End processing [lyra-graphtool-test]: success
+[2023-06-15 04:41:24] INFO root fetch - processPackages [odoo14-addon-account-check-deposit]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_account_check_deposit-14.0.1.2.1.dev7-py3-none-any.whl.zip]
+[2023-06-15 04:41:24] INFO root fetch - processPackages [odoo14-addon-account-check-deposit]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_account_check_deposit-14.0.1.2.1.dev8-py3-none-any.whl.zip]
+[2023-06-15 04:41:24] INFO root fetch - main [MainThread]: End processing [odoo14-addon-account-check-deposit]: success
+[2023-06-15 04:41:24] INFO root fetch - processPackages [odoo-addon-account-asset-management]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_asset_management-16.0.1.0.0.8-py3-none-any.whl.zip]
+[2023-06-15 04:41:24] INFO root fetch - processPackages [odoo-addon-account-asset-management]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_asset_management-16.0.1.0.0.9-py3-none-any.whl.zip]
+[2023-06-15 04:41:24] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-asset-management]: success
+[2023-06-15 04:41:24] INFO root fetch - processPackages [pybuc]: executing diffoscope
+[2023-06-15 04:41:24] INFO root fetch - processPackages [pybuc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybuc-0.8.10.tar.gz tmp/pybuc-0.9.10.tar.gz --markdown 20230615/p/pybuc/0.8.10-0.9.10/diff.md --exclude *.pyd
+[2023-06-15 04:41:25] INFO root fetch - processPackages [iam-actions]: Remove: archive file [/home/abi/fetcher/tmp/iam_actions-1.2.20230614.tar.gz]
+[2023-06-15 04:41:25] INFO root fetch - processPackages [iam-actions]: Remove: archive file [/home/abi/fetcher/tmp/iam_actions-1.2.20230615.tar.gz]
+[2023-06-15 04:41:25] INFO root fetch - main [MainThread]: End processing [iam-actions]: success
+[2023-06-15 04:41:25] INFO root fetch - processPackages [sqlglot]: Remove: archive file [/home/abi/fetcher/tmp/sqlglot-9.0.5.tar.gz]
+[2023-06-15 04:41:25] INFO root fetch - processPackages [sqlglot]: Remove: archive file [/home/abi/fetcher/tmp/sqlglot-9.0.6.tar.gz]
+[2023-06-15 04:41:25] INFO root fetch - main [MainThread]: End processing [sqlglot]: success
+[2023-06-15 04:41:26] INFO root fetch - processPackages [pybuc]: Remove: archive file [/home/abi/fetcher/tmp/pybuc-0.8.10.tar.gz]
+[2023-06-15 04:41:26] INFO root fetch - processPackages [pybuc]: Remove: archive file [/home/abi/fetcher/tmp/pybuc-0.9.10.tar.gz]
+[2023-06-15 04:41:26] INFO root fetch - main [MainThread]: End processing [pybuc]: success
+[2023-06-15 04:41:27] INFO root fetch - processPackages [naif-eop-high-prec]: Remove: archive file [/home/abi/fetcher/tmp/naif_eop_high_prec-2023.6.8.tar.gz]
+[2023-06-15 04:41:27] INFO root fetch - processPackages [naif-eop-high-prec]: Remove: archive file [/home/abi/fetcher/tmp/naif_eop_high_prec-2023.6.9.tar.gz]
+[2023-06-15 04:41:27] INFO root fetch - main [MainThread]: End processing [naif-eop-high-prec]: success
+[2023-06-15 04:41:29] INFO root fetch - processPackages [cdk8s-plus-25]: executing diffoscope
+[2023-06-15 04:41:29] INFO root fetch - processPackages [cdk8s-plus-25]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-25-2.8.8.tar.gz tmp/cdk8s-plus-25-2.8.9.tar.gz --markdown 20230615/c/cdk8s-plus-25/2.8.8-2.8.9/diff.md --exclude *.pyd
+[2023-06-15 04:41:31] INFO root fetch - processPackages [cdk8s-plus-25]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-25-2.8.8.tar.gz]
+[2023-06-15 04:41:31] INFO root fetch - processPackages [cdk8s-plus-25]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-25-2.8.9.tar.gz]
+[2023-06-15 04:41:31] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-25]: success
+[2023-06-15 04:41:31] INFO root fetch - main [MainThread]: Store serial: [18510272]
