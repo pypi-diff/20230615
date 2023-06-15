@@ -21423,3 +21423,176 @@ AssertionError: tmp/stackoverflowapithingy-0.1.5.tar.gz does not exist
 [2023-06-15 13:59:09] INFO root fetch - processPackages [arelle-release]: Remove: archive file [/home/abi/fetcher/tmp/arelle-release-2.9.0.tar.gz]
 [2023-06-15 13:59:09] INFO root fetch - main [MainThread]: End processing [arelle-release]: success
 [2023-06-15 13:59:09] INFO root fetch - main [MainThread]: Store serial: [18515644]
+[2023-06-15 14:04:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18515644]
+[2023-06-15 14:04:19] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-06-15 14:04:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: taranis-ng-shared
+[2023-06-15 14:04:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: upgini
+[2023-06-15 14:04:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: openwakeword
+[2023-06-15 14:04:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bigdl-dllib
+[2023-06-15 14:04:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bigdl-orca
+[2023-06-15 14:04:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bigdl-friesian
+[2023-06-15 14:04:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: resimpyx
+[2023-06-15 14:04:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bigdl
+[2023-06-15 14:04:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: emmanuelsdk
+[2023-06-15 14:04:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: bigdl-dllib-spark2
+[2023-06-15 14:04:19] INFO root fetch - processPackages [taranis-ng-shared]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-15 14:04:19] INFO root fetch - processPackages [resimpyx]: New version: [0.0.1] Old Version: [0.0.0.3]
+[2023-06-15 14:04:19] INFO root fetch - processPackages [openwakeword]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-06-15 14:04:19] INFO root fetch - processPackages [bigdl-dllib-spark2]: New version: [2.4.0b20230615] Old Version: [2.4.0b20230614]
+[2023-06-15 14:04:19] INFO root fetch - processPackages [bigdl-dllib]: New version: [2.4.0b20230615] Old Version: [2.4.0b20230614]
+[2023-06-15 14:04:19] INFO root fetch - processPackages [emmanuelsdk]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-15 14:04:19] INFO root fetch - processPackages [bigdl-friesian]: New version: [2.4.0b20230615] Old Version: [2.4.0b20230614]
+[2023-06-15 14:04:19] INFO root fetch - processPackages [bigdl-orca]: New version: [2.4.0b20230615] Old Version: [2.4.0b20230614]
+[2023-06-15 14:04:19] INFO root fetch - processPackages [upgini]: New version: [1.1.99] Old Version: [1.1.98]
+[2023-06-15 14:04:19] INFO root fetch - processPackages [bigdl]: New version: [2.4.0b20230615] Old Version: [2.4.0b20230614]
+[2023-06-15 14:04:19] INFO root fetch - processPackages [upgini]: Downloading https://files.pythonhosted.org/packages/59/79/dc47448e0c68a4e00d9d0b7f4c640207fa605fe48cdc53e30221037a1962/upgini-1.1.98.tar.gz
+[2023-06-15 14:04:19] INFO root fetch - processPackages [bigdl-dllib]: Downloading https://files.pythonhosted.org/packages/19/9f/28b2ed700a8f938f28e1ec70ab895cb5d297aebdc8e0a1061f0092006df2/bigdl-dllib-2.4.0b20230614.tar.gz
+[2023-06-15 14:04:19] INFO root fetch - processPackages [emmanuelsdk]: Downloading https://files.pythonhosted.org/packages/bd/2c/8d77978335cdfe20db072157205d7c99a03436c6b0ae709913b301601c0b/emmanuelsdk-0.0.2.tar.gz
+[2023-06-15 14:04:19] INFO root fetch - processPackages [taranis-ng-shared]: Downloading https://files.pythonhosted.org/packages/bc/b4/7c080e2cfa539f248b14197031051ca65ce7f3a3042e0f4d1751eba6d2cf/taranis_ng_shared-0.1.8.tar.gz
+[2023-06-15 14:04:19] INFO root fetch - processPackages [bigdl]: Downloading https://files.pythonhosted.org/packages/f1/db/29b562d29d06e79d0e674cda6406af6ee83633638028b853f7ace863e69b/bigdl-2.4.0b20230614-py3-none-manylinux1_x86_64.whl
+[2023-06-15 14:04:19] INFO root fetch - processPackages [bigdl-orca]: Downloading https://files.pythonhosted.org/packages/de/99/3a434d321948620fd19592b540ddfb847f15f459fe8b2b970aba071cd319/bigdl_orca-2.4.0b20230614-py3-none-manylinux1_x86_64.whl
+[2023-06-15 14:04:19] INFO root fetch - processPackages [resimpyx]: Downloading https://files.pythonhosted.org/packages/be/96/1c092e388f9dd8121e747031eb0dd83a9d0c558f2c9f46635daa6513fcbb/resimpyx-0.0.0.3.tar.gz
+[2023-06-15 14:04:19] INFO root fetch - processPackages [bigdl-friesian]: Downloading https://files.pythonhosted.org/packages/fc/20/86264a3d70df7d39473590ee574e103039819a79a135640c7d41dd5b6dbd/bigdl_friesian-2.4.0b20230614-py3-none-manylinux1_x86_64.whl
+[2023-06-15 14:04:19] INFO root fetch - processPackages [bigdl-dllib-spark2]: Downloading https://files.pythonhosted.org/packages/88/8b/33c17bef9bd0bd7075bb1856fb81ba162d00adef433938b86576471d6299/bigdl-dllib-spark2-2.4.0b20230614.tar.gz
+[2023-06-15 14:04:19] INFO root fetch - processPackages [openwakeword]: Downloading https://files.pythonhosted.org/packages/16/40/2afdab3146f08fa51ca74eba6f44ce4f26bd2bd88e255f34b42b0f495ef0/openwakeword-0.4.0.tar.gz
+[2023-06-15 14:04:19] INFO root fetch - processPackages [upgini]: Downloading https://files.pythonhosted.org/packages/32/f1/1df90a6a856d855308ddf057a7b8cdad7dbcafb6230f0592bbff90f929fd/upgini-1.1.99.tar.gz
+[2023-06-15 14:04:19] WARNING root fetch - processPackages [bigdl-dllib]: Skipping package: exceeds size limit 53559967>=10485760
+[2023-06-15 14:04:19] INFO root fetch - processPackages [bigdl-dllib]: Start processing: thipster
+[2023-06-15 14:04:19] INFO root fetch - main [MainThread]: End processing [bigdl-dllib] error
+[2023-06-15 14:04:19] INFO root fetch - processPackages [upgini]: executing diffoscope
+[2023-06-15 14:04:19] INFO root fetch - processPackages [upgini]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/upgini-1.1.98.tar.gz tmp/upgini-1.1.99.tar.gz --markdown 20230615/u/upgini/1.1.98-1.1.99/diff.md --exclude *.pyd
+[2023-06-15 14:04:20] WARNING root fetch - processPackages [bigdl-orca]: Skipping package: exceeds size limit 20369525>=10485760
+[2023-06-15 14:04:20] INFO root fetch - processPackages [bigdl-orca]: Start processing: CodeChat-Server
+[2023-06-15 14:04:20] INFO root fetch - main [MainThread]: End processing [bigdl-orca] error
+[2023-06-15 14:04:20] INFO root fetch - processPackages [thipster]: New version: [0.17.1] Old Version: [0.17.0]
+[2023-06-15 14:04:20] WARNING root fetch - processPackages [bigdl-dllib-spark2]: Skipping package: exceeds size limit 53560003>=10485760
+[2023-06-15 14:04:20] INFO root fetch - processPackages [bigdl-dllib-spark2]: Start processing: numerical-py
+[2023-06-15 14:04:20] INFO root fetch - main [MainThread]: End processing [bigdl-dllib-spark2] error
+[2023-06-15 14:04:20] INFO root fetch - processPackages [CodeChat-Server]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-15 14:04:20] INFO root fetch - processPackages [taranis-ng-shared]: Downloading https://files.pythonhosted.org/packages/48/f2/f69226ba98af58a48b47cd5c94bc922894101c2cfc07cbe5e0864e2c9c7f/taranis_ng_shared-0.1.9.tar.gz
+[2023-06-15 14:04:20] INFO root fetch - processPackages [emmanuelsdk]: Downloading https://files.pythonhosted.org/packages/57/1d/03d5126d0b99b7a0c6fc6b2b36441e848154e1a7c9d9b62dd8cb9760bd6e/emmanuelsdk-0.0.3.tar.gz
+[2023-06-15 14:04:20] INFO root fetch - processPackages [thipster]: Downloading https://files.pythonhosted.org/packages/9e/c6/ad0cb0493e03c5fa6c2b85ff5e96b93818359a228378d61dadace2ef317c/thipster-0.17.0.tar.gz
+[2023-06-15 14:04:20] INFO root fetch - processPackages [numerical-py]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-15 14:04:20] INFO root fetch - processPackages [resimpyx]: Downloading https://files.pythonhosted.org/packages/11/1f/0d107e5f7664f93f5f2b8b83c1c7647eba44cba3e0834a1f690bdcaab7ef/resimpyx-0.0.1.tar.gz
+[2023-06-15 14:04:20] INFO root fetch - processPackages [CodeChat-Server]: Downloading https://files.pythonhosted.org/packages/e8/dc/798a7f20ee21120a405cdac61af471c81b0847a1d67336b334c60e7aeab7/CodeChat_Server-0.2.8.tar.gz
+[2023-06-15 14:04:20] INFO root fetch - processPackages [emmanuelsdk]: executing diffoscope
+[2023-06-15 14:04:20] INFO root fetch - processPackages [emmanuelsdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/emmanuelsdk-0.0.2.tar.gz tmp/emmanuelsdk-0.0.3.tar.gz --markdown 20230615/e/emmanuelsdk/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-15 14:04:20] INFO root fetch - processPackages [taranis-ng-shared]: executing diffoscope
+[2023-06-15 14:04:20] INFO root fetch - processPackages [taranis-ng-shared]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taranis_ng_shared-0.1.8.tar.gz tmp/taranis_ng_shared-0.1.9.tar.gz --markdown 20230615/t/taranis-ng-shared/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-15 14:04:20] INFO root fetch - processPackages [bigdl]: Downloading https://files.pythonhosted.org/packages/6e/6b/501e0dcfedf2a15088a841419e3c9e23804acf9b6db7116c1bb8684bb59a/bigdl-2.4.0b20230615-py3-none-manylinux1_x86_64.whl
+[2023-06-15 14:04:20] INFO root fetch - processPackages [numerical-py]: Downloading https://files.pythonhosted.org/packages/1d/de/1646bfffd31b37c02f76dd709f9c00e9f79df74282ab8379237197ee3794/numerical_py-0.0.8.tar.gz
+[2023-06-15 14:04:20] INFO root fetch - processPackages [resimpyx]: executing diffoscope
+[2023-06-15 14:04:20] INFO root fetch - processPackages [resimpyx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/resimpyx-0.0.0.3.tar.gz tmp/resimpyx-0.0.1.tar.gz --markdown 20230615/r/resimpyx/0.0.0.3-0.0.1/diff.md --exclude *.pyd
+[2023-06-15 14:04:20] INFO root fetch - processPackages [bigdl-friesian]: Downloading https://files.pythonhosted.org/packages/5e/ef/a4f415e0734165433a4a0752ac49bb493c8ec029ad802375b1033e5ece6e/bigdl_friesian-2.4.0b20230615-py3-none-manylinux1_x86_64.whl
+[2023-06-15 14:04:20] INFO root fetch - processPackages [CodeChat-Server]: Downloading https://files.pythonhosted.org/packages/4e/37/2ec355690a21bc91dc40d4b16417c4a295e2b9917d1a3853d24d71d29b91/CodeChat_Server-0.2.9.tar.gz
+[2023-06-15 14:04:20] INFO root fetch - processPackages [numerical-py]: Downloading https://files.pythonhosted.org/packages/95/1d/7677791c6175f40bd4a70e667ae838300671845f99330142d2e9a3d9f7f8/numerical_py-0.0.9.tar.gz
+[2023-06-15 14:04:20] INFO root fetch - processPackages [thipster]: Downloading https://files.pythonhosted.org/packages/ad/04/41a34443ed57a9092040500273043fe8369d155be8378582eb0f5078c60d/thipster-0.17.1.tar.gz
+[2023-06-15 14:04:20] INFO root fetch - processPackages [CodeChat-Server]: executing diffoscope
+[2023-06-15 14:04:20] INFO root fetch - processPackages [CodeChat-Server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CodeChat_Server-0.2.8.tar.gz tmp/CodeChat_Server-0.2.9.tar.gz --markdown 20230615/C/CodeChat-Server/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-15 14:04:20] INFO root fetch - processPackages [bigdl]: executing diffoscope
+[2023-06-15 14:04:20] INFO root fetch - processPackages [bigdl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl-2.4.0b20230614-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl-2.4.0b20230615-py3-none-manylinux1_x86_64.whl.zip --markdown 20230615/b/bigdl/2.4.0b20230614-2.4.0b20230615/diff.md --exclude *.pyd
+[2023-06-15 14:04:20] INFO root fetch - processPackages [numerical-py]: executing diffoscope
+[2023-06-15 14:04:20] INFO root fetch - processPackages [numerical-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/numerical_py-0.0.8.tar.gz tmp/numerical_py-0.0.9.tar.gz --markdown 20230615/n/numerical-py/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-15 14:04:20] INFO root fetch - processPackages [thipster]: executing diffoscope
+[2023-06-15 14:04:20] INFO root fetch - processPackages [thipster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thipster-0.17.0.tar.gz tmp/thipster-0.17.1.tar.gz --markdown 20230615/t/thipster/0.17.0-0.17.1/diff.md --exclude *.pyd
+[2023-06-15 14:04:20] INFO root fetch - processPackages [bigdl-friesian]: executing diffoscope
+[2023-06-15 14:04:20] INFO root fetch - processPackages [bigdl-friesian]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_friesian-2.4.0b20230614-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_friesian-2.4.0b20230615-py3-none-manylinux1_x86_64.whl.zip --markdown 20230615/b/bigdl-friesian/2.4.0b20230614-2.4.0b20230615/diff.md --exclude *.pyd
+[2023-06-15 14:04:21] INFO root fetch - processPackages [openwakeword]: Downloading https://files.pythonhosted.org/packages/8a/da/5a449ce40bd34987d7c6035770acaaedd1074db607a5b3a078a793e193bf/openwakeword-0.5.0.tar.gz
+[2023-06-15 14:04:21] WARNING root fetch - processPackages [openwakeword]: Skipping package: exceeds size limit 16665803>=10485760
+[2023-06-15 14:04:21] INFO root fetch - processPackages [openwakeword]: Start processing: bigdl-orca-spark2
+[2023-06-15 14:04:21] INFO root fetch - main [MainThread]: End processing [openwakeword] error
+[2023-06-15 14:04:21] INFO root fetch - processPackages [bigdl-orca-spark2]: New version: [2.4.0b20230615] Old Version: [2.4.0b20230614]
+[2023-06-15 14:04:21] INFO root fetch - processPackages [emmanuelsdk]: Remove: archive file [/home/abi/fetcher/tmp/emmanuelsdk-0.0.2.tar.gz]
+[2023-06-15 14:04:21] INFO root fetch - processPackages [emmanuelsdk]: Remove: archive file [/home/abi/fetcher/tmp/emmanuelsdk-0.0.3.tar.gz]
+[2023-06-15 14:04:21] INFO root fetch - processPackages [emmanuelsdk]: Start processing: bigdl-friesian-spark2
+[2023-06-15 14:04:21] INFO root fetch - main [MainThread]: End processing [emmanuelsdk]: success
+[2023-06-15 14:04:21] INFO root fetch - processPackages [bigdl-orca-spark2]: Downloading https://files.pythonhosted.org/packages/e1/ff/bc5e4e38cd5c5df25a9403413f505f461a4e9aa3ad06d956be33345f0012/bigdl_orca_spark2-2.4.0b20230614-py3-none-manylinux1_x86_64.whl
+[2023-06-15 14:04:21] INFO root fetch - processPackages [bigdl-friesian-spark2]: New version: [2.4.0b20230615] Old Version: [2.4.0b20230614]
+[2023-06-15 14:04:21] INFO root fetch - processPackages [bigdl]: Remove: archive file [/home/abi/fetcher/tmp/bigdl-2.4.0b20230614-py3-none-manylinux1_x86_64.whl.zip]
+[2023-06-15 14:04:21] INFO root fetch - processPackages [bigdl]: Remove: archive file [/home/abi/fetcher/tmp/bigdl-2.4.0b20230615-py3-none-manylinux1_x86_64.whl.zip]
+[2023-06-15 14:04:21] INFO root fetch - processPackages [bigdl]: Start processing: bigdl-chronos-spark2
+[2023-06-15 14:04:21] INFO root fetch - main [MainThread]: End processing [bigdl]: success
+[2023-06-15 14:04:21] INFO root fetch - processPackages [resimpyx]: Remove: archive file [/home/abi/fetcher/tmp/resimpyx-0.0.0.3.tar.gz]
+[2023-06-15 14:04:21] INFO root fetch - processPackages [resimpyx]: Remove: archive file [/home/abi/fetcher/tmp/resimpyx-0.0.1.tar.gz]
+[2023-06-15 14:04:21] INFO root fetch - processPackages [resimpyx]: Start processing: bigdl-spark2
+[2023-06-15 14:04:21] INFO root fetch - main [MainThread]: End processing [resimpyx]: success
+[2023-06-15 14:04:21] INFO root fetch - processPackages [bigdl-chronos-spark2]: New version: [2.4.0b20230615] Old Version: [2.4.0b20230614]
+[2023-06-15 14:04:21] WARNING root fetch - processPackages [bigdl-orca-spark2]: Skipping package: exceeds size limit 20369604>=10485760
+[2023-06-15 14:04:21] INFO root fetch - processPackages [bigdl-orca-spark2]: Start processing: stackoverflowapithingy
+[2023-06-15 14:04:21] INFO root fetch - main [MainThread]: End processing [bigdl-orca-spark2] error
+[2023-06-15 14:04:21] INFO root fetch - processPackages [bigdl-friesian-spark2]: Downloading https://files.pythonhosted.org/packages/ca/6f/3ae83d1543f4c85648cd512db3a73c4f88067d63c5de10e27e89e1b154e0/bigdl_friesian_spark2-2.4.0b20230614-py3-none-manylinux1_x86_64.whl
+[2023-06-15 14:04:21] INFO root fetch - processPackages [numerical-py]: Remove: archive file [/home/abi/fetcher/tmp/numerical_py-0.0.8.tar.gz]
+[2023-06-15 14:04:21] INFO root fetch - processPackages [numerical-py]: Remove: archive file [/home/abi/fetcher/tmp/numerical_py-0.0.9.tar.gz]
+[2023-06-15 14:04:21] INFO root fetch - processPackages [numerical-py]: Start processing: neqsimapi-connector
+[2023-06-15 14:04:21] INFO root fetch - main [MainThread]: End processing [numerical-py]: success
+[2023-06-15 14:04:21] INFO root fetch - processPackages [taranis-ng-shared]: Remove: archive file [/home/abi/fetcher/tmp/taranis_ng_shared-0.1.8.tar.gz]
+[2023-06-15 14:04:21] INFO root fetch - processPackages [taranis-ng-shared]: Remove: archive file [/home/abi/fetcher/tmp/taranis_ng_shared-0.1.9.tar.gz]
+[2023-06-15 14:04:21] INFO root fetch - processPackages [taranis-ng-shared]: Start processing: sftpoeb
+[2023-06-15 14:04:21] INFO root fetch - main [MainThread]: End processing [taranis-ng-shared]: success
+[2023-06-15 14:04:21] INFO root fetch - processPackages [neqsimapi-connector]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-06-15 14:04:21] INFO root fetch - processPackages [stackoverflowapithingy]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-06-15 14:04:21] INFO root fetch - processPackages [upgini]: Remove: archive file [/home/abi/fetcher/tmp/upgini-1.1.98.tar.gz]
+[2023-06-15 14:04:21] INFO root fetch - processPackages [upgini]: Remove: archive file [/home/abi/fetcher/tmp/upgini-1.1.99.tar.gz]
+[2023-06-15 14:04:21] INFO root fetch - processPackages [upgini]: Start processing: emass-client-api
+[2023-06-15 14:04:21] INFO root fetch - main [MainThread]: End processing [upgini]: success
+[2023-06-15 14:04:21] INFO root fetch - processPackages [neqsimapi-connector]: Downloading https://files.pythonhosted.org/packages/9a/f5/aa6aa8548be1ebd9141c845bbfd9cb29a87fd1151965437d32743ccd8427/neqsimapi_connector-0.1.6.tar.gz
+[2023-06-15 14:04:21] INFO root fetch - processPackages [bigdl-chronos-spark2]: Downloading https://files.pythonhosted.org/packages/6b/c8/a13d779a0cf3461d160207b5faa4b7a59e3ac31e84822dcc62c2354f2228/bigdl_chronos_spark2-2.4.0b20230614-py3-none-manylinux1_x86_64.whl
+[2023-06-15 14:04:21] INFO root fetch - processPackages [sftpoeb]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-15 14:04:21] INFO root fetch - processPackages [bigdl-spark2]: New version: [2.4.0b20230615] Old Version: [2.4.0b20230614]
+[2023-06-15 14:04:21] INFO root fetch - processPackages [stackoverflowapithingy]: Downloading https://files.pythonhosted.org/packages/4b/49/560bb8f0409cb0553d5c0f07f8f3abbe87033d86ed5910f3403dd05bbd19/stackoverflowapithingy-0.1.7.tar.gz
+[2023-06-15 14:04:21] INFO root fetch - processPackages [emass-client-api]: New version: [3.9.1] Old Version: [3.7.0]
+[2023-06-15 14:04:22] INFO root fetch - processPackages [bigdl-friesian-spark2]: Downloading https://files.pythonhosted.org/packages/d7/9b/393295da7da579fbea52f6301da0abb56d883bfce1aa05af075313895a29/bigdl_friesian_spark2-2.4.0b20230615-py3-none-manylinux1_x86_64.whl
+[2023-06-15 14:04:22] INFO root fetch - processPackages [sftpoeb]: Downloading https://files.pythonhosted.org/packages/ff/ab/1ce79fe063b01bab1dad246027ab08408f95b6ababba067e0c4619546ce9/sftpoeb-0.1.1.tar.gz
+[2023-06-15 14:04:22] INFO root fetch - processPackages [bigdl-spark2]: Downloading https://files.pythonhosted.org/packages/f6/4c/024ce50b465598a68c0452fb0599cf72e96f7e38c9a9f6fd76a27de57dcc/bigdl_spark2-2.4.0b20230614-py3-none-manylinux1_x86_64.whl
+[2023-06-15 14:04:22] INFO root fetch - processPackages [stackoverflowapithingy]: Downloading https://files.pythonhosted.org/packages/b0/0e/63fa69a550e04b2c527dd72a7858dd7f2704fe024ac4f56c3e4352b4fd4d/stackoverflowapithingy-0.1.8.tar.gz
+[2023-06-15 14:04:22] INFO root fetch - processPackages [emass-client-api]: Downloading https://files.pythonhosted.org/packages/ba/3e/0ad3b721d95ac640e797d92bc2266aecfaa9f03f96437c689151cb93e263/emass_client_api-3.7.0-py3.10.egg
+[2023-06-15 14:04:22] INFO root fetch - processPackages [CodeChat-Server]: Remove: archive file [/home/abi/fetcher/tmp/CodeChat_Server-0.2.8.tar.gz]
+[2023-06-15 14:04:22] INFO root fetch - processPackages [CodeChat-Server]: Remove: archive file [/home/abi/fetcher/tmp/CodeChat_Server-0.2.9.tar.gz]
+[2023-06-15 14:04:22] INFO root fetch - main [MainThread]: End processing [CodeChat-Server]: success
+[2023-06-15 14:04:22] INFO root fetch - processPackages [neqsimapi-connector]: Downloading https://files.pythonhosted.org/packages/26/4f/68a0421f4f041689f9b6ffd84ac07ee36e599f9ec9830126ad6934602a46/neqsimapi_connector-0.1.7.tar.gz
+[2023-06-15 14:04:22] INFO root fetch - processPackages [bigdl-friesian-spark2]: executing diffoscope
+[2023-06-15 14:04:22] INFO root fetch - processPackages [bigdl-friesian-spark2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_friesian_spark2-2.4.0b20230614-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_friesian_spark2-2.4.0b20230615-py3-none-manylinux1_x86_64.whl.zip --markdown 20230615/b/bigdl-friesian-spark2/2.4.0b20230614-2.4.0b20230615/diff.md --exclude *.pyd
+[2023-06-15 14:04:22] INFO root fetch - processPackages [neqsimapi-connector]: executing diffoscope
+[2023-06-15 14:04:22] INFO root fetch - processPackages [neqsimapi-connector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neqsimapi_connector-0.1.6.tar.gz tmp/neqsimapi_connector-0.1.7.tar.gz --markdown 20230615/n/neqsimapi-connector/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-06-15 14:04:22] INFO root fetch - processPackages [sftpoeb]: Downloading https://files.pythonhosted.org/packages/d5/bd/e0ab5e13fe08b1acca9fe6805e6948e966214caced829e27028df068a34f/sftpoeb-0.1.2.tar.gz
+[2023-06-15 14:04:22] INFO root fetch - processPackages [stackoverflowapithingy]: executing diffoscope
+[2023-06-15 14:04:22] INFO root fetch - processPackages [stackoverflowapithingy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stackoverflowapithingy-0.1.7.tar.gz tmp/stackoverflowapithingy-0.1.8.tar.gz --markdown 20230615/s/stackoverflowapithingy/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-06-15 14:04:22] INFO root fetch - processPackages [bigdl-chronos-spark2]: Downloading https://files.pythonhosted.org/packages/01/17/c9df543d4435f5c644ec5f92777db348b76839d38f5ccc50c366713eda8b/bigdl_chronos_spark2-2.4.0b20230615-py3-none-manylinux1_x86_64.whl
+[2023-06-15 14:04:22] INFO root fetch - processPackages [bigdl-spark2]: Downloading https://files.pythonhosted.org/packages/7d/3d/c008a5a43b6baea968efba1ece33e6641484dd46d18ed2181374126f198a/bigdl_spark2-2.4.0b20230615-py3-none-manylinux1_x86_64.whl
+[2023-06-15 14:04:22] INFO root fetch - processPackages [sftpoeb]: executing diffoscope
+[2023-06-15 14:04:22] INFO root fetch - processPackages [sftpoeb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sftpoeb-0.1.1.tar.gz tmp/sftpoeb-0.1.2.tar.gz --markdown 20230615/s/sftpoeb/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-15 14:04:22] INFO root fetch - processPackages [bigdl-friesian]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_friesian-2.4.0b20230614-py3-none-manylinux1_x86_64.whl.zip]
+[2023-06-15 14:04:22] INFO root fetch - processPackages [bigdl-friesian]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_friesian-2.4.0b20230615-py3-none-manylinux1_x86_64.whl.zip]
+[2023-06-15 14:04:22] INFO root fetch - main [MainThread]: End processing [bigdl-friesian]: success
+[2023-06-15 14:04:22] INFO root fetch - processPackages [bigdl-spark2]: executing diffoscope
+[2023-06-15 14:04:22] INFO root fetch - processPackages [bigdl-spark2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_spark2-2.4.0b20230614-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_spark2-2.4.0b20230615-py3-none-manylinux1_x86_64.whl.zip --markdown 20230615/b/bigdl-spark2/2.4.0b20230614-2.4.0b20230615/diff.md --exclude *.pyd
+[2023-06-15 14:04:22] INFO root fetch - processPackages [bigdl-chronos-spark2]: executing diffoscope
+[2023-06-15 14:04:22] INFO root fetch - processPackages [bigdl-chronos-spark2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_chronos_spark2-2.4.0b20230614-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_chronos_spark2-2.4.0b20230615-py3-none-manylinux1_x86_64.whl.zip --markdown 20230615/b/bigdl-chronos-spark2/2.4.0b20230614-2.4.0b20230615/diff.md --exclude *.pyd
+[2023-06-15 14:04:23] INFO root fetch - processPackages [emass-client-api]: Downloading https://files.pythonhosted.org/packages/49/0d/24907fe7d3152577c64d44c32a2f2f095260129eb008845d127d32843d64/emass_client_api-3.9.1.tar.gz
+[2023-06-15 14:04:23] INFO root fetch - processPackages [thipster]: Remove: archive file [/home/abi/fetcher/tmp/thipster-0.17.0.tar.gz]
+[2023-06-15 14:04:23] INFO root fetch - processPackages [thipster]: Remove: archive file [/home/abi/fetcher/tmp/thipster-0.17.1.tar.gz]
+[2023-06-15 14:04:23] INFO root fetch - main [MainThread]: End processing [thipster]: success
+[2023-06-15 14:04:23] INFO root fetch - processPackages [emass-client-api]: executing diffoscope
+[2023-06-15 14:04:23] INFO root fetch - processPackages [emass-client-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/emass_client_api-3.7.0-py3.10.egg tmp/emass_client_api-3.9.1.tar.gz --markdown 20230615/e/emass-client-api/3.7.0-3.9.1/diff.md --exclude *.pyd
+[2023-06-15 14:04:23] INFO root fetch - processPackages [stackoverflowapithingy]: Remove: archive file [/home/abi/fetcher/tmp/stackoverflowapithingy-0.1.7.tar.gz]
+[2023-06-15 14:04:23] INFO root fetch - processPackages [stackoverflowapithingy]: Remove: archive file [/home/abi/fetcher/tmp/stackoverflowapithingy-0.1.8.tar.gz]
+[2023-06-15 14:04:23] INFO root fetch - main [MainThread]: End processing [stackoverflowapithingy]: success
+[2023-06-15 14:04:23] INFO root fetch - processPackages [bigdl-spark2]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_spark2-2.4.0b20230614-py3-none-manylinux1_x86_64.whl.zip]
+[2023-06-15 14:04:23] INFO root fetch - processPackages [bigdl-spark2]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_spark2-2.4.0b20230615-py3-none-manylinux1_x86_64.whl.zip]
+[2023-06-15 14:04:23] INFO root fetch - main [MainThread]: End processing [bigdl-spark2]: success
+[2023-06-15 14:04:23] INFO root fetch - processPackages [neqsimapi-connector]: Remove: archive file [/home/abi/fetcher/tmp/neqsimapi_connector-0.1.6.tar.gz]
+[2023-06-15 14:04:23] INFO root fetch - processPackages [neqsimapi-connector]: Remove: archive file [/home/abi/fetcher/tmp/neqsimapi_connector-0.1.7.tar.gz]
+[2023-06-15 14:04:23] INFO root fetch - main [MainThread]: End processing [neqsimapi-connector]: success
+[2023-06-15 14:04:23] INFO root fetch - processPackages [sftpoeb]: Remove: archive file [/home/abi/fetcher/tmp/sftpoeb-0.1.1.tar.gz]
+[2023-06-15 14:04:23] INFO root fetch - processPackages [sftpoeb]: Remove: archive file [/home/abi/fetcher/tmp/sftpoeb-0.1.2.tar.gz]
+[2023-06-15 14:04:23] INFO root fetch - main [MainThread]: End processing [sftpoeb]: success
+[2023-06-15 14:04:24] INFO root fetch - processPackages [bigdl-friesian-spark2]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_friesian_spark2-2.4.0b20230614-py3-none-manylinux1_x86_64.whl.zip]
+[2023-06-15 14:04:24] INFO root fetch - processPackages [bigdl-friesian-spark2]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_friesian_spark2-2.4.0b20230615-py3-none-manylinux1_x86_64.whl.zip]
+[2023-06-15 14:04:24] INFO root fetch - main [MainThread]: End processing [bigdl-friesian-spark2]: success
+[2023-06-15 14:04:24] INFO root fetch - processPackages [bigdl-chronos-spark2]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_chronos_spark2-2.4.0b20230614-py3-none-manylinux1_x86_64.whl.zip]
+[2023-06-15 14:04:24] INFO root fetch - processPackages [bigdl-chronos-spark2]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_chronos_spark2-2.4.0b20230615-py3-none-manylinux1_x86_64.whl.zip]
+[2023-06-15 14:04:24] INFO root fetch - main [MainThread]: End processing [bigdl-chronos-spark2]: success
+[2023-06-15 14:04:25] INFO root fetch - processPackages [emass-client-api]: Remove: archive file [/home/abi/fetcher/tmp/emass_client_api-3.7.0-py3.10.egg]
+[2023-06-15 14:04:25] INFO root fetch - processPackages [emass-client-api]: Remove: archive file [/home/abi/fetcher/tmp/emass_client_api-3.9.1.tar.gz]
+[2023-06-15 14:04:25] INFO root fetch - main [MainThread]: End processing [emass-client-api]: success
+[2023-06-15 14:04:25] INFO root fetch - main [MainThread]: Store serial: [18515703]
