@@ -10545,3 +10545,122 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-15 07:18:45] INFO root fetch - processPackages [tflite-runtime-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tflite_runtime_nightly-2.14.0.dev20230613-cp39-cp39-manylinux2014_x86_64.whl.zip]
 [2023-06-15 07:18:45] INFO root fetch - main [MainThread]: End processing [tflite-runtime-nightly]: success
 [2023-06-15 07:18:45] INFO root fetch - main [MainThread]: Store serial: [18511328]
+[2023-06-15 07:23:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18511328]
+[2023-06-15 07:23:59] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-06-15 07:23:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo12-addon-stock-barcodes
+[2023-06-15 07:23:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-stock-barcodes
+[2023-06-15 07:23:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo14-addon-stock-barcodes
+[2023-06-15 07:23:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo12-addon-stock-inventory-valuation-report
+[2023-06-15 07:23:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo9-addon-stock-inventory-verification-request
+[2023-06-15 07:23:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tflite-support-nightly
+[2023-06-15 07:23:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gardener-cicd-base
+[2023-06-15 07:23:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: fudan-utils
+[2023-06-15 07:23:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: gardener-cicd-cli
+[2023-06-15 07:23:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: gardener-cicd-dso
+[2023-06-15 07:23:59] INFO root fetch - processPackages [odoo12-addon-stock-barcodes]: New version: [12.0.2.3.0.99.dev9] Old Version: [12.0.2.3.0.99.dev8]
+[2023-06-15 07:23:59] INFO root fetch - processPackages [odoo12-addon-stock-inventory-valuation-report]: New version: [12.0.1.1.2.99.dev3] Old Version: [12.0.1.1.2.99.dev2]
+[2023-06-15 07:23:59] INFO root fetch - processPackages [odoo-addon-stock-barcodes]: New version: [15.0.1.2.2.8] Old Version: [15.0.1.2.2.7]
+[2023-06-15 07:23:59] INFO root fetch - processPackages [odoo14-addon-stock-barcodes]: New version: [14.0.2.2.2.dev7] Old Version: [14.0.2.2.2.dev6]
+[2023-06-15 07:23:59] WARNING root fetch - processPackages [fudan-utils]: Skipping, unable to determine old version
+[2023-06-15 07:23:59] INFO root fetch - processPackages [fudan-utils]: Start processing: lols0
+[2023-06-15 07:23:59] INFO root fetch - main [MainThread]: End processing [fudan-utils] error
+[2023-06-15 07:23:59] INFO root fetch - processPackages [odoo9-addon-stock-inventory-verification-request]: New version: [9.0.1.0.0.99.dev8] Old Version: [9.0.1.0.0.99.dev7]
+[2023-06-15 07:23:59] INFO root fetch - processPackages [gardener-cicd-base]: New version: [1.2084.0] Old Version: [1.2083.0]
+[2023-06-15 07:23:59] INFO root fetch - processPackages [gardener-cicd-cli]: New version: [1.2084.0] Old Version: [1.2083.0]
+[2023-06-15 07:23:59] INFO root fetch - processPackages [lols0]: New version: [0.3] Old Version: [0.2]
+[2023-06-15 07:23:59] INFO root fetch - processPackages [gardener-cicd-dso]: New version: [1.2084.0] Old Version: [1.2083.0]
+[2023-06-15 07:23:59] INFO root fetch - processPackages [gardener-cicd-base]: Downloading https://files.pythonhosted.org/packages/17/e0/f81b7d8aec7b019f02e8a8b8268149ef03068682b79bb2a44204f98bb027/gardener-cicd-base-1.2083.0.tar.gz
+[2023-06-15 07:23:59] INFO root fetch - processPackages [lols0]: Downloading https://files.pythonhosted.org/packages/ff/77/0cfc2d8f6ee7c498b99f4c715dd05ad4a8a142542ec84c65a40c7b9925a7/lols0-0.2.tar.gz
+[2023-06-15 07:23:59] INFO root fetch - processPackages [tflite-support-nightly]: New version: [0.4.4.dev20230614] Old Version: [0.4.4.dev20230522]
+[2023-06-15 07:23:59] INFO root fetch - processPackages [odoo12-addon-stock-barcodes]: Downloading https://files.pythonhosted.org/packages/ea/60/dd787ab5fb856b209354a29fa7a8ca8e690de5def43a9727f349a53e2ce4/odoo12_addon_stock_barcodes-12.0.2.3.0.99.dev8-py3-none-any.whl
+[2023-06-15 07:23:59] INFO root fetch - processPackages [odoo14-addon-stock-barcodes]: Downloading https://files.pythonhosted.org/packages/2e/96/ae7872fa96c8bfa9b91de9d7f5a3a79f6e716012f9945f1cb375dfaca80b/odoo14_addon_stock_barcodes-14.0.2.2.2.dev6-py3-none-any.whl
+[2023-06-15 07:23:59] INFO root fetch - processPackages [odoo-addon-stock-barcodes]: Downloading https://files.pythonhosted.org/packages/ea/93/5ad687fa9506313c27e734c12a392840793811178be289d5309a5040307c/odoo_addon_stock_barcodes-15.0.1.2.2.7-py3-none-any.whl
+[2023-06-15 07:23:59] INFO root fetch - processPackages [odoo9-addon-stock-inventory-verification-request]: Downloading https://files.pythonhosted.org/packages/1f/43/305900e39cd89d645b5cd52edd6c41971493fc0b608f9cd03779d73c2e8b/odoo9_addon_stock_inventory_verification_request-9.0.1.0.0.99.dev7-py2-none-any.whl
+[2023-06-15 07:23:59] INFO root fetch - processPackages [odoo12-addon-stock-inventory-valuation-report]: Downloading https://files.pythonhosted.org/packages/53/96/f77686f6cf6c38cf5f3240e3ab226bf7a43fa1b1891ff1ea1afa648da551/odoo12_addon_stock_inventory_valuation_report-12.0.1.1.2.99.dev2-py3-none-any.whl
+[2023-06-15 07:23:59] INFO root fetch - processPackages [gardener-cicd-cli]: Downloading https://files.pythonhosted.org/packages/1d/7f/60b115a0d30d1913147487f1187d1b79f7d6802743c0eda8959de77a4e90/gardener-cicd-cli-1.2083.0.tar.gz
+[2023-06-15 07:23:59] INFO root fetch - processPackages [gardener-cicd-dso]: Downloading https://files.pythonhosted.org/packages/22/5f/c3d9825e70a73a7504eeb6714d06833511a43fbf055f5a92d6a99e4e0c4e/gardener-cicd-dso-1.2083.0.tar.gz
+[2023-06-15 07:23:59] INFO root fetch - processPackages [tflite-support-nightly]: Downloading https://files.pythonhosted.org/packages/fd/71/cab3e52dd1b08d52fe7aa09f45b0b9e23c029567f80f46ad89496ab4a7d8/tflite_support_nightly-0.4.4.dev20230522-cp39-cp39-manylinux2014_x86_64.whl
+[2023-06-15 07:23:59] WARNING root fetch - processPackages [tflite-support-nightly]: Skipping package: exceeds size limit 60850716>=10485760
+[2023-06-15 07:23:59] INFO root fetch - processPackages [tflite-support-nightly]: Start processing: gardener-cicd-libs
+[2023-06-15 07:23:59] INFO root fetch - main [MainThread]: End processing [tflite-support-nightly] error
+[2023-06-15 07:23:59] INFO root fetch - processPackages [lols0]: Downloading https://files.pythonhosted.org/packages/c2/d7/aea3afeda08fa1a9941e4c56f7e3aeee7ae8a5bc1aa00cb915dea810f3c0/lols0-0.3.tar.gz
+[2023-06-15 07:23:59] INFO root fetch - processPackages [odoo12-addon-stock-barcodes]: Downloading https://files.pythonhosted.org/packages/5d/29/2114485f917b8818641d0bb3c43d05af3d40e3d8185e97844b621f02b2b4/odoo12_addon_stock_barcodes-12.0.2.3.0.99.dev9-py3-none-any.whl
+[2023-06-15 07:23:59] INFO root fetch - processPackages [odoo14-addon-stock-barcodes]: Downloading https://files.pythonhosted.org/packages/85/a2/ab9ca91270191921f58214b5fc69b02995c6f58564ed5723e9d0590261d8/odoo14_addon_stock_barcodes-14.0.2.2.2.dev7-py3-none-any.whl
+[2023-06-15 07:23:59] INFO root fetch - processPackages [gardener-cicd-base]: Downloading https://files.pythonhosted.org/packages/49/e5/9e422542c68f0c55d8724eb25660ab771365cf3aae9cf7896f9f82384e87/gardener-cicd-base-1.2084.0.tar.gz
+[2023-06-15 07:23:59] INFO root fetch - processPackages [odoo12-addon-stock-barcodes]: executing diffoscope
+[2023-06-15 07:23:59] INFO root fetch - processPackages [odoo12-addon-stock-barcodes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_stock_barcodes-12.0.2.3.0.99.dev8-py3-none-any.whl.zip tmp/odoo12_addon_stock_barcodes-12.0.2.3.0.99.dev9-py3-none-any.whl.zip --markdown 20230615/o/odoo12-addon-stock-barcodes/12.0.2.3.0.99.dev8-12.0.2.3.0.99.dev9/diff.md --exclude *.pyd
+[2023-06-15 07:23:59] INFO root fetch - processPackages [odoo14-addon-stock-barcodes]: executing diffoscope
+[2023-06-15 07:23:59] INFO root fetch - processPackages [odoo14-addon-stock-barcodes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_stock_barcodes-14.0.2.2.2.dev6-py3-none-any.whl.zip tmp/odoo14_addon_stock_barcodes-14.0.2.2.2.dev7-py3-none-any.whl.zip --markdown 20230615/o/odoo14-addon-stock-barcodes/14.0.2.2.2.dev6-14.0.2.2.2.dev7/diff.md --exclude *.pyd
+[2023-06-15 07:23:59] INFO root fetch - processPackages [lols0]: executing diffoscope
+[2023-06-15 07:23:59] INFO root fetch - processPackages [lols0]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lols0-0.2.tar.gz tmp/lols0-0.3.tar.gz --markdown 20230615/l/lols0/0.2-0.3/diff.md --exclude *.pyd
+[2023-06-15 07:23:59] INFO root fetch - processPackages [odoo12-addon-stock-inventory-valuation-report]: Downloading https://files.pythonhosted.org/packages/2d/76/06ce19c0578eb6772442067d569974cc442a79138bd2dd2ee9220c882a3c/odoo12_addon_stock_inventory_valuation_report-12.0.1.1.2.99.dev3-py3-none-any.whl
+[2023-06-15 07:23:59] INFO root fetch - processPackages [gardener-cicd-cli]: Downloading https://files.pythonhosted.org/packages/2c/ea/a992acfb92250a2c9bb535ab2bbec99cf9f8afbb636ff02cfe235f2ed2f6/gardener-cicd-cli-1.2084.0.tar.gz
+[2023-06-15 07:23:59] INFO root fetch - processPackages [odoo9-addon-stock-inventory-verification-request]: Downloading https://files.pythonhosted.org/packages/72/8c/62c5a43e01d2532957fb35edb3af587ac08ad2b9ca2a3d8833e9cec757b8/odoo9_addon_stock_inventory_verification_request-9.0.1.0.0.99.dev8-py2-none-any.whl
+[2023-06-15 07:23:59] INFO root fetch - processPackages [gardener-cicd-dso]: Downloading https://files.pythonhosted.org/packages/3e/53/0046c129230750a29534e8abf10cde6a6de97dad7f976867b6b9221c5489/gardener-cicd-dso-1.2084.0.tar.gz
+[2023-06-15 07:23:59] INFO root fetch - processPackages [odoo-addon-stock-barcodes]: Downloading https://files.pythonhosted.org/packages/7b/ae/0b18f8699b19301fc395d48fd04e04259e4f0ee1c649ae8bc243912b6480/odoo_addon_stock_barcodes-15.0.1.2.2.8-py3-none-any.whl
+[2023-06-15 07:23:59] INFO root fetch - processPackages [odoo12-addon-stock-inventory-valuation-report]: executing diffoscope
+[2023-06-15 07:23:59] INFO root fetch - processPackages [odoo12-addon-stock-inventory-valuation-report]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_stock_inventory_valuation_report-12.0.1.1.2.99.dev2-py3-none-any.whl.zip tmp/odoo12_addon_stock_inventory_valuation_report-12.0.1.1.2.99.dev3-py3-none-any.whl.zip --markdown 20230615/o/odoo12-addon-stock-inventory-valuation-report/12.0.1.1.2.99.dev2-12.0.1.1.2.99.dev3/diff.md --exclude *.pyd
+[2023-06-15 07:23:59] INFO root fetch - processPackages [gardener-cicd-base]: executing diffoscope
+[2023-06-15 07:23:59] INFO root fetch - processPackages [gardener-cicd-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-cicd-base-1.2083.0.tar.gz tmp/gardener-cicd-base-1.2084.0.tar.gz --markdown 20230615/g/gardener-cicd-base/1.2083.0-1.2084.0/diff.md --exclude *.pyd
+[2023-06-15 07:23:59] INFO root fetch - processPackages [odoo9-addon-stock-inventory-verification-request]: executing diffoscope
+[2023-06-15 07:23:59] INFO root fetch - processPackages [odoo9-addon-stock-inventory-verification-request]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo9_addon_stock_inventory_verification_request-9.0.1.0.0.99.dev7-py2-none-any.whl.zip tmp/odoo9_addon_stock_inventory_verification_request-9.0.1.0.0.99.dev8-py2-none-any.whl.zip --markdown 20230615/o/odoo9-addon-stock-inventory-verification-request/9.0.1.0.0.99.dev7-9.0.1.0.0.99.dev8/diff.md --exclude *.pyd
+[2023-06-15 07:23:59] INFO root fetch - processPackages [gardener-cicd-cli]: executing diffoscope
+[2023-06-15 07:23:59] INFO root fetch - processPackages [gardener-cicd-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-cicd-cli-1.2083.0.tar.gz tmp/gardener-cicd-cli-1.2084.0.tar.gz --markdown 20230615/g/gardener-cicd-cli/1.2083.0-1.2084.0/diff.md --exclude *.pyd
+[2023-06-15 07:23:59] INFO root fetch - processPackages [odoo-addon-stock-barcodes]: executing diffoscope
+[2023-06-15 07:23:59] INFO root fetch - processPackages [odoo-addon-stock-barcodes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_stock_barcodes-15.0.1.2.2.7-py3-none-any.whl.zip tmp/odoo_addon_stock_barcodes-15.0.1.2.2.8-py3-none-any.whl.zip --markdown 20230615/o/odoo-addon-stock-barcodes/15.0.1.2.2.7-15.0.1.2.2.8/diff.md --exclude *.pyd
+[2023-06-15 07:23:59] INFO root fetch - processPackages [gardener-cicd-libs]: New version: [1.2084.0] Old Version: [1.2083.0]
+[2023-06-15 07:23:59] INFO root fetch - processPackages [gardener-cicd-dso]: executing diffoscope
+[2023-06-15 07:23:59] INFO root fetch - processPackages [gardener-cicd-dso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-cicd-dso-1.2083.0.tar.gz tmp/gardener-cicd-dso-1.2084.0.tar.gz --markdown 20230615/g/gardener-cicd-dso/1.2083.0-1.2084.0/diff.md --exclude *.pyd
+[2023-06-15 07:24:00] INFO root fetch - processPackages [gardener-cicd-libs]: Downloading https://files.pythonhosted.org/packages/ef/12/816978aec53c6c07cc6edeafdc14ec9f50ff525a5bedb2525d04e1b0dd3d/gardener-cicd-libs-1.2083.0.tar.gz
+[2023-06-15 07:24:00] INFO root fetch - processPackages [gardener-cicd-libs]: Downloading https://files.pythonhosted.org/packages/ca/f5/27e073cc02eda30e18fc628a079316411fa62bf9d0eff4d2321c2f7dc740/gardener-cicd-libs-1.2084.0.tar.gz
+[2023-06-15 07:24:00] INFO root fetch - processPackages [gardener-cicd-libs]: executing diffoscope
+[2023-06-15 07:24:00] INFO root fetch - processPackages [gardener-cicd-libs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-cicd-libs-1.2083.0.tar.gz tmp/gardener-cicd-libs-1.2084.0.tar.gz --markdown 20230615/g/gardener-cicd-libs/1.2083.0-1.2084.0/diff.md --exclude *.pyd
+[2023-06-15 07:24:01] INFO root fetch - processPackages [odoo12-addon-stock-barcodes]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_stock_barcodes-12.0.2.3.0.99.dev8-py3-none-any.whl.zip]
+[2023-06-15 07:24:01] INFO root fetch - processPackages [odoo12-addon-stock-barcodes]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_stock_barcodes-12.0.2.3.0.99.dev9-py3-none-any.whl.zip]
+[2023-06-15 07:24:01] INFO root fetch - processPackages [odoo12-addon-stock-barcodes]: Start processing: gardener-cicd-whd
+[2023-06-15 07:24:01] INFO root fetch - main [MainThread]: End processing [odoo12-addon-stock-barcodes]: success
+[2023-06-15 07:24:01] INFO root fetch - processPackages [lols0]: Remove: archive file [/home/abi/fetcher/tmp/lols0-0.2.tar.gz]
+[2023-06-15 07:24:01] INFO root fetch - processPackages [lols0]: Remove: archive file [/home/abi/fetcher/tmp/lols0-0.3.tar.gz]
+[2023-06-15 07:24:01] INFO root fetch - processPackages [lols0]: Start processing: gardener-oci
+[2023-06-15 07:24:01] INFO root fetch - main [MainThread]: End processing [lols0]: success
+[2023-06-15 07:24:01] INFO root fetch - processPackages [gardener-cicd-whd]: New version: [1.2083.0] Old Version: [1.2082.0]
+[2023-06-15 07:24:01] INFO root fetch - processPackages [odoo12-addon-stock-inventory-valuation-report]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_stock_inventory_valuation_report-12.0.1.1.2.99.dev2-py3-none-any.whl.zip]
+[2023-06-15 07:24:01] INFO root fetch - processPackages [odoo12-addon-stock-inventory-valuation-report]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_stock_inventory_valuation_report-12.0.1.1.2.99.dev3-py3-none-any.whl.zip]
+[2023-06-15 07:24:01] INFO root fetch - main [MainThread]: End processing [odoo12-addon-stock-inventory-valuation-report]: success
+[2023-06-15 07:24:01] INFO root fetch - processPackages [gardener-oci]: New version: [1.999.0] Old Version: [1.998.0]
+[2023-06-15 07:24:01] INFO root fetch - processPackages [gardener-oci]: Downloading https://files.pythonhosted.org/packages/65/8d/87469d533eb661d280b5bb3eb778421053cbe6438908abdc1d79b2921522/gardener-oci-1.998.0.tar.gz
+[2023-06-15 07:24:01] INFO root fetch - processPackages [gardener-cicd-cli]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-cli-1.2083.0.tar.gz]
+[2023-06-15 07:24:01] INFO root fetch - processPackages [gardener-cicd-cli]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-cli-1.2084.0.tar.gz]
+[2023-06-15 07:24:01] INFO root fetch - main [MainThread]: End processing [gardener-cicd-cli]: success
+[2023-06-15 07:24:01] INFO root fetch - processPackages [gardener-oci]: Downloading https://files.pythonhosted.org/packages/f8/de/c6930b025944729e4655e337193e76592dfc15653c0cde84790cb8650df4/gardener-oci-1.999.0.tar.gz
+[2023-06-15 07:24:01] INFO root fetch - processPackages [gardener-cicd-base]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-base-1.2083.0.tar.gz]
+[2023-06-15 07:24:01] INFO root fetch - processPackages [gardener-cicd-base]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-base-1.2084.0.tar.gz]
+[2023-06-15 07:24:01] INFO root fetch - main [MainThread]: End processing [gardener-cicd-base]: success
+[2023-06-15 07:24:01] INFO root fetch - processPackages [gardener-cicd-whd]: Downloading https://files.pythonhosted.org/packages/97/9b/45f8e40d2f66834ba2cc993955b27cb4dc10ab8b43b4ddd5251f10bb3cc4/gardener-cicd-whd-1.2082.0.tar.gz
+[2023-06-15 07:24:01] INFO root fetch - processPackages [odoo14-addon-stock-barcodes]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_stock_barcodes-14.0.2.2.2.dev6-py3-none-any.whl.zip]
+[2023-06-15 07:24:01] INFO root fetch - processPackages [odoo14-addon-stock-barcodes]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_stock_barcodes-14.0.2.2.2.dev7-py3-none-any.whl.zip]
+[2023-06-15 07:24:01] INFO root fetch - main [MainThread]: End processing [odoo14-addon-stock-barcodes]: success
+[2023-06-15 07:24:01] INFO root fetch - processPackages [gardener-oci]: executing diffoscope
+[2023-06-15 07:24:01] INFO root fetch - processPackages [gardener-oci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-oci-1.998.0.tar.gz tmp/gardener-oci-1.999.0.tar.gz --markdown 20230615/g/gardener-oci/1.998.0-1.999.0/diff.md --exclude *.pyd
+[2023-06-15 07:24:01] INFO root fetch - processPackages [odoo-addon-stock-barcodes]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_barcodes-15.0.1.2.2.7-py3-none-any.whl.zip]
+[2023-06-15 07:24:01] INFO root fetch - processPackages [odoo-addon-stock-barcodes]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_barcodes-15.0.1.2.2.8-py3-none-any.whl.zip]
+[2023-06-15 07:24:01] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-barcodes]: success
+[2023-06-15 07:24:01] INFO root fetch - processPackages [odoo9-addon-stock-inventory-verification-request]: Remove: archive file [/home/abi/fetcher/tmp/odoo9_addon_stock_inventory_verification_request-9.0.1.0.0.99.dev7-py2-none-any.whl.zip]
+[2023-06-15 07:24:01] INFO root fetch - processPackages [odoo9-addon-stock-inventory-verification-request]: Remove: archive file [/home/abi/fetcher/tmp/odoo9_addon_stock_inventory_verification_request-9.0.1.0.0.99.dev8-py2-none-any.whl.zip]
+[2023-06-15 07:24:01] INFO root fetch - main [MainThread]: End processing [odoo9-addon-stock-inventory-verification-request]: success
+[2023-06-15 07:24:01] INFO root fetch - processPackages [gardener-cicd-whd]: Downloading https://files.pythonhosted.org/packages/a1/ab/5e897e6cb8e897746266f92921114591aebac681870d2d9d2456c75e78fa/gardener-cicd-whd-1.2083.0.tar.gz
+[2023-06-15 07:24:02] INFO root fetch - processPackages [gardener-cicd-whd]: executing diffoscope
+[2023-06-15 07:24:02] INFO root fetch - processPackages [gardener-cicd-whd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-cicd-whd-1.2082.0.tar.gz tmp/gardener-cicd-whd-1.2083.0.tar.gz --markdown 20230615/g/gardener-cicd-whd/1.2082.0-1.2083.0/diff.md --exclude *.pyd
+[2023-06-15 07:24:02] INFO root fetch - processPackages [gardener-cicd-dso]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-dso-1.2083.0.tar.gz]
+[2023-06-15 07:24:02] INFO root fetch - processPackages [gardener-cicd-dso]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-dso-1.2084.0.tar.gz]
+[2023-06-15 07:24:02] INFO root fetch - main [MainThread]: End processing [gardener-cicd-dso]: success
+[2023-06-15 07:24:02] INFO root fetch - processPackages [gardener-oci]: Remove: archive file [/home/abi/fetcher/tmp/gardener-oci-1.998.0.tar.gz]
+[2023-06-15 07:24:02] INFO root fetch - processPackages [gardener-oci]: Remove: archive file [/home/abi/fetcher/tmp/gardener-oci-1.999.0.tar.gz]
+[2023-06-15 07:24:02] INFO root fetch - main [MainThread]: End processing [gardener-oci]: success
+[2023-06-15 07:24:02] INFO root fetch - processPackages [gardener-cicd-whd]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-whd-1.2082.0.tar.gz]
+[2023-06-15 07:24:02] INFO root fetch - processPackages [gardener-cicd-whd]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-whd-1.2083.0.tar.gz]
+[2023-06-15 07:24:03] INFO root fetch - main [MainThread]: End processing [gardener-cicd-whd]: success
+[2023-06-15 07:24:04] INFO root fetch - processPackages [gardener-cicd-libs]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-libs-1.2083.0.tar.gz]
+[2023-06-15 07:24:04] INFO root fetch - processPackages [gardener-cicd-libs]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-libs-1.2084.0.tar.gz]
+[2023-06-15 07:24:04] INFO root fetch - main [MainThread]: End processing [gardener-cicd-libs]: success
+[2023-06-15 07:24:04] INFO root fetch - main [MainThread]: Store serial: [18511367]
