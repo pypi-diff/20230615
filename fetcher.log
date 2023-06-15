@@ -11898,3 +11898,170 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-15 08:49:30] INFO root fetch - processPackages [gdsfactory]: Remove: archive file [/home/abi/fetcher/tmp/gdsfactory-6.99.0.tar.gz]
 [2023-06-15 08:49:30] INFO root fetch - main [MainThread]: End processing [gdsfactory]: success
 [2023-06-15 08:49:30] INFO root fetch - main [MainThread]: Store serial: [18511900]
+[2023-06-15 08:54:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18511900]
+[2023-06-15 08:54:40] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-15 08:54:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: namedivider-python
+[2023-06-15 08:54:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: wizata-dsapi
+[2023-06-15 08:54:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: itkdb-gtk
+[2023-06-15 08:54:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cm-two
+[2023-06-15 08:54:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hierts
+[2023-06-15 08:54:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: felixlib
+[2023-06-15 08:54:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: th2-grpc-lw-data-provider
+[2023-06-15 08:54:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: fudan-utils
+[2023-06-15 08:54:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: reddit-decider
+[2023-06-15 08:54:40] INFO root fetch - processPackages [wizata-dsapi]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-06-15 08:54:40] INFO root fetch - processPackages [itkdb-gtk]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-15 08:54:40] INFO root fetch - processPackages [namedivider-python]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-06-15 08:54:40] INFO root fetch - processPackages [hierts]: New version: [0.6] Old Version: [0.5]
+[2023-06-15 08:54:40] INFO root fetch - processPackages [felixlib]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-15 08:54:40] INFO root fetch - processPackages [fudan-utils]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-06-15 08:54:40] INFO root fetch - processPackages [cm-two]: New version: [2.3.37] Old Version: [2.3.36]
+[2023-06-15 08:54:40] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: New version: [2.1.0.dev3871883101] Old Version: [2.0.0.dev5275695337]
+[2023-06-15 08:54:40] INFO root fetch - processPackages [hierts]: Downloading https://files.pythonhosted.org/packages/c6/4d/b76494a8620d044f816ae3c04af3ba32d20d3fab77ad30cde43650989779/hierts-0.5.tar.gz
+[2023-06-15 08:54:40] INFO root fetch - processPackages [wizata-dsapi]: Downloading https://files.pythonhosted.org/packages/d0/ba/f0bdd16f95ee52fb25901409f31bde594458ef362c86f31c8d307c8987d5/wizata-dsapi-0.1.98.tar.gz
+[2023-06-15 08:54:40] INFO root fetch - processPackages [fudan-utils]: Downloading https://files.pythonhosted.org/packages/a3/f1/6e56fc547e0a019c5c3a228b665cd4a98f72bcb8792de7f3e22438090e23/fudan_utils-0.1.3.tar.gz
+[2023-06-15 08:54:40] INFO root fetch - processPackages [fudan-utils]: Downloading https://files.pythonhosted.org/packages/af/2d/765da5878d56fad868e4c1804ddbf9232a18064b3f245dd3da22bd672cce/fudan_utils-0.1.4.tar.gz
+[2023-06-15 08:54:40] INFO root fetch - processPackages [namedivider-python]: Downloading https://files.pythonhosted.org/packages/9e/e3/2eafdaca1a842e9ec429ac281f2ce3e3dc3c51eadc482f3dad7b5bfe17c1/namedivider-python-0.2.0.tar.gz
+[2023-06-15 08:54:40] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: Downloading https://files.pythonhosted.org/packages/d9/92/30e4109e5d4a6f37186f7e0527412d533605e265d1ae28436b183f09fbf8/th2_grpc_lw_data_provider-2.0.0.dev5275695337.tar.gz
+[2023-06-15 08:54:40] INFO root fetch - processPackages [felixlib]: Downloading https://files.pythonhosted.org/packages/60/ee/fcd5856ee03d5c7f71883af6ef5171eb44d8b80f161f805b4002453d0b9b/felixlib-0.0.8.tar.gz
+[2023-06-15 08:54:40] INFO root fetch - processPackages [reddit-decider]: New version: [1.3.1] Old Version: [1.3.0]
+[2023-06-15 08:54:40] INFO root fetch - processPackages [wizata-dsapi]: Downloading https://files.pythonhosted.org/packages/3f/a2/8e1949f8e59bf78c31c3953b9c48fc81a94bb23b209d76f41dbd3f8b510f/wizata-dsapi-0.1.99.tar.gz
+[2023-06-15 08:54:40] INFO root fetch - processPackages [itkdb-gtk]: Downloading https://files.pythonhosted.org/packages/17/03/0dbd6e2369231fd2f08df4e1af7bdb6929400aae232b863b88950648a366/itkdb_gtk-0.0.8.tar.gz
+[2023-06-15 08:54:40] INFO root fetch - processPackages [fudan-utils]: executing diffoscope
+[2023-06-15 08:54:40] INFO root fetch - processPackages [fudan-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fudan_utils-0.1.3.tar.gz tmp/fudan_utils-0.1.4.tar.gz --markdown 20230615/f/fudan-utils/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-06-15 08:54:40] INFO root fetch - processPackages [hierts]: Downloading https://files.pythonhosted.org/packages/69/bb/4295d13df9c035e83be981cc7e1276cbeaa7d9e9653f7660eaeaa03765e2/hierts-0.6.tar.gz
+[2023-06-15 08:54:40] INFO root fetch - processPackages [wizata-dsapi]: executing diffoscope
+[2023-06-15 08:54:40] INFO root fetch - processPackages [wizata-dsapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wizata-dsapi-0.1.98.tar.gz tmp/wizata-dsapi-0.1.99.tar.gz --markdown 20230615/w/wizata-dsapi/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-06-15 08:54:40] INFO root fetch - processPackages [hierts]: executing diffoscope
+[2023-06-15 08:54:40] INFO root fetch - processPackages [hierts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hierts-0.5.tar.gz tmp/hierts-0.6.tar.gz --markdown 20230615/h/hierts/0.5-0.6/diff.md --exclude *.pyd
+[2023-06-15 08:54:40] INFO root fetch - processPackages [cm-two]: Downloading https://files.pythonhosted.org/packages/72/94/eda420a6a62fba8757aeee51f63c4c16be3368ce87f58e85ef643359eba9/cm_two-2.3.37-py3-none-any.whl
+[2023-06-15 08:54:40] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: Downloading https://files.pythonhosted.org/packages/b8/71/939eea7287068082732ec066dc1b9af347f7ee06c935058691236acf7459/th2_grpc_lw_data_provider-2.1.0.dev3871883101.tar.gz
+[2023-06-15 08:54:40] INFO root fetch - processPackages [reddit-decider]: Downloading https://files.pythonhosted.org/packages/58/54/c576c8de4416e45694f8c3409c93ee6482c9ac5880f6ec9df4c3b9148d2b/reddit_decider-1.3.0.tar.gz
+[2023-06-15 08:54:40] INFO root fetch - processPackages [namedivider-python]: Downloading https://files.pythonhosted.org/packages/e7/a9/7dd87ecd744133e805d5e345da22daccdb4d4c895b0d1f9eec1b86218dae/namedivider-python-0.2.1.tar.gz
+[2023-06-15 08:54:40] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: executing diffoscope
+[2023-06-15 08:54:40] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th2_grpc_lw_data_provider-2.0.0.dev5275695337.tar.gz tmp/th2_grpc_lw_data_provider-2.1.0.dev3871883101.tar.gz --markdown 20230615/t/th2-grpc-lw-data-provider/2.0.0.dev5275695337-2.1.0.dev3871883101/diff.md --exclude *.pyd
+[2023-06-15 08:54:40] INFO root fetch - processPackages [cm-two]: executing diffoscope
+[2023-06-15 08:54:40] INFO root fetch - processPackages [cm-two]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cm_two-2.3.36-py3-none-any.whl.zip tmp/cm_two-2.3.37-py3-none-any.whl.zip --markdown 20230615/c/cm-two/2.3.36-2.3.37/diff.md --exclude *.pyd
+[2023-06-15 08:54:40] INFO root fetch - processPackages [itkdb-gtk]: Downloading https://files.pythonhosted.org/packages/7a/30/d0b186b3efe21bfd0547bf98065ec44276dff81d4635fba9babb043643f3/itkdb_gtk-0.0.9.tar.gz
+[2023-06-15 08:54:40] INFO root fetch - processPackages [namedivider-python]: executing diffoscope
+[2023-06-15 08:54:40] INFO root fetch - processPackages [namedivider-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/namedivider-python-0.2.0.tar.gz tmp/namedivider-python-0.2.1.tar.gz --markdown 20230615/n/namedivider-python/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-06-15 08:54:40] INFO root fetch - processPackages [itkdb-gtk]: executing diffoscope
+[2023-06-15 08:54:40] INFO root fetch - processPackages [itkdb-gtk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/itkdb_gtk-0.0.8.tar.gz tmp/itkdb_gtk-0.0.9.tar.gz --markdown 20230615/i/itkdb-gtk/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-15 08:54:41] INFO root fetch - processPackages [reddit-decider]: Downloading https://files.pythonhosted.org/packages/79/cb/ab56694e1f016ba435081ec30717b32a1c55b45e608479869c0bf824a7ec/reddit_decider-1.3.1-cp37-abi3-musllinux_1_1_x86_64.whl
+[2023-06-15 08:54:41] INFO root fetch - processPackages [reddit-decider]: executing diffoscope
+[2023-06-15 08:54:41] INFO root fetch - processPackages [reddit-decider]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reddit_decider-1.3.0.tar.gz tmp/reddit_decider-1.3.1-cp37-abi3-musllinux_1_1_x86_64.whl.zip --markdown 20230615/r/reddit-decider/1.3.0-1.3.1/diff.md --exclude *.pyd
+[2023-06-15 08:54:41] INFO root fetch - processPackages [felixlib]: Downloading https://files.pythonhosted.org/packages/47/63/15d755fb1f3a0a7623cf47ebd6ffb0a4769067b4a3f6c2e927539d7dd168/felixlib-0.0.9.tar.gz
+[2023-06-15 08:54:41] INFO root fetch - processPackages [felixlib]: executing diffoscope
+[2023-06-15 08:54:41] INFO root fetch - processPackages [felixlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/felixlib-0.0.8.tar.gz tmp/felixlib-0.0.9.tar.gz --markdown 20230615/f/felixlib/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-15 08:54:42] INFO root fetch - processPackages [fudan-utils]: Remove: archive file [/home/abi/fetcher/tmp/fudan_utils-0.1.3.tar.gz]
+[2023-06-15 08:54:42] INFO root fetch - processPackages [fudan-utils]: Remove: archive file [/home/abi/fetcher/tmp/fudan_utils-0.1.4.tar.gz]
+[2023-06-15 08:54:42] INFO root fetch - main [MainThread]: End processing [fudan-utils]: success
+[2023-06-15 08:54:42] ERROR root fetch - processPackages [cm-two]: Diffoscope failed: Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 126, in feeder
+    end_nl = feeder(out_file)
+             ^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 81, in feeder
+    out = filter_reader(buf, filter)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 47, in filter_reader
+    buf = additional_filter(buf)
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 57, in filter
+    m = self.re_strip_path.match(line.decode("utf-8"))
+                                 ^^^^^^^^^^^^^^^^^^^^
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid continuation byte
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 217, in compare
+    x = super().compare(other, source)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 416, in _compare_using_details
+    details.extend(self.compare_details(other, source))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 252, in compare_details
+    differences.extend(zipinfo_differences(self, other))
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 127, in zipinfo_differences
+    zipinfo = Difference.from_operation(Zipinfo, file.path, other.path)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 267, in from_operation
+    return Difference.from_operation_exc(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 316, in from_operation_exc
+    difference = Difference.from_feeder(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 214, in from_feeder
+    unified_diff = diff(feeder1, feeder2)
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 126, in feeder
+    end_nl = feeder(out_file)
+             ^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 81, in feeder
+    out = filter_reader(buf, filter)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 47, in filter_reader
+    buf = additional_filter(buf)
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 57, in filter
+    m = self.re_strip_path.match(line.decode("utf-8"))
+                                 ^^^^^^^^^^^^^^^^^^^^
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid continuation byte
+
+[2023-06-15 08:54:42] INFO root fetch - main [MainThread]: End processing [cm-two] error
+[2023-06-15 08:54:43] INFO root fetch - processPackages [hierts]: Remove: archive file [/home/abi/fetcher/tmp/hierts-0.5.tar.gz]
+[2023-06-15 08:54:43] INFO root fetch - processPackages [hierts]: Remove: archive file [/home/abi/fetcher/tmp/hierts-0.6.tar.gz]
+[2023-06-15 08:54:43] INFO root fetch - main [MainThread]: End processing [hierts]: success
+[2023-06-15 08:54:43] INFO root fetch - processPackages [itkdb-gtk]: Remove: archive file [/home/abi/fetcher/tmp/itkdb_gtk-0.0.8.tar.gz]
+[2023-06-15 08:54:43] INFO root fetch - processPackages [itkdb-gtk]: Remove: archive file [/home/abi/fetcher/tmp/itkdb_gtk-0.0.9.tar.gz]
+[2023-06-15 08:54:43] INFO root fetch - main [MainThread]: End processing [itkdb-gtk]: success
+[2023-06-15 08:54:43] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: Remove: archive file [/home/abi/fetcher/tmp/th2_grpc_lw_data_provider-2.0.0.dev5275695337.tar.gz]
+[2023-06-15 08:54:43] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: Remove: archive file [/home/abi/fetcher/tmp/th2_grpc_lw_data_provider-2.1.0.dev3871883101.tar.gz]
+[2023-06-15 08:54:43] INFO root fetch - main [MainThread]: End processing [th2-grpc-lw-data-provider]: success
+[2023-06-15 08:54:43] INFO root fetch - processPackages [namedivider-python]: Remove: archive file [/home/abi/fetcher/tmp/namedivider-python-0.2.0.tar.gz]
+[2023-06-15 08:54:43] INFO root fetch - processPackages [namedivider-python]: Remove: archive file [/home/abi/fetcher/tmp/namedivider-python-0.2.1.tar.gz]
+[2023-06-15 08:54:43] INFO root fetch - main [MainThread]: End processing [namedivider-python]: success
+[2023-06-15 08:54:43] INFO root fetch - processPackages [felixlib]: Remove: archive file [/home/abi/fetcher/tmp/felixlib-0.0.8.tar.gz]
+[2023-06-15 08:54:43] INFO root fetch - processPackages [felixlib]: Remove: archive file [/home/abi/fetcher/tmp/felixlib-0.0.9.tar.gz]
+[2023-06-15 08:54:43] INFO root fetch - main [MainThread]: End processing [felixlib]: success
+[2023-06-15 08:54:43] INFO root fetch - processPackages [wizata-dsapi]: Remove: archive file [/home/abi/fetcher/tmp/wizata-dsapi-0.1.98.tar.gz]
+[2023-06-15 08:54:43] INFO root fetch - processPackages [wizata-dsapi]: Remove: archive file [/home/abi/fetcher/tmp/wizata-dsapi-0.1.99.tar.gz]
+[2023-06-15 08:54:43] INFO root fetch - main [MainThread]: End processing [wizata-dsapi]: success
+[2023-06-15 08:54:43] INFO root fetch - processPackages [reddit-decider]: Remove: archive file [/home/abi/fetcher/tmp/reddit_decider-1.3.0.tar.gz]
+[2023-06-15 08:54:43] INFO root fetch - processPackages [reddit-decider]: Remove: archive file [/home/abi/fetcher/tmp/reddit_decider-1.3.1-cp37-abi3-musllinux_1_1_x86_64.whl.zip]
+[2023-06-15 08:54:43] INFO root fetch - main [MainThread]: End processing [reddit-decider]: success
+[2023-06-15 08:54:43] INFO root fetch - main [MainThread]: Store serial: [18511925]
