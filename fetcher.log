@@ -18404,3 +18404,153 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-06-15 11:58:27] INFO root fetch - processPackages [perun.proxygui]: Remove: archive file [/home/abi/fetcher/tmp/perun.proxygui-1.8.2.tar.gz]
 [2023-06-15 11:58:27] INFO root fetch - main [MainThread]: End processing [perun.proxygui]: success
 [2023-06-15 11:58:27] INFO root fetch - main [MainThread]: Store serial: [18514360]
+[2023-06-15 12:03:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18514360]
+[2023-06-15 12:03:37] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-06-15 12:03:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: numerical-py
+[2023-06-15 12:03:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: llm-generation-server
+[2023-06-15 12:03:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mecapacktools
+[2023-06-15 12:03:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cysystemd
+[2023-06-15 12:03:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: laserdato
+[2023-06-15 12:03:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: coursebox
+[2023-06-15 12:03:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ccdt
+[2023-06-15 12:03:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: configuraptor
+[2023-06-15 12:03:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: multisesh
+[2023-06-15 12:03:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cdk-pipelines-github
+[2023-06-15 12:03:38] INFO root fetch - processPackages [llm-generation-server]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-15 12:03:38] INFO root fetch - processPackages [laserdato]: New version: [0.1.0] Old Version: [0.0.14]
+[2023-06-15 12:03:38] INFO root fetch - processPackages [numerical-py]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-15 12:03:38] INFO root fetch - processPackages [coursebox]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-15 12:03:38] INFO root fetch - processPackages [mecapacktools]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-06-15 12:03:38] INFO root fetch - processPackages [multisesh]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-15 12:03:38] INFO root fetch - processPackages [cdk-pipelines-github]: New version: [0.4.9] Old Version: [0.4.89]
+[2023-06-15 12:03:38] INFO root fetch - processPackages [ccdt]: New version: [2.1.9] Old Version: [2.1.8]
+[2023-06-15 12:03:38] INFO root fetch - processPackages [cysystemd]: New version: [1.5.4] Old Version: [1.5.3]
+[2023-06-15 12:03:38] INFO root fetch - processPackages [configuraptor]: New version: [1.3.2] Old Version: [1.3.1]
+[2023-06-15 12:03:38] INFO root fetch - processPackages [laserdato]: Downloading https://files.pythonhosted.org/packages/4a/1c/ea4989f38a3cc959423f668b7973bede4eeb093e5549001148ce200f2ef5/laserdato-0.0.14.tar.gz
+[2023-06-15 12:03:38] INFO root fetch - processPackages [multisesh]: Downloading https://files.pythonhosted.org/packages/6e/cd/691dd03e7cf38979b053399a8811a10f45c2056fd6367ca81e28291a11f2/multisesh-0.0.8.tar.gz
+[2023-06-15 12:03:38] INFO root fetch - processPackages [configuraptor]: Downloading https://files.pythonhosted.org/packages/ff/c5/4424d9190cfdcef538c2cd04f1504da4240cdf911c1bef3bcf38b7a0e158/configuraptor-1.3.1.tar.gz
+[2023-06-15 12:03:38] INFO root fetch - processPackages [ccdt]: Downloading https://files.pythonhosted.org/packages/4b/74/4580a005cbe4f6dc4e16ce3a9feb5716c4cf901b4839d048dfff2001ee3d/ccdt-2.1.8.tar.gz
+[2023-06-15 12:03:38] INFO root fetch - processPackages [numerical-py]: Downloading https://files.pythonhosted.org/packages/1d/de/1646bfffd31b37c02f76dd709f9c00e9f79df74282ab8379237197ee3794/numerical_py-0.0.8.tar.gz
+[2023-06-15 12:03:38] INFO root fetch - processPackages [llm-generation-server]: Downloading https://files.pythonhosted.org/packages/a9/c7/60d9ee578f53e3c23b27bd219025e0c4ede4cb3116803642b0901c39b8a6/llm_generation_server-0.1.2.tar.gz
+[2023-06-15 12:03:38] INFO root fetch - processPackages [coursebox]: Downloading https://files.pythonhosted.org/packages/9d/36/def56436e99070761715ee4292ceb55536502b616afbeac9d5353660a62e/coursebox-0.1.8.tar.gz
+[2023-06-15 12:03:38] INFO root fetch - processPackages [cdk-pipelines-github]: Downloading https://files.pythonhosted.org/packages/16/fd/4d40dc5081fcdb39c7152ccf1b63a8a5d6539f2772c5d71a71dfa8b948cd/cdk-pipelines-github-0.4.89.tar.gz
+[2023-06-15 12:03:38] INFO root fetch - processPackages [mecapacktools]: Downloading https://files.pythonhosted.org/packages/1a/3e/e87ef97934590c25ffa1d2e10e698b20f24b3d5c6ef16d670c0d7aa30284/mecapacktools-1.1.0.tar.gz
+[2023-06-15 12:03:38] INFO root fetch - processPackages [multisesh]: Downloading https://files.pythonhosted.org/packages/5a/1c/948892eb28d271e94154d23aea3c2649b1d1c24d0e879cf3d3170586cd27/multisesh-0.0.9.tar.gz
+[2023-06-15 12:03:38] INFO root fetch - processPackages [cysystemd]: Downloading https://files.pythonhosted.org/packages/92/48/101c9abba225602af62fbded534aa7e28a0684b2aae6e23acb580a15fe88/cysystemd-1.5.3.tar.gz
+[2023-06-15 12:03:38] INFO root fetch - processPackages [ccdt]: Downloading https://files.pythonhosted.org/packages/d5/f2/7926d58fa933cd6e8d4ce55e92df2097043f323dba456534345b8dd248c1/ccdt-2.1.9.tar.gz
+[2023-06-15 12:03:38] INFO root fetch - processPackages [laserdato]: Downloading https://files.pythonhosted.org/packages/65/46/b026d53f835d591a36c79efd7ab7a7aff3616bb5eab9a7d7885e319d6400/laserdato-0.1.0.tar.gz
+[2023-06-15 12:03:38] INFO root fetch - processPackages [multisesh]: executing diffoscope
+[2023-06-15 12:03:38] INFO root fetch - processPackages [multisesh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multisesh-0.0.8.tar.gz tmp/multisesh-0.0.9.tar.gz --markdown 20230615/m/multisesh/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-15 12:03:38] INFO root fetch - processPackages [ccdt]: executing diffoscope
+[2023-06-15 12:03:38] INFO root fetch - processPackages [ccdt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccdt-2.1.8.tar.gz tmp/ccdt-2.1.9.tar.gz --markdown 20230615/c/ccdt/2.1.8-2.1.9/diff.md --exclude *.pyd
+[2023-06-15 12:03:38] INFO root fetch - processPackages [laserdato]: executing diffoscope
+[2023-06-15 12:03:38] INFO root fetch - processPackages [configuraptor]: Downloading https://files.pythonhosted.org/packages/a2/91/58474f872701e1c05f5ec26f99b9d6adf147e2812d9d4cc7b401d1c8c98f/configuraptor-1.3.2.tar.gz
+[2023-06-15 12:03:38] INFO root fetch - processPackages [laserdato]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/laserdato-0.0.14.tar.gz tmp/laserdato-0.1.0.tar.gz --markdown 20230615/l/laserdato/0.0.14-0.1.0/diff.md --exclude *.pyd
+[2023-06-15 12:03:38] INFO root fetch - processPackages [numerical-py]: Downloading https://files.pythonhosted.org/packages/95/1d/7677791c6175f40bd4a70e667ae838300671845f99330142d2e9a3d9f7f8/numerical_py-0.0.9.tar.gz
+[2023-06-15 12:03:38] INFO root fetch - processPackages [llm-generation-server]: Downloading https://files.pythonhosted.org/packages/8c/af/b7a750be36fb70a63756ffc0df58116094b14f602ddc75f91620a7af7534/llm_generation_server-0.1.3.tar.gz
+[2023-06-15 12:03:38] INFO root fetch - processPackages [cdk-pipelines-github]: Downloading https://files.pythonhosted.org/packages/88/a7/cf7d8bb4ea84150b1b05dca2ef8a82fdf7aa4be753a00f77c09bc57e8f51/cdk-pipelines-github-0.4.9.tar.gz
+[2023-06-15 12:03:38] INFO root fetch - processPackages [mecapacktools]: Downloading https://files.pythonhosted.org/packages/83/dc/fdcb4b5960be16c18868cd50d47b9bc4a29795ea4d7a1d9e2294e0e3156f/mecapacktools-1.1.1.tar.gz
+[2023-06-15 12:03:38] INFO root fetch - processPackages [numerical-py]: executing diffoscope
+[2023-06-15 12:03:38] INFO root fetch - processPackages [numerical-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/numerical_py-0.0.8.tar.gz tmp/numerical_py-0.0.9.tar.gz --markdown 20230615/n/numerical-py/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-15 12:03:38] INFO root fetch - processPackages [configuraptor]: executing diffoscope
+[2023-06-15 12:03:38] INFO root fetch - processPackages [configuraptor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/configuraptor-1.3.1.tar.gz tmp/configuraptor-1.3.2.tar.gz --markdown 20230615/c/configuraptor/1.3.1-1.3.2/diff.md --exclude *.pyd
+[2023-06-15 12:03:38] INFO root fetch - processPackages [llm-generation-server]: executing diffoscope
+[2023-06-15 12:03:38] INFO root fetch - processPackages [llm-generation-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llm_generation_server-0.1.2.tar.gz tmp/llm_generation_server-0.1.3.tar.gz --markdown 20230615/l/llm-generation-server/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-15 12:03:38] INFO root fetch - processPackages [mecapacktools]: executing diffoscope
+[2023-06-15 12:03:38] INFO root fetch - processPackages [cysystemd]: Downloading https://files.pythonhosted.org/packages/a6/ec/77e3f95c40498b3eac1126a40af1a8ef75d07ad32c3f4b016001bec0dd61/cysystemd-1.5.4.tar.gz
+[2023-06-15 12:03:38] INFO root fetch - processPackages [mecapacktools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mecapacktools-1.1.0.tar.gz tmp/mecapacktools-1.1.1.tar.gz --markdown 20230615/m/mecapacktools/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-06-15 12:03:38] INFO root fetch - processPackages [cdk-pipelines-github]: executing diffoscope
+[2023-06-15 12:03:38] INFO root fetch - processPackages [cdk-pipelines-github]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-pipelines-github-0.4.89.tar.gz tmp/cdk-pipelines-github-0.4.9.tar.gz --markdown 20230615/c/cdk-pipelines-github/0.4.89-0.4.9/diff.md --exclude *.pyd
+[2023-06-15 12:03:38] INFO root fetch - processPackages [cysystemd]: executing diffoscope
+[2023-06-15 12:03:38] INFO root fetch - processPackages [cysystemd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cysystemd-1.5.3.tar.gz tmp/cysystemd-1.5.4.tar.gz --markdown 20230615/c/cysystemd/1.5.3-1.5.4/diff.md --exclude *.pyd
+[2023-06-15 12:03:38] INFO root fetch - processPackages [coursebox]: Downloading https://files.pythonhosted.org/packages/59/40/ba7cf6852b6e58bae63bd3ee694ac4054ea7a5de15ce75d0008ffea172a9/coursebox-0.1.9.tar.gz
+[2023-06-15 12:03:39] INFO root fetch - processPackages [coursebox]: executing diffoscope
+[2023-06-15 12:03:39] INFO root fetch - processPackages [coursebox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coursebox-0.1.8.tar.gz tmp/coursebox-0.1.9.tar.gz --markdown 20230615/c/coursebox/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-15 12:03:39] INFO root fetch - processPackages [multisesh]: Remove: archive file [/home/abi/fetcher/tmp/multisesh-0.0.8.tar.gz]
+[2023-06-15 12:03:39] INFO root fetch - processPackages [multisesh]: Remove: archive file [/home/abi/fetcher/tmp/multisesh-0.0.9.tar.gz]
+[2023-06-15 12:03:39] INFO root fetch - processPackages [multisesh]: Start processing: spetlr-tools
+[2023-06-15 12:03:39] INFO root fetch - main [MainThread]: End processing [multisesh]: success
+[2023-06-15 12:03:39] INFO root fetch - processPackages [spetlr-tools]: New version: [0.1.35] Old Version: [0.1.34]
+[2023-06-15 12:03:39] INFO root fetch - processPackages [numerical-py]: Remove: archive file [/home/abi/fetcher/tmp/numerical_py-0.0.8.tar.gz]
+[2023-06-15 12:03:39] INFO root fetch - processPackages [numerical-py]: Remove: archive file [/home/abi/fetcher/tmp/numerical_py-0.0.9.tar.gz]
+[2023-06-15 12:03:39] INFO root fetch - processPackages [numerical-py]: Start processing: natia
+[2023-06-15 12:03:39] INFO root fetch - main [MainThread]: End processing [numerical-py]: success
+[2023-06-15 12:03:39] INFO root fetch - processPackages [spetlr-tools]: Downloading https://files.pythonhosted.org/packages/a0/d1/8dd06f3f9f7c833832b8078e5c00138e2006f67b2e923e5901baa417d9f9/spetlr-tools-0.1.34.tar.gz
+[2023-06-15 12:03:39] INFO root fetch - processPackages [natia]: New version: [0.0.2] Old Version: [0.0.0]
+[2023-06-15 12:03:39] INFO root fetch - processPackages [laserdato]: Remove: archive file [/home/abi/fetcher/tmp/laserdato-0.0.14.tar.gz]
+[2023-06-15 12:03:39] INFO root fetch - processPackages [laserdato]: Remove: archive file [/home/abi/fetcher/tmp/laserdato-0.1.0.tar.gz]
+[2023-06-15 12:03:39] INFO root fetch - processPackages [laserdato]: Start processing: typosquatting
+[2023-06-15 12:03:39] INFO root fetch - main [MainThread]: End processing [laserdato]: success
+[2023-06-15 12:03:39] WARNING root fetch - processPackages [typosquatting]: Skipping, unable to determine old version
+[2023-06-15 12:03:39] INFO root fetch - processPackages [typosquatting]: Start processing: vocex
+[2023-06-15 12:03:39] INFO root fetch - main [MainThread]: End processing [typosquatting] error
+[2023-06-15 12:03:39] INFO root fetch - processPackages [vocex]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-06-15 12:03:40] INFO root fetch - processPackages [natia]: Downloading https://files.pythonhosted.org/packages/40/10/cea4d6fcfa7f003bbd1dbf5442aebaf2714b319a3a50b4ea43b1585d6d79/natia-0.0.0.tar.gz
+[2023-06-15 12:03:40] INFO root fetch - processPackages [cdk-pipelines-github]: Remove: archive file [/home/abi/fetcher/tmp/cdk-pipelines-github-0.4.89.tar.gz]
+[2023-06-15 12:03:40] INFO root fetch - processPackages [cdk-pipelines-github]: Remove: archive file [/home/abi/fetcher/tmp/cdk-pipelines-github-0.4.9.tar.gz]
+[2023-06-15 12:03:40] INFO root fetch - processPackages [cdk-pipelines-github]: Start processing: parsita
+[2023-06-15 12:03:40] INFO root fetch - main [MainThread]: End processing [cdk-pipelines-github]: success
+[2023-06-15 12:03:40] INFO root fetch - processPackages [spetlr-tools]: Downloading https://files.pythonhosted.org/packages/3a/e0/1907fa721ced2853e1bec65db7209ef6e8b8b0383cfbae9d97e0e015e14e/spetlr-tools-0.1.35.tar.gz
+[2023-06-15 12:03:40] INFO root fetch - processPackages [parsita]: New version: [2.0.0b1] Old Version: [1.8.0b1]
+[2023-06-15 12:03:40] INFO root fetch - processPackages [vocex]: Downloading https://files.pythonhosted.org/packages/8a/14/31d687ffdc94ba496b5260118fb03fbf41f68a3be1c6021af97e3dc64d06/vocex-0.1.7.tar.gz
+[2023-06-15 12:03:40] INFO root fetch - processPackages [spetlr-tools]: executing diffoscope
+[2023-06-15 12:03:40] INFO root fetch - processPackages [spetlr-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spetlr-tools-0.1.34.tar.gz tmp/spetlr-tools-0.1.35.tar.gz --markdown 20230615/s/spetlr-tools/0.1.34-0.1.35/diff.md --exclude *.pyd
+[2023-06-15 12:03:40] INFO root fetch - processPackages [ccdt]: Remove: archive file [/home/abi/fetcher/tmp/ccdt-2.1.8.tar.gz]
+[2023-06-15 12:03:40] INFO root fetch - processPackages [ccdt]: Remove: archive file [/home/abi/fetcher/tmp/ccdt-2.1.9.tar.gz]
+[2023-06-15 12:03:40] INFO root fetch - processPackages [ccdt]: Start processing: mnzipcode
+[2023-06-15 12:03:40] INFO root fetch - main [MainThread]: End processing [ccdt]: success
+[2023-06-15 12:03:40] INFO root fetch - processPackages [natia]: Downloading https://files.pythonhosted.org/packages/d0/79/08e474a4a513a485b972af858999b932d81a50145426805b41342b01f4cd/natia-0.0.2.tar.gz
+[2023-06-15 12:03:40] INFO root fetch - processPackages [mnzipcode]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-15 12:03:40] INFO root fetch - processPackages [parsita]: Downloading https://files.pythonhosted.org/packages/26/75/00284fa2da52675e8041b04ae7d73f701d3b8c6d98ef69c4d8097d503b2e/parsita-1.8.0b1.tar.gz
+[2023-06-15 12:03:40] INFO root fetch - processPackages [mnzipcode]: Downloading https://files.pythonhosted.org/packages/33/d4/8e5e8f293f3d8bf3cc67d84229cb1ed93d1c0a7e9e8687b9d87ef6dff5bb/mnzipcode-0.0.8.tar.gz
+[2023-06-15 12:03:40] INFO root fetch - processPackages [configuraptor]: Remove: archive file [/home/abi/fetcher/tmp/configuraptor-1.3.1.tar.gz]
+[2023-06-15 12:03:40] INFO root fetch - processPackages [configuraptor]: Remove: archive file [/home/abi/fetcher/tmp/configuraptor-1.3.2.tar.gz]
+[2023-06-15 12:03:40] INFO root fetch - processPackages [configuraptor]: Start processing: macrometa-target-collection
+[2023-06-15 12:03:40] INFO root fetch - main [MainThread]: End processing [configuraptor]: success
+[2023-06-15 12:03:40] INFO root fetch - processPackages [vocex]: Downloading https://files.pythonhosted.org/packages/6e/46/de01c949d70e8f0cf1dcaf71df3e7780a67307cf15a1d4fcdff08516cc12/vocex-0.1.8.tar.gz
+[2023-06-15 12:03:40] INFO root fetch - processPackages [macrometa-target-collection]: New version: [0.0.66] Old Version: [0.0.65]
+[2023-06-15 12:03:40] INFO root fetch - processPackages [natia]: executing diffoscope
+[2023-06-15 12:03:40] INFO root fetch - processPackages [natia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/natia-0.0.0.tar.gz tmp/natia-0.0.2.tar.gz --markdown 20230615/n/natia/0.0.0-0.0.2/diff.md --exclude *.pyd
+[2023-06-15 12:03:40] INFO root fetch - processPackages [mecapacktools]: Remove: archive file [/home/abi/fetcher/tmp/mecapacktools-1.1.0.tar.gz]
+[2023-06-15 12:03:40] INFO root fetch - processPackages [mecapacktools]: Remove: archive file [/home/abi/fetcher/tmp/mecapacktools-1.1.1.tar.gz]
+[2023-06-15 12:03:40] INFO root fetch - main [MainThread]: End processing [mecapacktools]: success
+[2023-06-15 12:03:40] INFO root fetch - processPackages [macrometa-target-collection]: Downloading https://files.pythonhosted.org/packages/7f/51/ee0b3324e047d2f9637cda91935d962a5b819fd62adfd42905224393f168/macrometa-target-collection-0.0.65.tar.gz
+[2023-06-15 12:03:40] INFO root fetch - processPackages [vocex]: executing diffoscope
+[2023-06-15 12:03:40] INFO root fetch - processPackages [vocex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vocex-0.1.7.tar.gz tmp/vocex-0.1.8.tar.gz --markdown 20230615/v/vocex/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-06-15 12:03:40] INFO root fetch - processPackages [parsita]: Downloading https://files.pythonhosted.org/packages/38/f1/82d813223579337cfc13eca0281e638aab74305e70b9bb29e6707a52ecf8/parsita-2.0.0b1.tar.gz
+[2023-06-15 12:03:40] INFO root fetch - processPackages [parsita]: executing diffoscope
+[2023-06-15 12:03:40] INFO root fetch - processPackages [parsita]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/parsita-1.8.0b1.tar.gz tmp/parsita-2.0.0b1.tar.gz --markdown 20230615/p/parsita/1.8.0b1-2.0.0b1/diff.md --exclude *.pyd
+[2023-06-15 12:03:40] INFO root fetch - processPackages [macrometa-target-collection]: Downloading https://files.pythonhosted.org/packages/5a/53/3433639d93470ffb3985463e7bd9613f6c9cfcc3b4530b28ac5d9f680efa/macrometa-target-collection-0.0.66.tar.gz
+[2023-06-15 12:03:40] INFO root fetch - processPackages [coursebox]: Remove: archive file [/home/abi/fetcher/tmp/coursebox-0.1.8.tar.gz]
+[2023-06-15 12:03:40] INFO root fetch - processPackages [coursebox]: Remove: archive file [/home/abi/fetcher/tmp/coursebox-0.1.9.tar.gz]
+[2023-06-15 12:03:40] INFO root fetch - main [MainThread]: End processing [coursebox]: success
+[2023-06-15 12:03:40] INFO root fetch - processPackages [mnzipcode]: Downloading https://files.pythonhosted.org/packages/ae/6e/5c0f0a197beacd199ec2efa9b151a9f8de0a34aef8b7e92d58b95b2024f0/mnzipcode-0.0.9.tar.gz
+[2023-06-15 12:03:40] INFO root fetch - processPackages [macrometa-target-collection]: executing diffoscope
+[2023-06-15 12:03:40] INFO root fetch - processPackages [macrometa-target-collection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/macrometa-target-collection-0.0.65.tar.gz tmp/macrometa-target-collection-0.0.66.tar.gz --markdown 20230615/m/macrometa-target-collection/0.0.65-0.0.66/diff.md --exclude *.pyd
+[2023-06-15 12:03:41] INFO root fetch - processPackages [mnzipcode]: executing diffoscope
+[2023-06-15 12:03:41] INFO root fetch - processPackages [mnzipcode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mnzipcode-0.0.8.tar.gz tmp/mnzipcode-0.0.9.tar.gz --markdown 20230615/m/mnzipcode/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-15 12:03:41] INFO root fetch - processPackages [cysystemd]: Remove: archive file [/home/abi/fetcher/tmp/cysystemd-1.5.3.tar.gz]
+[2023-06-15 12:03:41] INFO root fetch - processPackages [cysystemd]: Remove: archive file [/home/abi/fetcher/tmp/cysystemd-1.5.4.tar.gz]
+[2023-06-15 12:03:41] INFO root fetch - main [MainThread]: End processing [cysystemd]: success
+[2023-06-15 12:03:41] INFO root fetch - processPackages [spetlr-tools]: Remove: archive file [/home/abi/fetcher/tmp/spetlr-tools-0.1.34.tar.gz]
+[2023-06-15 12:03:41] INFO root fetch - processPackages [spetlr-tools]: Remove: archive file [/home/abi/fetcher/tmp/spetlr-tools-0.1.35.tar.gz]
+[2023-06-15 12:03:41] INFO root fetch - main [MainThread]: End processing [spetlr-tools]: success
+[2023-06-15 12:03:41] INFO root fetch - processPackages [vocex]: Remove: archive file [/home/abi/fetcher/tmp/vocex-0.1.7.tar.gz]
+[2023-06-15 12:03:41] INFO root fetch - processPackages [vocex]: Remove: archive file [/home/abi/fetcher/tmp/vocex-0.1.8.tar.gz]
+[2023-06-15 12:03:41] INFO root fetch - main [MainThread]: End processing [vocex]: success
+[2023-06-15 12:03:41] INFO root fetch - processPackages [natia]: Remove: archive file [/home/abi/fetcher/tmp/natia-0.0.0.tar.gz]
+[2023-06-15 12:03:41] INFO root fetch - processPackages [natia]: Remove: archive file [/home/abi/fetcher/tmp/natia-0.0.2.tar.gz]
+[2023-06-15 12:03:41] INFO root fetch - main [MainThread]: End processing [natia]: success
+[2023-06-15 12:03:41] INFO root fetch - processPackages [parsita]: Remove: archive file [/home/abi/fetcher/tmp/parsita-1.8.0b1.tar.gz]
+[2023-06-15 12:03:41] INFO root fetch - processPackages [parsita]: Remove: archive file [/home/abi/fetcher/tmp/parsita-2.0.0b1.tar.gz]
+[2023-06-15 12:03:41] INFO root fetch - main [MainThread]: End processing [parsita]: success
+[2023-06-15 12:03:41] INFO root fetch - processPackages [llm-generation-server]: Remove: archive file [/home/abi/fetcher/tmp/llm_generation_server-0.1.2.tar.gz]
+[2023-06-15 12:03:41] INFO root fetch - processPackages [llm-generation-server]: Remove: archive file [/home/abi/fetcher/tmp/llm_generation_server-0.1.3.tar.gz]
+[2023-06-15 12:03:41] INFO root fetch - main [MainThread]: End processing [llm-generation-server]: success
+[2023-06-15 12:03:42] INFO root fetch - processPackages [macrometa-target-collection]: Remove: archive file [/home/abi/fetcher/tmp/macrometa-target-collection-0.0.65.tar.gz]
+[2023-06-15 12:03:42] INFO root fetch - processPackages [macrometa-target-collection]: Remove: archive file [/home/abi/fetcher/tmp/macrometa-target-collection-0.0.66.tar.gz]
+[2023-06-15 12:03:42] INFO root fetch - main [MainThread]: End processing [macrometa-target-collection]: success
+[2023-06-15 12:03:42] INFO root fetch - processPackages [mnzipcode]: Remove: archive file [/home/abi/fetcher/tmp/mnzipcode-0.0.8.tar.gz]
+[2023-06-15 12:03:42] INFO root fetch - processPackages [mnzipcode]: Remove: archive file [/home/abi/fetcher/tmp/mnzipcode-0.0.9.tar.gz]
+[2023-06-15 12:03:42] INFO root fetch - main [MainThread]: End processing [mnzipcode]: success
+[2023-06-15 12:03:42] INFO root fetch - main [MainThread]: Store serial: [18514423]
