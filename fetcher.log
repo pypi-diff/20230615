@@ -12065,3 +12065,86 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-06-15 08:54:43] INFO root fetch - processPackages [reddit-decider]: Remove: archive file [/home/abi/fetcher/tmp/reddit_decider-1.3.1-cp37-abi3-musllinux_1_1_x86_64.whl.zip]
 [2023-06-15 08:54:43] INFO root fetch - main [MainThread]: End processing [reddit-decider]: success
 [2023-06-15 08:54:43] INFO root fetch - main [MainThread]: Store serial: [18511925]
+[2023-06-15 08:59:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18511925]
+[2023-06-15 08:59:53] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-15 08:59:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fastgenerateapi
+[2023-06-15 08:59:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: wizata-dsapi
+[2023-06-15 08:59:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pykg2tbl
+[2023-06-15 08:59:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: thundra
+[2023-06-15 08:59:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gitlabcicli
+[2023-06-15 08:59:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: automation-editor-dev
+[2023-06-15 08:59:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: netbox-cisco-maintenance
+[2023-06-15 08:59:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: AutoWSGR
+[2023-06-15 08:59:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: xj-user
+[2023-06-15 08:59:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo14-addon-shopinvader
+[2023-06-15 08:59:53] INFO root fetch - processPackages [thundra]: New version: [3.0.7] Old Version: [3.0.6]
+[2023-06-15 08:59:53] WARNING root fetch - processPackages [pykg2tbl]: Skipping, unable to determine old version
+[2023-06-15 08:59:53] INFO root fetch - main [MainThread]: End processing [pykg2tbl] error
+[2023-06-15 08:59:53] INFO root fetch - processPackages [netbox-cisco-maintenance]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-15 08:59:53] INFO root fetch - processPackages [gitlabcicli]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-06-15 08:59:53] INFO root fetch - processPackages [automation-editor-dev]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-15 08:59:53] INFO root fetch - processPackages [odoo14-addon-shopinvader]: New version: [14.0.5.9.3] Old Version: [14.0.5.9.2]
+[2023-06-15 08:59:53] INFO root fetch - processPackages [fastgenerateapi]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-15 08:59:53] INFO root fetch - processPackages [wizata-dsapi]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-06-15 08:59:53] INFO root fetch - processPackages [xj-user]: New version: [1.2.99] Old Version: [1.2.98]
+[2023-06-15 08:59:53] INFO root fetch - processPackages [netbox-cisco-maintenance]: Downloading https://files.pythonhosted.org/packages/49/9b/a1c0c74911cdf52ff01e40ea24fa7dd8c615a41dbbdae40f076bf871e18c/netbox-cisco-maintenance-0.0.98.tar.gz
+[2023-06-15 08:59:53] INFO root fetch - processPackages [wizata-dsapi]: Downloading https://files.pythonhosted.org/packages/d0/ba/f0bdd16f95ee52fb25901409f31bde594458ef362c86f31c8d307c8987d5/wizata-dsapi-0.1.98.tar.gz
+[2023-06-15 08:59:53] INFO root fetch - processPackages [fastgenerateapi]: Downloading https://files.pythonhosted.org/packages/ed/76/174d39dfb1287dfa37aed7f7daab8324bf9081818c4be63fef0312bc3e6d/fastgenerateapi-0.0.2.tar.gz
+[2023-06-15 08:59:53] INFO root fetch - processPackages [xj-user]: Downloading https://files.pythonhosted.org/packages/26/be/e0d28eecf05fff47ab8dc5bf0e46eff90f3cee3ae03596f052698e5df93d/xj_user-1.2.98.tar.gz
+[2023-06-15 08:59:53] INFO root fetch - processPackages [odoo14-addon-shopinvader]: Downloading https://files.pythonhosted.org/packages/fc/88/cf6d2f2234b3394b5b33b91c62bb37e33767edf2a7b37fd6bf65b6e91155/odoo14_addon_shopinvader-14.0.5.9.2-py3-none-any.whl
+[2023-06-15 08:59:53] INFO root fetch - processPackages [thundra]: Downloading https://files.pythonhosted.org/packages/ae/71/530af5e48a1f8d496efd348d81c319cf0780643fcfcd7d2144fcaaddd9d2/thundra-3.0.6.tar.gz
+[2023-06-15 08:59:53] INFO root fetch - processPackages [wizata-dsapi]: Downloading https://files.pythonhosted.org/packages/3f/a2/8e1949f8e59bf78c31c3953b9c48fc81a94bb23b209d76f41dbd3f8b510f/wizata-dsapi-0.1.99.tar.gz
+[2023-06-15 08:59:53] INFO root fetch - processPackages [automation-editor-dev]: Downloading https://files.pythonhosted.org/packages/00/7f/952117cc044c6a56f24b3e31b54d2ae7b3f3f94e1ea65aa39fad146ee263/automation_editor_dev-0.0.8.tar.gz
+[2023-06-15 08:59:53] INFO root fetch - processPackages [netbox-cisco-maintenance]: Downloading https://files.pythonhosted.org/packages/36/61/db227025ce63809f803a3fe44062bf026321f24f9aa12a99bf348ae574ca/netbox-cisco-maintenance-0.0.99.tar.gz
+[2023-06-15 08:59:53] INFO root fetch - processPackages [gitlabcicli]: Downloading https://files.pythonhosted.org/packages/8f/0c/090ab81b75b7c8a535f48abd716432058c6972b8fee172f84d879e7c59e4/gitlabcicli-0.2.5.tar.gz
+[2023-06-15 08:59:53] INFO root fetch - processPackages [AutoWSGR]: New version: [0.2.1.2] Old Version: [0.2.1.1]
+[2023-06-15 08:59:53] INFO root fetch - processPackages [xj-user]: Downloading https://files.pythonhosted.org/packages/f9/79/9b7536f52cd2a21b092678ce5bc888a17a7c527cef9ae891d864354f2e5c/xj_user-1.2.99.tar.gz
+[2023-06-15 08:59:53] INFO root fetch - processPackages [odoo14-addon-shopinvader]: Downloading https://files.pythonhosted.org/packages/0a/65/c2cbe26eff67bfb3b4fc527b907178f89a6e2dd6f2cd1b88632e2d76e20f/odoo14_addon_shopinvader-14.0.5.9.3-py3-none-any.whl
+[2023-06-15 08:59:53] INFO root fetch - processPackages [wizata-dsapi]: executing diffoscope
+[2023-06-15 08:59:53] INFO root fetch - processPackages [wizata-dsapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wizata-dsapi-0.1.98.tar.gz tmp/wizata-dsapi-0.1.99.tar.gz --markdown 20230615/w/wizata-dsapi/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-06-15 08:59:53] INFO root fetch - processPackages [netbox-cisco-maintenance]: executing diffoscope
+[2023-06-15 08:59:53] INFO root fetch - processPackages [netbox-cisco-maintenance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox-cisco-maintenance-0.0.98.tar.gz tmp/netbox-cisco-maintenance-0.0.99.tar.gz --markdown 20230615/n/netbox-cisco-maintenance/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-15 08:59:53] INFO root fetch - processPackages [fastgenerateapi]: Downloading https://files.pythonhosted.org/packages/34/e4/e509fc4d17a73a88fa2f6e16ee3cce6859b4a4db5da819936a3070c65e20/fastgenerateapi-0.0.3.tar.gz
+[2023-06-15 08:59:53] INFO root fetch - processPackages [xj-user]: executing diffoscope
+[2023-06-15 08:59:53] INFO root fetch - processPackages [xj-user]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xj_user-1.2.98.tar.gz tmp/xj_user-1.2.99.tar.gz --markdown 20230615/x/xj-user/1.2.98-1.2.99/diff.md --exclude *.pyd
+[2023-06-15 08:59:53] INFO root fetch - processPackages [odoo14-addon-shopinvader]: executing diffoscope
+[2023-06-15 08:59:53] INFO root fetch - processPackages [odoo14-addon-shopinvader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_shopinvader-14.0.5.9.2-py3-none-any.whl.zip tmp/odoo14_addon_shopinvader-14.0.5.9.3-py3-none-any.whl.zip --markdown 20230615/o/odoo14-addon-shopinvader/14.0.5.9.2-14.0.5.9.3/diff.md --exclude *.pyd
+[2023-06-15 08:59:53] INFO root fetch - processPackages [thundra]: Downloading https://files.pythonhosted.org/packages/49/22/72eb2e1707e176ac202335a2e2ae29f7f4ee014e5232bd1989c6761ca8a1/thundra-3.0.7.tar.gz
+[2023-06-15 08:59:53] INFO root fetch - processPackages [fastgenerateapi]: executing diffoscope
+[2023-06-15 08:59:53] INFO root fetch - processPackages [fastgenerateapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastgenerateapi-0.0.2.tar.gz tmp/fastgenerateapi-0.0.3.tar.gz --markdown 20230615/f/fastgenerateapi/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-15 08:59:53] INFO root fetch - processPackages [AutoWSGR]: Downloading https://files.pythonhosted.org/packages/f8/31/ef75206b4c3b23c941f348f8449c3d64c870b8c9dd5555298bb4ef92053b/AutoWSGR-0.2.1.1.tar.gz
+[2023-06-15 08:59:53] INFO root fetch - processPackages [gitlabcicli]: Downloading https://files.pythonhosted.org/packages/2c/d8/460f061f8b626d09b32e3b1bc11cad18379a66caf32ec153539c4d24e22c/gitlabcicli-0.2.6.tar.gz
+[2023-06-15 08:59:53] WARNING root fetch - processPackages [AutoWSGR]: Skipping package: exceeds size limit 36407651>=10485760
+[2023-06-15 08:59:53] INFO root fetch - main [MainThread]: End processing [AutoWSGR] error
+[2023-06-15 08:59:53] INFO root fetch - processPackages [automation-editor-dev]: Downloading https://files.pythonhosted.org/packages/91/ba/1f264deec49ee97cd331cb158d59988eae18cefcf4570f77eb3b20daa2d7/automation_editor_dev-0.0.9.tar.gz
+[2023-06-15 08:59:53] INFO root fetch - processPackages [thundra]: executing diffoscope
+[2023-06-15 08:59:53] INFO root fetch - processPackages [thundra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thundra-3.0.6.tar.gz tmp/thundra-3.0.7.tar.gz --markdown 20230615/t/thundra/3.0.6-3.0.7/diff.md --exclude *.pyd
+[2023-06-15 08:59:53] INFO root fetch - processPackages [gitlabcicli]: executing diffoscope
+[2023-06-15 08:59:53] INFO root fetch - processPackages [gitlabcicli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gitlabcicli-0.2.5.tar.gz tmp/gitlabcicli-0.2.6.tar.gz --markdown 20230615/g/gitlabcicli/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-06-15 08:59:53] INFO root fetch - processPackages [automation-editor-dev]: executing diffoscope
+[2023-06-15 08:59:53] INFO root fetch - processPackages [automation-editor-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/automation_editor_dev-0.0.8.tar.gz tmp/automation_editor_dev-0.0.9.tar.gz --markdown 20230615/a/automation-editor-dev/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-15 08:59:55] INFO root fetch - processPackages [netbox-cisco-maintenance]: Remove: archive file [/home/abi/fetcher/tmp/netbox-cisco-maintenance-0.0.98.tar.gz]
+[2023-06-15 08:59:55] INFO root fetch - processPackages [netbox-cisco-maintenance]: Remove: archive file [/home/abi/fetcher/tmp/netbox-cisco-maintenance-0.0.99.tar.gz]
+[2023-06-15 08:59:55] INFO root fetch - main [MainThread]: End processing [netbox-cisco-maintenance]: success
+[2023-06-15 08:59:55] INFO root fetch - processPackages [wizata-dsapi]: Remove: archive file [/home/abi/fetcher/tmp/wizata-dsapi-0.1.98.tar.gz]
+[2023-06-15 08:59:55] INFO root fetch - processPackages [wizata-dsapi]: Remove: archive file [/home/abi/fetcher/tmp/wizata-dsapi-0.1.99.tar.gz]
+[2023-06-15 08:59:55] INFO root fetch - main [MainThread]: End processing [wizata-dsapi]: success
+[2023-06-15 08:59:55] INFO root fetch - processPackages [xj-user]: Remove: archive file [/home/abi/fetcher/tmp/xj_user-1.2.98.tar.gz]
+[2023-06-15 08:59:55] INFO root fetch - processPackages [xj-user]: Remove: archive file [/home/abi/fetcher/tmp/xj_user-1.2.99.tar.gz]
+[2023-06-15 08:59:55] INFO root fetch - main [MainThread]: End processing [xj-user]: success
+[2023-06-15 08:59:55] INFO root fetch - processPackages [fastgenerateapi]: Remove: archive file [/home/abi/fetcher/tmp/fastgenerateapi-0.0.2.tar.gz]
+[2023-06-15 08:59:55] INFO root fetch - processPackages [fastgenerateapi]: Remove: archive file [/home/abi/fetcher/tmp/fastgenerateapi-0.0.3.tar.gz]
+[2023-06-15 08:59:55] INFO root fetch - main [MainThread]: End processing [fastgenerateapi]: success
+[2023-06-15 08:59:55] INFO root fetch - processPackages [automation-editor-dev]: Remove: archive file [/home/abi/fetcher/tmp/automation_editor_dev-0.0.8.tar.gz]
+[2023-06-15 08:59:55] INFO root fetch - processPackages [automation-editor-dev]: Remove: archive file [/home/abi/fetcher/tmp/automation_editor_dev-0.0.9.tar.gz]
+[2023-06-15 08:59:55] INFO root fetch - main [MainThread]: End processing [automation-editor-dev]: success
+[2023-06-15 08:59:55] INFO root fetch - processPackages [gitlabcicli]: Remove: archive file [/home/abi/fetcher/tmp/gitlabcicli-0.2.5.tar.gz]
+[2023-06-15 08:59:55] INFO root fetch - processPackages [gitlabcicli]: Remove: archive file [/home/abi/fetcher/tmp/gitlabcicli-0.2.6.tar.gz]
+[2023-06-15 08:59:55] INFO root fetch - main [MainThread]: End processing [gitlabcicli]: success
+[2023-06-15 08:59:56] INFO root fetch - processPackages [odoo14-addon-shopinvader]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_shopinvader-14.0.5.9.2-py3-none-any.whl.zip]
+[2023-06-15 08:59:56] INFO root fetch - processPackages [odoo14-addon-shopinvader]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_shopinvader-14.0.5.9.3-py3-none-any.whl.zip]
+[2023-06-15 08:59:56] INFO root fetch - main [MainThread]: End processing [odoo14-addon-shopinvader]: success
+[2023-06-15 08:59:58] INFO root fetch - processPackages [thundra]: Remove: archive file [/home/abi/fetcher/tmp/thundra-3.0.6.tar.gz]
+[2023-06-15 08:59:58] INFO root fetch - processPackages [thundra]: Remove: archive file [/home/abi/fetcher/tmp/thundra-3.0.7.tar.gz]
+[2023-06-15 08:59:58] INFO root fetch - main [MainThread]: End processing [thundra]: success
+[2023-06-15 08:59:58] INFO root fetch - main [MainThread]: Store serial: [18511961]
