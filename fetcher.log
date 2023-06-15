@@ -11730,3 +11730,87 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-15 08:38:50] INFO root fetch - processPackages [flask-marshmallow-openapi]: Remove: archive file [/home/abi/fetcher/tmp/flask-marshmallow-openapi-0.1.8.tar.gz]
 [2023-06-15 08:38:50] INFO root fetch - main [MainThread]: End processing [flask-marshmallow-openapi]: success
 [2023-06-15 08:38:50] INFO root fetch - main [MainThread]: Store serial: [18511853]
+[2023-06-15 08:43:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18511853]
+[2023-06-15 08:44:00] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-15 08:44:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: flask-marshmallow-openapi
+[2023-06-15 08:44:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fudan-utils
+[2023-06-15 08:44:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dune-iga
+[2023-06-15 08:44:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: paradigm-flood
+[2023-06-15 08:44:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: modal-client
+[2023-06-15 08:44:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: modal
+[2023-06-15 08:44:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fudan-jwc-news
+[2023-06-15 08:44:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bagbag
+[2023-06-15 08:44:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: packtivity
+[2023-06-15 08:44:00] INFO root fetch - processPackages [fudan-utils]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-06-15 08:44:00] INFO root fetch - processPackages [paradigm-flood]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-06-15 08:44:00] INFO root fetch - processPackages [flask-marshmallow-openapi]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-15 08:44:00] INFO root fetch - processPackages [dune-iga]: New version: [0.1.1.dev20230615063915] Old Version: [0.1.1.dev20230614172657]
+[2023-06-15 08:44:00] INFO root fetch - processPackages [fudan-jwc-news]: New version: [0.5.2] Old Version: [0.5.1]
+[2023-06-15 08:44:00] INFO root fetch - processPackages [bagbag]: New version: [0.60.6] Old Version: [0.60.5]
+[2023-06-15 08:44:00] INFO root fetch - processPackages [modal]: New version: [0.49.2406] Old Version: [0.49.2401]
+[2023-06-15 08:44:00] INFO root fetch - processPackages [modal-client]: New version: [0.49.2406] Old Version: [0.49.2401]
+[2023-06-15 08:44:00] INFO root fetch - processPackages [flask-marshmallow-openapi]: Downloading https://files.pythonhosted.org/packages/7a/e2/e8cb16a4502d1a4bf82981193ad30483bc9567ca20583595f30c04784aa2/flask-marshmallow-openapi-0.1.8.tar.gz
+[2023-06-15 08:44:00] INFO root fetch - processPackages [dune-iga]: Downloading https://files.pythonhosted.org/packages/45/93/8a9b2fedb31c513f6a4db0140e7acca8a675482c91c48ab6a64cb759206e/dune-iga-0.1.1.dev20230614172657.tar.gz
+[2023-06-15 08:44:00] INFO root fetch - processPackages [bagbag]: Downloading https://files.pythonhosted.org/packages/70/f2/8d0ff4f537327c879d78bc67d34b06676ad32af2683334247e77cad2b50c/bagbag-0.60.5.tar.gz
+[2023-06-15 08:44:00] INFO root fetch - processPackages [packtivity]: New version: [0.9.6] Old Version: [0.9.4]
+[2023-06-15 08:44:00] INFO root fetch - processPackages [fudan-utils]: Downloading https://files.pythonhosted.org/packages/a3/f1/6e56fc547e0a019c5c3a228b665cd4a98f72bcb8792de7f3e22438090e23/fudan_utils-0.1.3.tar.gz
+[2023-06-15 08:44:00] INFO root fetch - processPackages [paradigm-flood]: Downloading https://files.pythonhosted.org/packages/d6/6c/1c412712cbf3fd4fd2ab38297f695294c24adc0750a39ce4c6b717adfc2f/paradigm-flood-0.2.1.tar.gz
+[2023-06-15 08:44:00] INFO root fetch - processPackages [fudan-jwc-news]: Downloading https://files.pythonhosted.org/packages/f2/60/fc7c19d299fbbdfd7a0b988b8ac43f7f17f09e3c59a31921ea9562e30238/fudan-jwc-news-0.5.1.tar.gz
+[2023-06-15 08:44:00] INFO root fetch - processPackages [modal-client]: Downloading https://files.pythonhosted.org/packages/5f/41/93b6013faf8ee666bcbded8643fb4da345796a10e21c6b07d18771f6b3d5/modal_client-0.49.2401-py3-none-any.whl
+[2023-06-15 08:44:00] INFO root fetch - processPackages [modal]: Downloading https://files.pythonhosted.org/packages/ab/6c/fe53c93d465248f810ad0181af09c1cee347800077a70d3688a6c536caab/modal-0.49.2401-py3-none-any.whl
+[2023-06-15 08:44:00] INFO root fetch - processPackages [flask-marshmallow-openapi]: Downloading https://files.pythonhosted.org/packages/6d/0c/15d5198d8842fe8dbd2b57458d03818555c41f3704a0338fc333e8b554d3/flask-marshmallow-openapi-0.1.9.tar.gz
+[2023-06-15 08:44:00] INFO root fetch - processPackages [dune-iga]: Downloading https://files.pythonhosted.org/packages/a0/d9/c35b3aedc285662118c0d51e02a67f6b65f116c998f203f2def2ddb99a3d/dune-iga-0.1.1.dev20230615063915.tar.gz
+[2023-06-15 08:44:00] INFO root fetch - processPackages [bagbag]: Downloading https://files.pythonhosted.org/packages/eb/de/a66f81f8114f303ec1dc375fcf9e443b1bdb0f330f9fd32baf7056631655/bagbag-0.60.6.tar.gz
+[2023-06-15 08:44:00] INFO root fetch - processPackages [packtivity]: Downloading https://files.pythonhosted.org/packages/85/ae/13a486944ae0efcd8b9aa52c8e30db51db286f7c87187ead29f1dcc97930/packtivity-0.9.4.tar.gz
+[2023-06-15 08:44:00] INFO root fetch - processPackages [fudan-utils]: Downloading https://files.pythonhosted.org/packages/af/2d/765da5878d56fad868e4c1804ddbf9232a18064b3f245dd3da22bd672cce/fudan_utils-0.1.4.tar.gz
+[2023-06-15 08:44:00] INFO root fetch - processPackages [fudan-utils]: executing diffoscope
+[2023-06-15 08:44:00] INFO root fetch - processPackages [fudan-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fudan_utils-0.1.3.tar.gz tmp/fudan_utils-0.1.4.tar.gz --markdown 20230615/f/fudan-utils/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-06-15 08:44:00] INFO root fetch - processPackages [bagbag]: executing diffoscope
+[2023-06-15 08:44:00] INFO root fetch - processPackages [bagbag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bagbag-0.60.5.tar.gz tmp/bagbag-0.60.6.tar.gz --markdown 20230615/b/bagbag/0.60.5-0.60.6/diff.md --exclude *.pyd
+[2023-06-15 08:44:00] INFO root fetch - processPackages [flask-marshmallow-openapi]: executing diffoscope
+[2023-06-15 08:44:00] INFO root fetch - processPackages [flask-marshmallow-openapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flask-marshmallow-openapi-0.1.8.tar.gz tmp/flask-marshmallow-openapi-0.1.9.tar.gz --markdown 20230615/f/flask-marshmallow-openapi/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-15 08:44:00] INFO root fetch - processPackages [modal-client]: Downloading https://files.pythonhosted.org/packages/2c/8c/39a2946adcbadeb03622d774c016493cf22f6881cfd47a90b74612acf399/modal_client-0.49.2406-py3-none-any.whl
+[2023-06-15 08:44:00] INFO root fetch - processPackages [modal]: Downloading https://files.pythonhosted.org/packages/d4/21/918e20abb839f67f11e4c78c803aaeb6bf5fd6a918c04baea7755b463d4d/modal-0.49.2406-py3-none-any.whl
+[2023-06-15 08:44:00] INFO root fetch - processPackages [paradigm-flood]: Downloading https://files.pythonhosted.org/packages/bb/6f/32107601850aed3d4540352c779e62a77b4711f6257c6c9e4781fca56164/paradigm-flood-0.2.2.tar.gz
+[2023-06-15 08:44:00] INFO root fetch - processPackages [dune-iga]: executing diffoscope
+[2023-06-15 08:44:00] INFO root fetch - processPackages [dune-iga]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dune-iga-0.1.1.dev20230614172657.tar.gz tmp/dune-iga-0.1.1.dev20230615063915.tar.gz --markdown 20230615/d/dune-iga/0.1.1.dev20230614172657-0.1.1.dev20230615063915/diff.md --exclude *.pyd
+[2023-06-15 08:44:00] INFO root fetch - processPackages [fudan-jwc-news]: Downloading https://files.pythonhosted.org/packages/fb/15/8a6d83da9fa2551c3abda150190644866aef8bbd6b8166337a23435425e7/fudan_jwc_news-0.5.2.tar.gz
+[2023-06-15 08:44:00] INFO root fetch - processPackages [paradigm-flood]: executing diffoscope
+[2023-06-15 08:44:00] INFO root fetch - processPackages [paradigm-flood]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/paradigm-flood-0.2.1.tar.gz tmp/paradigm-flood-0.2.2.tar.gz --markdown 20230615/p/paradigm-flood/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-06-15 08:44:00] INFO root fetch - processPackages [modal]: executing diffoscope
+[2023-06-15 08:44:00] INFO root fetch - processPackages [modal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modal-0.49.2401-py3-none-any.whl.zip tmp/modal-0.49.2406-py3-none-any.whl.zip --markdown 20230615/m/modal/0.49.2401-0.49.2406/diff.md --exclude *.pyd
+[2023-06-15 08:44:00] INFO root fetch - processPackages [modal-client]: executing diffoscope
+[2023-06-15 08:44:00] INFO root fetch - processPackages [modal-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modal_client-0.49.2401-py3-none-any.whl.zip tmp/modal_client-0.49.2406-py3-none-any.whl.zip --markdown 20230615/m/modal-client/0.49.2401-0.49.2406/diff.md --exclude *.pyd
+[2023-06-15 08:44:00] INFO root fetch - processPackages [fudan-jwc-news]: executing diffoscope
+[2023-06-15 08:44:00] INFO root fetch - processPackages [fudan-jwc-news]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fudan-jwc-news-0.5.1.tar.gz tmp/fudan_jwc_news-0.5.2.tar.gz --markdown 20230615/f/fudan-jwc-news/0.5.1-0.5.2/diff.md --exclude *.pyd
+[2023-06-15 08:44:00] INFO root fetch - processPackages [packtivity]: Downloading https://files.pythonhosted.org/packages/3b/a5/de2d46ff7732c2e6f94aed49fd2745fa839a3af0ad8f17c7d261877e7129/packtivity-0.9.6.tar.gz
+[2023-06-15 08:44:01] INFO root fetch - processPackages [packtivity]: executing diffoscope
+[2023-06-15 08:44:01] INFO root fetch - processPackages [packtivity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/packtivity-0.9.4.tar.gz tmp/packtivity-0.9.6.tar.gz --markdown 20230615/p/packtivity/0.9.4-0.9.6/diff.md --exclude *.pyd
+[2023-06-15 08:44:02] INFO root fetch - processPackages [fudan-utils]: Remove: archive file [/home/abi/fetcher/tmp/fudan_utils-0.1.3.tar.gz]
+[2023-06-15 08:44:02] INFO root fetch - processPackages [fudan-utils]: Remove: archive file [/home/abi/fetcher/tmp/fudan_utils-0.1.4.tar.gz]
+[2023-06-15 08:44:02] INFO root fetch - main [MainThread]: End processing [fudan-utils]: success
+[2023-06-15 08:44:02] INFO root fetch - processPackages [modal]: Remove: archive file [/home/abi/fetcher/tmp/modal-0.49.2401-py3-none-any.whl.zip]
+[2023-06-15 08:44:02] INFO root fetch - processPackages [modal]: Remove: archive file [/home/abi/fetcher/tmp/modal-0.49.2406-py3-none-any.whl.zip]
+[2023-06-15 08:44:02] INFO root fetch - main [MainThread]: End processing [modal]: success
+[2023-06-15 08:44:02] INFO root fetch - processPackages [fudan-jwc-news]: Remove: archive file [/home/abi/fetcher/tmp/fudan-jwc-news-0.5.1.tar.gz]
+[2023-06-15 08:44:02] INFO root fetch - processPackages [fudan-jwc-news]: Remove: archive file [/home/abi/fetcher/tmp/fudan_jwc_news-0.5.2.tar.gz]
+[2023-06-15 08:44:02] INFO root fetch - main [MainThread]: End processing [fudan-jwc-news]: success
+[2023-06-15 08:44:02] INFO root fetch - processPackages [packtivity]: Remove: archive file [/home/abi/fetcher/tmp/packtivity-0.9.4.tar.gz]
+[2023-06-15 08:44:02] INFO root fetch - processPackages [packtivity]: Remove: archive file [/home/abi/fetcher/tmp/packtivity-0.9.6.tar.gz]
+[2023-06-15 08:44:02] INFO root fetch - main [MainThread]: End processing [packtivity]: success
+[2023-06-15 08:44:03] INFO root fetch - processPackages [paradigm-flood]: Remove: archive file [/home/abi/fetcher/tmp/paradigm-flood-0.2.1.tar.gz]
+[2023-06-15 08:44:03] INFO root fetch - processPackages [paradigm-flood]: Remove: archive file [/home/abi/fetcher/tmp/paradigm-flood-0.2.2.tar.gz]
+[2023-06-15 08:44:03] INFO root fetch - main [MainThread]: End processing [paradigm-flood]: success
+[2023-06-15 08:44:03] INFO root fetch - processPackages [modal-client]: Remove: archive file [/home/abi/fetcher/tmp/modal_client-0.49.2401-py3-none-any.whl.zip]
+[2023-06-15 08:44:03] INFO root fetch - processPackages [modal-client]: Remove: archive file [/home/abi/fetcher/tmp/modal_client-0.49.2406-py3-none-any.whl.zip]
+[2023-06-15 08:44:03] INFO root fetch - main [MainThread]: End processing [modal-client]: success
+[2023-06-15 08:44:04] INFO root fetch - processPackages [bagbag]: Remove: archive file [/home/abi/fetcher/tmp/bagbag-0.60.5.tar.gz]
+[2023-06-15 08:44:04] INFO root fetch - processPackages [bagbag]: Remove: archive file [/home/abi/fetcher/tmp/bagbag-0.60.6.tar.gz]
+[2023-06-15 08:44:04] INFO root fetch - main [MainThread]: End processing [bagbag]: success
+[2023-06-15 08:44:04] INFO root fetch - processPackages [flask-marshmallow-openapi]: Remove: archive file [/home/abi/fetcher/tmp/flask-marshmallow-openapi-0.1.8.tar.gz]
+[2023-06-15 08:44:04] INFO root fetch - processPackages [flask-marshmallow-openapi]: Remove: archive file [/home/abi/fetcher/tmp/flask-marshmallow-openapi-0.1.9.tar.gz]
+[2023-06-15 08:44:04] INFO root fetch - main [MainThread]: End processing [flask-marshmallow-openapi]: success
+[2023-06-15 08:44:04] INFO root fetch - processPackages [dune-iga]: Remove: archive file [/home/abi/fetcher/tmp/dune-iga-0.1.1.dev20230614172657.tar.gz]
+[2023-06-15 08:44:04] INFO root fetch - processPackages [dune-iga]: Remove: archive file [/home/abi/fetcher/tmp/dune-iga-0.1.1.dev20230615063915.tar.gz]
+[2023-06-15 08:44:04] INFO root fetch - main [MainThread]: End processing [dune-iga]: success
+[2023-06-15 08:44:04] INFO root fetch - main [MainThread]: Store serial: [18511877]
