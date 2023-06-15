@@ -10451,3 +10451,97 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-15 07:13:05] ERROR root fetch - processPackages [multi-model-server]: Timeout during execution of pkgdiff
 [2023-06-15 07:13:05] INFO root fetch - main [MainThread]: End processing [multi-model-server] error
 [2023-06-15 07:13:05] INFO root fetch - main [MainThread]: Store serial: [18511279]
+[2023-06-15 07:18:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18511279]
+[2023-06-15 07:18:13] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-06-15 07:18:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo12-addon-excel-import-export
+[2023-06-15 07:18:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: autosmith
+[2023-06-15 07:18:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ghostpip
+[2023-06-15 07:18:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo14-addon-excel-import-export
+[2023-06-15 07:18:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: interval-tools
+[2023-06-15 07:18:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addon-excel-import-export
+[2023-06-15 07:18:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lawquery
+[2023-06-15 07:18:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: calor-pared-compuesta-lineal
+[2023-06-15 07:18:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo-addon-excel-import-export
+[2023-06-15 07:18:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tflite-runtime-nightly
+[2023-06-15 07:18:13] INFO root fetch - processPackages [odoo14-addon-excel-import-export]: New version: [14.0.1.1.1.dev7] Old Version: [14.0.1.1.1.dev6]
+[2023-06-15 07:18:13] INFO root fetch - processPackages [ghostpip]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-06-15 07:18:13] INFO root fetch - processPackages [odoo-addon-excel-import-export]: New version: [16.0.1.0.0.9] Old Version: [16.0.1.0.0.5]
+[2023-06-15 07:18:13] INFO root fetch - processPackages [odoo-addon-excel-import-export]: New version: [16.0.1.0.0.9] Old Version: [16.0.1.0.0.5]
+[2023-06-15 07:18:13] WARNING root fetch - processPackages [calor-pared-compuesta-lineal]: Skipping, unable to determine old version
+[2023-06-15 07:18:13] INFO root fetch - processPackages [calor-pared-compuesta-lineal]: Start processing: pytest-time
+[2023-06-15 07:18:13] WARNING root fetch - processPackages [lawquery]: Skipping, unable to determine old version
+[2023-06-15 07:18:13] INFO root fetch - main [MainThread]: End processing [calor-pared-compuesta-lineal] error
+[2023-06-15 07:18:14] WARNING root fetch - processPackages [autosmith]: Skipping, unable to determine old version
+[2023-06-15 07:18:14] INFO root fetch - processPackages [interval-tools]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-06-15 07:18:14] INFO root fetch - processPackages [lawquery]: Start processing: odoo-addon-base-search-mail-content
+[2023-06-15 07:18:14] INFO root fetch - main [MainThread]: End processing [lawquery] error
+[2023-06-15 07:18:14] INFO root fetch - processPackages [autosmith]: Start processing: odoo-addons-oca-social
+[2023-06-15 07:18:14] INFO root fetch - processPackages [odoo12-addon-excel-import-export]: New version: [12.0.1.0.6.99.dev9] Old Version: [12.0.1.0.6.99.dev8]
+[2023-06-15 07:18:14] INFO root fetch - main [MainThread]: End processing [autosmith] error
+[2023-06-15 07:18:14] WARNING root fetch - processPackages [pytest-time]: Skipping, unable to determine old version
+[2023-06-15 07:18:14] INFO root fetch - main [MainThread]: End processing [pytest-time] error
+[2023-06-15 07:18:14] INFO root fetch - processPackages [tflite-runtime-nightly]: New version: [2.14.0.dev20230613] Old Version: [2.14.0.dev20230612]
+[2023-06-15 07:18:14] INFO root fetch - processPackages [odoo-addon-base-search-mail-content]: New version: [16.0.1.0.2] Old Version: [15.0.1.0.1.5]
+[2023-06-15 07:18:14] INFO root fetch - processPackages [odoo12-addon-excel-import-export]: Downloading https://files.pythonhosted.org/packages/91/7c/40c8d8f9c2e608a1ab14df9cb347c810e32c00596cf18b4e3e6bbb3e614d/odoo12_addon_excel_import_export-12.0.1.0.6.99.dev8-py3-none-any.whl
+[2023-06-15 07:18:14] INFO root fetch - processPackages [odoo14-addon-excel-import-export]: Downloading https://files.pythonhosted.org/packages/7e/de/7b1ea581b1669f46f65a2bd72ba11ebcfc9086143fa62ada667e6fae09ce/odoo14_addon_excel_import_export-14.0.1.1.1.dev6-py3-none-any.whl
+[2023-06-15 07:18:14] INFO root fetch - processPackages [odoo-addon-excel-import-export]: Downloading https://files.pythonhosted.org/packages/2a/92/9726c12fdaf22dc0f072a927ec3030b0abe69360487209d77367c26c3cd2/odoo_addon_excel_import_export-16.0.1.0.0.5-py3-none-any.whl
+[2023-06-15 07:18:14] INFO root fetch - processPackages [odoo-addon-excel-import-export]: Downloading https://files.pythonhosted.org/packages/2a/92/9726c12fdaf22dc0f072a927ec3030b0abe69360487209d77367c26c3cd2/odoo_addon_excel_import_export-16.0.1.0.0.5-py3-none-any.whl
+[2023-06-15 07:18:14] INFO root fetch - processPackages [odoo-addons-oca-social]: New version: [16.0.20230614.0] Old Version: [16.0.20230608.0]
+[2023-06-15 07:18:14] INFO root fetch - processPackages [tflite-runtime-nightly]: Downloading https://files.pythonhosted.org/packages/7d/c4/b336850bf0d544505dda7a52098ee87a48307e8e98a0d2f1909c987ceb1f/tflite_runtime_nightly-2.14.0.dev20230612-cp39-cp39-manylinux2014_x86_64.whl
+[2023-06-15 07:18:14] INFO root fetch - processPackages [odoo-addon-base-search-mail-content]: Downloading https://files.pythonhosted.org/packages/73/88/13d2d52a58e1f48c9e6bd6e8e87994ac404267ae06167073cb28ee0a4972/odoo_addon_base_search_mail_content-15.0.1.0.1.5-py3-none-any.whl
+[2023-06-15 07:18:14] INFO root fetch - processPackages [ghostpip]: Downloading https://files.pythonhosted.org/packages/cc/08/101ce9cbd9d22ca367f33c2f638e408d8d4339c70984912c6ec85e0b8538/ghostpip-1.1.0.tar.gz
+[2023-06-15 07:18:14] INFO root fetch - processPackages [interval-tools]: Downloading https://files.pythonhosted.org/packages/6c/14/425de7fd720e2c56160a20aeb41d4161b8d4da5596e4c9085000ddc9d88d/interval-tools-0.9.0.tar.gz
+[2023-06-15 07:18:14] INFO root fetch - processPackages [odoo-addon-excel-import-export]: Downloading https://files.pythonhosted.org/packages/4b/1a/80afbddf0ff5296d432d0b7a96b5545b408e1d9a7fa277f204f3fede7bf2/odoo_addon_excel_import_export-16.0.1.0.0.9-py3-none-any.whl
+[2023-06-15 07:18:14] INFO root fetch - processPackages [odoo-addons-oca-social]: Downloading https://files.pythonhosted.org/packages/3c/5a/d869dbf6247c4a2a5c6e46bf60031b952131cee5a3c88a3f620f41bb3951/odoo_addons_oca_social-16.0.20230608.0-py3-none-any.whl
+[2023-06-15 07:18:14] INFO root fetch - processPackages [tflite-runtime-nightly]: Downloading https://files.pythonhosted.org/packages/8c/43/13b12f35e2a0a228ce87e0571138d5db506054d25177f6d393b2196fea55/tflite_runtime_nightly-2.14.0.dev20230613-cp39-cp39-manylinux2014_x86_64.whl
+[2023-06-15 07:18:14] INFO root fetch - processPackages [odoo-addon-excel-import-export]: Downloading https://files.pythonhosted.org/packages/4b/1a/80afbddf0ff5296d432d0b7a96b5545b408e1d9a7fa277f204f3fede7bf2/odoo_addon_excel_import_export-16.0.1.0.0.9-py3-none-any.whl
+[2023-06-15 07:18:14] INFO root fetch - processPackages [odoo-addon-base-search-mail-content]: Downloading https://files.pythonhosted.org/packages/a3/3f/6d6e3af5adc9013983e69d65dc4a66eb0b5cc97400d926bbac1c1a7dd40b/odoo_addon_base_search_mail_content-16.0.1.0.2-py3-none-any.whl
+[2023-06-15 07:18:14] INFO root fetch - processPackages [odoo12-addon-excel-import-export]: Downloading https://files.pythonhosted.org/packages/60/9d/0c62b5d1409fd1224ea1eb55c68d43012e5a0b6574d26ebd1f832ba582ef/odoo12_addon_excel_import_export-12.0.1.0.6.99.dev9-py3-none-any.whl
+[2023-06-15 07:18:14] INFO root fetch - processPackages [odoo14-addon-excel-import-export]: Downloading https://files.pythonhosted.org/packages/8d/2b/992ecc2a187cc6cd8d08934ea6a0eaa31f0b6455e7b8fbef927899493cd5/odoo14_addon_excel_import_export-14.0.1.1.1.dev7-py3-none-any.whl
+[2023-06-15 07:18:14] INFO root fetch - processPackages [odoo-addon-excel-import-export]: executing diffoscope
+[2023-06-15 07:18:14] INFO root fetch - processPackages [odoo-addon-excel-import-export]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_excel_import_export-16.0.1.0.0.5-py3-none-any.whl.zip tmp/odoo_addon_excel_import_export-16.0.1.0.0.9-py3-none-any.whl.zip --markdown 20230615/o/odoo-addon-excel-import-export/16.0.1.0.0.5-16.0.1.0.0.9/diff.md --exclude *.pyd
+[2023-06-15 07:18:14] INFO root fetch - processPackages [odoo-addon-excel-import-export]: executing diffoscope
+[2023-06-15 07:18:14] INFO root fetch - processPackages [odoo-addon-excel-import-export]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_excel_import_export-16.0.1.0.0.5-py3-none-any.whl.zip tmp/odoo_addon_excel_import_export-16.0.1.0.0.9-py3-none-any.whl.zip --markdown 20230615/o/odoo-addon-excel-import-export/16.0.1.0.0.5-16.0.1.0.0.9/diff.md --exclude *.pyd
+[2023-06-15 07:18:14] INFO root fetch - processPackages [ghostpip]: Downloading https://files.pythonhosted.org/packages/5a/cf/d160284dfa2617ca9f1e6e3641b40ae16c968e68c08734a1c200fe64bbb3/ghostpip-1.1.1.tar.gz
+[2023-06-15 07:18:14] INFO root fetch - processPackages [tflite-runtime-nightly]: executing diffoscope
+[2023-06-15 07:18:14] INFO root fetch - processPackages [tflite-runtime-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tflite_runtime_nightly-2.14.0.dev20230612-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/tflite_runtime_nightly-2.14.0.dev20230613-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230615/t/tflite-runtime-nightly/2.14.0.dev20230612-2.14.0.dev20230613/diff.md --exclude *.pyd
+[2023-06-15 07:18:14] INFO root fetch - processPackages [odoo-addon-base-search-mail-content]: executing diffoscope
+[2023-06-15 07:18:14] INFO root fetch - processPackages [odoo-addon-base-search-mail-content]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_base_search_mail_content-15.0.1.0.1.5-py3-none-any.whl.zip tmp/odoo_addon_base_search_mail_content-16.0.1.0.2-py3-none-any.whl.zip --markdown 20230615/o/odoo-addon-base-search-mail-content/15.0.1.0.1.5-16.0.1.0.2/diff.md --exclude *.pyd
+[2023-06-15 07:18:14] INFO root fetch - processPackages [interval-tools]: Downloading https://files.pythonhosted.org/packages/81/8b/3ec747db56356f59924636220f765744068373829ec3319b25c77fead246/interval-tools-0.9.1.tar.gz
+[2023-06-15 07:18:14] INFO root fetch - processPackages [ghostpip]: executing diffoscope
+[2023-06-15 07:18:14] INFO root fetch - processPackages [ghostpip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ghostpip-1.1.0.tar.gz tmp/ghostpip-1.1.1.tar.gz --markdown 20230615/g/ghostpip/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-06-15 07:18:14] INFO root fetch - processPackages [odoo14-addon-excel-import-export]: executing diffoscope
+[2023-06-15 07:18:14] INFO root fetch - processPackages [odoo14-addon-excel-import-export]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_excel_import_export-14.0.1.1.1.dev6-py3-none-any.whl.zip tmp/odoo14_addon_excel_import_export-14.0.1.1.1.dev7-py3-none-any.whl.zip --markdown 20230615/o/odoo14-addon-excel-import-export/14.0.1.1.1.dev6-14.0.1.1.1.dev7/diff.md --exclude *.pyd
+[2023-06-15 07:18:14] INFO root fetch - processPackages [odoo-addons-oca-social]: Downloading https://files.pythonhosted.org/packages/b1/dd/9b4bdc117f952fc1c5e09549c8246461d980367c4a15221cdb4f3b5f1f1b/odoo_addons_oca_social-16.0.20230614.0-py3-none-any.whl
+[2023-06-15 07:18:14] INFO root fetch - processPackages [interval-tools]: executing diffoscope
+[2023-06-15 07:18:14] INFO root fetch - processPackages [interval-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/interval-tools-0.9.0.tar.gz tmp/interval-tools-0.9.1.tar.gz --markdown 20230615/i/interval-tools/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-06-15 07:18:14] INFO root fetch - processPackages [odoo-addons-oca-social]: executing diffoscope
+[2023-06-15 07:18:14] INFO root fetch - processPackages [odoo-addons-oca-social]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_social-16.0.20230608.0-py3-none-any.whl.zip tmp/odoo_addons_oca_social-16.0.20230614.0-py3-none-any.whl.zip --markdown 20230615/o/odoo-addons-oca-social/16.0.20230608.0-16.0.20230614.0/diff.md --exclude *.pyd
+[2023-06-15 07:18:15] INFO root fetch - processPackages [odoo12-addon-excel-import-export]: executing diffoscope
+[2023-06-15 07:18:15] INFO root fetch - processPackages [odoo12-addon-excel-import-export]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_excel_import_export-12.0.1.0.6.99.dev8-py3-none-any.whl.zip tmp/odoo12_addon_excel_import_export-12.0.1.0.6.99.dev9-py3-none-any.whl.zip --markdown 20230615/o/odoo12-addon-excel-import-export/12.0.1.0.6.99.dev8-12.0.1.0.6.99.dev9/diff.md --exclude *.pyd
+[2023-06-15 07:18:16] INFO root fetch - processPackages [ghostpip]: Remove: archive file [/home/abi/fetcher/tmp/ghostpip-1.1.0.tar.gz]
+[2023-06-15 07:18:16] INFO root fetch - processPackages [ghostpip]: Remove: archive file [/home/abi/fetcher/tmp/ghostpip-1.1.1.tar.gz]
+[2023-06-15 07:18:16] INFO root fetch - main [MainThread]: End processing [ghostpip]: success
+[2023-06-15 07:18:16] INFO root fetch - processPackages [interval-tools]: Remove: archive file [/home/abi/fetcher/tmp/interval-tools-0.9.0.tar.gz]
+[2023-06-15 07:18:16] INFO root fetch - processPackages [interval-tools]: Remove: archive file [/home/abi/fetcher/tmp/interval-tools-0.9.1.tar.gz]
+[2023-06-15 07:18:16] INFO root fetch - main [MainThread]: End processing [interval-tools]: success
+[2023-06-15 07:18:16] INFO root fetch - processPackages [odoo-addons-oca-social]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_social-16.0.20230608.0-py3-none-any.whl.zip]
+[2023-06-15 07:18:16] INFO root fetch - processPackages [odoo-addons-oca-social]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_social-16.0.20230614.0-py3-none-any.whl.zip]
+[2023-06-15 07:18:16] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-social]: success
+[2023-06-15 07:18:16] INFO root fetch - processPackages [odoo-addon-excel-import-export]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_excel_import_export-16.0.1.0.0.5-py3-none-any.whl.zip]
+[2023-06-15 07:18:16] INFO root fetch - processPackages [odoo-addon-excel-import-export]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_excel_import_export-16.0.1.0.0.9-py3-none-any.whl.zip]
+[2023-06-15 07:18:16] INFO root fetch - main [MainThread]: End processing [odoo-addon-excel-import-export]: success
+[2023-06-15 07:18:16] INFO root fetch - main [MainThread]: End processing [odoo-addon-excel-import-export]: success
+[2023-06-15 07:18:16] INFO root fetch - processPackages [odoo14-addon-excel-import-export]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_excel_import_export-14.0.1.1.1.dev6-py3-none-any.whl.zip]
+[2023-06-15 07:18:16] INFO root fetch - processPackages [odoo14-addon-excel-import-export]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_excel_import_export-14.0.1.1.1.dev7-py3-none-any.whl.zip]
+[2023-06-15 07:18:16] INFO root fetch - main [MainThread]: End processing [odoo14-addon-excel-import-export]: success
+[2023-06-15 07:18:16] INFO root fetch - processPackages [odoo-addon-base-search-mail-content]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_search_mail_content-15.0.1.0.1.5-py3-none-any.whl.zip]
+[2023-06-15 07:18:16] INFO root fetch - processPackages [odoo-addon-base-search-mail-content]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_search_mail_content-16.0.1.0.2-py3-none-any.whl.zip]
+[2023-06-15 07:18:16] INFO root fetch - main [MainThread]: End processing [odoo-addon-base-search-mail-content]: success
+[2023-06-15 07:18:16] INFO root fetch - processPackages [odoo12-addon-excel-import-export]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_excel_import_export-12.0.1.0.6.99.dev8-py3-none-any.whl.zip]
+[2023-06-15 07:18:16] INFO root fetch - processPackages [odoo12-addon-excel-import-export]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_excel_import_export-12.0.1.0.6.99.dev9-py3-none-any.whl.zip]
+[2023-06-15 07:18:16] INFO root fetch - main [MainThread]: End processing [odoo12-addon-excel-import-export]: success
+[2023-06-15 07:18:45] INFO root fetch - processPackages [tflite-runtime-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tflite_runtime_nightly-2.14.0.dev20230612-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-06-15 07:18:45] INFO root fetch - processPackages [tflite-runtime-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tflite_runtime_nightly-2.14.0.dev20230613-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-06-15 07:18:45] INFO root fetch - main [MainThread]: End processing [tflite-runtime-nightly]: success
+[2023-06-15 07:18:45] INFO root fetch - main [MainThread]: Store serial: [18511328]
