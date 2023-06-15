@@ -7565,3 +7565,90 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-15 04:52:01] INFO root fetch - processPackages [odoo-addon-account-mass-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_mass_reconcile-16.0.1.0.0.9-py3-none-any.whl.zip]
 [2023-06-15 04:52:01] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-mass-reconcile]: success
 [2023-06-15 04:52:01] INFO root fetch - main [MainThread]: Store serial: [18510324]
+[2023-06-15 04:57:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18510324]
+[2023-06-15 04:57:10] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-06-15 04:57:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo12-addon-account-bank-statement-import-online
+[2023-06-15 04:57:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: eons
+[2023-06-15 04:57:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: laningapi
+[2023-06-15 04:57:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: test4957
+[2023-06-15 04:57:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo14-addon-product-brand
+[2023-06-15 04:57:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: xj-captcha
+[2023-06-15 04:57:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: iFazolin-lib
+[2023-06-15 04:57:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: Priority1py
+[2023-06-15 04:57:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: wwpdb.apps.ann-tasks-v2
+[2023-06-15 04:57:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pnOCR
+[2023-06-15 04:57:10] INFO root fetch - processPackages [xj-captcha]: New version: [1.0.9] Old Version: [1.0.6]
+[2023-06-15 04:57:10] INFO root fetch - processPackages [laningapi]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-06-15 04:57:10] INFO root fetch - processPackages [eons]: New version: [2.6.1] Old Version: [2.6.0]
+[2023-06-15 04:57:10] INFO root fetch - processPackages [odoo12-addon-account-bank-statement-import-online]: New version: [12.0.2.0.0.99.dev3] Old Version: [12.0.2.0.0.99.dev1]
+[2023-06-15 04:57:10] INFO root fetch - processPackages [odoo14-addon-product-brand]: New version: [14.0.1.1.3.dev5] Old Version: [14.0.1.1.3.dev4]
+[2023-06-15 04:57:10] WARNING root fetch - processPackages [pnOCR]: Skipping, unable to determine old version
+[2023-06-15 04:57:10] WARNING root fetch - processPackages [test4957]: Skipping, unable to determine old version
+[2023-06-15 04:57:10] INFO root fetch - processPackages [pnOCR]: Start processing: pytextcon
+[2023-06-15 04:57:10] WARNING root fetch - processPackages [iFazolin-lib]: Skipping, unable to determine old version
+[2023-06-15 04:57:10] INFO root fetch - main [MainThread]: End processing [pnOCR] error
+[2023-06-15 04:57:10] INFO root fetch - processPackages [test4957]: Start processing: titanic-ML-Miguel-Oyarzo
+[2023-06-15 04:57:10] INFO root fetch - processPackages [Priority1py]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-15 04:57:10] INFO root fetch - processPackages [wwpdb.apps.ann-tasks-v2]: New version: [0.33.2.dev1] Old Version: [0.33.1.dev1]
+[2023-06-15 04:57:10] INFO root fetch - main [MainThread]: End processing [test4957] error
+[2023-06-15 04:57:10] INFO root fetch - main [MainThread]: End processing [iFazolin-lib] error
+[2023-06-15 04:57:10] INFO root fetch - processPackages [pytextcon]: New version: [0.1.1] Old Version: [0.1]
+[2023-06-15 04:57:10] INFO root fetch - processPackages [Priority1py]: Downloading https://files.pythonhosted.org/packages/78/e5/37b36a412a1292743297a2f3c37e8c10812c05e66c1ac23ed8466aa15a1e/Priority1py-1.0.0.tar.gz
+[2023-06-15 04:57:10] WARNING root fetch - processPackages [titanic-ML-Miguel-Oyarzo]: Skipping, unable to determine old version
+[2023-06-15 04:57:10] INFO root fetch - main [MainThread]: End processing [titanic-ML-Miguel-Oyarzo] error
+[2023-06-15 04:57:10] INFO root fetch - processPackages [eons]: Downloading https://files.pythonhosted.org/packages/8c/3e/6f534e41d5b2237bd15782d5d447935b371b1da11ccdb485fd4f0a4640c5/eons-2.6.0.tar.gz
+[2023-06-15 04:57:10] INFO root fetch - processPackages [xj-captcha]: Downloading https://files.pythonhosted.org/packages/00/a5/84a3749279294e1932267ab065a6fc338830d2d6353b264a0aa3faa9cf89/xj_captcha-1.0.6.tar.gz
+[2023-06-15 04:57:10] INFO root fetch - processPackages [odoo14-addon-product-brand]: Downloading https://files.pythonhosted.org/packages/68/2c/1928261b1c74cd682509ba0ed1cb57285eb563e4921079fd2c0b1218e24c/odoo14_addon_product_brand-14.0.1.1.3.dev4-py3-none-any.whl
+[2023-06-15 04:57:10] INFO root fetch - processPackages [laningapi]: Downloading https://files.pythonhosted.org/packages/5f/81/8b211df54689f463f4a922edfc154594f39d975993657698351f35e3e7af/laningapi-0.0.6.tar.gz
+[2023-06-15 04:57:10] INFO root fetch - processPackages [odoo12-addon-account-bank-statement-import-online]: Downloading https://files.pythonhosted.org/packages/ed/cb/b996c516d17074352c93a30590b80afae4eadfd1260a7b0562505191aac6/odoo12_addon_account_bank_statement_import_online-12.0.2.0.0.99.dev1-py3-none-any.whl
+[2023-06-15 04:57:10] INFO root fetch - processPackages [pytextcon]: Downloading https://files.pythonhosted.org/packages/59/83/cd7046a0539c5a3450de2a2ee8040c3fe5fbdd3db617c90f13686e4a053f/pytextcon-0.1.tar.gz
+[2023-06-15 04:57:10] INFO root fetch - processPackages [wwpdb.apps.ann-tasks-v2]: Downloading https://files.pythonhosted.org/packages/d7/06/9743dfb85d0d4e24498be988593f3d3b6d480489d99001d603934b3d7a52/wwpdb.apps.ann_tasks_v2-0.33.1.dev1.tar.gz
+[2023-06-15 04:57:10] INFO root fetch - processPackages [Priority1py]: Downloading https://files.pythonhosted.org/packages/23/e4/d10391ee216ee1c66de160af080a308cdb459fb923b2f100fc3d9390e27d/Priority1py-1.0.1.tar.gz
+[2023-06-15 04:57:11] INFO root fetch - processPackages [odoo12-addon-account-bank-statement-import-online]: Downloading https://files.pythonhosted.org/packages/2d/6f/a61855363c74acdaa1f8b70e9a82c8ca2a89f28d19756ca8d67e8deef05a/odoo12_addon_account_bank_statement_import_online-12.0.2.0.0.99.dev3-py3-none-any.whl
+[2023-06-15 04:57:11] INFO root fetch - processPackages [eons]: Downloading https://files.pythonhosted.org/packages/56/1f/1a3cc9141ae1dc731e59a9e0c135fe0bea431fed0107f71f589495794b0f/eons-2.6.1.tar.gz
+[2023-06-15 04:57:11] INFO root fetch - processPackages [xj-captcha]: Downloading https://files.pythonhosted.org/packages/e9/a2/939aae9f244db14f395894bf0d0ca874c2c2608148ec272fa37055697d26/xj_captcha-1.0.9.tar.gz
+[2023-06-15 04:57:11] INFO root fetch - processPackages [odoo14-addon-product-brand]: Downloading https://files.pythonhosted.org/packages/31/b5/7279e259873b76fe85465e25781fdc78b1bcf95a4890c7a8e1adb0b8c485/odoo14_addon_product_brand-14.0.1.1.3.dev5-py3-none-any.whl
+[2023-06-15 04:57:11] INFO root fetch - processPackages [pytextcon]: Downloading https://files.pythonhosted.org/packages/41/25/0ceb3a53e8b2f7503e5da91e675a7412775cdbc73503ec7de9681eb49f55/pytextcon-0.1.1.tar.gz
+[2023-06-15 04:57:11] INFO root fetch - processPackages [wwpdb.apps.ann-tasks-v2]: Downloading https://files.pythonhosted.org/packages/65/75/5e3d42c7e44fdfad692b63c3e024b1ff25a53897fe55acbd6eeedf90e440/wwpdb.apps.ann_tasks_v2-0.33.2.dev1.tar.gz
+[2023-06-15 04:57:11] INFO root fetch - processPackages [laningapi]: Downloading https://files.pythonhosted.org/packages/48/e8/88014a3eca849a90d486b20106c46eaa451ca2be36e1b866a39fd16ab420/laningapi-0.0.7.tar.gz
+[2023-06-15 04:57:11] INFO root fetch - processPackages [Priority1py]: executing diffoscope
+[2023-06-15 04:57:11] INFO root fetch - processPackages [Priority1py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Priority1py-1.0.0.tar.gz tmp/Priority1py-1.0.1.tar.gz --markdown 20230615/P/Priority1py/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-15 04:57:11] INFO root fetch - processPackages [eons]: executing diffoscope
+[2023-06-15 04:57:11] INFO root fetch - processPackages [eons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eons-2.6.0.tar.gz tmp/eons-2.6.1.tar.gz --markdown 20230615/e/eons/2.6.0-2.6.1/diff.md --exclude *.pyd
+[2023-06-15 04:57:11] INFO root fetch - processPackages [odoo12-addon-account-bank-statement-import-online]: executing diffoscope
+[2023-06-15 04:57:11] INFO root fetch - processPackages [odoo12-addon-account-bank-statement-import-online]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_account_bank_statement_import_online-12.0.2.0.0.99.dev1-py3-none-any.whl.zip tmp/odoo12_addon_account_bank_statement_import_online-12.0.2.0.0.99.dev3-py3-none-any.whl.zip --markdown 20230615/o/odoo12-addon-account-bank-statement-import-online/12.0.2.0.0.99.dev1-12.0.2.0.0.99.dev3/diff.md --exclude *.pyd
+[2023-06-15 04:57:11] INFO root fetch - processPackages [odoo14-addon-product-brand]: executing diffoscope
+[2023-06-15 04:57:11] INFO root fetch - processPackages [odoo14-addon-product-brand]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_product_brand-14.0.1.1.3.dev4-py3-none-any.whl.zip tmp/odoo14_addon_product_brand-14.0.1.1.3.dev5-py3-none-any.whl.zip --markdown 20230615/o/odoo14-addon-product-brand/14.0.1.1.3.dev4-14.0.1.1.3.dev5/diff.md --exclude *.pyd
+[2023-06-15 04:57:11] INFO root fetch - processPackages [wwpdb.apps.ann-tasks-v2]: executing diffoscope
+[2023-06-15 04:57:11] INFO root fetch - processPackages [wwpdb.apps.ann-tasks-v2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wwpdb.apps.ann_tasks_v2-0.33.1.dev1.tar.gz tmp/wwpdb.apps.ann_tasks_v2-0.33.2.dev1.tar.gz --markdown 20230615/w/wwpdb.apps.ann-tasks-v2/0.33.1.dev1-0.33.2.dev1/diff.md --exclude *.pyd
+[2023-06-15 04:57:11] INFO root fetch - processPackages [laningapi]: executing diffoscope
+[2023-06-15 04:57:11] INFO root fetch - processPackages [laningapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/laningapi-0.0.6.tar.gz tmp/laningapi-0.0.7.tar.gz --markdown 20230615/l/laningapi/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-06-15 04:57:11] INFO root fetch - processPackages [xj-captcha]: executing diffoscope
+[2023-06-15 04:57:11] INFO root fetch - processPackages [pytextcon]: executing diffoscope
+[2023-06-15 04:57:11] INFO root fetch - processPackages [xj-captcha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xj_captcha-1.0.6.tar.gz tmp/xj_captcha-1.0.9.tar.gz --markdown 20230615/x/xj-captcha/1.0.6-1.0.9/diff.md --exclude *.pyd
+[2023-06-15 04:57:11] INFO root fetch - processPackages [pytextcon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytextcon-0.1.tar.gz tmp/pytextcon-0.1.1.tar.gz --markdown 20230615/p/pytextcon/0.1-0.1.1/diff.md --exclude *.pyd
+[2023-06-15 04:57:12] INFO root fetch - processPackages [Priority1py]: Remove: archive file [/home/abi/fetcher/tmp/Priority1py-1.0.0.tar.gz]
+[2023-06-15 04:57:12] INFO root fetch - processPackages [Priority1py]: Remove: archive file [/home/abi/fetcher/tmp/Priority1py-1.0.1.tar.gz]
+[2023-06-15 04:57:12] INFO root fetch - main [MainThread]: End processing [Priority1py]: success
+[2023-06-15 04:57:12] INFO root fetch - processPackages [eons]: Remove: archive file [/home/abi/fetcher/tmp/eons-2.6.0.tar.gz]
+[2023-06-15 04:57:12] INFO root fetch - processPackages [eons]: Remove: archive file [/home/abi/fetcher/tmp/eons-2.6.1.tar.gz]
+[2023-06-15 04:57:12] INFO root fetch - main [MainThread]: End processing [eons]: success
+[2023-06-15 04:57:12] INFO root fetch - processPackages [laningapi]: Remove: archive file [/home/abi/fetcher/tmp/laningapi-0.0.6.tar.gz]
+[2023-06-15 04:57:12] INFO root fetch - processPackages [laningapi]: Remove: archive file [/home/abi/fetcher/tmp/laningapi-0.0.7.tar.gz]
+[2023-06-15 04:57:12] INFO root fetch - main [MainThread]: End processing [laningapi]: success
+[2023-06-15 04:57:12] INFO root fetch - processPackages [odoo12-addon-account-bank-statement-import-online]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_account_bank_statement_import_online-12.0.2.0.0.99.dev1-py3-none-any.whl.zip]
+[2023-06-15 04:57:12] INFO root fetch - processPackages [odoo12-addon-account-bank-statement-import-online]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_account_bank_statement_import_online-12.0.2.0.0.99.dev3-py3-none-any.whl.zip]
+[2023-06-15 04:57:12] INFO root fetch - main [MainThread]: End processing [odoo12-addon-account-bank-statement-import-online]: success
+[2023-06-15 04:57:12] INFO root fetch - processPackages [pytextcon]: Remove: archive file [/home/abi/fetcher/tmp/pytextcon-0.1.tar.gz]
+[2023-06-15 04:57:12] INFO root fetch - processPackages [pytextcon]: Remove: archive file [/home/abi/fetcher/tmp/pytextcon-0.1.1.tar.gz]
+[2023-06-15 04:57:12] INFO root fetch - main [MainThread]: End processing [pytextcon]: success
+[2023-06-15 04:57:12] INFO root fetch - processPackages [odoo14-addon-product-brand]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_product_brand-14.0.1.1.3.dev4-py3-none-any.whl.zip]
+[2023-06-15 04:57:12] INFO root fetch - processPackages [odoo14-addon-product-brand]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_product_brand-14.0.1.1.3.dev5-py3-none-any.whl.zip]
+[2023-06-15 04:57:12] INFO root fetch - main [MainThread]: End processing [odoo14-addon-product-brand]: success
+[2023-06-15 04:57:13] INFO root fetch - processPackages [xj-captcha]: Remove: archive file [/home/abi/fetcher/tmp/xj_captcha-1.0.6.tar.gz]
+[2023-06-15 04:57:13] INFO root fetch - processPackages [xj-captcha]: Remove: archive file [/home/abi/fetcher/tmp/xj_captcha-1.0.9.tar.gz]
+[2023-06-15 04:57:13] INFO root fetch - main [MainThread]: End processing [xj-captcha]: success
+[2023-06-15 04:57:13] INFO root fetch - processPackages [wwpdb.apps.ann-tasks-v2]: Remove: archive file [/home/abi/fetcher/tmp/wwpdb.apps.ann_tasks_v2-0.33.1.dev1.tar.gz]
+[2023-06-15 04:57:13] INFO root fetch - processPackages [wwpdb.apps.ann-tasks-v2]: Remove: archive file [/home/abi/fetcher/tmp/wwpdb.apps.ann_tasks_v2-0.33.2.dev1.tar.gz]
+[2023-06-15 04:57:13] INFO root fetch - main [MainThread]: End processing [wwpdb.apps.ann-tasks-v2]: success
+[2023-06-15 04:57:13] INFO root fetch - main [MainThread]: Store serial: [18510375]
