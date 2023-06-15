@@ -8406,3 +8406,122 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-15 05:13:57] INFO root fetch - processPackages [neon-api-proxy]: Remove: archive file [/home/abi/fetcher/tmp/neon_api_proxy-0.3.4a7-py3-none-any.whl.zip]
 [2023-06-15 05:13:57] INFO root fetch - main [MainThread]: End processing [neon-api-proxy]: success
 [2023-06-15 05:13:57] INFO root fetch - main [MainThread]: Store serial: [18510609]
+[2023-06-15 05:19:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18510609]
+[2023-06-15 05:19:06] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-06-15 05:19:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: videoslides
+[2023-06-15 05:19:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mystring
+[2023-06-15 05:19:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bruinen
+[2023-06-15 05:19:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: crispy-parser
+[2023-06-15 05:19:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aspose-diagram
+[2023-06-15 05:19:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: thunder-observability-agent
+[2023-06-15 05:19:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cdktf-cdktf-provider-spotinst
+[2023-06-15 05:19:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sj-tool
+[2023-06-15 05:19:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sedexercises
+[2023-06-15 05:19:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pepperize.cdk-autoscaling-gitlab-runner
+[2023-06-15 05:19:06] INFO root fetch - processPackages [crispy-parser]: New version: [1.1.0] Old Version: [1.0.1]
+[2023-06-15 05:19:06] INFO root fetch - processPackages [videoslides]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-06-15 05:19:06] INFO root fetch - processPackages [mystring]: New version: [0.0.94] Old Version: [0.0.93]
+[2023-06-15 05:19:06] INFO root fetch - processPackages [bruinen]: New version: [1.2.1] Old Version: [1.2]
+[2023-06-15 05:19:06] INFO root fetch - processPackages [sj-tool]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-15 05:19:06] WARNING root fetch - processPackages [sedexercises]: Skipping, unable to determine old version
+[2023-06-15 05:19:06] INFO root fetch - processPackages [aspose-diagram]: New version: [23.6.0] Old Version: [23.5.0]
+[2023-06-15 05:19:06] INFO root fetch - processPackages [sedexercises]: Start processing: osrl-lib
+[2023-06-15 05:19:06] INFO root fetch - main [MainThread]: End processing [sedexercises] error
+[2023-06-15 05:19:06] WARNING root fetch - processPackages [thunder-observability-agent]: Skipping, unable to determine old version
+[2023-06-15 05:19:06] INFO root fetch - processPackages [thunder-observability-agent]: Start processing: cdktf-cdktf-provider-cloudflare
+[2023-06-15 05:19:06] INFO root fetch - main [MainThread]: End processing [thunder-observability-agent] error
+[2023-06-15 05:19:06] INFO root fetch - processPackages [cdktf-cdktf-provider-spotinst]: New version: [7.0.9] Old Version: [7.0.8]
+[2023-06-15 05:19:06] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: New version: [0.2.99] Old Version: [0.2.98]
+[2023-06-15 05:19:06] WARNING root fetch - processPackages [osrl-lib]: Skipping, unable to determine old version
+[2023-06-15 05:19:06] INFO root fetch - processPackages [osrl-lib]: Start processing: pipeline-data
+[2023-06-15 05:19:06] INFO root fetch - main [MainThread]: End processing [osrl-lib] error
+[2023-06-15 05:19:06] INFO root fetch - processPackages [sj-tool]: Downloading https://files.pythonhosted.org/packages/8b/f9/2af667f18b77632259bbdac6a0db7f33f9cbea38a7a1baa7d9979d9060d3/sj_tool-1.0.8-py3-none-any.whl
+[2023-06-15 05:19:06] INFO root fetch - processPackages [cdktf-cdktf-provider-cloudflare]: New version: [6.0.7] Old Version: [6.0.6]
+[2023-06-15 05:19:06] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/20/7a/1cf95cd827a5bc2353d4a04fac9ad2282341306d1871323109bc1fcdc1bf/pepperize.cdk-autoscaling-gitlab-runner-0.2.98.tar.gz
+[2023-06-15 05:19:06] INFO root fetch - processPackages [videoslides]: Downloading https://files.pythonhosted.org/packages/68/dc/81e53873cacdafc98a195e4935dbf5f364f2e4dbf43f4d3f2e1b925f20c8/videoslides-0.0.7.tar.gz
+[2023-06-15 05:19:06] INFO root fetch - processPackages [bruinen]: Downloading https://files.pythonhosted.org/packages/3f/1c/5a4578e1603c8541f135b12f335c20beb7fd3a1e853c8ad94a3e7e558397/bruinen-1.2.tar.gz
+[2023-06-15 05:19:06] INFO root fetch - processPackages [sj-tool]: Downloading https://files.pythonhosted.org/packages/2e/c6/ed941d25e472426116ea2e75bd85fead4f6fad46d6238c6a7bc0c10801f1/sj_tool-1.0.9-py3-none-any.whl
+[2023-06-15 05:19:06] INFO root fetch - processPackages [crispy-parser]: Downloading https://files.pythonhosted.org/packages/42/fd/0bfd6553ae433e067f43cbc6f3d5030fef9102cffc9aa68a44d386086e45/crispy-parser-1.0.1.tar.gz
+[2023-06-15 05:19:06] INFO root fetch - processPackages [mystring]: Downloading https://files.pythonhosted.org/packages/90/62/a56bfd06aa14b5a5c8fd02c8c17931533d9ff954abb65a27a2304b152a5c/mystring-0.0.93.tar.gz
+[2023-06-15 05:19:06] INFO root fetch - processPackages [sj-tool]: executing diffoscope
+[2023-06-15 05:19:06] INFO root fetch - processPackages [sj-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sj_tool-1.0.8-py3-none-any.whl.zip tmp/sj_tool-1.0.9-py3-none-any.whl.zip --markdown 20230615/s/sj-tool/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-15 05:19:06] INFO root fetch - processPackages [aspose-diagram]: Downloading https://files.pythonhosted.org/packages/e1/6b/8594e85314bdc35c55f7235d20ebc460755259f2c6bb39e77f0d5ae01556/aspose-diagram-23.5.0.tar.gz
+[2023-06-15 05:19:06] INFO root fetch - processPackages [cdktf-cdktf-provider-spotinst]: Downloading https://files.pythonhosted.org/packages/22/cb/a908fffd3a374c82945e6989941dff531670e31cb15703c3551502f54e3b/cdktf-cdktf-provider-spotinst-7.0.8.tar.gz
+[2023-06-15 05:19:06] INFO root fetch - processPackages [cdktf-cdktf-provider-cloudflare]: Downloading https://files.pythonhosted.org/packages/82/20/c7d7c4c363643c679d64130d4007cb53f8fa99721908b8d8a930b78ed9a9/cdktf-cdktf-provider-cloudflare-6.0.6.tar.gz
+[2023-06-15 05:19:06] INFO root fetch - processPackages [videoslides]: Downloading https://files.pythonhosted.org/packages/df/06/273a49a075bfc1c285151b43fb42d76942f5eef4464b43c8844ba01a34dc/videoslides-0.0.8.tar.gz
+[2023-06-15 05:19:06] INFO root fetch - processPackages [bruinen]: Downloading https://files.pythonhosted.org/packages/f2/c2/285607bf26c776588d17cdf2610d41b3a76d73885563209bcdb6eff480ef/bruinen-1.2.1.tar.gz
+[2023-06-15 05:19:06] INFO root fetch - processPackages [videoslides]: executing diffoscope
+[2023-06-15 05:19:06] INFO root fetch - processPackages [videoslides]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/videoslides-0.0.7.tar.gz tmp/videoslides-0.0.8.tar.gz --markdown 20230615/v/videoslides/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-06-15 05:19:07] INFO root fetch - processPackages [bruinen]: executing diffoscope
+[2023-06-15 05:19:07] INFO root fetch - processPackages [bruinen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bruinen-1.2.tar.gz tmp/bruinen-1.2.1.tar.gz --markdown 20230615/b/bruinen/1.2-1.2.1/diff.md --exclude *.pyd
+[2023-06-15 05:19:07] INFO root fetch - processPackages [mystring]: Downloading https://files.pythonhosted.org/packages/67/83/d68fadf46261ea3a1909616c1895c8b6fa30afcf956b7e36343c754ae477/mystring-0.0.94.tar.gz
+[2023-06-15 05:19:07] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/a1/02/a44f26db0508904ac5d6e70c575bf20e4f99ab1df68dad57967a57b3a117/pepperize.cdk-autoscaling-gitlab-runner-0.2.99.tar.gz
+[2023-06-15 05:19:07] INFO root fetch - processPackages [crispy-parser]: Downloading https://files.pythonhosted.org/packages/a1/f2/db96cd5248c0381bf89d3619149d10657d9d32e7f788534b916985b47398/crispy-parser-1.1.0.tar.gz
+[2023-06-15 05:19:07] INFO root fetch - processPackages [mystring]: executing diffoscope
+[2023-06-15 05:19:07] INFO root fetch - processPackages [mystring]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mystring-0.0.93.tar.gz tmp/mystring-0.0.94.tar.gz --markdown 20230615/m/mystring/0.0.93-0.0.94/diff.md --exclude *.pyd
+[2023-06-15 05:19:07] INFO root fetch - processPackages [pipeline-data]: New version: [1.2.3] Old Version: [1.2.2]
+[2023-06-15 05:19:07] INFO root fetch - processPackages [crispy-parser]: executing diffoscope
+[2023-06-15 05:19:07] INFO root fetch - processPackages [crispy-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crispy-parser-1.0.1.tar.gz tmp/crispy-parser-1.1.0.tar.gz --markdown 20230615/c/crispy-parser/1.0.1-1.1.0/diff.md --exclude *.pyd
+[2023-06-15 05:19:07] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: executing diffoscope
+[2023-06-15 05:19:07] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-autoscaling-gitlab-runner-0.2.98.tar.gz tmp/pepperize.cdk-autoscaling-gitlab-runner-0.2.99.tar.gz --markdown 20230615/p/pepperize.cdk-autoscaling-gitlab-runner/0.2.98-0.2.99/diff.md --exclude *.pyd
+[2023-06-15 05:19:07] INFO root fetch - processPackages [pipeline-data]: Downloading https://files.pythonhosted.org/packages/d5/e3/afab432e305919b6dfae82188ba0eed070ae2329f298353eabdab7548951/pipeline-data-1.2.2.tar.gz
+[2023-06-15 05:19:07] INFO root fetch - processPackages [aspose-diagram]: Downloading https://files.pythonhosted.org/packages/94/5a/dfca0f96863952f41f813de194ffbc1de5c3fde9bb6d1e85a47ff5e34a69/aspose-diagram-23.6.0.tar.gz
+[2023-06-15 05:19:07] INFO root fetch - processPackages [cdktf-cdktf-provider-cloudflare]: Downloading https://files.pythonhosted.org/packages/45/20/7192b4f9cb9bc8c3f08524aaa1fc0b7fa1120340d7b78ad10f5666b50bdb/cdktf-cdktf-provider-cloudflare-6.0.7.tar.gz
+[2023-06-15 05:19:07] INFO root fetch - processPackages [pipeline-data]: Downloading https://files.pythonhosted.org/packages/54/c6/ddd44102f56bc2baede9409dcf40c21fd68a524780ff448382d292a8d4e8/pipeline-data-1.2.3.tar.gz
+[2023-06-15 05:19:07] INFO root fetch - processPackages [aspose-diagram]: executing diffoscope
+[2023-06-15 05:19:07] INFO root fetch - processPackages [aspose-diagram]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aspose-diagram-23.5.0.tar.gz tmp/aspose-diagram-23.6.0.tar.gz --markdown 20230615/a/aspose-diagram/23.5.0-23.6.0/diff.md --exclude *.pyd
+[2023-06-15 05:19:07] INFO root fetch - processPackages [pipeline-data]: executing diffoscope
+[2023-06-15 05:19:07] INFO root fetch - processPackages [pipeline-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipeline-data-1.2.2.tar.gz tmp/pipeline-data-1.2.3.tar.gz --markdown 20230615/p/pipeline-data/1.2.2-1.2.3/diff.md --exclude *.pyd
+[2023-06-15 05:19:07] INFO root fetch - processPackages [cdktf-cdktf-provider-spotinst]: Downloading https://files.pythonhosted.org/packages/ef/b4/fb2777b6ee3bdbddf28d9c9f6b0538010b9fb7ac79f206a8f7e5abc8606d/cdktf-cdktf-provider-spotinst-7.0.9.tar.gz
+[2023-06-15 05:19:08] INFO root fetch - processPackages [cdktf-cdktf-provider-cloudflare]: executing diffoscope
+[2023-06-15 05:19:08] INFO root fetch - processPackages [cdktf-cdktf-provider-cloudflare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdktf-provider-cloudflare-6.0.6.tar.gz tmp/cdktf-cdktf-provider-cloudflare-6.0.7.tar.gz --markdown 20230615/c/cdktf-cdktf-provider-cloudflare/6.0.6-6.0.7/diff.md --exclude *.pyd
+[2023-06-15 05:19:08] INFO root fetch - processPackages [sj-tool]: Remove: archive file [/home/abi/fetcher/tmp/sj_tool-1.0.8-py3-none-any.whl.zip]
+[2023-06-15 05:19:08] INFO root fetch - processPackages [sj-tool]: Remove: archive file [/home/abi/fetcher/tmp/sj_tool-1.0.9-py3-none-any.whl.zip]
+[2023-06-15 05:19:08] INFO root fetch - processPackages [sj-tool]: Start processing: landingai
+[2023-06-15 05:19:08] INFO root fetch - main [MainThread]: End processing [sj-tool]: success
+[2023-06-15 05:19:08] INFO root fetch - processPackages [landingai]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-06-15 05:19:08] INFO root fetch - processPackages [videoslides]: Remove: archive file [/home/abi/fetcher/tmp/videoslides-0.0.7.tar.gz]
+[2023-06-15 05:19:08] INFO root fetch - processPackages [videoslides]: Remove: archive file [/home/abi/fetcher/tmp/videoslides-0.0.8.tar.gz]
+[2023-06-15 05:19:08] INFO root fetch - processPackages [videoslides]: Start processing: cdktf-cdktf-provider-databricks
+[2023-06-15 05:19:08] INFO root fetch - main [MainThread]: End processing [videoslides]: success
+[2023-06-15 05:19:08] INFO root fetch - processPackages [landingai]: Downloading https://files.pythonhosted.org/packages/24/85/41de202cb57658583318c807ea79fedd058c090462f950346d7677af0cfb/landingai-0.0.7.tar.gz
+[2023-06-15 05:19:08] INFO root fetch - processPackages [crispy-parser]: Remove: archive file [/home/abi/fetcher/tmp/crispy-parser-1.0.1.tar.gz]
+[2023-06-15 05:19:08] INFO root fetch - processPackages [crispy-parser]: Remove: archive file [/home/abi/fetcher/tmp/crispy-parser-1.1.0.tar.gz]
+[2023-06-15 05:19:08] INFO root fetch - main [MainThread]: End processing [crispy-parser]: success
+[2023-06-15 05:19:08] INFO root fetch - processPackages [landingai]: Downloading https://files.pythonhosted.org/packages/fe/41/217b3e0de0fdb300f1bc686d8d5f39f3f600569ab95aa5302ab5c16adc30/landingai-0.0.8.tar.gz
+[2023-06-15 05:19:08] INFO root fetch - processPackages [landingai]: executing diffoscope
+[2023-06-15 05:19:08] INFO root fetch - processPackages [landingai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/landingai-0.0.7.tar.gz tmp/landingai-0.0.8.tar.gz --markdown 20230615/l/landingai/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-06-15 05:19:08] INFO root fetch - processPackages [cdktf-cdktf-provider-databricks]: New version: [7.0.7] Old Version: [7.0.6]
+[2023-06-15 05:19:08] INFO root fetch - processPackages [mystring]: Remove: archive file [/home/abi/fetcher/tmp/mystring-0.0.93.tar.gz]
+[2023-06-15 05:19:08] INFO root fetch - processPackages [mystring]: Remove: archive file [/home/abi/fetcher/tmp/mystring-0.0.94.tar.gz]
+[2023-06-15 05:19:08] INFO root fetch - main [MainThread]: End processing [mystring]: success
+[2023-06-15 05:19:08] INFO root fetch - processPackages [cdktf-cdktf-provider-databricks]: Downloading https://files.pythonhosted.org/packages/c5/b5/18a88c20d166be4e7110c6c9429441008b301ce03510b461c5cfd4a33cb6/cdktf-cdktf-provider-databricks-7.0.6.tar.gz
+[2023-06-15 05:19:08] INFO root fetch - processPackages [cdktf-cdktf-provider-spotinst]: executing diffoscope
+[2023-06-15 05:19:08] INFO root fetch - processPackages [cdktf-cdktf-provider-spotinst]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdktf-provider-spotinst-7.0.8.tar.gz tmp/cdktf-cdktf-provider-spotinst-7.0.9.tar.gz --markdown 20230615/c/cdktf-cdktf-provider-spotinst/7.0.8-7.0.9/diff.md --exclude *.pyd
+[2023-06-15 05:19:09] INFO root fetch - processPackages [landingai]: Remove: archive file [/home/abi/fetcher/tmp/landingai-0.0.7.tar.gz]
+[2023-06-15 05:19:09] INFO root fetch - processPackages [landingai]: Remove: archive file [/home/abi/fetcher/tmp/landingai-0.0.8.tar.gz]
+[2023-06-15 05:19:09] INFO root fetch - main [MainThread]: End processing [landingai]: success
+[2023-06-15 05:19:09] INFO root fetch - processPackages [bruinen]: Remove: archive file [/home/abi/fetcher/tmp/bruinen-1.2.tar.gz]
+[2023-06-15 05:19:09] INFO root fetch - processPackages [bruinen]: Remove: archive file [/home/abi/fetcher/tmp/bruinen-1.2.1.tar.gz]
+[2023-06-15 05:19:09] INFO root fetch - main [MainThread]: End processing [bruinen]: success
+[2023-06-15 05:19:09] INFO root fetch - processPackages [pipeline-data]: Remove: archive file [/home/abi/fetcher/tmp/pipeline-data-1.2.2.tar.gz]
+[2023-06-15 05:19:09] INFO root fetch - processPackages [pipeline-data]: Remove: archive file [/home/abi/fetcher/tmp/pipeline-data-1.2.3.tar.gz]
+[2023-06-15 05:19:09] INFO root fetch - main [MainThread]: End processing [pipeline-data]: success
+[2023-06-15 05:19:10] INFO root fetch - processPackages [cdktf-cdktf-provider-databricks]: Downloading https://files.pythonhosted.org/packages/04/86/292f81f637628ac6a1d7dfcad56a89c8b8556eb42fd7b0d739db733779b8/cdktf-cdktf-provider-databricks-7.0.7.tar.gz
+[2023-06-15 05:19:10] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-autoscaling-gitlab-runner-0.2.98.tar.gz]
+[2023-06-15 05:19:10] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-autoscaling-gitlab-runner-0.2.99.tar.gz]
+[2023-06-15 05:19:10] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-autoscaling-gitlab-runner]: success
+[2023-06-15 05:19:12] INFO root fetch - processPackages [cdktf-cdktf-provider-spotinst]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-spotinst-7.0.8.tar.gz]
+[2023-06-15 05:19:12] INFO root fetch - processPackages [cdktf-cdktf-provider-spotinst]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-spotinst-7.0.9.tar.gz]
+[2023-06-15 05:19:12] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-spotinst]: success
+[2023-06-15 05:19:14] INFO root fetch - processPackages [cdktf-cdktf-provider-cloudflare]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-cloudflare-6.0.6.tar.gz]
+[2023-06-15 05:19:14] INFO root fetch - processPackages [cdktf-cdktf-provider-cloudflare]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-cloudflare-6.0.7.tar.gz]
+[2023-06-15 05:19:14] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-cloudflare]: success
+[2023-06-15 05:19:18] INFO root fetch - processPackages [cdktf-cdktf-provider-databricks]: executing diffoscope
+[2023-06-15 05:19:18] INFO root fetch - processPackages [cdktf-cdktf-provider-databricks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdktf-provider-databricks-7.0.6.tar.gz tmp/cdktf-cdktf-provider-databricks-7.0.7.tar.gz --markdown 20230615/c/cdktf-cdktf-provider-databricks/7.0.6-7.0.7/diff.md --exclude *.pyd
+[2023-06-15 05:19:25] INFO root fetch - processPackages [cdktf-cdktf-provider-databricks]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-databricks-7.0.6.tar.gz]
+[2023-06-15 05:19:25] INFO root fetch - processPackages [cdktf-cdktf-provider-databricks]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-databricks-7.0.7.tar.gz]
+[2023-06-15 05:19:25] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-databricks]: success
+[2023-06-15 05:22:07] ERROR root fetch - processPackages [aspose-diagram]: Timeout during execution of pkgdiff
+[2023-06-15 05:22:07] INFO root fetch - main [MainThread]: End processing [aspose-diagram] error
+[2023-06-15 05:22:07] INFO root fetch - main [MainThread]: Store serial: [18510656]
