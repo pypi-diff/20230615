@@ -19942,3 +19942,152 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-06-15 13:12:22] INFO root fetch - processPackages [mqt.qmap]: Remove: archive file [/home/abi/fetcher/tmp/mqt.qmap-2.2.1.tar.gz]
 [2023-06-15 13:12:22] INFO root fetch - main [MainThread]: End processing [mqt.qmap]: success
 [2023-06-15 13:12:22] INFO root fetch - main [MainThread]: Store serial: [18515060]
+[2023-06-15 13:17:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18515060]
+[2023-06-15 13:17:35] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-06-15 13:17:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Products.urban
+[2023-06-15 13:17:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ozgursozluk
+[2023-06-15 13:17:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: repo-test-sdk
+[2023-06-15 13:17:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: p3do
+[2023-06-15 13:17:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kast-flow-api-python
+[2023-06-15 13:17:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: proteus-cli
+[2023-06-15 13:17:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: blendersynth
+[2023-06-15 13:17:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cdktf-cdktf-provider-ad
+[2023-06-15 13:17:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: codedjson
+[2023-06-15 13:17:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cdktf-cdktf-provider-acme
+[2023-06-15 13:17:35] INFO root fetch - processPackages [kast-flow-api-python]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-06-15 13:17:35] INFO root fetch - processPackages [Products.urban]: New version: [2.5.2] Old Version: [2.5.1]
+[2023-06-15 13:17:35] INFO root fetch - processPackages [repo-test-sdk]: New version: [2.0.0] Old Version: [1.0.0]
+[2023-06-15 13:17:35] INFO root fetch - processPackages [p3do]: New version: [0.7.0] Old Version: [0.6.1]
+[2023-06-15 13:17:35] INFO root fetch - processPackages [proteus-cli]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-06-15 13:17:35] WARNING root fetch - processPackages [blendersynth]: Skipping, unable to determine old version
+[2023-06-15 13:17:35] INFO root fetch - processPackages [ozgursozluk]: New version: [0.0.0.2] Old Version: [0.0.0.1]
+[2023-06-15 13:17:35] INFO root fetch - processPackages [blendersynth]: Start processing: cdktf-cdktf-provider-archive
+[2023-06-15 13:17:35] INFO root fetch - main [MainThread]: End processing [blendersynth] error
+[2023-06-15 13:17:35] WARNING root fetch - processPackages [codedjson]: Skipping, unable to determine old version
+[2023-06-15 13:17:35] INFO root fetch - processPackages [codedjson]: Start processing: johnsnowlabs-tmp
+[2023-06-15 13:17:35] INFO root fetch - main [MainThread]: End processing [codedjson] error
+[2023-06-15 13:17:35] INFO root fetch - processPackages [cdktf-cdktf-provider-ad]: New version: [5.0.0] Old Version: [4.0.1]
+[2023-06-15 13:17:35] INFO root fetch - processPackages [cdktf-cdktf-provider-acme]: New version: [7.0.0] Old Version: [6.0.2]
+[2023-06-15 13:17:35] INFO root fetch - processPackages [kast-flow-api-python]: Downloading https://files.pythonhosted.org/packages/a0/a5/216cfc4b7c0384ca9c1c6d6da9ae979b9814efde35d528275c6873dded56/kast_flow_api_python-1.0.2.tar.gz
+[2023-06-15 13:17:35] INFO root fetch - processPackages [johnsnowlabs-tmp]: New version: [4.4.9] Old Version: [4.4.8]
+[2023-06-15 13:17:35] INFO root fetch - processPackages [cdktf-cdktf-provider-archive]: New version: [7.0.0] Old Version: [6.0.2]
+[2023-06-15 13:17:35] INFO root fetch - processPackages [repo-test-sdk]: Downloading https://files.pythonhosted.org/packages/5e/52/b4493278d2f7e5a838cb959fc75ef692c573fa9eecb30d4f5131f3d84701/repo-test-sdk-1.0.0.tar.gz
+[2023-06-15 13:17:35] INFO root fetch - processPackages [johnsnowlabs-tmp]: Downloading https://files.pythonhosted.org/packages/93/c7/36389a32db55acab691a0cae8d7d2f9b6f192c65a1a14d04e86504da1f42/johnsnowlabs_tmp-4.4.8.tar.gz
+[2023-06-15 13:17:35] INFO root fetch - processPackages [ozgursozluk]: Downloading https://files.pythonhosted.org/packages/e1/de/c8c89d830d9a044b076e6331ef76578dcaad44a58d119eff799bbeb00a20/ozgursozluk-0.0.0.1.tar.gz
+[2023-06-15 13:17:35] INFO root fetch - processPackages [Products.urban]: Downloading https://files.pythonhosted.org/packages/3d/2b/f61676ff97b122c2d930c7f614c5dc320ab2399cce528524e718c0cd0a37/Products.urban-2.5.1.tar.gz
+[2023-06-15 13:17:35] WARNING root fetch - processPackages [Products.urban]: Skipping package: exceeds size limit 22251199>=10485760
+[2023-06-15 13:17:35] INFO root fetch - processPackages [Products.urban]: Start processing: jupyter-matlab-proxy
+[2023-06-15 13:17:35] INFO root fetch - main [MainThread]: End processing [Products.urban] error
+[2023-06-15 13:17:35] INFO root fetch - processPackages [cdktf-cdktf-provider-ad]: Downloading https://files.pythonhosted.org/packages/6a/40/48f38f235f81649fe40b7965426bae21d7fe340ae1fb781aa0c88bd22b19/cdktf-cdktf-provider-ad-4.0.1.tar.gz
+[2023-06-15 13:17:35] INFO root fetch - processPackages [p3do]: Downloading https://files.pythonhosted.org/packages/fa/12/3adf68a456852ba14c60368fed360537d9fb0087d6eb95c8b8fa1cf72047/p3do-0.6.1.tar.gz
+[2023-06-15 13:17:35] INFO root fetch - processPackages [proteus-cli]: Downloading https://files.pythonhosted.org/packages/9b/71/3a9ac395d2ae9d6d7ae738a827d8cb118987e10bd28922e8cddb264603b9/proteus_cli-0.3.2.tar.gz
+[2023-06-15 13:17:35] INFO root fetch - processPackages [jupyter-matlab-proxy]: New version: [0.6.0] Old Version: [0.5.4]
+[2023-06-15 13:17:35] INFO root fetch - processPackages [cdktf-cdktf-provider-acme]: Downloading https://files.pythonhosted.org/packages/4a/b4/ad92ebc4f47abd1219b4d11150db102989b7d1641939ad34520fd2b5d4b6/cdktf-cdktf-provider-acme-6.0.2.tar.gz
+[2023-06-15 13:17:35] INFO root fetch - processPackages [kast-flow-api-python]: Downloading https://files.pythonhosted.org/packages/5d/0c/5d4fa2026670e53f354f37c621086ba6edafc1bd852262bba3e836ccd224/kast_flow_api_python-1.0.3.tar.gz
+[2023-06-15 13:17:35] INFO root fetch - processPackages [cdktf-cdktf-provider-archive]: Downloading https://files.pythonhosted.org/packages/54/86/0d8e03f0d1b8616d04f97f70eed0638acea55e82625e520c64a94275c8c6/cdktf-cdktf-provider-archive-6.0.2.tar.gz
+[2023-06-15 13:17:35] INFO root fetch - processPackages [repo-test-sdk]: Downloading https://files.pythonhosted.org/packages/74/4a/ddb9f19ea3c90523f5f4284be76e64e3086e616db7869758fbddace9aefd/repo-test-sdk-2.0.0.tar.gz
+[2023-06-15 13:17:35] INFO root fetch - processPackages [ozgursozluk]: Downloading https://files.pythonhosted.org/packages/a3/dc/10846b24d9bf193d5f950254ab413dd075fe1dbb17c1efc735ae79d44109/ozgursozluk-0.0.0.2.tar.gz
+[2023-06-15 13:17:35] INFO root fetch - processPackages [johnsnowlabs-tmp]: Downloading https://files.pythonhosted.org/packages/ac/cf/b40dfd39385b18d5172c5c5d3738d9442d5fd8c796b8b95393725d24b4e6/johnsnowlabs_tmp-4.4.9.tar.gz
+[2023-06-15 13:17:35] INFO root fetch - processPackages [repo-test-sdk]: executing diffoscope
+[2023-06-15 13:17:35] INFO root fetch - processPackages [repo-test-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/repo-test-sdk-1.0.0.tar.gz tmp/repo-test-sdk-2.0.0.tar.gz --markdown 20230615/r/repo-test-sdk/1.0.0-2.0.0/diff.md --exclude *.pyd
+[2023-06-15 13:17:35] INFO root fetch - processPackages [kast-flow-api-python]: executing diffoscope
+[2023-06-15 13:17:35] INFO root fetch - processPackages [kast-flow-api-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kast_flow_api_python-1.0.2.tar.gz tmp/kast_flow_api_python-1.0.3.tar.gz --markdown 20230615/k/kast-flow-api-python/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-06-15 13:17:35] INFO root fetch - processPackages [ozgursozluk]: executing diffoscope
+[2023-06-15 13:17:35] INFO root fetch - processPackages [ozgursozluk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ozgursozluk-0.0.0.1.tar.gz tmp/ozgursozluk-0.0.0.2.tar.gz --markdown 20230615/o/ozgursozluk/0.0.0.1-0.0.0.2/diff.md --exclude *.pyd
+[2023-06-15 13:17:35] INFO root fetch - processPackages [jupyter-matlab-proxy]: Downloading https://files.pythonhosted.org/packages/e9/f3/d2064577eec7e8ed32b9ee2e9ce8a52e15049ae2193ce3f295120be57dde/jupyter_matlab_proxy-0.5.4-py3-none-any.whl
+[2023-06-15 13:17:35] INFO root fetch - processPackages [proteus-cli]: Downloading https://files.pythonhosted.org/packages/31/62/1b078c6113cee46a23592230ed5a8b60a9c6fbe1f52dfb1f23f718e963c6/proteus_cli-0.3.3.tar.gz
+[2023-06-15 13:17:35] INFO root fetch - processPackages [johnsnowlabs-tmp]: executing diffoscope
+[2023-06-15 13:17:35] INFO root fetch - processPackages [johnsnowlabs-tmp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/johnsnowlabs_tmp-4.4.8.tar.gz tmp/johnsnowlabs_tmp-4.4.9.tar.gz --markdown 20230615/j/johnsnowlabs-tmp/4.4.8-4.4.9/diff.md --exclude *.pyd
+[2023-06-15 13:17:36] INFO root fetch - processPackages [cdktf-cdktf-provider-acme]: Downloading https://files.pythonhosted.org/packages/de/39/a79b7b016a39e31aa66d73f962f62be15372218930767b3d76d3be7fb9de/cdktf-cdktf-provider-acme-7.0.0.tar.gz
+[2023-06-15 13:17:36] INFO root fetch - processPackages [cdktf-cdktf-provider-archive]: Downloading https://files.pythonhosted.org/packages/f1/4c/481d944164a321c02be3d2fcf46199d28d00f49d7e4166bab3cf808c5667/cdktf-cdktf-provider-archive-7.0.0.tar.gz
+[2023-06-15 13:17:36] INFO root fetch - processPackages [p3do]: Downloading https://files.pythonhosted.org/packages/5a/8f/b7a66521080b4f05a956aedbbe4cf973b4a12be2f51ca48d8c11d28e2430/p3do-0.7.0.tar.gz
+[2023-06-15 13:17:36] INFO root fetch - processPackages [cdktf-cdktf-provider-archive]: executing diffoscope
+[2023-06-15 13:17:36] INFO root fetch - processPackages [cdktf-cdktf-provider-archive]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdktf-provider-archive-6.0.2.tar.gz tmp/cdktf-cdktf-provider-archive-7.0.0.tar.gz --markdown 20230615/c/cdktf-cdktf-provider-archive/6.0.2-7.0.0/diff.md --exclude *.pyd
+[2023-06-15 13:17:36] INFO root fetch - processPackages [cdktf-cdktf-provider-ad]: Downloading https://files.pythonhosted.org/packages/f6/d0/34ba5dc42ea1c4e71afe302f020b8652f3cffc53054ef852d12f1151d194/cdktf-cdktf-provider-ad-5.0.0.tar.gz
+[2023-06-15 13:17:36] INFO root fetch - processPackages [proteus-cli]: executing diffoscope
+[2023-06-15 13:17:36] INFO root fetch - processPackages [proteus-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proteus_cli-0.3.2.tar.gz tmp/proteus_cli-0.3.3.tar.gz --markdown 20230615/p/proteus-cli/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-06-15 13:17:36] INFO root fetch - processPackages [cdktf-cdktf-provider-acme]: executing diffoscope
+[2023-06-15 13:17:36] INFO root fetch - processPackages [cdktf-cdktf-provider-acme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdktf-provider-acme-6.0.2.tar.gz tmp/cdktf-cdktf-provider-acme-7.0.0.tar.gz --markdown 20230615/c/cdktf-cdktf-provider-acme/6.0.2-7.0.0/diff.md --exclude *.pyd
+[2023-06-15 13:17:36] INFO root fetch - processPackages [p3do]: executing diffoscope
+[2023-06-15 13:17:36] INFO root fetch - processPackages [p3do]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/p3do-0.6.1.tar.gz tmp/p3do-0.7.0.tar.gz --markdown 20230615/p/p3do/0.6.1-0.7.0/diff.md --exclude *.pyd
+[2023-06-15 13:17:36] INFO root fetch - processPackages [jupyter-matlab-proxy]: Downloading https://files.pythonhosted.org/packages/85/f0/2d41216d39c04089ac1daa417a39975986ed4b86501c2f2397a7f1795e1b/jupyter_matlab_proxy-0.6.0-py3-none-any.whl
+[2023-06-15 13:17:36] INFO root fetch - processPackages [cdktf-cdktf-provider-ad]: executing diffoscope
+[2023-06-15 13:17:36] INFO root fetch - processPackages [cdktf-cdktf-provider-ad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdktf-provider-ad-4.0.1.tar.gz tmp/cdktf-cdktf-provider-ad-5.0.0.tar.gz --markdown 20230615/c/cdktf-cdktf-provider-ad/4.0.1-5.0.0/diff.md --exclude *.pyd
+[2023-06-15 13:17:36] INFO root fetch - processPackages [jupyter-matlab-proxy]: executing diffoscope
+[2023-06-15 13:17:36] INFO root fetch - processPackages [jupyter-matlab-proxy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyter_matlab_proxy-0.5.4-py3-none-any.whl.zip tmp/jupyter_matlab_proxy-0.6.0-py3-none-any.whl.zip --markdown 20230615/j/jupyter-matlab-proxy/0.5.4-0.6.0/diff.md --exclude *.pyd
+[2023-06-15 13:17:37] INFO root fetch - processPackages [kast-flow-api-python]: Remove: archive file [/home/abi/fetcher/tmp/kast_flow_api_python-1.0.2.tar.gz]
+[2023-06-15 13:17:37] INFO root fetch - processPackages [kast-flow-api-python]: Remove: archive file [/home/abi/fetcher/tmp/kast_flow_api_python-1.0.3.tar.gz]
+[2023-06-15 13:17:37] INFO root fetch - processPackages [kast-flow-api-python]: Start processing: cdktf-cdktf-provider-boundary
+[2023-06-15 13:17:37] INFO root fetch - main [MainThread]: End processing [kast-flow-api-python]: success
+[2023-06-15 13:17:37] INFO root fetch - processPackages [cdktf-cdktf-provider-boundary]: New version: [5.0.0] Old Version: [4.0.5]
+[2023-06-15 13:17:38] INFO root fetch - processPackages [cdktf-cdktf-provider-boundary]: Downloading https://files.pythonhosted.org/packages/ce/75/5bf456139eda9609c670b69ac7a9f93638f3fd317c0948c1a43a2e7bd697/cdktf-cdktf-provider-boundary-4.0.5.tar.gz
+[2023-06-15 13:17:38] INFO root fetch - processPackages [p3do]: Remove: archive file [/home/abi/fetcher/tmp/p3do-0.6.1.tar.gz]
+[2023-06-15 13:17:38] INFO root fetch - processPackages [p3do]: Remove: archive file [/home/abi/fetcher/tmp/p3do-0.7.0.tar.gz]
+[2023-06-15 13:17:38] INFO root fetch - processPackages [p3do]: Start processing: gisting-test
+[2023-06-15 13:17:38] INFO root fetch - main [MainThread]: End processing [p3do]: success
+[2023-06-15 13:17:38] INFO root fetch - processPackages [gisting-test]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-06-15 13:17:38] INFO root fetch - processPackages [cdktf-cdktf-provider-ad]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-ad-4.0.1.tar.gz]
+[2023-06-15 13:17:38] INFO root fetch - processPackages [cdktf-cdktf-provider-ad]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-ad-5.0.0.tar.gz]
+[2023-06-15 13:17:38] INFO root fetch - processPackages [cdktf-cdktf-provider-ad]: Start processing: mesh-sandbox
+[2023-06-15 13:17:38] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-ad]: success
+[2023-06-15 13:17:38] INFO root fetch - processPackages [ozgursozluk]: Remove: archive file [/home/abi/fetcher/tmp/ozgursozluk-0.0.0.1.tar.gz]
+[2023-06-15 13:17:38] INFO root fetch - processPackages [ozgursozluk]: Remove: archive file [/home/abi/fetcher/tmp/ozgursozluk-0.0.0.2.tar.gz]
+[2023-06-15 13:17:38] INFO root fetch - processPackages [ozgursozluk]: Start processing: th2-data-services-lwdp
+[2023-06-15 13:17:38] INFO root fetch - main [MainThread]: End processing [ozgursozluk]: success
+[2023-06-15 13:17:38] INFO root fetch - processPackages [mesh-sandbox]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-06-15 13:17:38] INFO root fetch - processPackages [gisting-test]: Downloading https://files.pythonhosted.org/packages/31/7b/03676bd1174dd4e61b30ca021c14b2f00a33c4519b584c15e27c5c3b4473/gisting_test-0.1.7.tar.gz
+[2023-06-15 13:17:38] INFO root fetch - processPackages [cdktf-cdktf-provider-boundary]: Downloading https://files.pythonhosted.org/packages/47/68/4ddfefb1b71019de11548a4d5741664dbecef7a30812149c563c58fce88c/cdktf-cdktf-provider-boundary-5.0.0.tar.gz
+[2023-06-15 13:17:38] INFO root fetch - processPackages [th2-data-services-lwdp]: New version: [2.1.0.0.dev5277935888] Old Version: [2.1.0.0.dev5277858873]
+[2023-06-15 13:17:38] INFO root fetch - processPackages [cdktf-cdktf-provider-boundary]: executing diffoscope
+[2023-06-15 13:17:38] INFO root fetch - processPackages [cdktf-cdktf-provider-boundary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdktf-provider-boundary-4.0.5.tar.gz tmp/cdktf-cdktf-provider-boundary-5.0.0.tar.gz --markdown 20230615/c/cdktf-cdktf-provider-boundary/4.0.5-5.0.0/diff.md --exclude *.pyd
+[2023-06-15 13:17:38] INFO root fetch - processPackages [th2-data-services-lwdp]: Downloading https://files.pythonhosted.org/packages/41/c7/7a8c639b30658a3988504751d049b75b9a9b8d71f1e08c15fb93d54efc6c/th2_data_services_lwdp-2.1.0.0.dev5277858873.tar.gz
+[2023-06-15 13:17:38] INFO root fetch - processPackages [repo-test-sdk]: Remove: archive file [/home/abi/fetcher/tmp/repo-test-sdk-1.0.0.tar.gz]
+[2023-06-15 13:17:38] INFO root fetch - processPackages [repo-test-sdk]: Remove: archive file [/home/abi/fetcher/tmp/repo-test-sdk-2.0.0.tar.gz]
+[2023-06-15 13:17:38] INFO root fetch - processPackages [repo-test-sdk]: Start processing: fastwapi
+[2023-06-15 13:17:38] INFO root fetch - main [MainThread]: End processing [repo-test-sdk]: success
+[2023-06-15 13:17:38] INFO root fetch - processPackages [mesh-sandbox]: Downloading https://files.pythonhosted.org/packages/1d/e5/7370136179aa02d9d0b998c388570ef16c88d8a472d463511e5f0e588415/mesh_sandbox-1.0.3-py3-none-any.whl
+[2023-06-15 13:17:38] INFO root fetch - processPackages [proteus-cli]: Remove: archive file [/home/abi/fetcher/tmp/proteus_cli-0.3.2.tar.gz]
+[2023-06-15 13:17:38] INFO root fetch - processPackages [proteus-cli]: Remove: archive file [/home/abi/fetcher/tmp/proteus_cli-0.3.3.tar.gz]
+[2023-06-15 13:17:38] INFO root fetch - main [MainThread]: End processing [proteus-cli]: success
+[2023-06-15 13:17:38] INFO root fetch - processPackages [fastwapi]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-15 13:17:38] INFO root fetch - processPackages [gisting-test]: Downloading https://files.pythonhosted.org/packages/cd/13/be39405666a0285757c65cfc1d215d6eaa88806cb2f244d6d043b0f75632/gisting_test-0.1.8.tar.gz
+[2023-06-15 13:17:38] INFO root fetch - processPackages [th2-data-services-lwdp]: Downloading https://files.pythonhosted.org/packages/2f/d1/1de69cccc442d04fc82bb895b68510954146c6d3aa78b95765991776241a/th2_data_services_lwdp-2.1.0.0.dev5277935888.tar.gz
+[2023-06-15 13:17:38] INFO root fetch - processPackages [cdktf-cdktf-provider-acme]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-acme-6.0.2.tar.gz]
+[2023-06-15 13:17:38] INFO root fetch - processPackages [cdktf-cdktf-provider-acme]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-acme-7.0.0.tar.gz]
+[2023-06-15 13:17:38] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-acme]: success
+[2023-06-15 13:17:38] INFO root fetch - processPackages [fastwapi]: Downloading https://files.pythonhosted.org/packages/be/4b/46c40668afe6d5c10d5ddfe1012695f9d1b773a59127d1a326ff5eb1fcd7/FastWAPI-0.1.0.tar.gz
+[2023-06-15 13:17:38] INFO root fetch - processPackages [th2-data-services-lwdp]: executing diffoscope
+[2023-06-15 13:17:38] INFO root fetch - processPackages [th2-data-services-lwdp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th2_data_services_lwdp-2.1.0.0.dev5277858873.tar.gz tmp/th2_data_services_lwdp-2.1.0.0.dev5277935888.tar.gz --markdown 20230615/t/th2-data-services-lwdp/2.1.0.0.dev5277858873-2.1.0.0.dev5277935888/diff.md --exclude *.pyd
+[2023-06-15 13:17:39] INFO root fetch - processPackages [gisting-test]: executing diffoscope
+[2023-06-15 13:17:39] INFO root fetch - processPackages [gisting-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gisting_test-0.1.7.tar.gz tmp/gisting_test-0.1.8.tar.gz --markdown 20230615/g/gisting-test/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-06-15 13:17:39] INFO root fetch - processPackages [fastwapi]: Downloading https://files.pythonhosted.org/packages/a2/31/0909622010221a86b82f6692ff17fc6c3a9cfd44fa6b4ebd2993bead09a9/fastwapi-0.1.1.tar.gz
+[2023-06-15 13:17:39] INFO root fetch - processPackages [fastwapi]: executing diffoscope
+[2023-06-15 13:17:39] INFO root fetch - processPackages [fastwapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FastWAPI-0.1.0.tar.gz tmp/fastwapi-0.1.1.tar.gz --markdown 20230615/f/fastwapi/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-15 13:17:39] INFO root fetch - processPackages [mesh-sandbox]: Downloading https://files.pythonhosted.org/packages/be/b7/f4c3e1bfab00b57f2bd224db65338d8d916c38260be05e7151417daaaf6c/mesh_sandbox-1.0.4-py3-none-any.whl
+[2023-06-15 13:17:39] INFO root fetch - processPackages [cdktf-cdktf-provider-archive]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-archive-6.0.2.tar.gz]
+[2023-06-15 13:17:39] INFO root fetch - processPackages [cdktf-cdktf-provider-archive]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-archive-7.0.0.tar.gz]
+[2023-06-15 13:17:39] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-archive]: success
+[2023-06-15 13:17:39] INFO root fetch - processPackages [mesh-sandbox]: executing diffoscope
+[2023-06-15 13:17:39] INFO root fetch - processPackages [mesh-sandbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mesh_sandbox-1.0.3-py3-none-any.whl.zip tmp/mesh_sandbox-1.0.4-py3-none-any.whl.zip --markdown 20230615/m/mesh-sandbox/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-06-15 13:17:39] INFO root fetch - processPackages [johnsnowlabs-tmp]: Remove: archive file [/home/abi/fetcher/tmp/johnsnowlabs_tmp-4.4.8.tar.gz]
+[2023-06-15 13:17:39] INFO root fetch - processPackages [johnsnowlabs-tmp]: Remove: archive file [/home/abi/fetcher/tmp/johnsnowlabs_tmp-4.4.9.tar.gz]
+[2023-06-15 13:17:39] INFO root fetch - main [MainThread]: End processing [johnsnowlabs-tmp]: success
+[2023-06-15 13:17:39] INFO root fetch - processPackages [jupyter-matlab-proxy]: Remove: archive file [/home/abi/fetcher/tmp/jupyter_matlab_proxy-0.5.4-py3-none-any.whl.zip]
+[2023-06-15 13:17:39] INFO root fetch - processPackages [jupyter-matlab-proxy]: Remove: archive file [/home/abi/fetcher/tmp/jupyter_matlab_proxy-0.6.0-py3-none-any.whl.zip]
+[2023-06-15 13:17:39] INFO root fetch - main [MainThread]: End processing [jupyter-matlab-proxy]: success
+[2023-06-15 13:17:40] INFO root fetch - processPackages [th2-data-services-lwdp]: Remove: archive file [/home/abi/fetcher/tmp/th2_data_services_lwdp-2.1.0.0.dev5277858873.tar.gz]
+[2023-06-15 13:17:40] INFO root fetch - processPackages [th2-data-services-lwdp]: Remove: archive file [/home/abi/fetcher/tmp/th2_data_services_lwdp-2.1.0.0.dev5277935888.tar.gz]
+[2023-06-15 13:17:40] INFO root fetch - main [MainThread]: End processing [th2-data-services-lwdp]: success
+[2023-06-15 13:17:40] INFO root fetch - processPackages [cdktf-cdktf-provider-boundary]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-boundary-4.0.5.tar.gz]
+[2023-06-15 13:17:40] INFO root fetch - processPackages [cdktf-cdktf-provider-boundary]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-boundary-5.0.0.tar.gz]
+[2023-06-15 13:17:40] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-boundary]: success
+[2023-06-15 13:17:40] INFO root fetch - processPackages [fastwapi]: Remove: archive file [/home/abi/fetcher/tmp/FastWAPI-0.1.0.tar.gz]
+[2023-06-15 13:17:40] INFO root fetch - processPackages [fastwapi]: Remove: archive file [/home/abi/fetcher/tmp/fastwapi-0.1.1.tar.gz]
+[2023-06-15 13:17:40] INFO root fetch - main [MainThread]: End processing [fastwapi]: success
+[2023-06-15 13:17:41] INFO root fetch - processPackages [mesh-sandbox]: Remove: archive file [/home/abi/fetcher/tmp/mesh_sandbox-1.0.3-py3-none-any.whl.zip]
+[2023-06-15 13:17:41] INFO root fetch - processPackages [mesh-sandbox]: Remove: archive file [/home/abi/fetcher/tmp/mesh_sandbox-1.0.4-py3-none-any.whl.zip]
+[2023-06-15 13:17:41] INFO root fetch - main [MainThread]: End processing [mesh-sandbox]: success
+[2023-06-15 13:17:41] INFO root fetch - processPackages [gisting-test]: Remove: archive file [/home/abi/fetcher/tmp/gisting_test-0.1.7.tar.gz]
+[2023-06-15 13:17:41] INFO root fetch - processPackages [gisting-test]: Remove: archive file [/home/abi/fetcher/tmp/gisting_test-0.1.8.tar.gz]
+[2023-06-15 13:17:41] INFO root fetch - main [MainThread]: End processing [gisting-test]: success
+[2023-06-15 13:17:41] INFO root fetch - main [MainThread]: Store serial: [18515125]
