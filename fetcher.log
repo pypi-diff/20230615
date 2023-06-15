@@ -6330,3 +6330,54 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-15 03:51:50] INFO root fetch - main [MainThread]: End processing [lyra-graphtool-test]: success
 [2023-06-15 03:51:50] INFO root fetch - main [MainThread]: End processing [yplib]: success
 [2023-06-15 03:51:50] INFO root fetch - main [MainThread]: Store serial: [18509868]
+[2023-06-15 03:56:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18509868]
+[2023-06-15 03:56:59] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-15 03:56:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pygeoweaver
+[2023-06-15 03:56:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lyra-graphtool-test
+[2023-06-15 03:56:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: keksik-api
+[2023-06-15 03:56:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: embarrassing
+[2023-06-15 03:56:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: yplib
+[2023-06-15 03:56:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: enderchest
+[2023-06-15 03:56:59] INFO root fetch - processPackages [pygeoweaver]: New version: [0.6.9] Old Version: [0.6.8]
+[2023-06-15 03:56:59] INFO root fetch - processPackages [lyra-graphtool-test]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-15 03:56:59] WARNING root fetch - processPackages [embarrassing]: Skipping, unable to determine old version
+[2023-06-15 03:56:59] INFO root fetch - processPackages [keksik-api]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-06-15 03:56:59] INFO root fetch - main [MainThread]: End processing [embarrassing] error
+[2023-06-15 03:56:59] INFO root fetch - processPackages [yplib]: New version: [1.3.1] Old Version: [1.3.0]
+[2023-06-15 03:56:59] INFO root fetch - processPackages [lyra-graphtool-test]: Downloading https://files.pythonhosted.org/packages/43/cb/023c905e6f983f3b2f8d7337713bad89e41456a5258cd24331197e0d4398/lyra_graphtool_test-0.0.3.tar.gz
+[2023-06-15 03:56:59] INFO root fetch - processPackages [pygeoweaver]: Downloading https://files.pythonhosted.org/packages/e1/e6/cebbcc85961e976c30d3410fec3974b68de6578d7aa4a9934d08ae9b0255/pygeoweaver-0.6.8.tar.gz
+[2023-06-15 03:56:59] INFO root fetch - processPackages [enderchest]: New version: [0.1.2] Old Version: [0.1.1rc1]
+[2023-06-15 03:56:59] INFO root fetch - processPackages [pygeoweaver]: Downloading https://files.pythonhosted.org/packages/1d/a0/3aed3861d673cf10573bb61e4f114331be2f9040fad159c1af452f29567e/pygeoweaver-0.6.9.tar.gz
+[2023-06-15 03:56:59] INFO root fetch - processPackages [keksik-api]: Downloading https://files.pythonhosted.org/packages/17/70/579d9cca5852f5b76d4b704f8a5d66aae5c957715419aa952dd31f466b21/keksik_api-0.2.0.tar.gz
+[2023-06-15 03:56:59] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/6c/79/f22982764c8327a114d63e32eaec9f822f0a5c9427cd7527fd142dae824d/yplib-1.3.0.tar.gz
+[2023-06-15 03:56:59] INFO root fetch - processPackages [pygeoweaver]: executing diffoscope
+[2023-06-15 03:56:59] INFO root fetch - processPackages [pygeoweaver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygeoweaver-0.6.8.tar.gz tmp/pygeoweaver-0.6.9.tar.gz --markdown 20230615/p/pygeoweaver/0.6.8-0.6.9/diff.md --exclude *.pyd
+[2023-06-15 03:56:59] INFO root fetch - processPackages [enderchest]: Downloading https://files.pythonhosted.org/packages/d1/1d/c34690d51ead01dbb77c3e88ea6830959fa444e14419b5813ad3cd7cb5d4/enderchest-0.1.1rc1.tar.gz
+[2023-06-15 03:56:59] INFO root fetch - processPackages [lyra-graphtool-test]: Downloading https://files.pythonhosted.org/packages/ae/8b/c45ae621f27d80eef6efa081eee0ba0f2e2dd52989796755df5106834cdd/lyra_graphtool_test-0.0.4.tar.gz
+[2023-06-15 03:57:00] INFO root fetch - processPackages [lyra-graphtool-test]: executing diffoscope
+[2023-06-15 03:57:00] INFO root fetch - processPackages [lyra-graphtool-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lyra_graphtool_test-0.0.3.tar.gz tmp/lyra_graphtool_test-0.0.4.tar.gz --markdown 20230615/l/lyra-graphtool-test/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-15 03:57:00] INFO root fetch - processPackages [keksik-api]: Downloading https://files.pythonhosted.org/packages/75/ba/eb1c017438f7d56293dc0ff8c1c1420519c4d91ba778e1b7a0f0bc05d5c5/keksik_api-0.2.1.tar.gz
+[2023-06-15 03:57:00] INFO root fetch - processPackages [enderchest]: Downloading https://files.pythonhosted.org/packages/c7/31/c2aa00c3f973233bc88316c80162d662a1f3619e5f915c4f999a8b5d1a12/enderchest-0.1.2.tar.gz
+[2023-06-15 03:57:00] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/03/71/dbfece0af999d9a63e9c5a30c4ad4e990107e431ad8568c864ad96d9b8ea/yplib-1.3.1.tar.gz
+[2023-06-15 03:57:00] INFO root fetch - processPackages [keksik-api]: executing diffoscope
+[2023-06-15 03:57:00] INFO root fetch - processPackages [keksik-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keksik_api-0.2.0.tar.gz tmp/keksik_api-0.2.1.tar.gz --markdown 20230615/k/keksik-api/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-06-15 03:57:00] INFO root fetch - processPackages [yplib]: executing diffoscope
+[2023-06-15 03:57:00] INFO root fetch - processPackages [yplib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yplib-1.3.0.tar.gz tmp/yplib-1.3.1.tar.gz --markdown 20230615/y/yplib/1.3.0-1.3.1/diff.md --exclude *.pyd
+[2023-06-15 03:57:00] INFO root fetch - processPackages [enderchest]: executing diffoscope
+[2023-06-15 03:57:00] INFO root fetch - processPackages [enderchest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/enderchest-0.1.1rc1.tar.gz tmp/enderchest-0.1.2.tar.gz --markdown 20230615/e/enderchest/0.1.1rc1-0.1.2/diff.md --exclude *.pyd
+[2023-06-15 03:57:01] INFO root fetch - processPackages [pygeoweaver]: Remove: archive file [/home/abi/fetcher/tmp/pygeoweaver-0.6.8.tar.gz]
+[2023-06-15 03:57:01] INFO root fetch - processPackages [pygeoweaver]: Remove: archive file [/home/abi/fetcher/tmp/pygeoweaver-0.6.9.tar.gz]
+[2023-06-15 03:57:01] INFO root fetch - main [MainThread]: End processing [pygeoweaver]: success
+[2023-06-15 03:57:01] INFO root fetch - processPackages [lyra-graphtool-test]: Remove: archive file [/home/abi/fetcher/tmp/lyra_graphtool_test-0.0.3.tar.gz]
+[2023-06-15 03:57:01] INFO root fetch - processPackages [lyra-graphtool-test]: Remove: archive file [/home/abi/fetcher/tmp/lyra_graphtool_test-0.0.4.tar.gz]
+[2023-06-15 03:57:01] INFO root fetch - main [MainThread]: End processing [lyra-graphtool-test]: success
+[2023-06-15 03:57:01] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-1.3.0.tar.gz]
+[2023-06-15 03:57:01] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-1.3.1.tar.gz]
+[2023-06-15 03:57:01] INFO root fetch - main [MainThread]: End processing [yplib]: success
+[2023-06-15 03:57:01] INFO root fetch - processPackages [keksik-api]: Remove: archive file [/home/abi/fetcher/tmp/keksik_api-0.2.0.tar.gz]
+[2023-06-15 03:57:01] INFO root fetch - processPackages [keksik-api]: Remove: archive file [/home/abi/fetcher/tmp/keksik_api-0.2.1.tar.gz]
+[2023-06-15 03:57:01] INFO root fetch - main [MainThread]: End processing [keksik-api]: success
+[2023-06-15 03:57:01] INFO root fetch - processPackages [enderchest]: Remove: archive file [/home/abi/fetcher/tmp/enderchest-0.1.1rc1.tar.gz]
+[2023-06-15 03:57:01] INFO root fetch - processPackages [enderchest]: Remove: archive file [/home/abi/fetcher/tmp/enderchest-0.1.2.tar.gz]
+[2023-06-15 03:57:01] INFO root fetch - main [MainThread]: End processing [enderchest]: success
+[2023-06-15 03:57:01] INFO root fetch - main [MainThread]: Store serial: [18509889]
