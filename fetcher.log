@@ -14870,3 +14870,87 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-06-15 10:33:09] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202306150830-py3-none-any.whl.zip]
 [2023-06-15 10:33:09] INFO root fetch - main [MainThread]: End processing [kcli]: success
 [2023-06-15 10:33:09] INFO root fetch - main [MainThread]: Store serial: [18513116]
+[2023-06-15 10:38:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18513116]
+[2023-06-15 10:38:19] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-15 10:38:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mimeograph
+[2023-06-15 10:38:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: shaku-database
+[2023-06-15 10:38:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ap-package
+[2023-06-15 10:38:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: forestadmin-datasource-toolkit
+[2023-06-15 10:38:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: taibun
+[2023-06-15 10:38:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: forestadmin-datasource-sqlalchemy
+[2023-06-15 10:38:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tf-estimator-nightly
+[2023-06-15 10:38:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: forestadmin-agent-toolkit
+[2023-06-15 10:38:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: skulk
+[2023-06-15 10:38:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: forestadmin-agent-flask
+[2023-06-15 10:38:20] INFO root fetch - processPackages [skulk]: New version: [2.1.5] Old Version: [2.1.2]
+[2023-06-15 10:38:20] INFO root fetch - processPackages [skulk]: Downloading https://files.pythonhosted.org/packages/ea/ac/527fc465c6e186346909ca5e26d9cb848fd5a797de4e38b8bd50ef97d769/skulk-2.1.2-py2.py3-none-any.whl
+[2023-06-15 10:38:20] WARNING root fetch - processPackages [ap-package]: Skipping, unable to determine old version
+[2023-06-15 10:38:20] INFO root fetch - processPackages [ap-package]: Start processing: datawork000
+[2023-06-15 10:38:20] INFO root fetch - main [MainThread]: End processing [ap-package] error
+[2023-06-15 10:38:20] INFO root fetch - processPackages [forestadmin-datasource-sqlalchemy]: New version: [0.1.0b9] Old Version: [0.1.0b8]
+[2023-06-15 10:38:20] WARNING root fetch - processPackages [shaku-database]: Skipping, unable to determine old version
+[2023-06-15 10:38:20] INFO root fetch - processPackages [mimeograph]: New version: [0.7.0] Old Version: [0.6.0]
+[2023-06-15 10:38:20] WARNING root fetch - processPackages [taibun]: Skipping, unable to determine old version
+[2023-06-15 10:38:20] INFO root fetch - main [MainThread]: End processing [shaku-database] error
+[2023-06-15 10:38:20] INFO root fetch - main [MainThread]: End processing [taibun] error
+[2023-06-15 10:38:20] INFO root fetch - processPackages [forestadmin-datasource-toolkit]: New version: [0.1.0b9] Old Version: [0.1.0b8]
+[2023-06-15 10:38:20] INFO root fetch - processPackages [forestadmin-agent-toolkit]: New version: [0.1.0b9] Old Version: [0.1.0b8]
+[2023-06-15 10:38:20] INFO root fetch - processPackages [datawork000]: New version: [0.2.0] Old Version: [0.1]
+[2023-06-15 10:38:20] INFO root fetch - processPackages [tf-estimator-nightly]: New version: [2.9.0.dev2022033108] Old Version: [2.9.0.dev2022033008]
+[2023-06-15 10:38:20] INFO root fetch - processPackages [forestadmin-agent-flask]: New version: [0.1.0b9] Old Version: [0.1.0b8]
+[2023-06-15 10:38:20] INFO root fetch - processPackages [datawork000]: Downloading https://files.pythonhosted.org/packages/c9/83/955ce112fa69ec233bd243977abe6e63389a593be47f99f726ecafec3227/datawork000-0.1.tar.gz
+[2023-06-15 10:38:20] INFO root fetch - processPackages [skulk]: Downloading https://files.pythonhosted.org/packages/ee/71/b08f1658199f601ca646e9472773df3f08ccdc91696e1e5d1be8d7fa90fe/skulk-2.1.5-py2.py3-none-any.whl
+[2023-06-15 10:38:20] INFO root fetch - processPackages [skulk]: executing diffoscope
+[2023-06-15 10:38:20] INFO root fetch - processPackages [skulk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skulk-2.1.2-py2.py3-none-any.whl.zip tmp/skulk-2.1.5-py2.py3-none-any.whl.zip --markdown 20230615/s/skulk/2.1.2-2.1.5/diff.md --exclude *.pyd
+[2023-06-15 10:38:20] INFO root fetch - processPackages [mimeograph]: Downloading https://files.pythonhosted.org/packages/37/74/1898ac057cfc3d593a33e2c8099898c9441890d75ee0949d2d2d77da0a45/mimeograph-0.6.0.tar.gz
+[2023-06-15 10:38:20] INFO root fetch - processPackages [forestadmin-datasource-sqlalchemy]: Downloading https://files.pythonhosted.org/packages/55/ec/8247e4e82a326de5c38702a86bb40c226be2e246beada914406074f12e31/forestadmin_datasource_sqlalchemy-0.1.0b8.tar.gz
+[2023-06-15 10:38:20] INFO root fetch - processPackages [forestadmin-agent-toolkit]: Downloading https://files.pythonhosted.org/packages/81/13/0c3fe634cf5d3e6712d4ec8d958264f0c031fc9a780b5218485b96f58641/forestadmin_agent_toolkit-0.1.0b8.tar.gz
+[2023-06-15 10:38:20] INFO root fetch - processPackages [datawork000]: Downloading https://files.pythonhosted.org/packages/3b/fd/6cb3de6b37179da2fb1fb7d404dca0892831c18ecc658b1be670b0ed7817/datawork000-0.2.0.tar.gz
+[2023-06-15 10:38:20] INFO root fetch - processPackages [tf-estimator-nightly]: Downloading https://files.pythonhosted.org/packages/31/a0/5e1b898e43043b32d95e8719e2eb127692fd8261edbdad4801876a46893f/tf_estimator_nightly-2.9.0.dev2022033008-py2.py3-none-any.whl
+[2023-06-15 10:38:20] INFO root fetch - processPackages [datawork000]: executing diffoscope
+[2023-06-15 10:38:20] INFO root fetch - processPackages [datawork000]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datawork000-0.1.tar.gz tmp/datawork000-0.2.0.tar.gz --markdown 20230615/d/datawork000/0.1-0.2.0/diff.md --exclude *.pyd
+[2023-06-15 10:38:20] INFO root fetch - processPackages [forestadmin-agent-flask]: Downloading https://files.pythonhosted.org/packages/3e/f4/f6de754630a7c19c8ec4ce4d777e771d743b1e084b0ecf590ffcf9141d99/forestadmin_agent_flask-0.1.0b8.tar.gz
+[2023-06-15 10:38:20] INFO root fetch - processPackages [forestadmin-datasource-toolkit]: Downloading https://files.pythonhosted.org/packages/ad/37/aef0972f584a7ccd5a02b58b58449fee7cfc5e203219dbfd89ec8ffdf6c9/forestadmin_datasource_toolkit-0.1.0b8.tar.gz
+[2023-06-15 10:38:20] INFO root fetch - processPackages [forestadmin-datasource-sqlalchemy]: Downloading https://files.pythonhosted.org/packages/e3/82/284d5a98e9849700b9bd0243463ae74bb810fb8f891ef63246ae48a9b25a/forestadmin_datasource_sqlalchemy-0.1.0b9.tar.gz
+[2023-06-15 10:38:20] INFO root fetch - processPackages [forestadmin-agent-toolkit]: Downloading https://files.pythonhosted.org/packages/b0/db/01961164568425eb2d6b5765179369ee253f7483d07942f3e15613dfc4c6/forestadmin_agent_toolkit-0.1.0b9.tar.gz
+[2023-06-15 10:38:20] INFO root fetch - processPackages [forestadmin-datasource-sqlalchemy]: executing diffoscope
+[2023-06-15 10:38:20] INFO root fetch - processPackages [forestadmin-datasource-sqlalchemy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/forestadmin_datasource_sqlalchemy-0.1.0b8.tar.gz tmp/forestadmin_datasource_sqlalchemy-0.1.0b9.tar.gz --markdown 20230615/f/forestadmin-datasource-sqlalchemy/0.1.0b8-0.1.0b9/diff.md --exclude *.pyd
+[2023-06-15 10:38:20] INFO root fetch - processPackages [mimeograph]: Downloading https://files.pythonhosted.org/packages/75/9c/0c2ec59662303a61740bed159ff3566fffb2e05d5e779858376fecc1e25f/mimeograph-0.7.0.tar.gz
+[2023-06-15 10:38:20] INFO root fetch - processPackages [forestadmin-agent-flask]: Downloading https://files.pythonhosted.org/packages/16/5e/7c7f370b88a6f11719865650299ba7dd6f764570d0460a4859718445c239/forestadmin_agent_flask-0.1.0b9.tar.gz
+[2023-06-15 10:38:20] INFO root fetch - processPackages [forestadmin-datasource-toolkit]: Downloading https://files.pythonhosted.org/packages/b7/9a/988eb6cd1dfc14a2b6ace6915c6966ba385d85c30d7547c85b9cf0fe2dd9/forestadmin_datasource_toolkit-0.1.0b9.tar.gz
+[2023-06-15 10:38:20] INFO root fetch - processPackages [forestadmin-agent-flask]: executing diffoscope
+[2023-06-15 10:38:20] INFO root fetch - processPackages [forestadmin-datasource-toolkit]: executing diffoscope
+[2023-06-15 10:38:20] INFO root fetch - processPackages [forestadmin-agent-flask]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/forestadmin_agent_flask-0.1.0b8.tar.gz tmp/forestadmin_agent_flask-0.1.0b9.tar.gz --markdown 20230615/f/forestadmin-agent-flask/0.1.0b8-0.1.0b9/diff.md --exclude *.pyd
+[2023-06-15 10:38:20] INFO root fetch - processPackages [forestadmin-datasource-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/forestadmin_datasource_toolkit-0.1.0b8.tar.gz tmp/forestadmin_datasource_toolkit-0.1.0b9.tar.gz --markdown 20230615/f/forestadmin-datasource-toolkit/0.1.0b8-0.1.0b9/diff.md --exclude *.pyd
+[2023-06-15 10:38:20] INFO root fetch - processPackages [tf-estimator-nightly]: Downloading https://files.pythonhosted.org/packages/1c/b6/fe4f7077ae036fd90bf9dfdc09b52cf611b857e7a26c3bc44a2e76c94af2/tf_estimator_nightly-2.9.0.dev2022033108-py2.py3-none-any.whl
+[2023-06-15 10:38:20] INFO root fetch - processPackages [forestadmin-agent-toolkit]: executing diffoscope
+[2023-06-15 10:38:20] INFO root fetch - processPackages [forestadmin-agent-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/forestadmin_agent_toolkit-0.1.0b8.tar.gz tmp/forestadmin_agent_toolkit-0.1.0b9.tar.gz --markdown 20230615/f/forestadmin-agent-toolkit/0.1.0b8-0.1.0b9/diff.md --exclude *.pyd
+[2023-06-15 10:38:20] INFO root fetch - processPackages [tf-estimator-nightly]: executing diffoscope
+[2023-06-15 10:38:20] INFO root fetch - processPackages [tf-estimator-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_estimator_nightly-2.9.0.dev2022033008-py2.py3-none-any.whl.zip tmp/tf_estimator_nightly-2.9.0.dev2022033108-py2.py3-none-any.whl.zip --markdown 20230615/t/tf-estimator-nightly/2.9.0.dev2022033008-2.9.0.dev2022033108/diff.md --exclude *.pyd
+[2023-06-15 10:38:21] INFO root fetch - processPackages [mimeograph]: executing diffoscope
+[2023-06-15 10:38:21] INFO root fetch - processPackages [mimeograph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mimeograph-0.6.0.tar.gz tmp/mimeograph-0.7.0.tar.gz --markdown 20230615/m/mimeograph/0.6.0-0.7.0/diff.md --exclude *.pyd
+[2023-06-15 10:38:21] INFO root fetch - processPackages [skulk]: Remove: archive file [/home/abi/fetcher/tmp/skulk-2.1.2-py2.py3-none-any.whl.zip]
+[2023-06-15 10:38:21] INFO root fetch - processPackages [skulk]: Remove: archive file [/home/abi/fetcher/tmp/skulk-2.1.5-py2.py3-none-any.whl.zip]
+[2023-06-15 10:38:21] INFO root fetch - main [MainThread]: End processing [skulk]: success
+[2023-06-15 10:38:21] INFO root fetch - processPackages [datawork000]: Remove: archive file [/home/abi/fetcher/tmp/datawork000-0.1.tar.gz]
+[2023-06-15 10:38:21] INFO root fetch - processPackages [datawork000]: Remove: archive file [/home/abi/fetcher/tmp/datawork000-0.2.0.tar.gz]
+[2023-06-15 10:38:21] INFO root fetch - main [MainThread]: End processing [datawork000]: success
+[2023-06-15 10:38:21] INFO root fetch - processPackages [forestadmin-agent-flask]: Remove: archive file [/home/abi/fetcher/tmp/forestadmin_agent_flask-0.1.0b8.tar.gz]
+[2023-06-15 10:38:21] INFO root fetch - processPackages [forestadmin-agent-flask]: Remove: archive file [/home/abi/fetcher/tmp/forestadmin_agent_flask-0.1.0b9.tar.gz]
+[2023-06-15 10:38:21] INFO root fetch - main [MainThread]: End processing [forestadmin-agent-flask]: success
+[2023-06-15 10:38:22] INFO root fetch - processPackages [forestadmin-datasource-sqlalchemy]: Remove: archive file [/home/abi/fetcher/tmp/forestadmin_datasource_sqlalchemy-0.1.0b8.tar.gz]
+[2023-06-15 10:38:22] INFO root fetch - processPackages [forestadmin-datasource-sqlalchemy]: Remove: archive file [/home/abi/fetcher/tmp/forestadmin_datasource_sqlalchemy-0.1.0b9.tar.gz]
+[2023-06-15 10:38:22] INFO root fetch - main [MainThread]: End processing [forestadmin-datasource-sqlalchemy]: success
+[2023-06-15 10:38:22] INFO root fetch - processPackages [forestadmin-agent-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/forestadmin_agent_toolkit-0.1.0b8.tar.gz]
+[2023-06-15 10:38:22] INFO root fetch - processPackages [forestadmin-agent-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/forestadmin_agent_toolkit-0.1.0b9.tar.gz]
+[2023-06-15 10:38:22] INFO root fetch - main [MainThread]: End processing [forestadmin-agent-toolkit]: success
+[2023-06-15 10:38:22] INFO root fetch - processPackages [forestadmin-datasource-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/forestadmin_datasource_toolkit-0.1.0b8.tar.gz]
+[2023-06-15 10:38:22] INFO root fetch - processPackages [forestadmin-datasource-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/forestadmin_datasource_toolkit-0.1.0b9.tar.gz]
+[2023-06-15 10:38:22] INFO root fetch - main [MainThread]: End processing [forestadmin-datasource-toolkit]: success
+[2023-06-15 10:38:22] INFO root fetch - processPackages [tf-estimator-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_estimator_nightly-2.9.0.dev2022033008-py2.py3-none-any.whl.zip]
+[2023-06-15 10:38:22] INFO root fetch - processPackages [tf-estimator-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_estimator_nightly-2.9.0.dev2022033108-py2.py3-none-any.whl.zip]
+[2023-06-15 10:38:22] INFO root fetch - main [MainThread]: End processing [tf-estimator-nightly]: success
+[2023-06-15 10:38:22] INFO root fetch - processPackages [mimeograph]: Remove: archive file [/home/abi/fetcher/tmp/mimeograph-0.6.0.tar.gz]
+[2023-06-15 10:38:22] INFO root fetch - processPackages [mimeograph]: Remove: archive file [/home/abi/fetcher/tmp/mimeograph-0.7.0.tar.gz]
+[2023-06-15 10:38:22] INFO root fetch - main [MainThread]: End processing [mimeograph]: success
+[2023-06-15 10:38:22] INFO root fetch - main [MainThread]: Store serial: [18513157]
