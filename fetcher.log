@@ -6417,3 +6417,61 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-15 04:07:24] INFO root fetch - processPackages [ruff-lsp]: Remove: archive file [/home/abi/fetcher/tmp/ruff-lsp-0.0.9.tar.gz]
 [2023-06-15 04:07:24] INFO root fetch - main [MainThread]: End processing [ruff-lsp]: success
 [2023-06-15 04:07:24] INFO root fetch - main [MainThread]: Store serial: [18509903]
+[2023-06-15 04:12:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18509903]
+[2023-06-15 04:12:32] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-15 04:12:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: BKaiyolov5
+[2023-06-15 04:12:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aviatrix-discovery
+[2023-06-15 04:12:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mlbi-at-dku-lib
+[2023-06-15 04:12:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aviatrix-migration
+[2023-06-15 04:12:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: embarrassing-qwertyuu
+[2023-06-15 04:12:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: embarrassing-qwertyuu
+[2023-06-15 04:12:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: http-error-schemas
+[2023-06-15 04:12:33] INFO root fetch - processPackages [aviatrix-discovery]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-15 04:12:33] INFO root fetch - processPackages [embarrassing-qwertyuu]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-15 04:12:33] INFO root fetch - processPackages [mlbi-at-dku-lib]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-06-15 04:12:33] INFO root fetch - processPackages [embarrassing-qwertyuu]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-15 04:12:33] WARNING root fetch - processPackages [BKaiyolov5]: Skipping, unable to determine old version
+[2023-06-15 04:12:33] INFO root fetch - main [MainThread]: End processing [BKaiyolov5] error
+[2023-06-15 04:12:33] INFO root fetch - processPackages [aviatrix-migration]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-15 04:12:33] INFO root fetch - processPackages [http-error-schemas]: New version: [0.1.0] Old Version: [0.0.1]
+[2023-06-15 04:12:33] INFO root fetch - processPackages [embarrassing-qwertyuu]: Downloading https://files.pythonhosted.org/packages/22/bc/d95ed031da776be896426f6d427048aac974ded78f62ba2895f3012bce63/embarrassing_qwertyuu-0.0.1.tar.gz
+[2023-06-15 04:12:33] INFO root fetch - processPackages [embarrassing-qwertyuu]: Downloading https://files.pythonhosted.org/packages/22/bc/d95ed031da776be896426f6d427048aac974ded78f62ba2895f3012bce63/embarrassing_qwertyuu-0.0.1.tar.gz
+[2023-06-15 04:12:33] INFO root fetch - processPackages [aviatrix-discovery]: Downloading https://files.pythonhosted.org/packages/eb/5d/5d815901fd246f869c11597b89b558431d2380b03e96cfe1b922fb7f69b8/aviatrix_discovery-0.2.8-cp39-cp39-win_amd64.whl
+[2023-06-15 04:12:33] INFO root fetch - processPackages [mlbi-at-dku-lib]: Downloading https://files.pythonhosted.org/packages/b1/33/42bcea03054d837277a05a57dee62a11f6c0a05e24d69957243e5264cff1/mlbi_at_dku_lib-0.1.4.tar.gz
+[2023-06-15 04:12:33] INFO root fetch - processPackages [aviatrix-migration]: Downloading https://files.pythonhosted.org/packages/21/c0/ad0ada02f772026372950703ae1a0caa68d0dea582f9995503a07f9663ca/aviatrix_migration-0.2.8-cp39-cp39-win_amd64.whl
+[2023-06-15 04:12:33] INFO root fetch - processPackages [http-error-schemas]: Downloading https://files.pythonhosted.org/packages/f6/09/cc57852f56863bc39d3be20b5308e3fc5c3f389ba3e69ba88903b4815586/http_error_schemas-0.0.1.tar.gz
+[2023-06-15 04:12:33] INFO root fetch - processPackages [mlbi-at-dku-lib]: Downloading https://files.pythonhosted.org/packages/21/24/7df85912f11066e53d2ef168e51bf7e7e1e158823a38a3c31a3d1ff981f4/mlbi_at_dku_lib-0.1.5.tar.gz
+[2023-06-15 04:12:33] INFO root fetch - processPackages [embarrassing-qwertyuu]: Downloading https://files.pythonhosted.org/packages/57/35/f78d173f81bc540bbb679d3fee2f780214452d6a8ca0f75b10bddc7bf8f9/embarrassing_qwertyuu-0.0.2.tar.gz
+[2023-06-15 04:12:33] INFO root fetch - processPackages [embarrassing-qwertyuu]: Downloading https://files.pythonhosted.org/packages/57/35/f78d173f81bc540bbb679d3fee2f780214452d6a8ca0f75b10bddc7bf8f9/embarrassing_qwertyuu-0.0.2.tar.gz
+[2023-06-15 04:12:33] INFO root fetch - processPackages [embarrassing-qwertyuu]: executing diffoscope
+[2023-06-15 04:12:33] INFO root fetch - processPackages [embarrassing-qwertyuu]: executing diffoscope
+[2023-06-15 04:12:33] INFO root fetch - processPackages [aviatrix-discovery]: Downloading https://files.pythonhosted.org/packages/18/ef/7d0c0938fbb6fab82da833245ac82adaa5314e519d3506c2a7972a598fe5/aviatrix_discovery-0.2.9-cp39-cp39-win_amd64.whl
+[2023-06-15 04:12:33] INFO root fetch - processPackages [embarrassing-qwertyuu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/embarrassing_qwertyuu-0.0.1.tar.gz tmp/embarrassing_qwertyuu-0.0.2.tar.gz --markdown 20230615/e/embarrassing-qwertyuu/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-15 04:12:33] INFO root fetch - processPackages [embarrassing-qwertyuu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/embarrassing_qwertyuu-0.0.1.tar.gz tmp/embarrassing_qwertyuu-0.0.2.tar.gz --markdown 20230615/e/embarrassing-qwertyuu/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-15 04:12:33] INFO root fetch - processPackages [http-error-schemas]: Downloading https://files.pythonhosted.org/packages/75/af/a1fcdbdabdf0d856df4bbd34fb0b397ba3356d81849ab8fdf312c60ed38a/http_error_schemas-0.1.0.tar.gz
+[2023-06-15 04:12:33] INFO root fetch - processPackages [http-error-schemas]: executing diffoscope
+[2023-06-15 04:12:33] INFO root fetch - processPackages [http-error-schemas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/http_error_schemas-0.0.1.tar.gz tmp/http_error_schemas-0.1.0.tar.gz --markdown 20230615/h/http-error-schemas/0.0.1-0.1.0/diff.md --exclude *.pyd
+[2023-06-15 04:12:33] INFO root fetch - processPackages [mlbi-at-dku-lib]: executing diffoscope
+[2023-06-15 04:12:33] INFO root fetch - processPackages [mlbi-at-dku-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlbi_at_dku_lib-0.1.4.tar.gz tmp/mlbi_at_dku_lib-0.1.5.tar.gz --markdown 20230615/m/mlbi-at-dku-lib/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-06-15 04:12:34] INFO root fetch - processPackages [aviatrix-discovery]: executing diffoscope
+[2023-06-15 04:12:34] INFO root fetch - processPackages [aviatrix-discovery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aviatrix_discovery-0.2.8-cp39-cp39-win_amd64.whl.zip tmp/aviatrix_discovery-0.2.9-cp39-cp39-win_amd64.whl.zip --markdown 20230615/a/aviatrix-discovery/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-15 04:12:34] INFO root fetch - processPackages [embarrassing-qwertyuu]: Remove: archive file [/home/abi/fetcher/tmp/embarrassing_qwertyuu-0.0.1.tar.gz]
+[2023-06-15 04:12:34] INFO root fetch - processPackages [embarrassing-qwertyuu]: Remove: archive file [/home/abi/fetcher/tmp/embarrassing_qwertyuu-0.0.2.tar.gz]
+[2023-06-15 04:12:34] INFO root fetch - main [MainThread]: End processing [embarrassing-qwertyuu]: success
+[2023-06-15 04:12:34] INFO root fetch - main [MainThread]: End processing [embarrassing-qwertyuu]: success
+[2023-06-15 04:12:34] INFO root fetch - processPackages [http-error-schemas]: Remove: archive file [/home/abi/fetcher/tmp/http_error_schemas-0.0.1.tar.gz]
+[2023-06-15 04:12:34] INFO root fetch - processPackages [http-error-schemas]: Remove: archive file [/home/abi/fetcher/tmp/http_error_schemas-0.1.0.tar.gz]
+[2023-06-15 04:12:34] INFO root fetch - main [MainThread]: End processing [http-error-schemas]: success
+[2023-06-15 04:12:35] INFO root fetch - processPackages [mlbi-at-dku-lib]: Remove: archive file [/home/abi/fetcher/tmp/mlbi_at_dku_lib-0.1.4.tar.gz]
+[2023-06-15 04:12:35] INFO root fetch - processPackages [mlbi-at-dku-lib]: Remove: archive file [/home/abi/fetcher/tmp/mlbi_at_dku_lib-0.1.5.tar.gz]
+[2023-06-15 04:12:35] INFO root fetch - main [MainThread]: End processing [mlbi-at-dku-lib]: success
+[2023-06-15 04:12:35] INFO root fetch - processPackages [aviatrix-discovery]: Remove: archive file [/home/abi/fetcher/tmp/aviatrix_discovery-0.2.8-cp39-cp39-win_amd64.whl.zip]
+[2023-06-15 04:12:35] INFO root fetch - processPackages [aviatrix-discovery]: Remove: archive file [/home/abi/fetcher/tmp/aviatrix_discovery-0.2.9-cp39-cp39-win_amd64.whl.zip]
+[2023-06-15 04:12:35] INFO root fetch - main [MainThread]: End processing [aviatrix-discovery]: success
+[2023-06-15 04:12:36] INFO root fetch - processPackages [aviatrix-migration]: Downloading https://files.pythonhosted.org/packages/d0/4d/d0fe16c903b7e89479e55158323464d5451705d11c44dbb079ae8034f3a5/aviatrix_migration-0.2.9-cp39-cp39-win_amd64.whl
+[2023-06-15 04:12:37] INFO root fetch - processPackages [aviatrix-migration]: executing diffoscope
+[2023-06-15 04:12:37] INFO root fetch - processPackages [aviatrix-migration]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aviatrix_migration-0.2.8-cp39-cp39-win_amd64.whl.zip tmp/aviatrix_migration-0.2.9-cp39-cp39-win_amd64.whl.zip --markdown 20230615/a/aviatrix-migration/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-15 04:12:38] INFO root fetch - processPackages [aviatrix-migration]: Remove: archive file [/home/abi/fetcher/tmp/aviatrix_migration-0.2.8-cp39-cp39-win_amd64.whl.zip]
+[2023-06-15 04:12:38] INFO root fetch - processPackages [aviatrix-migration]: Remove: archive file [/home/abi/fetcher/tmp/aviatrix_migration-0.2.9-cp39-cp39-win_amd64.whl.zip]
+[2023-06-15 04:12:38] INFO root fetch - main [MainThread]: End processing [aviatrix-migration]: success
+[2023-06-15 04:12:38] INFO root fetch - main [MainThread]: Store serial: [18509964]
