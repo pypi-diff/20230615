@@ -11607,3 +11607,78 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-15 08:28:14] INFO root fetch - processPackages [biopipen]: Remove: archive file [/home/abi/fetcher/tmp/biopipen-0.9.0.tar.gz]
 [2023-06-15 08:28:14] INFO root fetch - main [MainThread]: End processing [biopipen]: success
 [2023-06-15 08:28:14] INFO root fetch - main [MainThread]: Store serial: [18511796]
+[2023-06-15 08:33:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18511796]
+[2023-06-15 08:33:23] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-15 08:33:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fake-bpy-module-latest
+[2023-06-15 08:33:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dataplicity
+[2023-06-15 08:33:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: twtr-nuuuwan
+[2023-06-15 08:33:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bagbag
+[2023-06-15 08:33:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: control-lab-ly
+[2023-06-15 08:33:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: myl-discovery
+[2023-06-15 08:33:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: yplib
+[2023-06-15 08:33:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: vald-client-python
+[2023-06-15 08:33:23] INFO root fetch - processPackages [control-lab-ly]: New version: [1.1.0b1] Old Version: [1.1.0b0]
+[2023-06-15 08:33:23] INFO root fetch - processPackages [yplib]: New version: [1.3.3] Old Version: [1.3.2]
+[2023-06-15 08:33:23] INFO root fetch - processPackages [myl-discovery]: New version: [0.5.3] Old Version: [0.5.2]
+[2023-06-15 08:33:23] INFO root fetch - processPackages [twtr-nuuuwan]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-15 08:33:23] INFO root fetch - processPackages [bagbag]: New version: [0.60.5] Old Version: [0.60.4]
+[2023-06-15 08:33:23] INFO root fetch - processPackages [fake-bpy-module-latest]: New version: [20230615] Old Version: [20230614]
+[2023-06-15 08:33:23] INFO root fetch - processPackages [vald-client-python]: New version: [1.7.6.post1] Old Version: [1.7.6]
+[2023-06-15 08:33:23] INFO root fetch - processPackages [dataplicity]: New version: [0.5.9a5] Old Version: [0.5.9a4]
+[2023-06-15 08:33:23] INFO root fetch - processPackages [control-lab-ly]: Downloading https://files.pythonhosted.org/packages/84/14/f24043b0d5e244780c12662b67f775d95a3dff52d9e42a8e16992f187281/control-lab-ly-1.1.0b0.tar.gz
+[2023-06-15 08:33:23] INFO root fetch - processPackages [vald-client-python]: Downloading https://files.pythonhosted.org/packages/5a/16/4308d94b18ebafb53a9c04b7d07087356ee712595b5447330ecc0546ffe0/vald-client-python-1.7.6.tar.gz
+[2023-06-15 08:33:23] INFO root fetch - processPackages [twtr-nuuuwan]: Downloading https://files.pythonhosted.org/packages/45/ca/2ce38752cd3d001e1d3c479f2b7552443d611dc4ad73f1ff072e95dbbbef/twtr-nuuuwan-1.0.0.tar.gz
+[2023-06-15 08:33:23] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/cf/c1/8d1ee35711245e23d14a66b76fd2df9c8b82ccb8a619cb738c045a527c48/yplib-1.3.2.tar.gz
+[2023-06-15 08:33:23] INFO root fetch - processPackages [bagbag]: Downloading https://files.pythonhosted.org/packages/ce/89/af4f11d648f08907591889241acde2844332fc0c451b2f6d5ff178744fdb/bagbag-0.60.4.tar.gz
+[2023-06-15 08:33:23] INFO root fetch - processPackages [myl-discovery]: Downloading https://files.pythonhosted.org/packages/9c/b1/e2ae45778de543074e13ceebea99a2e72d86d6935f9800fd5664d00fcffe/myl-discovery-0.5.2.tar.gz
+[2023-06-15 08:33:23] INFO root fetch - processPackages [vald-client-python]: Downloading https://files.pythonhosted.org/packages/12/74/060e2e785484ac3cd2da807c69ff30787523d7623ccddaaaeb3d1a8b65e2/vald-client-python-1.7.6.post1.tar.gz
+[2023-06-15 08:33:23] INFO root fetch - processPackages [dataplicity]: Downloading https://files.pythonhosted.org/packages/ef/55/51d0f967e475001f99b73eb9ff910341b5f4e3c0a8b008f0651338bde6ae/dataplicity-0.5.9a4.tar.gz
+[2023-06-15 08:33:23] INFO root fetch - processPackages [fake-bpy-module-latest]: Downloading https://files.pythonhosted.org/packages/5e/53/72bd4d892e9a9562fee15fcc00d70da29fe9deff12bb6671db312b480183/fake-bpy-module-latest-20230614.tar.gz
+[2023-06-15 08:33:23] INFO root fetch - processPackages [vald-client-python]: executing diffoscope
+[2023-06-15 08:33:23] INFO root fetch - processPackages [vald-client-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vald-client-python-1.7.6.tar.gz tmp/vald-client-python-1.7.6.post1.tar.gz --markdown 20230615/v/vald-client-python/1.7.6-1.7.6.post1/diff.md --exclude *.pyd
+[2023-06-15 08:33:23] INFO root fetch - processPackages [control-lab-ly]: Downloading https://files.pythonhosted.org/packages/22/2c/771f7291cdfefe9a76f732c703921df87c16522891e498f10cd6c6afdae8/control-lab-ly-1.1.0b1.tar.gz
+[2023-06-15 08:33:23] INFO root fetch - processPackages [twtr-nuuuwan]: Downloading https://files.pythonhosted.org/packages/83/82/15d36d3daa42d4f5e8b7ef60e26918807620fde62dff0aa9fbc87ca7c085/twtr-nuuuwan-1.0.1.tar.gz
+[2023-06-15 08:33:23] INFO root fetch - processPackages [bagbag]: Downloading https://files.pythonhosted.org/packages/70/f2/8d0ff4f537327c879d78bc67d34b06676ad32af2683334247e77cad2b50c/bagbag-0.60.5.tar.gz
+[2023-06-15 08:33:23] INFO root fetch - processPackages [twtr-nuuuwan]: executing diffoscope
+[2023-06-15 08:33:23] INFO root fetch - processPackages [twtr-nuuuwan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/twtr-nuuuwan-1.0.0.tar.gz tmp/twtr-nuuuwan-1.0.1.tar.gz --markdown 20230615/t/twtr-nuuuwan/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-15 08:33:23] INFO root fetch - processPackages [fake-bpy-module-latest]: Downloading https://files.pythonhosted.org/packages/45/a5/c6cff20a14d10269902b567f7cfd3078f67de646eb45f4993cdc112db71c/fake-bpy-module-latest-20230615.tar.gz
+[2023-06-15 08:33:23] INFO root fetch - processPackages [bagbag]: executing diffoscope
+[2023-06-15 08:33:23] INFO root fetch - processPackages [bagbag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bagbag-0.60.4.tar.gz tmp/bagbag-0.60.5.tar.gz --markdown 20230615/b/bagbag/0.60.4-0.60.5/diff.md --exclude *.pyd
+[2023-06-15 08:33:23] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/46/ed/8083c416ac7f6e267eee33b1b281413d6cf4549db10425d2137a7e2a385a/yplib-1.3.3.tar.gz
+[2023-06-15 08:33:23] INFO root fetch - processPackages [dataplicity]: Downloading https://files.pythonhosted.org/packages/90/33/51cf718679e72aa0262c29bc64715d7498269d5de2a09e211efe30644d63/dataplicity-0.5.9a5.tar.gz
+[2023-06-15 08:33:23] INFO root fetch - processPackages [control-lab-ly]: executing diffoscope
+[2023-06-15 08:33:23] INFO root fetch - processPackages [control-lab-ly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/control-lab-ly-1.1.0b0.tar.gz tmp/control-lab-ly-1.1.0b1.tar.gz --markdown 20230615/c/control-lab-ly/1.1.0b0-1.1.0b1/diff.md --exclude *.pyd
+[2023-06-15 08:33:23] INFO root fetch - processPackages [myl-discovery]: Downloading https://files.pythonhosted.org/packages/f2/1c/00d3382f9ef6847b4a1337f56f4754e1dcd494a9aa7383cdf5363f33fa4a/myl-discovery-0.5.3.tar.gz
+[2023-06-15 08:33:23] INFO root fetch - processPackages [fake-bpy-module-latest]: executing diffoscope
+[2023-06-15 08:33:23] INFO root fetch - processPackages [fake-bpy-module-latest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fake-bpy-module-latest-20230614.tar.gz tmp/fake-bpy-module-latest-20230615.tar.gz --markdown 20230615/f/fake-bpy-module-latest/20230614-20230615/diff.md --exclude *.pyd
+[2023-06-15 08:33:23] INFO root fetch - processPackages [yplib]: executing diffoscope
+[2023-06-15 08:33:23] INFO root fetch - processPackages [yplib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yplib-1.3.2.tar.gz tmp/yplib-1.3.3.tar.gz --markdown 20230615/y/yplib/1.3.2-1.3.3/diff.md --exclude *.pyd
+[2023-06-15 08:33:23] INFO root fetch - processPackages [dataplicity]: executing diffoscope
+[2023-06-15 08:33:23] INFO root fetch - processPackages [dataplicity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataplicity-0.5.9a4.tar.gz tmp/dataplicity-0.5.9a5.tar.gz --markdown 20230615/d/dataplicity/0.5.9a4-0.5.9a5/diff.md --exclude *.pyd
+[2023-06-15 08:33:23] INFO root fetch - processPackages [myl-discovery]: executing diffoscope
+[2023-06-15 08:33:23] INFO root fetch - processPackages [myl-discovery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/myl-discovery-0.5.2.tar.gz tmp/myl-discovery-0.5.3.tar.gz --markdown 20230615/m/myl-discovery/0.5.2-0.5.3/diff.md --exclude *.pyd
+[2023-06-15 08:33:25] INFO root fetch - processPackages [twtr-nuuuwan]: Remove: archive file [/home/abi/fetcher/tmp/twtr-nuuuwan-1.0.0.tar.gz]
+[2023-06-15 08:33:25] INFO root fetch - processPackages [twtr-nuuuwan]: Remove: archive file [/home/abi/fetcher/tmp/twtr-nuuuwan-1.0.1.tar.gz]
+[2023-06-15 08:33:25] INFO root fetch - main [MainThread]: End processing [twtr-nuuuwan]: success
+[2023-06-15 08:33:25] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-1.3.2.tar.gz]
+[2023-06-15 08:33:25] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-1.3.3.tar.gz]
+[2023-06-15 08:33:25] INFO root fetch - main [MainThread]: End processing [yplib]: success
+[2023-06-15 08:33:25] INFO root fetch - processPackages [vald-client-python]: Remove: archive file [/home/abi/fetcher/tmp/vald-client-python-1.7.6.tar.gz]
+[2023-06-15 08:33:25] INFO root fetch - processPackages [vald-client-python]: Remove: archive file [/home/abi/fetcher/tmp/vald-client-python-1.7.6.post1.tar.gz]
+[2023-06-15 08:33:25] INFO root fetch - main [MainThread]: End processing [vald-client-python]: success
+[2023-06-15 08:33:26] INFO root fetch - processPackages [myl-discovery]: Remove: archive file [/home/abi/fetcher/tmp/myl-discovery-0.5.2.tar.gz]
+[2023-06-15 08:33:26] INFO root fetch - processPackages [myl-discovery]: Remove: archive file [/home/abi/fetcher/tmp/myl-discovery-0.5.3.tar.gz]
+[2023-06-15 08:33:26] INFO root fetch - main [MainThread]: End processing [myl-discovery]: success
+[2023-06-15 08:33:26] INFO root fetch - processPackages [dataplicity]: Remove: archive file [/home/abi/fetcher/tmp/dataplicity-0.5.9a4.tar.gz]
+[2023-06-15 08:33:26] INFO root fetch - processPackages [dataplicity]: Remove: archive file [/home/abi/fetcher/tmp/dataplicity-0.5.9a5.tar.gz]
+[2023-06-15 08:33:26] INFO root fetch - main [MainThread]: End processing [dataplicity]: success
+[2023-06-15 08:33:26] INFO root fetch - processPackages [control-lab-ly]: Remove: archive file [/home/abi/fetcher/tmp/control-lab-ly-1.1.0b0.tar.gz]
+[2023-06-15 08:33:26] INFO root fetch - processPackages [control-lab-ly]: Remove: archive file [/home/abi/fetcher/tmp/control-lab-ly-1.1.0b1.tar.gz]
+[2023-06-15 08:33:26] INFO root fetch - main [MainThread]: End processing [control-lab-ly]: success
+[2023-06-15 08:33:27] INFO root fetch - processPackages [bagbag]: Remove: archive file [/home/abi/fetcher/tmp/bagbag-0.60.4.tar.gz]
+[2023-06-15 08:33:27] INFO root fetch - processPackages [bagbag]: Remove: archive file [/home/abi/fetcher/tmp/bagbag-0.60.5.tar.gz]
+[2023-06-15 08:33:27] INFO root fetch - main [MainThread]: End processing [bagbag]: success
+[2023-06-15 08:33:33] INFO root fetch - processPackages [fake-bpy-module-latest]: Remove: archive file [/home/abi/fetcher/tmp/fake-bpy-module-latest-20230614.tar.gz]
+[2023-06-15 08:33:33] INFO root fetch - processPackages [fake-bpy-module-latest]: Remove: archive file [/home/abi/fetcher/tmp/fake-bpy-module-latest-20230615.tar.gz]
+[2023-06-15 08:33:33] INFO root fetch - main [MainThread]: End processing [fake-bpy-module-latest]: success
+[2023-06-15 08:33:33] INFO root fetch - main [MainThread]: Store serial: [18511820]
