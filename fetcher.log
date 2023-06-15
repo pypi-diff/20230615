@@ -7652,3 +7652,122 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-15 04:57:13] INFO root fetch - processPackages [wwpdb.apps.ann-tasks-v2]: Remove: archive file [/home/abi/fetcher/tmp/wwpdb.apps.ann_tasks_v2-0.33.2.dev1.tar.gz]
 [2023-06-15 04:57:13] INFO root fetch - main [MainThread]: End processing [wwpdb.apps.ann-tasks-v2]: success
 [2023-06-15 04:57:13] INFO root fetch - main [MainThread]: Store serial: [18510375]
+[2023-06-15 05:02:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18510375]
+[2023-06-15 05:02:21] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-06-15 05:02:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xj-captcha
+[2023-06-15 05:02:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: BioSAK
+[2023-06-15 05:02:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyramm
+[2023-06-15 05:02:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: embarrassing
+[2023-06-15 05:02:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: radbelt
+[2023-06-15 05:02:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ecape
+[2023-06-15 05:02:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: alertemail
+[2023-06-15 05:02:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: stax-module-sdk
+[2023-06-15 05:02:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ccsmeth
+[2023-06-15 05:02:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: azureml-designer-internal
+[2023-06-15 05:02:22] INFO root fetch - processPackages [embarrassing]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-06-15 05:02:22] INFO root fetch - processPackages [pyramm]: New version: [1.9] Old Version: [1.8]
+[2023-06-15 05:02:22] INFO root fetch - processPackages [xj-captcha]: New version: [1.0.9] Old Version: [1.0.6]
+[2023-06-15 05:02:22] INFO root fetch - processPackages [ecape]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-15 05:02:22] INFO root fetch - processPackages [ccsmeth]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-06-15 05:02:22] INFO root fetch - processPackages [stax-module-sdk]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-06-15 05:02:22] WARNING root fetch - processPackages [alertemail]: Skipping, unable to determine old version
+[2023-06-15 05:02:22] INFO root fetch - processPackages [alertemail]: Start processing: emi
+[2023-06-15 05:02:22] INFO root fetch - main [MainThread]: End processing [alertemail] error
+[2023-06-15 05:02:22] INFO root fetch - processPackages [BioSAK]: New version: [1.69.2] Old Version: [1.69.1]
+[2023-06-15 05:02:22] INFO root fetch - processPackages [azureml-designer-internal]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-15 05:02:22] INFO root fetch - processPackages [radbelt]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-06-15 05:02:22] INFO root fetch - processPackages [embarrassing]: Downloading https://files.pythonhosted.org/packages/f5/8a/03c10db23c108963eeb508d4813a780463b48902ef4a55d9acb3addcd5b8/embarrassing-0.0.7.tar.gz
+[2023-06-15 05:02:22] INFO root fetch - processPackages [emi]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-15 05:02:22] INFO root fetch - processPackages [xj-captcha]: Downloading https://files.pythonhosted.org/packages/00/a5/84a3749279294e1932267ab065a6fc338830d2d6353b264a0aa3faa9cf89/xj_captcha-1.0.6.tar.gz
+[2023-06-15 05:02:22] INFO root fetch - processPackages [pyramm]: Downloading https://files.pythonhosted.org/packages/82/cd/1d0c354eb8064c45f667bd48772162211e74c58e262a17c03835deeea0e1/pyramm-1.8.tar.gz
+[2023-06-15 05:02:22] INFO root fetch - processPackages [ccsmeth]: Downloading https://files.pythonhosted.org/packages/5c/04/1e9f8ca2bbeabd4e14876c065b35b4fcae2939caf65f050f54725c3fbd07/ccsmeth-0.4.0.tar.gz
+[2023-06-15 05:02:22] INFO root fetch - processPackages [pyramm]: Downloading https://files.pythonhosted.org/packages/48/d2/4a266da41f00068ddb8d5ab01903309a2d8653ce863390db6972605a93c6/pyramm-1.9.tar.gz
+[2023-06-15 05:02:22] INFO root fetch - processPackages [ecape]: Downloading https://files.pythonhosted.org/packages/8d/2b/6c823203d4305364b2f32163300b3ad8df193893470aaff626700a19d795/ecape-0.1.0.tar.gz
+[2023-06-15 05:02:22] INFO root fetch - processPackages [xj-captcha]: Downloading https://files.pythonhosted.org/packages/e9/a2/939aae9f244db14f395894bf0d0ca874c2c2608148ec272fa37055697d26/xj_captcha-1.0.9.tar.gz
+[2023-06-15 05:02:22] INFO root fetch - processPackages [BioSAK]: Downloading https://files.pythonhosted.org/packages/81/47/071e996543750ccdac856dbff724e929624c23e8576df687173ce176c0cb/BioSAK-1.69.1.tar.gz
+[2023-06-15 05:02:22] INFO root fetch - processPackages [azureml-designer-internal]: Downloading https://files.pythonhosted.org/packages/07/ea/02d3c2d008dede6e48742e5630122b912f2f81b1c9f215b368cf62b8d4ca/azureml_designer_internal-0.0.8-py3-none-any.whl
+[2023-06-15 05:02:22] INFO root fetch - processPackages [stax-module-sdk]: Downloading https://files.pythonhosted.org/packages/a5/bb/d66b0564b0e0280cf4f49452d02924fe40b62c64ec29963125357079d7d8/stax_module_sdk-0.1.6.tar.gz
+[2023-06-15 05:02:22] INFO root fetch - processPackages [radbelt]: Downloading https://files.pythonhosted.org/packages/39/15/52159fbdf6b676c42b7798e8a89bdbc0dd205de45f64e6dfc06561161151/radbelt-0.1.3.tar.gz
+[2023-06-15 05:02:22] INFO root fetch - processPackages [emi]: Downloading https://files.pythonhosted.org/packages/db/27/d4329d565f16cc66d41c98d25e3afdeed7df9d077130b5d0f4ccb901d717/emi-0.0.8.tar.gz
+[2023-06-15 05:02:22] WARNING root fetch - processPackages [BioSAK]: Skipping package: exceeds size limit 21176410>=10485760
+[2023-06-15 05:02:22] INFO root fetch - processPackages [BioSAK]: Start processing: Priority1py
+[2023-06-15 05:02:22] INFO root fetch - main [MainThread]: End processing [BioSAK] error
+[2023-06-15 05:02:22] INFO root fetch - processPackages [embarrassing]: Downloading https://files.pythonhosted.org/packages/6a/dd/6467af952aad163f3d3a00f42073f0292cffb27e2c64b8fdf256c8e293c3/embarrassing-0.0.8.tar.gz
+[2023-06-15 05:02:22] INFO root fetch - processPackages [xj-captcha]: executing diffoscope
+[2023-06-15 05:02:22] INFO root fetch - processPackages [xj-captcha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xj_captcha-1.0.6.tar.gz tmp/xj_captcha-1.0.9.tar.gz --markdown 20230615/x/xj-captcha/1.0.6-1.0.9/diff.md --exclude *.pyd
+[2023-06-15 05:02:22] INFO root fetch - processPackages [Priority1py]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-06-15 05:02:22] INFO root fetch - processPackages [pyramm]: executing diffoscope
+[2023-06-15 05:02:22] INFO root fetch - processPackages [pyramm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyramm-1.8.tar.gz tmp/pyramm-1.9.tar.gz --markdown 20230615/p/pyramm/1.8-1.9/diff.md --exclude *.pyd
+[2023-06-15 05:02:22] INFO root fetch - processPackages [embarrassing]: executing diffoscope
+[2023-06-15 05:02:22] INFO root fetch - processPackages [embarrassing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/embarrassing-0.0.7.tar.gz tmp/embarrassing-0.0.8.tar.gz --markdown 20230615/e/embarrassing/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-06-15 05:02:22] INFO root fetch - processPackages [Priority1py]: Downloading https://files.pythonhosted.org/packages/23/e4/d10391ee216ee1c66de160af080a308cdb459fb923b2f100fc3d9390e27d/Priority1py-1.0.1.tar.gz
+[2023-06-15 05:02:22] INFO root fetch - processPackages [ecape]: Downloading https://files.pythonhosted.org/packages/f7/b5/dd1f806a1a0692fba7e693d916f0b298c79409c170b8025320d087ee497d/ecape-0.1.1.tar.gz
+[2023-06-15 05:02:22] INFO root fetch - processPackages [ccsmeth]: Downloading https://files.pythonhosted.org/packages/d9/b6/da44941a5253d92630e539bc99fac4fa3ea5e703227730b8eb99c1cc6a05/ccsmeth-0.4.1.tar.gz
+[2023-06-15 05:02:22] INFO root fetch - processPackages [radbelt]: Downloading https://files.pythonhosted.org/packages/ae/37/40d5f96e2ba6f878c06142cf8be646632bb6e45cc56c7919a7f6db7aa0c8/radbelt-0.1.4.tar.gz
+[2023-06-15 05:02:22] INFO root fetch - processPackages [azureml-designer-internal]: Downloading https://files.pythonhosted.org/packages/fb/f2/9d16e5ee1572346d688b385a6a36cd2d7187856c4196b4512bba20a0bd43/azureml_designer_internal-0.0.9-py3-none-any.whl
+[2023-06-15 05:02:22] INFO root fetch - processPackages [stax-module-sdk]: Downloading https://files.pythonhosted.org/packages/28/5f/a800268cfa0b19a94f2947748128228890da9f888e2aed90f5abff080b30/stax_module_sdk-0.1.7.tar.gz
+[2023-06-15 05:02:22] INFO root fetch - processPackages [ecape]: executing diffoscope
+[2023-06-15 05:02:22] INFO root fetch - processPackages [ecape]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ecape-0.1.0.tar.gz tmp/ecape-0.1.1.tar.gz --markdown 20230615/e/ecape/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-15 05:02:22] INFO root fetch - processPackages [ccsmeth]: executing diffoscope
+[2023-06-15 05:02:22] INFO root fetch - processPackages [ccsmeth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccsmeth-0.4.0.tar.gz tmp/ccsmeth-0.4.1.tar.gz --markdown 20230615/c/ccsmeth/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-06-15 05:02:22] INFO root fetch - processPackages [azureml-designer-internal]: executing diffoscope
+[2023-06-15 05:02:22] INFO root fetch - processPackages [azureml-designer-internal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azureml_designer_internal-0.0.8-py3-none-any.whl.zip tmp/azureml_designer_internal-0.0.9-py3-none-any.whl.zip --markdown 20230615/a/azureml-designer-internal/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-15 05:02:22] INFO root fetch - processPackages [radbelt]: executing diffoscope
+[2023-06-15 05:02:22] INFO root fetch - processPackages [radbelt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/radbelt-0.1.3.tar.gz tmp/radbelt-0.1.4.tar.gz --markdown 20230615/r/radbelt/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-06-15 05:02:22] INFO root fetch - processPackages [stax-module-sdk]: executing diffoscope
+[2023-06-15 05:02:22] INFO root fetch - processPackages [stax-module-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stax_module_sdk-0.1.6.tar.gz tmp/stax_module_sdk-0.1.7.tar.gz --markdown 20230615/s/stax-module-sdk/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-06-15 05:02:22] INFO root fetch - processPackages [Priority1py]: Downloading https://files.pythonhosted.org/packages/f3/60/2f85115649ac42ba01ef6d8ccca26c58f56759ed9cf87b29ed2a2a207374/Priority1py-1.0.2.tar.gz
+[2023-06-15 05:02:22] INFO root fetch - processPackages [emi]: Downloading https://files.pythonhosted.org/packages/b7/1c/aa5692c8ef0315d460418fdc71e91ebf3a526ae0b82eace70b34f0385fe6/emi-0.0.9.tar.gz
+[2023-06-15 05:02:22] INFO root fetch - processPackages [Priority1py]: executing diffoscope
+[2023-06-15 05:02:22] INFO root fetch - processPackages [Priority1py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Priority1py-1.0.1.tar.gz tmp/Priority1py-1.0.2.tar.gz --markdown 20230615/P/Priority1py/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-06-15 05:02:23] INFO root fetch - processPackages [emi]: executing diffoscope
+[2023-06-15 05:02:23] INFO root fetch - processPackages [emi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/emi-0.0.8.tar.gz tmp/emi-0.0.9.tar.gz --markdown 20230615/e/emi/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-15 05:02:23] INFO root fetch - processPackages [embarrassing]: Remove: archive file [/home/abi/fetcher/tmp/embarrassing-0.0.7.tar.gz]
+[2023-06-15 05:02:23] INFO root fetch - processPackages [embarrassing]: Remove: archive file [/home/abi/fetcher/tmp/embarrassing-0.0.8.tar.gz]
+[2023-06-15 05:02:23] INFO root fetch - processPackages [embarrassing]: Start processing: yplib
+[2023-06-15 05:02:23] INFO root fetch - main [MainThread]: End processing [embarrassing]: success
+[2023-06-15 05:02:23] INFO root fetch - processPackages [yplib]: New version: [1.3.1] Old Version: [1.3.0]
+[2023-06-15 05:02:23] INFO root fetch - processPackages [pyramm]: Remove: archive file [/home/abi/fetcher/tmp/pyramm-1.8.tar.gz]
+[2023-06-15 05:02:23] INFO root fetch - processPackages [pyramm]: Remove: archive file [/home/abi/fetcher/tmp/pyramm-1.9.tar.gz]
+[2023-06-15 05:02:23] INFO root fetch - processPackages [pyramm]: Start processing: odoo14-addon-sms-ovh-http
+[2023-06-15 05:02:23] INFO root fetch - main [MainThread]: End processing [pyramm]: success
+[2023-06-15 05:02:23] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/6c/79/f22982764c8327a114d63e32eaec9f822f0a5c9427cd7527fd142dae824d/yplib-1.3.0.tar.gz
+[2023-06-15 05:02:24] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/03/71/dbfece0af999d9a63e9c5a30c4ad4e990107e431ad8568c864ad96d9b8ea/yplib-1.3.1.tar.gz
+[2023-06-15 05:02:24] INFO root fetch - processPackages [odoo14-addon-sms-ovh-http]: New version: [14.0.1.0.4.dev2] Old Version: [14.0.1.0.3]
+[2023-06-15 05:02:24] INFO root fetch - processPackages [ecape]: Remove: archive file [/home/abi/fetcher/tmp/ecape-0.1.0.tar.gz]
+[2023-06-15 05:02:24] INFO root fetch - processPackages [ecape]: Remove: archive file [/home/abi/fetcher/tmp/ecape-0.1.1.tar.gz]
+[2023-06-15 05:02:24] INFO root fetch - main [MainThread]: End processing [ecape]: success
+[2023-06-15 05:02:24] INFO root fetch - processPackages [radbelt]: Remove: archive file [/home/abi/fetcher/tmp/radbelt-0.1.3.tar.gz]
+[2023-06-15 05:02:24] INFO root fetch - processPackages [radbelt]: Remove: archive file [/home/abi/fetcher/tmp/radbelt-0.1.4.tar.gz]
+[2023-06-15 05:02:24] INFO root fetch - main [MainThread]: End processing [radbelt]: success
+[2023-06-15 05:02:24] INFO root fetch - processPackages [yplib]: executing diffoscope
+[2023-06-15 05:02:24] INFO root fetch - processPackages [yplib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yplib-1.3.0.tar.gz tmp/yplib-1.3.1.tar.gz --markdown 20230615/y/yplib/1.3.0-1.3.1/diff.md --exclude *.pyd
+[2023-06-15 05:02:24] INFO root fetch - processPackages [odoo14-addon-sms-ovh-http]: Downloading https://files.pythonhosted.org/packages/96/da/6ea68a9656ce958c1823011f99a57af156a7b11d473767d4ecb4a7eebf19/odoo14_addon_sms_ovh_http-14.0.1.0.3-py3-none-any.whl
+[2023-06-15 05:02:24] INFO root fetch - processPackages [Priority1py]: Remove: archive file [/home/abi/fetcher/tmp/Priority1py-1.0.1.tar.gz]
+[2023-06-15 05:02:24] INFO root fetch - processPackages [Priority1py]: Remove: archive file [/home/abi/fetcher/tmp/Priority1py-1.0.2.tar.gz]
+[2023-06-15 05:02:24] INFO root fetch - main [MainThread]: End processing [Priority1py]: success
+[2023-06-15 05:02:24] INFO root fetch - processPackages [azureml-designer-internal]: Remove: archive file [/home/abi/fetcher/tmp/azureml_designer_internal-0.0.8-py3-none-any.whl.zip]
+[2023-06-15 05:02:24] INFO root fetch - processPackages [azureml-designer-internal]: Remove: archive file [/home/abi/fetcher/tmp/azureml_designer_internal-0.0.9-py3-none-any.whl.zip]
+[2023-06-15 05:02:24] INFO root fetch - main [MainThread]: End processing [azureml-designer-internal]: success
+[2023-06-15 05:02:24] INFO root fetch - processPackages [xj-captcha]: Remove: archive file [/home/abi/fetcher/tmp/xj_captcha-1.0.6.tar.gz]
+[2023-06-15 05:02:24] INFO root fetch - processPackages [xj-captcha]: Remove: archive file [/home/abi/fetcher/tmp/xj_captcha-1.0.9.tar.gz]
+[2023-06-15 05:02:24] INFO root fetch - main [MainThread]: End processing [xj-captcha]: success
+[2023-06-15 05:02:24] INFO root fetch - processPackages [stax-module-sdk]: Remove: archive file [/home/abi/fetcher/tmp/stax_module_sdk-0.1.6.tar.gz]
+[2023-06-15 05:02:24] INFO root fetch - processPackages [stax-module-sdk]: Remove: archive file [/home/abi/fetcher/tmp/stax_module_sdk-0.1.7.tar.gz]
+[2023-06-15 05:02:24] INFO root fetch - main [MainThread]: End processing [stax-module-sdk]: success
+[2023-06-15 05:02:24] INFO root fetch - processPackages [odoo14-addon-sms-ovh-http]: Downloading https://files.pythonhosted.org/packages/44/24/a60b6946017d80aa8d2474396d3306e7bb729134543c87e80bf353393023/odoo14_addon_sms_ovh_http-14.0.1.0.4.dev2-py3-none-any.whl
+[2023-06-15 05:02:24] INFO root fetch - processPackages [odoo14-addon-sms-ovh-http]: executing diffoscope
+[2023-06-15 05:02:24] INFO root fetch - processPackages [odoo14-addon-sms-ovh-http]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_sms_ovh_http-14.0.1.0.3-py3-none-any.whl.zip tmp/odoo14_addon_sms_ovh_http-14.0.1.0.4.dev2-py3-none-any.whl.zip --markdown 20230615/o/odoo14-addon-sms-ovh-http/14.0.1.0.3-14.0.1.0.4.dev2/diff.md --exclude *.pyd
+[2023-06-15 05:02:24] INFO root fetch - processPackages [emi]: Remove: archive file [/home/abi/fetcher/tmp/emi-0.0.8.tar.gz]
+[2023-06-15 05:02:24] INFO root fetch - processPackages [emi]: Remove: archive file [/home/abi/fetcher/tmp/emi-0.0.9.tar.gz]
+[2023-06-15 05:02:24] INFO root fetch - main [MainThread]: End processing [emi]: success
+[2023-06-15 05:02:25] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-1.3.0.tar.gz]
+[2023-06-15 05:02:25] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-1.3.1.tar.gz]
+[2023-06-15 05:02:25] INFO root fetch - main [MainThread]: End processing [yplib]: success
+[2023-06-15 05:02:25] INFO root fetch - processPackages [ccsmeth]: Remove: archive file [/home/abi/fetcher/tmp/ccsmeth-0.4.0.tar.gz]
+[2023-06-15 05:02:25] INFO root fetch - processPackages [ccsmeth]: Remove: archive file [/home/abi/fetcher/tmp/ccsmeth-0.4.1.tar.gz]
+[2023-06-15 05:02:25] INFO root fetch - main [MainThread]: End processing [ccsmeth]: success
+[2023-06-15 05:03:18] INFO root fetch - processPackages [odoo14-addon-sms-ovh-http]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_sms_ovh_http-14.0.1.0.3-py3-none-any.whl.zip]
+[2023-06-15 05:03:18] INFO root fetch - processPackages [odoo14-addon-sms-ovh-http]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_sms_ovh_http-14.0.1.0.4.dev2-py3-none-any.whl.zip]
+[2023-06-15 05:03:18] INFO root fetch - main [MainThread]: End processing [odoo14-addon-sms-ovh-http]: success
+[2023-06-15 05:03:18] INFO root fetch - main [MainThread]: Store serial: [18510440]
