@@ -22873,3 +22873,269 @@ AssertionError: tmp/stackoverflowapithingy-0.1.5.tar.gz does not exist
 [2023-06-15 15:02:04] INFO root fetch - processPackages [trafilatura]: Remove: archive file [/home/abi/fetcher/tmp/trafilatura-1.6.1.tar.gz]
 [2023-06-15 15:02:04] INFO root fetch - main [MainThread]: End processing [trafilatura]: success
 [2023-06-15 15:02:04] INFO root fetch - main [MainThread]: Store serial: [18516274]
+[2023-06-15 15:07:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18516274]
+[2023-06-15 15:07:21] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-06-15 15:07:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: codemagic-cli-tools
+[2023-06-15 15:07:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyPhasesRecordloader
+[2023-06-15 15:07:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: evolved5g
+[2023-06-15 15:07:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tdw
+[2023-06-15 15:07:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: yellowdog-sdk
+[2023-06-15 15:07:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: deepomatic-oef
+[2023-06-15 15:07:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nucliadb
+[2023-06-15 15:07:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nucliadb-client
+[2023-06-15 15:07:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nucliadb-dataset
+[2023-06-15 15:07:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nucliadb-models
+[2023-06-15 15:07:21] INFO root fetch - processPackages [evolved5g]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-06-15 15:07:21] INFO root fetch - processPackages [tdw]: New version: [1.9.9.3] Old Version: [1.9.9.2]
+[2023-06-15 15:07:21] INFO root fetch - processPackages [nucliadb]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-06-15 15:07:21] INFO root fetch - processPackages [nucliadb-dataset]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-06-15 15:07:21] INFO root fetch - processPackages [nucliadb-client]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-06-15 15:07:21] INFO root fetch - processPackages [nucliadb-models]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-06-15 15:07:21] INFO root fetch - processPackages [evolved5g]: Downloading https://files.pythonhosted.org/packages/bf/2d/0ff80d0ef37231a60bbb115cb449f75e9846ed9fc2a5d53d733b23367ada/evolved5g-1.0.5.tar.gz
+[2023-06-15 15:07:21] INFO root fetch - processPackages [pyPhasesRecordloader]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-06-15 15:07:21] INFO root fetch - processPackages [nucliadb]: Downloading https://files.pythonhosted.org/packages/7c/ff/0a879c94d307d6130c47fa95a8a217386c5cbb1838101d660244b068cd95/nucliadb-2.9.0.post266-py3-none-any.whl
+[2023-06-15 15:07:21] INFO root fetch - processPackages [nucliadb-client]: Downloading https://files.pythonhosted.org/packages/e9/f9/e883083a5a0915d9eef487a6fa094cee59f24bf25f983e64b02d3dd71a9f/nucliadb_client-2.9.0.post266-py3-none-any.whl
+[2023-06-15 15:07:21] INFO root fetch - processPackages [codemagic-cli-tools]: New version: [0.9.8] Old Version: [0.9.7]
+[2023-06-15 15:07:21] INFO root fetch - processPackages [nucliadb-dataset]: Downloading https://files.pythonhosted.org/packages/56/4b/fc2d9cfebab3c585f1cb9965c827bf2aca2a655f2fec6b1fffcac6eef1c1/nucliadb_dataset-2.9.0.post266-py3-none-any.whl
+[2023-06-15 15:07:21] INFO root fetch - processPackages [yellowdog-sdk]: New version: [7.0.1] Old Version: [7.0.0]
+[2023-06-15 15:07:21] INFO root fetch - processPackages [deepomatic-oef]: New version: [0.9.0] Old Version: [0.8.5]
+[2023-06-15 15:07:21] INFO root fetch - processPackages [nucliadb-models]: Downloading https://files.pythonhosted.org/packages/3b/2d/e4d68391765b0e9f57ca1023e2aec3cf60968a9418e00f24c1554bb0041e/nucliadb_models-2.9.0.post266-py3-none-any.whl
+[2023-06-15 15:07:21] INFO root fetch - processPackages [tdw]: Downloading https://files.pythonhosted.org/packages/c4/72/7e9dcffb20652a0fc7a75acb9c45c9c15e02911caff77569e88bda949a27/tdw-1.9.9.2.tar.gz
+[2023-06-15 15:07:21] INFO root fetch - processPackages [evolved5g]: Downloading https://files.pythonhosted.org/packages/6b/ae/7a6ecaa5f9afd97de4f340ccd369e2be9b247f9387366fc358868667634a/evolved5g-1.0.6.tar.gz
+[2023-06-15 15:07:21] INFO root fetch - processPackages [nucliadb-client]: Downloading https://files.pythonhosted.org/packages/24/40/81827f509054d15496de510289a599e8f6d34f706b2371d86d048fbc0db0/nucliadb_client-2.9.0.post267-py3-none-any.whl
+[2023-06-15 15:07:21] INFO root fetch - processPackages [pyPhasesRecordloader]: Downloading https://files.pythonhosted.org/packages/19/18/f2667d74a80ca3f81143d13fed58d937e18c6c92c582815d16016c293d28/pyPhasesRecordloader-0.3.8.tar.gz
+[2023-06-15 15:07:21] INFO root fetch - processPackages [nucliadb-dataset]: Downloading https://files.pythonhosted.org/packages/80/9f/9ffeb0e3d1b4da8f1178595f75fb1c1ffe183913036ae2a60f569c8c7dc7/nucliadb_dataset-2.9.0.post267-py3-none-any.whl
+[2023-06-15 15:07:21] INFO root fetch - processPackages [codemagic-cli-tools]: Downloading https://files.pythonhosted.org/packages/93/49/07ea6719177fe4b6226690fe45cf5b5ff9674ea427bcdb30ed25ded88aa7/codemagic-cli-tools-0.9.7.tar.gz
+[2023-06-15 15:07:21] INFO root fetch - processPackages [nucliadb]: Downloading https://files.pythonhosted.org/packages/d0/e8/3c39cb6a2ed6ad97a3e0dec5110ec85934306f7a7d052b0cb4fe4762aa0f/nucliadb-2.9.0.post267-py3-none-any.whl
+[2023-06-15 15:07:21] INFO root fetch - processPackages [nucliadb-models]: Downloading https://files.pythonhosted.org/packages/33/34/554de7935ae3aecd4129d1f85d83822f97fd284da917d6aced4c09802f1a/nucliadb_models-2.9.0.post267-py3-none-any.whl
+[2023-06-15 15:07:21] INFO root fetch - processPackages [yellowdog-sdk]: Downloading https://files.pythonhosted.org/packages/e1/e4/09c24a444c93c41f0676b005d9e287e34bf9b03f3d8f0e7dfe1edb76657f/yellowdog_sdk-7.0.0-py3-none-any.whl
+[2023-06-15 15:07:21] INFO root fetch - processPackages [deepomatic-oef]: Downloading https://files.pythonhosted.org/packages/97/76/961b399d36698a369458041a62e33c15445ff534b75658811155072265a0/deepomatic_oef-0.8.5-py3-none-any.whl
+[2023-06-15 15:07:21] INFO root fetch - processPackages [nucliadb-client]: executing diffoscope
+[2023-06-15 15:07:21] INFO root fetch - processPackages [nucliadb-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_client-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_client-2.9.0.post267-py3-none-any.whl.zip --markdown 20230615/n/nucliadb-client/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-06-15 15:07:21] INFO root fetch - processPackages [nucliadb-dataset]: executing diffoscope
+[2023-06-15 15:07:21] INFO root fetch - processPackages [nucliadb-dataset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_dataset-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_dataset-2.9.0.post267-py3-none-any.whl.zip --markdown 20230615/n/nucliadb-dataset/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-06-15 15:07:21] INFO root fetch - processPackages [evolved5g]: executing diffoscope
+[2023-06-15 15:07:21] INFO root fetch - processPackages [evolved5g]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/evolved5g-1.0.5.tar.gz tmp/evolved5g-1.0.6.tar.gz --markdown 20230615/e/evolved5g/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-06-15 15:07:21] INFO root fetch - processPackages [nucliadb-models]: executing diffoscope
+[2023-06-15 15:07:21] INFO root fetch - processPackages [nucliadb-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_models-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_models-2.9.0.post267-py3-none-any.whl.zip --markdown 20230615/n/nucliadb-models/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-06-15 15:07:21] INFO root fetch - processPackages [nucliadb]: executing diffoscope
+[2023-06-15 15:07:21] INFO root fetch - processPackages [nucliadb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb-2.9.0.post267-py3-none-any.whl.zip --markdown 20230615/n/nucliadb/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-06-15 15:07:21] INFO root fetch - processPackages [yellowdog-sdk]: Downloading https://files.pythonhosted.org/packages/34/9c/f8423b6b25b21fa8d998dc1bc3d17cdd191dd76bf570b28f047ae047df04/yellowdog_sdk-7.0.1-py3-none-any.whl
+[2023-06-15 15:07:21] INFO root fetch - processPackages [pyPhasesRecordloader]: Downloading https://files.pythonhosted.org/packages/93/01/f4e42510df41bcbc07c2bb60141cd9e7630902feb442254c3fdedca4674a/pyPhasesRecordloader-0.3.9.tar.gz
+[2023-06-15 15:07:22] INFO root fetch - processPackages [yellowdog-sdk]: executing diffoscope
+[2023-06-15 15:07:22] INFO root fetch - processPackages [yellowdog-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yellowdog_sdk-7.0.0-py3-none-any.whl.zip tmp/yellowdog_sdk-7.0.1-py3-none-any.whl.zip --markdown 20230615/y/yellowdog-sdk/7.0.0-7.0.1/diff.md --exclude *.pyd
+[2023-06-15 15:07:22] INFO root fetch - processPackages [pyPhasesRecordloader]: executing diffoscope
+[2023-06-15 15:07:22] INFO root fetch - processPackages [pyPhasesRecordloader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyPhasesRecordloader-0.3.8.tar.gz tmp/pyPhasesRecordloader-0.3.9.tar.gz --markdown 20230615/p/pyPhasesRecordloader/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-06-15 15:07:22] WARNING root fetch - processPackages [tdw]: Skipping package: exceeds size limit 28395540>=10485760
+[2023-06-15 15:07:22] INFO root fetch - processPackages [tdw]: Start processing: nucliadb-protos
+[2023-06-15 15:07:22] INFO root fetch - main [MainThread]: End processing [tdw] error
+[2023-06-15 15:07:22] INFO root fetch - processPackages [nucliadb-protos]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-06-15 15:07:22] INFO root fetch - processPackages [nucliadb-protos]: Downloading https://files.pythonhosted.org/packages/16/50/6ab2e4f9cca425d97ef0824c338fea58b8e3a0bfb590231f3196942875c0/nucliadb_protos-2.9.0.post266-py3-none-any.whl
+[2023-06-15 15:07:22] INFO root fetch - processPackages [deepomatic-oef]: Downloading https://files.pythonhosted.org/packages/e9/c1/1e57ebd55fca3d7e81b45581450c9bc9f22fe33c2f9c2f5868b0fc9b8ba8/deepomatic_oef-0.9.0-py3-none-any.whl
+[2023-06-15 15:07:22] WARNING root fetch - processPackages [codemagic-cli-tools]: Skipping package: exceeds size limit 22148734>=10485760
+[2023-06-15 15:07:22] INFO root fetch - processPackages [codemagic-cli-tools]: Start processing: domainlab
+[2023-06-15 15:07:22] INFO root fetch - main [MainThread]: End processing [codemagic-cli-tools] error
+[2023-06-15 15:07:22] INFO root fetch - processPackages [nucliadb-protos]: Downloading https://files.pythonhosted.org/packages/21/bd/4fffaf241f826293c98c1317bdaff65a5d202f9ec94d08322b2fd017f3b0/nucliadb_protos-2.9.0.post267-py3-none-any.whl
+[2023-06-15 15:07:22] INFO root fetch - processPackages [domainlab]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-15 15:07:22] INFO root fetch - processPackages [deepomatic-oef]: executing diffoscope
+[2023-06-15 15:07:22] INFO root fetch - processPackages [deepomatic-oef]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepomatic_oef-0.8.5-py3-none-any.whl.zip tmp/deepomatic_oef-0.9.0-py3-none-any.whl.zip --markdown 20230615/d/deepomatic-oef/0.8.5-0.9.0/diff.md --exclude *.pyd
+[2023-06-15 15:07:22] INFO root fetch - processPackages [nucliadb-protos]: executing diffoscope
+[2023-06-15 15:07:22] INFO root fetch - processPackages [nucliadb-protos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_protos-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_protos-2.9.0.post267-py3-none-any.whl.zip --markdown 20230615/n/nucliadb-protos/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-06-15 15:07:22] INFO root fetch - processPackages [domainlab]: Downloading https://files.pythonhosted.org/packages/12/77/707fd6e8627e3afebcd6734d9b9657c834be6b1ab4823d885eda72ae1ac2/domainlab-0.1.2.tar.gz
+[2023-06-15 15:07:22] INFO root fetch - processPackages [domainlab]: Downloading https://files.pythonhosted.org/packages/2f/a7/957295557fc834ec886709eb4cc9abcd5339b6ad57469708226ba6e62459/domainlab-0.1.3.tar.gz
+[2023-06-15 15:07:23] INFO root fetch - processPackages [nucliadb-dataset]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_dataset-2.9.0.post266-py3-none-any.whl.zip]
+[2023-06-15 15:07:23] INFO root fetch - processPackages [nucliadb-dataset]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_dataset-2.9.0.post267-py3-none-any.whl.zip]
+[2023-06-15 15:07:23] INFO root fetch - processPackages [nucliadb-dataset]: Start processing: nucliadb-sdk
+[2023-06-15 15:07:23] INFO root fetch - main [MainThread]: End processing [nucliadb-dataset]: success
+[2023-06-15 15:07:23] INFO root fetch - processPackages [nucliadb-sdk]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-06-15 15:07:23] INFO root fetch - processPackages [nucliadb-client]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_client-2.9.0.post266-py3-none-any.whl.zip]
+[2023-06-15 15:07:23] INFO root fetch - processPackages [nucliadb-client]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_client-2.9.0.post267-py3-none-any.whl.zip]
+[2023-06-15 15:07:23] INFO root fetch - processPackages [nucliadb-client]: Start processing: nucliadb-utils
+[2023-06-15 15:07:23] INFO root fetch - main [MainThread]: End processing [nucliadb-client]: success
+[2023-06-15 15:07:23] INFO root fetch - processPackages [domainlab]: executing diffoscope
+[2023-06-15 15:07:23] INFO root fetch - processPackages [domainlab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/domainlab-0.1.2.tar.gz tmp/domainlab-0.1.3.tar.gz --markdown 20230615/d/domainlab/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-15 15:07:23] INFO root fetch - processPackages [nucliadb-sdk]: Downloading https://files.pythonhosted.org/packages/a1/64/be41afa3acf3d90a5d9575ac0e1c151ff6e91fb473f9724dac60fea85414/nucliadb_sdk-2.9.0.post266-py3-none-any.whl
+[2023-06-15 15:07:23] INFO root fetch - processPackages [nucliadb-utils]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-06-15 15:07:23] INFO root fetch - processPackages [nucliadb-models]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_models-2.9.0.post266-py3-none-any.whl.zip]
+[2023-06-15 15:07:23] INFO root fetch - processPackages [nucliadb-models]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_models-2.9.0.post267-py3-none-any.whl.zip]
+[2023-06-15 15:07:23] INFO root fetch - processPackages [nucliadb-models]: Start processing: databaseRestoreIntegrity
+[2023-06-15 15:07:23] INFO root fetch - main [MainThread]: End processing [nucliadb-models]: success
+[2023-06-15 15:07:23] INFO root fetch - processPackages [nucliadb-utils]: Downloading https://files.pythonhosted.org/packages/9c/a6/d6dd21ed1948bdcc0b560698e72d117f3fdad522e2ac0894dd980e184631/nucliadb_utils-2.9.0.post266-py3-none-any.whl
+[2023-06-15 15:07:23] INFO root fetch - processPackages [databaseRestoreIntegrity]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-06-15 15:07:23] INFO root fetch - processPackages [nucliadb-sdk]: Downloading https://files.pythonhosted.org/packages/35/7b/660db604a69a01811bfa1b2ce906d520705e186b4f8a91c3972cb4446303/nucliadb_sdk-2.9.0.post267-py3-none-any.whl
+[2023-06-15 15:07:23] INFO root fetch - processPackages [databaseRestoreIntegrity]: Downloading https://files.pythonhosted.org/packages/22/b4/03bf6bfc07e5603ab41b6c6b36a2ed5b7729093f914077601f77cb64ff6a/databaseRestoreIntegrity-1.0.5.tar.gz
+[2023-06-15 15:07:23] INFO root fetch - processPackages [nucliadb-sdk]: executing diffoscope
+[2023-06-15 15:07:23] INFO root fetch - processPackages [nucliadb-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_sdk-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_sdk-2.9.0.post267-py3-none-any.whl.zip --markdown 20230615/n/nucliadb-sdk/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-06-15 15:07:23] INFO root fetch - processPackages [nucliadb-utils]: Downloading https://files.pythonhosted.org/packages/a2/ce/8ce8a66a2ef214d8ae9f81cb70eb5d8d5396c8bd94794cf92d145fdccd31/nucliadb_utils-2.9.0.post267-py3-none-any.whl
+[2023-06-15 15:07:23] INFO root fetch - processPackages [databaseRestoreIntegrity]: Downloading https://files.pythonhosted.org/packages/40/41/52272449ee6467bf38428a37ba9ab66646ce1e4c4c6d1545ba42f10c28b6/databaseRestoreIntegrity-1.0.6.tar.gz
+[2023-06-15 15:07:23] INFO root fetch - processPackages [nucliadb-utils]: executing diffoscope
+[2023-06-15 15:07:23] INFO root fetch - processPackages [nucliadb-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_utils-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_utils-2.9.0.post267-py3-none-any.whl.zip --markdown 20230615/n/nucliadb-utils/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-06-15 15:07:23] INFO root fetch - processPackages [pyPhasesRecordloader]: Remove: archive file [/home/abi/fetcher/tmp/pyPhasesRecordloader-0.3.8.tar.gz]
+[2023-06-15 15:07:23] INFO root fetch - processPackages [pyPhasesRecordloader]: Remove: archive file [/home/abi/fetcher/tmp/pyPhasesRecordloader-0.3.9.tar.gz]
+[2023-06-15 15:07:23] INFO root fetch - processPackages [pyPhasesRecordloader]: Start processing: fbgemm-gpu-nightly-cpu
+[2023-06-15 15:07:23] INFO root fetch - main [MainThread]: End processing [pyPhasesRecordloader]: success
+[2023-06-15 15:07:23] INFO root fetch - processPackages [databaseRestoreIntegrity]: executing diffoscope
+[2023-06-15 15:07:23] INFO root fetch - processPackages [databaseRestoreIntegrity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/databaseRestoreIntegrity-1.0.5.tar.gz tmp/databaseRestoreIntegrity-1.0.6.tar.gz --markdown 20230615/d/databaseRestoreIntegrity/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-06-15 15:07:23] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: New version: [2023.6.9] Old Version: [2023.6.8]
+[2023-06-15 15:07:23] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/2b/d5/5672089cb0fb441d25de7fae82156f1d95d0690e4e0c9966090f2a6185c5/fbgemm_gpu_nightly_cpu-2023.6.8-cp39-cp39-manylinux1_x86_64.whl
+[2023-06-15 15:07:24] INFO root fetch - processPackages [nucliadb-protos]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_protos-2.9.0.post266-py3-none-any.whl.zip]
+[2023-06-15 15:07:24] INFO root fetch - processPackages [nucliadb-protos]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_protos-2.9.0.post267-py3-none-any.whl.zip]
+[2023-06-15 15:07:24] INFO root fetch - processPackages [nucliadb-protos]: Start processing: toml-to-requirements
+[2023-06-15 15:07:24] INFO root fetch - main [MainThread]: End processing [nucliadb-protos]: success
+[2023-06-15 15:07:24] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/9c/1e/dba96388194f18061dcca86ef0f59a081be95bfec2b1140e3e6ab1e8ce47/fbgemm_gpu_nightly_cpu-2023.6.9-cp39-cp39-manylinux1_x86_64.whl
+[2023-06-15 15:07:24] INFO root fetch - processPackages [toml-to-requirements]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-06-15 15:07:24] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: executing diffoscope
+[2023-06-15 15:07:24] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fbgemm_gpu_nightly_cpu-2023.6.8-cp39-cp39-manylinux1_x86_64.whl.zip tmp/fbgemm_gpu_nightly_cpu-2023.6.9-cp39-cp39-manylinux1_x86_64.whl.zip --markdown 20230615/f/fbgemm-gpu-nightly-cpu/2023.6.8-2023.6.9/diff.md --exclude *.pyd
+[2023-06-15 15:07:24] INFO root fetch - processPackages [toml-to-requirements]: Downloading https://files.pythonhosted.org/packages/98/07/ef2f2772dad2d9c899674424fab9d5f18953f70fb7d6b39855091f342509/toml_to_requirements-0.1.0-py2.py3-none-any.whl
+[2023-06-15 15:07:24] INFO root fetch - processPackages [deepomatic-oef]: Remove: archive file [/home/abi/fetcher/tmp/deepomatic_oef-0.8.5-py3-none-any.whl.zip]
+[2023-06-15 15:07:24] INFO root fetch - processPackages [deepomatic-oef]: Remove: archive file [/home/abi/fetcher/tmp/deepomatic_oef-0.9.0-py3-none-any.whl.zip]
+[2023-06-15 15:07:24] INFO root fetch - processPackages [deepomatic-oef]: Start processing: kmerator
+[2023-06-15 15:07:24] INFO root fetch - main [MainThread]: End processing [deepomatic-oef]: success
+[2023-06-15 15:07:24] INFO root fetch - processPackages [nucliadb-sdk]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_sdk-2.9.0.post266-py3-none-any.whl.zip]
+[2023-06-15 15:07:24] INFO root fetch - processPackages [nucliadb-sdk]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_sdk-2.9.0.post267-py3-none-any.whl.zip]
+[2023-06-15 15:07:24] INFO root fetch - processPackages [nucliadb-sdk]: Start processing: cm-two
+[2023-06-15 15:07:24] INFO root fetch - main [MainThread]: End processing [nucliadb-sdk]: success
+[2023-06-15 15:07:24] INFO root fetch - processPackages [cm-two]: New version: [2.3.37] Old Version: [2.3.36]
+[2023-06-15 15:07:24] INFO root fetch - processPackages [toml-to-requirements]: Downloading https://files.pythonhosted.org/packages/c5/b3/cd80c43d3c4f76f9061a2c1bfb8122d27a31cb433b44143818b8345db0dc/toml_to_requirements-0.2.0-py2.py3-none-any.whl
+[2023-06-15 15:07:24] INFO root fetch - processPackages [databaseRestoreIntegrity]: Remove: archive file [/home/abi/fetcher/tmp/databaseRestoreIntegrity-1.0.5.tar.gz]
+[2023-06-15 15:07:24] INFO root fetch - processPackages [databaseRestoreIntegrity]: Remove: archive file [/home/abi/fetcher/tmp/databaseRestoreIntegrity-1.0.6.tar.gz]
+[2023-06-15 15:07:24] INFO root fetch - processPackages [databaseRestoreIntegrity]: Start processing: pandasflow
+[2023-06-15 15:07:24] INFO root fetch - main [MainThread]: End processing [databaseRestoreIntegrity]: success
+[2023-06-15 15:07:24] INFO root fetch - processPackages [kmerator]: New version: [0.8.1b0] Old Version: [0.7.7b0]
+[2023-06-15 15:07:24] INFO root fetch - processPackages [pandasflow]: New version: [0.7.0] Old Version: [0.6.1]
+[2023-06-15 15:07:24] INFO root fetch - processPackages [toml-to-requirements]: executing diffoscope
+[2023-06-15 15:07:24] INFO root fetch - processPackages [toml-to-requirements]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/toml_to_requirements-0.1.0-py2.py3-none-any.whl.zip tmp/toml_to_requirements-0.2.0-py2.py3-none-any.whl.zip --markdown 20230615/t/toml-to-requirements/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-06-15 15:07:24] INFO root fetch - processPackages [cm-two]: executing diffoscope
+[2023-06-15 15:07:24] INFO root fetch - processPackages [cm-two]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cm_two-2.3.36-py3-none-any.whl.zip tmp/cm_two-2.3.37-py3-none-any.whl.zip --markdown 20230615/c/cm-two/2.3.36-2.3.37/diff.md --exclude *.pyd
+[2023-06-15 15:07:24] INFO root fetch - processPackages [pandasflow]: Downloading https://files.pythonhosted.org/packages/92/21/f0228e9077eeb44dfae415ff3fdf195111cec9e08b418c51ae526f81c2e3/pandasflow-0.6.1.tar.gz
+[2023-06-15 15:07:25] INFO root fetch - processPackages [kmerator]: Downloading https://files.pythonhosted.org/packages/2d/c4/691b2f96419494c4402c3cbaed2123a3ac4376637cffc1b6661b3115d106/kmerator-0.7.7b0.tar.gz
+[2023-06-15 15:07:25] INFO root fetch - processPackages [pandasflow]: Downloading https://files.pythonhosted.org/packages/f6/63/ba45a1cdddfd1aba91f9ba127d947e87b2ebad7afd66c62e8a6240c0400c/pandasflow-0.7.0.tar.gz
+[2023-06-15 15:07:25] INFO root fetch - processPackages [pandasflow]: executing diffoscope
+[2023-06-15 15:07:25] INFO root fetch - processPackages [pandasflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pandasflow-0.6.1.tar.gz tmp/pandasflow-0.7.0.tar.gz --markdown 20230615/p/pandasflow/0.6.1-0.7.0/diff.md --exclude *.pyd
+[2023-06-15 15:07:25] INFO root fetch - processPackages [nucliadb-utils]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_utils-2.9.0.post266-py3-none-any.whl.zip]
+[2023-06-15 15:07:25] INFO root fetch - processPackages [nucliadb-utils]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_utils-2.9.0.post267-py3-none-any.whl.zip]
+[2023-06-15 15:07:25] INFO root fetch - processPackages [nucliadb-utils]: Start processing: bl-hector
+[2023-06-15 15:07:25] INFO root fetch - main [MainThread]: End processing [nucliadb-utils]: success
+[2023-06-15 15:07:25] INFO root fetch - processPackages [domainlab]: Remove: archive file [/home/abi/fetcher/tmp/domainlab-0.1.2.tar.gz]
+[2023-06-15 15:07:25] INFO root fetch - processPackages [domainlab]: Remove: archive file [/home/abi/fetcher/tmp/domainlab-0.1.3.tar.gz]
+[2023-06-15 15:07:25] INFO root fetch - main [MainThread]: End processing [domainlab]: success
+[2023-06-15 15:07:25] INFO root fetch - processPackages [kmerator]: Downloading https://files.pythonhosted.org/packages/98/0a/9fc101e3576cdc8d2b8283649e83cd6d3ad82e083f07d000c6ae7ae8b67d/kmerator-0.8.1b0.tar.gz
+[2023-06-15 15:07:25] INFO root fetch - processPackages [bl-hector]: New version: [0.1.1] Old Version: [0.1.0a8]
+[2023-06-15 15:07:25] INFO root fetch - processPackages [kmerator]: executing diffoscope
+[2023-06-15 15:07:25] INFO root fetch - processPackages [kmerator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kmerator-0.7.7b0.tar.gz tmp/kmerator-0.8.1b0.tar.gz --markdown 20230615/k/kmerator/0.7.7b0-0.8.1b0/diff.md --exclude *.pyd
+[2023-06-15 15:07:25] INFO root fetch - processPackages [bl-hector]: Downloading https://files.pythonhosted.org/packages/5a/41/4be39f3b67d31b29f76f09ae6e601d7ae8100581228a8339aa4b550678ec/bl_hector-0.1.0a8.tar.gz
+[2023-06-15 15:07:25] INFO root fetch - processPackages [nucliadb]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb-2.9.0.post266-py3-none-any.whl.zip]
+[2023-06-15 15:07:25] INFO root fetch - processPackages [nucliadb]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb-2.9.0.post267-py3-none-any.whl.zip]
+[2023-06-15 15:07:25] INFO root fetch - main [MainThread]: End processing [nucliadb]: success
+[2023-06-15 15:07:25] INFO root fetch - processPackages [bl-hector]: Downloading https://files.pythonhosted.org/packages/28/e6/eb3b8621c1663f4852f1ae73b604879d456e4dec054ef0e472329e3fb49c/bl_hector-0.1.1-py3-none-any.whl
+[2023-06-15 15:07:26] INFO root fetch - processPackages [toml-to-requirements]: Remove: archive file [/home/abi/fetcher/tmp/toml_to_requirements-0.1.0-py2.py3-none-any.whl.zip]
+[2023-06-15 15:07:26] INFO root fetch - processPackages [toml-to-requirements]: Remove: archive file [/home/abi/fetcher/tmp/toml_to_requirements-0.2.0-py2.py3-none-any.whl.zip]
+[2023-06-15 15:07:26] INFO root fetch - main [MainThread]: End processing [toml-to-requirements]: success
+[2023-06-15 15:07:26] ERROR root fetch - processPackages [cm-two]: Diffoscope failed: Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 126, in feeder
+    end_nl = feeder(out_file)
+             ^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 81, in feeder
+    out = filter_reader(buf, filter)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 47, in filter_reader
+    buf = additional_filter(buf)
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 57, in filter
+    m = self.re_strip_path.match(line.decode("utf-8"))
+                                 ^^^^^^^^^^^^^^^^^^^^
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid continuation byte
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 217, in compare
+    x = super().compare(other, source)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 416, in _compare_using_details
+    details.extend(self.compare_details(other, source))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 252, in compare_details
+    differences.extend(zipinfo_differences(self, other))
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 127, in zipinfo_differences
+    zipinfo = Difference.from_operation(Zipinfo, file.path, other.path)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 267, in from_operation
+    return Difference.from_operation_exc(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 316, in from_operation_exc
+    difference = Difference.from_feeder(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 214, in from_feeder
+    unified_diff = diff(feeder1, feeder2)
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 126, in feeder
+    end_nl = feeder(out_file)
+             ^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 81, in feeder
+    out = filter_reader(buf, filter)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 47, in filter_reader
+    buf = additional_filter(buf)
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 57, in filter
+    m = self.re_strip_path.match(line.decode("utf-8"))
+                                 ^^^^^^^^^^^^^^^^^^^^
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid continuation byte
+
+[2023-06-15 15:07:26] INFO root fetch - main [MainThread]: End processing [cm-two] error
+[2023-06-15 15:07:26] INFO root fetch - processPackages [bl-hector]: executing diffoscope
+[2023-06-15 15:07:26] INFO root fetch - processPackages [bl-hector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bl_hector-0.1.0a8.tar.gz tmp/bl_hector-0.1.1-py3-none-any.whl.zip --markdown 20230615/b/bl-hector/0.1.0a8-0.1.1/diff.md --exclude *.pyd
+[2023-06-15 15:07:26] INFO root fetch - processPackages [pandasflow]: Remove: archive file [/home/abi/fetcher/tmp/pandasflow-0.6.1.tar.gz]
+[2023-06-15 15:07:26] INFO root fetch - processPackages [pandasflow]: Remove: archive file [/home/abi/fetcher/tmp/pandasflow-0.7.0.tar.gz]
+[2023-06-15 15:07:26] INFO root fetch - main [MainThread]: End processing [pandasflow]: success
+[2023-06-15 15:07:26] INFO root fetch - processPackages [evolved5g]: Remove: archive file [/home/abi/fetcher/tmp/evolved5g-1.0.5.tar.gz]
+[2023-06-15 15:07:26] INFO root fetch - processPackages [evolved5g]: Remove: archive file [/home/abi/fetcher/tmp/evolved5g-1.0.6.tar.gz]
+[2023-06-15 15:07:26] INFO root fetch - main [MainThread]: End processing [evolved5g]: success
+[2023-06-15 15:07:26] INFO root fetch - processPackages [kmerator]: Remove: archive file [/home/abi/fetcher/tmp/kmerator-0.7.7b0.tar.gz]
+[2023-06-15 15:07:26] INFO root fetch - processPackages [kmerator]: Remove: archive file [/home/abi/fetcher/tmp/kmerator-0.8.1b0.tar.gz]
+[2023-06-15 15:07:26] INFO root fetch - main [MainThread]: End processing [kmerator]: success
+[2023-06-15 15:07:26] INFO root fetch - processPackages [yellowdog-sdk]: Remove: archive file [/home/abi/fetcher/tmp/yellowdog_sdk-7.0.0-py3-none-any.whl.zip]
+[2023-06-15 15:07:26] INFO root fetch - processPackages [yellowdog-sdk]: Remove: archive file [/home/abi/fetcher/tmp/yellowdog_sdk-7.0.1-py3-none-any.whl.zip]
+[2023-06-15 15:07:26] INFO root fetch - main [MainThread]: End processing [yellowdog-sdk]: success
+[2023-06-15 15:07:27] INFO root fetch - processPackages [bl-hector]: Remove: archive file [/home/abi/fetcher/tmp/bl_hector-0.1.0a8.tar.gz]
+[2023-06-15 15:07:27] INFO root fetch - processPackages [bl-hector]: Remove: archive file [/home/abi/fetcher/tmp/bl_hector-0.1.1-py3-none-any.whl.zip]
+[2023-06-15 15:07:27] INFO root fetch - main [MainThread]: End processing [bl-hector]: success
+[2023-06-15 15:07:28] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/fbgemm_gpu_nightly_cpu-2023.6.8-cp39-cp39-manylinux1_x86_64.whl.zip]
+[2023-06-15 15:07:28] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/fbgemm_gpu_nightly_cpu-2023.6.9-cp39-cp39-manylinux1_x86_64.whl.zip]
+[2023-06-15 15:07:28] INFO root fetch - main [MainThread]: End processing [fbgemm-gpu-nightly-cpu]: success
+[2023-06-15 15:07:28] INFO root fetch - main [MainThread]: Store serial: [18516329]
