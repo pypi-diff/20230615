@@ -5200,3 +5200,106 @@
 [2023-06-15 02:39:21] INFO root fetch - processPackages [cdklabs.cdk-enterprise-iac]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-enterprise-iac-0.0.99.tar.gz]
 [2023-06-15 02:39:21] INFO root fetch - main [MainThread]: End processing [cdklabs.cdk-enterprise-iac]: success
 [2023-06-15 02:39:21] INFO root fetch - main [MainThread]: Store serial: [18509377]
+[2023-06-15 02:44:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18509377]
+[2023-06-15 02:44:30] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-06-15 02:44:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tencentcloud-sdk-python-zj
+[2023-06-15 02:44:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: market-engine
+[2023-06-15 02:44:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: state-machine-semaphore
+[2023-06-15 02:44:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: market-engine
+[2023-06-15 02:44:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lamindb_setup
+[2023-06-15 02:44:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bs-orm
+[2023-06-15 02:44:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: Priority1py
+[2023-06-15 02:44:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: numalogic-prometheus
+[2023-06-15 02:44:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: neon-utils
+[2023-06-15 02:44:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: seff
+[2023-06-15 02:44:30] INFO root fetch - processPackages [market-engine]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-06-15 02:44:30] INFO root fetch - processPackages [bs-orm]: New version: [0.8.8.post20230615] Old Version: [0.8.7.post20230615]
+[2023-06-15 02:44:30] INFO root fetch - processPackages [lamindb_setup]: New version: [0.47.8] Old Version: [0.47.7]
+[2023-06-15 02:44:30] INFO root fetch - processPackages [market-engine]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-06-15 02:44:30] INFO root fetch - processPackages [Priority1py]: New version: [0.1.1b0] Old Version: [0.1.0b0]
+[2023-06-15 02:44:30] INFO root fetch - processPackages [state-machine-semaphore]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-06-15 02:44:30] INFO root fetch - processPackages [numalogic-prometheus]: New version: [0.4.6] Old Version: [0.4.5]
+[2023-06-15 02:44:30] WARNING root fetch - processPackages [seff]: Skipping, unable to determine old version
+[2023-06-15 02:44:30] INFO root fetch - processPackages [seff]: Start processing: streamflow
+[2023-06-15 02:44:30] INFO root fetch - main [MainThread]: End processing [seff] error
+[2023-06-15 02:44:30] INFO root fetch - processPackages [tencentcloud-sdk-python-zj]: New version: [3.0.915] Old Version: [3.0.914]
+[2023-06-15 02:44:30] INFO root fetch - processPackages [neon-utils]: New version: [1.5.1a1] Old Version: [1.5.0a9]
+[2023-06-15 02:44:30] INFO root fetch - processPackages [streamflow]: New version: [0.2.0.dev6] Old Version: [0.2.0.dev5]
+[2023-06-15 02:44:30] INFO root fetch - processPackages [bs-orm]: Downloading https://files.pythonhosted.org/packages/3a/98/5bd70902bb1e17d229add5ab09722155e996b3ab72d940714015e093d45a/bs_orm-0.8.7.post20230615.tar.gz
+[2023-06-15 02:44:30] INFO root fetch - processPackages [lamindb_setup]: Downloading https://files.pythonhosted.org/packages/88/5a/957005d0348f60eb04da405650276924622851445ad003545cef7ab87d7e/lamindb_setup-0.47.7.tar.gz
+[2023-06-15 02:44:30] INFO root fetch - processPackages [state-machine-semaphore]: Downloading https://files.pythonhosted.org/packages/fa/f7/eea494ef2079699969c054c97478b7e0d5db0ce186fbb2708d9a243b4366/state-machine-semaphore-0.1.98.tar.gz
+[2023-06-15 02:44:30] INFO root fetch - processPackages [tencentcloud-sdk-python-zj]: Downloading https://files.pythonhosted.org/packages/fd/fd/e001b837255f76d82d968f51925c1dfc0a716fd1ee344bfa26dea2970bfb/tencentcloud-sdk-python-zj-3.0.914.tar.gz
+[2023-06-15 02:44:30] INFO root fetch - processPackages [market-engine]: Downloading https://files.pythonhosted.org/packages/a1/a5/75e501b6d06ca9ed139156953275689b25aaa6887b7ef8c5ed6f62da7cdb/market-engine-0.0.7.tar.gz
+[2023-06-15 02:44:30] INFO root fetch - processPackages [market-engine]: Downloading https://files.pythonhosted.org/packages/a1/a5/75e501b6d06ca9ed139156953275689b25aaa6887b7ef8c5ed6f62da7cdb/market-engine-0.0.7.tar.gz
+[2023-06-15 02:44:30] INFO root fetch - processPackages [state-machine-semaphore]: Downloading https://files.pythonhosted.org/packages/80/0f/c73e069a7ceff3d9f61065aa4b5b338bc0b9f4f933b94a97692457bfa317/state-machine-semaphore-0.1.99.tar.gz
+[2023-06-15 02:44:30] INFO root fetch - processPackages [numalogic-prometheus]: Downloading https://files.pythonhosted.org/packages/b9/e8/8757e6459c76892e9901ba82ed2dcda345408670f7d70882c50d0c8e39b4/numalogic_prometheus-0.4.5.tar.gz
+[2023-06-15 02:44:30] INFO root fetch - processPackages [Priority1py]: Downloading https://files.pythonhosted.org/packages/86/22/64c91a5411c6f06adec8eb6002c710e98da0c66c9d2084f1b5390f433ef1/Priority1py-0.1.0-beta.tar.gz
+[2023-06-15 02:44:30] INFO root fetch - processPackages [neon-utils]: Downloading https://files.pythonhosted.org/packages/2d/6c/27e76528a5403271b05e7716bec93a152afca329d189957523c0e1ac70cd/neon_utils-1.5.0a9-py3-none-any.whl
+[2023-06-15 02:44:30] INFO root fetch - processPackages [streamflow]: Downloading https://files.pythonhosted.org/packages/7c/e8/fb7b3e995649f77f4d1cf24e5944ac4249d3d7738461b4018b3cae3b15bf/streamflow-0.2.0.dev5.tar.gz
+[2023-06-15 02:44:30] INFO root fetch - processPackages [bs-orm]: Downloading https://files.pythonhosted.org/packages/5a/6c/17eb2adf3bf7b29057b7ad9e0df526c0a6ddee5aff5207c60c1bec1e5652/bs_orm-0.8.8.post20230615.tar.gz
+[2023-06-15 02:44:30] INFO root fetch - processPackages [lamindb_setup]: Downloading https://files.pythonhosted.org/packages/7d/8a/955687771eae260db1e4e3d2c97ce6aa7eecf105f12e197311424e73eb34/lamindb_setup-0.47.8.tar.gz
+[2023-06-15 02:44:30] INFO root fetch - processPackages [market-engine]: Downloading https://files.pythonhosted.org/packages/65/b8/cc0815b769875bbc57b0c5f199b0a3987be090f1fafab07531252b2972a2/market-engine-0.0.8.tar.gz
+[2023-06-15 02:44:30] INFO root fetch - processPackages [tencentcloud-sdk-python-zj]: Downloading https://files.pythonhosted.org/packages/7b/74/e7587a4736e14da5376108b5e4714071a4cffc7480fa9838eab4de245ad0/tencentcloud-sdk-python-zj-3.0.915.tar.gz
+[2023-06-15 02:44:30] INFO root fetch - processPackages [state-machine-semaphore]: executing diffoscope
+[2023-06-15 02:44:30] INFO root fetch - processPackages [state-machine-semaphore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/state-machine-semaphore-0.1.98.tar.gz tmp/state-machine-semaphore-0.1.99.tar.gz --markdown 20230615/s/state-machine-semaphore/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-06-15 02:44:30] INFO root fetch - processPackages [market-engine]: Downloading https://files.pythonhosted.org/packages/65/b8/cc0815b769875bbc57b0c5f199b0a3987be090f1fafab07531252b2972a2/market-engine-0.0.8.tar.gz
+[2023-06-15 02:44:30] INFO root fetch - processPackages [bs-orm]: executing diffoscope
+[2023-06-15 02:44:30] INFO root fetch - processPackages [bs-orm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bs_orm-0.8.7.post20230615.tar.gz tmp/bs_orm-0.8.8.post20230615.tar.gz --markdown 20230615/b/bs-orm/0.8.7.post20230615-0.8.8.post20230615/diff.md --exclude *.pyd
+[2023-06-15 02:44:30] INFO root fetch - processPackages [lamindb_setup]: executing diffoscope
+[2023-06-15 02:44:30] INFO root fetch - processPackages [lamindb_setup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lamindb_setup-0.47.7.tar.gz tmp/lamindb_setup-0.47.8.tar.gz --markdown 20230615/l/lamindb_setup/0.47.7-0.47.8/diff.md --exclude *.pyd
+[2023-06-15 02:44:30] INFO root fetch - processPackages [market-engine]: executing diffoscope
+[2023-06-15 02:44:30] INFO root fetch - processPackages [market-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/market-engine-0.0.7.tar.gz tmp/market-engine-0.0.8.tar.gz --markdown 20230615/m/market-engine/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-06-15 02:44:30] INFO root fetch - processPackages [tencentcloud-sdk-python-zj]: executing diffoscope
+[2023-06-15 02:44:30] INFO root fetch - processPackages [tencentcloud-sdk-python-zj]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-zj-3.0.914.tar.gz tmp/tencentcloud-sdk-python-zj-3.0.915.tar.gz --markdown 20230615/t/tencentcloud-sdk-python-zj/3.0.914-3.0.915/diff.md --exclude *.pyd
+[2023-06-15 02:44:30] INFO root fetch - processPackages [market-engine]: executing diffoscope
+[2023-06-15 02:44:30] INFO root fetch - processPackages [market-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/market-engine-0.0.7.tar.gz tmp/market-engine-0.0.8.tar.gz --markdown 20230615/m/market-engine/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-06-15 02:44:31] INFO root fetch - processPackages [Priority1py]: Downloading https://files.pythonhosted.org/packages/4c/92/8d4d97db196136e58a19d17b0b79ba8cf59068af5d31c61a47e13a1aa3e8/Priority1py-0.1.1-beta.tar.gz
+[2023-06-15 02:44:31] INFO root fetch - processPackages [numalogic-prometheus]: Downloading https://files.pythonhosted.org/packages/0b/be/fe4322d49e5b770d95867ae54b2cd7229d09689729fc00f6660313e69c71/numalogic_prometheus-0.4.6.tar.gz
+[2023-06-15 02:44:31] INFO root fetch - processPackages [neon-utils]: Downloading https://files.pythonhosted.org/packages/4e/a9/79f50e24979777cd2693a3c822ad9ee5638ba518ac629e1f5441fa20abff/neon_utils-1.5.1a1-py3-none-any.whl
+[2023-06-15 02:44:31] INFO root fetch - processPackages [numalogic-prometheus]: executing diffoscope
+[2023-06-15 02:44:31] INFO root fetch - processPackages [numalogic-prometheus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/numalogic_prometheus-0.4.5.tar.gz tmp/numalogic_prometheus-0.4.6.tar.gz --markdown 20230615/n/numalogic-prometheus/0.4.5-0.4.6/diff.md --exclude *.pyd
+[2023-06-15 02:44:31] INFO root fetch - processPackages [streamflow]: Downloading https://files.pythonhosted.org/packages/59/bc/89046b689e112144d1d33e19210866c8b6934f2b2e66c06e96135eb045d6/streamflow-0.2.0.dev6.tar.gz
+[2023-06-15 02:44:31] INFO root fetch - processPackages [Priority1py]: executing diffoscope
+[2023-06-15 02:44:31] INFO root fetch - processPackages [Priority1py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Priority1py-0.1.0-beta.tar.gz tmp/Priority1py-0.1.1-beta.tar.gz --markdown 20230615/P/Priority1py/0.1.0b0-0.1.1b0/diff.md --exclude *.pyd
+[2023-06-15 02:44:31] INFO root fetch - processPackages [neon-utils]: executing diffoscope
+[2023-06-15 02:44:31] INFO root fetch - processPackages [neon-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon_utils-1.5.0a9-py3-none-any.whl.zip tmp/neon_utils-1.5.1a1-py3-none-any.whl.zip --markdown 20230615/n/neon-utils/1.5.0a9-1.5.1a1/diff.md --exclude *.pyd
+[2023-06-15 02:44:31] INFO root fetch - processPackages [streamflow]: executing diffoscope
+[2023-06-15 02:44:31] INFO root fetch - processPackages [streamflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamflow-0.2.0.dev5.tar.gz tmp/streamflow-0.2.0.dev6.tar.gz --markdown 20230615/s/streamflow/0.2.0.dev5-0.2.0.dev6/diff.md --exclude *.pyd
+[2023-06-15 02:44:32] INFO root fetch - processPackages [bs-orm]: Remove: archive file [/home/abi/fetcher/tmp/bs_orm-0.8.7.post20230615.tar.gz]
+[2023-06-15 02:44:32] INFO root fetch - processPackages [bs-orm]: Remove: archive file [/home/abi/fetcher/tmp/bs_orm-0.8.8.post20230615.tar.gz]
+[2023-06-15 02:44:32] INFO root fetch - processPackages [bs-orm]: Start processing: mapyde
+[2023-06-15 02:44:32] INFO root fetch - main [MainThread]: End processing [bs-orm]: success
+[2023-06-15 02:44:32] INFO root fetch - processPackages [market-engine]: Remove: archive file [/home/abi/fetcher/tmp/market-engine-0.0.7.tar.gz]
+[2023-06-15 02:44:32] INFO root fetch - processPackages [market-engine]: Remove: archive file [/home/abi/fetcher/tmp/market-engine-0.0.8.tar.gz]
+[2023-06-15 02:44:32] INFO root fetch - main [MainThread]: End processing [market-engine]: success
+[2023-06-15 02:44:32] INFO root fetch - processPackages [Priority1py]: Remove: archive file [/home/abi/fetcher/tmp/Priority1py-0.1.0-beta.tar.gz]
+[2023-06-15 02:44:32] INFO root fetch - processPackages [Priority1py]: Remove: archive file [/home/abi/fetcher/tmp/Priority1py-0.1.1-beta.tar.gz]
+[2023-06-15 02:44:32] INFO root fetch - main [MainThread]: End processing [Priority1py]: success
+[2023-06-15 02:44:32] INFO root fetch - processPackages [mapyde]: New version: [0.5.0] Old Version: [0.4.9]
+[2023-06-15 02:44:32] INFO root fetch - processPackages [tencentcloud-sdk-python-zj]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-zj-3.0.914.tar.gz]
+[2023-06-15 02:44:32] INFO root fetch - processPackages [tencentcloud-sdk-python-zj]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-zj-3.0.915.tar.gz]
+[2023-06-15 02:44:32] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-zj]: success
+[2023-06-15 02:44:32] INFO root fetch - processPackages [mapyde]: Downloading https://files.pythonhosted.org/packages/ec/78/23e60dfc8f5fa6e0855dad4aa4555ca67dd78238be65744ec7fa77ab0eb3/mapyde-0.4.9.tar.gz
+[2023-06-15 02:44:32] INFO root fetch - main [MainThread]: End processing [market-engine]: success
+[2023-06-15 02:44:33] INFO root fetch - processPackages [numalogic-prometheus]: Remove: archive file [/home/abi/fetcher/tmp/numalogic_prometheus-0.4.5.tar.gz]
+[2023-06-15 02:44:33] INFO root fetch - processPackages [numalogic-prometheus]: Remove: archive file [/home/abi/fetcher/tmp/numalogic_prometheus-0.4.6.tar.gz]
+[2023-06-15 02:44:33] INFO root fetch - main [MainThread]: End processing [numalogic-prometheus]: success
+[2023-06-15 02:44:33] INFO root fetch - processPackages [state-machine-semaphore]: Remove: archive file [/home/abi/fetcher/tmp/state-machine-semaphore-0.1.98.tar.gz]
+[2023-06-15 02:44:33] INFO root fetch - processPackages [state-machine-semaphore]: Remove: archive file [/home/abi/fetcher/tmp/state-machine-semaphore-0.1.99.tar.gz]
+[2023-06-15 02:44:33] INFO root fetch - main [MainThread]: End processing [state-machine-semaphore]: success
+[2023-06-15 02:44:33] INFO root fetch - processPackages [neon-utils]: Remove: archive file [/home/abi/fetcher/tmp/neon_utils-1.5.0a9-py3-none-any.whl.zip]
+[2023-06-15 02:44:33] INFO root fetch - processPackages [neon-utils]: Remove: archive file [/home/abi/fetcher/tmp/neon_utils-1.5.1a1-py3-none-any.whl.zip]
+[2023-06-15 02:44:33] INFO root fetch - main [MainThread]: End processing [neon-utils]: success
+[2023-06-15 02:44:33] INFO root fetch - processPackages [lamindb_setup]: Remove: archive file [/home/abi/fetcher/tmp/lamindb_setup-0.47.7.tar.gz]
+[2023-06-15 02:44:33] INFO root fetch - processPackages [lamindb_setup]: Remove: archive file [/home/abi/fetcher/tmp/lamindb_setup-0.47.8.tar.gz]
+[2023-06-15 02:44:33] INFO root fetch - main [MainThread]: End processing [lamindb_setup]: success
+[2023-06-15 02:44:33] INFO root fetch - processPackages [streamflow]: Remove: archive file [/home/abi/fetcher/tmp/streamflow-0.2.0.dev5.tar.gz]
+[2023-06-15 02:44:33] INFO root fetch - processPackages [streamflow]: Remove: archive file [/home/abi/fetcher/tmp/streamflow-0.2.0.dev6.tar.gz]
+[2023-06-15 02:44:33] INFO root fetch - main [MainThread]: End processing [streamflow]: success
+[2023-06-15 02:44:34] INFO root fetch - processPackages [mapyde]: Downloading https://files.pythonhosted.org/packages/b6/a3/bfcb5ac3c0c18e7ec98b114f9c36325a8af52a50be2a7759d0fb075dd764/mapyde-0.5.0.tar.gz
+[2023-06-15 02:44:34] INFO root fetch - processPackages [mapyde]: executing diffoscope
+[2023-06-15 02:44:34] INFO root fetch - processPackages [mapyde]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mapyde-0.4.9.tar.gz tmp/mapyde-0.5.0.tar.gz --markdown 20230615/m/mapyde/0.4.9-0.5.0/diff.md --exclude *.pyd
+[2023-06-15 02:44:36] INFO root fetch - processPackages [mapyde]: Remove: archive file [/home/abi/fetcher/tmp/mapyde-0.4.9.tar.gz]
+[2023-06-15 02:44:36] INFO root fetch - processPackages [mapyde]: Remove: archive file [/home/abi/fetcher/tmp/mapyde-0.5.0.tar.gz]
+[2023-06-15 02:44:36] INFO root fetch - main [MainThread]: End processing [mapyde]: success
+[2023-06-15 02:44:36] INFO root fetch - main [MainThread]: Store serial: [18509408]
