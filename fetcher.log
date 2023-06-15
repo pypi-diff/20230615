@@ -18177,3 +18177,123 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-06-15 11:47:53] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202306150943-py3-none-any.whl.zip]
 [2023-06-15 11:47:53] INFO root fetch - main [MainThread]: End processing [kcli]: success
 [2023-06-15 11:47:53] INFO root fetch - main [MainThread]: Store serial: [18514252]
+[2023-06-15 11:52:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18514252]
+[2023-06-15 11:53:03] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-06-15 11:53:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zmkx
+[2023-06-15 11:53:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ultima-scraper-collection
+[2023-06-15 11:53:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ab-test-toolkit
+[2023-06-15 11:53:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: typosquatting
+[2023-06-15 11:53:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: scinumtools
+[2023-06-15 11:53:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: llm-generation-server
+[2023-06-15 11:53:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mnzipcode
+[2023-06-15 11:53:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: fastmodels
+[2023-06-15 11:53:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: distrunner
+[2023-06-15 11:53:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: syngen
+[2023-06-15 11:53:03] WARNING root fetch - processPackages [typosquatting]: Skipping, unable to determine old version
+[2023-06-15 11:53:03] INFO root fetch - processPackages [typosquatting]: Start processing: shaku-database
+[2023-06-15 11:53:03] INFO root fetch - main [MainThread]: End processing [typosquatting] error
+[2023-06-15 11:53:03] WARNING root fetch - processPackages [zmkx]: Skipping, unable to determine old version
+[2023-06-15 11:53:03] INFO root fetch - processPackages [ultima-scraper-collection]: New version: [1.1.3] Old Version: [1.1.2]
+[2023-06-15 11:53:03] INFO root fetch - processPackages [zmkx]: Start processing: typosquatting
+[2023-06-15 11:53:03] INFO root fetch - processPackages [ab-test-toolkit]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-15 11:53:03] INFO root fetch - main [MainThread]: End processing [zmkx] error
+[2023-06-15 11:53:03] INFO root fetch - processPackages [mnzipcode]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-06-15 11:53:03] INFO root fetch - processPackages [llm-generation-server]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-15 11:53:03] INFO root fetch - processPackages [fastmodels]: New version: [0.1.1] Old Version: [0.1]
+[2023-06-15 11:53:03] INFO root fetch - processPackages [scinumtools]: New version: [1.2.2] Old Version: [1.2.1]
+[2023-06-15 11:53:03] INFO root fetch - processPackages [shaku-database]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-06-15 11:53:03] INFO root fetch - processPackages [distrunner]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-06-15 11:53:03] WARNING root fetch - processPackages [typosquatting]: Skipping, unable to determine old version
+[2023-06-15 11:53:03] INFO root fetch - processPackages [typosquatting]: Start processing: kalm
+[2023-06-15 11:53:03] INFO root fetch - main [MainThread]: End processing [typosquatting] error
+[2023-06-15 11:53:03] INFO root fetch - processPackages [syngen]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-15 11:53:03] INFO root fetch - processPackages [mnzipcode]: Downloading https://files.pythonhosted.org/packages/f7/60/3337e6dec61f893c711bf11dc3c1e592a5ba49e6b7ac2891a7f3e3f55b31/mnzipcode-0.0.7.tar.gz
+[2023-06-15 11:53:03] INFO root fetch - processPackages [kalm]: New version: [0.6.9] Old Version: [0.6.8]
+[2023-06-15 11:53:03] INFO root fetch - processPackages [llm-generation-server]: Downloading https://files.pythonhosted.org/packages/34/da/4bb475ce76443eafda82b7881327e6bdf9ea296480b4a5739c07f61ac7d2/llm_generation_server-0.1.1.tar.gz
+[2023-06-15 11:53:03] INFO root fetch - processPackages [shaku-database]: Downloading https://files.pythonhosted.org/packages/67/82/a347f263cb396b056c0da90eed9f73d17b7a0a5881757cafa4443636b089/shaku-database-1.0.5.tar.gz
+[2023-06-15 11:53:03] INFO root fetch - processPackages [distrunner]: Downloading https://files.pythonhosted.org/packages/f0/da/097a57a065cc57fa5f03db1a8421e03aa1e661ec91e01cc2d8d93fbecae2/distrunner-1.0.0.tar.gz
+[2023-06-15 11:53:03] INFO root fetch - processPackages [kalm]: Downloading https://files.pythonhosted.org/packages/08/d6/afbd93ab17a860658e3f78d89626ca0ad442f18d7058216f69066b2b251d/kalm-0.6.8.tar.gz
+[2023-06-15 11:53:03] INFO root fetch - processPackages [fastmodels]: Downloading https://files.pythonhosted.org/packages/0a/4a/fb2a466e270583ae0141d954d3c1505ffdcab0aab3226ea27c8a8d3535ba/fastmodels-0.1.tar.gz
+[2023-06-15 11:53:03] INFO root fetch - processPackages [ab-test-toolkit]: Downloading https://files.pythonhosted.org/packages/88/86/148c1ee99ac301507ca0f2463e2b08391d5430e7e7e087df52b4a05af7bc/ab-test-toolkit-0.0.8.tar.gz
+[2023-06-15 11:53:03] INFO root fetch - processPackages [ultima-scraper-collection]: Downloading https://files.pythonhosted.org/packages/33/27/722f7f071c6aefe7c3231d45fa17de167841d480127fdd3cab6305246415/ultima_scraper_collection-1.1.2.tar.gz
+[2023-06-15 11:53:03] INFO root fetch - processPackages [scinumtools]: Downloading https://files.pythonhosted.org/packages/1a/e5/4cea64db2535d278fb998b3984c2e85469d8a8f271f529cfaa4776ff3160/scinumtools-1.2.1.tar.gz
+[2023-06-15 11:53:03] INFO root fetch - processPackages [syngen]: Downloading https://files.pythonhosted.org/packages/d1/5c/1a07748f97870290d6219c56768425459aa1519f941153183894348fc83a/syngen-0.1.8.tar.gz
+[2023-06-15 11:53:03] INFO root fetch - processPackages [shaku-database]: Downloading https://files.pythonhosted.org/packages/4b/f6/2e2e75ecd7452bd7036a1a458422cf279f0545e580ed4095a0d4e75b8064/shaku-database-1.0.6.tar.gz
+[2023-06-15 11:53:03] INFO root fetch - processPackages [mnzipcode]: Downloading https://files.pythonhosted.org/packages/33/d4/8e5e8f293f3d8bf3cc67d84229cb1ed93d1c0a7e9e8687b9d87ef6dff5bb/mnzipcode-0.0.8.tar.gz
+[2023-06-15 11:53:03] INFO root fetch - processPackages [kalm]: Downloading https://files.pythonhosted.org/packages/f3/ee/21230318a80577b7a92a016e6f1cf516735d553ff6164c13ff461de986aa/kalm-0.6.9.tar.gz
+[2023-06-15 11:53:03] INFO root fetch - processPackages [distrunner]: Downloading https://files.pythonhosted.org/packages/30/9c/4692380ffe3e082e2790852d262b1d1a5bded268016551bb2c02806b2a55/distrunner-1.1.0.tar.gz
+[2023-06-15 11:53:03] INFO root fetch - processPackages [llm-generation-server]: Downloading https://files.pythonhosted.org/packages/a9/c7/60d9ee578f53e3c23b27bd219025e0c4ede4cb3116803642b0901c39b8a6/llm_generation_server-0.1.2.tar.gz
+[2023-06-15 11:53:03] INFO root fetch - processPackages [ab-test-toolkit]: Downloading https://files.pythonhosted.org/packages/48/e3/2e2065804d84d6c11fcfdfe48ce4015356cacde1d994e4ccafa74369f8e3/ab-test-toolkit-0.0.9.tar.gz
+[2023-06-15 11:53:03] INFO root fetch - processPackages [mnzipcode]: executing diffoscope
+[2023-06-15 11:53:03] INFO root fetch - processPackages [mnzipcode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mnzipcode-0.0.7.tar.gz tmp/mnzipcode-0.0.8.tar.gz --markdown 20230615/m/mnzipcode/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-06-15 11:53:03] INFO root fetch - processPackages [fastmodels]: Downloading https://files.pythonhosted.org/packages/c4/89/03622482cb4e62584fdf769898fb03eb43eed996908db69fb8e5e480fd8c/fastmodels-0.1.1.tar.gz
+[2023-06-15 11:53:04] INFO root fetch - processPackages [distrunner]: executing diffoscope
+[2023-06-15 11:53:04] INFO root fetch - processPackages [kalm]: executing diffoscope
+[2023-06-15 11:53:04] INFO root fetch - processPackages [distrunner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/distrunner-1.0.0.tar.gz tmp/distrunner-1.1.0.tar.gz --markdown 20230615/d/distrunner/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-06-15 11:53:04] INFO root fetch - processPackages [kalm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kalm-0.6.8.tar.gz tmp/kalm-0.6.9.tar.gz --markdown 20230615/k/kalm/0.6.8-0.6.9/diff.md --exclude *.pyd
+[2023-06-15 11:53:04] INFO root fetch - processPackages [shaku-database]: executing diffoscope
+[2023-06-15 11:53:04] INFO root fetch - processPackages [shaku-database]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shaku-database-1.0.5.tar.gz tmp/shaku-database-1.0.6.tar.gz --markdown 20230615/s/shaku-database/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-06-15 11:53:04] INFO root fetch - processPackages [ab-test-toolkit]: executing diffoscope
+[2023-06-15 11:53:04] INFO root fetch - processPackages [ab-test-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ab-test-toolkit-0.0.8.tar.gz tmp/ab-test-toolkit-0.0.9.tar.gz --markdown 20230615/a/ab-test-toolkit/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-15 11:53:04] INFO root fetch - processPackages [scinumtools]: Downloading https://files.pythonhosted.org/packages/b9/8a/3cf2642586b2dea399dab745a873ab62424e2a1a44163ff679aa2f6a2481/scinumtools-1.2.2.tar.gz
+[2023-06-15 11:53:04] INFO root fetch - processPackages [ultima-scraper-collection]: Downloading https://files.pythonhosted.org/packages/bc/57/33117fa0484d3bd976b43d5aa80e6700ec20990e17357226c95e03e9c9da/ultima_scraper_collection-1.1.3.tar.gz
+[2023-06-15 11:53:04] INFO root fetch - processPackages [fastmodels]: executing diffoscope
+[2023-06-15 11:53:04] INFO root fetch - processPackages [fastmodels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastmodels-0.1.tar.gz tmp/fastmodels-0.1.1.tar.gz --markdown 20230615/f/fastmodels/0.1-0.1.1/diff.md --exclude *.pyd
+[2023-06-15 11:53:04] INFO root fetch - processPackages [llm-generation-server]: executing diffoscope
+[2023-06-15 11:53:04] INFO root fetch - processPackages [llm-generation-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llm_generation_server-0.1.1.tar.gz tmp/llm_generation_server-0.1.2.tar.gz --markdown 20230615/l/llm-generation-server/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-15 11:53:04] INFO root fetch - processPackages [scinumtools]: executing diffoscope
+[2023-06-15 11:53:04] INFO root fetch - processPackages [scinumtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scinumtools-1.2.1.tar.gz tmp/scinumtools-1.2.2.tar.gz --markdown 20230615/s/scinumtools/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2023-06-15 11:53:04] INFO root fetch - processPackages [ultima-scraper-collection]: executing diffoscope
+[2023-06-15 11:53:04] INFO root fetch - processPackages [ultima-scraper-collection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ultima_scraper_collection-1.1.2.tar.gz tmp/ultima_scraper_collection-1.1.3.tar.gz --markdown 20230615/u/ultima-scraper-collection/1.1.2-1.1.3/diff.md --exclude *.pyd
+[2023-06-15 11:53:04] INFO root fetch - processPackages [syngen]: Downloading https://files.pythonhosted.org/packages/1c/ec/09634635304cfe54bd538c9f136477113b28b8b56e10596aec3cf678573a/syngen-0.1.9.tar.gz
+[2023-06-15 11:53:04] INFO root fetch - processPackages [syngen]: executing diffoscope
+[2023-06-15 11:53:04] INFO root fetch - processPackages [syngen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syngen-0.1.8.tar.gz tmp/syngen-0.1.9.tar.gz --markdown 20230615/s/syngen/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-15 11:53:05] INFO root fetch - processPackages [mnzipcode]: Remove: archive file [/home/abi/fetcher/tmp/mnzipcode-0.0.7.tar.gz]
+[2023-06-15 11:53:05] INFO root fetch - processPackages [mnzipcode]: Remove: archive file [/home/abi/fetcher/tmp/mnzipcode-0.0.8.tar.gz]
+[2023-06-15 11:53:05] INFO root fetch - processPackages [mnzipcode]: Start processing: django-groups-manager
+[2023-06-15 11:53:05] INFO root fetch - main [MainThread]: End processing [mnzipcode]: success
+[2023-06-15 11:53:05] INFO root fetch - processPackages [django-groups-manager]: New version: [1.3.0] Old Version: [1.2.0]
+[2023-06-15 11:53:06] INFO root fetch - processPackages [fastmodels]: Remove: archive file [/home/abi/fetcher/tmp/fastmodels-0.1.tar.gz]
+[2023-06-15 11:53:06] INFO root fetch - processPackages [fastmodels]: Remove: archive file [/home/abi/fetcher/tmp/fastmodels-0.1.1.tar.gz]
+[2023-06-15 11:53:06] INFO root fetch - processPackages [fastmodels]: Start processing: numerical-py
+[2023-06-15 11:53:06] INFO root fetch - main [MainThread]: End processing [fastmodels]: success
+[2023-06-15 11:53:06] INFO root fetch - processPackages [numerical-py]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-15 11:53:06] INFO root fetch - processPackages [distrunner]: Remove: archive file [/home/abi/fetcher/tmp/distrunner-1.0.0.tar.gz]
+[2023-06-15 11:53:06] INFO root fetch - processPackages [distrunner]: Remove: archive file [/home/abi/fetcher/tmp/distrunner-1.1.0.tar.gz]
+[2023-06-15 11:53:06] INFO root fetch - main [MainThread]: End processing [distrunner]: success
+[2023-06-15 11:53:06] INFO root fetch - processPackages [django-groups-manager]: Downloading https://files.pythonhosted.org/packages/56/2e/9752a533735bbb46e008504a1af976579a1cdfc7b55562e343fe60790339/django-groups-manager-1.2.0.tar.gz
+[2023-06-15 11:53:06] INFO root fetch - processPackages [numerical-py]: Downloading https://files.pythonhosted.org/packages/1d/de/1646bfffd31b37c02f76dd709f9c00e9f79df74282ab8379237197ee3794/numerical_py-0.0.8.tar.gz
+[2023-06-15 11:53:06] INFO root fetch - processPackages [kalm]: Remove: archive file [/home/abi/fetcher/tmp/kalm-0.6.8.tar.gz]
+[2023-06-15 11:53:06] INFO root fetch - processPackages [kalm]: Remove: archive file [/home/abi/fetcher/tmp/kalm-0.6.9.tar.gz]
+[2023-06-15 11:53:06] INFO root fetch - main [MainThread]: End processing [kalm]: success
+[2023-06-15 11:53:06] INFO root fetch - processPackages [numerical-py]: Downloading https://files.pythonhosted.org/packages/95/1d/7677791c6175f40bd4a70e667ae838300671845f99330142d2e9a3d9f7f8/numerical_py-0.0.9.tar.gz
+[2023-06-15 11:53:06] INFO root fetch - processPackages [shaku-database]: Remove: archive file [/home/abi/fetcher/tmp/shaku-database-1.0.5.tar.gz]
+[2023-06-15 11:53:06] INFO root fetch - processPackages [shaku-database]: Remove: archive file [/home/abi/fetcher/tmp/shaku-database-1.0.6.tar.gz]
+[2023-06-15 11:53:06] INFO root fetch - main [MainThread]: End processing [shaku-database]: success
+[2023-06-15 11:53:06] INFO root fetch - processPackages [numerical-py]: executing diffoscope
+[2023-06-15 11:53:06] INFO root fetch - processPackages [numerical-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/numerical_py-0.0.8.tar.gz tmp/numerical_py-0.0.9.tar.gz --markdown 20230615/n/numerical-py/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-15 11:53:06] INFO root fetch - processPackages [django-groups-manager]: Downloading https://files.pythonhosted.org/packages/a6/47/3420f49d6316cb194e9ad26e3490573791f0829d24ba6a5913c3c8849818/django-groups-manager-1.3.0.tar.gz
+[2023-06-15 11:53:06] INFO root fetch - processPackages [scinumtools]: Remove: archive file [/home/abi/fetcher/tmp/scinumtools-1.2.1.tar.gz]
+[2023-06-15 11:53:06] INFO root fetch - processPackages [scinumtools]: Remove: archive file [/home/abi/fetcher/tmp/scinumtools-1.2.2.tar.gz]
+[2023-06-15 11:53:06] INFO root fetch - main [MainThread]: End processing [scinumtools]: success
+[2023-06-15 11:53:06] INFO root fetch - processPackages [django-groups-manager]: executing diffoscope
+[2023-06-15 11:53:06] INFO root fetch - processPackages [django-groups-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-groups-manager-1.2.0.tar.gz tmp/django-groups-manager-1.3.0.tar.gz --markdown 20230615/d/django-groups-manager/1.2.0-1.3.0/diff.md --exclude *.pyd
+[2023-06-15 11:53:06] INFO root fetch - processPackages [ab-test-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/ab-test-toolkit-0.0.8.tar.gz]
+[2023-06-15 11:53:06] INFO root fetch - processPackages [ab-test-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/ab-test-toolkit-0.0.9.tar.gz]
+[2023-06-15 11:53:06] INFO root fetch - main [MainThread]: End processing [ab-test-toolkit]: success
+[2023-06-15 11:53:07] INFO root fetch - processPackages [llm-generation-server]: Remove: archive file [/home/abi/fetcher/tmp/llm_generation_server-0.1.1.tar.gz]
+[2023-06-15 11:53:07] INFO root fetch - processPackages [llm-generation-server]: Remove: archive file [/home/abi/fetcher/tmp/llm_generation_server-0.1.2.tar.gz]
+[2023-06-15 11:53:07] INFO root fetch - main [MainThread]: End processing [llm-generation-server]: success
+[2023-06-15 11:53:07] INFO root fetch - processPackages [syngen]: Remove: archive file [/home/abi/fetcher/tmp/syngen-0.1.8.tar.gz]
+[2023-06-15 11:53:07] INFO root fetch - processPackages [syngen]: Remove: archive file [/home/abi/fetcher/tmp/syngen-0.1.9.tar.gz]
+[2023-06-15 11:53:07] INFO root fetch - main [MainThread]: End processing [syngen]: success
+[2023-06-15 11:53:07] INFO root fetch - processPackages [numerical-py]: Remove: archive file [/home/abi/fetcher/tmp/numerical_py-0.0.8.tar.gz]
+[2023-06-15 11:53:07] INFO root fetch - processPackages [numerical-py]: Remove: archive file [/home/abi/fetcher/tmp/numerical_py-0.0.9.tar.gz]
+[2023-06-15 11:53:07] INFO root fetch - main [MainThread]: End processing [numerical-py]: success
+[2023-06-15 11:53:07] INFO root fetch - processPackages [ultima-scraper-collection]: Remove: archive file [/home/abi/fetcher/tmp/ultima_scraper_collection-1.1.2.tar.gz]
+[2023-06-15 11:53:07] INFO root fetch - processPackages [ultima-scraper-collection]: Remove: archive file [/home/abi/fetcher/tmp/ultima_scraper_collection-1.1.3.tar.gz]
+[2023-06-15 11:53:07] INFO root fetch - main [MainThread]: End processing [ultima-scraper-collection]: success
+[2023-06-15 11:53:09] INFO root fetch - processPackages [django-groups-manager]: Remove: archive file [/home/abi/fetcher/tmp/django-groups-manager-1.2.0.tar.gz]
+[2023-06-15 11:53:09] INFO root fetch - processPackages [django-groups-manager]: Remove: archive file [/home/abi/fetcher/tmp/django-groups-manager-1.3.0.tar.gz]
+[2023-06-15 11:53:09] INFO root fetch - main [MainThread]: End processing [django-groups-manager]: success
+[2023-06-15 11:53:09] INFO root fetch - main [MainThread]: Store serial: [18514298]
