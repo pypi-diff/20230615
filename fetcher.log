@@ -8259,3 +8259,150 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-15 05:08:43] INFO root fetch - processPackages [odoo-addon-crm-claim-type]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_crm_claim_type-15.0.1.0.0.8-py3-none-any.whl.zip]
 [2023-06-15 05:08:43] INFO root fetch - main [MainThread]: End processing [odoo-addon-crm-claim-type]: success
 [2023-06-15 05:08:43] INFO root fetch - main [MainThread]: Store serial: [18510568]
+[2023-06-15 05:13:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18510568]
+[2023-06-15 05:13:52] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-06-15 05:13:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-crm-partner-assign
+[2023-06-15 05:13:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-crm-phonecall
+[2023-06-15 05:13:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-crm-partner-assign
+[2023-06-15 05:13:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-crm-claim
+[2023-06-15 05:13:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: embarrassing
+[2023-06-15 05:13:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ga-api-client
+[2023-06-15 05:13:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo14-addon-currency-monthly-rate
+[2023-06-15 05:13:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo-addon-currency-rate-update
+[2023-06-15 05:13:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo14-addon-currency-rate-update
+[2023-06-15 05:13:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo14-addons-oca-currency
+[2023-06-15 05:13:52] INFO root fetch - processPackages [odoo-addon-crm-partner-assign]: New version: [16.0.0.1.2.4] Old Version: [16.0.0.1.2.3]
+[2023-06-15 05:13:52] INFO root fetch - processPackages [ga-api-client]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-15 05:13:52] INFO root fetch - processPackages [odoo-addon-crm-partner-assign]: New version: [16.0.0.1.2.4] Old Version: [16.0.0.1.2.3]
+[2023-06-15 05:13:52] INFO root fetch - processPackages [odoo14-addons-oca-currency]: New version: [14.0.20230614.0] Old Version: [14.0.20230610.0]
+[2023-06-15 05:13:52] INFO root fetch - processPackages [odoo-addon-crm-phonecall]: New version: [16.0.1.1.0.6] Old Version: [16.0.1.1.0.5]
+[2023-06-15 05:13:52] INFO root fetch - processPackages [odoo-addon-crm-claim]: New version: [16.0.1.0.0.3] Old Version: [16.0.1.0.0.2]
+[2023-06-15 05:13:52] INFO root fetch - processPackages [odoo-addon-currency-rate-update]: New version: [16.0.1.1.1.1] Old Version: [16.0.1.1.1]
+[2023-06-15 05:13:52] INFO root fetch - processPackages [odoo14-addon-currency-monthly-rate]: New version: [14.0.1.0.1.dev4] Old Version: [14.0.1.0.1.dev3]
+[2023-06-15 05:13:52] INFO root fetch - processPackages [embarrassing]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-15 05:13:52] INFO root fetch - processPackages [odoo-addon-crm-partner-assign]: Downloading https://files.pythonhosted.org/packages/62/bd/99a95ea33d670c425ff6cd22e4918253f8bbedde170254c5cf47726b7339/odoo_addon_crm_partner_assign-16.0.0.1.2.3-py3-none-any.whl
+[2023-06-15 05:13:52] INFO root fetch - processPackages [odoo-addon-crm-partner-assign]: Downloading https://files.pythonhosted.org/packages/62/bd/99a95ea33d670c425ff6cd22e4918253f8bbedde170254c5cf47726b7339/odoo_addon_crm_partner_assign-16.0.0.1.2.3-py3-none-any.whl
+[2023-06-15 05:13:52] INFO root fetch - processPackages [odoo-addon-currency-rate-update]: Downloading https://files.pythonhosted.org/packages/17/bc/34a6c835aac587865f6be611aee3ce781648c2af1d8687caaa185ba59609/odoo_addon_currency_rate_update-16.0.1.1.1-py3-none-any.whl
+[2023-06-15 05:13:52] INFO root fetch - processPackages [odoo14-addon-currency-rate-update]: New version: [14.0.1.3.1.dev9] Old Version: [14.0.1.3.1.dev8]
+[2023-06-15 05:13:52] INFO root fetch - processPackages [ga-api-client]: Downloading https://files.pythonhosted.org/packages/aa/61/da83c1ee4286836f756d56914d6eabb50e1e4f3f91c6d36ef734d17d0095/ga-api-client-0.2.8.tar.gz
+[2023-06-15 05:13:52] INFO root fetch - processPackages [odoo14-addon-currency-monthly-rate]: Downloading https://files.pythonhosted.org/packages/2c/b7/6b84bc0009b937f3f58b5bf31fd2c5917ced92a8bdeb5b3dca93e62ac375/odoo14_addon_currency_monthly_rate-14.0.1.0.1.dev3-py3-none-any.whl
+[2023-06-15 05:13:52] INFO root fetch - processPackages [odoo-addon-crm-claim]: Downloading https://files.pythonhosted.org/packages/ba/9b/37d93791117d0a9f35d17c4a34cf46593a83a7a078cca2237540ca42c696/odoo_addon_crm_claim-16.0.1.0.0.2-py3-none-any.whl
+[2023-06-15 05:13:52] INFO root fetch - processPackages [embarrassing]: Downloading https://files.pythonhosted.org/packages/6a/dd/6467af952aad163f3d3a00f42073f0292cffb27e2c64b8fdf256c8e293c3/embarrassing-0.0.8.tar.gz
+[2023-06-15 05:13:52] INFO root fetch - processPackages [odoo-addon-crm-partner-assign]: Downloading https://files.pythonhosted.org/packages/97/e3/c91bf27745fec7070d2f7824e3817fc85ebb7e965272c1e486a0cd594bcd/odoo_addon_crm_partner_assign-16.0.0.1.2.4-py3-none-any.whl
+[2023-06-15 05:13:52] INFO root fetch - processPackages [odoo14-addons-oca-currency]: Downloading https://files.pythonhosted.org/packages/a2/68/3a4bf463c630a2e042751bfadaaab8fd1df8e6f38278d6743b37e2c5f568/odoo14_addons_oca_currency-14.0.20230610.0-py3-none-any.whl
+[2023-06-15 05:13:52] INFO root fetch - processPackages [odoo-addon-crm-phonecall]: Downloading https://files.pythonhosted.org/packages/7b/9d/e3d0335d81cced8a55f0f7ec9d3873a94e3c92683aec3128219413a91974/odoo_addon_crm_phonecall-16.0.1.1.0.5-py3-none-any.whl
+[2023-06-15 05:13:52] INFO root fetch - processPackages [odoo14-addon-currency-rate-update]: Downloading https://files.pythonhosted.org/packages/9d/ce/5e3bb9ef15c1da0408e8a3f8c9fee1736aea1dea478454e31c63344102e1/odoo14_addon_currency_rate_update-14.0.1.3.1.dev8-py3-none-any.whl
+[2023-06-15 05:13:52] INFO root fetch - processPackages [odoo-addon-crm-partner-assign]: Downloading https://files.pythonhosted.org/packages/97/e3/c91bf27745fec7070d2f7824e3817fc85ebb7e965272c1e486a0cd594bcd/odoo_addon_crm_partner_assign-16.0.0.1.2.4-py3-none-any.whl
+[2023-06-15 05:13:52] INFO root fetch - processPackages [odoo-addon-crm-partner-assign]: executing diffoscope
+[2023-06-15 05:13:52] INFO root fetch - processPackages [odoo-addon-crm-partner-assign]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_crm_partner_assign-16.0.0.1.2.3-py3-none-any.whl.zip tmp/odoo_addon_crm_partner_assign-16.0.0.1.2.4-py3-none-any.whl.zip --markdown 20230615/o/odoo-addon-crm-partner-assign/16.0.0.1.2.3-16.0.0.1.2.4/diff.md --exclude *.pyd
+[2023-06-15 05:13:52] INFO root fetch - processPackages [odoo-addon-currency-rate-update]: Downloading https://files.pythonhosted.org/packages/6c/48/26d3e64bd162130c22d410c1466dfd03ef2d02aa5f9c56f87ececdc79126/odoo_addon_currency_rate_update-16.0.1.1.1.1-py3-none-any.whl
+[2023-06-15 05:13:52] INFO root fetch - processPackages [odoo-addon-crm-partner-assign]: executing diffoscope
+[2023-06-15 05:13:52] INFO root fetch - processPackages [odoo-addon-crm-partner-assign]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_crm_partner_assign-16.0.0.1.2.3-py3-none-any.whl.zip tmp/odoo_addon_crm_partner_assign-16.0.0.1.2.4-py3-none-any.whl.zip --markdown 20230615/o/odoo-addon-crm-partner-assign/16.0.0.1.2.3-16.0.0.1.2.4/diff.md --exclude *.pyd
+[2023-06-15 05:13:52] INFO root fetch - processPackages [embarrassing]: Downloading https://files.pythonhosted.org/packages/2f/bb/5c01c536c424d185a6353dcc022efd9c90eb7d2029b85f74ecf693ceb9d1/embarrassing-0.0.9.tar.gz
+[2023-06-15 05:13:52] INFO root fetch - processPackages [odoo14-addon-currency-monthly-rate]: Downloading https://files.pythonhosted.org/packages/30/32/17dcab75c4b634adf13927865c5efdd5ea86061eda461e2c220093a80a67/odoo14_addon_currency_monthly_rate-14.0.1.0.1.dev4-py3-none-any.whl
+[2023-06-15 05:13:52] INFO root fetch - processPackages [odoo14-addons-oca-currency]: Downloading https://files.pythonhosted.org/packages/c6/05/add610437f306e7e05e20de36e707d5e2c140cf451e8edc1f45c7e3c429c/odoo14_addons_oca_currency-14.0.20230614.0-py3-none-any.whl
+[2023-06-15 05:13:52] INFO root fetch - processPackages [odoo-addon-currency-rate-update]: executing diffoscope
+[2023-06-15 05:13:52] INFO root fetch - processPackages [odoo-addon-currency-rate-update]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_currency_rate_update-16.0.1.1.1-py3-none-any.whl.zip tmp/odoo_addon_currency_rate_update-16.0.1.1.1.1-py3-none-any.whl.zip --markdown 20230615/o/odoo-addon-currency-rate-update/16.0.1.1.1-16.0.1.1.1.1/diff.md --exclude *.pyd
+[2023-06-15 05:13:52] INFO root fetch - processPackages [embarrassing]: executing diffoscope
+[2023-06-15 05:13:52] INFO root fetch - processPackages [embarrassing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/embarrassing-0.0.8.tar.gz tmp/embarrassing-0.0.9.tar.gz --markdown 20230615/e/embarrassing/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-15 05:13:52] INFO root fetch - processPackages [odoo14-addons-oca-currency]: executing diffoscope
+[2023-06-15 05:13:52] INFO root fetch - processPackages [odoo14-addons-oca-currency]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addons_oca_currency-14.0.20230610.0-py3-none-any.whl.zip tmp/odoo14_addons_oca_currency-14.0.20230614.0-py3-none-any.whl.zip --markdown 20230615/o/odoo14-addons-oca-currency/14.0.20230610.0-14.0.20230614.0/diff.md --exclude *.pyd
+[2023-06-15 05:13:52] INFO root fetch - processPackages [odoo-addon-crm-phonecall]: Downloading https://files.pythonhosted.org/packages/6b/d6/417799d4922a3283e08e0293edefa43ce3c0e9e16518a8fa6726867465ee/odoo_addon_crm_phonecall-16.0.1.1.0.6-py3-none-any.whl
+[2023-06-15 05:13:53] INFO root fetch - processPackages [odoo14-addon-currency-rate-update]: Downloading https://files.pythonhosted.org/packages/78/ba/5e727d2498e6fd3285a31968d33558f7b20eb66a6db27d2fab12e332598d/odoo14_addon_currency_rate_update-14.0.1.3.1.dev9-py3-none-any.whl
+[2023-06-15 05:13:53] INFO root fetch - processPackages [odoo14-addon-currency-monthly-rate]: executing diffoscope
+[2023-06-15 05:13:53] INFO root fetch - processPackages [odoo14-addon-currency-monthly-rate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_currency_monthly_rate-14.0.1.0.1.dev3-py3-none-any.whl.zip tmp/odoo14_addon_currency_monthly_rate-14.0.1.0.1.dev4-py3-none-any.whl.zip --markdown 20230615/o/odoo14-addon-currency-monthly-rate/14.0.1.0.1.dev3-14.0.1.0.1.dev4/diff.md --exclude *.pyd
+[2023-06-15 05:13:53] INFO root fetch - processPackages [odoo-addon-crm-phonecall]: executing diffoscope
+[2023-06-15 05:13:53] INFO root fetch - processPackages [odoo-addon-crm-phonecall]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_crm_phonecall-16.0.1.1.0.5-py3-none-any.whl.zip tmp/odoo_addon_crm_phonecall-16.0.1.1.0.6-py3-none-any.whl.zip --markdown 20230615/o/odoo-addon-crm-phonecall/16.0.1.1.0.5-16.0.1.1.0.6/diff.md --exclude *.pyd
+[2023-06-15 05:13:53] INFO root fetch - processPackages [odoo14-addon-currency-rate-update]: executing diffoscope
+[2023-06-15 05:13:53] INFO root fetch - processPackages [odoo14-addon-currency-rate-update]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_currency_rate_update-14.0.1.3.1.dev8-py3-none-any.whl.zip tmp/odoo14_addon_currency_rate_update-14.0.1.3.1.dev9-py3-none-any.whl.zip --markdown 20230615/o/odoo14-addon-currency-rate-update/14.0.1.3.1.dev8-14.0.1.3.1.dev9/diff.md --exclude *.pyd
+[2023-06-15 05:13:53] INFO root fetch - processPackages [odoo-addon-crm-claim]: Downloading https://files.pythonhosted.org/packages/39/67/f7b35b7e11370e2008094000c9e5fabfd84fe399c4e10d2c9b96da5ec0fe/odoo_addon_crm_claim-16.0.1.0.0.3-py3-none-any.whl
+[2023-06-15 05:13:53] INFO root fetch - processPackages [odoo-addon-crm-claim]: executing diffoscope
+[2023-06-15 05:13:53] INFO root fetch - processPackages [odoo-addon-crm-claim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_crm_claim-16.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_crm_claim-16.0.1.0.0.3-py3-none-any.whl.zip --markdown 20230615/o/odoo-addon-crm-claim/16.0.1.0.0.2-16.0.1.0.0.3/diff.md --exclude *.pyd
+[2023-06-15 05:13:53] INFO root fetch - processPackages [ga-api-client]: Downloading https://files.pythonhosted.org/packages/76/bb/94a2addc2aab4bbf37a95b7af0410acb52d36a8f3657ff6017212260fc58/ga-api-client-0.2.9.tar.gz
+[2023-06-15 05:13:53] INFO root fetch - processPackages [ga-api-client]: executing diffoscope
+[2023-06-15 05:13:53] INFO root fetch - processPackages [ga-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ga-api-client-0.2.8.tar.gz tmp/ga-api-client-0.2.9.tar.gz --markdown 20230615/g/ga-api-client/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-15 05:13:54] INFO root fetch - processPackages [odoo-addon-crm-partner-assign]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_crm_partner_assign-16.0.0.1.2.3-py3-none-any.whl.zip]
+[2023-06-15 05:13:54] INFO root fetch - processPackages [odoo-addon-crm-partner-assign]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_crm_partner_assign-16.0.0.1.2.4-py3-none-any.whl.zip]
+[2023-06-15 05:13:54] INFO root fetch - processPackages [odoo-addon-crm-partner-assign]: Start processing: pepperize.cdk-autoscaling-gitlab-runner
+[2023-06-15 05:13:54] INFO root fetch - main [MainThread]: End processing [odoo-addon-crm-partner-assign]: success
+[2023-06-15 05:13:54] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: New version: [0.2.99] Old Version: [0.2.98]
+[2023-06-15 05:13:54] INFO root fetch - processPackages [odoo14-addons-oca-currency]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addons_oca_currency-14.0.20230610.0-py3-none-any.whl.zip]
+[2023-06-15 05:13:54] INFO root fetch - processPackages [odoo14-addons-oca-currency]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addons_oca_currency-14.0.20230614.0-py3-none-any.whl.zip]
+[2023-06-15 05:13:54] INFO root fetch - processPackages [odoo14-addons-oca-currency]: Start processing: embarrassing
+[2023-06-15 05:13:54] INFO root fetch - main [MainThread]: End processing [odoo14-addons-oca-currency]: success
+[2023-06-15 05:13:54] INFO root fetch - processPackages [odoo-addon-crm-partner-assign]: Start processing: centaur-client
+[2023-06-15 05:13:54] INFO root fetch - main [MainThread]: End processing [odoo-addon-crm-partner-assign]: success
+[2023-06-15 05:13:54] INFO root fetch - processPackages [embarrassing]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-15 05:13:54] WARNING root fetch - processPackages [centaur-client]: Skipping, unable to determine old version
+[2023-06-15 05:13:54] INFO root fetch - processPackages [centaur-client]: Start processing: neon-skill-date-time
+[2023-06-15 05:13:54] INFO root fetch - main [MainThread]: End processing [centaur-client] error
+[2023-06-15 05:13:54] INFO root fetch - processPackages [neon-skill-date-time]: New version: [0.3.2a2] Old Version: [0.3.2a1]
+[2023-06-15 05:13:54] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/20/7a/1cf95cd827a5bc2353d4a04fac9ad2282341306d1871323109bc1fcdc1bf/pepperize.cdk-autoscaling-gitlab-runner-0.2.98.tar.gz
+[2023-06-15 05:13:54] INFO root fetch - processPackages [embarrassing]: executing diffoscope
+[2023-06-15 05:13:54] INFO root fetch - processPackages [embarrassing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/embarrassing-0.0.8.tar.gz tmp/embarrassing-0.0.9.tar.gz --markdown 20230615/e/embarrassing/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-15 05:13:54] INFO root fetch - processPackages [embarrassing]: Remove: archive file [/home/abi/fetcher/tmp/embarrassing-0.0.8.tar.gz]
+[2023-06-15 05:13:54] INFO root fetch - processPackages [embarrassing]: Remove: archive file [/home/abi/fetcher/tmp/embarrassing-0.0.9.tar.gz]
+[2023-06-15 05:13:54] INFO root fetch - processPackages [embarrassing]: Start processing: GANDLF
+[2023-06-15 05:13:54] INFO root fetch - main [MainThread]: End processing [embarrassing]: success
+[2023-06-15 05:13:54] INFO root fetch - processPackages [GANDLF]: New version: [0.0.17.dev20230615] Old Version: [0.0.17.dev20230614]
+[2023-06-15 05:13:54] INFO root fetch - processPackages [GANDLF]: Downloading https://files.pythonhosted.org/packages/2d/77/7039f54677a021037099232366410a403b8cc8c9b71baab3f98f33371aaa/GANDLF-0.0.17.dev20230614.tar.gz
+[2023-06-15 05:13:54] INFO root fetch - processPackages [neon-skill-date-time]: Downloading https://files.pythonhosted.org/packages/01/7b/e2ea9ebc920c69c3e2a599b0c616fac236dabc908994fb073923a6c32d92/neon_skill_date_time-0.3.2a1-py3-none-any.whl
+[2023-06-15 05:13:54] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/a1/02/a44f26db0508904ac5d6e70c575bf20e4f99ab1df68dad57967a57b3a117/pepperize.cdk-autoscaling-gitlab-runner-0.2.99.tar.gz
+[2023-06-15 05:13:54] INFO root fetch - processPackages [GANDLF]: Downloading https://files.pythonhosted.org/packages/3c/fa/0b6b9ba59995039f41c899f56f1214436d035058da9d6a8e42fabe1dbda4/GANDLF-0.0.17.dev20230615.tar.gz
+[2023-06-15 05:13:55] INFO root fetch - processPackages [GANDLF]: executing diffoscope
+[2023-06-15 05:13:55] INFO root fetch - processPackages [GANDLF]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GANDLF-0.0.17.dev20230614.tar.gz tmp/GANDLF-0.0.17.dev20230615.tar.gz --markdown 20230615/G/GANDLF/0.0.17.dev20230614-0.0.17.dev20230615/diff.md --exclude *.pyd
+[2023-06-15 05:13:55] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: executing diffoscope
+[2023-06-15 05:13:55] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-autoscaling-gitlab-runner-0.2.98.tar.gz tmp/pepperize.cdk-autoscaling-gitlab-runner-0.2.99.tar.gz --markdown 20230615/p/pepperize.cdk-autoscaling-gitlab-runner/0.2.98-0.2.99/diff.md --exclude *.pyd
+[2023-06-15 05:13:55] INFO root fetch - processPackages [neon-skill-date-time]: Downloading https://files.pythonhosted.org/packages/cb/69/76c00b4626c49d61812d7849f3f1851499228cd0ee24d863c37baa43f28c/neon_skill_date_time-0.3.2a2-py3-none-any.whl
+[2023-06-15 05:13:55] INFO root fetch - processPackages [odoo-addon-crm-claim]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_crm_claim-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2023-06-15 05:13:55] INFO root fetch - processPackages [odoo-addon-crm-claim]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_crm_claim-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2023-06-15 05:13:55] INFO root fetch - processPackages [odoo-addon-crm-claim]: Start processing: neon-skill-about
+[2023-06-15 05:13:55] INFO root fetch - main [MainThread]: End processing [odoo-addon-crm-claim]: success
+[2023-06-15 05:13:55] INFO root fetch - processPackages [neon-skill-about]: New version: [0.2.2a2] Old Version: [0.2.2a1]
+[2023-06-15 05:13:55] INFO root fetch - processPackages [neon-skill-date-time]: executing diffoscope
+[2023-06-15 05:13:55] INFO root fetch - processPackages [neon-skill-date-time]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon_skill_date_time-0.3.2a1-py3-none-any.whl.zip tmp/neon_skill_date_time-0.3.2a2-py3-none-any.whl.zip --markdown 20230615/n/neon-skill-date-time/0.3.2a1-0.3.2a2/diff.md --exclude *.pyd
+[2023-06-15 05:13:55] INFO root fetch - processPackages [odoo14-addon-currency-rate-update]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_currency_rate_update-14.0.1.3.1.dev8-py3-none-any.whl.zip]
+[2023-06-15 05:13:55] INFO root fetch - processPackages [odoo14-addon-currency-rate-update]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_currency_rate_update-14.0.1.3.1.dev9-py3-none-any.whl.zip]
+[2023-06-15 05:13:55] INFO root fetch - processPackages [odoo14-addon-currency-rate-update]: Start processing: neon-api-proxy
+[2023-06-15 05:13:55] INFO root fetch - main [MainThread]: End processing [odoo14-addon-currency-rate-update]: success
+[2023-06-15 05:13:55] INFO root fetch - processPackages [ga-api-client]: Remove: archive file [/home/abi/fetcher/tmp/ga-api-client-0.2.8.tar.gz]
+[2023-06-15 05:13:55] INFO root fetch - processPackages [ga-api-client]: Remove: archive file [/home/abi/fetcher/tmp/ga-api-client-0.2.9.tar.gz]
+[2023-06-15 05:13:55] INFO root fetch - main [MainThread]: End processing [ga-api-client]: success
+[2023-06-15 05:13:55] ERROR root fetch - processPackages [embarrassing]: Diffoscope failed: /srv/diffoscope/bin/diffoscope: tmp/embarrassing-0.0.8.tar.gz: No such file or directory
+/srv/diffoscope/bin/diffoscope: tmp/embarrassing-0.0.9.tar.gz: No such file or directory
+
+[2023-06-15 05:13:55] INFO root fetch - main [MainThread]: End processing [embarrassing] error
+[2023-06-15 05:13:55] INFO root fetch - processPackages [neon-skill-about]: Downloading https://files.pythonhosted.org/packages/ec/cf/b307c4188fae8b09c5c216bfe6b0b93c9c10465a2366ad9729da61e6b391/neon_skill_about-0.2.2a1-py3-none-any.whl
+[2023-06-15 05:13:55] INFO root fetch - processPackages [odoo-addon-crm-phonecall]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_crm_phonecall-16.0.1.1.0.5-py3-none-any.whl.zip]
+[2023-06-15 05:13:55] INFO root fetch - processPackages [odoo-addon-crm-phonecall]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_crm_phonecall-16.0.1.1.0.6-py3-none-any.whl.zip]
+[2023-06-15 05:13:55] INFO root fetch - main [MainThread]: End processing [odoo-addon-crm-phonecall]: success
+[2023-06-15 05:13:55] INFO root fetch - processPackages [neon-api-proxy]: New version: [0.3.4a7] Old Version: [0.3.3]
+[2023-06-15 05:13:55] INFO root fetch - processPackages [odoo14-addon-currency-monthly-rate]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_currency_monthly_rate-14.0.1.0.1.dev3-py3-none-any.whl.zip]
+[2023-06-15 05:13:55] INFO root fetch - processPackages [odoo14-addon-currency-monthly-rate]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_currency_monthly_rate-14.0.1.0.1.dev4-py3-none-any.whl.zip]
+[2023-06-15 05:13:55] INFO root fetch - main [MainThread]: End processing [odoo14-addon-currency-monthly-rate]: success
+[2023-06-15 05:13:55] INFO root fetch - processPackages [neon-api-proxy]: Downloading https://files.pythonhosted.org/packages/79/16/d365d4f7e76507a8b559d41ff991c8e7e94d20ca5e17a73e766d1cd688c9/neon_api_proxy-0.3.3-py3-none-any.whl
+[2023-06-15 05:13:55] INFO root fetch - processPackages [neon-skill-about]: Downloading https://files.pythonhosted.org/packages/fb/1b/6e8d951783c6f1877ff319f8ba51e61a883ffa2d17aeb9b901dd613c180d/neon_skill_about-0.2.2a2-py3-none-any.whl
+[2023-06-15 05:13:55] INFO root fetch - processPackages [odoo-addon-currency-rate-update]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_currency_rate_update-16.0.1.1.1-py3-none-any.whl.zip]
+[2023-06-15 05:13:55] INFO root fetch - processPackages [odoo-addon-currency-rate-update]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_currency_rate_update-16.0.1.1.1.1-py3-none-any.whl.zip]
+[2023-06-15 05:13:55] INFO root fetch - main [MainThread]: End processing [odoo-addon-currency-rate-update]: success
+[2023-06-15 05:13:55] INFO root fetch - processPackages [neon-skill-about]: executing diffoscope
+[2023-06-15 05:13:55] INFO root fetch - processPackages [neon-skill-about]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon_skill_about-0.2.2a1-py3-none-any.whl.zip tmp/neon_skill_about-0.2.2a2-py3-none-any.whl.zip --markdown 20230615/n/neon-skill-about/0.2.2a1-0.2.2a2/diff.md --exclude *.pyd
+[2023-06-15 05:13:56] INFO root fetch - processPackages [neon-api-proxy]: Downloading https://files.pythonhosted.org/packages/e6/51/1d0f684fe5cb67f35bc8559b78d7eae0999089809a29504497d063e3cdc7/neon_api_proxy-0.3.4a7-py3-none-any.whl
+[2023-06-15 05:13:56] INFO root fetch - processPackages [neon-api-proxy]: executing diffoscope
+[2023-06-15 05:13:56] INFO root fetch - processPackages [neon-api-proxy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon_api_proxy-0.3.3-py3-none-any.whl.zip tmp/neon_api_proxy-0.3.4a7-py3-none-any.whl.zip --markdown 20230615/n/neon-api-proxy/0.3.3-0.3.4a7/diff.md --exclude *.pyd
+[2023-06-15 05:13:56] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-autoscaling-gitlab-runner-0.2.98.tar.gz]
+[2023-06-15 05:13:56] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-autoscaling-gitlab-runner-0.2.99.tar.gz]
+[2023-06-15 05:13:56] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-autoscaling-gitlab-runner]: success
+[2023-06-15 05:13:56] INFO root fetch - processPackages [neon-skill-about]: Remove: archive file [/home/abi/fetcher/tmp/neon_skill_about-0.2.2a1-py3-none-any.whl.zip]
+[2023-06-15 05:13:56] INFO root fetch - processPackages [neon-skill-about]: Remove: archive file [/home/abi/fetcher/tmp/neon_skill_about-0.2.2a2-py3-none-any.whl.zip]
+[2023-06-15 05:13:56] INFO root fetch - main [MainThread]: End processing [neon-skill-about]: success
+[2023-06-15 05:13:57] INFO root fetch - processPackages [GANDLF]: Remove: archive file [/home/abi/fetcher/tmp/GANDLF-0.0.17.dev20230614.tar.gz]
+[2023-06-15 05:13:57] INFO root fetch - processPackages [GANDLF]: Remove: archive file [/home/abi/fetcher/tmp/GANDLF-0.0.17.dev20230615.tar.gz]
+[2023-06-15 05:13:57] INFO root fetch - main [MainThread]: End processing [GANDLF]: success
+[2023-06-15 05:13:57] INFO root fetch - processPackages [neon-skill-date-time]: Remove: archive file [/home/abi/fetcher/tmp/neon_skill_date_time-0.3.2a1-py3-none-any.whl.zip]
+[2023-06-15 05:13:57] INFO root fetch - processPackages [neon-skill-date-time]: Remove: archive file [/home/abi/fetcher/tmp/neon_skill_date_time-0.3.2a2-py3-none-any.whl.zip]
+[2023-06-15 05:13:57] INFO root fetch - main [MainThread]: End processing [neon-skill-date-time]: success
+[2023-06-15 05:13:57] INFO root fetch - processPackages [neon-api-proxy]: Remove: archive file [/home/abi/fetcher/tmp/neon_api_proxy-0.3.3-py3-none-any.whl.zip]
+[2023-06-15 05:13:57] INFO root fetch - processPackages [neon-api-proxy]: Remove: archive file [/home/abi/fetcher/tmp/neon_api_proxy-0.3.4a7-py3-none-any.whl.zip]
+[2023-06-15 05:13:57] INFO root fetch - main [MainThread]: End processing [neon-api-proxy]: success
+[2023-06-15 05:13:57] INFO root fetch - main [MainThread]: Store serial: [18510609]
