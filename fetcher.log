@@ -5957,3 +5957,60 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-15 03:29:00] INFO root fetch - processPackages [pyagrum-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyAgrum_nightly-1.8.3.dev202306121686326557-cp39-cp39-win_amd64.whl.zip]
 [2023-06-15 03:29:00] INFO root fetch - main [MainThread]: End processing [pyagrum-nightly]: success
 [2023-06-15 03:29:00] INFO root fetch - main [MainThread]: Store serial: [18509671]
+[2023-06-15 03:34:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18509671]
+[2023-06-15 03:34:08] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-15 03:34:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tutor-webui
+[2023-06-15 03:34:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pepperize.cdk-organizations
+[2023-06-15 03:34:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hyutils-hyutil-hoyun-lab
+[2023-06-15 03:34:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Priority1py
+[2023-06-15 03:34:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: EclipsingBinaries
+[2023-06-15 03:34:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: peitho-data
+[2023-06-15 03:34:09] INFO root fetch - processPackages [Priority1py]: New version: [0.1.5b0] Old Version: [0.1.4b0]
+[2023-06-15 03:34:09] INFO root fetch - processPackages [tutor-webui]: New version: [16.0.0] Old Version: [15.0.0]
+[2023-06-15 03:34:09] INFO root fetch - processPackages [peitho-data]: New version: [2.3.5] Old Version: [2.3.4]
+[2023-06-15 03:34:09] INFO root fetch - processPackages [hyutils-hyutil-hoyun-lab]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-15 03:34:09] INFO root fetch - processPackages [pepperize.cdk-organizations]: New version: [0.7.99] Old Version: [0.7.98]
+[2023-06-15 03:34:09] INFO root fetch - processPackages [Priority1py]: Downloading https://files.pythonhosted.org/packages/f5/7e/6b11e9a54c01643f91cf2ab7463001757bd60fa60fa38e893b0a7e484cc8/Priority1py-0.1.4-beta.tar.gz
+[2023-06-15 03:34:09] INFO root fetch - processPackages [EclipsingBinaries]: New version: [2.8.4a9] Old Version: [2.8.4a8]
+[2023-06-15 03:34:09] INFO root fetch - processPackages [peitho-data]: Downloading https://files.pythonhosted.org/packages/f9/3d/99b0f3e702672688b8afac6e083fc904b3dca8741da14bce0d5a08a365a7/peitho_data-2.3.4.tar.gz
+[2023-06-15 03:34:09] INFO root fetch - processPackages [pepperize.cdk-organizations]: Downloading https://files.pythonhosted.org/packages/c4/ec/fa2c14031b7b9ce22e4b044c652dd13a1a81769141fcd90e55c9eeb24d66/pepperize.cdk-organizations-0.7.98.tar.gz
+[2023-06-15 03:34:09] INFO root fetch - processPackages [hyutils-hyutil-hoyun-lab]: Downloading https://files.pythonhosted.org/packages/cb/51/c58a63d89a90f590f0c3e00f442da6632a82cba7af5caad9a80f54866a9f/hyutils-hyutil-hoyun-lab-0.0.4.tar.gz
+[2023-06-15 03:34:09] INFO root fetch - processPackages [peitho-data]: Downloading https://files.pythonhosted.org/packages/c3/e3/ce3421d3255f9cd8d86562f3970f69bc4e51de7a0debfde60f01f4d2127d/peitho_data-2.3.5.tar.gz
+[2023-06-15 03:34:09] INFO root fetch - processPackages [pepperize.cdk-organizations]: Downloading https://files.pythonhosted.org/packages/12/45/1106cc30844f7f4d96f7898a6ef3647d24a597c297bab995920a5915750e/pepperize.cdk-organizations-0.7.99.tar.gz
+[2023-06-15 03:34:09] INFO root fetch - processPackages [EclipsingBinaries]: Downloading https://files.pythonhosted.org/packages/2d/92/be071c304f6284652f1fcee8e815e7bbf73c610f5d60cb449bfa5176142c/EclipsingBinaries-2.8.4a8.tar.gz
+[2023-06-15 03:34:09] INFO root fetch - processPackages [tutor-webui]: Downloading https://files.pythonhosted.org/packages/5d/8f/807e417418153556d45755bf5a0f83cb0cba3c8d27ed2209f97e4dd12c92/tutor-webui-15.0.0.tar.gz
+[2023-06-15 03:34:09] INFO root fetch - processPackages [pepperize.cdk-organizations]: executing diffoscope
+[2023-06-15 03:34:09] INFO root fetch - processPackages [pepperize.cdk-organizations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-organizations-0.7.98.tar.gz tmp/pepperize.cdk-organizations-0.7.99.tar.gz --markdown 20230615/p/pepperize.cdk-organizations/0.7.98-0.7.99/diff.md --exclude *.pyd
+[2023-06-15 03:34:09] INFO root fetch - processPackages [peitho-data]: executing diffoscope
+[2023-06-15 03:34:09] INFO root fetch - processPackages [peitho-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/peitho_data-2.3.4.tar.gz tmp/peitho_data-2.3.5.tar.gz --markdown 20230615/p/peitho-data/2.3.4-2.3.5/diff.md --exclude *.pyd
+[2023-06-15 03:34:09] INFO root fetch - processPackages [Priority1py]: Downloading https://files.pythonhosted.org/packages/e2/89/525567c6902784da473d50ca8d7d32888c74a1738c8bde9878c88824c43e/Priority1py-0.1.5-beta.tar.gz
+[2023-06-15 03:34:09] INFO root fetch - processPackages [hyutils-hyutil-hoyun-lab]: Downloading https://files.pythonhosted.org/packages/d5/8b/8a79ac8eec93f9ed012b9eecda7c72f052ee8827a3778b53332a543ac98b/hyutils-hyutil-hoyun-lab-0.0.5.tar.gz
+[2023-06-15 03:34:09] INFO root fetch - processPackages [Priority1py]: executing diffoscope
+[2023-06-15 03:34:09] INFO root fetch - processPackages [Priority1py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Priority1py-0.1.4-beta.tar.gz tmp/Priority1py-0.1.5-beta.tar.gz --markdown 20230615/P/Priority1py/0.1.4b0-0.1.5b0/diff.md --exclude *.pyd
+[2023-06-15 03:34:09] INFO root fetch - processPackages [hyutils-hyutil-hoyun-lab]: executing diffoscope
+[2023-06-15 03:34:09] INFO root fetch - processPackages [hyutils-hyutil-hoyun-lab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyutils-hyutil-hoyun-lab-0.0.4.tar.gz tmp/hyutils-hyutil-hoyun-lab-0.0.5.tar.gz --markdown 20230615/h/hyutils-hyutil-hoyun-lab/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-15 03:34:09] INFO root fetch - processPackages [tutor-webui]: Downloading https://files.pythonhosted.org/packages/c4/cc/ca15b8ac56279456168b4a9583a7133c62a633f5c2e2b0753850122ae475/tutor-webui-16.0.0.tar.gz
+[2023-06-15 03:34:09] INFO root fetch - processPackages [EclipsingBinaries]: Downloading https://files.pythonhosted.org/packages/33/24/34cbbe2bc88b4bafc539a46de05e02312c2248a86e971b689a0c16a121eb/EclipsingBinaries-2.8.4a9.tar.gz
+[2023-06-15 03:34:09] INFO root fetch - processPackages [tutor-webui]: executing diffoscope
+[2023-06-15 03:34:09] INFO root fetch - processPackages [tutor-webui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tutor-webui-15.0.0.tar.gz tmp/tutor-webui-16.0.0.tar.gz --markdown 20230615/t/tutor-webui/15.0.0-16.0.0/diff.md --exclude *.pyd
+[2023-06-15 03:34:09] INFO root fetch - processPackages [EclipsingBinaries]: executing diffoscope
+[2023-06-15 03:34:09] INFO root fetch - processPackages [EclipsingBinaries]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/EclipsingBinaries-2.8.4a8.tar.gz tmp/EclipsingBinaries-2.8.4a9.tar.gz --markdown 20230615/E/EclipsingBinaries/2.8.4a8-2.8.4a9/diff.md --exclude *.pyd
+[2023-06-15 03:34:10] INFO root fetch - processPackages [Priority1py]: Remove: archive file [/home/abi/fetcher/tmp/Priority1py-0.1.4-beta.tar.gz]
+[2023-06-15 03:34:10] INFO root fetch - processPackages [Priority1py]: Remove: archive file [/home/abi/fetcher/tmp/Priority1py-0.1.5-beta.tar.gz]
+[2023-06-15 03:34:10] INFO root fetch - main [MainThread]: End processing [Priority1py]: success
+[2023-06-15 03:34:10] INFO root fetch - processPackages [peitho-data]: Remove: archive file [/home/abi/fetcher/tmp/peitho_data-2.3.4.tar.gz]
+[2023-06-15 03:34:10] INFO root fetch - processPackages [peitho-data]: Remove: archive file [/home/abi/fetcher/tmp/peitho_data-2.3.5.tar.gz]
+[2023-06-15 03:34:10] INFO root fetch - main [MainThread]: End processing [peitho-data]: success
+[2023-06-15 03:34:10] INFO root fetch - processPackages [hyutils-hyutil-hoyun-lab]: Remove: archive file [/home/abi/fetcher/tmp/hyutils-hyutil-hoyun-lab-0.0.4.tar.gz]
+[2023-06-15 03:34:10] INFO root fetch - processPackages [hyutils-hyutil-hoyun-lab]: Remove: archive file [/home/abi/fetcher/tmp/hyutils-hyutil-hoyun-lab-0.0.5.tar.gz]
+[2023-06-15 03:34:10] INFO root fetch - main [MainThread]: End processing [hyutils-hyutil-hoyun-lab]: success
+[2023-06-15 03:34:10] INFO root fetch - processPackages [tutor-webui]: Remove: archive file [/home/abi/fetcher/tmp/tutor-webui-15.0.0.tar.gz]
+[2023-06-15 03:34:10] INFO root fetch - processPackages [tutor-webui]: Remove: archive file [/home/abi/fetcher/tmp/tutor-webui-16.0.0.tar.gz]
+[2023-06-15 03:34:10] INFO root fetch - main [MainThread]: End processing [tutor-webui]: success
+[2023-06-15 03:34:11] INFO root fetch - processPackages [EclipsingBinaries]: Remove: archive file [/home/abi/fetcher/tmp/EclipsingBinaries-2.8.4a8.tar.gz]
+[2023-06-15 03:34:11] INFO root fetch - processPackages [EclipsingBinaries]: Remove: archive file [/home/abi/fetcher/tmp/EclipsingBinaries-2.8.4a9.tar.gz]
+[2023-06-15 03:34:11] INFO root fetch - main [MainThread]: End processing [EclipsingBinaries]: success
+[2023-06-15 03:34:11] INFO root fetch - processPackages [pepperize.cdk-organizations]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-organizations-0.7.98.tar.gz]
+[2023-06-15 03:34:11] INFO root fetch - processPackages [pepperize.cdk-organizations]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-organizations-0.7.99.tar.gz]
+[2023-06-15 03:34:11] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-organizations]: success
+[2023-06-15 03:34:11] INFO root fetch - main [MainThread]: Store serial: [18509704]
