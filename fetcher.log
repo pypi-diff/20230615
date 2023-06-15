@@ -10824,3 +10824,227 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-15 07:39:50] INFO root fetch - processPackages [revChatGPT]: Remove: archive file [/home/abi/fetcher/tmp/revChatGPT-6.2.6.tar.gz]
 [2023-06-15 07:39:50] INFO root fetch - main [MainThread]: End processing [revChatGPT]: success
 [2023-06-15 07:39:50] INFO root fetch - main [MainThread]: Store serial: [18511465]
+[2023-06-15 07:44:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18511465]
+[2023-06-15 07:44:59] INFO root fetch - main [MainThread]: Found 26 changed packages
+[2023-06-15 07:44:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: freeipa
+[2023-06-15 07:44:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ipa
+[2023-06-15 07:44:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ipaclient
+[2023-06-15 07:44:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ipalib
+[2023-06-15 07:44:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dushyanth-find-ip-in-sg
+[2023-06-15 07:44:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ipaplatform
+[2023-06-15 07:44:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ipapython
+[2023-06-15 07:44:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ipaserver
+[2023-06-15 07:44:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ipatests
+[2023-06-15 07:44:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: deltafi
+[2023-06-15 07:44:59] INFO root fetch - processPackages [ipa]: New version: [4.8.9] Old Version: [4.8.7]
+[2023-06-15 07:44:59] INFO root fetch - processPackages [ipaclient]: New version: [4.8.9] Old Version: [4.8.7]
+[2023-06-15 07:44:59] INFO root fetch - processPackages [freeipa]: New version: [4.8.9] Old Version: [4.8.7]
+[2023-06-15 07:44:59] WARNING root fetch - processPackages [dushyanth-find-ip-in-sg]: Skipping, unable to determine old version
+[2023-06-15 07:44:59] INFO root fetch - processPackages [ipapython]: New version: [4.8.9] Old Version: [4.8.7]
+[2023-06-15 07:44:59] INFO root fetch - processPackages [dushyanth-find-ip-in-sg]: Start processing: freeipa
+[2023-06-15 07:44:59] INFO root fetch - main [MainThread]: End processing [dushyanth-find-ip-in-sg] error
+[2023-06-15 07:44:59] INFO root fetch - processPackages [ipaplatform]: New version: [4.8.9] Old Version: [4.8.7]
+[2023-06-15 07:44:59] INFO root fetch - processPackages [ipalib]: New version: [4.8.9] Old Version: [4.8.7]
+[2023-06-15 07:44:59] INFO root fetch - processPackages [ipaserver]: New version: [4.8.9] Old Version: [4.8.7]
+[2023-06-15 07:44:59] INFO root fetch - processPackages [ipatests]: New version: [4.8.9] Old Version: [4.8.7]
+[2023-06-15 07:44:59] INFO root fetch - processPackages [freeipa]: New version: [4.8.9] Old Version: [4.8.7]
+[2023-06-15 07:44:59] INFO root fetch - processPackages [deltafi]: New version: [1.0.0rc5] Old Version: [1.0.0rc3]
+[2023-06-15 07:44:59] INFO root fetch - processPackages [freeipa]: Downloading https://files.pythonhosted.org/packages/0f/0f/33bfda6f7713f2430c08fac753b5274274e69bc79d9265dcec3b781121cb/freeipa-4.8.7-py2.py3-none-any.whl
+[2023-06-15 07:44:59] INFO root fetch - processPackages [freeipa]: Downloading https://files.pythonhosted.org/packages/0f/0f/33bfda6f7713f2430c08fac753b5274274e69bc79d9265dcec3b781121cb/freeipa-4.8.7-py2.py3-none-any.whl
+[2023-06-15 07:44:59] INFO root fetch - processPackages [ipa]: Downloading https://files.pythonhosted.org/packages/a5/bd/a74e1b730ef1c1deed79285f330f2a3ca7dbea625e7927762f32623c141f/ipa-4.8.7-py2.py3-none-any.whl
+[2023-06-15 07:44:59] INFO root fetch - processPackages [ipalib]: Downloading https://files.pythonhosted.org/packages/9b/84/52f6831bd896f9ca5849789dd100473e1cc7e40841a12054b3b6cc75be52/ipalib-4.8.7-py2.py3-none-any.whl
+[2023-06-15 07:44:59] INFO root fetch - processPackages [ipaplatform]: Downloading https://files.pythonhosted.org/packages/73/3b/fba47d227ce6deaa6a6ef3ec9316ef0c2b42a9c830d5a324f8a279840841/ipaplatform-4.8.7-py2.py3-none-any.whl
+[2023-06-15 07:44:59] INFO root fetch - processPackages [ipatests]: Downloading https://files.pythonhosted.org/packages/b2/7c/e33266bd9e1a835b991ec82aa8fc90a6107a23d8eb32ce7ed96234275e1f/ipatests-4.8.7-py2.py3-none-any.whl
+[2023-06-15 07:44:59] INFO root fetch - processPackages [ipaserver]: Downloading https://files.pythonhosted.org/packages/30/df/0b482997a1d95eaae56552b1566af77f628386622db4f18ee8b9d1a25dc9/ipaserver-4.8.7-py2.py3-none-any.whl
+[2023-06-15 07:44:59] INFO root fetch - processPackages [ipaclient]: Downloading https://files.pythonhosted.org/packages/03/f6/175dd1deb259422c7e259aa06820dae4929f7026a4ea2c9a071940cd04d1/ipaclient-4.8.7-py2.py3-none-any.whl
+[2023-06-15 07:44:59] INFO root fetch - processPackages [ipapython]: Downloading https://files.pythonhosted.org/packages/bc/06/a91aeb2cfb5e7a2d3b9ab745dc11fa773469007b907e13cd31bbee4ea29f/ipapython-4.8.7-py2.py3-none-any.whl
+[2023-06-15 07:44:59] INFO root fetch - processPackages [deltafi]: Downloading https://files.pythonhosted.org/packages/9a/a4/5d71f20342daf90bb30b0cd2e733ec08034696a1e4708eb3c2211fb99a37/deltafi-1.0.0rc3.tar.gz
+[2023-06-15 07:45:00] INFO root fetch - processPackages [deltafi]: Downloading https://files.pythonhosted.org/packages/e0/78/1a87444eb27dd6bf2818293c2857684a650c52eea7a57173a838277daf58/deltafi-1.0.0rc5.tar.gz
+[2023-06-15 07:45:00] INFO root fetch - processPackages [ipa]: Downloading https://files.pythonhosted.org/packages/cc/5a/8eaa1b49a9421fc41b8382e9e47f14dbcb4c4437713f5c595685abe889a6/ipa-4.8.9-py2.py3-none-any.whl
+[2023-06-15 07:45:00] INFO root fetch - processPackages [deltafi]: executing diffoscope
+[2023-06-15 07:45:00] INFO root fetch - processPackages [deltafi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deltafi-1.0.0rc3.tar.gz tmp/deltafi-1.0.0rc5.tar.gz --markdown 20230615/d/deltafi/1.0.0rc3-1.0.0rc5/diff.md --exclude *.pyd
+[2023-06-15 07:45:00] INFO root fetch - processPackages [ipapython]: Downloading https://files.pythonhosted.org/packages/a3/85/a9cfb302c10f541161b5b382cb6b77652f945c74883d2ce778efd811271f/ipapython-4.8.9-py2.py3-none-any.whl
+[2023-06-15 07:45:00] INFO root fetch - processPackages [ipalib]: Downloading https://files.pythonhosted.org/packages/68/26/f8e5d04b0bb04ac15aca3edd4eba6bcdc461386a87b09baa6e74f81acf75/ipalib-4.8.9-py2.py3-none-any.whl
+[2023-06-15 07:45:00] INFO root fetch - processPackages [ipaplatform]: Downloading https://files.pythonhosted.org/packages/6b/d7/e4f2ce360a5c73b1c882f6de5b5068c49959c98b9b1745a919d9321a0e20/ipaplatform-4.8.9-py2.py3-none-any.whl
+[2023-06-15 07:45:00] INFO root fetch - processPackages [ipaserver]: Downloading https://files.pythonhosted.org/packages/59/91/31710a91ef25a84e1a7fd8eb5e7095e3118aa5cc2778aba61ccaf3cd81db/ipaserver-4.8.9-py2.py3-none-any.whl
+[2023-06-15 07:45:00] INFO root fetch - processPackages [ipaclient]: Downloading https://files.pythonhosted.org/packages/77/38/4730afe93420425512df17f9c70a16d6de89436ca06982cc60c27a3997f1/ipaclient-4.8.9-py2.py3-none-any.whl
+[2023-06-15 07:45:00] INFO root fetch - processPackages [freeipa]: Downloading https://files.pythonhosted.org/packages/e1/11/68463f20d90ceaf1a6ed5b691cfae24b92a1e53126de94350e1dc3e208d2/freeipa-4.8.9-py2.py3-none-any.whl
+[2023-06-15 07:45:00] INFO root fetch - processPackages [freeipa]: Downloading https://files.pythonhosted.org/packages/e1/11/68463f20d90ceaf1a6ed5b691cfae24b92a1e53126de94350e1dc3e208d2/freeipa-4.8.9-py2.py3-none-any.whl
+[2023-06-15 07:45:00] INFO root fetch - processPackages [ipatests]: Downloading https://files.pythonhosted.org/packages/a5/92/b4fe64de772acf528424d596d58c0d9915968554661dbc402089ddde4b77/ipatests-4.8.9-py2.py3-none-any.whl
+[2023-06-15 07:45:00] INFO root fetch - processPackages [ipa]: executing diffoscope
+[2023-06-15 07:45:00] INFO root fetch - processPackages [ipa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipa-4.8.7-py2.py3-none-any.whl.zip tmp/ipa-4.8.9-py2.py3-none-any.whl.zip --markdown 20230615/i/ipa/4.8.7-4.8.9/diff.md --exclude *.pyd
+[2023-06-15 07:45:00] INFO root fetch - processPackages [ipalib]: executing diffoscope
+[2023-06-15 07:45:00] INFO root fetch - processPackages [ipalib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipalib-4.8.7-py2.py3-none-any.whl.zip tmp/ipalib-4.8.9-py2.py3-none-any.whl.zip --markdown 20230615/i/ipalib/4.8.7-4.8.9/diff.md --exclude *.pyd
+[2023-06-15 07:45:00] INFO root fetch - processPackages [ipapython]: executing diffoscope
+[2023-06-15 07:45:00] INFO root fetch - processPackages [ipapython]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipapython-4.8.7-py2.py3-none-any.whl.zip tmp/ipapython-4.8.9-py2.py3-none-any.whl.zip --markdown 20230615/i/ipapython/4.8.7-4.8.9/diff.md --exclude *.pyd
+[2023-06-15 07:45:00] INFO root fetch - processPackages [ipaplatform]: executing diffoscope
+[2023-06-15 07:45:00] INFO root fetch - processPackages [freeipa]: executing diffoscope
+[2023-06-15 07:45:00] INFO root fetch - processPackages [freeipa]: executing diffoscope
+[2023-06-15 07:45:00] INFO root fetch - processPackages [ipaplatform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipaplatform-4.8.7-py2.py3-none-any.whl.zip tmp/ipaplatform-4.8.9-py2.py3-none-any.whl.zip --markdown 20230615/i/ipaplatform/4.8.7-4.8.9/diff.md --exclude *.pyd
+[2023-06-15 07:45:00] INFO root fetch - processPackages [freeipa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/freeipa-4.8.7-py2.py3-none-any.whl.zip tmp/freeipa-4.8.9-py2.py3-none-any.whl.zip --markdown 20230615/f/freeipa/4.8.7-4.8.9/diff.md --exclude *.pyd
+[2023-06-15 07:45:00] INFO root fetch - processPackages [ipatests]: executing diffoscope
+[2023-06-15 07:45:00] INFO root fetch - processPackages [ipaserver]: executing diffoscope
+[2023-06-15 07:45:00] INFO root fetch - processPackages [freeipa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/freeipa-4.8.7-py2.py3-none-any.whl.zip tmp/freeipa-4.8.9-py2.py3-none-any.whl.zip --markdown 20230615/f/freeipa/4.8.7-4.8.9/diff.md --exclude *.pyd
+[2023-06-15 07:45:00] INFO root fetch - processPackages [ipatests]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipatests-4.8.7-py2.py3-none-any.whl.zip tmp/ipatests-4.8.9-py2.py3-none-any.whl.zip --markdown 20230615/i/ipatests/4.8.7-4.8.9/diff.md --exclude *.pyd
+[2023-06-15 07:45:00] INFO root fetch - processPackages [ipaserver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipaserver-4.8.7-py2.py3-none-any.whl.zip tmp/ipaserver-4.8.9-py2.py3-none-any.whl.zip --markdown 20230615/i/ipaserver/4.8.7-4.8.9/diff.md --exclude *.pyd
+[2023-06-15 07:45:00] INFO root fetch - processPackages [ipaclient]: executing diffoscope
+[2023-06-15 07:45:00] INFO root fetch - processPackages [ipaclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipaclient-4.8.7-py2.py3-none-any.whl.zip tmp/ipaclient-4.8.9-py2.py3-none-any.whl.zip --markdown 20230615/i/ipaclient/4.8.7-4.8.9/diff.md --exclude *.pyd
+[2023-06-15 07:45:01] INFO root fetch - processPackages [ipa]: Remove: archive file [/home/abi/fetcher/tmp/ipa-4.8.7-py2.py3-none-any.whl.zip]
+[2023-06-15 07:45:01] INFO root fetch - processPackages [ipa]: Remove: archive file [/home/abi/fetcher/tmp/ipa-4.8.9-py2.py3-none-any.whl.zip]
+[2023-06-15 07:45:01] INFO root fetch - processPackages [ipa]: Start processing: ipa
+[2023-06-15 07:45:01] INFO root fetch - main [MainThread]: End processing [ipa]: success
+[2023-06-15 07:45:01] INFO root fetch - processPackages [ipa]: New version: [4.9.12] Old Version: [4.8.9]
+[2023-06-15 07:45:01] INFO root fetch - processPackages [deltafi]: Remove: archive file [/home/abi/fetcher/tmp/deltafi-1.0.0rc3.tar.gz]
+[2023-06-15 07:45:01] INFO root fetch - processPackages [deltafi]: Remove: archive file [/home/abi/fetcher/tmp/deltafi-1.0.0rc5.tar.gz]
+[2023-06-15 07:45:01] INFO root fetch - processPackages [deltafi]: Start processing: centralcli
+[2023-06-15 07:45:01] INFO root fetch - main [MainThread]: End processing [deltafi]: success
+[2023-06-15 07:45:01] INFO root fetch - processPackages [centralcli]: New version: [1.2] Old Version: [1.1]
+[2023-06-15 07:45:01] INFO root fetch - processPackages [ipa]: Downloading https://files.pythonhosted.org/packages/cc/5a/8eaa1b49a9421fc41b8382e9e47f14dbcb4c4437713f5c595685abe889a6/ipa-4.8.9-py2.py3-none-any.whl
+[2023-06-15 07:45:02] INFO root fetch - processPackages [centralcli]: Downloading https://files.pythonhosted.org/packages/c9/24/14fe4f61e6ebf7dd5e306f29e2c2ef228c59f1824ecb88b48b46f62f8687/centralcli-1.1.tar.gz
+[2023-06-15 07:45:02] INFO root fetch - processPackages [ipa]: Downloading https://files.pythonhosted.org/packages/e7/90/8c92ec5c4f25e8fc25441ab6e589d550dab4b81cccfaa4fbe431718bca62/ipa-4.9.12-py2.py3-none-any.whl
+[2023-06-15 07:45:02] INFO root fetch - processPackages [ipaserver]: Remove: archive file [/home/abi/fetcher/tmp/ipaserver-4.8.7-py2.py3-none-any.whl.zip]
+[2023-06-15 07:45:02] INFO root fetch - processPackages [ipaserver]: Remove: archive file [/home/abi/fetcher/tmp/ipaserver-4.8.9-py2.py3-none-any.whl.zip]
+[2023-06-15 07:45:02] INFO root fetch - processPackages [ipaserver]: Start processing: ipaclient
+[2023-06-15 07:45:02] INFO root fetch - main [MainThread]: End processing [ipaserver]: success
+[2023-06-15 07:45:02] INFO root fetch - processPackages [ipaclient]: New version: [4.9.12] Old Version: [4.8.9]
+[2023-06-15 07:45:02] INFO root fetch - processPackages [freeipa]: Remove: archive file [/home/abi/fetcher/tmp/freeipa-4.8.7-py2.py3-none-any.whl.zip]
+[2023-06-15 07:45:02] INFO root fetch - processPackages [freeipa]: Remove: archive file [/home/abi/fetcher/tmp/freeipa-4.8.9-py2.py3-none-any.whl.zip]
+[2023-06-15 07:45:02] INFO root fetch - processPackages [freeipa]: Start processing: ipalib
+[2023-06-15 07:45:02] INFO root fetch - main [MainThread]: End processing [freeipa]: success
+[2023-06-15 07:45:02] INFO root fetch - processPackages [centralcli]: Downloading https://files.pythonhosted.org/packages/15/1a/5d1b916e15a60be0ae71954c80c4e54384e019cca0adca5dc07278e81d59/centralcli-1.2.tar.gz
+[2023-06-15 07:45:02] INFO root fetch - processPackages [freeipa]: Start processing: ipaplatform
+[2023-06-15 07:45:02] INFO root fetch - main [MainThread]: End processing [freeipa]: success
+[2023-06-15 07:45:02] INFO root fetch - processPackages [ipalib]: New version: [4.9.12] Old Version: [4.8.9]
+[2023-06-15 07:45:02] INFO root fetch - processPackages [ipatests]: Remove: archive file [/home/abi/fetcher/tmp/ipatests-4.8.7-py2.py3-none-any.whl.zip]
+[2023-06-15 07:45:02] INFO root fetch - processPackages [ipatests]: Remove: archive file [/home/abi/fetcher/tmp/ipatests-4.8.9-py2.py3-none-any.whl.zip]
+[2023-06-15 07:45:02] INFO root fetch - processPackages [ipatests]: Start processing: ipapython
+[2023-06-15 07:45:02] INFO root fetch - main [MainThread]: End processing [ipatests]: success
+[2023-06-15 07:45:02] INFO root fetch - processPackages [ipaplatform]: New version: [4.9.12] Old Version: [4.8.9]
+[2023-06-15 07:45:02] INFO root fetch - processPackages [ipapython]: New version: [4.9.12] Old Version: [4.8.9]
+[2023-06-15 07:45:02] INFO root fetch - processPackages [ipa]: executing diffoscope
+[2023-06-15 07:45:02] INFO root fetch - processPackages [ipa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipa-4.8.9-py2.py3-none-any.whl.zip tmp/ipa-4.9.12-py2.py3-none-any.whl.zip --markdown 20230615/i/ipa/4.8.9-4.9.12/diff.md --exclude *.pyd
+[2023-06-15 07:45:02] INFO root fetch - processPackages [centralcli]: executing diffoscope
+[2023-06-15 07:45:02] INFO root fetch - processPackages [centralcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/centralcli-1.1.tar.gz tmp/centralcli-1.2.tar.gz --markdown 20230615/c/centralcli/1.1-1.2/diff.md --exclude *.pyd
+[2023-06-15 07:45:02] INFO root fetch - processPackages [ipaclient]: Downloading https://files.pythonhosted.org/packages/59/9c/159698ccaa51b4eda6b284b7e6d3c6e9e12c66d15ab4cfe9734ad588b207/ipaclient-4.9.12-py2.py3-none-any.whl
+[2023-06-15 07:45:02] INFO root fetch - processPackages [ipalib]: Remove: archive file [/home/abi/fetcher/tmp/ipalib-4.8.7-py2.py3-none-any.whl.zip]
+[2023-06-15 07:45:02] INFO root fetch - processPackages [ipalib]: Remove: archive file [/home/abi/fetcher/tmp/ipalib-4.8.9-py2.py3-none-any.whl.zip]
+[2023-06-15 07:45:02] INFO root fetch - processPackages [ipalib]: Start processing: ipaserver
+[2023-06-15 07:45:02] INFO root fetch - main [MainThread]: End processing [ipalib]: success
+[2023-06-15 07:45:02] INFO root fetch - processPackages [ipalib]: Downloading https://files.pythonhosted.org/packages/76/65/8d509af38117aaba24ffe85776cf38f99018881c8848849e99f72ae20816/ipalib-4.9.12-py2.py3-none-any.whl
+[2023-06-15 07:45:02] INFO root fetch - processPackages [ipaserver]: New version: [4.9.12] Old Version: [4.8.9]
+[2023-06-15 07:45:02] INFO root fetch - processPackages [ipaplatform]: Downloading https://files.pythonhosted.org/packages/9c/a9/c64b4abba3aa987a123c3e48211484dbb0ff1d80c6105feae4109c5b1c3d/ipaplatform-4.9.12-py2.py3-none-any.whl
+[2023-06-15 07:45:02] INFO root fetch - processPackages [ipaplatform]: Remove: archive file [/home/abi/fetcher/tmp/ipaplatform-4.8.7-py2.py3-none-any.whl.zip]
+[2023-06-15 07:45:02] INFO root fetch - processPackages [ipaplatform]: Remove: archive file [/home/abi/fetcher/tmp/ipaplatform-4.8.9-py2.py3-none-any.whl.zip]
+[2023-06-15 07:45:02] INFO root fetch - processPackages [ipaplatform]: Start processing: ipatests
+[2023-06-15 07:45:02] INFO root fetch - main [MainThread]: End processing [ipaplatform]: success
+[2023-06-15 07:45:02] INFO root fetch - processPackages [ipapython]: Downloading https://files.pythonhosted.org/packages/04/d1/90fdbe98cd4500fbfccd040354941c8dccf652fc891ea8ef56a2d5af2ac0/ipapython-4.9.12-py2.py3-none-any.whl
+[2023-06-15 07:45:02] INFO root fetch - processPackages [ipatests]: New version: [4.9.12] Old Version: [4.8.9]
+[2023-06-15 07:45:02] INFO root fetch - processPackages [ipaclient]: executing diffoscope
+[2023-06-15 07:45:02] INFO root fetch - processPackages [ipaclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipaclient-4.8.9-py2.py3-none-any.whl.zip tmp/ipaclient-4.9.12-py2.py3-none-any.whl.zip --markdown 20230615/i/ipaclient/4.8.9-4.9.12/diff.md --exclude *.pyd
+[2023-06-15 07:45:02] INFO root fetch - processPackages [ipaserver]: Downloading https://files.pythonhosted.org/packages/59/91/31710a91ef25a84e1a7fd8eb5e7095e3118aa5cc2778aba61ccaf3cd81db/ipaserver-4.8.9-py2.py3-none-any.whl
+[2023-06-15 07:45:02] INFO root fetch - processPackages [ipatests]: Downloading https://files.pythonhosted.org/packages/a5/92/b4fe64de772acf528424d596d58c0d9915968554661dbc402089ddde4b77/ipatests-4.8.9-py2.py3-none-any.whl
+[2023-06-15 07:45:02] INFO root fetch - processPackages [ipalib]: executing diffoscope
+[2023-06-15 07:45:02] INFO root fetch - processPackages [ipalib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipalib-4.8.9-py2.py3-none-any.whl.zip tmp/ipalib-4.9.12-py2.py3-none-any.whl.zip --markdown 20230615/i/ipalib/4.8.9-4.9.12/diff.md --exclude *.pyd
+[2023-06-15 07:45:02] INFO root fetch - processPackages [ipapython]: executing diffoscope
+[2023-06-15 07:45:02] INFO root fetch - processPackages [ipapython]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipapython-4.8.9-py2.py3-none-any.whl.zip tmp/ipapython-4.9.12-py2.py3-none-any.whl.zip --markdown 20230615/i/ipapython/4.8.9-4.9.12/diff.md --exclude *.pyd
+[2023-06-15 07:45:02] INFO root fetch - processPackages [ipaplatform]: executing diffoscope
+[2023-06-15 07:45:02] INFO root fetch - processPackages [ipaplatform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipaplatform-4.8.9-py2.py3-none-any.whl.zip tmp/ipaplatform-4.9.12-py2.py3-none-any.whl.zip --markdown 20230615/i/ipaplatform/4.8.9-4.9.12/diff.md --exclude *.pyd
+[2023-06-15 07:45:02] INFO root fetch - processPackages [ipapython]: Remove: archive file [/home/abi/fetcher/tmp/ipapython-4.8.7-py2.py3-none-any.whl.zip]
+[2023-06-15 07:45:02] INFO root fetch - processPackages [ipapython]: Remove: archive file [/home/abi/fetcher/tmp/ipapython-4.8.9-py2.py3-none-any.whl.zip]
+[2023-06-15 07:45:02] INFO root fetch - processPackages [ipapython]: Start processing: drillvision
+[2023-06-15 07:45:02] INFO root fetch - main [MainThread]: End processing [ipapython]: success
+[2023-06-15 07:45:02] INFO root fetch - processPackages [ipaserver]: Downloading https://files.pythonhosted.org/packages/e2/3c/09dd7e11b7f5aae0036459d8e23dc1857c9d12f946d8cc8e58e51b58d403/ipaserver-4.9.12-py2.py3-none-any.whl
+[2023-06-15 07:45:02] INFO root fetch - processPackages [ipatests]: Downloading https://files.pythonhosted.org/packages/91/b5/3a23359538d88db0d8fb71bd44b834f82ffbd8e435dd15b80bc2fb5c1bf0/ipatests-4.9.12-py2.py3-none-any.whl
+[2023-06-15 07:45:02] INFO root fetch - processPackages [drillvision]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-15 07:45:03] INFO root fetch - processPackages [ipaserver]: executing diffoscope
+[2023-06-15 07:45:03] INFO root fetch - processPackages [ipaserver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipaserver-4.8.9-py2.py3-none-any.whl.zip tmp/ipaserver-4.9.12-py2.py3-none-any.whl.zip --markdown 20230615/i/ipaserver/4.8.9-4.9.12/diff.md --exclude *.pyd
+[2023-06-15 07:45:03] INFO root fetch - processPackages [ipatests]: executing diffoscope
+[2023-06-15 07:45:03] INFO root fetch - processPackages [ipatests]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipatests-4.8.9-py2.py3-none-any.whl.zip tmp/ipatests-4.9.12-py2.py3-none-any.whl.zip --markdown 20230615/i/ipatests/4.8.9-4.9.12/diff.md --exclude *.pyd
+[2023-06-15 07:45:03] INFO root fetch - processPackages [drillvision]: Downloading https://files.pythonhosted.org/packages/5c/7d/2d1ea296c63dd13b0f7cdd2e3216e47da31297d5dfffdfd3313a162d1566/drillvision-0.0.3.tar.gz
+[2023-06-15 07:45:03] INFO root fetch - processPackages [drillvision]: Downloading https://files.pythonhosted.org/packages/32/89/1ee5131d6b66dc86b2afcf574cc2f000b23592f202be9060fc994cd59d74/drillvision-0.0.4.tar.gz
+[2023-06-15 07:45:03] INFO root fetch - processPackages [drillvision]: executing diffoscope
+[2023-06-15 07:45:03] INFO root fetch - processPackages [drillvision]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drillvision-0.0.3.tar.gz tmp/drillvision-0.0.4.tar.gz --markdown 20230615/d/drillvision/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-15 07:45:03] ERROR root fetch - processPackages [ipalib]: Diffoscope failed: /srv/diffoscope/bin/diffoscope: tmp/ipalib-4.8.9-py2.py3-none-any.whl.zip: No such file or directory
+
+[2023-06-15 07:45:03] INFO root fetch - processPackages [ipalib]: Start processing: odoo-addon-web-company-color
+[2023-06-15 07:45:03] INFO root fetch - main [MainThread]: End processing [ipalib] error
+[2023-06-15 07:45:03] INFO root fetch - processPackages [odoo-addon-web-company-color]: New version: [16.0.1.1.0] Old Version: [16.0.1.0.0.2]
+[2023-06-15 07:45:03] INFO root fetch - processPackages [odoo-addon-web-company-color]: Downloading https://files.pythonhosted.org/packages/26/a6/be6df542ea6eaf06c660c7faeb245369c48308259f06a7e3a058d6f1a2e7/odoo_addon_web_company_color-16.0.1.0.0.2-py3-none-any.whl
+[2023-06-15 07:45:03] ERROR root fetch - processPackages [ipapython]: Diffoscope failed: /srv/diffoscope/bin/diffoscope: tmp/ipapython-4.8.9-py2.py3-none-any.whl.zip: No such file or directory
+
+[2023-06-15 07:45:03] INFO root fetch - processPackages [ipapython]: Start processing: odoo-addon-web-widget-bokeh-chart
+[2023-06-15 07:45:03] INFO root fetch - main [MainThread]: End processing [ipapython] error
+[2023-06-15 07:45:03] INFO root fetch - processPackages [odoo-addon-web-widget-bokeh-chart]: New version: [16.0.1.0.1] Old Version: [15.0.1.1.1]
+[2023-06-15 07:45:03] ERROR root fetch - processPackages [ipaplatform]: Diffoscope failed: /srv/diffoscope/bin/diffoscope: tmp/ipaplatform-4.8.9-py2.py3-none-any.whl.zip: No such file or directory
+
+[2023-06-15 07:45:03] INFO root fetch - processPackages [ipaplatform]: Start processing: odoo-addons-oca-web
+[2023-06-15 07:45:03] INFO root fetch - main [MainThread]: End processing [ipaplatform] error
+[2023-06-15 07:45:03] INFO root fetch - processPackages [ipa]: Remove: archive file [/home/abi/fetcher/tmp/ipa-4.8.9-py2.py3-none-any.whl.zip]
+[2023-06-15 07:45:03] INFO root fetch - processPackages [ipa]: Remove: archive file [/home/abi/fetcher/tmp/ipa-4.9.12-py2.py3-none-any.whl.zip]
+[2023-06-15 07:45:03] INFO root fetch - processPackages [ipa]: Start processing: odoo8-addon-website-slides
+[2023-06-15 07:45:03] INFO root fetch - main [MainThread]: End processing [ipa]: success
+[2023-06-15 07:45:03] INFO root fetch - processPackages [odoo-addon-web-widget-bokeh-chart]: Downloading https://files.pythonhosted.org/packages/4f/a8/88e5aadcaefe66bb7785535222883b70c3d100aa15f32d04fb54f4abb879/odoo_addon_web_widget_bokeh_chart-15.0.1.1.1-py3-none-any.whl
+[2023-06-15 07:45:03] INFO root fetch - processPackages [odoo-addons-oca-web]: New version: [16.0.20230614.0] Old Version: [16.0.20230610.0]
+[2023-06-15 07:45:03] INFO root fetch - processPackages [odoo-addon-web-company-color]: Downloading https://files.pythonhosted.org/packages/8e/e6/2652202fc17ebbf7eb80de4e46867e2932b22fedbc11d71461d6a4c04f26/odoo_addon_web_company_color-16.0.1.1.0-py3-none-any.whl
+[2023-06-15 07:45:04] INFO root fetch - processPackages [odoo8-addon-website-slides]: New version: [8.0.2.0.1.99.dev9] Old Version: [8.0.2.0.1.99.dev8]
+[2023-06-15 07:45:04] INFO root fetch - processPackages [odoo-addon-web-company-color]: executing diffoscope
+[2023-06-15 07:45:04] INFO root fetch - processPackages [odoo-addon-web-company-color]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_web_company_color-16.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_web_company_color-16.0.1.1.0-py3-none-any.whl.zip --markdown 20230615/o/odoo-addon-web-company-color/16.0.1.0.0.2-16.0.1.1.0/diff.md --exclude *.pyd
+[2023-06-15 07:45:04] INFO root fetch - processPackages [odoo-addon-web-widget-bokeh-chart]: Downloading https://files.pythonhosted.org/packages/6f/4a/7d63e4b1e1987519629d2e28873d6cf9582cd1771d16907ea9f8a8843307/odoo_addon_web_widget_bokeh_chart-16.0.1.0.1-py3-none-any.whl
+[2023-06-15 07:45:04] INFO root fetch - processPackages [odoo-addon-web-widget-bokeh-chart]: executing diffoscope
+[2023-06-15 07:45:04] INFO root fetch - processPackages [odoo-addon-web-widget-bokeh-chart]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_web_widget_bokeh_chart-15.0.1.1.1-py3-none-any.whl.zip tmp/odoo_addon_web_widget_bokeh_chart-16.0.1.0.1-py3-none-any.whl.zip --markdown 20230615/o/odoo-addon-web-widget-bokeh-chart/15.0.1.1.1-16.0.1.0.1/diff.md --exclude *.pyd
+[2023-06-15 07:45:04] INFO root fetch - processPackages [odoo8-addon-website-slides]: Downloading https://files.pythonhosted.org/packages/db/73/bc846d26c50e08f2a11db15308de999701d2ef36e74b15a6254d448d2c0b/odoo8_addon_website_slides-8.0.2.0.1.99.dev8-py2-none-any.whl
+[2023-06-15 07:45:04] INFO root fetch - processPackages [odoo-addons-oca-web]: Downloading https://files.pythonhosted.org/packages/84/e0/0b7793c3720ee52dd58d46358db29c44221ded0ffebce85027a528e2e318/odoo_addons_oca_web-16.0.20230610.0-py3-none-any.whl
+[2023-06-15 07:45:04] INFO root fetch - processPackages [centralcli]: Remove: archive file [/home/abi/fetcher/tmp/centralcli-1.1.tar.gz]
+[2023-06-15 07:45:04] INFO root fetch - processPackages [centralcli]: Remove: archive file [/home/abi/fetcher/tmp/centralcli-1.2.tar.gz]
+[2023-06-15 07:45:04] INFO root fetch - processPackages [centralcli]: Start processing: odoo8-addon-website-portal-purchase
+[2023-06-15 07:45:04] INFO root fetch - main [MainThread]: End processing [centralcli]: success
+[2023-06-15 07:45:04] INFO root fetch - processPackages [ipaserver]: Remove: archive file [/home/abi/fetcher/tmp/ipaserver-4.8.9-py2.py3-none-any.whl.zip]
+[2023-06-15 07:45:04] INFO root fetch - processPackages [ipaserver]: Remove: archive file [/home/abi/fetcher/tmp/ipaserver-4.9.12-py2.py3-none-any.whl.zip]
+[2023-06-15 07:45:04] INFO root fetch - processPackages [ipaserver]: Start processing: odoo8-addon-website-portal-sale
+[2023-06-15 07:45:04] INFO root fetch - main [MainThread]: End processing [ipaserver]: success
+[2023-06-15 07:45:04] INFO root fetch - processPackages [ipatests]: Remove: archive file [/home/abi/fetcher/tmp/ipatests-4.8.9-py2.py3-none-any.whl.zip]
+[2023-06-15 07:45:04] INFO root fetch - processPackages [ipatests]: Remove: archive file [/home/abi/fetcher/tmp/ipatests-4.9.12-py2.py3-none-any.whl.zip]
+[2023-06-15 07:45:04] INFO root fetch - main [MainThread]: End processing [ipatests]: success
+[2023-06-15 07:45:04] INFO root fetch - processPackages [odoo8-addon-website-portal-purchase]: New version: [8.0.1.0.0.99.dev34] Old Version: [8.0.1.0.0.99.dev33]
+[2023-06-15 07:45:04] INFO root fetch - processPackages [odoo-addons-oca-web]: Downloading https://files.pythonhosted.org/packages/93/5f/853a4c3065a73ae96c32f12ec91eee73e11a5142213f37e89bfbd4c20572/odoo_addons_oca_web-16.0.20230614.0-py3-none-any.whl
+[2023-06-15 07:45:04] INFO root fetch - processPackages [odoo8-addon-website-portal-sale]: New version: [8.0.1.0.0.99.dev38] Old Version: [8.0.1.0.0.99.dev37]
+[2023-06-15 07:45:04] INFO root fetch - processPackages [ipaclient]: Remove: archive file [/home/abi/fetcher/tmp/ipaclient-4.8.7-py2.py3-none-any.whl.zip]
+[2023-06-15 07:45:04] INFO root fetch - processPackages [ipaclient]: Remove: archive file [/home/abi/fetcher/tmp/ipaclient-4.8.9-py2.py3-none-any.whl.zip]
+[2023-06-15 07:45:04] INFO root fetch - main [MainThread]: End processing [ipaclient]: success
+[2023-06-15 07:45:04] INFO root fetch - processPackages [odoo-addons-oca-web]: executing diffoscope
+[2023-06-15 07:45:04] INFO root fetch - processPackages [odoo-addons-oca-web]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_web-16.0.20230610.0-py3-none-any.whl.zip tmp/odoo_addons_oca_web-16.0.20230614.0-py3-none-any.whl.zip --markdown 20230615/o/odoo-addons-oca-web/16.0.20230610.0-16.0.20230614.0/diff.md --exclude *.pyd
+[2023-06-15 07:45:04] INFO root fetch - processPackages [odoo8-addon-website-portal-purchase]: Downloading https://files.pythonhosted.org/packages/de/e8/51322c7a0a7f11ad6878cb83f6699331f036931785d7adc1d78af133233a/odoo8_addon_website_portal_purchase-8.0.1.0.0.99.dev33-py2-none-any.whl
+[2023-06-15 07:45:04] INFO root fetch - processPackages [odoo8-addon-website-portal-sale]: Downloading https://files.pythonhosted.org/packages/68/cf/ec705e18b261f5a7bc143875549fb7ebcfe0a87a29a90c9a13f772dcc095/odoo8_addon_website_portal_sale-8.0.1.0.0.99.dev37-py2-none-any.whl
+[2023-06-15 07:45:04] INFO root fetch - processPackages [odoo8-addon-website-portal-purchase]: Downloading https://files.pythonhosted.org/packages/e3/e8/11b8934f9c111c0e2c4b1400a5441baafc2fc0f5f58c9c6610321141f859/odoo8_addon_website_portal_purchase-8.0.1.0.0.99.dev34-py2-none-any.whl
+[2023-06-15 07:45:05] INFO root fetch - processPackages [odoo8-addon-website-portal-sale]: Downloading https://files.pythonhosted.org/packages/cf/3c/ed3750272b8903f2b7e8fd2abd8c293e538913b12fb2770817e4aaff2545/odoo8_addon_website_portal_sale-8.0.1.0.0.99.dev38-py2-none-any.whl
+[2023-06-15 07:45:05] INFO root fetch - processPackages [drillvision]: Remove: archive file [/home/abi/fetcher/tmp/drillvision-0.0.3.tar.gz]
+[2023-06-15 07:45:05] INFO root fetch - processPackages [drillvision]: Remove: archive file [/home/abi/fetcher/tmp/drillvision-0.0.4.tar.gz]
+[2023-06-15 07:45:05] INFO root fetch - main [MainThread]: End processing [drillvision]: success
+[2023-06-15 07:45:05] INFO root fetch - processPackages [odoo8-addon-website-portal-purchase]: executing diffoscope
+[2023-06-15 07:45:05] INFO root fetch - processPackages [odoo8-addon-website-portal-purchase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo8_addon_website_portal_purchase-8.0.1.0.0.99.dev33-py2-none-any.whl.zip tmp/odoo8_addon_website_portal_purchase-8.0.1.0.0.99.dev34-py2-none-any.whl.zip --markdown 20230615/o/odoo8-addon-website-portal-purchase/8.0.1.0.0.99.dev33-8.0.1.0.0.99.dev34/diff.md --exclude *.pyd
+[2023-06-15 07:45:05] INFO root fetch - processPackages [odoo8-addon-website-portal-sale]: executing diffoscope
+[2023-06-15 07:45:05] INFO root fetch - processPackages [odoo8-addon-website-portal-sale]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo8_addon_website_portal_sale-8.0.1.0.0.99.dev37-py2-none-any.whl.zip tmp/odoo8_addon_website_portal_sale-8.0.1.0.0.99.dev38-py2-none-any.whl.zip --markdown 20230615/o/odoo8-addon-website-portal-sale/8.0.1.0.0.99.dev37-8.0.1.0.0.99.dev38/diff.md --exclude *.pyd
+[2023-06-15 07:45:05] INFO root fetch - processPackages [odoo-addon-web-company-color]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_web_company_color-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2023-06-15 07:45:05] INFO root fetch - processPackages [odoo-addon-web-company-color]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_web_company_color-16.0.1.1.0-py3-none-any.whl.zip]
+[2023-06-15 07:45:05] INFO root fetch - main [MainThread]: End processing [odoo-addon-web-company-color]: success
+[2023-06-15 07:45:05] INFO root fetch - processPackages [odoo8-addon-website-slides]: Downloading https://files.pythonhosted.org/packages/9f/ce/4a233360dfbbadf7571ab2ce56b8a846bac4677b5cc4245467711c98d8ae/odoo8_addon_website_slides-8.0.2.0.1.99.dev9-py2-none-any.whl
+[2023-06-15 07:45:05] INFO root fetch - processPackages [odoo-addons-oca-web]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_web-16.0.20230610.0-py3-none-any.whl.zip]
+[2023-06-15 07:45:05] INFO root fetch - processPackages [odoo-addons-oca-web]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_web-16.0.20230614.0-py3-none-any.whl.zip]
+[2023-06-15 07:45:05] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-web]: success
+[2023-06-15 07:45:06] INFO root fetch - processPackages [ipaclient]: Remove: archive file [/home/abi/fetcher/tmp/ipaclient-4.9.12-py2.py3-none-any.whl.zip]
+[2023-06-15 07:45:06] INFO root fetch - main [MainThread]: End processing [ipaclient]: success
+[2023-06-15 07:45:06] INFO root fetch - processPackages [odoo8-addon-website-slides]: executing diffoscope
+[2023-06-15 07:45:06] INFO root fetch - processPackages [odoo8-addon-website-slides]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo8_addon_website_slides-8.0.2.0.1.99.dev8-py2-none-any.whl.zip tmp/odoo8_addon_website_slides-8.0.2.0.1.99.dev9-py2-none-any.whl.zip --markdown 20230615/o/odoo8-addon-website-slides/8.0.2.0.1.99.dev8-8.0.2.0.1.99.dev9/diff.md --exclude *.pyd
+[2023-06-15 07:45:06] INFO root fetch - processPackages [odoo8-addon-website-portal-purchase]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_website_portal_purchase-8.0.1.0.0.99.dev33-py2-none-any.whl.zip]
+[2023-06-15 07:45:06] INFO root fetch - processPackages [odoo8-addon-website-portal-purchase]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_website_portal_purchase-8.0.1.0.0.99.dev34-py2-none-any.whl.zip]
+[2023-06-15 07:45:06] INFO root fetch - main [MainThread]: End processing [odoo8-addon-website-portal-purchase]: success
+[2023-06-15 07:45:06] INFO root fetch - processPackages [odoo8-addon-website-portal-sale]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_website_portal_sale-8.0.1.0.0.99.dev37-py2-none-any.whl.zip]
+[2023-06-15 07:45:06] INFO root fetch - processPackages [odoo8-addon-website-portal-sale]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_website_portal_sale-8.0.1.0.0.99.dev38-py2-none-any.whl.zip]
+[2023-06-15 07:45:06] INFO root fetch - main [MainThread]: End processing [odoo8-addon-website-portal-sale]: success
+[2023-06-15 07:45:09] INFO root fetch - processPackages [odoo8-addon-website-slides]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_website_slides-8.0.2.0.1.99.dev8-py2-none-any.whl.zip]
+[2023-06-15 07:45:09] INFO root fetch - processPackages [odoo8-addon-website-slides]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_website_slides-8.0.2.0.1.99.dev9-py2-none-any.whl.zip]
+[2023-06-15 07:45:09] INFO root fetch - main [MainThread]: End processing [odoo8-addon-website-slides]: success
+[2023-06-15 07:45:26] INFO root fetch - processPackages [odoo-addon-web-widget-bokeh-chart]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_web_widget_bokeh_chart-15.0.1.1.1-py3-none-any.whl.zip]
+[2023-06-15 07:45:26] INFO root fetch - processPackages [odoo-addon-web-widget-bokeh-chart]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_web_widget_bokeh_chart-16.0.1.0.1-py3-none-any.whl.zip]
+[2023-06-15 07:45:26] INFO root fetch - main [MainThread]: End processing [odoo-addon-web-widget-bokeh-chart]: success
+[2023-06-15 07:45:26] INFO root fetch - main [MainThread]: Store serial: [18511525]

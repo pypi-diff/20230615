@@ -1,0 +1,74 @@
+# Comparing `tmp/freeipa-4.8.7-py2.py3-none-any.whl.zip` & `tmp/freeipa-4.8.9-py2.py3-none-any.whl.zip`
+
+## zipinfo {}
+
+```diff
+@@ -1,6 +1,6 @@
+-Zip file size: 1389 bytes, number of entries: 4
+--rw-rw-r--  2.0 unx     1187 b- defN 20-Jun-10 19:58 freeipa-4.8.7.dist-info/METADATA
+--rw-rw-r--  2.0 unx      110 b- defN 20-Jun-10 19:58 freeipa-4.8.7.dist-info/WHEEL
+--rw-rw-r--  2.0 unx        1 b- defN 20-Jun-10 19:58 freeipa-4.8.7.dist-info/top_level.txt
+-?rw-rw-r--  2.0 unx      298 b- defN 20-Jun-10 19:58 freeipa-4.8.7.dist-info/RECORD
+-4 files, 1596 bytes uncompressed, 807 bytes compressed:  49.4%
++Zip file size: 1388 bytes, number of entries: 4
++-rw-rw-r--  2.0 unx     1187 b- defN 20-Aug-20 10:51 freeipa-4.8.9.dist-info/METADATA
++-rw-rw-r--  2.0 unx      110 b- defN 20-Aug-20 10:51 freeipa-4.8.9.dist-info/WHEEL
++-rw-rw-r--  2.0 unx        1 b- defN 20-Aug-20 10:51 freeipa-4.8.9.dist-info/top_level.txt
++?rw-rw-r--  2.0 unx      298 b- defN 20-Aug-20 10:51 freeipa-4.8.9.dist-info/RECORD
++4 files, 1596 bytes uncompressed, 806 bytes compressed:  49.5%
+```
+
+## zipnote {}
+
+```diff
+@@ -1,13 +1,13 @@
+-Filename: freeipa-4.8.7.dist-info/METADATA
++Filename: freeipa-4.8.9.dist-info/METADATA
+ Comment: 
+ 
+-Filename: freeipa-4.8.7.dist-info/WHEEL
++Filename: freeipa-4.8.9.dist-info/WHEEL
+ Comment: 
+ 
+-Filename: freeipa-4.8.7.dist-info/top_level.txt
++Filename: freeipa-4.8.9.dist-info/top_level.txt
+ Comment: 
+ 
+-Filename: freeipa-4.8.7.dist-info/RECORD
++Filename: freeipa-4.8.9.dist-info/RECORD
+ Comment: 
+ 
+ Zip file comment:
+```
+
+## Comparing `freeipa-4.8.7.dist-info/METADATA` & `freeipa-4.8.9.dist-info/METADATA`
+
+ * *Files 1% similar despite different names*
+
+```diff
+@@ -1,10 +1,10 @@
+ Metadata-Version: 2.1
+ Name: freeipa
+-Version: 4.8.7
++Version: 4.8.9
+ Summary: Dummy package for FreeIPA
+ Home-page: https://www.freeipa.org/
+ Author: FreeIPA Developers
+ Author-email: freeipa-devel@lists.fedorahosted.org
+ Maintainer: FreeIPA Developers
+ Maintainer-email: freeipa-devel@redhat.com
+ License: GPLv3
+@@ -21,12 +21,12 @@
+ Classifier: Operating System :: POSIX
+ Classifier: Operating System :: POSIX :: Linux
+ Classifier: Operating System :: Unix
+ Classifier: Topic :: Internet :: Name Service (DNS)
+ Classifier: Topic :: Security
+ Classifier: Topic :: System :: Systems Administration :: Authentication/Directory :: LDAP
+ Requires-Python: >=3.6.0
+-Requires-Dist: ipaclient (==4.8.7)
++Requires-Dist: ipaclient (==4.8.9)
+ 
+ Dummy package for FreeIPA
+```
+
