@@ -6268,3 +6268,65 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-15 03:46:39] INFO root fetch - processPackages [pyBibX]: Remove: archive file [/home/abi/fetcher/tmp/pyBibX-3.0.2.tar.gz]
 [2023-06-15 03:46:39] INFO root fetch - main [MainThread]: End processing [pyBibX]: success
 [2023-06-15 03:46:39] INFO root fetch - main [MainThread]: Store serial: [18509840]
+[2023-06-15 03:51:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18509840]
+[2023-06-15 03:51:48] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-15 03:51:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Priority1py
+[2023-06-15 03:51:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: yplib
+[2023-06-15 03:51:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lyra-graphtool-test
+[2023-06-15 03:51:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pymino
+[2023-06-15 03:51:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: Priority1py
+[2023-06-15 03:51:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cns
+[2023-06-15 03:51:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: yplib
+[2023-06-15 03:51:48] INFO root fetch - processPackages [Priority1py]: New version: [0.1.7b0] Old Version: [0.1.6b0]
+[2023-06-15 03:51:48] INFO root fetch - processPackages [Priority1py]: New version: [0.1.7b0] Old Version: [0.1.6b0]
+[2023-06-15 03:51:48] INFO root fetch - processPackages [cns]: New version: [1.0.17] Old Version: [1.0.16]
+[2023-06-15 03:51:48] INFO root fetch - processPackages [yplib]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-06-15 03:51:48] INFO root fetch - processPackages [lyra-graphtool-test]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-15 03:51:48] INFO root fetch - processPackages [yplib]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-06-15 03:51:48] INFO root fetch - processPackages [pymino]: New version: [1.1.9.6] Old Version: [1.1.9.5]
+[2023-06-15 03:51:48] INFO root fetch - processPackages [lyra-graphtool-test]: Downloading https://files.pythonhosted.org/packages/a4/99/68445fa71f66db426b8d4a0730145346e3c62d1ea29d981e500a120d1a83/lyra_graphtool_test-0.0.2.tar.gz
+[2023-06-15 03:51:48] INFO root fetch - processPackages [pymino]: Downloading https://files.pythonhosted.org/packages/af/5b/3a62fc02c7c85e202131f88ca029ff97ecc8f7ae2c8d0800f2d25441989e/pymino-1.1.9.5.tar.gz
+[2023-06-15 03:51:48] INFO root fetch - processPackages [Priority1py]: Downloading https://files.pythonhosted.org/packages/40/b4/4867ad065b94782766e1140b32d0c5ad5b7243906bdc4e87227b414eab46/Priority1py-0.1.6-beta.tar.gz
+[2023-06-15 03:51:48] INFO root fetch - processPackages [Priority1py]: Downloading https://files.pythonhosted.org/packages/40/b4/4867ad065b94782766e1140b32d0c5ad5b7243906bdc4e87227b414eab46/Priority1py-0.1.6-beta.tar.gz
+[2023-06-15 03:51:48] INFO root fetch - processPackages [cns]: Downloading https://files.pythonhosted.org/packages/51/90/a888d4176e48d850ee03c8c6f5bfd779700754be4cb2f73c14a3760fb79b/cns-1.0.16-py3-none-any.whl
+[2023-06-15 03:51:48] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/b1/69/640ea3ed7fe953cc62cc21c47e3d9c29c96a342bac851f440972d48aeaaa/yplib-1.2.8.tar.gz
+[2023-06-15 03:51:48] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/b1/69/640ea3ed7fe953cc62cc21c47e3d9c29c96a342bac851f440972d48aeaaa/yplib-1.2.8.tar.gz
+[2023-06-15 03:51:48] INFO root fetch - processPackages [lyra-graphtool-test]: Downloading https://files.pythonhosted.org/packages/43/cb/023c905e6f983f3b2f8d7337713bad89e41456a5258cd24331197e0d4398/lyra_graphtool_test-0.0.3.tar.gz
+[2023-06-15 03:51:49] INFO root fetch - processPackages [pymino]: Downloading https://files.pythonhosted.org/packages/b9/3e/302786ffec3c6ae95ccb1eafb63c1062bb951d0fcf2c2cb49920426b88ef/pymino-1.1.9.6.tar.gz
+[2023-06-15 03:51:49] INFO root fetch - processPackages [Priority1py]: Downloading https://files.pythonhosted.org/packages/2b/af/35e8584ad16cfe4d87adc851b6229f784f7f9f9bf9ed37460e1bd651bb02/Priority1py-0.1.7-beta.tar.gz
+[2023-06-15 03:51:49] INFO root fetch - processPackages [Priority1py]: Downloading https://files.pythonhosted.org/packages/2b/af/35e8584ad16cfe4d87adc851b6229f784f7f9f9bf9ed37460e1bd651bb02/Priority1py-0.1.7-beta.tar.gz
+[2023-06-15 03:51:49] INFO root fetch - processPackages [pymino]: executing diffoscope
+[2023-06-15 03:51:49] INFO root fetch - processPackages [pymino]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymino-1.1.9.5.tar.gz tmp/pymino-1.1.9.6.tar.gz --markdown 20230615/p/pymino/1.1.9.5-1.1.9.6/diff.md --exclude *.pyd
+[2023-06-15 03:51:49] INFO root fetch - processPackages [cns]: Downloading https://files.pythonhosted.org/packages/4b/e1/28004c5b38abd981cefb5327e17f807fed5e38366228220cea0e45fbc8d6/cns-1.0.17-py3-none-any.whl
+[2023-06-15 03:51:49] INFO root fetch - processPackages [lyra-graphtool-test]: executing diffoscope
+[2023-06-15 03:51:49] INFO root fetch - processPackages [lyra-graphtool-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lyra_graphtool_test-0.0.2.tar.gz tmp/lyra_graphtool_test-0.0.3.tar.gz --markdown 20230615/l/lyra-graphtool-test/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-15 03:51:49] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/64/a5/961a203ab62750327bb7cda058e85bb4d8dada822fae0b11ba1b598fed9b/yplib-1.2.9.tar.gz
+[2023-06-15 03:51:49] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/64/a5/961a203ab62750327bb7cda058e85bb4d8dada822fae0b11ba1b598fed9b/yplib-1.2.9.tar.gz
+[2023-06-15 03:51:49] INFO root fetch - processPackages [Priority1py]: executing diffoscope
+[2023-06-15 03:51:49] INFO root fetch - processPackages [Priority1py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Priority1py-0.1.6-beta.tar.gz tmp/Priority1py-0.1.7-beta.tar.gz --markdown 20230615/P/Priority1py/0.1.6b0-0.1.7b0/diff.md --exclude *.pyd
+[2023-06-15 03:51:49] INFO root fetch - processPackages [Priority1py]: executing diffoscope
+[2023-06-15 03:51:49] INFO root fetch - processPackages [Priority1py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Priority1py-0.1.6-beta.tar.gz tmp/Priority1py-0.1.7-beta.tar.gz --markdown 20230615/P/Priority1py/0.1.6b0-0.1.7b0/diff.md --exclude *.pyd
+[2023-06-15 03:51:49] INFO root fetch - processPackages [yplib]: executing diffoscope
+[2023-06-15 03:51:49] INFO root fetch - processPackages [yplib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yplib-1.2.8.tar.gz tmp/yplib-1.2.9.tar.gz --markdown 20230615/y/yplib/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-06-15 03:51:49] INFO root fetch - processPackages [yplib]: executing diffoscope
+[2023-06-15 03:51:49] INFO root fetch - processPackages [yplib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yplib-1.2.8.tar.gz tmp/yplib-1.2.9.tar.gz --markdown 20230615/y/yplib/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-06-15 03:51:49] INFO root fetch - processPackages [cns]: executing diffoscope
+[2023-06-15 03:51:49] INFO root fetch - processPackages [cns]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cns-1.0.16-py3-none-any.whl.zip tmp/cns-1.0.17-py3-none-any.whl.zip --markdown 20230615/c/cns/1.0.16-1.0.17/diff.md --exclude *.pyd
+[2023-06-15 03:51:50] INFO root fetch - processPackages [Priority1py]: Remove: archive file [/home/abi/fetcher/tmp/Priority1py-0.1.6-beta.tar.gz]
+[2023-06-15 03:51:50] INFO root fetch - processPackages [Priority1py]: Remove: archive file [/home/abi/fetcher/tmp/Priority1py-0.1.7-beta.tar.gz]
+[2023-06-15 03:51:50] INFO root fetch - main [MainThread]: End processing [Priority1py]: success
+[2023-06-15 03:51:50] INFO root fetch - main [MainThread]: End processing [Priority1py]: success
+[2023-06-15 03:51:50] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-1.2.8.tar.gz]
+[2023-06-15 03:51:50] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-1.2.9.tar.gz]
+[2023-06-15 03:51:50] INFO root fetch - main [MainThread]: End processing [yplib]: success
+[2023-06-15 03:51:50] INFO root fetch - processPackages [cns]: Remove: archive file [/home/abi/fetcher/tmp/cns-1.0.16-py3-none-any.whl.zip]
+[2023-06-15 03:51:50] INFO root fetch - processPackages [cns]: Remove: archive file [/home/abi/fetcher/tmp/cns-1.0.17-py3-none-any.whl.zip]
+[2023-06-15 03:51:50] INFO root fetch - main [MainThread]: End processing [cns]: success
+[2023-06-15 03:51:50] INFO root fetch - processPackages [pymino]: Remove: archive file [/home/abi/fetcher/tmp/pymino-1.1.9.5.tar.gz]
+[2023-06-15 03:51:50] INFO root fetch - processPackages [pymino]: Remove: archive file [/home/abi/fetcher/tmp/pymino-1.1.9.6.tar.gz]
+[2023-06-15 03:51:50] INFO root fetch - main [MainThread]: End processing [pymino]: success
+[2023-06-15 03:51:50] INFO root fetch - processPackages [lyra-graphtool-test]: Remove: archive file [/home/abi/fetcher/tmp/lyra_graphtool_test-0.0.2.tar.gz]
+[2023-06-15 03:51:50] INFO root fetch - processPackages [lyra-graphtool-test]: Remove: archive file [/home/abi/fetcher/tmp/lyra_graphtool_test-0.0.3.tar.gz]
+[2023-06-15 03:51:50] INFO root fetch - main [MainThread]: End processing [lyra-graphtool-test]: success
+[2023-06-15 03:51:50] INFO root fetch - main [MainThread]: End processing [yplib]: success
+[2023-06-15 03:51:50] INFO root fetch - main [MainThread]: Store serial: [18509868]
