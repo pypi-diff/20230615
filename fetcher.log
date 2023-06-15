@@ -5878,3 +5878,82 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-15 03:23:45] INFO root fetch - processPackages [ms-deisotope]: Remove: archive file [/home/abi/fetcher/tmp/ms_deisotope-0.0.9.tar.gz]
 [2023-06-15 03:23:45] INFO root fetch - main [MainThread]: End processing [ms-deisotope]: success
 [2023-06-15 03:23:45] INFO root fetch - main [MainThread]: Store serial: [18509640]
+[2023-06-15 03:28:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18509640]
+[2023-06-15 03:28:54] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-15 03:28:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: neon-utils
+[2023-06-15 03:28:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-lambda-layer-curl
+[2023-06-15 03:28:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Priority1py
+[2023-06-15 03:28:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pepperize.cdk-organizations
+[2023-06-15 03:28:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: centaur-client
+[2023-06-15 03:28:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: peakachu
+[2023-06-15 03:28:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: Priority1py
+[2023-06-15 03:28:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: centaur-client
+[2023-06-15 03:28:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pyagrum-nightly
+[2023-06-15 03:28:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: scotthsieh-projen-statemachine
+[2023-06-15 03:28:55] WARNING root fetch - processPackages [centaur-client]: Skipping, unable to determine old version
+[2023-06-15 03:28:55] INFO root fetch - main [MainThread]: End processing [centaur-client] error
+[2023-06-15 03:28:55] INFO root fetch - processPackages [Priority1py]: New version: [0.1.4b0] Old Version: [0.1.3b0]
+[2023-06-15 03:28:55] WARNING root fetch - processPackages [centaur-client]: Skipping, unable to determine old version
+[2023-06-15 03:28:55] INFO root fetch - main [MainThread]: End processing [centaur-client] error
+[2023-06-15 03:28:55] INFO root fetch - processPackages [Priority1py]: New version: [0.1.4b0] Old Version: [0.1.3b0]
+[2023-06-15 03:28:55] INFO root fetch - processPackages [neon-utils]: New version: [1.5.1a2] Old Version: [1.5.1a1]
+[2023-06-15 03:28:55] INFO root fetch - processPackages [peakachu]: New version: [2.2.post1] Old Version: [2.2]
+[2023-06-15 03:28:55] INFO root fetch - processPackages [scotthsieh-projen-statemachine]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-06-15 03:28:55] INFO root fetch - processPackages [pepperize.cdk-organizations]: New version: [0.7.99] Old Version: [0.7.98]
+[2023-06-15 03:28:55] INFO root fetch - processPackages [cdk-lambda-layer-curl]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-06-15 03:28:55] INFO root fetch - processPackages [scotthsieh-projen-statemachine]: Downloading https://files.pythonhosted.org/packages/75/2e/d50f8b081603ac850ec9b5d5d5206498a7d302b7a6ea31adbd59cb01a4ae/scotthsieh_projen_statemachine-2.0.98.tar.gz
+[2023-06-15 03:28:55] INFO root fetch - processPackages [neon-utils]: Downloading https://files.pythonhosted.org/packages/4e/a9/79f50e24979777cd2693a3c822ad9ee5638ba518ac629e1f5441fa20abff/neon_utils-1.5.1a1-py3-none-any.whl
+[2023-06-15 03:28:55] INFO root fetch - processPackages [pepperize.cdk-organizations]: Downloading https://files.pythonhosted.org/packages/c4/ec/fa2c14031b7b9ce22e4b044c652dd13a1a81769141fcd90e55c9eeb24d66/pepperize.cdk-organizations-0.7.98.tar.gz
+[2023-06-15 03:28:55] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Downloading https://files.pythonhosted.org/packages/c8/e2/39c88cfa63f418383f3a383b2b62dfe801cbfd5c53de4d005804c19d76dc/cdk-lambda-layer-curl-2.0.98.tar.gz
+[2023-06-15 03:28:55] INFO root fetch - processPackages [Priority1py]: Downloading https://files.pythonhosted.org/packages/5a/64/feacb32a8199b094baeec44824052570c6ce44b7cb2c5bf1534e71aadc66/Priority1py-0.1.3-beta.tar.gz
+[2023-06-15 03:28:55] INFO root fetch - processPackages [Priority1py]: Downloading https://files.pythonhosted.org/packages/5a/64/feacb32a8199b094baeec44824052570c6ce44b7cb2c5bf1534e71aadc66/Priority1py-0.1.3-beta.tar.gz
+[2023-06-15 03:28:55] INFO root fetch - processPackages [pepperize.cdk-organizations]: Downloading https://files.pythonhosted.org/packages/12/45/1106cc30844f7f4d96f7898a6ef3647d24a597c297bab995920a5915750e/pepperize.cdk-organizations-0.7.99.tar.gz
+[2023-06-15 03:28:55] INFO root fetch - processPackages [peakachu]: Downloading https://files.pythonhosted.org/packages/b3/c0/e7d4f102651315d1b34300210c41c308dfd246fd35cb53d26d76726116ce/peakachu-2.2.tar.gz
+[2023-06-15 03:28:55] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Downloading https://files.pythonhosted.org/packages/2e/02/9e7ab6bc6191e2cbe6705c1530f695ed00527096133668b731e72d6a6445/cdk-lambda-layer-curl-2.0.99.tar.gz
+[2023-06-15 03:28:55] INFO root fetch - processPackages [neon-utils]: Downloading https://files.pythonhosted.org/packages/c3/af/d837f332fcf5411dfc27e6ba4387d2be0a98765bee9dc13a6cce36668cc4/neon_utils-1.5.1a2-py3-none-any.whl
+[2023-06-15 03:28:55] INFO root fetch - processPackages [scotthsieh-projen-statemachine]: Downloading https://files.pythonhosted.org/packages/8d/5b/2a5beec8e0ad27c9cbe9feb5d73fadf98cf28ce1a01ad03f7abb00f14071/scotthsieh_projen_statemachine-2.0.99.tar.gz
+[2023-06-15 03:28:55] INFO root fetch - processPackages [Priority1py]: Downloading https://files.pythonhosted.org/packages/f5/7e/6b11e9a54c01643f91cf2ab7463001757bd60fa60fa38e893b0a7e484cc8/Priority1py-0.1.4-beta.tar.gz
+[2023-06-15 03:28:55] INFO root fetch - processPackages [Priority1py]: Downloading https://files.pythonhosted.org/packages/f5/7e/6b11e9a54c01643f91cf2ab7463001757bd60fa60fa38e893b0a7e484cc8/Priority1py-0.1.4-beta.tar.gz
+[2023-06-15 03:28:55] INFO root fetch - processPackages [cdk-lambda-layer-curl]: executing diffoscope
+[2023-06-15 03:28:55] INFO root fetch - processPackages [cdk-lambda-layer-curl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-lambda-layer-curl-2.0.98.tar.gz tmp/cdk-lambda-layer-curl-2.0.99.tar.gz --markdown 20230615/c/cdk-lambda-layer-curl/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-06-15 03:28:55] INFO root fetch - processPackages [pepperize.cdk-organizations]: executing diffoscope
+[2023-06-15 03:28:55] INFO root fetch - processPackages [pepperize.cdk-organizations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-organizations-0.7.98.tar.gz tmp/pepperize.cdk-organizations-0.7.99.tar.gz --markdown 20230615/p/pepperize.cdk-organizations/0.7.98-0.7.99/diff.md --exclude *.pyd
+[2023-06-15 03:28:55] INFO root fetch - processPackages [neon-utils]: executing diffoscope
+[2023-06-15 03:28:55] INFO root fetch - processPackages [neon-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon_utils-1.5.1a1-py3-none-any.whl.zip tmp/neon_utils-1.5.1a2-py3-none-any.whl.zip --markdown 20230615/n/neon-utils/1.5.1a1-1.5.1a2/diff.md --exclude *.pyd
+[2023-06-15 03:28:55] INFO root fetch - processPackages [Priority1py]: executing diffoscope
+[2023-06-15 03:28:55] INFO root fetch - processPackages [Priority1py]: executing diffoscope
+[2023-06-15 03:28:55] INFO root fetch - processPackages [Priority1py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Priority1py-0.1.3-beta.tar.gz tmp/Priority1py-0.1.4-beta.tar.gz --markdown 20230615/P/Priority1py/0.1.3b0-0.1.4b0/diff.md --exclude *.pyd
+[2023-06-15 03:28:55] INFO root fetch - processPackages [Priority1py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Priority1py-0.1.3-beta.tar.gz tmp/Priority1py-0.1.4-beta.tar.gz --markdown 20230615/P/Priority1py/0.1.3b0-0.1.4b0/diff.md --exclude *.pyd
+[2023-06-15 03:28:55] INFO root fetch - processPackages [peakachu]: Downloading https://files.pythonhosted.org/packages/f7/e9/3c0d460a4612da9861578a3b6e4f597bd86fcc4d47c7ceb0c54c2b7ff17d/peakachu-2.2.post1.tar.gz
+[2023-06-15 03:28:55] INFO root fetch - processPackages [peakachu]: executing diffoscope
+[2023-06-15 03:28:55] INFO root fetch - processPackages [peakachu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/peakachu-2.2.tar.gz tmp/peakachu-2.2.post1.tar.gz --markdown 20230615/p/peakachu/2.2-2.2.post1/diff.md --exclude *.pyd
+[2023-06-15 03:28:55] INFO root fetch - processPackages [scotthsieh-projen-statemachine]: executing diffoscope
+[2023-06-15 03:28:55] INFO root fetch - processPackages [scotthsieh-projen-statemachine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scotthsieh_projen_statemachine-2.0.98.tar.gz tmp/scotthsieh_projen_statemachine-2.0.99.tar.gz --markdown 20230615/s/scotthsieh-projen-statemachine/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-06-15 03:28:56] INFO root fetch - processPackages [pepperize.cdk-organizations]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-organizations-0.7.98.tar.gz]
+[2023-06-15 03:28:56] INFO root fetch - processPackages [pepperize.cdk-organizations]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-organizations-0.7.99.tar.gz]
+[2023-06-15 03:28:56] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-organizations]: success
+[2023-06-15 03:28:56] INFO root fetch - processPackages [Priority1py]: Remove: archive file [/home/abi/fetcher/tmp/Priority1py-0.1.3-beta.tar.gz]
+[2023-06-15 03:28:56] INFO root fetch - processPackages [Priority1py]: Remove: archive file [/home/abi/fetcher/tmp/Priority1py-0.1.4-beta.tar.gz]
+[2023-06-15 03:28:56] INFO root fetch - main [MainThread]: End processing [Priority1py]: success
+[2023-06-15 03:28:56] INFO root fetch - main [MainThread]: End processing [Priority1py]: success
+[2023-06-15 03:28:57] INFO root fetch - processPackages [neon-utils]: Remove: archive file [/home/abi/fetcher/tmp/neon_utils-1.5.1a1-py3-none-any.whl.zip]
+[2023-06-15 03:28:57] INFO root fetch - processPackages [neon-utils]: Remove: archive file [/home/abi/fetcher/tmp/neon_utils-1.5.1a2-py3-none-any.whl.zip]
+[2023-06-15 03:28:57] INFO root fetch - main [MainThread]: End processing [neon-utils]: success
+[2023-06-15 03:28:57] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.98.tar.gz]
+[2023-06-15 03:28:57] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.99.tar.gz]
+[2023-06-15 03:28:57] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-curl]: success
+[2023-06-15 03:28:57] INFO root fetch - processPackages [peakachu]: Remove: archive file [/home/abi/fetcher/tmp/peakachu-2.2.tar.gz]
+[2023-06-15 03:28:57] INFO root fetch - processPackages [peakachu]: Remove: archive file [/home/abi/fetcher/tmp/peakachu-2.2.post1.tar.gz]
+[2023-06-15 03:28:57] INFO root fetch - main [MainThread]: End processing [peakachu]: success
+[2023-06-15 03:28:57] INFO root fetch - processPackages [pyagrum-nightly]: New version: [1.8.3.dev202306121686326557] Old Version: [1.8.3.dev202306111686326557]
+[2023-06-15 03:28:58] INFO root fetch - processPackages [pyagrum-nightly]: Downloading https://files.pythonhosted.org/packages/07/46/270b8b245feb59d5f249e10ced72a02b0db3ac8b574dbdc1c90e197d19b0/pyAgrum_nightly-1.8.3.dev202306111686326557-cp39-cp39-win_amd64.whl
+[2023-06-15 03:28:58] INFO root fetch - processPackages [scotthsieh-projen-statemachine]: Remove: archive file [/home/abi/fetcher/tmp/scotthsieh_projen_statemachine-2.0.98.tar.gz]
+[2023-06-15 03:28:58] INFO root fetch - processPackages [scotthsieh-projen-statemachine]: Remove: archive file [/home/abi/fetcher/tmp/scotthsieh_projen_statemachine-2.0.99.tar.gz]
+[2023-06-15 03:28:58] INFO root fetch - main [MainThread]: End processing [scotthsieh-projen-statemachine]: success
+[2023-06-15 03:28:58] INFO root fetch - processPackages [pyagrum-nightly]: Downloading https://files.pythonhosted.org/packages/c0/d4/20a48d2f9b4e252fe76b5a7e22de84caa21e8f08934645676fb47376de73/pyAgrum_nightly-1.8.3.dev202306121686326557-cp39-cp39-win_amd64.whl
+[2023-06-15 03:28:58] INFO root fetch - processPackages [pyagrum-nightly]: executing diffoscope
+[2023-06-15 03:28:58] INFO root fetch - processPackages [pyagrum-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyAgrum_nightly-1.8.3.dev202306111686326557-cp39-cp39-win_amd64.whl.zip tmp/pyAgrum_nightly-1.8.3.dev202306121686326557-cp39-cp39-win_amd64.whl.zip --markdown 20230615/p/pyagrum-nightly/1.8.3.dev202306111686326557-1.8.3.dev202306121686326557/diff.md --exclude *.pyd
+[2023-06-15 03:29:00] INFO root fetch - processPackages [pyagrum-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyAgrum_nightly-1.8.3.dev202306111686326557-cp39-cp39-win_amd64.whl.zip]
+[2023-06-15 03:29:00] INFO root fetch - processPackages [pyagrum-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyAgrum_nightly-1.8.3.dev202306121686326557-cp39-cp39-win_amd64.whl.zip]
+[2023-06-15 03:29:00] INFO root fetch - main [MainThread]: End processing [pyagrum-nightly]: success
+[2023-06-15 03:29:00] INFO root fetch - main [MainThread]: Store serial: [18509671]
