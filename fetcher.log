@@ -19632,3 +19632,189 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-06-15 13:01:06] INFO root fetch - processPackages [savant-rs-etcd-dynamic-state]: Remove: archive file [/home/abi/fetcher/tmp/savant_rs_etcd_dynamic_state-0.1.27-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2023-06-15 13:01:06] INFO root fetch - main [MainThread]: End processing [savant-rs-etcd-dynamic-state]: success
 [2023-06-15 13:01:06] INFO root fetch - main [MainThread]: Store serial: [18514904]
+[2023-06-15 13:06:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18514904]
+[2023-06-15 13:06:27] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-06-15 13:06:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fastwapi
+[2023-06-15 13:06:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: openepd
+[2023-06-15 13:06:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: th2-data-services-lwdp
+[2023-06-15 13:06:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: stackoverflowapithingy
+[2023-06-15 13:06:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: openlrc
+[2023-06-15 13:06:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: t2iapi
+[2023-06-15 13:06:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gamium
+[2023-06-15 13:06:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: radicalpy
+[2023-06-15 13:06:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: CodeChat-Server
+[2023-06-15 13:06:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dipex
+[2023-06-15 13:06:27] INFO root fetch - processPackages [stackoverflowapithingy]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-15 13:06:27] INFO root fetch - processPackages [fastwapi]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-15 13:06:27] INFO root fetch - processPackages [openepd]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-06-15 13:06:27] INFO root fetch - processPackages [openlrc]: New version: [0.1.0] Old Version: [0.0.6]
+[2023-06-15 13:06:27] INFO root fetch - processPackages [gamium]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-06-15 13:06:27] INFO root fetch - processPackages [radicalpy]: New version: [0.5rc1] Old Version: [0.5.9]
+[2023-06-15 13:06:27] INFO root fetch - processPackages [t2iapi]: New version: [3.0.0.dev193] Old Version: [3.0.0.dev191]
+[2023-06-15 13:06:27] INFO root fetch - processPackages [CodeChat-Server]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-15 13:06:27] INFO root fetch - processPackages [th2-data-services-lwdp]: New version: [2.1.0.0.dev5277935888] Old Version: [2.1.0.0.dev5277858873]
+[2023-06-15 13:06:27] INFO root fetch - processPackages [dipex]: New version: [4.9.2] Old Version: [4.9.1]
+[2023-06-15 13:06:27] INFO root fetch - processPackages [stackoverflowapithingy]: Downloading https://files.pythonhosted.org/packages/14/a3/fdc16422a1f1db9df709fac604978d3cb42f882b31487b7f6b10f51f94ec/stackoverflowapithingy-0.1.1.tar.gz
+[2023-06-15 13:06:27] INFO root fetch - processPackages [t2iapi]: Downloading https://files.pythonhosted.org/packages/8a/44/94a3e57d854f38b1a44ccb640c0b17fc47d61ee959790bc48617b0353dbf/t2iapi-3.0.0.dev191.tar.gz
+[2023-06-15 13:06:27] INFO root fetch - processPackages [th2-data-services-lwdp]: Downloading https://files.pythonhosted.org/packages/41/c7/7a8c639b30658a3988504751d049b75b9a9b8d71f1e08c15fb93d54efc6c/th2_data_services_lwdp-2.1.0.0.dev5277858873.tar.gz
+[2023-06-15 13:06:27] INFO root fetch - processPackages [CodeChat-Server]: Downloading https://files.pythonhosted.org/packages/e8/dc/798a7f20ee21120a405cdac61af471c81b0847a1d67336b334c60e7aeab7/CodeChat_Server-0.2.8.tar.gz
+[2023-06-15 13:06:27] INFO root fetch - processPackages [dipex]: Downloading https://files.pythonhosted.org/packages/ca/fb/bcdbc34d4ffff4b37acd3e2fb76f42bcea1844762d4b998c319652fc6b38/dipex-4.9.1.tar.gz
+[2023-06-15 13:06:27] INFO root fetch - processPackages [openepd]: Downloading https://files.pythonhosted.org/packages/bd/55/12e33e58caea9f6afbebd5920044ce47a2a1036208d761b9504265ff79b4/openepd-0.8.1.tar.gz
+[2023-06-15 13:06:27] INFO root fetch - processPackages [radicalpy]: Downloading https://files.pythonhosted.org/packages/eb/ca/b3bec03754b62a7351b2c2e9b3736cad6a1d59bc9f90da7fc9f145925872/radicalpy-0.5.9.tar.gz
+[2023-06-15 13:06:27] INFO root fetch - processPackages [gamium]: Downloading https://files.pythonhosted.org/packages/9d/ac/b9ddc325f52d88147a3d45329e8f17c056c3439cc1ce6e990328e6c020ad/gamium-2.0.0.tar.gz
+[2023-06-15 13:06:27] INFO root fetch - processPackages [openlrc]: Downloading https://files.pythonhosted.org/packages/d0/e1/7110e4426c6ef3301f2aaa391c0712b47f9669471ed42c57ac25a3e4ac26/openlrc-0.0.6.tar.gz
+[2023-06-15 13:06:27] INFO root fetch - processPackages [fastwapi]: Downloading https://files.pythonhosted.org/packages/be/4b/46c40668afe6d5c10d5ddfe1012695f9d1b773a59127d1a326ff5eb1fcd7/FastWAPI-0.1.0.tar.gz
+[2023-06-15 13:06:27] INFO root fetch - processPackages [dipex]: Downloading https://files.pythonhosted.org/packages/d3/fa/fbf692999f299bb256217f34df9cc1e4ee2f9e1ae9e87e051b2b8b92aaa1/dipex-4.9.2.tar.gz
+[2023-06-15 13:06:27] INFO root fetch - processPackages [CodeChat-Server]: Downloading https://files.pythonhosted.org/packages/4e/37/2ec355690a21bc91dc40d4b16417c4a295e2b9917d1a3853d24d71d29b91/CodeChat_Server-0.2.9.tar.gz
+[2023-06-15 13:06:27] INFO root fetch - processPackages [stackoverflowapithingy]: Downloading https://files.pythonhosted.org/packages/06/f5/84da98161c0a90899339f2fa62b866d8ffe7dd6204fc97a91212ffb35118/stackoverflowapithingy-0.1.2.tar.gz
+[2023-06-15 13:06:27] INFO root fetch - processPackages [CodeChat-Server]: executing diffoscope
+[2023-06-15 13:06:27] INFO root fetch - processPackages [CodeChat-Server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CodeChat_Server-0.2.8.tar.gz tmp/CodeChat_Server-0.2.9.tar.gz --markdown 20230615/C/CodeChat-Server/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-15 13:06:27] INFO root fetch - processPackages [stackoverflowapithingy]: executing diffoscope
+[2023-06-15 13:06:27] INFO root fetch - processPackages [stackoverflowapithingy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stackoverflowapithingy-0.1.1.tar.gz tmp/stackoverflowapithingy-0.1.2.tar.gz --markdown 20230615/s/stackoverflowapithingy/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-15 13:06:27] INFO root fetch - processPackages [th2-data-services-lwdp]: Downloading https://files.pythonhosted.org/packages/2f/d1/1de69cccc442d04fc82bb895b68510954146c6d3aa78b95765991776241a/th2_data_services_lwdp-2.1.0.0.dev5277935888.tar.gz
+[2023-06-15 13:06:27] INFO root fetch - processPackages [t2iapi]: Downloading https://files.pythonhosted.org/packages/db/9d/d6b029963462a9b4932a099480506cc0051960f0fd877e78e7c2f26cff3a/t2iapi-3.0.0.dev193.tar.gz
+[2023-06-15 13:06:27] INFO root fetch - processPackages [openepd]: Downloading https://files.pythonhosted.org/packages/b3/6b/8bab32a2cf0b8a740a76c5043fa333b2690ecf08c1de5115bd0f0c84f9cb/openepd-0.9.0.tar.gz
+[2023-06-15 13:06:27] INFO root fetch - processPackages [radicalpy]: Downloading https://files.pythonhosted.org/packages/87/d3/d61166f9df1f707459b95ac953bcfae8303833dee100d97183eefa91012d/radicalpy-0.5rc1.tar.gz
+[2023-06-15 13:06:27] INFO root fetch - processPackages [fastwapi]: Downloading https://files.pythonhosted.org/packages/a2/31/0909622010221a86b82f6692ff17fc6c3a9cfd44fa6b4ebd2993bead09a9/fastwapi-0.1.1.tar.gz
+[2023-06-15 13:06:27] INFO root fetch - processPackages [fastwapi]: executing diffoscope
+[2023-06-15 13:06:27] INFO root fetch - processPackages [fastwapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FastWAPI-0.1.0.tar.gz tmp/fastwapi-0.1.1.tar.gz --markdown 20230615/f/fastwapi/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-15 13:06:27] INFO root fetch - processPackages [th2-data-services-lwdp]: executing diffoscope
+[2023-06-15 13:06:27] INFO root fetch - processPackages [th2-data-services-lwdp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th2_data_services_lwdp-2.1.0.0.dev5277858873.tar.gz tmp/th2_data_services_lwdp-2.1.0.0.dev5277935888.tar.gz --markdown 20230615/t/th2-data-services-lwdp/2.1.0.0.dev5277858873-2.1.0.0.dev5277935888/diff.md --exclude *.pyd
+[2023-06-15 13:06:27] INFO root fetch - processPackages [openlrc]: Downloading https://files.pythonhosted.org/packages/45/a8/4badca2390f754660845741c60513304e1868b537a028f2cf265d571a04d/openlrc-0.1.0.tar.gz
+[2023-06-15 13:06:27] INFO root fetch - processPackages [t2iapi]: executing diffoscope
+[2023-06-15 13:06:27] INFO root fetch - processPackages [t2iapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/t2iapi-3.0.0.dev191.tar.gz tmp/t2iapi-3.0.0.dev193.tar.gz --markdown 20230615/t/t2iapi/3.0.0.dev191-3.0.0.dev193/diff.md --exclude *.pyd
+[2023-06-15 13:06:27] INFO root fetch - processPackages [radicalpy]: executing diffoscope
+[2023-06-15 13:06:27] INFO root fetch - processPackages [radicalpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/radicalpy-0.5.9.tar.gz tmp/radicalpy-0.5rc1.tar.gz --markdown 20230615/r/radicalpy/0.5.9-0.5rc1/diff.md --exclude *.pyd
+[2023-06-15 13:06:27] INFO root fetch - processPackages [openepd]: executing diffoscope
+[2023-06-15 13:06:27] INFO root fetch - processPackages [openepd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openepd-0.8.1.tar.gz tmp/openepd-0.9.0.tar.gz --markdown 20230615/o/openepd/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-06-15 13:06:27] INFO root fetch - processPackages [gamium]: Downloading https://files.pythonhosted.org/packages/90/f0/01cf18df22f10d1379f778a2ad595f46fcd3e857f83851d878326e9f5693/gamium-2.0.1.tar.gz
+[2023-06-15 13:06:27] INFO root fetch - processPackages [openlrc]: executing diffoscope
+[2023-06-15 13:06:27] INFO root fetch - processPackages [openlrc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openlrc-0.0.6.tar.gz tmp/openlrc-0.1.0.tar.gz --markdown 20230615/o/openlrc/0.0.6-0.1.0/diff.md --exclude *.pyd
+[2023-06-15 13:06:28] INFO root fetch - processPackages [gamium]: executing diffoscope
+[2023-06-15 13:06:28] INFO root fetch - processPackages [gamium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gamium-2.0.0.tar.gz tmp/gamium-2.0.1.tar.gz --markdown 20230615/g/gamium/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-06-15 13:06:28] INFO root fetch - processPackages [dipex]: executing diffoscope
+[2023-06-15 13:06:28] INFO root fetch - processPackages [dipex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dipex-4.9.1.tar.gz tmp/dipex-4.9.2.tar.gz --markdown 20230615/d/dipex/4.9.1-4.9.2/diff.md --exclude *.pyd
+[2023-06-15 13:06:30] INFO root fetch - processPackages [stackoverflowapithingy]: Remove: archive file [/home/abi/fetcher/tmp/stackoverflowapithingy-0.1.1.tar.gz]
+[2023-06-15 13:06:30] INFO root fetch - processPackages [stackoverflowapithingy]: Remove: archive file [/home/abi/fetcher/tmp/stackoverflowapithingy-0.1.2.tar.gz]
+[2023-06-15 13:06:30] INFO root fetch - processPackages [stackoverflowapithingy]: Start processing: just-another-imgscrapper
+[2023-06-15 13:06:30] INFO root fetch - main [MainThread]: End processing [stackoverflowapithingy]: success
+[2023-06-15 13:06:30] INFO root fetch - processPackages [just-another-imgscrapper]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-15 13:06:30] INFO root fetch - processPackages [just-another-imgscrapper]: Downloading https://files.pythonhosted.org/packages/6c/58/6b99b7e0f7cdb616dcbcf185759c04158a82a1f64389519fc876ab064836/just-another-imgscrapper-0.1.1.tar.gz
+[2023-06-15 13:06:30] INFO root fetch - processPackages [fastwapi]: Remove: archive file [/home/abi/fetcher/tmp/FastWAPI-0.1.0.tar.gz]
+[2023-06-15 13:06:30] INFO root fetch - processPackages [fastwapi]: Remove: archive file [/home/abi/fetcher/tmp/fastwapi-0.1.1.tar.gz]
+[2023-06-15 13:06:30] INFO root fetch - processPackages [fastwapi]: Start processing: beetl
+[2023-06-15 13:06:30] INFO root fetch - main [MainThread]: End processing [fastwapi]: success
+[2023-06-15 13:06:30] INFO root fetch - processPackages [beetl]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-15 13:06:31] INFO root fetch - processPackages [just-another-imgscrapper]: Downloading https://files.pythonhosted.org/packages/41/33/2f0b0bf0c6920b045b93891684c33e356ca9ccad1afe87d64a498152b4a9/just-another-imgscrapper-0.1.2.tar.gz
+[2023-06-15 13:06:31] INFO root fetch - processPackages [just-another-imgscrapper]: executing diffoscope
+[2023-06-15 13:06:31] INFO root fetch - processPackages [just-another-imgscrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/just-another-imgscrapper-0.1.1.tar.gz tmp/just-another-imgscrapper-0.1.2.tar.gz --markdown 20230615/j/just-another-imgscrapper/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-15 13:06:31] INFO root fetch - processPackages [beetl]: Downloading https://files.pythonhosted.org/packages/ec/71/0821a8caae62e9cb1a36cf8f28f7c732153266e6a1cc61e76680a1f91db2/beetl-0.1.0.tar.gz
+[2023-06-15 13:06:31] INFO root fetch - processPackages [radicalpy]: Remove: archive file [/home/abi/fetcher/tmp/radicalpy-0.5.9.tar.gz]
+[2023-06-15 13:06:31] INFO root fetch - processPackages [radicalpy]: Remove: archive file [/home/abi/fetcher/tmp/radicalpy-0.5rc1.tar.gz]
+[2023-06-15 13:06:31] INFO root fetch - processPackages [radicalpy]: Start processing: kast-flow-api-python
+[2023-06-15 13:06:31] INFO root fetch - main [MainThread]: End processing [radicalpy]: success
+[2023-06-15 13:06:31] INFO root fetch - processPackages [kast-flow-api-python]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-06-15 13:06:31] INFO root fetch - processPackages [th2-data-services-lwdp]: Remove: archive file [/home/abi/fetcher/tmp/th2_data_services_lwdp-2.1.0.0.dev5277858873.tar.gz]
+[2023-06-15 13:06:31] INFO root fetch - processPackages [th2-data-services-lwdp]: Remove: archive file [/home/abi/fetcher/tmp/th2_data_services_lwdp-2.1.0.0.dev5277935888.tar.gz]
+[2023-06-15 13:06:31] INFO root fetch - processPackages [th2-data-services-lwdp]: Start processing: titan-iris
+[2023-06-15 13:06:31] INFO root fetch - main [MainThread]: End processing [th2-data-services-lwdp]: success
+[2023-06-15 13:06:31] INFO root fetch - processPackages [titan-iris]: New version: [0.3.9a2] Old Version: [0.3.9a1]
+[2023-06-15 13:06:31] INFO root fetch - processPackages [kast-flow-api-python]: Downloading https://files.pythonhosted.org/packages/bb/8f/bc1417f724e54aaa73865503ea4f1f5cb8ff3e610cc22427243b33f50466/kast_flow_api_python-1.0.1.tar.gz
+[2023-06-15 13:06:31] INFO root fetch - processPackages [titan-iris]: Downloading https://files.pythonhosted.org/packages/44/d5/65facd9094b25df7ad98b3e18ba0615e010861081bf1b7fe7ca7cc35b0a7/titan-iris-0.3.9a1.tar.gz
+[2023-06-15 13:06:31] INFO root fetch - processPackages [openlrc]: Remove: archive file [/home/abi/fetcher/tmp/openlrc-0.0.6.tar.gz]
+[2023-06-15 13:06:31] INFO root fetch - processPackages [openlrc]: Remove: archive file [/home/abi/fetcher/tmp/openlrc-0.1.0.tar.gz]
+[2023-06-15 13:06:31] INFO root fetch - processPackages [openlrc]: Start processing: django-ipghrms-leave
+[2023-06-15 13:06:31] INFO root fetch - main [MainThread]: End processing [openlrc]: success
+[2023-06-15 13:06:31] INFO root fetch - processPackages [openepd]: Remove: archive file [/home/abi/fetcher/tmp/openepd-0.8.1.tar.gz]
+[2023-06-15 13:06:31] INFO root fetch - processPackages [openepd]: Remove: archive file [/home/abi/fetcher/tmp/openepd-0.9.0.tar.gz]
+[2023-06-15 13:06:31] INFO root fetch - processPackages [openepd]: Start processing: gaohn-common-utils
+[2023-06-15 13:06:31] INFO root fetch - main [MainThread]: End processing [openepd]: success
+[2023-06-15 13:06:31] INFO root fetch - processPackages [django-ipghrms-leave]: New version: [1.8] Old Version: [1.7]
+[2023-06-15 13:06:31] INFO root fetch - processPackages [gaohn-common-utils]: New version: [0.0.62] Old Version: [0.0.61]
+[2023-06-15 13:06:31] INFO root fetch - processPackages [beetl]: Downloading https://files.pythonhosted.org/packages/06/66/5fd4a9b2db492d43b1d31451aca61fac02478ea2b9bdef900b88b45ae5b3/beetl-0.1.1.tar.gz
+[2023-06-15 13:06:31] INFO root fetch - processPackages [titan-iris]: Downloading https://files.pythonhosted.org/packages/6e/81/2a91a9be26df9651b2fc3a6054ccc6fbe32f3a3f990f2ffe9f5b67799541/titan-iris-0.3.9a2.tar.gz
+[2023-06-15 13:06:31] INFO root fetch - processPackages [django-ipghrms-leave]: Downloading https://files.pythonhosted.org/packages/27/8a/072d08ea776455e813d8fb1165386e8171fae23396c46596eaaa90f173ea/django-ipghrms-leave-1.7.tar.gz
+[2023-06-15 13:06:31] INFO root fetch - processPackages [beetl]: executing diffoscope
+[2023-06-15 13:06:31] INFO root fetch - processPackages [gaohn-common-utils]: Downloading https://files.pythonhosted.org/packages/a9/93/cd233c7d184a25d96528fd85f7358ef5146778755e66a9aa81499bfb59d2/gaohn-common-utils-0.0.61.tar.gz
+[2023-06-15 13:06:31] INFO root fetch - processPackages [beetl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/beetl-0.1.0.tar.gz tmp/beetl-0.1.1.tar.gz --markdown 20230615/b/beetl/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-15 13:06:31] INFO root fetch - processPackages [titan-iris]: executing diffoscope
+[2023-06-15 13:06:31] INFO root fetch - processPackages [titan-iris]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/titan-iris-0.3.9a1.tar.gz tmp/titan-iris-0.3.9a2.tar.gz --markdown 20230615/t/titan-iris/0.3.9a1-0.3.9a2/diff.md --exclude *.pyd
+[2023-06-15 13:06:32] INFO root fetch - processPackages [kast-flow-api-python]: Downloading https://files.pythonhosted.org/packages/a0/a5/216cfc4b7c0384ca9c1c6d6da9ae979b9814efde35d528275c6873dded56/kast_flow_api_python-1.0.2.tar.gz
+[2023-06-15 13:06:32] INFO root fetch - processPackages [kast-flow-api-python]: executing diffoscope
+[2023-06-15 13:06:32] INFO root fetch - processPackages [kast-flow-api-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kast_flow_api_python-1.0.1.tar.gz tmp/kast_flow_api_python-1.0.2.tar.gz --markdown 20230615/k/kast-flow-api-python/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-06-15 13:06:32] INFO root fetch - processPackages [django-ipghrms-leave]: Downloading https://files.pythonhosted.org/packages/07/64/fb9dd61ec26bdeb66686e6047d2f2eed129d48e5b31f092d1c2a6ae208a5/django-ipghrms-leave-1.8.tar.gz
+[2023-06-15 13:06:32] INFO root fetch - processPackages [gaohn-common-utils]: Downloading https://files.pythonhosted.org/packages/75/88/14b9798ca9f9d36f446b4be4e77770f4ac62c085b95a0f8bee718a2d8e53/gaohn-common-utils-0.0.62.tar.gz
+[2023-06-15 13:06:32] INFO root fetch - processPackages [django-ipghrms-leave]: executing diffoscope
+[2023-06-15 13:06:32] INFO root fetch - processPackages [django-ipghrms-leave]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-ipghrms-leave-1.7.tar.gz tmp/django-ipghrms-leave-1.8.tar.gz --markdown 20230615/d/django-ipghrms-leave/1.7-1.8/diff.md --exclude *.pyd
+[2023-06-15 13:06:32] INFO root fetch - processPackages [gaohn-common-utils]: executing diffoscope
+[2023-06-15 13:06:32] INFO root fetch - processPackages [gaohn-common-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gaohn-common-utils-0.0.61.tar.gz tmp/gaohn-common-utils-0.0.62.tar.gz --markdown 20230615/g/gaohn-common-utils/0.0.61-0.0.62/diff.md --exclude *.pyd
+[2023-06-15 13:06:32] INFO root fetch - processPackages [t2iapi]: Remove: archive file [/home/abi/fetcher/tmp/t2iapi-3.0.0.dev191.tar.gz]
+[2023-06-15 13:06:32] INFO root fetch - processPackages [t2iapi]: Remove: archive file [/home/abi/fetcher/tmp/t2iapi-3.0.0.dev193.tar.gz]
+[2023-06-15 13:06:32] INFO root fetch - processPackages [t2iapi]: Start processing: amfiprot-amfitrack
+[2023-06-15 13:06:32] INFO root fetch - main [MainThread]: End processing [t2iapi]: success
+[2023-06-15 13:06:32] INFO root fetch - processPackages [amfiprot-amfitrack]: New version: [0.0.1a9] Old Version: [0.0.1a8]
+[2023-06-15 13:06:32] INFO root fetch - processPackages [amfiprot-amfitrack]: Downloading https://files.pythonhosted.org/packages/99/1c/92cf7f927aa47b3cc5bba8867e5911d001410792b84beb488e90a0ad7ee7/amfiprot_amfitrack-0.0.1a8.tar.gz
+[2023-06-15 13:06:32] INFO root fetch - processPackages [CodeChat-Server]: Remove: archive file [/home/abi/fetcher/tmp/CodeChat_Server-0.2.8.tar.gz]
+[2023-06-15 13:06:32] INFO root fetch - processPackages [CodeChat-Server]: Remove: archive file [/home/abi/fetcher/tmp/CodeChat_Server-0.2.9.tar.gz]
+[2023-06-15 13:06:32] INFO root fetch - processPackages [CodeChat-Server]: Start processing: Parman
+[2023-06-15 13:06:32] INFO root fetch - main [MainThread]: End processing [CodeChat-Server]: success
+[2023-06-15 13:06:32] INFO root fetch - processPackages [Parman]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-06-15 13:06:33] INFO root fetch - processPackages [Parman]: Downloading https://files.pythonhosted.org/packages/c1/1c/11ec0d281db98465fa1c203ae17999aad5cbcb57f7f61df27043f3d87dbe/Parman-0.3.0.tar.gz
+[2023-06-15 13:06:33] INFO root fetch - processPackages [amfiprot-amfitrack]: Downloading https://files.pythonhosted.org/packages/bc/c8/4e1c74712948a1b63d174fe8bc0dba7f17154301e74d61c129dd151a6fd8/amfiprot_amfitrack-0.0.1a9.tar.gz
+[2023-06-15 13:06:33] INFO root fetch - processPackages [amfiprot-amfitrack]: executing diffoscope
+[2023-06-15 13:06:33] INFO root fetch - processPackages [amfiprot-amfitrack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amfiprot_amfitrack-0.0.1a8.tar.gz tmp/amfiprot_amfitrack-0.0.1a9.tar.gz --markdown 20230615/a/amfiprot-amfitrack/0.0.1a8-0.0.1a9/diff.md --exclude *.pyd
+[2023-06-15 13:06:33] INFO root fetch - processPackages [Parman]: Downloading https://files.pythonhosted.org/packages/33/48/7d24c926396a565e8c7ead80384757b369fca6f6096a1d6a81eefb35142d/Parman-0.3.1.tar.gz
+[2023-06-15 13:06:33] INFO root fetch - processPackages [Parman]: executing diffoscope
+[2023-06-15 13:06:33] INFO root fetch - processPackages [Parman]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Parman-0.3.0.tar.gz tmp/Parman-0.3.1.tar.gz --markdown 20230615/P/Parman/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-06-15 13:06:34] INFO root fetch - processPackages [gamium]: Remove: archive file [/home/abi/fetcher/tmp/gamium-2.0.0.tar.gz]
+[2023-06-15 13:06:34] INFO root fetch - processPackages [gamium]: Remove: archive file [/home/abi/fetcher/tmp/gamium-2.0.1.tar.gz]
+[2023-06-15 13:06:34] INFO root fetch - processPackages [gamium]: Start processing: conventional-commits-check
+[2023-06-15 13:06:34] INFO root fetch - main [MainThread]: End processing [gamium]: success
+[2023-06-15 13:06:34] INFO root fetch - processPackages [conventional-commits-check]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-06-15 13:06:35] INFO root fetch - processPackages [just-another-imgscrapper]: Remove: archive file [/home/abi/fetcher/tmp/just-another-imgscrapper-0.1.1.tar.gz]
+[2023-06-15 13:06:35] INFO root fetch - processPackages [just-another-imgscrapper]: Remove: archive file [/home/abi/fetcher/tmp/just-another-imgscrapper-0.1.2.tar.gz]
+[2023-06-15 13:06:35] INFO root fetch - processPackages [just-another-imgscrapper]: Start processing: repo-test-sdk
+[2023-06-15 13:06:35] INFO root fetch - main [MainThread]: End processing [just-another-imgscrapper]: success
+[2023-06-15 13:06:35] WARNING root fetch - processPackages [repo-test-sdk]: Skipping, unable to determine old version
+[2023-06-15 13:06:35] INFO root fetch - processPackages [repo-test-sdk]: Start processing: tinybird-cli
+[2023-06-15 13:06:35] INFO root fetch - main [MainThread]: End processing [repo-test-sdk] error
+[2023-06-15 13:06:35] INFO root fetch - processPackages [conventional-commits-check]: Downloading https://files.pythonhosted.org/packages/d4/bb/d6162824d99ca29fd08b8dda1fa84d3a3654d5676f4561431c57f00f205f/conventional-commits-check-1.0.3.tar.gz
+[2023-06-15 13:06:35] INFO root fetch - processPackages [tinybird-cli]: New version: [1.0.0b99] Old Version: [1.0.0b98]
+[2023-06-15 13:06:35] INFO root fetch - processPackages [tinybird-cli]: Downloading https://files.pythonhosted.org/packages/cf/bc/f6fe2aa48ad97fc6f03b105a263497f0cc5d7173fa89703bbc609c18f13a/tinybird-cli-1.0.0b98.tar.gz
+[2023-06-15 13:06:35] INFO root fetch - processPackages [beetl]: Remove: archive file [/home/abi/fetcher/tmp/beetl-0.1.0.tar.gz]
+[2023-06-15 13:06:35] INFO root fetch - processPackages [beetl]: Remove: archive file [/home/abi/fetcher/tmp/beetl-0.1.1.tar.gz]
+[2023-06-15 13:06:35] INFO root fetch - main [MainThread]: End processing [beetl]: success
+[2023-06-15 13:06:35] INFO root fetch - processPackages [dipex]: Remove: archive file [/home/abi/fetcher/tmp/dipex-4.9.1.tar.gz]
+[2023-06-15 13:06:35] INFO root fetch - processPackages [dipex]: Remove: archive file [/home/abi/fetcher/tmp/dipex-4.9.2.tar.gz]
+[2023-06-15 13:06:35] INFO root fetch - main [MainThread]: End processing [dipex]: success
+[2023-06-15 13:06:35] INFO root fetch - processPackages [kast-flow-api-python]: Remove: archive file [/home/abi/fetcher/tmp/kast_flow_api_python-1.0.1.tar.gz]
+[2023-06-15 13:06:35] INFO root fetch - processPackages [kast-flow-api-python]: Remove: archive file [/home/abi/fetcher/tmp/kast_flow_api_python-1.0.2.tar.gz]
+[2023-06-15 13:06:35] INFO root fetch - main [MainThread]: End processing [kast-flow-api-python]: success
+[2023-06-15 13:06:35] INFO root fetch - processPackages [tinybird-cli]: Downloading https://files.pythonhosted.org/packages/6a/27/a5d411f1a02b44b9f386c7d18397784dcaa5fe1129d9a77e87a5e048edc5/tinybird-cli-1.0.0b99.tar.gz
+[2023-06-15 13:06:35] INFO root fetch - processPackages [conventional-commits-check]: Downloading https://files.pythonhosted.org/packages/d7/82/aa14e5f2e395d176811a18ffc06f378c13981499f001c82a62fcc202fc90/conventional-commits-check-1.0.4.tar.gz
+[2023-06-15 13:06:35] INFO root fetch - processPackages [tinybird-cli]: executing diffoscope
+[2023-06-15 13:06:35] INFO root fetch - processPackages [tinybird-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tinybird-cli-1.0.0b98.tar.gz tmp/tinybird-cli-1.0.0b99.tar.gz --markdown 20230615/t/tinybird-cli/1.0.0b98-1.0.0b99/diff.md --exclude *.pyd
+[2023-06-15 13:06:35] INFO root fetch - processPackages [conventional-commits-check]: executing diffoscope
+[2023-06-15 13:06:35] INFO root fetch - processPackages [conventional-commits-check]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/conventional-commits-check-1.0.3.tar.gz tmp/conventional-commits-check-1.0.4.tar.gz --markdown 20230615/c/conventional-commits-check/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-06-15 13:06:35] INFO root fetch - processPackages [titan-iris]: Remove: archive file [/home/abi/fetcher/tmp/titan-iris-0.3.9a1.tar.gz]
+[2023-06-15 13:06:35] INFO root fetch - processPackages [titan-iris]: Remove: archive file [/home/abi/fetcher/tmp/titan-iris-0.3.9a2.tar.gz]
+[2023-06-15 13:06:35] INFO root fetch - main [MainThread]: End processing [titan-iris]: success
+[2023-06-15 13:06:36] INFO root fetch - processPackages [gaohn-common-utils]: Remove: archive file [/home/abi/fetcher/tmp/gaohn-common-utils-0.0.61.tar.gz]
+[2023-06-15 13:06:36] INFO root fetch - processPackages [gaohn-common-utils]: Remove: archive file [/home/abi/fetcher/tmp/gaohn-common-utils-0.0.62.tar.gz]
+[2023-06-15 13:06:36] INFO root fetch - main [MainThread]: End processing [gaohn-common-utils]: success
+[2023-06-15 13:06:36] INFO root fetch - processPackages [amfiprot-amfitrack]: Remove: archive file [/home/abi/fetcher/tmp/amfiprot_amfitrack-0.0.1a8.tar.gz]
+[2023-06-15 13:06:36] INFO root fetch - processPackages [amfiprot-amfitrack]: Remove: archive file [/home/abi/fetcher/tmp/amfiprot_amfitrack-0.0.1a9.tar.gz]
+[2023-06-15 13:06:36] INFO root fetch - main [MainThread]: End processing [amfiprot-amfitrack]: success
+[2023-06-15 13:06:37] INFO root fetch - processPackages [Parman]: Remove: archive file [/home/abi/fetcher/tmp/Parman-0.3.0.tar.gz]
+[2023-06-15 13:06:37] INFO root fetch - processPackages [Parman]: Remove: archive file [/home/abi/fetcher/tmp/Parman-0.3.1.tar.gz]
+[2023-06-15 13:06:37] INFO root fetch - main [MainThread]: End processing [Parman]: success
+[2023-06-15 13:06:37] INFO root fetch - processPackages [conventional-commits-check]: Remove: archive file [/home/abi/fetcher/tmp/conventional-commits-check-1.0.3.tar.gz]
+[2023-06-15 13:06:37] INFO root fetch - processPackages [conventional-commits-check]: Remove: archive file [/home/abi/fetcher/tmp/conventional-commits-check-1.0.4.tar.gz]
+[2023-06-15 13:06:37] INFO root fetch - main [MainThread]: End processing [conventional-commits-check]: success
+[2023-06-15 13:06:39] INFO root fetch - processPackages [tinybird-cli]: Remove: archive file [/home/abi/fetcher/tmp/tinybird-cli-1.0.0b98.tar.gz]
+[2023-06-15 13:06:39] INFO root fetch - processPackages [tinybird-cli]: Remove: archive file [/home/abi/fetcher/tmp/tinybird-cli-1.0.0b99.tar.gz]
+[2023-06-15 13:06:39] INFO root fetch - main [MainThread]: End processing [tinybird-cli]: success
+[2023-06-15 13:06:42] INFO root fetch - processPackages [django-ipghrms-leave]: Remove: archive file [/home/abi/fetcher/tmp/django-ipghrms-leave-1.7.tar.gz]
+[2023-06-15 13:06:42] INFO root fetch - processPackages [django-ipghrms-leave]: Remove: archive file [/home/abi/fetcher/tmp/django-ipghrms-leave-1.8.tar.gz]
+[2023-06-15 13:06:42] INFO root fetch - main [MainThread]: End processing [django-ipghrms-leave]: success
+[2023-06-15 13:06:42] INFO root fetch - main [MainThread]: Store serial: [18514972]
