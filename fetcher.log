@@ -9378,3 +9378,56 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-15 06:06:09] INFO root fetch - processPackages [bokeh]: Remove: archive file [/home/abi/fetcher/tmp/bokeh-3.2.0rc2.tar.gz]
 [2023-06-15 06:06:09] INFO root fetch - main [MainThread]: End processing [bokeh]: success
 [2023-06-15 06:06:09] INFO root fetch - main [MainThread]: Store serial: [18510922]
+[2023-06-15 06:11:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18510922]
+[2023-06-15 06:11:18] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-15 06:11:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spPersist
+[2023-06-15 06:11:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: idaes-examples
+[2023-06-15 06:11:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo13-addon-maintenance-team-hierarchy
+[2023-06-15 06:11:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: neon-skill-stock
+[2023-06-15 06:11:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: neon-skill-fallback-wolfram-alpha
+[2023-06-15 06:11:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: neon-skill-weather
+[2023-06-15 06:11:18] INFO root fetch - processPackages [neon-skill-stock]: New version: [0.3.1a3] Old Version: [0.3.1a2]
+[2023-06-15 06:11:18] INFO root fetch - processPackages [idaes-examples]: New version: [2.1.0rc0] Old Version: [2.0.0a2]
+[2023-06-15 06:11:18] INFO root fetch - processPackages [odoo13-addon-maintenance-team-hierarchy]: New version: [13.0.1.0.1.dev8] Old Version: [13.0.1.0.1.dev7]
+[2023-06-15 06:11:18] INFO root fetch - processPackages [neon-skill-weather]: New version: [0.1.1a1] Old Version: [0.1.0]
+[2023-06-15 06:11:18] INFO root fetch - processPackages [spPersist]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-06-15 06:11:18] INFO root fetch - processPackages [neon-skill-fallback-wolfram-alpha]: New version: [0.1.1a1] Old Version: [0.1.0]
+[2023-06-15 06:11:18] INFO root fetch - processPackages [neon-skill-stock]: Downloading https://files.pythonhosted.org/packages/d8/cb/47a37063b870796714bb4f9f863be4483ab63ade9a510b0e3396f5c3cccc/neon_skill_stock-0.3.1a2-py3-none-any.whl
+[2023-06-15 06:11:18] INFO root fetch - processPackages [spPersist]: Downloading https://files.pythonhosted.org/packages/cf/d5/fe4ff4b9acd9a7aca5661b3530d8dddf22edf7b6a01a102efd52628b20b5/spPersist-1.0.3.tar.gz
+[2023-06-15 06:11:18] INFO root fetch - processPackages [neon-skill-weather]: Downloading https://files.pythonhosted.org/packages/8a/15/a33be05d286211d18eb8c18f7209a97ce188d0a20777cf5eb2bdf5f3b219/neon_skill_weather-0.1.0-py3-none-any.whl
+[2023-06-15 06:11:18] INFO root fetch - processPackages [idaes-examples]: Downloading https://files.pythonhosted.org/packages/e3/fa/1412f3813125dd2eee3d8d8189eac1f317a284ed33a334dcb085d9002092/idaes_examples-2.0.0a2.tar.gz
+[2023-06-15 06:11:18] INFO root fetch - processPackages [odoo13-addon-maintenance-team-hierarchy]: Downloading https://files.pythonhosted.org/packages/64/f0/96b53d55342fc958726da48d686472509af019a6613639ac325d43a68b98/odoo13_addon_maintenance_team_hierarchy-13.0.1.0.1.dev7-py3-none-any.whl
+[2023-06-15 06:11:18] INFO root fetch - processPackages [neon-skill-fallback-wolfram-alpha]: Downloading https://files.pythonhosted.org/packages/c6/6d/d3497dda9c9bee1149c0b6b10899c2e9773a58605d9b819ce8a660305dd0/neon_skill_fallback_wolfram_alpha-0.1.0-py3-none-any.whl
+[2023-06-15 06:11:18] INFO root fetch - processPackages [spPersist]: Downloading https://files.pythonhosted.org/packages/41/97/326f7f5d9e0ac55555f096b4217f2753eedbe4b874da2f20292be8cfc530/spPersist-1.0.4.tar.gz
+[2023-06-15 06:11:18] INFO root fetch - processPackages [neon-skill-stock]: Downloading https://files.pythonhosted.org/packages/8d/ad/e4b59c5a95b4ce177365c7d40b47c63c81ceace2419c5d3c36b418e1c602/neon_skill_stock-0.3.1a3-py3-none-any.whl
+[2023-06-15 06:11:18] WARNING root fetch - processPackages [idaes-examples]: Skipping package: exceeds size limit 56734595>=10485760
+[2023-06-15 06:11:18] INFO root fetch - main [MainThread]: End processing [idaes-examples] error
+[2023-06-15 06:11:18] INFO root fetch - processPackages [spPersist]: executing diffoscope
+[2023-06-15 06:11:18] INFO root fetch - processPackages [spPersist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spPersist-1.0.3.tar.gz tmp/spPersist-1.0.4.tar.gz --markdown 20230615/s/spPersist/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-06-15 06:11:18] INFO root fetch - processPackages [neon-skill-stock]: executing diffoscope
+[2023-06-15 06:11:18] INFO root fetch - processPackages [neon-skill-stock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon_skill_stock-0.3.1a2-py3-none-any.whl.zip tmp/neon_skill_stock-0.3.1a3-py3-none-any.whl.zip --markdown 20230615/n/neon-skill-stock/0.3.1a2-0.3.1a3/diff.md --exclude *.pyd
+[2023-06-15 06:11:18] INFO root fetch - processPackages [neon-skill-fallback-wolfram-alpha]: Downloading https://files.pythonhosted.org/packages/eb/bc/98198a5df5b84eabcd643b73519b3f5febd499a1bd7420c369bd0741dd35/neon_skill_fallback_wolfram_alpha-0.1.1a1-py3-none-any.whl
+[2023-06-15 06:11:18] INFO root fetch - processPackages [neon-skill-weather]: Downloading https://files.pythonhosted.org/packages/05/0b/016b17444ba2cca7050282add63f5547341682fc5f0e8eef5a12ef1d061a/neon_skill_weather-0.1.1a1-py3-none-any.whl
+[2023-06-15 06:11:18] INFO root fetch - processPackages [odoo13-addon-maintenance-team-hierarchy]: Downloading https://files.pythonhosted.org/packages/73/f2/99050e34d5af56435bb0ed6f95a2cdd7f592693a8b6e21372173b408ea84/odoo13_addon_maintenance_team_hierarchy-13.0.1.0.1.dev8-py3-none-any.whl
+[2023-06-15 06:11:18] INFO root fetch - processPackages [neon-skill-fallback-wolfram-alpha]: executing diffoscope
+[2023-06-15 06:11:18] INFO root fetch - processPackages [neon-skill-fallback-wolfram-alpha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon_skill_fallback_wolfram_alpha-0.1.0-py3-none-any.whl.zip tmp/neon_skill_fallback_wolfram_alpha-0.1.1a1-py3-none-any.whl.zip --markdown 20230615/n/neon-skill-fallback-wolfram-alpha/0.1.0-0.1.1a1/diff.md --exclude *.pyd
+[2023-06-15 06:11:19] INFO root fetch - processPackages [odoo13-addon-maintenance-team-hierarchy]: executing diffoscope
+[2023-06-15 06:11:19] INFO root fetch - processPackages [odoo13-addon-maintenance-team-hierarchy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_maintenance_team_hierarchy-13.0.1.0.1.dev7-py3-none-any.whl.zip tmp/odoo13_addon_maintenance_team_hierarchy-13.0.1.0.1.dev8-py3-none-any.whl.zip --markdown 20230615/o/odoo13-addon-maintenance-team-hierarchy/13.0.1.0.1.dev7-13.0.1.0.1.dev8/diff.md --exclude *.pyd
+[2023-06-15 06:11:19] INFO root fetch - processPackages [neon-skill-weather]: executing diffoscope
+[2023-06-15 06:11:19] INFO root fetch - processPackages [neon-skill-weather]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon_skill_weather-0.1.0-py3-none-any.whl.zip tmp/neon_skill_weather-0.1.1a1-py3-none-any.whl.zip --markdown 20230615/n/neon-skill-weather/0.1.0-0.1.1a1/diff.md --exclude *.pyd
+[2023-06-15 06:11:20] INFO root fetch - processPackages [spPersist]: Remove: archive file [/home/abi/fetcher/tmp/spPersist-1.0.3.tar.gz]
+[2023-06-15 06:11:20] INFO root fetch - processPackages [spPersist]: Remove: archive file [/home/abi/fetcher/tmp/spPersist-1.0.4.tar.gz]
+[2023-06-15 06:11:20] INFO root fetch - main [MainThread]: End processing [spPersist]: success
+[2023-06-15 06:11:20] INFO root fetch - processPackages [odoo13-addon-maintenance-team-hierarchy]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_maintenance_team_hierarchy-13.0.1.0.1.dev7-py3-none-any.whl.zip]
+[2023-06-15 06:11:20] INFO root fetch - processPackages [odoo13-addon-maintenance-team-hierarchy]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_maintenance_team_hierarchy-13.0.1.0.1.dev8-py3-none-any.whl.zip]
+[2023-06-15 06:11:20] INFO root fetch - main [MainThread]: End processing [odoo13-addon-maintenance-team-hierarchy]: success
+[2023-06-15 06:11:20] INFO root fetch - processPackages [neon-skill-stock]: Remove: archive file [/home/abi/fetcher/tmp/neon_skill_stock-0.3.1a2-py3-none-any.whl.zip]
+[2023-06-15 06:11:20] INFO root fetch - processPackages [neon-skill-stock]: Remove: archive file [/home/abi/fetcher/tmp/neon_skill_stock-0.3.1a3-py3-none-any.whl.zip]
+[2023-06-15 06:11:20] INFO root fetch - main [MainThread]: End processing [neon-skill-stock]: success
+[2023-06-15 06:11:20] INFO root fetch - processPackages [neon-skill-fallback-wolfram-alpha]: Remove: archive file [/home/abi/fetcher/tmp/neon_skill_fallback_wolfram_alpha-0.1.0-py3-none-any.whl.zip]
+[2023-06-15 06:11:20] INFO root fetch - processPackages [neon-skill-fallback-wolfram-alpha]: Remove: archive file [/home/abi/fetcher/tmp/neon_skill_fallback_wolfram_alpha-0.1.1a1-py3-none-any.whl.zip]
+[2023-06-15 06:11:20] INFO root fetch - main [MainThread]: End processing [neon-skill-fallback-wolfram-alpha]: success
+[2023-06-15 06:11:37] INFO root fetch - processPackages [neon-skill-weather]: Remove: archive file [/home/abi/fetcher/tmp/neon_skill_weather-0.1.0-py3-none-any.whl.zip]
+[2023-06-15 06:11:37] INFO root fetch - processPackages [neon-skill-weather]: Remove: archive file [/home/abi/fetcher/tmp/neon_skill_weather-0.1.1a1-py3-none-any.whl.zip]
+[2023-06-15 06:11:37] INFO root fetch - main [MainThread]: End processing [neon-skill-weather]: success
+[2023-06-15 06:11:37] INFO root fetch - main [MainThread]: Store serial: [18510936]
