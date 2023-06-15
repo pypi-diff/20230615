@@ -10789,3 +10789,38 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-15 07:34:38] INFO root fetch - processPackages [spotPython]: Remove: archive file [/home/abi/fetcher/tmp/spotPython-0.2.9.tar.gz]
 [2023-06-15 07:34:38] INFO root fetch - main [MainThread]: End processing [spotPython]: success
 [2023-06-15 07:34:38] INFO root fetch - main [MainThread]: Store serial: [18511453]
+[2023-06-15 07:39:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18511453]
+[2023-06-15 07:39:47] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-15 07:39:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hardyweinbergcalculator
+[2023-06-15 07:39:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: democracy
+[2023-06-15 07:39:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nlptest
+[2023-06-15 07:39:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: revChatGPT
+[2023-06-15 07:39:47] INFO root fetch - processPackages [nlptest]: New version: [1.5.0rc1] Old Version: [1.4.0rc4]
+[2023-06-15 07:39:47] INFO root fetch - processPackages [hardyweinbergcalculator]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-06-15 07:39:47] INFO root fetch - processPackages [democracy]: New version: [1.0.25] Old Version: [1.0.24]
+[2023-06-15 07:39:47] INFO root fetch - processPackages [revChatGPT]: New version: [6.2.6] Old Version: [6.2.5]
+[2023-06-15 07:39:47] INFO root fetch - processPackages [revChatGPT]: Downloading https://files.pythonhosted.org/packages/f8/be/f29afaaca087775110316350014e74b5ab2231186ac16f3efb45b5fb41c1/revChatGPT-6.2.5.tar.gz
+[2023-06-15 07:39:48] INFO root fetch - processPackages [hardyweinbergcalculator]: Downloading https://files.pythonhosted.org/packages/50/99/e2b7b627e070ce5511fffb4c1535930c8b08d58b26915957aa60b54d7613/hardyweinbergcalculator-0.3.3.zip
+[2023-06-15 07:39:48] INFO root fetch - processPackages [democracy]: Downloading https://files.pythonhosted.org/packages/ed/c7/c450646af70b2a289fee9966c526174791384ae5bfdeffc3ea333cf5ff77/democracy-1.0.24.tar.gz
+[2023-06-15 07:39:48] INFO root fetch - processPackages [nlptest]: Downloading https://files.pythonhosted.org/packages/f3/ea/7029afe02b0a0989cdc1369fa452f8cb4314edc0e94bcdcf075715dd1211/nlptest-1.4.0rc4.tar.gz
+[2023-06-15 07:39:48] WARNING root fetch - processPackages [nlptest]: Skipping package: exceeds size limit 59661697>=10485760
+[2023-06-15 07:39:48] INFO root fetch - main [MainThread]: End processing [nlptest] error
+[2023-06-15 07:39:48] INFO root fetch - processPackages [hardyweinbergcalculator]: Downloading https://files.pythonhosted.org/packages/6b/29/daf2fa5fa815babde5277e427ba590f03a41ab90a380ca9c98b1692bfaec/hardyweinbergcalculator-0.3.4.zip
+[2023-06-15 07:39:48] INFO root fetch - processPackages [democracy]: Downloading https://files.pythonhosted.org/packages/1b/0e/09879cc2ebb55ac09df60de6af219878b9fea5c27ae2e5fcd7576ed94a6a/democracy-1.0.25.tar.gz
+[2023-06-15 07:39:48] INFO root fetch - processPackages [revChatGPT]: Downloading https://files.pythonhosted.org/packages/dc/83/6e4db827b17e161d545ada1bb7e80b98aa7571cfbddfec8725207a5c39ce/revChatGPT-6.2.6.tar.gz
+[2023-06-15 07:39:48] INFO root fetch - processPackages [hardyweinbergcalculator]: executing diffoscope
+[2023-06-15 07:39:48] INFO root fetch - processPackages [hardyweinbergcalculator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hardyweinbergcalculator-0.3.3.zip tmp/hardyweinbergcalculator-0.3.4.zip --markdown 20230615/h/hardyweinbergcalculator/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-06-15 07:39:48] INFO root fetch - processPackages [revChatGPT]: executing diffoscope
+[2023-06-15 07:39:48] INFO root fetch - processPackages [revChatGPT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/revChatGPT-6.2.5.tar.gz tmp/revChatGPT-6.2.6.tar.gz --markdown 20230615/r/revChatGPT/6.2.5-6.2.6/diff.md --exclude *.pyd
+[2023-06-15 07:39:48] INFO root fetch - processPackages [democracy]: executing diffoscope
+[2023-06-15 07:39:48] INFO root fetch - processPackages [democracy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/democracy-1.0.24.tar.gz tmp/democracy-1.0.25.tar.gz --markdown 20230615/d/democracy/1.0.24-1.0.25/diff.md --exclude *.pyd
+[2023-06-15 07:39:49] INFO root fetch - processPackages [hardyweinbergcalculator]: Remove: archive file [/home/abi/fetcher/tmp/hardyweinbergcalculator-0.3.3.zip]
+[2023-06-15 07:39:49] INFO root fetch - processPackages [hardyweinbergcalculator]: Remove: archive file [/home/abi/fetcher/tmp/hardyweinbergcalculator-0.3.4.zip]
+[2023-06-15 07:39:49] INFO root fetch - main [MainThread]: End processing [hardyweinbergcalculator]: success
+[2023-06-15 07:39:49] INFO root fetch - processPackages [democracy]: Remove: archive file [/home/abi/fetcher/tmp/democracy-1.0.24.tar.gz]
+[2023-06-15 07:39:49] INFO root fetch - processPackages [democracy]: Remove: archive file [/home/abi/fetcher/tmp/democracy-1.0.25.tar.gz]
+[2023-06-15 07:39:49] INFO root fetch - main [MainThread]: End processing [democracy]: success
+[2023-06-15 07:39:50] INFO root fetch - processPackages [revChatGPT]: Remove: archive file [/home/abi/fetcher/tmp/revChatGPT-6.2.5.tar.gz]
+[2023-06-15 07:39:50] INFO root fetch - processPackages [revChatGPT]: Remove: archive file [/home/abi/fetcher/tmp/revChatGPT-6.2.6.tar.gz]
+[2023-06-15 07:39:50] INFO root fetch - main [MainThread]: End processing [revChatGPT]: success
+[2023-06-15 07:39:50] INFO root fetch - main [MainThread]: Store serial: [18511465]
