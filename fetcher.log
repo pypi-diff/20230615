@@ -5672,3 +5672,72 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-15 03:08:02] INFO root fetch - processPackages [benchling-api-client]: Remove: archive file [/home/abi/fetcher/tmp/benchling_api_client-2.0.99.tar.gz]
 [2023-06-15 03:08:02] INFO root fetch - main [MainThread]: End processing [benchling-api-client]: success
 [2023-06-15 03:08:02] INFO root fetch - main [MainThread]: Store serial: [18509525]
+[2023-06-15 03:13:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18509525]
+[2023-06-15 03:13:11] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-15 03:13:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: distribute-compute-config
+[2023-06-15 03:13:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: paasta-tools
+[2023-06-15 03:13:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bs-orm
+[2023-06-15 03:13:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lyra-graphtool-test
+[2023-06-15 03:13:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: PublicDataReader
+[2023-06-15 03:13:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: py3d
+[2023-06-15 03:13:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: msadapter
+[2023-06-15 03:13:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pepperize.cdk-organizations
+[2023-06-15 03:13:11] INFO root fetch - processPackages [distribute-compute-config]: New version: [0.14.4] Old Version: [0.14.3]
+[2023-06-15 03:13:11] WARNING root fetch - processPackages [lyra-graphtool-test]: Skipping, unable to determine old version
+[2023-06-15 03:13:11] INFO root fetch - main [MainThread]: End processing [lyra-graphtool-test] error
+[2023-06-15 03:13:11] INFO root fetch - processPackages [PublicDataReader]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-15 03:13:11] INFO root fetch - processPackages [bs-orm]: New version: [0.8.9.post20230615] Old Version: [0.8.8.post20230615]
+[2023-06-15 03:13:11] INFO root fetch - processPackages [msadapter]: New version: [0.1.0rc0] Old Version: [0.1.0b0]
+[2023-06-15 03:13:11] INFO root fetch - processPackages [py3d]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-15 03:13:11] INFO root fetch - processPackages [paasta-tools]: New version: [0.92.1] Old Version: [0.92.0]
+[2023-06-15 03:13:11] INFO root fetch - processPackages [pepperize.cdk-organizations]: New version: [0.7.99] Old Version: [0.7.98]
+[2023-06-15 03:13:11] INFO root fetch - processPackages [py3d]: Downloading https://files.pythonhosted.org/packages/41/42/bb9315b80fbbd030c70f98321e71653a37f7d3b71730aa4375872accc166/py3d-0.1.2.tar.gz
+[2023-06-15 03:13:11] INFO root fetch - processPackages [distribute-compute-config]: Downloading https://files.pythonhosted.org/packages/9f/0a/221e96c9cfb07cfa38985bd46513ceaa20dc5c41ea11e56960f126308626/distribute_compute_config-0.14.3.tar.gz
+[2023-06-15 03:13:11] INFO root fetch - processPackages [pepperize.cdk-organizations]: Downloading https://files.pythonhosted.org/packages/c4/ec/fa2c14031b7b9ce22e4b044c652dd13a1a81769141fcd90e55c9eeb24d66/pepperize.cdk-organizations-0.7.98.tar.gz
+[2023-06-15 03:13:11] INFO root fetch - processPackages [bs-orm]: Downloading https://files.pythonhosted.org/packages/5a/6c/17eb2adf3bf7b29057b7ad9e0df526c0a6ddee5aff5207c60c1bec1e5652/bs_orm-0.8.8.post20230615.tar.gz
+[2023-06-15 03:13:11] INFO root fetch - processPackages [PublicDataReader]: Downloading https://files.pythonhosted.org/packages/d9/61/8c1c2030551efc9c01fc9fdd2f3e6402e116fe9f59fc9dd57e918c1c808d/PublicDataReader-1.0.8.tar.gz
+[2023-06-15 03:13:11] INFO root fetch - processPackages [paasta-tools]: Downloading https://files.pythonhosted.org/packages/4a/0d/4404f538f73fd9262e827faffa3ec48b8413a24ff7a44cb416e30e89634c/paasta-tools-0.92.0.tar.gz
+[2023-06-15 03:13:11] INFO root fetch - processPackages [msadapter]: Downloading https://files.pythonhosted.org/packages/18/25/9c218265fbfbdc777ced07f7bf2c01ff05a2ad9b6b42be82e879a8415090/msadapter-0.1.0b0.tar.gz
+[2023-06-15 03:13:11] INFO root fetch - processPackages [pepperize.cdk-organizations]: Downloading https://files.pythonhosted.org/packages/12/45/1106cc30844f7f4d96f7898a6ef3647d24a597c297bab995920a5915750e/pepperize.cdk-organizations-0.7.99.tar.gz
+[2023-06-15 03:13:11] INFO root fetch - processPackages [pepperize.cdk-organizations]: executing diffoscope
+[2023-06-15 03:13:11] INFO root fetch - processPackages [pepperize.cdk-organizations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-organizations-0.7.98.tar.gz tmp/pepperize.cdk-organizations-0.7.99.tar.gz --markdown 20230615/p/pepperize.cdk-organizations/0.7.98-0.7.99/diff.md --exclude *.pyd
+[2023-06-15 03:13:11] INFO root fetch - processPackages [bs-orm]: Downloading https://files.pythonhosted.org/packages/ae/85/87747be884fb26963bfd97e825d3e534bd3ed1b91d9ee805309a2e49c831/bs_orm-0.8.9.post20230615.tar.gz
+[2023-06-15 03:13:11] INFO root fetch - processPackages [py3d]: Downloading https://files.pythonhosted.org/packages/aa/57/81c07d80dd1f925a6a023902ab8fbc9af4d53db96d66d6c878ceb12432fb/py3d-0.1.3.tar.gz
+[2023-06-15 03:13:11] INFO root fetch - processPackages [PublicDataReader]: Downloading https://files.pythonhosted.org/packages/b6/98/4322639b4e6d25bce8bfeab944f77d37c551eb84c395a742a2bdcd8c5658/PublicDataReader-1.0.9.tar.gz
+[2023-06-15 03:13:11] INFO root fetch - processPackages [bs-orm]: executing diffoscope
+[2023-06-15 03:13:11] INFO root fetch - processPackages [bs-orm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bs_orm-0.8.8.post20230615.tar.gz tmp/bs_orm-0.8.9.post20230615.tar.gz --markdown 20230615/b/bs-orm/0.8.8.post20230615-0.8.9.post20230615/diff.md --exclude *.pyd
+[2023-06-15 03:13:11] INFO root fetch - processPackages [PublicDataReader]: executing diffoscope
+[2023-06-15 03:13:11] INFO root fetch - processPackages [PublicDataReader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PublicDataReader-1.0.8.tar.gz tmp/PublicDataReader-1.0.9.tar.gz --markdown 20230615/P/PublicDataReader/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-15 03:13:11] INFO root fetch - processPackages [paasta-tools]: Downloading https://files.pythonhosted.org/packages/d8/f5/9a4c0134f4d0862da0cbcc57381d5c9f52e37ea937fa628e123433ccb7a4/paasta-tools-0.92.1.tar.gz
+[2023-06-15 03:13:11] INFO root fetch - processPackages [py3d]: executing diffoscope
+[2023-06-15 03:13:11] INFO root fetch - processPackages [py3d]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py3d-0.1.2.tar.gz tmp/py3d-0.1.3.tar.gz --markdown 20230615/p/py3d/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-15 03:13:12] INFO root fetch - processPackages [distribute-compute-config]: Downloading https://files.pythonhosted.org/packages/a8/77/c62bddb3a79022eb2030d93f5934c7bd73d4d69c556c034a8e489d38deec/distribute_compute_config-0.14.4.tar.gz
+[2023-06-15 03:13:12] INFO root fetch - processPackages [paasta-tools]: executing diffoscope
+[2023-06-15 03:13:12] INFO root fetch - processPackages [paasta-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/paasta-tools-0.92.0.tar.gz tmp/paasta-tools-0.92.1.tar.gz --markdown 20230615/p/paasta-tools/0.92.0-0.92.1/diff.md --exclude *.pyd
+[2023-06-15 03:13:12] INFO root fetch - processPackages [msadapter]: Downloading https://files.pythonhosted.org/packages/0f/e4/d721e812eab236a74e6dfd55e20a82424bcd18b14349ee33a6eb50d1669a/msadapter-0.1.0rc0.tar.gz
+[2023-06-15 03:13:12] INFO root fetch - processPackages [distribute-compute-config]: executing diffoscope
+[2023-06-15 03:13:12] INFO root fetch - processPackages [distribute-compute-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/distribute_compute_config-0.14.3.tar.gz tmp/distribute_compute_config-0.14.4.tar.gz --markdown 20230615/d/distribute-compute-config/0.14.3-0.14.4/diff.md --exclude *.pyd
+[2023-06-15 03:13:12] INFO root fetch - processPackages [msadapter]: executing diffoscope
+[2023-06-15 03:13:12] INFO root fetch - processPackages [msadapter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/msadapter-0.1.0b0.tar.gz tmp/msadapter-0.1.0rc0.tar.gz --markdown 20230615/m/msadapter/0.1.0b0-0.1.0rc0/diff.md --exclude *.pyd
+[2023-06-15 03:13:12] INFO root fetch - processPackages [bs-orm]: Remove: archive file [/home/abi/fetcher/tmp/bs_orm-0.8.8.post20230615.tar.gz]
+[2023-06-15 03:13:12] INFO root fetch - processPackages [bs-orm]: Remove: archive file [/home/abi/fetcher/tmp/bs_orm-0.8.9.post20230615.tar.gz]
+[2023-06-15 03:13:12] INFO root fetch - main [MainThread]: End processing [bs-orm]: success
+[2023-06-15 03:13:13] INFO root fetch - processPackages [py3d]: Remove: archive file [/home/abi/fetcher/tmp/py3d-0.1.2.tar.gz]
+[2023-06-15 03:13:13] INFO root fetch - processPackages [py3d]: Remove: archive file [/home/abi/fetcher/tmp/py3d-0.1.3.tar.gz]
+[2023-06-15 03:13:13] INFO root fetch - main [MainThread]: End processing [py3d]: success
+[2023-06-15 03:13:13] INFO root fetch - processPackages [PublicDataReader]: Remove: archive file [/home/abi/fetcher/tmp/PublicDataReader-1.0.8.tar.gz]
+[2023-06-15 03:13:13] INFO root fetch - processPackages [PublicDataReader]: Remove: archive file [/home/abi/fetcher/tmp/PublicDataReader-1.0.9.tar.gz]
+[2023-06-15 03:13:13] INFO root fetch - main [MainThread]: End processing [PublicDataReader]: success
+[2023-06-15 03:13:14] INFO root fetch - processPackages [paasta-tools]: Remove: archive file [/home/abi/fetcher/tmp/paasta-tools-0.92.0.tar.gz]
+[2023-06-15 03:13:14] INFO root fetch - processPackages [paasta-tools]: Remove: archive file [/home/abi/fetcher/tmp/paasta-tools-0.92.1.tar.gz]
+[2023-06-15 03:13:14] INFO root fetch - main [MainThread]: End processing [paasta-tools]: success
+[2023-06-15 03:13:14] INFO root fetch - processPackages [pepperize.cdk-organizations]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-organizations-0.7.98.tar.gz]
+[2023-06-15 03:13:14] INFO root fetch - processPackages [pepperize.cdk-organizations]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-organizations-0.7.99.tar.gz]
+[2023-06-15 03:13:14] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-organizations]: success
+[2023-06-15 03:13:14] INFO root fetch - processPackages [distribute-compute-config]: Remove: archive file [/home/abi/fetcher/tmp/distribute_compute_config-0.14.3.tar.gz]
+[2023-06-15 03:13:14] INFO root fetch - processPackages [distribute-compute-config]: Remove: archive file [/home/abi/fetcher/tmp/distribute_compute_config-0.14.4.tar.gz]
+[2023-06-15 03:13:14] INFO root fetch - main [MainThread]: End processing [distribute-compute-config]: success
+[2023-06-15 03:13:15] INFO root fetch - processPackages [msadapter]: Remove: archive file [/home/abi/fetcher/tmp/msadapter-0.1.0b0.tar.gz]
+[2023-06-15 03:13:15] INFO root fetch - processPackages [msadapter]: Remove: archive file [/home/abi/fetcher/tmp/msadapter-0.1.0rc0.tar.gz]
+[2023-06-15 03:13:15] INFO root fetch - main [MainThread]: End processing [msadapter]: success
+[2023-06-15 03:13:15] INFO root fetch - main [MainThread]: Store serial: [18509581]
