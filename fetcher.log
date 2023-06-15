@@ -9246,3 +9246,69 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-15 05:54:39] INFO root fetch - processPackages [dash-deckgl]: Remove: archive file [/home/abi/fetcher/tmp/dash_deckgl-0.2.0.tar.gz]
 [2023-06-15 05:54:39] INFO root fetch - main [MainThread]: End processing [dash-deckgl]: success
 [2023-06-15 05:54:39] INFO root fetch - main [MainThread]: Store serial: [18510877]
+[2023-06-15 05:59:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18510877]
+[2023-06-15 05:59:48] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-15 05:59:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aliyun-iot-linkkit
+[2023-06-15 05:59:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: CodeChat-Server
+[2023-06-15 05:59:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jscc
+[2023-06-15 05:59:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: async-openai
+[2023-06-15 05:59:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: je-editor-dev
+[2023-06-15 05:59:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: openi-beta
+[2023-06-15 05:59:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: smithed-libraries
+[2023-06-15 05:59:48] INFO root fetch - processPackages [jscc]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-06-15 05:59:48] INFO root fetch - processPackages [aliyun-iot-linkkit]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-06-15 05:59:48] INFO root fetch - processPackages [async-openai]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-15 05:59:48] INFO root fetch - processPackages [je-editor-dev]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-15 05:59:48] INFO root fetch - processPackages [CodeChat-Server]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-15 05:59:48] INFO root fetch - processPackages [openi-beta]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-15 05:59:48] INFO root fetch - processPackages [jscc]: Downloading https://files.pythonhosted.org/packages/e5/2e/3c92064a92cb701f6832c7a30977c0fd2fc0d74b761136ee9f5a7beea8ce/jscc-0.2.0.tar.gz
+[2023-06-15 05:59:49] INFO root fetch - processPackages [openi-beta]: Downloading https://files.pythonhosted.org/packages/f5/95/5701d58cd4f61667d5cacc26ca03d3d154e81abde029165fc14816742b58/openi-beta-0.0.8.tar.gz
+[2023-06-15 05:59:49] INFO root fetch - processPackages [smithed-libraries]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-06-15 05:59:49] INFO root fetch - processPackages [aliyun-iot-linkkit]: Downloading https://files.pythonhosted.org/packages/1f/ed/94f3f17d3ce09a18be43dda5f2b6df590667b683df30bc6126e5711bb212/aliyun-iot-linkkit-1.2.8.tar.gz
+[2023-06-15 05:59:49] INFO root fetch - processPackages [async-openai]: Downloading https://files.pythonhosted.org/packages/8a/e5/bb649267c87fc7d7dc85e792edcb3b7dd043284b88c956c8be74b529d583/async_openai-0.0.8.tar.gz
+[2023-06-15 05:59:49] INFO root fetch - processPackages [je-editor-dev]: Downloading https://files.pythonhosted.org/packages/8b/94/1f995c0e4cac9968be920e7907deacd20b4659ac0bd3a88be48da2c05eb3/je_editor_dev-0.0.98.tar.gz
+[2023-06-15 05:59:49] INFO root fetch - processPackages [CodeChat-Server]: Downloading https://files.pythonhosted.org/packages/e8/dc/798a7f20ee21120a405cdac61af471c81b0847a1d67336b334c60e7aeab7/CodeChat_Server-0.2.8.tar.gz
+[2023-06-15 05:59:49] INFO root fetch - processPackages [openi-beta]: Downloading https://files.pythonhosted.org/packages/88/85/0f4706906fa1fbae97228971a5a77714ac9f4cea266c63231333736f1849/openi-beta-0.0.9.tar.gz
+[2023-06-15 05:59:49] INFO root fetch - processPackages [jscc]: Downloading https://files.pythonhosted.org/packages/f4/74/d3721019bd9ec14cfc6d64d756118117b2ef3f6c8dd8024e937fb3af5318/jscc-0.2.1.tar.gz
+[2023-06-15 05:59:49] INFO root fetch - processPackages [smithed-libraries]: Downloading https://files.pythonhosted.org/packages/ce/24/6dce9f53b1429a1e45f1c9cc305abf0e404b8607d936aa13f81ed403b0d0/smithed_libraries-0.6.0.tar.gz
+[2023-06-15 05:59:49] INFO root fetch - processPackages [openi-beta]: executing diffoscope
+[2023-06-15 05:59:49] INFO root fetch - processPackages [aliyun-iot-linkkit]: Downloading https://files.pythonhosted.org/packages/b6/3c/36ca0d96904ab334e260a47bb92dcb2c9d5ebf7b44125882edd47a51757d/aliyun-iot-linkkit-1.2.9.tar.gz
+[2023-06-15 05:59:49] INFO root fetch - processPackages [openi-beta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openi-beta-0.0.8.tar.gz tmp/openi-beta-0.0.9.tar.gz --markdown 20230615/o/openi-beta/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-15 05:59:49] INFO root fetch - processPackages [jscc]: executing diffoscope
+[2023-06-15 05:59:49] INFO root fetch - processPackages [jscc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jscc-0.2.0.tar.gz tmp/jscc-0.2.1.tar.gz --markdown 20230615/j/jscc/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-06-15 05:59:49] INFO root fetch - processPackages [async-openai]: Downloading https://files.pythonhosted.org/packages/b6/c9/d79d42fbc5b2cd10efe405bb34874c5a87ed664075c990e4017839409496/async_openai-0.0.9.tar.gz
+[2023-06-15 05:59:49] INFO root fetch - processPackages [CodeChat-Server]: Downloading https://files.pythonhosted.org/packages/4e/37/2ec355690a21bc91dc40d4b16417c4a295e2b9917d1a3853d24d71d29b91/CodeChat_Server-0.2.9.tar.gz
+[2023-06-15 05:59:49] INFO root fetch - processPackages [je-editor-dev]: Downloading https://files.pythonhosted.org/packages/f5/5e/fafae8fb4029eea9a83a739b4877837148336a0d6d302272145a8519a55e/je_editor_dev-0.0.99.tar.gz
+[2023-06-15 05:59:49] INFO root fetch - processPackages [aliyun-iot-linkkit]: executing diffoscope
+[2023-06-15 05:59:49] INFO root fetch - processPackages [aliyun-iot-linkkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aliyun-iot-linkkit-1.2.8.tar.gz tmp/aliyun-iot-linkkit-1.2.9.tar.gz --markdown 20230615/a/aliyun-iot-linkkit/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-06-15 05:59:49] INFO root fetch - processPackages [async-openai]: executing diffoscope
+[2023-06-15 05:59:49] INFO root fetch - processPackages [async-openai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/async_openai-0.0.8.tar.gz tmp/async_openai-0.0.9.tar.gz --markdown 20230615/a/async-openai/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-15 05:59:49] INFO root fetch - processPackages [CodeChat-Server]: executing diffoscope
+[2023-06-15 05:59:49] INFO root fetch - processPackages [CodeChat-Server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CodeChat_Server-0.2.8.tar.gz tmp/CodeChat_Server-0.2.9.tar.gz --markdown 20230615/C/CodeChat-Server/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-15 05:59:49] INFO root fetch - processPackages [smithed-libraries]: Downloading https://files.pythonhosted.org/packages/b4/bd/0f41a7f61a5b6e1fb51732377f4908ddc80d0517e9bd440aaa87d9fbee37/smithed_libraries-0.6.1-py3-none-any.whl
+[2023-06-15 05:59:49] INFO root fetch - processPackages [je-editor-dev]: executing diffoscope
+[2023-06-15 05:59:49] INFO root fetch - processPackages [je-editor-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/je_editor_dev-0.0.98.tar.gz tmp/je_editor_dev-0.0.99.tar.gz --markdown 20230615/j/je-editor-dev/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-15 05:59:50] INFO root fetch - processPackages [openi-beta]: Remove: archive file [/home/abi/fetcher/tmp/openi-beta-0.0.8.tar.gz]
+[2023-06-15 05:59:50] INFO root fetch - processPackages [openi-beta]: Remove: archive file [/home/abi/fetcher/tmp/openi-beta-0.0.9.tar.gz]
+[2023-06-15 05:59:50] INFO root fetch - main [MainThread]: End processing [openi-beta]: success
+[2023-06-15 05:59:50] INFO root fetch - processPackages [smithed-libraries]: executing diffoscope
+[2023-06-15 05:59:50] INFO root fetch - processPackages [smithed-libraries]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smithed_libraries-0.6.0.tar.gz tmp/smithed_libraries-0.6.1-py3-none-any.whl.zip --markdown 20230615/s/smithed-libraries/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2023-06-15 05:59:50] INFO root fetch - processPackages [aliyun-iot-linkkit]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-iot-linkkit-1.2.8.tar.gz]
+[2023-06-15 05:59:50] INFO root fetch - processPackages [aliyun-iot-linkkit]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-iot-linkkit-1.2.9.tar.gz]
+[2023-06-15 05:59:50] INFO root fetch - main [MainThread]: End processing [aliyun-iot-linkkit]: success
+[2023-06-15 05:59:50] INFO root fetch - processPackages [jscc]: Remove: archive file [/home/abi/fetcher/tmp/jscc-0.2.0.tar.gz]
+[2023-06-15 05:59:50] INFO root fetch - processPackages [jscc]: Remove: archive file [/home/abi/fetcher/tmp/jscc-0.2.1.tar.gz]
+[2023-06-15 05:59:50] INFO root fetch - main [MainThread]: End processing [jscc]: success
+[2023-06-15 05:59:51] INFO root fetch - processPackages [async-openai]: Remove: archive file [/home/abi/fetcher/tmp/async_openai-0.0.8.tar.gz]
+[2023-06-15 05:59:51] INFO root fetch - processPackages [async-openai]: Remove: archive file [/home/abi/fetcher/tmp/async_openai-0.0.9.tar.gz]
+[2023-06-15 05:59:51] INFO root fetch - main [MainThread]: End processing [async-openai]: success
+[2023-06-15 05:59:51] INFO root fetch - processPackages [je-editor-dev]: Remove: archive file [/home/abi/fetcher/tmp/je_editor_dev-0.0.98.tar.gz]
+[2023-06-15 05:59:51] INFO root fetch - processPackages [je-editor-dev]: Remove: archive file [/home/abi/fetcher/tmp/je_editor_dev-0.0.99.tar.gz]
+[2023-06-15 05:59:51] INFO root fetch - main [MainThread]: End processing [je-editor-dev]: success
+[2023-06-15 05:59:51] INFO root fetch - processPackages [CodeChat-Server]: Remove: archive file [/home/abi/fetcher/tmp/CodeChat_Server-0.2.8.tar.gz]
+[2023-06-15 05:59:51] INFO root fetch - processPackages [CodeChat-Server]: Remove: archive file [/home/abi/fetcher/tmp/CodeChat_Server-0.2.9.tar.gz]
+[2023-06-15 05:59:51] INFO root fetch - main [MainThread]: End processing [CodeChat-Server]: success
+[2023-06-15 05:59:54] INFO root fetch - processPackages [smithed-libraries]: Remove: archive file [/home/abi/fetcher/tmp/smithed_libraries-0.6.0.tar.gz]
+[2023-06-15 05:59:54] INFO root fetch - processPackages [smithed-libraries]: Remove: archive file [/home/abi/fetcher/tmp/smithed_libraries-0.6.1-py3-none-any.whl.zip]
+[2023-06-15 05:59:54] INFO root fetch - main [MainThread]: End processing [smithed-libraries]: success
+[2023-06-15 05:59:54] INFO root fetch - main [MainThread]: Store serial: [18510897]
