@@ -11048,3 +11048,108 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-15 07:45:26] INFO root fetch - processPackages [odoo-addon-web-widget-bokeh-chart]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_web_widget_bokeh_chart-16.0.1.0.1-py3-none-any.whl.zip]
 [2023-06-15 07:45:26] INFO root fetch - main [MainThread]: End processing [odoo-addon-web-widget-bokeh-chart]: success
 [2023-06-15 07:45:26] INFO root fetch - main [MainThread]: Store serial: [18511525]
+[2023-06-15 07:50:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18511525]
+[2023-06-15 07:50:38] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-06-15 07:50:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: artd-product
+[2023-06-15 07:50:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-website-cookiefirst
+[2023-06-15 07:50:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addons-oca-website
+[2023-06-15 07:50:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: projectaria-tools
+[2023-06-15 07:50:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mercury-sync
+[2023-06-15 07:50:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: codegenpt
+[2023-06-15 07:50:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dushyanth
+[2023-06-15 07:50:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: reddit-user-to-sqlite
+[2023-06-15 07:50:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pys-django-issue-tracker
+[2023-06-15 07:50:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: mercury-sync
+[2023-06-15 07:50:38] INFO root fetch - processPackages [odoo-addon-website-cookiefirst]: New version: [16.0.1.0.0.3] Old Version: [16.0.1.0.0.2]
+[2023-06-15 07:50:38] INFO root fetch - processPackages [codegenpt]: New version: [0.6.2] Old Version: [0.6.1]
+[2023-06-15 07:50:38] INFO root fetch - processPackages [mercury-sync]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-15 07:50:38] INFO root fetch - processPackages [mercury-sync]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-15 07:50:38] INFO root fetch - processPackages [odoo-addons-oca-website]: New version: [16.0.20230614.0] Old Version: [16.0.20230608.0]
+[2023-06-15 07:50:38] INFO root fetch - processPackages [artd-product]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-15 07:50:38] INFO root fetch - processPackages [projectaria-tools]: New version: [0.17.0] Old Version: [0.15.0]
+[2023-06-15 07:50:38] WARNING root fetch - processPackages [dushyanth]: Skipping, unable to determine old version
+[2023-06-15 07:50:38] INFO root fetch - processPackages [dushyanth]: Start processing: breeze-strategies
+[2023-06-15 07:50:38] INFO root fetch - processPackages [reddit-user-to-sqlite]: New version: [0.4.0] Old Version: [0.3.1]
+[2023-06-15 07:50:38] INFO root fetch - main [MainThread]: End processing [dushyanth] error
+[2023-06-15 07:50:38] INFO root fetch - processPackages [pys-django-issue-tracker]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-15 07:50:38] INFO root fetch - processPackages [codegenpt]: Downloading https://files.pythonhosted.org/packages/67/22/e76e24d48dbc0e30d43bff4a9d23fba25d2099fdb1fe69f85578e1533ec0/codegenpt-0.6.1.tar.gz
+[2023-06-15 07:50:38] WARNING root fetch - processPackages [breeze-strategies]: Skipping, unable to determine old version
+[2023-06-15 07:50:38] INFO root fetch - processPackages [breeze-strategies]: Start processing: dushyanth
+[2023-06-15 07:50:38] INFO root fetch - main [MainThread]: End processing [breeze-strategies] error
+[2023-06-15 07:50:38] INFO root fetch - processPackages [dushyanth]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-15 07:50:38] INFO root fetch - processPackages [mercury-sync]: Downloading https://files.pythonhosted.org/packages/3f/63/c9e7082bfd62c8d85acc11e7c98e7ad6e4e38712f7628de5c8e147e9d1bc/mercury-sync-0.1.0.tar.gz
+[2023-06-15 07:50:38] INFO root fetch - processPackages [artd-product]: Downloading https://files.pythonhosted.org/packages/ec/27/31b8c0b01aff323ac84081cb79d5d436950914932d0281949e87d39e9329/artd_product-0.0.1.tar.gz
+[2023-06-15 07:50:38] INFO root fetch - processPackages [mercury-sync]: Downloading https://files.pythonhosted.org/packages/3f/63/c9e7082bfd62c8d85acc11e7c98e7ad6e4e38712f7628de5c8e147e9d1bc/mercury-sync-0.1.0.tar.gz
+[2023-06-15 07:50:38] INFO root fetch - processPackages [odoo-addon-website-cookiefirst]: Downloading https://files.pythonhosted.org/packages/1d/5f/3ab03186e133f3c618f4f47341c46eda9524a24e5f111d728410fc85ae82/odoo_addon_website_cookiefirst-16.0.1.0.0.2-py3-none-any.whl
+[2023-06-15 07:50:38] INFO root fetch - processPackages [odoo-addons-oca-website]: Downloading https://files.pythonhosted.org/packages/fa/a4/e5df61ac1f1690be56ed508b2bbf5beebab91607d8542346afc3bed19497/odoo_addons_oca_website-16.0.20230608.0-py3-none-any.whl
+[2023-06-15 07:50:38] INFO root fetch - processPackages [reddit-user-to-sqlite]: Downloading https://files.pythonhosted.org/packages/21/6e/10b08e70c0595157ebf0a29512c64c6c6963a839c543c001547a6897b714/reddit_user_to_sqlite-0.3.1.tar.gz
+[2023-06-15 07:50:38] INFO root fetch - processPackages [pys-django-issue-tracker]: Downloading https://files.pythonhosted.org/packages/ac/47/d36ec4b92e0044953ba3d6b5da576affa481ba83fc3ce02e3ed8ed471fd4/pys-django-issue-tracker-1.0.0.tar.gz
+[2023-06-15 07:50:38] INFO root fetch - processPackages [projectaria-tools]: Downloading https://files.pythonhosted.org/packages/21/fa/866a2c113190ec3f090396597c15dd2e8eea26e2fd5d934affa65d56cf3f/projectaria_tools-0.15.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-15 07:50:38] INFO root fetch - processPackages [codegenpt]: Downloading https://files.pythonhosted.org/packages/1f/97/0bc60fa19f63363e2f1314dbb6e0b444c61aaa2524dfbc9495fb7ce177bb/codegenpt-0.6.2.tar.gz
+[2023-06-15 07:50:38] INFO root fetch - processPackages [dushyanth]: Downloading https://files.pythonhosted.org/packages/03/ca/a59b01e5b3b42ad9698f8ca7f28af0707f7c5e3cfbc7a981841300477c73/dushyanth-1.0.0.tar.gz
+[2023-06-15 07:50:38] INFO root fetch - processPackages [codegenpt]: executing diffoscope
+[2023-06-15 07:50:38] INFO root fetch - processPackages [codegenpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codegenpt-0.6.1.tar.gz tmp/codegenpt-0.6.2.tar.gz --markdown 20230615/c/codegenpt/0.6.1-0.6.2/diff.md --exclude *.pyd
+[2023-06-15 07:50:38] INFO root fetch - processPackages [odoo-addon-website-cookiefirst]: Downloading https://files.pythonhosted.org/packages/5c/95/7ad39a8c8e420fee7f83cc15ba8750f9ecd07b4dc5a136f89d1fd1fdf671/odoo_addon_website_cookiefirst-16.0.1.0.0.3-py3-none-any.whl
+[2023-06-15 07:50:38] INFO root fetch - processPackages [mercury-sync]: Downloading https://files.pythonhosted.org/packages/ec/48/94a65fbe9a0c72b4c8dcaab759f23b01e5d35aef8293565c7e75ef221ef5/mercury-sync-0.1.1.tar.gz
+[2023-06-15 07:50:38] INFO root fetch - processPackages [pys-django-issue-tracker]: Downloading https://files.pythonhosted.org/packages/7e/bf/d86dcac4be47f4fad7f67814edec365a9d4963f0b1da944a7d4c52628409/pys-django-issue-tracker-1.0.1.tar.gz
+[2023-06-15 07:50:38] INFO root fetch - processPackages [reddit-user-to-sqlite]: Downloading https://files.pythonhosted.org/packages/d9/6a/81c368b6d9fde99b612d84e1b5a43d02f2686cca4095169566188463ef3f/reddit_user_to_sqlite-0.4.0.tar.gz
+[2023-06-15 07:50:38] INFO root fetch - processPackages [artd-product]: Downloading https://files.pythonhosted.org/packages/24/15/10adafa0fdd88f3e27a44e382bb2efa96829a09be13776c20cb17abcbcec/artd_product-0.0.2.tar.gz
+[2023-06-15 07:50:38] INFO root fetch - processPackages [mercury-sync]: Downloading https://files.pythonhosted.org/packages/ec/48/94a65fbe9a0c72b4c8dcaab759f23b01e5d35aef8293565c7e75ef221ef5/mercury-sync-0.1.1.tar.gz
+[2023-06-15 07:50:38] INFO root fetch - processPackages [odoo-addon-website-cookiefirst]: executing diffoscope
+[2023-06-15 07:50:38] INFO root fetch - processPackages [odoo-addon-website-cookiefirst]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_website_cookiefirst-16.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_website_cookiefirst-16.0.1.0.0.3-py3-none-any.whl.zip --markdown 20230615/o/odoo-addon-website-cookiefirst/16.0.1.0.0.2-16.0.1.0.0.3/diff.md --exclude *.pyd
+[2023-06-15 07:50:38] INFO root fetch - processPackages [dushyanth]: Downloading https://files.pythonhosted.org/packages/a7/a2/70d2d8e05813ba048d5d03bafc60c4da5e54b546f3d32fdb78f1a8a39e69/dushyanth-1.0.1-py3-none-any.whl
+[2023-06-15 07:50:38] INFO root fetch - processPackages [odoo-addons-oca-website]: Downloading https://files.pythonhosted.org/packages/95/dd/c59f64378d042805fcfea584a9d4c20c0114e31d409f127b75a4c20836ba/odoo_addons_oca_website-16.0.20230614.0-py3-none-any.whl
+[2023-06-15 07:50:38] INFO root fetch - processPackages [mercury-sync]: executing diffoscope
+[2023-06-15 07:50:38] INFO root fetch - processPackages [mercury-sync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mercury-sync-0.1.0.tar.gz tmp/mercury-sync-0.1.1.tar.gz --markdown 20230615/m/mercury-sync/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-15 07:50:38] INFO root fetch - processPackages [pys-django-issue-tracker]: executing diffoscope
+[2023-06-15 07:50:38] INFO root fetch - processPackages [pys-django-issue-tracker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pys-django-issue-tracker-1.0.0.tar.gz tmp/pys-django-issue-tracker-1.0.1.tar.gz --markdown 20230615/p/pys-django-issue-tracker/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-15 07:50:38] INFO root fetch - processPackages [reddit-user-to-sqlite]: executing diffoscope
+[2023-06-15 07:50:38] INFO root fetch - processPackages [reddit-user-to-sqlite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reddit_user_to_sqlite-0.3.1.tar.gz tmp/reddit_user_to_sqlite-0.4.0.tar.gz --markdown 20230615/r/reddit-user-to-sqlite/0.3.1-0.4.0/diff.md --exclude *.pyd
+[2023-06-15 07:50:38] INFO root fetch - processPackages [mercury-sync]: executing diffoscope
+[2023-06-15 07:50:38] INFO root fetch - processPackages [mercury-sync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mercury-sync-0.1.0.tar.gz tmp/mercury-sync-0.1.1.tar.gz --markdown 20230615/m/mercury-sync/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-15 07:50:38] INFO root fetch - processPackages [artd-product]: executing diffoscope
+[2023-06-15 07:50:38] INFO root fetch - processPackages [artd-product]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/artd_product-0.0.1.tar.gz tmp/artd_product-0.0.2.tar.gz --markdown 20230615/a/artd-product/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-15 07:50:38] INFO root fetch - processPackages [odoo-addons-oca-website]: executing diffoscope
+[2023-06-15 07:50:38] INFO root fetch - processPackages [odoo-addons-oca-website]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_website-16.0.20230608.0-py3-none-any.whl.zip tmp/odoo_addons_oca_website-16.0.20230614.0-py3-none-any.whl.zip --markdown 20230615/o/odoo-addons-oca-website/16.0.20230608.0-16.0.20230614.0/diff.md --exclude *.pyd
+[2023-06-15 07:50:38] INFO root fetch - processPackages [dushyanth]: executing diffoscope
+[2023-06-15 07:50:38] INFO root fetch - processPackages [dushyanth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dushyanth-1.0.0.tar.gz tmp/dushyanth-1.0.1-py3-none-any.whl.zip --markdown 20230615/d/dushyanth/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-15 07:50:39] INFO root fetch - processPackages [projectaria-tools]: Downloading https://files.pythonhosted.org/packages/42/df/10dc904bc40a7df9a3a3bc82328bb4160c7959cf23ad14bfb187182f4dff/projectaria_tools-0.17.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-15 07:50:39] INFO root fetch - processPackages [projectaria-tools]: executing diffoscope
+[2023-06-15 07:50:39] INFO root fetch - processPackages [projectaria-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/projectaria_tools-0.15.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/projectaria_tools-0.17.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230615/p/projectaria-tools/0.15.0-0.17.0/diff.md --exclude *.pyd
+[2023-06-15 07:50:40] INFO root fetch - processPackages [odoo-addon-website-cookiefirst]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_website_cookiefirst-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2023-06-15 07:50:40] INFO root fetch - processPackages [odoo-addon-website-cookiefirst]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_website_cookiefirst-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2023-06-15 07:50:40] INFO root fetch - processPackages [odoo-addon-website-cookiefirst]: Start processing: mercury-sync
+[2023-06-15 07:50:40] INFO root fetch - main [MainThread]: End processing [odoo-addon-website-cookiefirst]: success
+[2023-06-15 07:50:40] INFO root fetch - processPackages [mercury-sync]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-15 07:50:40] INFO root fetch - processPackages [codegenpt]: Remove: archive file [/home/abi/fetcher/tmp/codegenpt-0.6.1.tar.gz]
+[2023-06-15 07:50:40] INFO root fetch - processPackages [codegenpt]: Remove: archive file [/home/abi/fetcher/tmp/codegenpt-0.6.2.tar.gz]
+[2023-06-15 07:50:40] INFO root fetch - main [MainThread]: End processing [codegenpt]: success
+[2023-06-15 07:50:40] INFO root fetch - processPackages [odoo-addons-oca-website]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_website-16.0.20230608.0-py3-none-any.whl.zip]
+[2023-06-15 07:50:40] INFO root fetch - processPackages [odoo-addons-oca-website]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_website-16.0.20230614.0-py3-none-any.whl.zip]
+[2023-06-15 07:50:40] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-website]: success
+[2023-06-15 07:50:40] INFO root fetch - processPackages [mercury-sync]: Downloading https://files.pythonhosted.org/packages/99/0d/92f351578f9a224bcb7dfd4d515d9502481d7b2cb97f766397206d45927e/mercury-sync-0.1.2.tar.gz
+[2023-06-15 07:50:40] INFO root fetch - processPackages [pys-django-issue-tracker]: Remove: archive file [/home/abi/fetcher/tmp/pys-django-issue-tracker-1.0.0.tar.gz]
+[2023-06-15 07:50:40] INFO root fetch - processPackages [pys-django-issue-tracker]: Remove: archive file [/home/abi/fetcher/tmp/pys-django-issue-tracker-1.0.1.tar.gz]
+[2023-06-15 07:50:40] INFO root fetch - main [MainThread]: End processing [pys-django-issue-tracker]: success
+[2023-06-15 07:50:40] INFO root fetch - processPackages [dushyanth]: Remove: archive file [/home/abi/fetcher/tmp/dushyanth-1.0.0.tar.gz]
+[2023-06-15 07:50:40] INFO root fetch - processPackages [dushyanth]: Remove: archive file [/home/abi/fetcher/tmp/dushyanth-1.0.1-py3-none-any.whl.zip]
+[2023-06-15 07:50:40] INFO root fetch - main [MainThread]: End processing [dushyanth]: success
+[2023-06-15 07:50:40] INFO root fetch - processPackages [artd-product]: Remove: archive file [/home/abi/fetcher/tmp/artd_product-0.0.1.tar.gz]
+[2023-06-15 07:50:40] INFO root fetch - processPackages [artd-product]: Remove: archive file [/home/abi/fetcher/tmp/artd_product-0.0.2.tar.gz]
+[2023-06-15 07:50:40] INFO root fetch - main [MainThread]: End processing [artd-product]: success
+[2023-06-15 07:50:40] INFO root fetch - processPackages [mercury-sync]: Remove: archive file [/home/abi/fetcher/tmp/mercury-sync-0.1.0.tar.gz]
+[2023-06-15 07:50:40] INFO root fetch - processPackages [mercury-sync]: Remove: archive file [/home/abi/fetcher/tmp/mercury-sync-0.1.1.tar.gz]
+[2023-06-15 07:50:40] INFO root fetch - main [MainThread]: End processing [mercury-sync]: success
+[2023-06-15 07:50:40] INFO root fetch - processPackages [mercury-sync]: executing diffoscope
+[2023-06-15 07:50:40] INFO root fetch - processPackages [mercury-sync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mercury-sync-0.1.1.tar.gz tmp/mercury-sync-0.1.2.tar.gz --markdown 20230615/m/mercury-sync/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-15 07:50:40] INFO root fetch - processPackages [reddit-user-to-sqlite]: Remove: archive file [/home/abi/fetcher/tmp/reddit_user_to_sqlite-0.3.1.tar.gz]
+[2023-06-15 07:50:40] INFO root fetch - processPackages [reddit-user-to-sqlite]: Remove: archive file [/home/abi/fetcher/tmp/reddit_user_to_sqlite-0.4.0.tar.gz]
+[2023-06-15 07:50:40] INFO root fetch - main [MainThread]: End processing [reddit-user-to-sqlite]: success
+[2023-06-15 07:50:40] INFO root fetch - main [MainThread]: End processing [mercury-sync]: success
+[2023-06-15 07:50:41] ERROR root fetch - processPackages [mercury-sync]: Diffoscope failed: /srv/diffoscope/bin/diffoscope: tmp/mercury-sync-0.1.1.tar.gz: No such file or directory
+
+[2023-06-15 07:50:41] INFO root fetch - main [MainThread]: End processing [mercury-sync] error
+[2023-06-15 07:51:35] INFO root fetch - processPackages [projectaria-tools]: Remove: archive file [/home/abi/fetcher/tmp/projectaria_tools-0.15.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-15 07:51:35] INFO root fetch - processPackages [projectaria-tools]: Remove: archive file [/home/abi/fetcher/tmp/projectaria_tools-0.17.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-15 07:51:35] INFO root fetch - main [MainThread]: End processing [projectaria-tools]: success
+[2023-06-15 07:51:35] INFO root fetch - main [MainThread]: Store serial: [18511580]
