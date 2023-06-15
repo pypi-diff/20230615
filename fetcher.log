@@ -10325,3 +10325,129 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-15 07:04:56] INFO root fetch - processPackages [xklb]: Remove: archive file [/home/abi/fetcher/tmp/xklb-1.31.7.tar.gz]
 [2023-06-15 07:04:56] INFO root fetch - main [MainThread]: End processing [xklb]: success
 [2023-06-15 07:04:56] INFO root fetch - main [MainThread]: Store serial: [18511243]
+[2023-06-15 07:10:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18511243]
+[2023-06-15 07:10:04] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-06-15 07:10:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hardyweinbergcalculator
+[2023-06-15 07:10:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: codegenpt
+[2023-06-15 07:10:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mrgrain.cdk-esbuild
+[2023-06-15 07:10:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tflite-model-maker-nightly
+[2023-06-15 07:10:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: multi-model-server
+[2023-06-15 07:10:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aifunc
+[2023-06-15 07:10:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ghostpip
+[2023-06-15 07:10:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dask-cuda
+[2023-06-15 07:10:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: vector-quantize-pytorch
+[2023-06-15 07:10:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: problem-bank-scripts
+[2023-06-15 07:10:04] INFO root fetch - processPackages [codegenpt]: New version: [0.6.0] Old Version: [0.4.1]
+[2023-06-15 07:10:04] INFO root fetch - processPackages [ghostpip]: New version: [1.1.0] Old Version: [1.0.3]
+[2023-06-15 07:10:04] INFO root fetch - processPackages [mrgrain.cdk-esbuild]: New version: [4.1.9] Old Version: [4.1.8]
+[2023-06-15 07:10:04] INFO root fetch - processPackages [hardyweinbergcalculator]: New version: [0.3.3] Old Version: [0.3.1.post20230614]
+[2023-06-15 07:10:04] INFO root fetch - processPackages [aifunc]: New version: [0.4.5] Old Version: [0.4.4]
+[2023-06-15 07:10:04] INFO root fetch - processPackages [vector-quantize-pytorch]: New version: [1.6.9] Old Version: [1.6.7]
+[2023-06-15 07:10:04] INFO root fetch - processPackages [tflite-model-maker-nightly]: New version: [0.4.3.dev202306140509] Old Version: [0.4.3.dev202306130508]
+[2023-06-15 07:10:04] INFO root fetch - processPackages [problem-bank-scripts]: New version: [0.6.0] Old Version: [0.5.0]
+[2023-06-15 07:10:04] INFO root fetch - processPackages [aifunc]: Downloading https://files.pythonhosted.org/packages/41/af/66dbfd5332508467c785825f543cb30200cca9a959756f9c6c8a2b050a72/aifunc-0.4.4.tar.gz
+[2023-06-15 07:10:04] INFO root fetch - processPackages [multi-model-server]: New version: [1.1.9b20230601] Old Version: [1.1.9]
+[2023-06-15 07:10:04] INFO root fetch - processPackages [dask-cuda]: New version: [23.8.0a230615] Old Version: [23.8.0a230614]
+[2023-06-15 07:10:04] INFO root fetch - processPackages [problem-bank-scripts]: Downloading https://files.pythonhosted.org/packages/7c/4f/942af133efac546320e1c169899958a0d81ab8eee4ad5729a474efb0734d/problem_bank_scripts-0.5.0.tar.gz
+[2023-06-15 07:10:04] INFO root fetch - processPackages [vector-quantize-pytorch]: Downloading https://files.pythonhosted.org/packages/f9/64/771c9abd337a81ba6dfe0e6a0132b5a43e24b2640538385a01dc17b972f5/vector_quantize_pytorch-1.6.7.tar.gz
+[2023-06-15 07:10:05] INFO root fetch - processPackages [dask-cuda]: Downloading https://files.pythonhosted.org/packages/25/50/01d5076f8b0d310468dcef8c7ff557fc4631d29e35b30f755a14f68ce245/dask-cuda-23.8.0a230614.tar.gz
+[2023-06-15 07:10:05] INFO root fetch - processPackages [multi-model-server]: executing diffoscope
+[2023-06-15 07:10:05] INFO root fetch - processPackages [multi-model-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multi_model_server-1.1.9-py2.py3-none-any.whl.zip tmp/multi_model_server-1.1.9b20230601-py2.py3-none-any.whl.zip --markdown 20230615/m/multi-model-server/1.1.9-1.1.9b20230601/diff.md --exclude *.pyd
+[2023-06-15 07:10:05] INFO root fetch - processPackages [codegenpt]: Downloading https://files.pythonhosted.org/packages/c3/b0/290f7c0c8476390be71ad449ef9a330f6380e210e04915b23403b5379603/codegenpt-0.4.1.tar.gz
+[2023-06-15 07:10:05] INFO root fetch - processPackages [ghostpip]: Downloading https://files.pythonhosted.org/packages/62/86/42ad6218b23415dbd7910c837022885aa9481eb11352708d35a7b4d98775/ghostpip-1.0.3.tar.gz
+[2023-06-15 07:10:05] INFO root fetch - processPackages [hardyweinbergcalculator]: Downloading https://files.pythonhosted.org/packages/61/aa/6aef5079f52b686cb1d4a830aca6efbd80c8123e599d1fa86a73fdd245f1/hardyweinbergcalculator-0.3.1.post20230614.zip
+[2023-06-15 07:10:05] INFO root fetch - processPackages [mrgrain.cdk-esbuild]: Downloading https://files.pythonhosted.org/packages/56/75/54c0e12842e49983934d84f31548b619fd175ad19b8c19b5f97f794eb94e/mrgrain.cdk-esbuild-4.1.8.tar.gz
+[2023-06-15 07:10:05] INFO root fetch - processPackages [tflite-model-maker-nightly]: Downloading https://files.pythonhosted.org/packages/5f/12/ac6e91139e698617b9cd11579b512ef37bead2fbdd411cfefde67ac69130/tflite-model-maker-nightly-0.4.3.dev202306130508.tar.gz
+[2023-06-15 07:10:05] INFO root fetch - processPackages [vector-quantize-pytorch]: Downloading https://files.pythonhosted.org/packages/59/2f/a0f5b7e39fdec57501b5b479d9b4fac9c2c81adc65b2ed6f30dd4dbfd3ab/vector_quantize_pytorch-1.6.9.tar.gz
+[2023-06-15 07:10:05] INFO root fetch - processPackages [problem-bank-scripts]: Downloading https://files.pythonhosted.org/packages/e5/60/7f32fd2754253b0169c181aeb1fc08b686bdf6090fa64e6209617e40bd1b/problem_bank_scripts-0.6.0.tar.gz
+[2023-06-15 07:10:05] INFO root fetch - processPackages [vector-quantize-pytorch]: executing diffoscope
+[2023-06-15 07:10:05] INFO root fetch - processPackages [vector-quantize-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vector_quantize_pytorch-1.6.7.tar.gz tmp/vector_quantize_pytorch-1.6.9.tar.gz --markdown 20230615/v/vector-quantize-pytorch/1.6.7-1.6.9/diff.md --exclude *.pyd
+[2023-06-15 07:10:05] INFO root fetch - processPackages [aifunc]: Downloading https://files.pythonhosted.org/packages/dc/25/5b3600b6dbd6638361eeba3eb26532cc1fafd317e955657c6b57c733774b/aifunc-0.4.5.tar.gz
+[2023-06-15 07:10:05] INFO root fetch - processPackages [dask-cuda]: Downloading https://files.pythonhosted.org/packages/b8/ee/94299bafee24b3f07052a426418e6b006d63acfd49c80b51e7cd7bb8e8eb/dask-cuda-23.8.0a230615.tar.gz
+[2023-06-15 07:10:05] INFO root fetch - processPackages [tflite-model-maker-nightly]: Downloading https://files.pythonhosted.org/packages/3f/e9/ddbd941a763b633eaeefd571e21d2f069221d926aba12a33d656e2a502e5/tflite-model-maker-nightly-0.4.3.dev202306140509.tar.gz
+[2023-06-15 07:10:05] INFO root fetch - processPackages [codegenpt]: Downloading https://files.pythonhosted.org/packages/1e/3d/bca907794ab04e059a0cc331b6464e969dac2d19cf91619b339cb3c032a1/codegenpt-0.6.0.tar.gz
+[2023-06-15 07:10:05] INFO root fetch - processPackages [hardyweinbergcalculator]: Downloading https://files.pythonhosted.org/packages/50/99/e2b7b627e070ce5511fffb4c1535930c8b08d58b26915957aa60b54d7613/hardyweinbergcalculator-0.3.3.zip
+[2023-06-15 07:10:05] INFO root fetch - processPackages [problem-bank-scripts]: executing diffoscope
+[2023-06-15 07:10:05] INFO root fetch - processPackages [problem-bank-scripts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/problem_bank_scripts-0.5.0.tar.gz tmp/problem_bank_scripts-0.6.0.tar.gz --markdown 20230615/p/problem-bank-scripts/0.5.0-0.6.0/diff.md --exclude *.pyd
+[2023-06-15 07:10:05] INFO root fetch - processPackages [aifunc]: executing diffoscope
+[2023-06-15 07:10:05] INFO root fetch - processPackages [aifunc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aifunc-0.4.4.tar.gz tmp/aifunc-0.4.5.tar.gz --markdown 20230615/a/aifunc/0.4.4-0.4.5/diff.md --exclude *.pyd
+[2023-06-15 07:10:05] INFO root fetch - processPackages [ghostpip]: Downloading https://files.pythonhosted.org/packages/cc/08/101ce9cbd9d22ca367f33c2f638e408d8d4339c70984912c6ec85e0b8538/ghostpip-1.1.0.tar.gz
+[2023-06-15 07:10:05] INFO root fetch - processPackages [mrgrain.cdk-esbuild]: Downloading https://files.pythonhosted.org/packages/8f/4d/f07f5f7e8663e5c3a7bdcce04614832dec7d8ce7766d77dad96f4796e451/mrgrain.cdk-esbuild-4.1.9.tar.gz
+[2023-06-15 07:10:05] INFO root fetch - processPackages [codegenpt]: executing diffoscope
+[2023-06-15 07:10:05] INFO root fetch - processPackages [codegenpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codegenpt-0.4.1.tar.gz tmp/codegenpt-0.6.0.tar.gz --markdown 20230615/c/codegenpt/0.4.1-0.6.0/diff.md --exclude *.pyd
+[2023-06-15 07:10:05] INFO root fetch - processPackages [tflite-model-maker-nightly]: executing diffoscope
+[2023-06-15 07:10:05] INFO root fetch - processPackages [tflite-model-maker-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tflite-model-maker-nightly-0.4.3.dev202306130508.tar.gz tmp/tflite-model-maker-nightly-0.4.3.dev202306140509.tar.gz --markdown 20230615/t/tflite-model-maker-nightly/0.4.3.dev202306130508-0.4.3.dev202306140509/diff.md --exclude *.pyd
+[2023-06-15 07:10:05] INFO root fetch - processPackages [ghostpip]: executing diffoscope
+[2023-06-15 07:10:05] INFO root fetch - processPackages [ghostpip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ghostpip-1.0.3.tar.gz tmp/ghostpip-1.1.0.tar.gz --markdown 20230615/g/ghostpip/1.0.3-1.1.0/diff.md --exclude *.pyd
+[2023-06-15 07:10:05] INFO root fetch - processPackages [mrgrain.cdk-esbuild]: executing diffoscope
+[2023-06-15 07:10:05] INFO root fetch - processPackages [mrgrain.cdk-esbuild]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mrgrain.cdk-esbuild-4.1.8.tar.gz tmp/mrgrain.cdk-esbuild-4.1.9.tar.gz --markdown 20230615/m/mrgrain.cdk-esbuild/4.1.8-4.1.9/diff.md --exclude *.pyd
+[2023-06-15 07:10:05] INFO root fetch - processPackages [dask-cuda]: executing diffoscope
+[2023-06-15 07:10:05] INFO root fetch - processPackages [dask-cuda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dask-cuda-23.8.0a230614.tar.gz tmp/dask-cuda-23.8.0a230615.tar.gz --markdown 20230615/d/dask-cuda/23.8.0a230614-23.8.0a230615/diff.md --exclude *.pyd
+[2023-06-15 07:10:05] INFO root fetch - processPackages [hardyweinbergcalculator]: executing diffoscope
+[2023-06-15 07:10:05] INFO root fetch - processPackages [hardyweinbergcalculator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hardyweinbergcalculator-0.3.1.post20230614.zip tmp/hardyweinbergcalculator-0.3.3.zip --markdown 20230615/h/hardyweinbergcalculator/0.3.1.post20230614-0.3.3/diff.md --exclude *.pyd
+[2023-06-15 07:10:06] INFO root fetch - processPackages [problem-bank-scripts]: Remove: archive file [/home/abi/fetcher/tmp/problem_bank_scripts-0.5.0.tar.gz]
+[2023-06-15 07:10:06] INFO root fetch - processPackages [problem-bank-scripts]: Remove: archive file [/home/abi/fetcher/tmp/problem_bank_scripts-0.6.0.tar.gz]
+[2023-06-15 07:10:06] INFO root fetch - processPackages [problem-bank-scripts]: Start processing: neon-skill-fallback-wolfram-alpha
+[2023-06-15 07:10:06] INFO root fetch - main [MainThread]: End processing [problem-bank-scripts]: success
+[2023-06-15 07:10:06] INFO root fetch - processPackages [neon-skill-fallback-wolfram-alpha]: New version: [0.1.1a2] Old Version: [0.1.1a1]
+[2023-06-15 07:10:06] INFO root fetch - processPackages [vector-quantize-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/vector_quantize_pytorch-1.6.7.tar.gz]
+[2023-06-15 07:10:06] INFO root fetch - processPackages [vector-quantize-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/vector_quantize_pytorch-1.6.9.tar.gz]
+[2023-06-15 07:10:06] INFO root fetch - processPackages [vector-quantize-pytorch]: Start processing: neon-skill-weather
+[2023-06-15 07:10:06] INFO root fetch - main [MainThread]: End processing [vector-quantize-pytorch]: success
+[2023-06-15 07:10:06] INFO root fetch - processPackages [neon-skill-weather]: New version: [0.1.1a2] Old Version: [0.1.1a1]
+[2023-06-15 07:10:06] INFO root fetch - processPackages [neon-skill-fallback-wolfram-alpha]: Downloading https://files.pythonhosted.org/packages/eb/bc/98198a5df5b84eabcd643b73519b3f5febd499a1bd7420c369bd0741dd35/neon_skill_fallback_wolfram_alpha-0.1.1a1-py3-none-any.whl
+[2023-06-15 07:10:07] INFO root fetch - processPackages [neon-skill-weather]: Downloading https://files.pythonhosted.org/packages/05/0b/016b17444ba2cca7050282add63f5547341682fc5f0e8eef5a12ef1d061a/neon_skill_weather-0.1.1a1-py3-none-any.whl
+[2023-06-15 07:10:07] INFO root fetch - processPackages [aifunc]: Remove: archive file [/home/abi/fetcher/tmp/aifunc-0.4.4.tar.gz]
+[2023-06-15 07:10:07] INFO root fetch - processPackages [aifunc]: Remove: archive file [/home/abi/fetcher/tmp/aifunc-0.4.5.tar.gz]
+[2023-06-15 07:10:07] INFO root fetch - processPackages [aifunc]: Start processing: rapid-pe
+[2023-06-15 07:10:07] INFO root fetch - main [MainThread]: End processing [aifunc]: success
+[2023-06-15 07:10:07] INFO root fetch - processPackages [codegenpt]: Remove: archive file [/home/abi/fetcher/tmp/codegenpt-0.4.1.tar.gz]
+[2023-06-15 07:10:07] INFO root fetch - processPackages [codegenpt]: Remove: archive file [/home/abi/fetcher/tmp/codegenpt-0.6.0.tar.gz]
+[2023-06-15 07:10:07] INFO root fetch - processPackages [codegenpt]: Start processing: odoo12-addon-excel-import-export
+[2023-06-15 07:10:07] INFO root fetch - main [MainThread]: End processing [codegenpt]: success
+[2023-06-15 07:10:07] INFO root fetch - processPackages [rapid-pe]: New version: [0.1.1.dev20230615] Old Version: [0.1.1.dev20230614]
+[2023-06-15 07:10:07] INFO root fetch - processPackages [odoo12-addon-excel-import-export]: New version: [12.0.1.0.6.99.dev9] Old Version: [12.0.1.0.6.99.dev8]
+[2023-06-15 07:10:07] INFO root fetch - processPackages [mrgrain.cdk-esbuild]: Remove: archive file [/home/abi/fetcher/tmp/mrgrain.cdk-esbuild-4.1.8.tar.gz]
+[2023-06-15 07:10:07] INFO root fetch - processPackages [mrgrain.cdk-esbuild]: Remove: archive file [/home/abi/fetcher/tmp/mrgrain.cdk-esbuild-4.1.9.tar.gz]
+[2023-06-15 07:10:07] INFO root fetch - main [MainThread]: End processing [mrgrain.cdk-esbuild]: success
+[2023-06-15 07:10:07] INFO root fetch - processPackages [odoo12-addon-excel-import-export]: Downloading https://files.pythonhosted.org/packages/91/7c/40c8d8f9c2e608a1ab14df9cb347c810e32c00596cf18b4e3e6bbb3e614d/odoo12_addon_excel_import_export-12.0.1.0.6.99.dev8-py3-none-any.whl
+[2023-06-15 07:10:07] INFO root fetch - processPackages [rapid-pe]: Downloading https://files.pythonhosted.org/packages/c5/a5/3359570705c2505425526914c5f64291ca013a6aa233e1ef7073d02de1a9/rapid_pe-0.1.1.dev20230614.tar.gz
+[2023-06-15 07:10:07] INFO root fetch - processPackages [hardyweinbergcalculator]: Remove: archive file [/home/abi/fetcher/tmp/hardyweinbergcalculator-0.3.1.post20230614.zip]
+[2023-06-15 07:10:07] INFO root fetch - processPackages [hardyweinbergcalculator]: Remove: archive file [/home/abi/fetcher/tmp/hardyweinbergcalculator-0.3.3.zip]
+[2023-06-15 07:10:07] INFO root fetch - main [MainThread]: End processing [hardyweinbergcalculator]: success
+[2023-06-15 07:10:07] INFO root fetch - processPackages [neon-skill-fallback-wolfram-alpha]: Downloading https://files.pythonhosted.org/packages/94/09/6f2762d5eac6bfcbb0c2acac9ed2f3050a2096a94afc9e694453b2257a8d/neon_skill_fallback_wolfram_alpha-0.1.1a2-py3-none-any.whl
+[2023-06-15 07:10:07] INFO root fetch - processPackages [ghostpip]: Remove: archive file [/home/abi/fetcher/tmp/ghostpip-1.0.3.tar.gz]
+[2023-06-15 07:10:07] INFO root fetch - processPackages [ghostpip]: Remove: archive file [/home/abi/fetcher/tmp/ghostpip-1.1.0.tar.gz]
+[2023-06-15 07:10:07] INFO root fetch - main [MainThread]: End processing [ghostpip]: success
+[2023-06-15 07:10:07] INFO root fetch - processPackages [neon-skill-weather]: Downloading https://files.pythonhosted.org/packages/bb/08/bb232188edda921afff3694ffa71fca6d76074223a45e24445c5b9f49092/neon_skill_weather-0.1.1a2-py3-none-any.whl
+[2023-06-15 07:10:07] INFO root fetch - processPackages [odoo12-addon-excel-import-export]: Downloading https://files.pythonhosted.org/packages/60/9d/0c62b5d1409fd1224ea1eb55c68d43012e5a0b6574d26ebd1f832ba582ef/odoo12_addon_excel_import_export-12.0.1.0.6.99.dev9-py3-none-any.whl
+[2023-06-15 07:10:07] INFO root fetch - processPackages [neon-skill-fallback-wolfram-alpha]: executing diffoscope
+[2023-06-15 07:10:07] INFO root fetch - processPackages [neon-skill-fallback-wolfram-alpha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon_skill_fallback_wolfram_alpha-0.1.1a1-py3-none-any.whl.zip tmp/neon_skill_fallback_wolfram_alpha-0.1.1a2-py3-none-any.whl.zip --markdown 20230615/n/neon-skill-fallback-wolfram-alpha/0.1.1a1-0.1.1a2/diff.md --exclude *.pyd
+[2023-06-15 07:10:07] INFO root fetch - processPackages [odoo12-addon-excel-import-export]: executing diffoscope
+[2023-06-15 07:10:07] INFO root fetch - processPackages [odoo12-addon-excel-import-export]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_excel_import_export-12.0.1.0.6.99.dev8-py3-none-any.whl.zip tmp/odoo12_addon_excel_import_export-12.0.1.0.6.99.dev9-py3-none-any.whl.zip --markdown 20230615/o/odoo12-addon-excel-import-export/12.0.1.0.6.99.dev8-12.0.1.0.6.99.dev9/diff.md --exclude *.pyd
+[2023-06-15 07:10:07] INFO root fetch - processPackages [rapid-pe]: Downloading https://files.pythonhosted.org/packages/96/f2/4978d3f588f3a12c4746da239400cf0d4f1dcad9bee1bf44d00ec7bde9ca/rapid_pe-0.1.1.dev20230615.tar.gz
+[2023-06-15 07:10:07] INFO root fetch - processPackages [dask-cuda]: Remove: archive file [/home/abi/fetcher/tmp/dask-cuda-23.8.0a230614.tar.gz]
+[2023-06-15 07:10:07] INFO root fetch - processPackages [dask-cuda]: Remove: archive file [/home/abi/fetcher/tmp/dask-cuda-23.8.0a230615.tar.gz]
+[2023-06-15 07:10:07] INFO root fetch - main [MainThread]: End processing [dask-cuda]: success
+[2023-06-15 07:10:07] INFO root fetch - processPackages [neon-skill-weather]: executing diffoscope
+[2023-06-15 07:10:07] INFO root fetch - processPackages [neon-skill-weather]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon_skill_weather-0.1.1a1-py3-none-any.whl.zip tmp/neon_skill_weather-0.1.1a2-py3-none-any.whl.zip --markdown 20230615/n/neon-skill-weather/0.1.1a1-0.1.1a2/diff.md --exclude *.pyd
+[2023-06-15 07:10:07] INFO root fetch - processPackages [rapid-pe]: executing diffoscope
+[2023-06-15 07:10:07] INFO root fetch - processPackages [rapid-pe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230615:/home/abi/fetcher/20230615:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapid_pe-0.1.1.dev20230614.tar.gz tmp/rapid_pe-0.1.1.dev20230615.tar.gz --markdown 20230615/r/rapid-pe/0.1.1.dev20230614-0.1.1.dev20230615/diff.md --exclude *.pyd
+[2023-06-15 07:10:08] INFO root fetch - processPackages [rapid-pe]: Remove: archive file [/home/abi/fetcher/tmp/rapid_pe-0.1.1.dev20230614.tar.gz]
+[2023-06-15 07:10:08] INFO root fetch - processPackages [rapid-pe]: Remove: archive file [/home/abi/fetcher/tmp/rapid_pe-0.1.1.dev20230615.tar.gz]
+[2023-06-15 07:10:08] INFO root fetch - main [MainThread]: End processing [rapid-pe]: success
+[2023-06-15 07:10:08] INFO root fetch - processPackages [odoo12-addon-excel-import-export]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_excel_import_export-12.0.1.0.6.99.dev8-py3-none-any.whl.zip]
+[2023-06-15 07:10:08] INFO root fetch - processPackages [odoo12-addon-excel-import-export]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_excel_import_export-12.0.1.0.6.99.dev9-py3-none-any.whl.zip]
+[2023-06-15 07:10:08] INFO root fetch - main [MainThread]: End processing [odoo12-addon-excel-import-export]: success
+[2023-06-15 07:10:09] INFO root fetch - processPackages [neon-skill-fallback-wolfram-alpha]: Remove: archive file [/home/abi/fetcher/tmp/neon_skill_fallback_wolfram_alpha-0.1.1a1-py3-none-any.whl.zip]
+[2023-06-15 07:10:09] INFO root fetch - processPackages [neon-skill-fallback-wolfram-alpha]: Remove: archive file [/home/abi/fetcher/tmp/neon_skill_fallback_wolfram_alpha-0.1.1a2-py3-none-any.whl.zip]
+[2023-06-15 07:10:09] INFO root fetch - main [MainThread]: End processing [neon-skill-fallback-wolfram-alpha]: success
+[2023-06-15 07:10:09] INFO root fetch - processPackages [tflite-model-maker-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tflite-model-maker-nightly-0.4.3.dev202306130508.tar.gz]
+[2023-06-15 07:10:09] INFO root fetch - processPackages [tflite-model-maker-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tflite-model-maker-nightly-0.4.3.dev202306140509.tar.gz]
+[2023-06-15 07:10:09] INFO root fetch - main [MainThread]: End processing [tflite-model-maker-nightly]: success
+[2023-06-15 07:10:26] INFO root fetch - processPackages [neon-skill-weather]: Remove: archive file [/home/abi/fetcher/tmp/neon_skill_weather-0.1.1a1-py3-none-any.whl.zip]
+[2023-06-15 07:10:26] INFO root fetch - processPackages [neon-skill-weather]: Remove: archive file [/home/abi/fetcher/tmp/neon_skill_weather-0.1.1a2-py3-none-any.whl.zip]
+[2023-06-15 07:10:26] INFO root fetch - main [MainThread]: End processing [neon-skill-weather]: success
+[2023-06-15 07:13:05] ERROR root fetch - processPackages [multi-model-server]: Timeout during execution of pkgdiff
+[2023-06-15 07:13:05] INFO root fetch - main [MainThread]: End processing [multi-model-server] error
+[2023-06-15 07:13:05] INFO root fetch - main [MainThread]: Store serial: [18511279]
